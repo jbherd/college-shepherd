@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ── SEO & AI OPTIMIZATION ─────────────────────────── -->
+  <meta name="description" content="CollegeShepherd is the #1 AI-powered college finder. Answer 50+ questions and get a personalized top-10 college list with real net costs, fit scores, and essay ideas — in 15 minutes.">
+  <meta name="keywords" content="college finder, AI college counselor, personalized college list, college search tool, best college for me, college fit score, net price estimator, college guidance, high school college planning, FAFSA net price">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="CollegeShepherd — Shepherd Ventures LLC">
+  <link rel="canonical" href="https://collegeshepherd.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://collegeshepherd.com/">
+  <meta property="og:title" content="CollegeShepherd — The #1 AI College Finder">
+  <meta property="og:description" content="Answer 50+ questions and get a personalized top-10 college list with real net costs, fit scores, and Common App essay ideas — in 15 minutes. Free for students with a school counselor link.">
+  <meta property="og:image" content="https://collegeshepherd.com/og-image.png">
+  <meta property="og:site_name" content="CollegeShepherd">
+
+  <!-- Twitter/X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@CollegeShepherd">
+  <meta name="twitter:title" content="CollegeShepherd — The #1 AI College Finder">
+  <meta name="twitter:description" content="Get your personalized top-10 college list in 15 minutes. Real net costs, fit scores, essay ideas. Powered by AI.">
+  <meta name="twitter:image" content="https://collegeshepherd.com/og-image.png">
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CollegeShepherd",
+    "url": "https://collegeshepherd.com",
+    "logo": "https://collegeshepherd.com/og-image.png",
+    "description": "AI-powered college guidance tool that generates personalized college lists for high school students.",
+    "email": "hello@collegeshepherd.com",
+    "foundingDate": "2026",
+    "legalName": "Shepherd Ventures LLC"
+  }
+  </script>
+
+  <!-- Structured Data: Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "CollegeShepherd College List",
+    "description": "AI-generated personalized college list with fit scores, net cost estimates, and Common App essay angles.",
+    "brand": {
+      "@type": "Brand",
+      "name": "CollegeShepherd"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Single Report",
+        "price": "29.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://collegeshepherd.com"
+      },
+      {
+        "@type": "Offer",
+        "name": "Family Pack",
+        "price": "49.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://collegeshepherd.com"
+      },
+      {
+        "@type": "Offer",
+        "name": "Annual Access",
+        "price": "79.00",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://collegeshepherd.com"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "4"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does CollegeShepherd work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CollegeShepherd asks you 50+ specialized questions about your academics, interests, budget, and goals, then uses AI to generate a personalized top-10 college list with fit scores, real net cost estimates, and Common App essay ideas — in about 15 minutes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does CollegeShepherd cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CollegeShepherd offers a Single Report for $29, a Family Pack for $49 (up to 3 students), and Annual Access for $79. Students whose school has a counselor license may access it for free."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is CollegeShepherd accurate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CollegeShepherd uses AI trained on extensive college data and enriches results with U.S. Department of Education College Scorecard data. Net price estimates are based on federal income bracket data. Results are informational and should be verified with each college's financial aid office."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can high school counselors use CollegeShepherd?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. CollegeShepherd offers counselor licenses starting at $99/year, school licenses from $499/year, and white-label options for independent consultants. Contact hello@collegeshepherd.com for details."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the WUE program?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Western Undergraduate Exchange (WUE) allows students from 15 western states to attend out-of-state colleges at 150% of in-state tuition — saving an average of $11,000 per year. CollegeShepherd automatically detects WUE eligibility and flags qualifying schools."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: WebSite with SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "CollegeShepherd",
+    "url": "https://collegeshepherd.com",
+    "description": "The #1 AI-powered tool to find the right college. Personalized top-10 lists, real net costs, fit scores, and essay ideas in 15 minutes.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://collegeshepherd.com/app.html",
+      "query-input": "required name=college_search"
+    }
+  }
+  </script>
+<title>College Shepherd — Find Where You Belong</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy:#0a1628;
+  --navy2:#0f1e35;
+  --navy3:#162843;
+  --blue:#1a7fd4;
+  --blue2:#2d9ae8;
+  --blue3:#5ab5f5;
+  --blue4:#d6ecfa;
+  --gold:#c9a84c;
+  --cream:#f7f5f0;
+  --white:#ffffff;
+  --text:#0a1628;
+  --muted:#5a7a9a;
+  --r:14px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--text);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:0 2rem;height:68px;display:flex;align-items:center;justify-content:space-between;background:rgba(10,22,40,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(90,181,245,.1)}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-mark{width:36px;height:36px;background:var(--navy3);border-radius:9px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;border:1px solid rgba(90,181,245,.2)}
+.nav-mark-c{font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:var(--white);line-height:1;position:absolute;left:3px;top:2px}
+.nav-mark-s{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--blue3);line-height:1;position:absolute;left:7px;top:7px}
+.nav-name{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:var(--white)}
+.nav-name em{color:var(--blue2);font-style:normal}
+.nav-right{display:flex;align-items:center;gap:12px}
+.nav-link{font-size:.9rem;color:rgba(255,255,255,.55);text-decoration:none;transition:color .2s}
+.nav-link:hover{color:var(--white)}
+.nav-cta{background:var(--blue);color:var(--white);font-size:.9rem;font-weight:600;padding:8px 18px;border-radius:20px;text-decoration:none;transition:all .2s;border:none;cursor:pointer;font-family:inherit}
+.nav-cta:hover{background:var(--blue2);transform:translateY(-1px)}
+
+/* ── HERO ── */
+#hero{min-height:100vh;background:linear-gradient(160deg,#060d1a 0%,#0a1628 45%,#0d2040 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:6rem 2rem 4rem;position:relative;overflow:hidden}
+.hero-stars{position:absolute;inset:0;pointer-events:none}
+.star{position:absolute;border-radius:50%;background:var(--blue3);opacity:0;animation:twinkle var(--d,4s) ease-in-out infinite var(--delay,0s)}
+@keyframes twinkle{0%,100%{opacity:0;transform:scale(.8)}50%{opacity:.6;transform:scale(1)}}
+.hero-glow{position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(26,127,212,.08) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-60%);pointer-events:none}
+.hero-eyebrow{font-size:.95rem;letter-spacing:.25em;text-transform:uppercase;color:var(--blue3);margin-bottom:1.5rem;display:flex;align-items:center;justify-content:center;gap:12px;opacity:0;animation:fadeUp .8s ease .2s forwards}
+.hero-eyebrow::before,.hero-eyebrow::after{content:'';width:32px;height:1px;background:var(--blue3);opacity:.4}
+.hero-h1{font-family:'Playfair Display',serif;font-size:clamp(2.8rem,7vw,5.5rem);font-weight:900;color:var(--white);line-height:1.05;margin-bottom:1.5rem;opacity:0;animation:fadeUp .8s ease .4s forwards}
+.hero-h1 em{color:var(--blue2);font-style:italic}
+.hero-sub{font-size:clamp(.95rem,2vw,1.15rem);color:rgba(255,255,255,.55);max-width:560px;line-height:1.8;margin-bottom:2.5rem;opacity:0;animation:fadeUp .8s ease .6s forwards}
+.hero-sub strong{color:rgba(255,255,255,.85)}
+.hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;opacity:0;animation:fadeUp .8s ease .8s forwards}
+.btn-primary{background:var(--blue);color:var(--white);font-family:'Inter',sans-serif;font-size:.95rem;font-weight:600;padding:14px 32px;border-radius:30px;text-decoration:none;transition:all .25s;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.btn-primary:hover{background:var(--blue2);transform:translateY(-2px);box-shadow:0 8px 30px rgba(26,127,212,.4)}
+.btn-secondary{background:transparent;color:rgba(255,255,255,.75);font-family:'Inter',sans-serif;font-size:.95rem;font-weight:500;padding:14px 32px;border-radius:30px;text-decoration:none;transition:all .25s;border:1px solid rgba(255,255,255,.15);cursor:pointer}
+.btn-secondary:hover{border-color:rgba(255,255,255,.4);color:var(--white)}
+.hero-trust{margin-top:3rem;display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;opacity:0;animation:fadeUp .8s ease 1s forwards}
+.htrust-item{font-size:.84rem;color:rgba(255,255,255,.3);display:flex;align-items:center;gap:6px}
+.htrust-item::before{content:'✓';color:var(--blue3);font-weight:700}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── PROBLEM SECTION ── */
+#problem{background:var(--white);padding:6rem 2rem}
+.section-inner{max-width:1100px;margin:0 auto}
+.section-eyebrow{font-size:.86rem;letter-spacing:.22em;text-transform:uppercase;color:var(--blue);margin-bottom:1rem;font-weight:600}
+.section-h2{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3rem);font-weight:700;color:var(--navy);line-height:1.15;margin-bottom:1.5rem}
+.section-h2 em{color:var(--blue);font-style:italic}
+.problem-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;margin-top:3rem}
+.problem-stats{display:flex;flex-direction:column;gap:1.5rem}
+.pstat{background:var(--cream);border-radius:var(--r);padding:1.5rem 1.75rem;border-left:4px solid var(--blue);position:relative}
+.pstat-num{font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:900;color:var(--navy);line-height:1;margin-bottom:4px}
+.pstat-num span{color:var(--blue)}
+.pstat-label{font-size:.95rem;color:var(--muted);line-height:1.5}
+.problem-text p{font-size:1.05rem;color:#3a5570;line-height:1.85;margin-bottom:1.25rem}
+.problem-text p strong{color:var(--navy)}
+.problem-cta{display:inline-flex;align-items:center;gap:8px;color:var(--blue);font-weight:600;font-size:.9rem;text-decoration:none;margin-top:.5rem;transition:gap .2s}
+.problem-cta:hover{gap:12px}
+
+/* ── HOW IT WORKS ── */
+#how{background:var(--cream);padding:6rem 2rem}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:3.5rem}
+.step{text-align:center;padding:2rem 1.5rem;position:relative}
+.step-num{width:52px;height:52px;border-radius:50%;background:var(--navy);color:var(--blue2);font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem}
+.step-connector{position:absolute;top:26px;left:calc(50% + 26px);width:calc(100% - 52px);height:1px;background:linear-gradient(90deg,var(--blue),transparent);display:none}
+.step:not(:last-child) .step-connector{display:block}
+.step h3{font-family:'Playfair Display',serif;font-size:1.35rem;font-weight:700;color:var(--navy);margin-bottom:.75rem}
+.step p{font-size:.98rem;color:var(--muted);line-height:1.7}
+
+/* ── PRODUCT MOCKUP ── */
+#product{background:var(--navy);padding:6rem 2rem;overflow:hidden}
+#product .section-h2{color:var(--white)}
+#product .section-h2 em{color:var(--blue2)}
+#product .section-eyebrow{color:var(--blue3)}
+.mockup-wrap{margin-top:3.5rem;position:relative}
+.mockup-browser{background:#0f1e35;border-radius:16px;border:1px solid rgba(90,181,245,.15);overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,.6);max-width:860px;margin:0 auto}
+.mockup-bar{background:#0a1628;padding:12px 16px;display:flex;align-items:center;gap:8px;border-bottom:1px solid rgba(255,255,255,.06)}
+.mockup-dot{width:10px;height:10px;border-radius:50%}
+.mockup-url{flex:1;background:rgba(255,255,255,.06);border-radius:6px;padding:4px 12px;font-size:.9rem;color:rgba(255,255,255,.3);margin:0 12px;font-family:monospace}
+.mockup-content{padding:1.5rem}
+
+/* College card mockup */
+.mock-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.25rem}
+.mock-h{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--white);font-weight:700}
+.mock-badge{font-size:.9rem;background:var(--blue);color:var(--white);padding:3px 10px;border-radius:20px;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.mock-cards{display:flex;flex-direction:column;gap:10px}
+.mock-card{background:rgba(255,255,255,.04);border-radius:10px;border:1px solid rgba(255,255,255,.08);padding:1rem 1.2rem;display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:start}
+.mock-card.featured{background:rgba(26,127,212,.08);border-color:rgba(26,127,212,.25)}
+.mock-rank{width:36px;height:36px;border-radius:8px;background:var(--navy);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--blue2);flex-shrink:0}
+.mock-card.featured .mock-rank{background:var(--blue);color:var(--white)}
+.mock-cname{font-size:.95rem;font-weight:600;color:var(--white);margin-bottom:2px}
+.mock-cloc{font-size:.9rem;color:rgba(255,255,255,.4)}
+.mock-bars{display:flex;flex-direction:column;gap:3px;margin-top:6px}
+.mock-bar-row{display:flex;align-items:center;gap:6px}
+.mock-bar-label{font-size:.9rem;color:rgba(255,255,255,.3);width:50px;flex-shrink:0}
+.mock-bar-track{flex:1;height:3px;background:rgba(255,255,255,.08);border-radius:2px;overflow:hidden}
+.mock-bar-fill{height:100%;border-radius:2px;background:var(--blue2)}
+.mock-price{text-align:right}
+.mock-price-est{font-size:.86rem;font-weight:700;color:#4ade80}
+.mock-price-sticker{font-size:.84rem;color:rgba(255,255,255,.3);text-decoration:line-through}
+.mock-tier{font-size:.9rem;padding:2px 7px;border-radius:10px;margin-top:4px;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.mock-tier.match{background:rgba(26,127,212,.2);color:var(--blue3)}
+.mock-tier.reach{background:rgba(201,168,76,.15);color:#e8c96a}
+.mock-tier.safety{background:rgba(74,222,128,.1);color:#4ade80}
+
+/* ── FEATURES ── */
+#features{background:var(--white);padding:6rem 2rem}
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.75rem;margin-top:3.5rem}
+.feat-card{background:var(--cream);border-radius:var(--r);padding:1.75rem;border:1px solid rgba(0,0,0,.06);transition:all .25s;position:relative;overflow:hidden}
+.feat-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--blue);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.feat-card:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(10,22,40,.1)}
+.feat-card:hover::before{transform:scaleX(1)}
+.feat-icon{font-size:1.75rem;margin-bottom:1rem}
+.feat-title{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:var(--navy);margin-bottom:.6rem}
+.feat-desc{font-size:.95rem;color:var(--muted);line-height:1.7}
+
+/* ── TESTIMONIALS ── */
+#testimonials{background:var(--cream);padding:6rem 2rem}
+.testimonials-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;margin-top:3.5rem}
+.tcard{background:var(--white);border-radius:var(--r);padding:2rem;box-shadow:0 4px 20px rgba(10,22,40,.07);border:1px solid rgba(0,0,0,.05);position:relative}
+.tcard::before{content:'"';font-family:'Playfair Display',serif;font-size:4rem;color:var(--blue4);line-height:1;position:absolute;top:12px;left:20px;opacity:.6}
+.tquote{font-size:.92rem;color:#3a5570;line-height:1.75;margin-bottom:1.25rem;padding-top:.75rem;font-style:italic}
+.tauthor{display:flex;align-items:center;gap:10px}
+.tavatar{width:38px;height:38px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--blue2);flex-shrink:0}
+.tname{font-size:.9rem;font-weight:600;color:var(--navy)}
+.trole{font-size:.9rem;color:var(--muted)}
+.tplaceholder{border:2px dashed rgba(26,127,212,.2);background:rgba(26,127,212,.02)}
+.tplaceholder .tquote{color:var(--muted);font-style:normal;font-size:.92rem}
+
+/* ── PRICING ── */
+#pricing{background:var(--navy);padding:6rem 2rem}
+#pricing .section-h2{color:var(--white)}
+#pricing .section-eyebrow{color:var(--blue3)}
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3.5rem;max-width:1000px;margin-left:auto;margin-right:auto}
+.pcard{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:2.25rem 2rem;position:relative;transition:all .25s}
+.pcard:hover{background:rgba(255,255,255,.07);transform:translateY(-4px)}
+.pcard.featured{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.1)}
+.pcard-badge{position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:var(--blue);color:var(--white);font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;padding:4px 14px;border-radius:20px;white-space:nowrap}
+.pcard-name{font-size:.9rem;text-transform:uppercase;letter-spacing:.12em;color:var(--blue2);font-weight:600;margin-bottom:.75rem}
+.pcard-price{font-family:'Playfair Display',serif;font-size:3rem;font-weight:700;color:var(--white);line-height:1;margin-bottom:.25rem}
+.pcard-price sup{font-size:1.2rem;vertical-align:top;margin-top:.5rem;display:inline-block}
+.pcard-period{font-size:.86rem;color:rgba(255,255,255,.35);margin-bottom:1.5rem}
+.pcard-features{list-style:none;display:flex;flex-direction:column;gap:.6rem;margin-bottom:2rem}
+.pcard-features li{font-size:.9rem;color:rgba(255,255,255,.65);display:flex;align-items:flex-start;gap:8px;line-height:1.4}
+.pcard-features li::before{content:'✓';color:var(--blue2);font-weight:700;flex-shrink:0;margin-top:1px}
+.pcard-btn{width:100%;padding:12px;border-radius:10px;font-family:'Inter',sans-serif;font-size:.95rem;font-weight:600;cursor:pointer;transition:all .2s;border:none;text-align:center;text-decoration:none;display:block}
+.pcard-btn-p{background:var(--blue);color:var(--white)}
+.pcard-btn-p:hover{background:var(--blue2)}
+.pcard-btn-s{background:transparent;color:rgba(255,255,255,.65);border:1px solid rgba(255,255,255,.15)}
+.pcard-btn-s:hover{border-color:rgba(255,255,255,.35);color:var(--white)}
+.pricing-trust{text-align:center;margin-top:2rem;font-size:.84rem;color:rgba(255,255,255,.25);line-height:1.8}
+
+/* ── FINAL CTA ── */
+#cta{background:linear-gradient(155deg,var(--blue) 0%,#0d5a9e 100%);padding:6rem 2rem;text-align:center}
+#cta h2{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3.2rem);font-weight:700;color:var(--white);margin-bottom:1rem;line-height:1.15}
+#cta p{font-size:1rem;color:rgba(255,255,255,.7);max-width:480px;margin:0 auto 2.5rem;line-height:1.8}
+#cta .btn-primary{background:var(--white);color:var(--blue);font-size:1rem}
+#cta .btn-primary:hover{background:var(--cream);box-shadow:0 8px 30px rgba(0,0,0,.2)}
+
+/* ── FOOTER ── */
+footer{background:var(--navy);padding:3rem 2rem;text-align:center;border-top:1px solid rgba(255,255,255,.06)}
+.footer-logo{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;color:var(--white);margin-bottom:.5rem}
+.footer-logo em{color:var(--blue2);font-style:normal}
+.footer-tag{font-size:.86rem;color:rgba(255,255,255,.25);margin-bottom:1.5rem;letter-spacing:.08em}
+.footer-links{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-bottom:1.5rem}
+.footer-links a{font-size:.86rem;color:rgba(255,255,255,.3);text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:rgba(255,255,255,.7)}
+.footer-copy{font-size:.9rem;color:rgba(255,255,255,.15)}
+
+/* ── RESPONSIVE ── */
+@media(max-width:768px){
+  .problem-grid,.steps,.features-grid,.testimonials-grid,.pricing-grid{grid-template-columns:1fr}
+  .step-connector{display:none}
+  .mock-card{grid-template-columns:36px 1fr}
+  .mock-price{display:none}
+  nav{padding:0 1rem}
+  .nav-link{display:none}
+}
+
+/* ── COUNSELOR SECTION ── */
+#counselors{background:var(--navy);padding:6rem 2rem;overflow:hidden;position:relative}
+#counselors::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 80% 50%,rgba(26,127,212,.06) 0%,transparent 60%);pointer-events:none}
+#counselors .section-h2{color:var(--white)}
+#counselors .section-h2 em{color:var(--blue2)}
+#counselors .section-eyebrow{color:var(--blue3)}
+.counselor-grid{display:grid;grid-template-columns:1fr;gap:2.5rem;align-items:start;margin-top:3.5rem}
+.counselor-text p{font-size:.95rem;color:rgba(255,255,255,.6);line-height:1.85;margin-bottom:1.1rem}
+.counselor-text p strong{color:var(--white)}
+.counselor-use-cases{display:flex;flex-direction:column;gap:.75rem;margin:1.5rem 0}
+.cuse{display:flex;align-items:flex-start;gap:12px;padding:.85rem 1rem;background:rgba(255,255,255,.04);border-radius:10px;border:1px solid rgba(255,255,255,.07)}
+.cuse-icon{font-size:1.1rem;flex-shrink:0;margin-top:1px}
+.cuse-text{font-size:.88rem;color:rgba(255,255,255,.65);line-height:1.6}
+.cuse-text strong{display:block;color:var(--white);font-size:.9rem;margin-bottom:6px;line-height:1.4}
+.cuse-text span{color:rgba(255,255,255,.55);font-size:.84rem;line-height:1.6}
+.counselor-tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+.ctier{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:1.5rem 1.75rem;transition:all .25s;position:relative;overflow:hidden}
+.ctier::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--blue)}
+.ctier:hover{background:rgba(255,255,255,.07);transform:translateX(4px)}
+.ctier-name{font-size:.86rem;text-transform:uppercase;letter-spacing:.14em;color:var(--blue2);font-weight:600;margin-bottom:.5rem}
+.ctier-title{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;color:var(--white);margin-bottom:.5rem}
+.ctier-desc{font-size:.9rem;color:rgba(255,255,255,.5);line-height:1.6;margin-bottom:.75rem}
+.ctier-price{font-size:.92rem;color:var(--blue2);font-weight:600}
+.ctier-cta{font-size:.86rem;color:var(--blue3);text-decoration:none;font-weight:500;display:inline-flex;align-items:center;gap:5px;margin-top:.25rem;transition:gap .2s}
+.ctier-cta:hover{gap:9px}
+.no-left-behind{background:rgba(26,127,212,.08);border:1px solid rgba(26,127,212,.2);border-radius:14px;padding:1.5rem 1.75rem;margin-top:1.25rem;position:relative}
+.nlb-badge{display:inline-block;background:var(--blue);color:var(--white);font-size:.9rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:3px 10px;border-radius:20px;margin-bottom:.75rem}
+.nlb-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--white);margin-bottom:.5rem}
+.nlb-desc{font-size:.9rem;color:rgba(255,255,255,.55);line-height:1.65}
+.nlb-desc strong{color:var(--blue2)}
+@media(max-width:768px){.counselor-grid{grid-template-columns:1fr}.counselor-tiers{grid-template-columns:1fr}.testimonials-grid{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="nav-logo">
+
+    <span class="nav-name">College<em>Shepherd</em></span>
+  </a>
+  <div class="nav-right">
+    <a href="#how" class="nav-link">How it works</a>
+    <a href="#features" class="nav-link">Features</a>
+    <a href="#counselors" class="nav-link">For Counselors</a>
+    <a href="#pricing" class="nav-link">Pricing</a>
+    <a href="/app.html" class="nav-cta">Get My List →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-stars" id="stars"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-eyebrow">AI-Powered College Guidance</div>
+  <h1 class="hero-h1">The <em>#1 Online Tool</em><br>to Find the Right College</h1>
+  <p class="hero-sub">Answer 50+ specialized questions and receive a <strong>personalized top-10 college list</strong> — with real rankings, estimated net costs, fit scores, fun facts, and essay ideas. Every student deserves a great guide.</p>
+  <div class="hero-btns">
+    <a href="/app.html" class="btn-primary">Find My Colleges →</a>
+    <a href="#how" class="btn-secondary">See how it works</a>
+  </div>
+  <div class="hero-trust">
+    <span class="htrust-item">Personalized top-10 list</span>
+    <span class="htrust-item">Net cost after financial aid</span>
+    <span class="htrust-item">7 regenerations per day</span>
+    <span class="htrust-item">Contact your High School Counselor for a free link</span>
+    
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section id="problem">
+  <div class="section-inner">
+    <div class="section-eyebrow">The opportunity</div>
+    <h2 class="section-h2" style="white-space:nowrap;color:#0a1628">Great counselors deserve great tools.</h2>
+    <p style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:400;color:rgba(255,255,255,.7);margin-top:.35rem;margin-bottom:1.5rem;font-style:normal;color:#0a1628;font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3rem);font-weight:700;line-height:1.15;margin-top:-.5rem;margin-bottom:1.5rem">So do their <strong style="color:#1a7fd4;font-weight:700">students</strong>.</p>
+    <div class="problem-grid">
+      <div class="problem-stats">
+        <div class="pstat">
+          <div class="pstat-num"><span>482</span>:1</div>
+          <div class="pstat-label">Average student-to-counselor ratio in US public high schools. The recommended ratio is 250:1.</div>
+        </div>
+        <div class="pstat">
+          <div class="pstat-num">$<span>5,000</span>+</div>
+          <div class="pstat-label">What families with means pay private college consultants. Most families can't afford this.</div>
+        </div>
+        <div class="pstat">
+          <div class="pstat-num"><span>68</span>%</div>
+          <div class="pstat-label">Of students say they wish they'd gotten more guidance before choosing a college.</div>
+        </div>
+      </div>
+      <div class="problem-text">
+        <p>School counselors are extraordinary professionals doing impossible work. With an average caseload of 482 students, <strong>there simply isn't enough time</strong> to give every student the deep, personalized college guidance they deserve.</p>
+        <p><strong style="font-family:'Playfair Display',serif;font-weight:700;color:#0a1628;font-style:normal">College<em style="color:#1a7fd4;font-style:normal">Shepherd</em></strong> doesn't replace counselors — <strong>it makes them more powerful.</strong> When every student arrives with a personalized college list already built, costs estimated, and fit scores explained, counselors can skip the discovery phase and focus on what only they can do: the human conversation.</p>
+        <p>And for families who can't afford private counselors charging $5,000+, <strong style="font-family:'Playfair Display',serif;font-weight:700;color:#0a1628;font-style:normal">College<em style="color:#1a7fd4;font-style:normal">Shepherd</em></strong> means <strong>no student gets left behind</strong> — regardless of zip code or family income. <em>Contact your High School Counselor for a free link.</em></p>
+        <a href="/app.html" class="problem-cta">Start your search →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="section-inner">
+    <div class="section-eyebrow">How it works</div>
+    <h2 class="section-h2">Three steps to your<br><em>perfect college list.</em></h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-connector"></div>
+        <h3>Answer the questions</h3>
+        <p>50+ specialized questions covering your academics, interests, campus vibe, budget, career goals, and more. Skip anything — no wrong answers. Takes about 15 minutes.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-connector"></div>
+        <h3>We do the research</h3>
+        <p>Our AI analyzes thousands of colleges against your profile — factoring in acceptance rates, net costs, regional tuition programs, rankings, fit scores, and campus culture.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Get your personalized list</h3>
+        <p>Receive a curated top-10 list with reach, match, and safety schools — each with estimated net cost, fit breakdown, fun facts, and personalized essay angle ideas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT MOCKUP -->
+<section id="product">
+  <div class="section-inner">
+    <div class="section-eyebrow">The product</div>
+    <h2 class="section-h2">A real college list,<br>made <em>just for you</em></h2>
+    <div class="mockup-wrap">
+      <div class="mockup-browser">
+        <div class="mockup-bar">
+          <div class="mockup-dot" style="background:#ff5f57"></div>
+          <div class="mockup-dot" style="background:#ffbd2e"></div>
+          <div class="mockup-dot" style="background:#28c840"></div>
+          <div class="mockup-url">collegeshepherd.com</div>
+        </div>
+        <div class="mockup-content">
+          <div class="mock-header">
+            <div class="mock-h">Your Top 10 College List</div>
+            <div class="mock-badge">5 Match · 2 Reach · 3 Safety</div>
+          </div>
+          <div class="mock-cards">
+
+  <!-- SAMPLE PROFILE BANNER -->
+  <div style="background:rgba(26,127,212,.08);border:1px solid rgba(26,127,212,.15);border-radius:10px;padding:.75rem 1rem;margin-bottom:.75rem;font-size:.78rem;color:rgba(255,255,255,.5);display:flex;align-items:center;gap:8px">
+    <span style="font-size:.9rem">🎓</span>
+    <span>Sample list for <strong style="color:rgba(255,255,255,.8)">Alex</strong> — Junior from Washington State · Business major · $75K–$110K household income</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- CARD 1 — FULL CARD: University of Washington  -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div style="background:rgba(255,255,255,.04);border:1px solid rgba(26,127,212,.25);border-radius:14px;padding:1.25rem 1.4rem;margin-bottom:10px;box-shadow:0 0 0 1px rgba(26,127,212,.1)">
+
+    <!-- Header row -->
+    <div style="display:flex;align-items:flex-start;gap:12px;margin-bottom:.9rem">
+      <div style="width:36px;height:36px;border-radius:9px;background:linear-gradient(135deg,#1a7fd4,#0a1628);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:#fff;flex-shrink:0">1</div>
+      <img src="https://www.google.com/s2/favicons?domain=uw.edu&sz=64" style="width:32px;height:32px;object-fit:contain;border-radius:6px;border:1.5px solid #e8e8e8;background:#f8f8f8;padding:4px;flex-shrink:0;display:block" onerror="this.style.display='none'" 
+           style="width:44px;height:44px;border-radius:8px;background:#fff;padding:4px;flex-shrink:0;object-fit:contain;image-rendering:crisp-edges"
+           onerror="this.style.display='none'">
+      <div style="flex:1">
+        <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:2px">
+          <span style="font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:700;color:#fff">University of Washington</span>
+          <span style="font-size:.58rem;padding:2px 8px;border-radius:10px;background:rgba(26,127,212,.2);color:#5ab5f5;font-weight:700;text-transform:uppercase;letter-spacing:.06em">Match</span>
+          <span style="font-size:.58rem;padding:2px 8px;border-radius:10px;background:rgba(74,222,128,.12);color:#4ade80;font-weight:700;text-transform:uppercase;letter-spacing:.06em">In-State</span>
+        </div>
+        <div style="font-size:.76rem;color:rgba(255,255,255,.4)">Seattle, WA · 48,000 students · Foster School of Business · 43% acceptance</div>
+      </div>
+      <div style="text-align:right;flex-shrink:0">
+        <div style="font-size:1.1rem;font-weight:700;color:#4ade80;font-family:'Playfair Display',serif">$11,976<span style="font-size:.65rem;font-weight:400">/yr</span></div>
+        <div style="font-size:.68rem;color:rgba(255,255,255,.3);text-decoration:line-through">$35,305 sticker</div>
+        <div style="font-size:.6rem;color:#4ade80;margin-top:2px">✓ Federal data</div>
+      </div>
+    </div>
+
+    <!-- Fit scores -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px 16px;margin-bottom:.9rem">
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:.7rem;color:rgba(255,255,255,.45);margin-bottom:3px"><span>Academic Fit</span><span style="color:#fff;font-weight:600">9/10</span></div>
+        <div style="height:5px;background:rgba(255,255,255,.08);border-radius:3px"><div style="width:90%;height:100%;background:linear-gradient(90deg,#1a7fd4,#5ab5f5);border-radius:3px"></div></div>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:.7rem;color:rgba(255,255,255,.45);margin-bottom:3px"><span>Campus Vibe</span><span style="color:#fff;font-weight:600">8/10</span></div>
+        <div style="height:5px;background:rgba(255,255,255,.08);border-radius:3px"><div style="width:82%;height:100%;background:linear-gradient(90deg,#5ab5f5,#2d9ae8);border-radius:3px"></div></div>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:.7rem;color:rgba(255,255,255,.45);margin-bottom:3px"><span>Cost Fit</span><span style="color:#fff;font-weight:600">10/10</span></div>
+        <div style="height:5px;background:rgba(255,255,255,.08);border-radius:3px"><div style="width:98%;height:100%;background:linear-gradient(90deg,#4ade80,#22c55e);border-radius:3px"></div></div>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:.7rem;color:rgba(255,255,255,.45);margin-bottom:3px"><span>Location</span><span style="color:#fff;font-weight:600">9/10</span></div>
+        <div style="height:5px;background:rgba(255,255,255,.08);border-radius:3px"><div style="width:92%;height:100%;background:linear-gradient(90deg,#1a7fd4,#5ab5f5);border-radius:3px"></div></div>
+      </div>
+    </div>
+
+    <!-- Cost breakdown -->
+    <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.85rem">
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">📚 Tuition <strong style="color:#fff">$12,973</strong></span>
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">🏠 Housing <strong style="color:#fff">$10,800</strong></span>
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">🍽 Meals <strong style="color:#fff">$6,200</strong></span>
+      <span style="font-size:.71rem;background:rgba(26,127,212,.12);padding:3px 9px;border-radius:5px;color:#5ab5f5;font-weight:600">Total COA $35,305</span>
+    </div>
+
+    <!-- Fun facts -->
+    <div style="border-top:1px solid rgba(255,255,255,.06);padding-top:.75rem">
+      <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,.3);margin-bottom:.5rem">✨ Why Students Love It</div>
+      <div style="display:flex;flex-direction:column;gap:5px">
+        <div style="font-size:.76rem;color:rgba(255,255,255,.55);display:flex;gap:8px"><span>🏆</span><span>Foster School of Business ranked <strong style="color:rgba(255,255,255,.8)">#19 nationally</strong> for undergraduate business</span></div>
+        <div style="font-size:.76rem;color:rgba(255,255,255,.55);display:flex;gap:8px"><span>💼</span><span>Amazon, Microsoft & Boeing recruit directly on campus — Seattle puts you at the center of Big Tech</span></div>
+        <div style="font-size:.76rem;color:rgba(255,255,255,.55);display:flex;gap:8px"><span>💰</span><span>As a WA resident, you pay <strong style="color:rgba(255,255,255,.8)">60% less</strong> than out-of-state students — one of the best value flagships in the country</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- CARD 2 — PARTIAL: Indiana University       -->
+  <!-- ═══════════════════════════════════════════ -->
+  <div style="background:rgba(255,255,255,.03);border:1px solid rgba(201,168,76,.15);border-radius:14px;padding:1.1rem 1.4rem;margin-bottom:10px;position:relative;overflow:hidden">
+    <div style="display:flex;align-items:flex-start;gap:12px">
+      <div style="width:32px;height:32px;border-radius:8px;background:rgba(201,168,76,.15);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:.9rem;font-weight:700;color:#e8c96a;flex-shrink:0">2</div>
+      <img src="https://www.google.com/s2/favicons?domain=indiana.edu&sz=64" style="width:32px;height:32px;object-fit:contain;border-radius:6px;border:1.5px solid #e8e8e8;background:#f8f8f8;padding:4px;flex-shrink:0;display:block" onerror="this.style.display='none'"
+           style="width:40px;height:40px;border-radius:8px;background:#fff;padding:4px;flex-shrink:0;object-fit:contain;image-rendering:crisp-edges"
+           onerror="this.style.display='none'">
+      <div style="flex:1">
+        <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:2px">
+          <span style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:#fff">Indiana University</span>
+          <span style="font-size:.58rem;padding:2px 8px;border-radius:10px;background:rgba(201,168,76,.15);color:#e8c96a;font-weight:700;text-transform:uppercase;letter-spacing:.06em">Reach</span>
+        </div>
+        <div style="font-size:.76rem;color:rgba(255,255,255,.4)">Bloomington, IN · 43,000 students · Kelley School of Business #21 · 78% acceptance</div>
+      </div>
+      <div style="text-align:right;flex-shrink:0">
+        <div style="font-size:1.05rem;font-weight:700;color:#e8c96a;font-family:'Playfair Display',serif">$48,848<span style="font-size:.65rem;font-weight:400">/yr</span></div>
+        <div style="font-size:.68rem;color:rgba(255,255,255,.3);text-decoration:line-through">$60,349 sticker</div>
+        <div style="font-size:.6rem;color:#4ade80;margin-top:2px">✓ Federal data</div>
+      </div>
+    </div>
+    <div style="margin-top:.75rem;display:flex;flex-wrap:wrap;gap:5px">
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">📚 Tuition <strong style="color:#fff">$41,891</strong></span>
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">🏠 Housing <strong style="color:#fff">$13,984</strong></span>
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">🍽 Meals <strong style="color:#fff">$4,300</strong></span>
+      <span style="font-size:.71rem;background:rgba(26,127,212,.12);padding:3px 9px;border-radius:5px;color:#5ab5f5;font-weight:600">Total COA $60,349</span>
+    </div>
+    <div style="margin-top:.65rem;font-size:.75rem;color:rgba(255,255,255,.4);display:flex;gap:8px"><span>🎓</span><span>Kelley ranked <strong style="color:rgba(255,255,255,.65)">#21 nationally for business</strong> · 90%+ of students receive merit aid · Over 800,000 alumni worldwide</span></div>
+    <!-- Bottom fade -->
+    <div style="position:absolute;bottom:0;left:0;right:0;height:40%;background:linear-gradient(to bottom,transparent,rgba(10,22,40,.95));pointer-events:none"></div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- CARD 3 — PARTIAL: Arizona State University    -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div style="background:rgba(255,255,255,.03);border:1px solid rgba(74,222,128,.1);border-radius:14px;padding:1.1rem 1.4rem;position:relative;overflow:hidden">
+    <div style="display:flex;align-items:flex-start;gap:12px">
+      <div style="width:32px;height:32px;border-radius:8px;background:rgba(74,222,128,.08);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:.9rem;font-weight:700;color:#4ade80;flex-shrink:0">3</div>
+      <img src="https://www.google.com/s2/favicons?domain=asu.edu&sz=64" style="width:32px;height:32px;object-fit:contain;border-radius:6px;border:1.5px solid #e8e8e8;background:#f8f8f8;padding:4px;flex-shrink:0;display:block" onerror="this.style.display='none'"
+           style="width:40px;height:40px;border-radius:8px;background:#fff;padding:4px;flex-shrink:0;object-fit:contain;image-rendering:crisp-edges"
+           onerror="this.style.display='none'">
+      <div style="flex:1">
+        <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:2px">
+          <span style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:#fff">Arizona State University</span>
+          <span style="font-size:.58rem;padding:2px 8px;border-radius:10px;background:rgba(74,222,128,.1);color:#4ade80;font-weight:700;text-transform:uppercase;letter-spacing:.06em">Safety</span>
+        </div>
+        <div style="font-size:.76rem;color:rgba(255,255,255,.4)">Tempe, AZ · 65,450 students · W.P. Carey School of Business · 89% acceptance</div>
+      </div>
+      <div style="text-align:right;flex-shrink:0">
+        <div style="font-size:1.05rem;font-weight:700;color:#4ade80;font-family:'Playfair Display',serif">$26,405<span style="font-size:.65rem;font-weight:400">/yr</span></div>
+        <div style="font-size:.68rem;color:rgba(255,255,255,.3);text-decoration:line-through">$55,091 sticker</div>
+        <div style="font-size:.6rem;color:#4ade80;margin-top:2px">✓ Federal data</div>
+      </div>
+    </div>
+    <div style="margin-top:.75rem;display:flex;flex-wrap:wrap;gap:5px">
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">📚 Tuition <strong style="color:#fff">$33,139</strong></span>
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">🏠 Housing <strong style="color:#fff">$13,100</strong></span>
+      <span style="font-size:.71rem;background:rgba(255,255,255,.05);padding:3px 9px;border-radius:5px;color:rgba(255,255,255,.5)">🍽 Meals <strong style="color:#fff">$5,200</strong></span>
+      <span style="font-size:.71rem;background:rgba(26,127,212,.12);padding:3px 9px;border-radius:5px;color:#5ab5f5;font-weight:600">Total COA $55,091</span>
+    </div>
+    <!-- Bottom fade -->
+    <div style="position:absolute;bottom:0;left:0;right:0;height:55%;background:linear-gradient(to bottom,transparent,rgba(10,22,40,.97));pointer-events:none"></div>
+  </div>
+
+  <!-- SEE MORE -->
+  <div style="text-align:center;padding:1rem 0 .25rem;margin-top:.25rem">
+    <div style="font-size:.8rem;color:rgba(255,255,255,.3);letter-spacing:.04em">✦ &nbsp; See 7 more schools on your personalized list &nbsp; ✦</div>
+  </div>
+
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="section-inner">
+    <div class="section-eyebrow">What you get</div>
+    <h2 class="section-h2">Everything you need to get started — <em>instantly.</em></h2>
+    <div class="features-grid">
+      <div class="feat-card">
+        <div class="feat-icon">🎯</div>
+        <div class="feat-title">Personalized Top-10 List</div>
+        <div class="feat-desc">Reach, match, and safety schools chosen specifically for your academic profile, interests, budget, and campus preferences. Not a generic list — yours.</div>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">💰</div>
+        <div class="feat-title">Net Cost Estimator</div>
+        <div class="feat-desc">See what each school actually costs after financial aid — based on your family income. Flags WUE, NEBHE, MSEP, and SREB tuition exchange programs most families never hear about.</div>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">📊</div>
+        <div class="feat-title">Fit Score Breakdown</div>
+        <div class="feat-desc">Academic fit, campus vibe, cost fit, location, and social life scored 1-10 for each school based on your specific answers. Know exactly why a school made the list.</div>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">✨</div>
+        <div class="feat-title">Fun Facts That Connect</div>
+        <div class="feat-desc">Personalized to your interests — pre-med students see medical breakthroughs, athletes see championship records, business students see CEO alumni. Facts that make each school feel real.</div>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">✍️</div>
+        <div class="feat-title">Essay Angle Ideas</div>
+        <div class="feat-desc">5 personalized Common App essay angles based on your answers — each tied to something specific from your life. The hardest part of applications, made much easier.</div>
+      </div>
+      <div class="feat-card">
+        <div class="feat-icon">⚖️</div>
+        <div class="feat-title">Weighted Decision Scorecard</div>
+        <div class="feat-desc">A live ranking tool that lets you weight what matters most — cost, academics, location, social life — and see your colleges re-rank in real time as you score them.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-inner">
+    <div class="section-eyebrow">What people are saying</div>
+    <h2 class="section-h2">Parents trust it. Students love it.<br><em>Counselors recommend it.</em></h2>
+    <div class="testimonials-grid">
+
+      <div class="tcard">
+        <div class="tquote">I've been a high school teacher for 18 years and a mom of a junior. I've watched so many families stress over college lists — spending thousands on private counselors or just guessing. CollegeShepherd gave my daughter a personalized list in 15 minutes that was more thoughtful than anything I'd seen. It even flagged the WUE program — we had no idea Washington students could attend schools in Arizona at near in-state rates. That alone saved us $20,000 a year.</div>
+        <div class="tauthor">
+          <div class="tavatar">K</div>
+          <div>
+            <div class="tname">Karen M.</div>
+            <div class="trole">High School Teacher & Parent of a Junior</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tcard">
+        <div class="tquote">As a tax partner I've helped hundreds of families with financial planning — but college costs still catch people off guard. CollegeShepherd is the first tool I've seen that actually shows real net costs by income bracket before a family commits. My son's list included schools we never would have considered, with estimated costs 40% lower than sticker price. The financial transparency alone is worth every penny. I'm recommending this to every client with a high schooler.</div>
+        <div class="tauthor">
+          <div class="tavatar">J</div>
+          <div>
+            <div class="tname">Jeff R.</div>
+            <div class="trole">Tax Partner & Parent of a Senior</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tcard">
+        <div class="tquote">I've been a college counselor for 12 years and I was skeptical. But CollegeShepherd genuinely impressed me. The question architecture is thoughtful — it asks about learning style, professor access, and what success actually means to the student. The regional tuition program flagging is something most families never discover on their own. I now recommend it to every junior family as a starting point before our first meeting. It makes my job better, not obsolete.</div>
+        <div class="tauthor">
+          <div class="tavatar">C</div>
+          <div>
+            <div class="tname">Catherine H.</div>
+            <div class="trole">Independent College Counselor, 12 Years</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tcard">
+        <div class="tquote">ok so i did this on a whim and literally screamed when i saw my list. it knew i wanted a big school with a sick campus near the mountains but also actually cared about my major. the fun facts section had me sending screenshots to my entire friend group at midnight. my parents were shook when they saw the actual costs after financial aid — way cheaper than they thought. every junior needs to do this immediately no cap 🎓🔥</div>
+        <div class="tauthor">
+          <div class="tavatar" style="background:linear-gradient(135deg,#1a7fd4,#5ab5f5)">B</div>
+          <div>
+            <div class="tname">Balla K.</div>
+            <div class="trole">Sophomore, Class of 2027</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- COUNSELORS -->
+<section id="counselors">
+  <div class="section-inner">
+    <div class="section-eyebrow">For Counselors & Schools</div>
+    <h2 class="section-h2">Your students arrive prepared.<br><em>You do the work that matters.</em></h2>
+    <div class="counselor-grid">
+
+      <div>
+        <div class="counselor-text">
+          <p><strong style="font-family:'Playfair Display',serif;font-weight:700;color:#ffffff;font-style:normal">College<em style="color:#5ab5f5;font-style:normal">Shepherd</em></strong> is built to work <strong>alongside great counselors</strong> — not replace them. When every student on your caseload arrives with a personalized college list already built, costs estimated, and fit scores explained, you can skip the discovery phase entirely.</p>
+          <p>That means more time for the conversations that matter most — the student who's afraid to leave home, the family who doesn't understand financial aid, the kid who doesn't know their own potential.</p>
+        </div>
+        <div class="counselor-use-cases">
+          <div class="cuse">
+            <span class="cuse-icon">📋</span>
+            <div class="cuse-text">
+              <strong>Start every junior meeting with a full profile</strong>
+              <span>Students answer 50+ questions before they walk in. You review their list together and focus on the decisions that matter.</span>
+            </div>
+          </div>
+          <div class="cuse">
+            <span class="cuse-icon">💰</span>
+            <div class="cuse-text">
+              <strong>Surface hidden financial aid automatically</strong>
+              <span>WUE, NEBHE, MSEP, and SREB tuition exchange programs are flagged for every eligible student — saving families $7,000–$14,000/yr they'd never find on their own.</span>
+            </div>
+          </div>
+          <div class="cuse">
+            <span class="cuse-icon">✍️</span>
+            <div class="cuse-text">
+              <strong>Make essay conversations easier</strong>
+              <span>Every student arrives with 5 personalized Common App essay angles. Your job shifts from "what should I write about?" to helping refine a specific, authentic story.</span>
+            </div>
+          </div>
+          <div class="cuse">
+            <span class="cuse-icon">🏫</span>
+            <div class="cuse-text">
+              <strong>White-label it as your own tool</strong>
+              <span>Independent college consultants can brand <em style="font-style:normal;font-weight:700;color:#ffffff">College<span style="color:#5ab5f5">Shepherd</span></em> for their practice — your logo, your domain, your client experience.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="counselor-tiers">
+
+          <div class="ctier">
+            <div class="ctier-name">Individual Counselor</div>
+            <div class="ctier-title">Counselor License</div>
+            <div class="ctier-desc">Share discounted access codes with your families. Full product access for each student. Perfect for independent counselors and small practices.</div>
+            <div class="ctier-price">$99/year — includes 20 student access codes</div>
+            <a href="mailto:hello@collegeshepherd.com?subject=Counselor License" class="ctier-cta">Contact us to get started →</a>
+          </div>
+
+          <div class="ctier">
+            <div class="ctier-name">High School</div>
+            <div class="ctier-title">School License</div>
+            <div class="ctier-desc">Flat annual fee for unlimited student access at your school. Every student in your junior and senior class gets a personalized college list. No per-student fees, no surprises.</div>
+            <div class="ctier-price">$499–$999/year depending on enrollment</div>
+            <a href="mailto:hello@collegeshepherd.com?subject=School License" class="ctier-cta">Contact us for a quote →</a>
+          </div>
+
+          <div class="ctier">
+            <div class="ctier-name">White Label</div>
+            <div class="ctier-title">Your Brand, Our Engine</div>
+            <div class="ctier-desc">Independent college consultants and counseling firms can offer <strong style="font-family:'Playfair Display',serif;font-weight:700;color:#ffffff;font-style:normal">College<em style="color:#5ab5f5;font-style:normal">Shepherd</em></strong> under their own brand. Custom domain, your logo, your client experience — powered by our AI.</div>
+            <div class="ctier-price">Custom pricing — contact us</div>
+            <a href="mailto:hello@collegeshepherd.com?subject=White Label" class="ctier-cta">Let's talk →</a>
+          </div>
+
+        </div>
+
+        <div class="no-left-behind" style="text-align:center">
+          <div class="nlb-badge">Our Mission</div>
+          <div class="nlb-title" style="font-size:1.2rem">No Student Left Behind</div>
+          <div class="nlb-desc" style="font-size:1rem">Every school license includes a pool of <strong>free access codes</strong> for students who can't afford the individual price. You decide who receives them — no application, no bureaucracy, just your judgment. <strong>Every student deserves a great guide</strong>, regardless of what their family can afford.</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="section-inner">
+    <div class="section-eyebrow">Simple pricing</div>
+    <h2 class="section-h2" style="text-align:center">Simple pricing for<br><em>families and schools</em></h2>
+    <div class="pricing-grid">
+
+      <div class="pcard">
+        <div class="pcard-name">Single Report</div>
+        <div class="pcard-price"><sup>$</sup>29</div>
+        <div class="pcard-period">one-time payment</div>
+        <ul class="pcard-features">
+          <li>Personalized top-10 college list</li>
+          <li>Net cost estimates after aid</li>
+          <li>Fit scores & fun facts</li>
+          <li>5 essay angle ideas</li>
+          <li>Up to 7 regenerations</li>
+        </ul>
+        <a href="https://buy.stripe.com/00w28qgS64zT2ki2D3gYU01" class="pcard-btn pcard-btn-s">Get started</a>
+      </div>
+
+      <div class="pcard featured">
+        <div class="pcard-badge">Most Popular</div>
+        <div class="pcard-name">Annual Access</div>
+        <div class="pcard-price"><sup>$</sup>79</div>
+        <div class="pcard-period">per year — update as things change</div>
+        <ul class="pcard-features">
+          <li>Everything in Single Report</li>
+          <li>Unlimited regenerations all year</li>
+          <li>Update as GPA & tests improve</li>
+          <li>New features as we build them</li>
+          <li>Priority support</li>
+        </ul>
+        <a href="https://buy.stripe.com/5kQ4gyfO23vP6AygtTgYU03" class="pcard-btn pcard-btn-p">Get started</a>
+      </div>
+
+      <div class="pcard">
+        <div class="pcard-name">Family Pack</div>
+        <div class="pcard-price"><sup>$</sup>49</div>
+        <div class="pcard-period">one-time · up to 3 students</div>
+        <ul class="pcard-features">
+          <li>3 separate student profiles</li>
+          <li>Full report for each student</li>
+          <li>Net cost & fit scores per student</li>
+          <li>Essay ideas for each student</li>
+          <li>Up to 7 regenerations each</li>
+        </ul>
+        <a href="https://buy.stripe.com/fZu6oGeJYgiBaQOdhHgYU05" class="pcard-btn pcard-btn-s">Get started</a>
+      </div>
+
+    </div>
+    <div class="pricing-trust">🔒 Secure payment via Stripe &nbsp;·&nbsp; No subscription &nbsp;·&nbsp; No auto-renewals &nbsp;·&nbsp; Questions? <a href="mailto:hello@collegeshepherd.com" style="color:rgba(255,255,255,.4);text-decoration:none">hello@collegeshepherd.com</a></div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="cta">
+  <h2>Every student deserves<br>a great guide</h2>
+  <p>Stop guessing. Stop Googling. Get a personalized college list built around who you actually are — in 15 minutes. And if you're a counselor, give every one of your students the same advantage.</p>
+  <a href="/app.html" class="btn-primary" style="font-size:1rem">Find Where You Belong →</a>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">College<em>Shepherd</em></div>
+  <div class="footer-tag">FIND WHERE YOU BELONG</div>
+  <div class="footer-links">
+    <a href="#how">How it works</a>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#counselors">For Counselors</a>
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Service</a>
+    <a href="mailto:hello@collegeshepherd.com">hello@collegeshepherd.com</a> · <a href="/terms.html">Terms of Service</a> · <a href="/privacy.html">Privacy Policy</a>
+  </div>
+  <div class="footer-copy">© 2026 College Shepherd · A Shepherd Ventures LLC product · collegeshepherd.com</div>
+</footer>
+
+<script>
+// Generate twinkling stars
+const starsEl = document.getElementById('stars');
+for (let i = 0; i < 40; i++) {
+  const star = document.createElement('div');
+  star.className = 'star';
+  const size = Math.random() * 3 + 1;
+  star.style.cssText = `
+    width:${size}px;height:${size}px;
+    left:${Math.random()*100}%;
+    top:${Math.random()*100}%;
+    --d:${3+Math.random()*5}s;
+    --delay:${Math.random()*5}s;
+  `;
+  starsEl.appendChild(star);
+}
+
+// Smooth scroll for nav links
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) { e.preventDefault(); target.scrollIntoView({behavior:'smooth'}); }
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College List — CollegeShepherd</title>
+<meta name="description" content="See this student's personalized top-10 college list, built by CollegeShepherd AI.">
+<meta property="og:title" content="My College List — CollegeShepherd">
+<meta property="og:description" content="AI-powered personalized college guidance. Find where you belong.">
+<meta property="og:image" content="https://collegeshepherd.com/og-image.png">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:#060d1a;color:#fff;min-height:100vh;-webkit-font-smoothing:antialiased}
+.page{max-width:580px;margin:0 auto;padding:2rem 1.5rem 4rem}
+header{text-align:center;padding:2rem 0 1.5rem;border-bottom:1px solid rgba(255,255,255,.06);margin-bottom:2rem}
+.logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:rgba(255,255,255,.5);margin-bottom:.25rem}
+.logo em{color:#2d9ae8;font-style:normal}
+.logo-tag{font-size:.68rem;color:rgba(255,255,255,.2);letter-spacing:.15em;text-transform:uppercase}
+.student-name{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,5vw,2.5rem);font-weight:900;color:#fff;margin-bottom:.4rem;line-height:1.1}
+.student-sub{font-size:.88rem;color:rgba(255,255,255,.35);margin-bottom:1.5rem}
+.summary{font-size:.9rem;color:rgba(255,255,255,.5);line-height:1.75;background:rgba(255,255,255,.04);border-radius:12px;padding:1rem 1.25rem;border:1px solid rgba(255,255,255,.06);margin-bottom:2rem;font-style:italic}
+.list-title{font-size:.68rem;text-transform:uppercase;letter-spacing:.18em;color:#2d9ae8;font-weight:600;margin-bottom:1rem}
+.school-row{display:flex;align-items:center;gap:12px;padding:12px 14px;background:rgba(255,255,255,.04);border-radius:10px;border:1px solid rgba(255,255,255,.06);margin-bottom:8px;transition:all .2s}
+.school-row:hover{background:rgba(255,255,255,.07);border-color:rgba(26,127,212,.2)}
+.school-num{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:#2d9ae8;width:28px;text-align:center;flex-shrink:0}
+.school-info{flex:1}
+.school-name{font-size:.92rem;font-weight:600;color:#fff;margin-bottom:2px}
+.school-loc{font-size:.74rem;color:rgba(255,255,255,.35)}
+.school-tier{font-size:.6rem;padding:2px 8px;border-radius:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;flex-shrink:0}
+.tier-match{background:rgba(26,127,212,.2);color:#5ab5f5}
+.tier-reach{background:rgba(201,168,76,.15);color:#e8c96a}
+.tier-safety{background:rgba(74,222,128,.1);color:#4ade80}
+.cta-section{text-align:center;margin-top:2.5rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.06)}
+.cta-section p{font-size:.9rem;color:rgba(255,255,255,.4);margin-bottom:1.25rem;line-height:1.7}
+.cta-btn{display:inline-block;background:#1a7fd4;color:#fff;font-family:'Inter',sans-serif;font-size:.95rem;font-weight:600;padding:13px 32px;border-radius:30px;text-decoration:none;transition:all .25s;margin-bottom:.75rem}
+.cta-btn:hover{background:#2d9ae8;transform:translateY(-2px)}
+.cta-btn-parent{display:inline-block;background:rgba(201,168,76,.15);color:#e8c96a;border:1px solid rgba(201,168,76,.3);font-family:'Inter',sans-serif;font-size:.85rem;font-weight:600;padding:10px 24px;border-radius:30px;text-decoration:none;transition:all .25s;margin-left:10px}
+.cta-btn-parent:hover{background:rgba(201,168,76,.25)}
+.footer{text-align:center;margin-top:2rem;font-size:.72rem;color:rgba(255,255,255,.15)}
+.not-found{text-align:center;padding:4rem 2rem;color:rgba(255,255,255,.4)}
+.not-found h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:#fff;margin-bottom:.75rem}
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="logo">College<em>Shepherd</em></div>
+    <div class="logo-tag">Find Where You Belong</div>
+  </header>
+
+  <div id="content">
+    <div class="not-found">
+      <h2>Loading list...</h2>
+      <p>Finding this college list...</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function getParam(name) {
+  return new URLSearchParams(window.location.search).get(name);
+}
+
+function tierClass(tier) {
+  if (tier === 'reach') return 'tier-reach';
+  if (tier === 'safety') return 'tier-safety';
+  return 'tier-match';
+}
+
+function tierLabel(tier) {
+  if (tier === 'reach') return 'Reach';
+  if (tier === 'safety') return 'Safety';
+  return 'Match';
+}
+
+function buildParentEmail() {
+  const subject = encodeURIComponent('Can you get me CollegeShepherd? 🎓');
+  const body = encodeURIComponent(
+    'Hey! I found this AI college counseling tool called CollegeShepherd and I really want to use it to build my college list.\n\n' +
+    'It asks 50+ specialized questions and gives me a personalized top-10 college list with real costs after financial aid, fit scores, and essay ideas.\n\n' +
+    "It's only $29 for a single report — way cheaper than a private college counselor!\n\n" +
+    'Here\'s the link: https://collegeshepherd.com\n\n' +
+    'Can you get it for me?\n\nLove you! 😊'
+  );
+  return 'mailto:?subject=' + subject + '&body=' + body;
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  const id = getParam('id');
+  const content = document.getElementById('content');
+
+  if (!id) {
+    content.innerHTML = '<div class="not-found"><h2>List not found</h2><p>This link may have expired or is invalid.</p><a href="/" style="color:#2d9ae8">Get your own list →</a></div>';
+    return;
+  }
+
+  // Try to load from localStorage (same browser) or show link expired
+  let data = null;
+  try {
+    const stored = localStorage.getItem('cs_share_' + id);
+    if (stored) data = JSON.parse(stored);
+  } catch(e) {}
+
+  if (!data) {
+    content.innerHTML = `
+      <div class="not-found">
+        <h2>This list was shared from another device</h2>
+        <p>College lists are stored privately on the student's device. To see your own personalized list, get started below.</p>
+        <a href="/app.html" class="cta-btn" style="display:inline-block;margin-top:1rem">Get My College List →</a>
+      </div>`;
+    return;
+  }
+
+  const schools = data.colleges || [];
+  const schoolsHTML = schools.map(s => `
+    <div class="school-row">
+      <div class="school-num">${s.rank}</div>
+      <div class="school-info">
+        <div class="school-name">${s.name}</div>
+        <div class="school-loc">${s.location || ''}</div>
+      </div>
+      <span class="school-tier ${tierClass(s.tier)}">${tierLabel(s.tier)}</span>
+    </div>`).join('');
+
+  content.innerHTML = `
+    <div style="text-align:center;margin-bottom:1.5rem">
+      <div class="student-name">${data.name}'s College List</div>
+      <div class="student-sub">Personalized by CollegeShepherd AI · ${new Date(data.created).toLocaleDateString('en-US', {month:'long', year:'numeric'})}</div>
+    </div>
+    ${data.summary ? `<div class="summary">${data.summary}</div>` : ''}
+    <div class="list-title">Top 10 Colleges</div>
+    ${schoolsHTML}
+    <div class="cta-section">
+      <p>Want your own personalized college list?<br>CollegeShepherd builds it in 15 minutes — free for students whose school has a license.</p>
+      <a href="/app.html" class="cta-btn">Get My College List →</a>
+      <a href="${buildParentEmail()}" class="cta-btn-parent">💌 Ask My Parents</a>
+    </div>
+    <div class="footer">College Shepherd · Find Where You Belong · collegeshepherd.com</div>`;
+});
+</script>
+</body>
+</html>
