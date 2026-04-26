@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Build your personalized college list with CollegeShepherd. Answer 50+ questions and get AI-powered college recommendations with real net costs and fit scores.">
   <meta name="robots" content="noindex, nofollow">
   <link rel="canonical" href="https://collegeshepherd.com/app.html">
@@ -708,7 +709,7 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
 ───────────────────────────────────────────── -->
 <header>
   <a href="#" class="logo">
-    
+    <img src="/logo.png" alt="CollegeShepherd" style="width:32px;height:32px;object-fit:contain;flex-shrink:0">
     <div>
       <span class="logoname"><strong style="color:var(--white)">College</strong><strong style="color:var(--gold2)">Shepherd</strong></span>
       <span class="logosub">Your College Guide</span>
@@ -1777,9 +1778,9 @@ const QS = [
    opts:['Yes — this is a meaningful factor for me','Somewhat — mild accommodations are helpful','No — not a factor']},
 
   {id:5,ph:0,key:'international',
-   text:`<strong>Are you an international student, or was English not your first language?</strong>`,
+   text:`<strong>What best describes your citizenship or language background?</strong>`,
    type:'quick',
-   opts:['Yes — applying from outside the US','US student but English is my second language','No — standard US student']},
+   opts:['US citizen or permanent resident — English is my first language','US student — English is my second language','International student applying from outside the US','Prefer not to say']},
 
   // PHASE 1 — ACADEMICS
   {id:6,ph:1,key:'gpa',
@@ -1871,7 +1872,7 @@ const QS = [
 
   // PHASE 3 — CAMPUS LIFE
   {id:20,ph:3,key:'campus_size',
-   text:`<strong>How big do you want your college to be?</strong><br><span class="note">Small = under 3K | Medium = 3–10K | Large = 10–25K | Very Large = 25K+</span>`,
+   text:`<strong>How big do you want your college to be?</strong>`,
    type:'quick',
    opts:['Small — everyone knows my name (under 3,000)','Medium — balanced and friendly (3–10K)','Large — variety and energy (10–25K)','Very large — big university culture (25K+)','No preference']},
 
@@ -2513,7 +2514,7 @@ function handleSkip() {
   const q = S.visible[S.qi];
   if (!S.skipped.includes(q.id)) S.skipped.push(q.id);
   updateSkipUI();
-  addBubble('Skipped — you can come back to this anytime.', true);
+  addBubble('Skipped ↩ <button onclick="goToQuestion(' + S.qi + ')" style="background:none;border:none;color:var(--gold);cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;padding:0;text-decoration:underline">Change answer</button>', true);
   buildVisible();
   S.qi++;
   saveSession();
@@ -2834,6 +2835,13 @@ async function generateList() {
 // Renders the pre-generation action buttons into qrzone.
 // Called on first arrival AND after closing the skip drawer
 // so buttons are always restored when the drawer is dismissed.
+function goToQuestion(idx) {
+  S.skipped = S.skipped.filter(id => id !== (S.visible[idx] && S.visible[idx].id));
+  S.qi = idx;
+  clearInput();
+  askQuestion(idx);
+}
+
 function showPreGenButtons() {
   const qrz = document.getElementById('qrzone');
   qrz.innerHTML = '';
@@ -2853,14 +2861,8 @@ function showPreGenButtons() {
     document.getElementById('skipdrawer').style.display = 'block';
   });
 
-  const dismiss = document.createElement('button');
-  dismiss.className = 'qr skip-btn';
-  dismiss.textContent = 'Build list anyway →';
-  dismiss.addEventListener('click', () => { clearInput(); doGenerate(); });
-
   qrz.appendChild(go);
   qrz.appendChild(back);
-  qrz.appendChild(dismiss);
 
   // Mark state so toggleDrawer knows to restore buttons on close
   S.awaitingGeneration = true;
