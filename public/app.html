@@ -2539,6 +2539,43 @@ function handleSend() {
 document.addEventListener('DOMContentLoaded', async () => {
   // Secret bypass via URL param — ?access=shepherd2026
   const urlParams = new URLSearchParams(window.location.search);
+
+  // ── RANDOM DEMO MODE: ?access=shepherd2026&demo=true ─────
+  if (urlParams.get('access') === 'shepherd2026' && urlParams.get('demo') === 'true') {
+    const pw = document.getElementById('paywall');
+    const bb = document.getElementById('beforebegin');
+    const app = document.getElementById('app');
+    if (pw) pw.style.display = 'none';
+    if (bb) bb.style.display = 'none';
+    if (app) app.style.display = 'block';
+    
+    // Show loading screen
+    const chatbox = document.getElementById('chatbox');
+    const loadscr = document.getElementById('loadscr');
+    if (chatbox) chatbox.style.display = 'none';
+    if (loadscr) loadscr.style.display = 'flex';
+    document.getElementById('loadlbl').textContent = 'Generating a random college list...';
+
+    // Call the demo API
+    fetch('/api/demo', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' })
+      .then(r => r.json())
+      .then(data => {
+        if (loadscr) loadscr.style.display = 'none';
+        if (data.result) {
+          S.lastResult = data.result;
+          S.listGenerated = true;
+          renderResults(data.result);
+          if (chatbox) chatbox.style.display = 'none';
+        } else {
+          alert('Demo error: ' + (data.error || 'Unknown error'));
+        }
+      })
+      .catch(err => {
+        if (loadscr) loadscr.style.display = 'none';
+        alert('Demo failed: ' + err.message);
+      });
+    return;
+  }
   // ── DEMO TOKEN SYSTEM ────────────────────────────────
   // Generate a 24-hour demo token: ?access=shepherd2026&generate=true
   if (urlParams.get('access') === 'shepherd2026' && urlParams.get('generate') === 'true') {
