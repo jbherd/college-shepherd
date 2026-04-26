@@ -2549,29 +2549,55 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (bb) bb.style.display = 'none';
     if (app) app.style.display = 'block';
     
-    // Show loading screen
+    // Show loading screen with cycling fun messages
     const chatbox = document.getElementById('chatbox');
     const loadscr = document.getElementById('loadscr');
     if (chatbox) chatbox.style.display = 'none';
-    if (loadscr) loadscr.style.display = 'flex';
-    document.getElementById('loadlbl').textContent = 'Generating a random college list...';
+    if (loadscr) loadscr.classList.add('show');
+
+    const demoMsgs = [
+      '🧭 Your college guide is being assembled...',
+      '🎓 The best years of your life are just ahead...',
+      '✨ Something amazing is being built for you...',
+      '🌟 Matching you with your perfect colleges...',
+      '📊 Analyzing thousands of college data points...',
+      '💰 Calculating real costs after financial aid...',
+      '🏛 Finding schools where you will truly belong...',
+      '📝 Crafting personalized essay angles...',
+      '🎯 Scoring fit across 5 dimensions...',
+      '🎉 Nearly there — this list was made just for you...',
+    ];
+    let demoMsgIdx = 0;
+    const demoInterval = setInterval(() => {
+      const lbl = document.getElementById('loadlbl');
+      if (lbl) lbl.textContent = demoMsgs[(demoMsgIdx = (demoMsgIdx+1) % demoMsgs.length)];
+    }, 2500);
 
     // Call the demo API
     fetch('/api/demo', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' })
       .then(r => r.json())
       .then(data => {
-        if (loadscr) loadscr.style.display = 'none';
+        clearInterval(demoInterval);
+        if (loadscr) loadscr.classList.remove('show');
         if (data.result) {
           S.lastResult = data.result;
           S.listGenerated = true;
           renderResults(data.result);
           if (chatbox) chatbox.style.display = 'none';
+          // Also enrich with real College Scorecard data
+          enrichWithScorecardData(data.result.colleges || [], '').then(scorecardResults => {
+            if (scorecardResults) {
+              data.result.colleges = applyRealData(scorecardResults, data.result.colleges || []);
+              renderResults(data.result);
+            }
+          });
         } else {
           alert('Demo error: ' + (data.error || 'Unknown error'));
         }
       })
       .catch(err => {
-        if (loadscr) loadscr.style.display = 'none';
+        clearInterval(demoInterval);
+        if (loadscr) loadscr.classList.remove('show');
         alert('Demo failed: ' + err.message);
       });
     return;
@@ -4159,8 +4185,8 @@ function renderResults(data) {
                 return '<div class="funfacts-wrap"><div class="funfacts-toggle" onclick="toggleFF(\'' +id+ '\')">'
                   +'<span class="funfacts-icon">\u2728</span>'
                   +'<span class="funfacts-label">Fun Facts & Why Students Love It</span>'
-                  +'<span class="funfacts-arrow" id="arr_'+id+'">\u25bc</span>'
-                  +'</div><div class="funfacts-body" id="'+id+'">'+items+'</div></div>';
+                  +'<span class="funfacts-arrow open" id="arr_'+id+'">\u25bc</span>'
+                  +'</div><div class="funfacts-body show" id="'+id+'">'+items+'</div></div>';
               })()}
 
           <div class="cctags">
