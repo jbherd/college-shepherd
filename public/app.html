@@ -1334,9 +1334,14 @@ const DEV_PROFILES = {
 };
 
 function autoFillAndGenerate(profileName) {
-  // Pick profile — cycle through them if called multiple times
+  // Pick profile — match by first name (case-insensitive) or full key
   const profiles = Object.keys(DEV_PROFILES);
-  const profile = DEV_PROFILES[profileName || profiles[0]];
+  let matchedKey = profileName;
+  if (profileName && !DEV_PROFILES[profileName]) {
+    // Try matching by first word case-insensitive
+    matchedKey = profiles.find(k => k.toLowerCase().startsWith(profileName.toLowerCase())) || profiles[0];
+  }
+  const profile = DEV_PROFILES[matchedKey || profiles[0]];
 
   // Hide paywall and before-begin, show app directly
   const pw = document.getElementById('paywall');
