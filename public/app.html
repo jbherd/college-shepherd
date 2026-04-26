@@ -2680,14 +2680,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const pw = document.getElementById('paywall');
     const bb = document.getElementById('beforebegin');
     const app = document.getElementById('app');
-    if (pw) pw.style.display = 'none';
-    if (bb) bb.style.display = 'none';
-    if (app) app.style.display = 'block';
-    // Init first, then autofill after app is ready
-    setTimeout(() => {
-      init();
-      setTimeout(() => autoFillAndGenerate(fillProfile), 800);
-    }, 200);
+    // autoFillAndGenerate handles its own display logic
+    setTimeout(() => autoFillAndGenerate(fillProfile), 300);
     return;
   }
   const af = document.getElementById('autoFillBtn');
