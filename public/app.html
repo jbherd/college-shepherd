@@ -2671,7 +2671,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Autofill via URL param: ?access=shepherd2026&fill=bella
   const fillProfile = urlParams.get('fill');
   if (fillProfile && urlParams.get('access') === 'shepherd2026') {
-    setTimeout(() => autoFillAndGenerate(fillProfile), 1500);
+    // Skip Before You Begin and paywall entirely — go straight to autofill
+    const pw = document.getElementById('paywall');
+    const bb = document.getElementById('beforebegin');
+    const app = document.getElementById('app');
+    if (pw) pw.style.display = 'none';
+    if (bb) bb.style.display = 'none';
+    if (app) app.style.display = 'block';
+    setTimeout(() => autoFillAndGenerate(fillProfile), 800);
+    return;
   }
   const af = document.getElementById('autoFillBtn');
   if (af) af.addEventListener('click', () => autoFillAndGenerate());
