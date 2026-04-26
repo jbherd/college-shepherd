@@ -2678,7 +2678,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (pw) pw.style.display = 'none';
     if (bb) bb.style.display = 'none';
     if (app) app.style.display = 'block';
-    setTimeout(() => autoFillAndGenerate(fillProfile), 800);
+    // Init first, then autofill after app is ready
+    setTimeout(() => {
+      init();
+      setTimeout(() => autoFillAndGenerate(fillProfile), 800);
+    }, 200);
     return;
   }
   const af = document.getElementById('autoFillBtn');
