@@ -2582,7 +2582,10 @@ document.addEventListener('DOMContentLoaded', async () => {
           enrichWithScorecardData(data.result.colleges || [], '').then(scorecardResults => {
             if (scorecardResults) {
               data.result.colleges = applyRealData(scorecardResults, data.result.colleges || []);
-              renderResults(data.result);
+              // Badge only - no re-render to prevent twitching
+              document.querySelectorAll('.netprice-disclaimer').forEach(el => {
+                if (!el.dataset.v) { el.dataset.v='1'; el.insertAdjacentHTML('afterbegin','<strong style="color:#1a7fd4">✓ Verified federal data</strong> · '); }
+              });
             }
           });
         } else {
@@ -4218,13 +4221,9 @@ function renderResults(data) {
   enrichWithScorecardData(data.colleges || [], incomeLevel).then(scorecardResults => {
     if (scorecardResults) {
       data.colleges = applyRealData(scorecardResults, data.colleges || []);
-      // Re-render college cards with real data
-      renderResults(data);
-      // Add verified badge to net price cards
+      // Badge only - no re-render to prevent twitching
       document.querySelectorAll('.netprice-disclaimer').forEach(el => {
-        if (el.textContent.includes('Department of Education')) {
-          el.innerHTML = '✓ <strong style="color:#1a7fd4">Verified federal data</strong> · ' + el.textContent;
-        }
+        if (!el.dataset.v) { el.dataset.v='1'; el.insertAdjacentHTML('afterbegin','<strong style="color:#1a7fd4">✓ Verified federal data</strong> · '); }
       });
     }
   });
