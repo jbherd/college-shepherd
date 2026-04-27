@@ -2575,6 +2575,40 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Secret bypass via URL param — ?access=shepherd2026
   const urlParams = new URLSearchParams(window.location.search);
 
+  // ── BETA ACCESS CODE: ?beta=SPRING2026 ──────────────────
+  const betaCode = urlParams.get('beta');
+  if (betaCode) {
+    fetch('/api/beta', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code: betaCode })
+    })
+    .then(r => r.json())
+    .then(data => {
+      if (data.valid) {
+        // Valid beta code - bypass paywall
+        const pw = document.getElementById('paywall');
+        const bb = document.getElementById('beforebegin');
+        if (pw) pw.style.display = 'none';
+        if (bb) {
+          // Show before begin with beta badge
+          const badge = document.createElement('div');
+          badge.style.cssText = 'background:linear-gradient(135deg,rgba(26,127,212,.15),rgba(26,127,212,.05));border:1px solid rgba(26,127,212,.3);border-radius:10px;padding:.6rem 1rem;font-size:.82rem;color:#2d9ae8;text-align:center;margin-bottom:1rem;font-weight:600';
+          badge.innerHTML = '🎓 Beta Access — ' + data.label;
+          bb.insertBefore(badge, bb.firstChild);
+          bb.style.display = 'block';
+        }
+        // Store beta code for session
+        sessionStorage.setItem('betaCode', betaCode);
+      } else {
+        // Invalid or expired - show paywall
+        console.log('Beta code invalid:', data.error);
+      }
+    })
+    .catch(() => console.log('Beta check failed'));
+    return;
+  }
+
   // ── RANDOM DEMO MODE: ?access=shepherd2026&demo=true ─────
   if (urlParams.get('access') === 'shepherd2026' && urlParams.get('demo') === 'true') {
     const pw = document.getElementById('paywall');
