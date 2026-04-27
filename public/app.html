@@ -300,10 +300,10 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
 .ranks-toggle.open .arr{transform:rotate(180deg)}
 .ranks-body{display:none;margin-top:9px;padding-top:9px;border-top:1.5px solid #d0d0d0}
 .ranks-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
-.ritem{background:var(--goldwash);border-radius:var(--r1);border:1px solid rgba(0,0,0,.12);padding:6px 9px}
-.ritem-src{font-size:.72rem;color:var(--tmu);text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px}
-.ritem-val{font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--navy);font-weight:700;line-height:1.2}
-.ritem-lbl{font-size:.72rem;color:var(--tmu)}
+.ritem{background:var(--goldwash);border-radius:var(--r1);border:1px solid rgba(0,0,0,.12);padding:8px 10px}
+.ritem-src{font-size:.78rem;color:var(--tmu);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px;font-weight:600}
+.ritem-val{font-family:'Cormorant Garamond',serif;font-size:1.15rem;color:var(--navy);font-weight:700;line-height:1.2}
+.ritem-lbl{font-size:.78rem;color:var(--tmu)}
 
 /* ─────────────────────────────────────────────
    SCORECARD
@@ -4127,20 +4127,29 @@ function renderResults(data) {
   sortedColleges.forEach((c,i) => {
     const t = tMap[c.tier] || tMap.match;
     const rk = c.rankings || {};
-    const rkItems = [
-      // Row 1 — Prestige & Rankings (5)
-      rk.usNews        ? `<div class="ritem"><div class="ritem-src">U.S. News</div><div class="ritem-val" style="font-size:.95rem">${rk.usNews}</div><div class="ritem-lbl">National ranking</div></div>` : '',
-      rk.forbes        ? `<div class="ritem"><div class="ritem-src">Forbes</div><div class="ritem-val" style="font-size:.95rem">${rk.forbes}</div><div class="ritem-lbl">Top colleges</div></div>` : '',
-      rk.princetonReview ? `<div class="ritem"><div class="ritem-src">Princeton Review</div><div class="ritem-val" style="font-size:.88rem;line-height:1.3">${rk.princetonReview}</div><div class="ritem-lbl">Best colleges list</div></div>` : '',
-      rk.moneyMag      ? `<div class="ritem"><div class="ritem-src">Money Magazine</div><div class="ritem-val" style="font-size:.88rem;line-height:1.3">${rk.moneyMag}</div><div class="ritem-lbl">Best value colleges</div></div>` : '',
-      rk.wsj           ? `<div class="ritem"><div class="ritem-src">Wall St. Journal</div><div class="ritem-val" style="font-size:.95rem">${rk.wsj}</div><div class="ritem-lbl">College ranking</div></div>` : '',
-      // Row 2 — Admissions & Outcomes (5)
-      c.acceptanceRate ? `<div class="ritem"><div class="ritem-src">Acceptance Rate</div><div class="ritem-val" style="font-size:.95rem">${c.acceptanceRate}</div><div class="ritem-lbl">Admit rate</div></div>` : '',
-      c.gradRate       ? `<div class="ritem"><div class="ritem-src">Grad Rate</div><div class="ritem-val" style="font-size:.95rem">${c.gradRate}</div><div class="ritem-lbl">4-yr completion</div></div>` : '',
-      rk.studentFaculty ? `<div class="ritem"><div class="ritem-src">Student/Faculty</div><div class="ritem-val" style="font-size:.95rem">${rk.studentFaculty}</div><div class="ritem-lbl">Class access</div></div>` : '',
-      rk.payScale      ? `<div class="ritem"><div class="ritem-src">PayScale</div><div class="ritem-val" style="font-size:.95rem">${rk.payScale}</div><div class="ritem-lbl">Mid-career salary</div></div>` : '',
-      c.size           ? `<div class="ritem"><div class="ritem-src">Campus Size</div><div class="ritem-val" style="font-size:.95rem">${c.size}</div><div class="ritem-lbl">Student body</div></div>` : '',
-    ].filter(Boolean).join('');
+    const rkItems = (() => {
+      // Row 1 — Prestige Rankings (AI-provided, show whatever AI returns)
+      const row1 = [
+        rk.usNews        ? `<div class="ritem"><div class="ritem-src">U.S. News</div><div class="ritem-val">${rk.usNews}</div><div class="ritem-lbl">National ranking</div></div>` : null,
+        rk.forbes        ? `<div class="ritem"><div class="ritem-src">Forbes</div><div class="ritem-val">${rk.forbes}</div><div class="ritem-lbl">Top colleges</div></div>` : null,
+        rk.princetonReview ? `<div class="ritem"><div class="ritem-src">Princeton Review</div><div class="ritem-val">${rk.princetonReview}</div><div class="ritem-lbl">Best colleges list</div></div>` : null,
+        rk.moneyMag      ? `<div class="ritem"><div class="ritem-src">Money Magazine</div><div class="ritem-val">${rk.moneyMag}</div><div class="ritem-lbl">Best value colleges</div></div>` : null,
+        rk.wsj           ? `<div class="ritem"><div class="ritem-src">Wall St. Journal</div><div class="ritem-val">${rk.wsj}</div><div class="ritem-lbl">College ranking</div></div>` : null,
+      ].filter(Boolean);
+      // Pad row 1 to exactly 5 with program rank or acceptance rate
+      if (row1.length < 5 && rk.programRank) row1.push(`<div class="ritem"><div class="ritem-src">Program Rank</div><div class="ritem-val">${rk.programRank}</div><div class="ritem-lbl">For your major</div></div>`);
+      if (row1.length < 5) row1.push(`<div class="ritem"><div class="ritem-src">Selectivity</div><div class="ritem-val">${c.tier==='reach'?'Highly Selective':c.tier==='safety'?'Less Selective':'Selective'}</div><div class="ritem-lbl">Admission level</div></div>`);
+      while (row1.length < 5) row1.push(`<div class="ritem"><div class="ritem-src">Type</div><div class="ritem-val">${c.size&&c.size.includes('Large')?'Public University':'Private University'}</div><div class="ritem-lbl">Institution type</div></div>`);
+      // Row 2 — Admissions & Outcomes (guaranteed 5)
+      const row2 = [
+        `<div class="ritem"><div class="ritem-src">Acceptance Rate</div><div class="ritem-val">${c.acceptanceRate||'N/A'}</div><div class="ritem-lbl">Admit rate</div></div>`,
+        `<div class="ritem"><div class="ritem-src">Campus Size</div><div class="ritem-val">${c.size||'N/A'}</div><div class="ritem-lbl">Student body</div></div>`,
+        rk.studentFaculty ? `<div class="ritem"><div class="ritem-src">Student/Faculty</div><div class="ritem-val">${rk.studentFaculty}</div><div class="ritem-lbl">Class access</div></div>` : `<div class="ritem"><div class="ritem-src">Location</div><div class="ritem-val">${c.location||'N/A'}</div><div class="ritem-lbl">City &amp; state</div></div>`,
+        rk.payScale ? `<div class="ritem"><div class="ritem-src">PayScale</div><div class="ritem-val">${rk.payScale}</div><div class="ritem-lbl">Mid-career salary</div></div>` : `<div class="ritem"><div class="ritem-src">Tier</div><div class="ritem-val">${c.tier||'Match'}</div><div class="ritem-lbl">Your fit level</div></div>`,
+        c.gradRate ? `<div class="ritem"><div class="ritem-src">Grad Rate</div><div class="ritem-val">${c.gradRate}</div><div class="ritem-lbl">4-yr completion</div></div>` : `<div class="ritem"><div class="ritem-src">Setting</div><div class="ritem-val">${c.location?(c.location.split(',')[0]||c.location):'N/A'}</div><div class="ritem-lbl">Campus location</div></div>`,
+      ];
+      return [...row1.slice(0,5), ...row2].join('');
+    })();
 
     html += `
       <div class="ccard" style="animation-delay:${i*.055}s">
