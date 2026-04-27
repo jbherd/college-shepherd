@@ -2548,13 +2548,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (pw) pw.style.display = 'none';
     if (bb) bb.style.display = 'none';
     if (app) app.style.display = 'block';
-    
-    // Show loading screen with cycling fun messages
     const chatbox = document.getElementById('chatbox');
     const loadscr = document.getElementById('loadscr');
     if (chatbox) chatbox.style.display = 'none';
     if (loadscr) loadscr.classList.add('show');
-
     const demoMsgs = [
       '🧭 Your college guide is being assembled...',
       '🎓 The best years of your life are just ahead...',
@@ -2572,8 +2569,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       const lbl = document.getElementById('loadlbl');
       if (lbl) lbl.textContent = demoMsgs[(demoMsgIdx = (demoMsgIdx+1) % demoMsgs.length)];
     }, 2500);
-
-    // Call the demo API
     fetch('/api/demo', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' })
       .then(r => r.json())
       .then(data => {
@@ -2584,7 +2579,6 @@ document.addEventListener('DOMContentLoaded', async () => {
           S.listGenerated = true;
           renderResults(data.result);
           if (chatbox) chatbox.style.display = 'none';
-          // Also enrich with real College Scorecard data
           enrichWithScorecardData(data.result.colleges || [], '').then(scorecardResults => {
             if (scorecardResults) {
               data.result.colleges = applyRealData(scorecardResults, data.result.colleges || []);
@@ -2909,6 +2903,13 @@ async function generateList() {
 // Renders the pre-generation action buttons into qrzone.
 // Called on first arrival AND after closing the skip drawer
 // so buttons are always restored when the drawer is dismissed.
+function goToQuestion(idx) {
+  S.skipped = S.skipped.filter(id => id !== (S.visible[idx] && S.visible[idx].id));
+  S.qi = idx;
+  clearInput();
+  askQuestion(idx);
+}
+
 function goToQuestion(idx) {
   S.skipped = S.skipped.filter(id => id !== (S.visible[idx] && S.visible[idx].id));
   S.qi = idx;
@@ -3910,7 +3911,7 @@ RULES — follow strictly:
 - Reference state-specific flagships when student wants to stay close to home
 - For essayAngles: generate exactly 5 angles. Each must reference something SPECIFIC from the student's answers — their major, a sport, a value, a goal, a challenge. Never generic advice like 'write about a challenge you overcame'
 - fitScores must be 1-10 integers reflecting genuine fit for THIS student
-- rankings MUST be populated for every school — never leave all fields empty. usNews: always include overall ranking (e.g. "#28 National Universities"). programRank: include if the school has a notable program rank relevant to this student's major. princetonReview: include a real superlative (e.g. "Best Value", "Most Beautiful Campus"). niche: include overall grade (e.g. "A+", "A"). payScale: always include median early career salary (e.g. "~$58,000 median"). These rankings make the card feel data-rich and authoritative.
+- rankings MUST be populated for every school. usNews: always include overall ranking (e.g. "#28 National Universities"). programRank: include if notable for this major. princetonReview: include a real superlative (e.g. "Best Value Colleges"). niche: include overall grade (e.g. "A+"). payScale: always include median salary (e.g. "~$58,000 median early career"). Never leave all fields empty.
 - netPrice MUST include tuition, housing, meals, and totalCOA as separate fields for every school. Use real 2024-25 federal College Scorecard data where available. tuition = tuition+fees only. housing = avg on-campus room cost. meals = avg meal plan cost. totalCOA = tuition+housing+meals+books+personal. All figures must be accurate and current — never invented. If unsure, use the school's published COA from their financial aid website.
 - Data accuracy is critical — CollegeShepherd's credibility depends on showing real numbers. Never fabricate costs. Use conservative estimates only when real data is unavailable and flag with "est." prefix.
 - funFacts: generate exactly 5 genuinely compelling, SPECIFIC facts per school personalized to THIS student's interests, major, sports, career goals. Use these categories: sports/championships, career/CEO/salary outcomes, beloved traditions/tailgates, location/campus setting, surprising/quirky facts. DUPLICATE RULES: never use "most Fortune 500 CEOs" more than once across all 10 schools — assign it to the single most defensible school only. Never repeat the same claim verbatim. Vary emoji categories. Make facts SPECIFIC and PUNCHY with real numbers and names., not generic school quality
@@ -4121,7 +4122,8 @@ function renderResults(data) {
     const t = tMap[c.tier] || tMap.match;
     const rk = c.rankings || {};
     const rkItems = [
-      rk.usNews      ? `<div class="ritem"><div class="ritem-src">U.S. News</div><div class="ritem-val" style="font-size:.95rem">${rk.usNews}</div><div class="ritem-lbl">Overall</div></div>` : '',
+      (rk.usNews||c.acceptanceRate) ? `<div class="ritem"><div class="ritem-src">U.S. News</div><div class="ritem-val" style="font-size:.95rem">${rk.usNews||'See ranking'}</div><div class="ritem-lbl">National ranking</div></div>` : '',
+      c.acceptanceRate ? `<div class="ritem"><div class="ritem-src">Acceptance Rate</div><div class="ritem-val" style="font-size:.95rem">${c.acceptanceRate}</div><div class="ritem-lbl">Admit rate</div></div>` : '',
       rk.programRank ? `<div class="ritem"><div class="ritem-src">Program Rank</div><div class="ritem-val" style="font-size:.95rem;line-height:1.3">${rk.programRank}</div><div class="ritem-lbl">Subject rank</div></div>` : '',
       rk.princetonReview ? `<div class="ritem"><div class="ritem-src">Princeton Review</div><div class="ritem-val" style="font-size:.95rem;line-height:1.3">${rk.princetonReview}</div><div class="ritem-lbl">Culture/lifestyle</div></div>` : '',
       rk.niche       ? `<div class="ritem"><div class="ritem-src">Niche</div><div class="ritem-val" style="font-size:.92rem">${rk.niche}</div><div class="ritem-lbl">Student rating</div></div>` : '',
@@ -4220,21 +4222,8 @@ function renderResults(data) {
       renderColleges(data);
       // Add verified badge to net price cards
       document.querySelectorAll('.netprice-disclaimer').forEach(el => {
-        if (el.textContent.includes('Department of Education') || el.textContent.includes('Scorecard')) {
+        if (el.textContent.includes('Department of Education')) {
           el.innerHTML = '✓ <strong style="color:#1a7fd4">Verified federal data</strong> · ' + el.textContent;
-        }
-      });
-      // Also add verified badge to any card that got enriched
-      document.querySelectorAll('.netprice-wrap').forEach(wrap => {
-        if (!wrap.querySelector('.verified-badge')) {
-          const dis = wrap.querySelector('.netprice-disclaimer');
-          if (dis && dis.textContent.includes('College Scorecard')) {
-            const badge = document.createElement('div');
-            badge.className = 'verified-badge';
-            badge.style.cssText = 'font-size:.72rem;color:#1a7fd4;font-weight:600;margin-top:4px';
-            badge.innerHTML = '✓ Verified federal data — U.S. Dept. of Education';
-            wrap.appendChild(badge);
-          }
         }
       });
     }
