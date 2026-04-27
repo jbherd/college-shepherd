@@ -4122,7 +4122,7 @@ function renderResults(data) {
     const t = tMap[c.tier] || tMap.match;
     const rk = c.rankings || {};
     const rkItems = [
-      (rk.usNews||c.acceptanceRate) ? `<div class="ritem"><div class="ritem-src">U.S. News</div><div class="ritem-val" style="font-size:.95rem">${rk.usNews||'See ranking'}</div><div class="ritem-lbl">National ranking</div></div>` : '',
+      rk.usNews ? `<div class="ritem"><div class="ritem-src">U.S. News</div><div class="ritem-val" style="font-size:.95rem">${rk.usNews}</div><div class="ritem-lbl">National ranking</div></div>` : '',
       c.acceptanceRate ? `<div class="ritem"><div class="ritem-src">Acceptance Rate</div><div class="ritem-val" style="font-size:.95rem">${c.acceptanceRate}</div><div class="ritem-lbl">Admit rate</div></div>` : '',
       rk.programRank ? `<div class="ritem"><div class="ritem-src">Program Rank</div><div class="ritem-val" style="font-size:.95rem;line-height:1.3">${rk.programRank}</div><div class="ritem-lbl">Subject rank</div></div>` : '',
       rk.princetonReview ? `<div class="ritem"><div class="ritem-src">Princeton Review</div><div class="ritem-val" style="font-size:.95rem;line-height:1.3">${rk.princetonReview}</div><div class="ritem-lbl">Culture/lifestyle</div></div>` : '',
@@ -4513,6 +4513,7 @@ function recalc() {
 // ─────────────────────────────────────────────
 // ── COLLEGE SCORECARD ENRICHMENT ─────────────────────────
 async function enrichWithScorecardData(colleges, incomeLevel) {
+  console.log('Scorecard: calling API for', colleges.length, 'colleges');
   try {
     const response = await fetch('/api/scorecard', {
       method: 'POST',
@@ -4524,6 +4525,7 @@ async function enrichWithScorecardData(colleges, incomeLevel) {
     });
     if (!response.ok) return null;
     const data = await response.json();
+    console.log('Scorecard results:', Object.keys(data.results || {}).length, 'schools enriched');
     return data.results;
   } catch (e) {
     console.log('Scorecard enrichment failed:', e.message);
