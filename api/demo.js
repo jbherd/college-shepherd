@@ -53,7 +53,7 @@ Return ONLY valid JSON (no markdown, no backticks) in this exact format:
       "fitScores": {"academic": 8, "campusVibe": 7, "costFit": 8, "location": 9, "socialLife": 7},
       "netPrice": {"estimated": "$X,XXX/yr", "sticker": "$X,XXX/yr", "savings": "$X,XXX/yr", "basis": "income bracket", "tuition": "$X,XXX/yr", "housing": "$X,XXX/yr", "meals": "$X,XXX/yr", "totalCOA": "$X,XXX/yr"},
       "funFacts": [{"emoji": "🏆", "fact": "specific compelling fact"}, {"emoji": "💼", "fact": "career/salary fact"}, {"emoji": "🎉", "fact": "campus life fact"}],
-      "rankings": {"usNews": "#XX National Universities (required)", "programRank": "#X for major if notable (required)", "princetonReview": "Best Value or other superlative (required)", "niche": "A+ or grade (required)", "payScale": "~$XX,XXX median early career (required)"}
+      "rankings": {"usNews": "#XX National Universities (required)", "forbes": "#XX Forbes Top Colleges (always include)", "wsj": "#XX Wall Street Journal (include if known)", "programRank": "#X for major if notable (required)", "princetonReview": "Best Value or other superlative (required)", "moneyMag": "#XX Money Magazine Best Colleges (always include)", "payScale": "~$XX,XXX median early career (required)"}
     }
   ],
   "essayAngles": [
