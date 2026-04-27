@@ -4219,7 +4219,7 @@ function renderResults(data) {
     if (scorecardResults) {
       data.colleges = applyRealData(scorecardResults, data.colleges || []);
       // Re-render college cards with real data
-      renderColleges(data);
+      renderResults(data);
       // Add verified badge to net price cards
       document.querySelectorAll('.netprice-disclaimer').forEach(el => {
         if (el.textContent.includes('Department of Education')) {
