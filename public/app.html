@@ -700,6 +700,41 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
   60%{transform:translateX(-4px)}
   80%{transform:translateX(4px)}
 }
+
+/* ── STUDENT ARCHETYPE ───────────────────────────────────── */
+.archetype-badge{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,rgba(26,127,212,.12),rgba(26,127,212,.06));border:1px solid rgba(26,127,212,.25);border-radius:25px;padding:6px 16px;font-size:.88rem;color:var(--navy);margin-top:.75rem}
+.archetype-badge strong{color:#1a7fd4}
+
+/* ── TOP PICK CARD ───────────────────────────────────────── */
+.top-pick-card{background:linear-gradient(135deg,#0a1628,#0d2040);border:1px solid rgba(26,127,212,.3);border-radius:14px;padding:1.5rem 1.75rem;margin:1.5rem 0;position:relative;overflow:hidden}
+.top-pick-card::before{content:'';position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(26,127,212,.08) 0%,transparent 70%);top:-100px;right:-50px;pointer-events:none}
+.tp-eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;color:#2d9ae8;font-weight:700;margin-bottom:.6rem}
+.tp-school{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:#fff;margin-bottom:.5rem}
+.tp-reason{font-size:.92rem;color:rgba(255,255,255,.75);line-height:1.7;margin-bottom:.6rem}
+.tp-tradeoff{font-size:.84rem;color:rgba(255,255,255,.45);font-style:italic;margin-bottom:.75rem}
+.tp-top3{font-size:.82rem;color:rgba(255,255,255,.4);padding-top:.75rem;border-top:1px solid rgba(255,255,255,.08)}
+.tp-top3 strong{color:#2d9ae8}
+
+/* ── REGRET SCORE ────────────────────────────────────────── */
+.regret-bar{margin:.75rem 0 .5rem;padding:.75rem 1rem;background:rgba(0,0,0,.04);border-radius:8px;border:1px solid rgba(0,0,0,.06)}
+.regret-label{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}
+.regret-track{height:5px;background:rgba(0,0,0,.08);border-radius:3px;margin-bottom:6px;overflow:hidden}
+.regret-fill{height:100%;border-radius:3px;transition:width .5s ease}
+.regret-reason{font-size:.8rem;color:var(--tmu);line-height:1.5;font-style:italic}
+
+/* ── INSTANT CLARITY ─────────────────────────────────────── */
+.clarity-btn{display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,#1a7fd4,#0a5ca8);color:#fff;border:none;border-radius:12px;padding:14px 20px;font-family:inherit;font-size:.95rem;font-weight:600;cursor:pointer;width:100%;margin-bottom:1rem;transition:all .25s}
+.clarity-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(26,127,212,.3)}
+.clarity-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:1000;align-items:center;justify-content:center;padding:2rem}
+.clarity-modal.show{display:flex}
+.clarity-inner{background:#fff;border-radius:20px;padding:2rem;max-width:520px;width:100%;max-height:90vh;overflow-y:auto}
+.clarity-title{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;color:#0a1628;margin-bottom:1.5rem}
+.clarity-pick{background:#f8f9ff;border-radius:12px;padding:1.25rem;margin-bottom:1rem;border-left:4px solid #1a7fd4}
+.clarity-pick-num{font-size:.7rem;text-transform:uppercase;letter-spacing:.15em;color:#1a7fd4;font-weight:700;margin-bottom:.3rem}
+.clarity-pick-name{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:#0a1628;margin-bottom:.4rem}
+.clarity-pick-why{font-size:.88rem;color:#555;line-height:1.6}
+.clarity-close{width:100%;padding:12px;border:1px solid #ddd;background:#fff;border-radius:8px;font-family:inherit;font-size:.9rem;cursor:pointer;margin-top:.5rem;color:#666}
+
 </style>
 </head>
 <body>
@@ -3794,6 +3829,13 @@ Return ONLY valid JSON with NO markdown fences, no preamble, nothing else:
 
 {
   "studentName": "first name from profile",
+  "studentArchetype": "2-4 word student identity label based on their profile (e.g. 'Structured Explorer', 'Ambitious Achiever', 'Creative Connector', 'Driven Pragmatist', 'Social Leader', 'Independent Thinker')",
+  "topPick": {
+    "school": "The single best-fit school name",
+    "reason": "2 sentence confident recommendation explaining exactly why this is their best choice",
+    "tradeoff": "1 sentence honest tradeoff or risk to consider"
+  },
+  "top3": ["School 1 name", "School 2 name", "School 3 name"],
   "personalSummary": "3-4 sentences showing you truly understood this specific student. Reference their goals, academic situation, campus preferences, and what makes them unique. CRITICAL: never contradict their answers — if they said both parents went to college, do NOT call them first-generation. Only state things directly supported by their answers.",
   "profileChips": ["punchy descriptor 1","descriptor 2","descriptor 3","descriptor 4"],
   "overallRankings": [
@@ -3823,6 +3865,11 @@ Return ONLY valid JSON with NO markdown fences, no preamble, nothing else:
         "moneyMag": "#XX (always include Money Magazine Best Colleges ranking)",
         "payScale": "~$XX,XXX mid-career median salary",
         "studentFaculty": "18:1 (always include student-to-faculty ratio)"
+      },
+      "regretScore": {
+        "score": 2,
+        "label": "Low Risk",
+        "reason": "1 sentence: why student would or would not regret attending"
       },
       "fitScores": {
         "academic": 8,
@@ -3871,6 +3918,10 @@ Return ONLY valid JSON with NO markdown fences, no preamble, nothing else:
 }
 
 RULES — follow strictly:
+- studentArchetype: create a 2-4 word identity label that feels personal and insightful (not generic)
+- topPick: confidently name the single best school. This is your counselor recommendation. Be direct.
+- top3: list the 3 schools you most confidently recommend in order
+- regretScore: score 1-5 (1=very unlikely to regret, 5=high risk). label: "Very Low Risk", "Low Risk", "Moderate Risk", "Higher Risk", "High Risk". reason: one honest sentence about fit vs risk
 - Exactly 10 colleges: 3-4 reach, 3-4 match, 2-3 safety
 - ALWAYS use the RANKINGS REFERENCE DATA above — do not invent schools or use schools not in the data unless you are certain they exist and fit perfectly
 - Safety schools must feel like genuine great options the student would LOVE — never consolation prizes
@@ -4093,7 +4144,17 @@ function renderResults(data) {
       <div class="resey">Your Personalized College List</div>
       <h2>${data.studentName || 'Your'}'s Top 10 Colleges</h2>
       <p class="ressumm">${data.personalSummary || ''}</p>
+      ${data.studentArchetype ? `<div class="archetype-badge">🎓 Your Student Archetype: <strong>${data.studentArchetype}</strong></div>` : ''}
     </div>
+
+    ${data.topPick ? `
+    <div class="top-pick-card">
+      <div class="tp-eyebrow">⭐ CollegeShepherd Recommends</div>
+      <div class="tp-school">${data.topPick.school}</div>
+      <div class="tp-reason">${data.topPick.reason}</div>
+      <div class="tp-tradeoff">⚖️ Consider: ${data.topPick.tradeoff}</div>
+      ${data.top3 && data.top3.length ? `<div class="tp-top3">Also consider: <strong>${data.top3.join(' · ')}</strong></div>` : ''}
+    </div>` : ''}
     <div class="profchips">
       ${(data.profileChips||[]).map((c,i)=>`<span class="pchips ${chipCols[i%4]}">${c}</span>`).join('')}
     </div>`;
@@ -4212,6 +4273,18 @@ function renderResults(data) {
                   +'<span class="funfacts-arrow open" id="arr_'+id+'">\u25bc</span>'
                   +'</div><div class="funfacts-body show" id="'+id+'">'+items+'</div></div>';
               })()}
+
+          ${(()=>{
+            const rs = c.regretScore;
+            if (!rs) return '';
+            const colors = {1:'#4ade80',2:'#86efac',3:'#fbbf24',4:'#f97316',5:'#ef4444'};
+            const col = colors[rs.score] || '#fbbf24';
+            return '<div class="regret-bar">'
+              +'<div class="regret-label" style="color:'+col+'">'+rs.label+' of Regret</div>'
+              +'<div class="regret-track"><div class="regret-fill" style="width:'+(rs.score*20)+'%;background:'+col+'"></div></div>'
+              +'<div class="regret-reason">'+rs.reason+'</div>'
+              +'</div>';
+          })()}
 
           <div class="cctags">
             <span class="tag t1">${c.tagCategory}</span>
@@ -4631,6 +4704,18 @@ function renderNextSteps(data) {
         </div>
       </div>
 
+      <div style="margin-bottom:1rem">
+        <button class="clarity-btn" onclick="showClarity()">
+          ⚡ Just tell me what to do
+        </button>
+      </div>
+      <div id="clarityModal" class="clarity-modal" onclick="if(event.target===this)hideClarity()">
+        <div class="clarity-inner">
+          <div class="clarity-title">Your Top 3 — CollegeShepherd Recommends</div>
+          <div id="clarityContent"></div>
+          <button class="clarity-close" onclick="hideClarity()">Got it — back to my full list</button>
+        </div>
+      </div>
       <div class="nsfooter">
         <button class="btngh" onclick="restartApp()">↩ Retake Assessment</button>
         <button class="btngh" onclick="startBrandNew()" style="border-color:rgba(255,100,100,.4);color:#ff9999">🗑 Start Brand New</button>
@@ -4771,6 +4856,47 @@ function askParentToPay() {
   );
   window.location.href = 'mailto:?subject=' + subject + '&body=' + body;
   showToast('Email to parents opened! Send it to get started.');
+}
+
+function showClarity() {
+  const modal = document.getElementById('clarityModal');
+  const content = document.getElementById('clarityContent');
+  const data = S.lastResult;
+  if (!modal || !content || !data) return;
+
+  // Build top 3 from topPick + top3 array or first 3 colleges
+  const top3Names = data.top3 || (data.colleges||[]).slice(0,3).map(c=>c.name);
+  const colleges = data.colleges || [];
+
+  let html = '';
+  if (data.topPick) {
+    html += `<div class="clarity-pick" style="border-left-color:#1a7fd4;background:#eef4ff">
+      <div class="clarity-pick-num">⭐ #1 — Best Overall Fit</div>
+      <div class="clarity-pick-name">${data.topPick.school}</div>
+      <div class="clarity-pick-why">${data.topPick.reason}</div>
+      ${data.topPick.tradeoff ? `<div style="font-size:.82rem;color:#888;margin-top:.5rem;font-style:italic">⚖️ ${data.topPick.tradeoff}</div>` : ''}
+    </div>`;
+  }
+
+  top3Names.slice(data.topPick?1:0, data.topPick?3:3).forEach((name, i) => {
+    const college = colleges.find(c => c.name === name) || {name};
+    html += `<div class="clarity-pick">
+      <div class="clarity-pick-num">#${i+2} — ${college.tier ? college.tier.charAt(0).toUpperCase()+college.tier.slice(1) : 'Strong Choice'}</div>
+      <div class="clarity-pick-name">${college.name}</div>
+      <div class="clarity-pick-why">${college.why || 'Strong fit based on your profile.'}</div>
+    </div>`;
+  });
+
+  if (!html) html = '<p style="color:#888">Generate your list first to see recommendations.</p>';
+  content.innerHTML = html;
+  modal.classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+
+function hideClarity() {
+  const modal = document.getElementById('clarityModal');
+  if (modal) modal.classList.remove('show');
+  document.body.style.overflow = '';
 }
 
 function savePDF() {
