@@ -1,1 +1,28 @@
-{"outputDirectory":"public","functions":{"api/*.js":{"maxDuration":60}},"headers":[{"source":"/sitemap.xml","headers":[{"key":"Content-Type","value":"application/xml; charset=utf-8"}]},{"source":"/robots.txt","headers":[{"key":"Content-Type","value":"text/plain; charset=utf-8"}]}]}
+{
+  "outputDirectory": "public",
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 60
+    }
+  }
+}
