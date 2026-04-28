@@ -2590,9 +2590,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         const pw = document.getElementById('paywall');
         if (pw) pw.style.display = 'none';
         sessionStorage.setItem('betaCode', betaCode);
-        // Add beta badge to before begin screen
+        // Show before begin screen explicitly
         const bb = document.getElementById('beforebegin');
         if (bb) {
+          bb.style.display = 'flex';
           const badge = document.createElement('div');
           badge.style.cssText = 'background:linear-gradient(135deg,rgba(26,127,212,.15),rgba(26,127,212,.05));border:1px solid rgba(26,127,212,.3);border-radius:10px;padding:.6rem 1rem;font-size:.82rem;color:#2d9ae8;text-align:center;margin-bottom:1rem;font-weight:600';
           badge.innerHTML = '🎓 Beta Access — ' + data.label;
