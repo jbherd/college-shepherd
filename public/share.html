@@ -87,18 +87,12 @@ function buildParentEmail() {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  const id = getParam('id');
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
   const content = document.getElementById('content');
 
-  if (!id) {
-    content.innerHTML = '<div class="not-found"><h2>List not found</h2><p>This link may have expired or is invalid.</p><a href="/" style="color:#2d9ae8">Get your own list →</a></div>';
-    return;
-  }
-
-  // Try to load from localStorage (same browser) or show link expired
   let data = null;
-  // First try URL-encoded data (works cross-device)
-  // Try new compact format (?d=)
+  // Try compact encoded format (?d=) first - works cross-device
   const encodedData = params.get('d') || params.get('data');
   if (encodedData) {
     try {
