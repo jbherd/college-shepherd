@@ -3840,7 +3840,7 @@ ESADE Spain | HSG Switzerland | U of Amsterdam Netherlands
 PYEOF
 echo "Rankings text created, length: $(wc -c < /tmp/new_rankings.txt) bytes"`
 
-  const prompt = `You are an expert college admissions counselor. Build a personalized top-10 college list for this student. Be very concise.
+  const prompt = `You are an expert college admissions counselor. Build a personalized top-10 college list. Return ONLY valid JSON. Use only ASCII characters in all string values - no apostrophes, no smart quotes, no special characters.
 
 STUDENT PROFILE:
 ${profile}
@@ -3934,29 +3934,36 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields requir
     let raw = data.text.trim();
     raw = raw.replace(/^```json\s*/i,'').replace(/^```\s*/i,'').replace(/\s*```$/i,'').trim();
 
-    console.log('RAW RESPONSE LENGTH:', raw.length);
-    console.log('RAW RESPONSE PREVIEW:', raw.substring(7500, 7700));
     let result;
     try {
-      // Clean common JSON issues from AI responses
-      let fixed = raw
-        .replace(/,\s*([}\]])/g, '$1')  // trailing commas
-        .replace(/([\[{,]\s*)"([^"]*?)"\s*:\s*"([^"]*?)(?<!\\)"(?=[^:,}\]])/g, 
-          (m, pre, k, v) => pre + '"' + k + '":"' + v.replace(/"/g, '\\"') + '"')
-        .replace(/\r?\n/g, ' ')  // newlines in strings
-        .replace(/\t/g, ' ');    // tabs
+      // Step 1: remove markdown fences
+      let fixed = raw.replace(/^```json\s*/i,'').replace(/^```\s*/i,'').replace(/\s*```$/i,'').trim();
+      // Step 2: fix trailing commas
+      fixed = fixed.replace(/,\s*([}\]])/g, '$1');
+      // Step 3: parse
       result = JSON.parse(fixed);
     } catch(pe) {
+      // Step 4: try line-by-line repair
       try {
-        // Last resort: extract just colleges array
-        const match = raw.match(/"colleges"\s*:\s*(\[.*)/s);
-        if (match) {
-          const partial = '{"studentName":"Student","colleges":' + 
-            match[1].substring(0, match[1].lastIndexOf('},')+1) + ']}';
-          result = JSON.parse(partial);
-        } else throw pe;
+        const lines = raw.split('\n');
+        let repaired = '';
+        for (const line of lines) {
+          try {
+            repaired += line + '\n';
+            JSON.parse(repaired + ']}]}');
+          } catch(e) { }
+        }
+        // Find last complete college object
+        const lastBrace = raw.lastIndexOf('},');
+        if (lastBrace > 100) {
+          const partial = raw.substring(0, lastBrace + 1) + ']}';
+          const wrapped = partial.startsWith('{') ? partial : '{"studentName":"Student","colleges":[' + partial + ']}';
+          result = JSON.parse(wrapped.replace(/,\s*([}\]])/g, '$1'));
+        } else {
+          throw new Error('Cannot repair JSON');
+        }
       } catch(pe2) {
-        showError('The AI response had a formatting issue. Please try again.');
+        showError('Generation failed - please try again.');
         return;
       }
     }
