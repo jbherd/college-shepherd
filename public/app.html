@@ -2578,33 +2578,27 @@ document.addEventListener('DOMContentLoaded', async () => {
   // ── BETA ACCESS CODE: ?beta=SPRING2026 ──────────────────
   const betaCode = urlParams.get('beta');
   if (betaCode) {
-    fetch('/api/beta', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ code: betaCode })
-    })
-    .then(r => r.json())
-    .then(data => {
-      if (data.valid) {
-        // Valid beta code - hide paywall, show before begin
-        const pw = document.getElementById('paywall');
-        if (pw) pw.style.display = 'none';
-        sessionStorage.setItem('betaCode', betaCode);
-        // Show before begin screen explicitly
-        const bb = document.getElementById('beforebegin');
-        if (bb) {
-          bb.style.display = 'flex';
-          const badge = document.createElement('div');
-          badge.style.cssText = 'background:linear-gradient(135deg,rgba(26,127,212,.15),rgba(26,127,212,.05));border:1px solid rgba(26,127,212,.3);border-radius:10px;padding:.6rem 1rem;font-size:.82rem;color:#2d9ae8;text-align:center;margin-bottom:1rem;font-weight:600';
-          badge.innerHTML = '🎓 Beta Access — ' + data.label;
-          bb.insertBefore(badge, bb.firstChild);
-        }
-      } else {
-        console.log('Beta code invalid:', data.error);
-        alert('This beta link has expired or is invalid.');
+    const BETA_CODES = {
+      'SPRING2026': { expires: '2026-05-31', label: 'Spring 2026 Beta' },
+      'COUNSELOR26': { expires: '2026-06-30', label: 'Counselor Beta' },
+      'IECA2026':   { expires: '2026-06-30', label: 'IECA Partner Beta' },
+    };
+    const entry = BETA_CODES[betaCode.toUpperCase().trim()];
+    const valid = entry && new Date() < new Date(entry.expires);
+    if (valid) {
+      const pw = document.getElementById('paywall');
+      if (pw) pw.style.display = 'none';
+      const bb = document.getElementById('beforebegin');
+      if (bb) {
+        bb.style.display = 'flex';
+        const badge = document.createElement('div');
+        badge.style.cssText = 'background:linear-gradient(135deg,rgba(26,127,212,.15),rgba(26,127,212,.05));border:1px solid rgba(26,127,212,.3);border-radius:10px;padding:.6rem 1rem;font-size:.82rem;color:#2d9ae8;text-align:center;margin-bottom:1rem;font-weight:600';
+        badge.innerHTML = '🎓 Beta Access — ' + entry.label;
+        bb.insertBefore(badge, bb.firstChild);
       }
-    })
-    .catch(err => console.log('Beta check failed:', err));
+    } else {
+      alert('This beta link has expired or is invalid. Please contact hello@collegeshepherd.com for access.');
+    }
   }
 
   // ── RANDOM DEMO MODE: ?access=shepherd2026&demo=true ─────
