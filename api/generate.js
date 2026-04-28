@@ -18,7 +18,7 @@ export default async function handler(req, res) {
   if (!limit.ok) return res.status(429).json({ error: 'Rate limit exceeded' });
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return res.status(500).json({ error: 'No API key' });
-  const { prompt, max_tokens = 2000 } = req.body;
+  const { prompt, max_tokens = 6000 } = req.body;
   if (!prompt) return res.status(400).json({ error: 'Missing prompt' });
   try {
     const r = await fetch('https://api.anthropic.com/v1/messages', {
@@ -33,3 +33,4 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: err.message });
   }
 }
+
