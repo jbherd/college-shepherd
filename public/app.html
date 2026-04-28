@@ -3852,7 +3852,7 @@ Return ONLY valid JSON, no markdown. Be very concise with text fields:
 
 {"studentName":"first name","studentArchetype":"2-3 word label","topPick":{"school":"name","reason":"1 sentence","tradeoff":"1 sentence"},"top3":["School 1","School 2","School 3"],"personalSummary":"2 sentences max","colleges":[{"rank":1,"name":"University Name","location":"City, ST","tier":"match","why":"1 sentence","highlights":["fact1","fact2"],"acceptanceRate":"X%","size":"Large","regretScore":{"score":2,"label":"Low Risk","reason":"brief"},"fitScores":{"academic":8,"campusVibe":7,"costFit":8,"location":9,"socialLife":7},"netPrice":{"estimated":"$X,XXX/yr","sticker":"$X,XXX/yr","savings":"$X,XXX/yr","basis":"income","tuition":"$X,XXX","housing":"$X,XXX","meals":"$X,XXX","totalCOA":"$X,XXX"},"funFacts":[{"emoji":"🏆","fact":"brief fact"},{"emoji":"💼","fact":"brief fact"}],"rankings":{"usNews":"#XX","forbes":"#XX","princetonReview":"Best Value","moneyMag":"#XX","wsj":"#XX","studentFaculty":"18:1"},"essayAngles":[{"title":"title","hook":"hook","why":"why"}],"tagCategory":"Category"}],"nextSteps":["step1","step2","step3"]}
 
-RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields required. Keep all text very short.`;
+RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields required. Keep all text very short. CRITICAL: Never use apostrophes, quotes, or special characters inside JSON string values. Use plain ASCII only.`;
 
   try {
     let res, data;
@@ -3936,12 +3936,27 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields requir
 
     let result;
     try {
-      const fixed = raw.replace(/,\s*([}\]])/g, '$1');
+      // Clean common JSON issues from AI responses
+      let fixed = raw
+        .replace(/,\s*([}\]])/g, '$1')  // trailing commas
+        .replace(/([\[{,]\s*)"([^"]*?)"\s*:\s*"([^"]*?)(?<!\\)"(?=[^:,}\]])/g, 
+          (m, pre, k, v) => pre + '"' + k + '":"' + v.replace(/"/g, '\\"') + '"')
+        .replace(/\r?\n/g, ' ')  // newlines in strings
+        .replace(/\t/g, ' ');    // tabs
       result = JSON.parse(fixed);
     } catch(pe) {
-      // Response was truncated - ask user to retry
-      showError('The AI response was cut short. Please click Try Again — it usually works on the second attempt.');
-      return;
+      try {
+        // Last resort: extract just colleges array
+        const match = raw.match(/"colleges"\s*:\s*(\[.*)/s);
+        if (match) {
+          const partial = '{"studentName":"Student","colleges":' + 
+            match[1].substring(0, match[1].lastIndexOf('},')+1) + ']}';
+          result = JSON.parse(partial);
+        } else throw pe;
+      } catch(pe2) {
+        showError('The AI response had a formatting issue. Please try again.');
+        return;
+      }
     }
 
     S.listGenerated = true;
