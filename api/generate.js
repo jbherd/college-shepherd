@@ -27,7 +27,6 @@ module.exports = async function handler(req, res) {
   const { prompt, max_tokens = 6000 } = req.body;
   if (!prompt) return res.status(400).json({ error: "Missing prompt" });
 
-  // Set headers for streaming
   res.setHeader("Content-Type", "text/event-stream");
   res.setHeader("Cache-Control", "no-cache");
   res.setHeader("Connection", "keep-alive");
@@ -38,13 +37,11 @@ module.exports = async function handler(req, res) {
       headers: {
         "Content-Type": "application/json",
         "x-api-key": apiKey,
-        "anthropic-version": "2023-06-01",
-        "anthropic-beta": "messages-2023-06-01"
+        "anthropic-version": "2023-06-01"
       },
       body: JSON.stringify({
         model: "claude-sonnet-4-5-20250929",
         max_tokens,
-        stream: false,
         messages: [{ role: "user", content: prompt }]
       })
     });
