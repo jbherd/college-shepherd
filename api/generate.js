@@ -1,6 +1,6 @@
-export const config = { runtime: 'edge' }; 
+export const config = { maxDuration: 300 }; 
 // api/generate.js — Edge Function (no timeout)
-export const config = { runtime: 'edge' };
+export const config = { maxDuration: 300 };
 
 const RATE_LIMIT = 20;
 
@@ -44,4 +44,5 @@ export default async function handler(req) {
     return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { 'Access-Control-Allow-Origin': '*' } });
   }
 }
+
 
