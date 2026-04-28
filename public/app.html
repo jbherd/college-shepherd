@@ -3940,7 +3940,9 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields requir
       let fixed = raw.replace(/^```json\s*/i,'').replace(/^```\s*/i,'').replace(/\s*```$/i,'').trim();
       // Step 2: fix trailing commas
       fixed = fixed.replace(/,\s*([}\]])/g, '$1');
-      // Step 3: parse
+      // Step 3: fix unescaped apostrophes inside JSON strings
+      fixed = fixed.replace(/"([^"\\\n]*)'([^"\\\n]*)"/g, '"$1$2"');
+      // Step 4: parse
       result = JSON.parse(fixed);
     } catch(pe) {
       // Step 4: try line-by-line repair
