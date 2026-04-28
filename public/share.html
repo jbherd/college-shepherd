@@ -96,7 +96,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const encodedData = params.get('d') || params.get('data');
   if (encodedData) {
     try {
-      const raw = JSON.parse(decodeURIComponent(escape(atob(encodedData))));
+      const raw = JSON.parse(decodeURIComponent(encodedData));
       // Handle both compact (n/c) and full (name/colleges) formats
       if (raw.n) {
         data = {

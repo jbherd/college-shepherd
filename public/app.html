@@ -4822,7 +4822,8 @@ function getShareUrl() {
     c: (d.colleges||[]).slice(0,10).map(x=>({r:x.rank,n:x.name,l:x.location,t:x.tier,a:x.acceptanceRate,p:x.netPrice&&x.netPrice.estimated}))
   };
   try {
-    const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(miniData))));
+    // Use encodeURIComponent directly - handles all unicode safely
+    const encoded = encodeURIComponent(JSON.stringify(miniData));
     return base + 'share.html?d=' + encoded;
   } catch(e) {
     return base + 'share.html?id=' + shareId;
