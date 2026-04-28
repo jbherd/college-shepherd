@@ -4814,16 +4814,16 @@ function getShareUrl() {
   const shareId = buildShareData();
   if (!shareId) return null;
   const base = window.location.origin + window.location.pathname.replace('app.html', '');
-  // Include encoded data in URL for cross-device sharing
+  // Encode minimal data only to keep URL short
   const d = S.lastResult;
   if (!d) return null;
   const miniData = {
-    name: d.studentName || 'A Student',
-    colleges: (d.colleges||[]).slice(0,10).map(c=>({rank:c.rank,name:c.name,location:c.location,tier:c.tier,why:c.why,acceptanceRate:c.acceptanceRate,netPrice:c.netPrice}))
+    n: d.studentName || 'A Student',
+    c: (d.colleges||[]).slice(0,10).map(x=>({r:x.rank,n:x.name,l:x.location,t:x.tier,a:x.acceptanceRate,p:x.netPrice&&x.netPrice.estimated}))
   };
   try {
     const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(miniData))));
-    return base + 'share.html?data=' + encoded;
+    return base + 'share.html?d=' + encoded;
   } catch(e) {
     return base + 'share.html?id=' + shareId;
   }

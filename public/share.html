@@ -98,11 +98,21 @@ window.addEventListener('DOMContentLoaded', () => {
   // Try to load from localStorage (same browser) or show link expired
   let data = null;
   // First try URL-encoded data (works cross-device)
-  const encodedData = params.get('data');
+  // Try new compact format (?d=)
+  const encodedData = params.get('d') || params.get('data');
   if (encodedData) {
     try {
-      data = JSON.parse(decodeURIComponent(escape(atob(encodedData))));
-    } catch(e) {}
+      const raw = JSON.parse(decodeURIComponent(escape(atob(encodedData))));
+      // Handle both compact (n/c) and full (name/colleges) formats
+      if (raw.n) {
+        data = {
+          name: raw.n,
+          colleges: (raw.c||[]).map(x=>({rank:x.r,name:x.n,location:x.l,tier:x.t,acceptanceRate:x.a,netPrice:{estimated:x.p}}))
+        };
+      } else {
+        data = raw;
+      }
+    } catch(e) { console.log('decode error:', e); }
   }
   // Fallback to localStorage (same device)
   if (!data) {
