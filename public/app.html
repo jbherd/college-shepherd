@@ -4800,10 +4800,12 @@ function buildShareData() {
     })),
     created: new Date().toISOString()
   };
-  // Save to localStorage so the share page can read it
+  // Encode data in URL so share works across devices
   try {
-    localStorage.setItem('cs_share_' + shareId, JSON.stringify(shareData));
+    const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(shareData))));
+    localStorage.setItem('cs_share_' + shareId, encoded);
     localStorage.setItem('cs_last_share', shareId);
+    shareData._encoded = encoded;
   } catch(e) {}
   return shareId;
 }
@@ -4812,7 +4814,19 @@ function getShareUrl() {
   const shareId = buildShareData();
   if (!shareId) return null;
   const base = window.location.origin + window.location.pathname.replace('app.html', '');
-  return base + 'share.html?id=' + shareId;
+  // Include encoded data in URL for cross-device sharing
+  const d = S.lastResult;
+  if (!d) return null;
+  const miniData = {
+    name: d.studentName || 'A Student',
+    colleges: (d.colleges||[]).slice(0,10).map(c=>({rank:c.rank,name:c.name,location:c.location,tier:c.tier,why:c.why,acceptanceRate:c.acceptanceRate,netPrice:c.netPrice}))
+  };
+  try {
+    const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(miniData))));
+    return base + 'share.html?data=' + encoded;
+  } catch(e) {
+    return base + 'share.html?id=' + shareId;
+  }
 }
 
 function shareToSocial() {
@@ -4907,7 +4921,9 @@ function showClarity() {
     </div>`;
   }
 
-  top3Names.slice(data.topPick?1:0, data.topPick?3:3).forEach((name, i) => {
+  // Filter out the topPick school from top3 to avoid duplication
+  const filteredTop3 = top3Names.filter(n => !data.topPick || n !== data.topPick.school);
+  filteredTop3.slice(0, 2).forEach((name, i) => {
     const college = colleges.find(c => c.name === name) || {name};
     html += `<div class="clarity-pick">
       <div class="clarity-pick-num">#${i+2} — ${college.tier ? college.tier.charAt(0).toUpperCase()+college.tier.slice(1) : 'Strong Choice'}</div>

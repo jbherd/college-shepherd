@@ -19,5 +19,25 @@
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "api/generate.js": {
+      "maxDuration": 60
+    },
+    "api/demo.js": {
+      "maxDuration": 60
+    },
+    "api/scorecard.js": {
+      "maxDuration": 30
+    },
+    "api/token.js": {
+      "maxDuration": 10
+    },
+    "api/subscribe.js": {
+      "maxDuration": 10
+    },
+    "api/beta.js": {
+      "maxDuration": 10
+    }
+  }
 }

@@ -97,10 +97,24 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Try to load from localStorage (same browser) or show link expired
   let data = null;
-  try {
-    const stored = localStorage.getItem('cs_share_' + id);
-    if (stored) data = JSON.parse(stored);
-  } catch(e) {}
+  // First try URL-encoded data (works cross-device)
+  const encodedData = params.get('data');
+  if (encodedData) {
+    try {
+      data = JSON.parse(decodeURIComponent(escape(atob(encodedData))));
+    } catch(e) {}
+  }
+  // Fallback to localStorage (same device)
+  if (!data) {
+    try {
+      const stored = localStorage.getItem('cs_share_' + id);
+      if (stored) data = JSON.parse(atob(stored));
+    } catch(e) {}
+    try {
+      const stored = localStorage.getItem('cs_share_' + id);
+      if (stored) data = JSON.parse(stored);
+    } catch(e) {}
+  }
 
   if (!data) {
     content.innerHTML = `

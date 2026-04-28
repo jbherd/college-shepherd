@@ -5,7 +5,7 @@
 // Before public launch: remove the hardcoded key and uncomment
 // the process.env line, then add key in Vercel dashboard.
 
-const RATE_LIMIT = 7;
+const RATE_LIMIT = 20; // bumped for beta testing
 const WINDOW_MS  = 24 * 60 * 60 * 1000;
 const ipStore    = new Map();
 
