@@ -3901,7 +3901,7 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All rankings requ
           'anthropic-version': '2023-06-01',
           'anthropic-dangerous-direct-browser-access': 'true'
         },
-        body: JSON.stringify({ model: 'claude-sonnet-4-5', max_tokens: 4000, messages: [{ role: 'user', content: prompt }] })
+        body: JSON.stringify({ model: 'claude-sonnet-4-5', max_tokens: 2000, messages: [{ role: 'user', content: prompt }] })
       });
       const raw2 = await res.json();
       clearInterval(iv);
@@ -3924,7 +3924,7 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All rankings requ
     res = await fetch('/api/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt, max_tokens: 4000 })
+      body: JSON.stringify({ prompt, max_tokens: 2000 })
     });
 
     // Safe parse - handle plain text error responses from Anthropic
@@ -5039,3 +5039,4 @@ function startBrandNew() {
 </script>
 </body>
 </html>
+

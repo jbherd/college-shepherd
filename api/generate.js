@@ -16,7 +16,7 @@ export default async function handler(req) {
   let body;
   try { body = await req.json(); } catch(e) { return new Response(JSON.stringify({ error: 'Invalid JSON' }), { status: 400 }); }
 
-  const { prompt, max_tokens = 4000 } = body;
+  const { prompt, max_tokens = 2000 } = body;
   if (!prompt) return new Response(JSON.stringify({ error: 'Missing prompt' }), { status: 400 });
 
   try {
@@ -44,3 +44,4 @@ export default async function handler(req) {
     return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { 'Access-Control-Allow-Origin': '*' } });
   }
 }
+
