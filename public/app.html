@@ -2554,7 +2554,8 @@ function handleSkip() {
   const q = S.visible[S.qi];
   if (!S.skipped.includes(q.id)) S.skipped.push(q.id);
   updateSkipUI();
-  addBubble('Skipped ↩ <button onclick="goToQuestion(' + S.qi + ')" style="background:none;border:none;color:var(--gold);cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;padding:0;text-decoration:underline">Change answer</button>', true);
+  const _skipIdx = S.qi;
+  addBubble('Skipped ↩ <button onclick="goToQuestion(' + _skipIdx + ')" style="background:none;border:none;color:var(--gold);cursor:pointer;font-family:inherit;font-size:.88rem;font-weight:600;padding:0;text-decoration:underline">Change answer</button>', true);
   buildVisible();
   S.qi++;
   saveSession();
@@ -4059,7 +4060,13 @@ RULES — follow strictly:
       body: JSON.stringify({ prompt, max_tokens: 10000 })
     });
 
-    data = await res.json();
+    // Safe parse - handle plain text error responses from Anthropic
+    const rawText = await res.text();
+    try {
+      data = JSON.parse(rawText);
+    } catch(e) {
+      data = { error: rawText || 'Server error. Please try again.' };
+    }
     clearInterval(iv);
     ls.classList.remove('show');
 
