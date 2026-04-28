@@ -3840,7 +3840,7 @@ ESADE Spain | HSG Switzerland | U of Amsterdam Netherlands
 PYEOF
 echo "Rankings text created, length: $(wc -c < /tmp/new_rankings.txt) bytes"`
 
-  const prompt = `You are a highly experienced college admissions counselor with 20+ years of experience. A student has completed your intake assessment. Build a deeply personalized top-10 college list.
+  const prompt = `You are an expert college admissions counselor. Build a personalized top-10 college list for this student. Be concise.
 
 STUDENT PROFILE:
 ${profile}
@@ -3848,37 +3848,11 @@ ${profile}
 SKIPPED QUESTIONS (do not assume answers — weight other factors more heavily):
 ${skippedKeys.length ? skippedKeys.join(', ') : 'None skipped'}
 
-Return ONLY valid JSON, no markdown:
+Return ONLY valid JSON, no markdown. Be very concise with text fields:
 
-{
-  "studentName": "first name",
-  "studentArchetype": "2-4 word identity label",
-  "topPick": {"school": "best school name", "reason": "2 sentences why", "tradeoff": "1 sentence tradeoff"},
-  "top3": ["School 1", "School 2", "School 3"],
-  "personalSummary": "3-4 sentences about this student",
-  "colleges": [
-    {
-      "rank": 1,
-      "name": "Full University Name",
-      "location": "City, State",
-      "tier": "match",
-      "why": "2 sentences personalized reason",
-      "highlights": ["highlight 1", "highlight 2", "highlight 3"],
-      "acceptanceRate": "X%",
-      "size": "Large/Medium/Small",
-      "regretScore": {"score": 2, "label": "Low Risk", "reason": "one sentence"},
-      "fitScores": {"academic": 8, "campusVibe": 7, "costFit": 8, "location": 9, "socialLife": 7},
-      "netPrice": {"estimated": "$X,XXX/yr", "sticker": "$X,XXX/yr", "savings": "$X,XXX/yr", "basis": "income bracket", "tuition": "$X,XXX/yr", "housing": "$X,XXX/yr", "meals": "$X,XXX/yr", "totalCOA": "$X,XXX/yr"},
-      "funFacts": [{"emoji": "🏆", "fact": "compelling fact"}, {"emoji": "💼", "fact": "career fact"}, {"emoji": "🎉", "fact": "campus life fact"}],
-      "rankings": {"usNews": "#XX National Universities", "forbes": "#XX Forbes", "princetonReview": "Best Value", "moneyMag": "#XX Money Magazine", "wsj": "#XX WSJ", "studentFaculty": "18:1"},
-      "essayAngles": [{"title": "Essay title", "hook": "Opening hook", "why": "Why it works"}],
-      "tagCategory": "Business & Finance"
-    }
-  ],
-  "nextSteps": ["step 1", "step 2", "step 3"]
-}
+{"studentName":"first name","studentArchetype":"2-3 word label","topPick":{"school":"name","reason":"1 sentence","tradeoff":"1 sentence"},"top3":["School 1","School 2","School 3"],"personalSummary":"2 sentences max","colleges":[{"rank":1,"name":"University Name","location":"City, ST","tier":"match","why":"1 sentence","highlights":["fact1","fact2"],"acceptanceRate":"X%","size":"Large","regretScore":{"score":2,"label":"Low Risk","reason":"brief"},"fitScores":{"academic":8,"campusVibe":7,"costFit":8,"location":9,"socialLife":7},"netPrice":{"estimated":"$X,XXX/yr","sticker":"$X,XXX/yr","savings":"$X,XXX/yr","basis":"income","tuition":"$X,XXX","housing":"$X,XXX","meals":"$X,XXX","totalCOA":"$X,XXX"},"funFacts":[{"emoji":"🏆","fact":"brief fact"},{"emoji":"💼","fact":"brief fact"}],"rankings":{"usNews":"#XX","forbes":"#XX","princetonReview":"Best Value","moneyMag":"#XX","wsj":"#XX","studentFaculty":"18:1"},"essayAngles":[{"title":"title","hook":"hook","why":"why"}],"tagCategory":"Category"}],"nextSteps":["step1","step2","step3"]}
 
-RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All rankings required. netPrice based on student income. regretScore 1-5. fitScores 1-10.`;
+RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields required. Keep all text very short.`;
 
   try {
     let res, data;
@@ -3901,7 +3875,7 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All rankings requ
           'anthropic-version': '2023-06-01',
           'anthropic-dangerous-direct-browser-access': 'true'
         },
-        body: JSON.stringify({ model: 'claude-sonnet-4-5', max_tokens: 3500, messages: [{ role: 'user', content: prompt }] })
+        body: JSON.stringify({ model: 'claude-sonnet-4-5', max_tokens: 4000, messages: [{ role: 'user', content: prompt }] })
       });
       const raw2 = await res.json();
       clearInterval(iv);
@@ -3924,7 +3898,7 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All rankings requ
     res = await fetch('/api/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt, max_tokens: 3500 })
+      body: JSON.stringify({ prompt, max_tokens: 4000 })
     });
 
     // Safe parse - handle plain text error responses from Anthropic
@@ -3961,8 +3935,23 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All rankings requ
     raw = raw.replace(/^```json\s*/i,'').replace(/^```\s*/i,'').replace(/\s*```$/i,'').trim();
 
     let result;
-    try { result = JSON.parse(raw); }
-    catch(pe) { showError(`Couldn't parse AI response. Please try again. (${pe.message})`); return; }
+    try {
+      // Fix common AI JSON issues: trailing commas, truncated arrays
+      const fixed = raw
+        .replace(/,\s*}/g, '}')
+        .replace(/,\s*]/g, ']')
+        .replace(/([^\\])"\s*\n\s*"/g, '$1", "');
+      result = JSON.parse(fixed);
+    } catch(pe) {
+      // Try to extract partial JSON
+      try {
+        const partial = raw.substring(0, raw.lastIndexOf('},')+1) + ']}';
+        result = JSON.parse(partial);
+      } catch(pe2) {
+        showError('Couldn\'t parse AI response. Please try again.');
+        return;
+      }
+    }
 
     S.listGenerated = true;
     S.lastResult = result;
@@ -5039,6 +5028,3 @@ function startBrandNew() {
 </script>
 </body>
 </html>
-
-
-
