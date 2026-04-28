@@ -1,3 +1,4 @@
+export const config = { runtime: 'edge' }; 
 // api/generate.js — Edge Function (no timeout)
 export const config = { runtime: 'edge' };
 
