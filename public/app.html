@@ -3934,6 +3934,8 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields requir
     let raw = data.text.trim();
     raw = raw.replace(/^```json\s*/i,'').replace(/^```\s*/i,'').replace(/\s*```$/i,'').trim();
 
+    console.log('RAW RESPONSE LENGTH:', raw.length);
+    console.log('RAW RESPONSE PREVIEW:', raw.substring(7500, 7700));
     let result;
     try {
       // Clean common JSON issues from AI responses
