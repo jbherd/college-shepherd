@@ -1,42 +1,22 @@
-// api/generate.js — streaming proxy to Anthropic
-export const config = { maxDuration: 60 };
+// api/generate.js — Edge Function (no timeout)
+export const config = { runtime: 'edge' };
 
 const RATE_LIMIT = 20;
-const WINDOW_MS = 24 * 60 * 60 * 1000;
-const hits = new Map();
 
-function checkRateLimit(ip) {
-  const now = Date.now();
-  const entry = hits.get(ip) || { count: 0, reset: now + WINDOW_MS };
-  if (now > entry.reset) { entry.count = 0; entry.reset = now + WINDOW_MS; }
-  entry.count++;
-  hits.set(ip, entry);
-  return { ok: entry.count <= RATE_LIMIT, remaining: Math.max(0, RATE_LIMIT - entry.count), resetAt: entry.reset, message: `Rate limit exceeded. Try again tomorrow.` };
-}
-
-export default async function handler(req, res) {
+export default async function handler(req) {
   if (req.method === 'OPTIONS') {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-    return res.status(200).end();
+    return new Response(null, { headers: { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type' } });
   }
-  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
-
-  res.setHeader('Access-Control-Allow-Origin', '*');
-
-  const ip = req.headers['x-forwarded-for']?.split(',')[0] || req.socket?.remoteAddress || 'unknown';
-  const limit = checkRateLimit(ip);
-  res.setHeader('X-RateLimit-Limit', String(RATE_LIMIT));
-  res.setHeader('X-RateLimit-Remaining', String(limit.remaining));
-
-  if (!limit.ok) return res.status(429).json({ error: limit.message, rateLimited: true, resetAt: limit.resetAt, limit: RATE_LIMIT });
+  if (req.method !== 'POST') return new Response(JSON.stringify({ error: 'Method not allowed' }), { status: 405 });
 
   const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) return res.status(500).json({ error: 'API key not configured' });
+  if (!apiKey) return new Response(JSON.stringify({ error: 'API key not configured' }), { status: 500 });
 
-  const { prompt, max_tokens = 4000 } = req.body;
-  if (!prompt || typeof prompt !== 'string') return res.status(400).json({ error: 'Missing prompt' });
+  let body;
+  try { body = await req.json(); } catch(e) { return new Response(JSON.stringify({ error: 'Invalid JSON' }), { status: 400 }); }
+
+  const { prompt, max_tokens = 4000 } = body;
+  if (!prompt) return new Response(JSON.stringify({ error: 'Missing prompt' }), { status: 400 });
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -54,16 +34,12 @@ export default async function handler(req, res) {
     });
 
     const data = await response.json();
-
-    if (!response.ok) {
-      return res.status(response.status).json({ error: data.error?.message || `Anthropic API error ${response.status}` });
-    }
+    if (!response.ok) return new Response(JSON.stringify({ error: data.error?.message || 'Anthropic error' }), { status: response.status, headers: { 'Access-Control-Allow-Origin': '*' } });
 
     const text = data.content?.[0]?.text || '';
-    return res.status(200).json({ text, remaining: limit.remaining });
+    return new Response(JSON.stringify({ text, remaining: RATE_LIMIT }), { status: 200, headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' } });
 
-  } catch (err) {
-    console.error('Proxy error:', err);
-    return res.status(500).json({ error: `Server error: ${err.message}` });
+  } catch(err) {
+    return new Response(JSON.stringify({ error: err.message }), { status: 500, headers: { 'Access-Control-Allow-Origin': '*' } });
   }
 }
