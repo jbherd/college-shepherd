@@ -3842,176 +3842,43 @@ echo "Rankings text created, length: $(wc -c < /tmp/new_rankings.txt) bytes"`
 
   const prompt = `You are a highly experienced college admissions counselor with 20+ years of experience. A student has completed your intake assessment. Build a deeply personalized top-10 college list.
 
-Use the following 2026 ranking reference data to inform your recommendations — cross-reference it with the student's preferences to find the best matches:
-
-${RANKINGS_REF}
-
 STUDENT PROFILE:
 ${profile}
 
 SKIPPED QUESTIONS (do not assume answers — weight other factors more heavily):
 ${skippedKeys.length ? skippedKeys.join(', ') : 'None skipped'}
 
-Return ONLY valid JSON with NO markdown fences, no preamble, nothing else:
+Return ONLY valid JSON, no markdown:
 
 {
-  "studentName": "first name from profile",
-  "studentArchetype": "2-4 word student identity label based on their profile (e.g. 'Structured Explorer', 'Ambitious Achiever', 'Creative Connector', 'Driven Pragmatist', 'Social Leader', 'Independent Thinker')",
-  "topPick": {
-    "school": "The single best-fit school name",
-    "reason": "2 sentence confident recommendation explaining exactly why this is their best choice",
-    "tradeoff": "1 sentence honest tradeoff or risk to consider"
-  },
-  "top3": ["School 1 name", "School 2 name", "School 3 name"],
-  "personalSummary": "3-4 sentences showing you truly understood this specific student. Reference their goals, academic situation, campus preferences, and what makes them unique. CRITICAL: never contradict their answers — if they said both parents went to college, do NOT call them first-generation. Only state things directly supported by their answers.",
-  "profileChips": ["punchy descriptor 1","descriptor 2","descriptor 3","descriptor 4"],
-  "overallRankings": [
-    {"source":"U.S. News","description":"1 sentence on how this student's profile maps to US News rankings"},
-    {"source":"Forbes","description":"1 sentence on value and outcomes perspective"},
-    {"source":"Wall Street Journal","description":"1 sentence on career and employer recognition"},
-    {"source":"Princeton Review","description":"1 sentence on relevant lifestyle/culture categories for this student"}
-  ],
+  "studentName": "first name",
+  "studentArchetype": "2-4 word identity label",
+  "topPick": {"school": "best school name", "reason": "2 sentences why", "tradeoff": "1 sentence tradeoff"},
+  "top3": ["School 1", "School 2", "School 3"],
+  "personalSummary": "3-4 sentences about this student",
   "colleges": [
     {
       "rank": 1,
-      "name": "Full official college name",
+      "name": "Full University Name",
       "location": "City, State",
-      "tier": "reach",
-      "why": "3 sentences connecting this college to THIS student specifically — name programs, stats, culture attributes that match their answers. Be specific and personal.",
-      "highlights": ["3-word highlight 1","3-word highlight 2","3-word highlight 3"],
-      "acceptanceRate": "XX%",
-      "size": "Small|Medium|Large|Very Large",
-      "tuition": "~$XX,XXX/yr",
-      "tagCategory": "STEM|Business|Liberal Arts|Pre-Med|Arts|Research|Honors|Tech|Sports",
-      "rankings": {
-        "usNews": "#28 National Universities",
-        "forbes": "#45 (always include Forbes ranking)",
-        "wsj": "#32 (include Wall Street Journal ranking if known)",
-        "programRank": "#12 for Business (always include if relevant to major)",
-        "princetonReview": "Best Value Colleges (always include a real superlative)",
-        "moneyMag": "#XX (always include Money Magazine Best Colleges ranking)",
-        "payScale": "~$XX,XXX mid-career median salary",
-        "studentFaculty": "18:1 (always include student-to-faculty ratio)"
-      },
-      "regretScore": {
-        "score": 2,
-        "label": "Low Risk",
-        "reason": "1 sentence: why student would or would not regret attending"
-      },
-      "fitScores": {
-        "academic": 8,
-        "campusVibe": 7,
-        "costFit": 6,
-        "location": 8,
-        "socialLife": 7
-      },
-      "funFacts": [
-        {"emoji": "🏆", "fact": "Specific compelling fact personalized to this student's interests"},
-        {"emoji": "💰", "fact": "Specific career/salary/alumni fact relevant to their major"},
-        {"emoji": "🎉", "fact": "Specific beloved tradition or campus life fact"},
-        {"emoji": "🌊", "fact": "Specific location, setting, or campus beauty fact"},
-        {"emoji": "🎬", "fact": "Specific surprising or quirky fact that makes this school memorable"}
-      ],
-      "netPrice": {
-        "sticker": "$58,000/yr",
-        "estimated": "$22,000/yr",
-        "savings": "$36,000/yr",
-        "basis": "families earning $75K-$110K",
-        "inStateSavings": true,
-        "tuition": "$52,000/yr",
-        "housing": "$14,000/yr",
-        "meals": "$6,500/yr",
-        "totalCOA": "$72,500/yr"
-      }
+      "tier": "match",
+      "why": "2 sentences personalized reason",
+      "highlights": ["highlight 1", "highlight 2", "highlight 3"],
+      "acceptanceRate": "X%",
+      "size": "Large/Medium/Small",
+      "regretScore": {"score": 2, "label": "Low Risk", "reason": "one sentence"},
+      "fitScores": {"academic": 8, "campusVibe": 7, "costFit": 8, "location": 9, "socialLife": 7},
+      "netPrice": {"estimated": "$X,XXX/yr", "sticker": "$X,XXX/yr", "savings": "$X,XXX/yr", "basis": "income bracket", "tuition": "$X,XXX/yr", "housing": "$X,XXX/yr", "meals": "$X,XXX/yr", "totalCOA": "$X,XXX/yr"},
+      "funFacts": [{"emoji": "🏆", "fact": "compelling fact"}, {"emoji": "💼", "fact": "career fact"}, {"emoji": "🎉", "fact": "campus life fact"}],
+      "rankings": {"usNews": "#XX National Universities", "forbes": "#XX Forbes", "princetonReview": "Best Value", "moneyMag": "#XX Money Magazine", "wsj": "#XX WSJ", "studentFaculty": "18:1"},
+      "essayAngles": [{"title": "Essay title", "hook": "Opening hook", "why": "Why it works"}],
+      "tagCategory": "Business & Finance"
     }
   ],
-  "essayAngles": [
-    {
-      "title": "Short punchy title",
-      "hook": "One sentence: the specific story or moment to write about",
-      "why": "One sentence: why this angle fits this student specifically"
-    }
-  ],
-  "scorecardDefaults": {
-    "academic": 4,
-    "campus": 3,
-    "social": 3,
-    "career": 4,
-    "cost": 3,
-    "location": 2,
-    "gut": 3
-  },
-  "nextSteps": ["specific grade-appropriate step 1","step 2","step 3","step 4","step 5","step 6"]
+  "nextSteps": ["step 1", "step 2", "step 3"]
 }
 
-RULES — follow strictly:
-- studentArchetype: create a 2-4 word identity label that feels personal and insightful (not generic)
-- topPick: confidently name the single best school. This is your counselor recommendation. Be direct.
-- top3: list the 3 schools you most confidently recommend in order
-- regretScore: score 1-5 (1=very unlikely to regret, 5=high risk). label: "Very Low Risk", "Low Risk", "Moderate Risk", "Higher Risk", "High Risk". reason: one honest sentence about fit vs risk
-- Exactly 10 colleges: 3-4 reach, 3-4 match, 2-3 safety
-- ALWAYS use the RANKINGS REFERENCE DATA above — do not invent schools or use schools not in the data unless you are certain they exist and fit perfectly
-- Safety schools must feel like genuine great options the student would LOVE — never consolation prizes
-- Match GPA/test scores to appropriate selectivity tiers from the reference data
-- DIVERSITY: Do not default to the same top 20 schools for every student. Use the full breadth of the reference — regional schools, smaller schools, HBCUs, faith-based, military, specialty, and state flagships when appropriate
-- If conference preference: STRONGLY PRIORITIZE schools from that conference list
-- If sports fan D1: use conference they selected or SEC/Big Ten/ACC by default
-- If athlete D1/D2/D3: use the appropriate division list
-- If pre-med: use pre-med pipeline schools from the reference
-- If CS/tech: use the CS tier lists
-- If business: use the business program rankings
-- If arts/design/film/music: use the arts section — include conservatories if appropriate
-- If liberal arts preference: draw from all three tiers of liberal arts colleges
-- If small campus (under 3K): use small colleges list — do not recommend large universities
-- If medium campus: use mid-sized schools
-- If large campus: use large university list and state flagships
-- If cost is major concern: HEAVILY weight the affordable/value list and state flagships
-- If first-gen: use first-gen support list and accessible schools
-- If study abroad is important: use study abroad list
-- If Greek life is important: use Greek life schools list
-- If faith-based preference: use the faith-based section matching their denomination
-- If military interest or leadership focus: include at least one military academy
-- If LGBTQ+ campus is important: favor urban schools and known inclusive campuses
-- If HBCU community or diversity is very important: draw from HBCU list
-- If women's college is a fit: include options from women's colleges list
-- Regional filter: use the by-region lists to ensure schools are in their preferred area
-- State preference: use state flagship for that state as a likely safety option
-- For rankings fields: use actual data from the reference — usNews, programRank, payScale
-- scorecardDefaults: weight 1-5 based on what student said matters most
-- NEVER repeat the same schools for every student — use the full 1,500+ school reference
-- Use the student's home_state answer to recommend in-state public universities with lower tuition, and flag which schools are in-state vs out-of-state in the 'why' explanation
-- Use state flagships for cost-conscious in-state students
-- Use faith-based schools when religion is a factor
-- Use military academies for students interested in service
-- Use HBCUs when diversity/community is important or student is African American
-- Use HSIs when student is Hispanic or wants diverse campus
-- Use women's colleges when appropriate
-- Use specialty schools (conservatories, art schools, culinary) for arts/music/design students
-- Use LD-support schools when learning differences are flagged
-- Use free-tuition schools for extremely cost-conscious students
-- Use Canadian/UK schools if student is open to international options
-- Always match campus culture (party scene, outdoors, activism, Greek life) to student answers
-- Use hidden gems and affordable options for B-students and cost-sensitive families
-- Reference state-specific flagships when student wants to stay close to home
-- For essayAngles: generate exactly 5 angles. Each must reference something SPECIFIC from the student's answers — their major, a sport, a value, a goal, a challenge. Never generic advice like 'write about a challenge you overcame'
-- fitScores must be 1-10 integers reflecting genuine fit for THIS student
-- rankings MUST be populated for every school. usNews: always include overall ranking. forbes: always include Forbes America's Top Colleges ranking. wsj: include Wall Street Journal ranking if known. princetonReview: include a real superlative. moneyMag: always include Money Magazine Best Colleges for the Money ranking (e.g. "#45") (e.g. "#28 National Universities"). programRank: include if notable for this major. princetonReview: include a real superlative (e.g. "Best Value Colleges"). niche: include overall grade (e.g. "A+"). payScale: always include median salary. studentFaculty: always include student-to-faculty ratio (e.g. "18:1"). medianEarnings: include 10-year median earnings from College Scorecard if known (e.g. "~$58,000 median early career"). Never leave all fields empty.
-- netPrice MUST include tuition, housing, meals, and totalCOA as separate fields for every school. Use real 2024-25 federal College Scorecard data where available. tuition = tuition+fees only. housing = avg on-campus room cost. meals = avg meal plan cost. totalCOA = tuition+housing+meals+books+personal. All figures must be accurate and current — never invented. If unsure, use the school's published COA from their financial aid website.
-- Data accuracy is critical — CollegeShepherd's credibility depends on showing real numbers. Never fabricate costs. Use conservative estimates only when real data is unavailable and flag with "est." prefix.
-- funFacts: generate exactly 5 genuinely compelling, SPECIFIC facts per school personalized to THIS student's interests, major, sports, career goals. Use these categories: sports/championships, career/CEO/salary outcomes, beloved traditions/tailgates, location/campus setting, surprising/quirky facts. DUPLICATE RULES: never use "most Fortune 500 CEOs" more than once across all 10 schools — assign it to the single most defensible school only. Never repeat the same claim verbatim. Vary emoji categories. Make facts SPECIFIC and PUNCHY with real numbers and names., not generic school quality
-- work_style: use to match support level — students needing structure go to schools with strong advising, academic support programs, smaller classes; independent learners go to large research universities with more autonomy
-- professor_access: 'want professors who know my name' → prioritize small liberal arts colleges under 3,000 students; 'learn well in large lectures' → large research universities are fine
-- success_vision: use to weight career-focused schools (business, pre-professional) vs. growth-focused (liberal arts, honors programs) vs. passion-driven (niche programs, creative schools)
-- netPrice: use the student's family_income answer to estimate realistic net cost after grants/aid.
-- REGIONAL TUITION PROGRAMS: The student profile will tell you which programs apply. When flagged:
-  * WUE eligible: show netPrice as ~150% of in-state ($12,000-22,000/yr) with basis "WUE rate" for western schools
-  * NEBHE eligible: show netPrice as ~150% of in-state for New England public schools with basis "NEBHE Tuition Break"
-  * MSEP eligible: show netPrice as ~150% of in-state for Midwest public schools with basis "MSEP rate"
-  * SREB/ACM eligible: note "may qualify for in-state rate if your major isn't offered in-state" — flag as conditional
-  * MN-WI reciprocity: show full in-state rate for the neighboring state's schools
-  * DC TAG: subtract $10,000 from any public school's out-of-state cost
-  These programs save $7,000-$14,000/yr and most families don't know they exist — make them prominent Use College Scorecard income brackets: Under $30K families typically pay $8-15K at many schools; $48-75K families pay $15-28K; $75-110K families pay $22-38K; over $150K families pay near sticker. Public in-state schools cost $12-22K total after aid for most income levels. Private schools with large endowments (Ivies, Williams, Amherst etc) often cost LESS than public for families under $75K. Always note if student gets in-state pricing. Format as dollar amounts with /yr
-- Return ONLY valid JSON. Nothing else.`;
+RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All rankings required. netPrice based on student income. regretScore 1-5. fitScores 1-10.`;
 
   try {
     let res, data;
@@ -5172,4 +5039,3 @@ function startBrandNew() {
 </script>
 </body>
 </html>
-
