@@ -1881,7 +1881,7 @@ const QS = [
    condition:a=>a.major==='Business / Finance / Entrepreneurship',
    text:`<strong>What area of business interests you most?</strong>`,
    type:'quick',
-   opts:['Finance or investment banking','Marketing and brand management','Entrepreneurship and startups','Consulting','Accounting or supply chain','General business / not sure yet']},
+   opts:['Finance or investment banking','Marketing and brand strategy','Entrepreneurship and startups','Consulting or strategy','Accounting, operations, or supply chain','Technology and product management','Real estate or economics','General business / not sure yet']},
 
   {id:15,ph:2,key:'arts_focus',branch:'🎨 Arts Branch',
    condition:a=>a.major==='Arts, Design, Film, or Music',
@@ -2595,7 +2595,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const badge = document.createElement('div');
         badge.style.cssText = 'background:linear-gradient(135deg,rgba(26,127,212,.15),rgba(26,127,212,.05));border:1px solid rgba(26,127,212,.3);border-radius:10px;padding:.6rem 1rem;font-size:.82rem;color:#2d9ae8;text-align:center;margin-bottom:1rem;font-weight:600';
         badge.innerHTML = '🎓 Beta Access — ' + entry.label;
-        bb.insertBefore(badge, bb.firstChild);
+        const bbInner = bb.querySelector('.bb-inner') || bb;
+          bbInner.insertBefore(badge, bbInner.firstChild);
       }
     } else {
       alert('This beta link has expired or is invalid. Please contact hello@collegeshepherd.com for access.');
@@ -4057,7 +4058,7 @@ function renderResults(data) {
 
     ${data.topPick ? `
     <div class="top-pick-card">
-      <div class="tp-eyebrow">⭐ <strong style="color:var(--navy,#0a1628)">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> Recommends</div>
+      <div class="tp-eyebrow">⭐ <strong style="color:#fff">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> Recommends</div>
       <div class="tp-school">${data.topPick.school}</div>
       <div class="tp-reason">${data.topPick.reason}</div>
       <div class="tp-tradeoff">⚖️ Consider: ${data.topPick.tradeoff}</div>
@@ -4586,9 +4587,7 @@ function renderNextSteps(data) {
     { label:'Common App', url:'https://www.commonapp.org', desc:'Apply to most colleges in one place' },
     { label:'FAFSA (Federal Aid)', url:'https://studentaid.gov/h/apply-for-aid/fafsa', desc:'Free federal financial aid application — file early' },
     { label:'CSS Profile', url:'https://cssprofile.collegeboard.org', desc:'Required by many private schools for institutional aid' },
-    { label:'College Scorecard', url:'https://collegescorecard.ed.gov', desc:'Federal data on cost, graduation rates, and earnings' },
-    { label:'BigFuture', url:'https://bigfuture.collegeboard.org', desc:'College search, scholarships, and planning tools' },
-    { label:'Niche.com', url:'https://www.niche.com/colleges', desc:'Student reviews, rankings, and campus culture info' },
+    { label:'BigFuture', url:'https://bigfuture.collegeboard.org', desc:'Scholarship search and financial aid planning tools' },
     { label:'Khan Academy SAT Prep', url:'https://www.khanacademy.org/sat', desc:'Free official SAT practice, partnered with College Board' },
     { label:'Scholarship Search', url:'https://www.fastweb.com', desc:'Free scholarship matching tool — apply early and often' },
     { label:'College Confidential', url:'https://www.collegeconfidential.com', desc:'Student forums with real talk about admissions, campus life, and decisions' },
@@ -4619,7 +4618,7 @@ function renderNextSteps(data) {
       </div>
       <div id="clarityModal" class="clarity-modal" onclick="if(event.target===this)hideClarity()">
         <div class="clarity-inner">
-          <div class="clarity-title">Your Top 3 — <strong style="color:var(--navy,#0a1628)">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> Recommends</div>
+          <div class="clarity-title">Your Top 3 — <strong style="color:#fff">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> Recommends</div>
           <div id="clarityContent"></div>
           <button class="clarity-close" onclick="hideClarity()">Got it — back to my full list</button>
         </div>
@@ -4701,9 +4700,10 @@ function getShareUrl() {
     c: (d.colleges||[]).slice(0,10).map(x=>({r:x.rank,n:x.name,l:x.location,t:x.tier,a:x.acceptanceRate,p:x.netPrice&&x.netPrice.estimated}))
   };
   try {
-    // Use encodeURIComponent directly - handles all unicode safely
-    const encoded = encodeURIComponent(JSON.stringify(miniData));
-    return base + 'share.html?d=' + encoded;
+    // Just use college names to keep URL short
+    const names = miniData.c.map(x => x.n).join('|');
+    const shortData = encodeURIComponent(JSON.stringify({n: miniData.n, names: names}));
+    return base + 'share.html?d=' + shortData;
   } catch(e) {
     return base + 'share.html?id=' + shareId;
   }
@@ -4770,7 +4770,7 @@ function askParentToPay() {
   const studentName = d.studentName || 'I';
   const subject = encodeURIComponent('Can you get me CollegeShepherd? 🎓');
   const body = encodeURIComponent(
-    'Hey! I found this AI college counseling tool called <strong style="color:var(--navy,#0a1628)">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> and I really want to use it to build my college list.\n\n' +
+    'Hey! I found an AI college counseling tool called CollegeShepherd and I really want to use it to build my college list.\n\n' +
     'It asks 50+ questions about my academics, interests, budget and goals, then gives me a personalized top-10 college list with real costs after financial aid, fit scores, and even essay ideas.\n\n' +
     'It\'s only $29 for a single report (or $79 for the full year) — way cheaper than a private college counselor!\n\n' +
     'Here\'s the link: https://collegeshepherd.com\n\n' +
