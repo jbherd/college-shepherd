@@ -3840,19 +3840,12 @@ ESADE Spain | HSG Switzerland | U of Amsterdam Netherlands
 PYEOF
 echo "Rankings text created, length: $(wc -c < /tmp/new_rankings.txt) bytes"`
 
-  const prompt = `You are an expert college admissions counselor. Build a personalized top-10 college list. Return ONLY valid JSON. Use only ASCII characters in all string values - no apostrophes, no smart quotes, no special characters.
+  const prompt = `You are a college counselor. Return ONLY valid JSON for this student. No markdown.
 
-STUDENT PROFILE:
-${profile}
+STUDENT: ${profile}
 
-SKIPPED QUESTIONS (do not assume answers — weight other factors more heavily):
-${skippedKeys.length ? skippedKeys.join(', ') : 'None skipped'}
-
-Return ONLY valid JSON, no markdown. Be very concise with text fields:
-
-{"studentName":"first name","studentArchetype":"2-3 word label","topPick":{"school":"name","reason":"1 sentence","tradeoff":"1 sentence"},"top3":["School 1","School 2","School 3"],"personalSummary":"2 sentences max","colleges":[{"rank":1,"name":"University Name","location":"City, ST","tier":"match","why":"1 sentence","highlights":["fact1","fact2"],"acceptanceRate":"X%","size":"Large","regretScore":{"score":2,"label":"Low Risk","reason":"brief"},"fitScores":{"academic":8,"campusVibe":7,"costFit":8,"location":9,"socialLife":7},"netPrice":{"estimated":"$X,XXX/yr","sticker":"$X,XXX/yr","savings":"$X,XXX/yr","basis":"income","tuition":"$X,XXX","housing":"$X,XXX","meals":"$X,XXX","totalCOA":"$X,XXX"},"funFacts":[{"emoji":"🏆","fact":"brief fact"},{"emoji":"💼","fact":"brief fact"}],"rankings":{"usNews":"#XX","forbes":"#XX","princetonReview":"Best Value","moneyMag":"#XX","wsj":"#XX","studentFaculty":"18:1"},"essayAngles":[{"title":"title","hook":"hook","why":"why"}],"tagCategory":"Category"}],"nextSteps":["step1","step2","step3"]}
-
-RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields required. Keep all text very short. CRITICAL: Never use apostrophes, quotes, or special characters inside JSON string values. Use plain ASCII only.`;
+Return this exact JSON structure with exactly 3 colleges (1 reach, 1 match, 1 safety):
+{"studentName":"first name","personalSummary":"2 sentences","colleges":[{"rank":1,"name":"University Name","location":"City ST","tier":"reach","why":"one sentence","acceptanceRate":"X%","size":"Large","fitScores":{"academic":8,"campusVibe":7,"costFit":7,"location":8,"socialLife":7},"netPrice":{"estimated":"$25,000/yr","sticker":"$55,000/yr","savings":"$30,000/yr","basis":"income bracket","tuition":"$45,000","housing":"$12,000","meals":"$5,000","totalCOA":"$62,000"},"highlights":["fact1","fact2"],"funFacts":[{"emoji":"🏆","fact":"notable fact"},{"emoji":"💼","fact":"career fact"}],"rankings":{"usNews":"#50","forbes":"#60","princetonReview":"Best Value","moneyMag":"#55","wsj":"#45","studentFaculty":"15:1"},"regretScore":{"score":2,"label":"Low Risk","reason":"good fit"},"tagCategory":"Liberal Arts"}],"nextSteps":["step1","step2"],"topPick":{"school":"University Name","reason":"best fit","tradeoff":"one tradeoff"},"top3":["School1","School2","School3"],"studentArchetype":"Driven Scholar","essayAngles":[{"title":"title","hook":"hook","why":"why"}]}`;
 
   try {
     let res, data;
@@ -3875,7 +3868,7 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields requir
           'anthropic-version': '2023-06-01',
           'anthropic-dangerous-direct-browser-access': 'true'
         },
-        body: JSON.stringify({ model: 'claude-sonnet-4-5', max_tokens: 5000, messages: [{ role: 'user', content: prompt }] })
+        body: JSON.stringify({ model: 'claude-sonnet-4-5', max_tokens: 2500, messages: [{ role: 'user', content: prompt }] })
       });
       const raw2 = await res.json();
       clearInterval(iv);
@@ -3898,13 +3891,19 @@ RULES: Exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). All fields requir
     res = await fetch('/api/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt, max_tokens: 5000 })
+      body: JSON.stringify({ prompt, max_tokens: 2500 })
     });
 
-    // Safe parse - handle plain text error responses from Anthropic
+    // Handle SSE streaming response
     const rawText = await res.text();
     try {
-      data = JSON.parse(rawText);
+      // Parse SSE format: "data: {...}\n\n"
+      const lines = rawText.split('\n').filter(l => l.startsWith('data: '));
+      if (lines.length > 0) {
+        data = JSON.parse(lines[lines.length - 1].replace('data: ', ''));
+      } else {
+        data = JSON.parse(rawText);
+      }
     } catch(e) {
       data = { error: rawText || 'Server error. Please try again.' };
     }
