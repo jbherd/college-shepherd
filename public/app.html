@@ -3844,7 +3844,7 @@ echo "Rankings text created, length: $(wc -c < /tmp/new_rankings.txt) bytes"`
 
 STUDENT: ${profile}
 
-Return this exact JSON structure with exactly 3 colleges (1 reach, 1 match, 1 safety):
+Return this exact JSON structure with exactly 3 colleges (1 reach, 1 match, 1 safety). Label them clearly in the tier field as reach, match, or safety:
 {"studentName":"first name","personalSummary":"2 sentences","colleges":[{"rank":1,"name":"University Name","location":"City ST","tier":"reach","why":"one sentence","acceptanceRate":"X%","size":"Large","fitScores":{"academic":8,"campusVibe":7,"costFit":7,"location":8,"socialLife":7},"netPrice":{"estimated":"$25,000/yr","sticker":"$55,000/yr","savings":"$30,000/yr","basis":"income bracket","tuition":"$45,000","housing":"$12,000","meals":"$5,000","totalCOA":"$62,000"},"highlights":["fact1","fact2"],"funFacts":[{"emoji":"🏆","fact":"notable fact"},{"emoji":"💼","fact":"career fact"}],"rankings":{"usNews":"#50","forbes":"#60","princetonReview":"Best Value","moneyMag":"#55","wsj":"#45","studentFaculty":"15:1"},"regretScore":{"score":2,"label":"Low Risk","reason":"good fit"},"tagCategory":"Liberal Arts"}],"nextSteps":["step1","step2"],"topPick":{"school":"University Name","reason":"best fit","tradeoff":"one tradeoff"},"top3":["School1","School2","School3"],"studentArchetype":"Driven Scholar","essayAngles":[{"title":"title","hook":"hook","why":"why"}]}`;
 
   try {
