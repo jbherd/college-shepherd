@@ -3009,11 +3009,13 @@ function showPreGenButtons() {
   S.awaitingGeneration = true;
 }
 
-async function doGenerate() {
-  S.awaitingGeneration = false;
-  clearInput();
-
-  addBubble(`You're done! 🎉 Give me about 15–20 seconds while I build your personalized list...`);
+async function doGenerate(retryCount) {
+  retryCount = retryCount || 0;
+  if (retryCount === 0) {
+    S.awaitingGeneration = false;
+    clearInput();
+    addBubble(`You're done! 🎉 Give me about 15–20 seconds while I build your personalized list...`);
+  }
 
   const ls = document.getElementById('loadscr');
   ls.classList.add('show');
@@ -3918,7 +3920,14 @@ Return this exact JSON structure with exactly 3 colleges (1 reach, 1 match, 1 sa
     }
 
     if (!res.ok || data.error) {
-      showError(data.error || `Server error ${res.status}`);
+      clearInterval(iv);
+      if (retryCount < 3) {
+        showWaiting(retryCount + 1);
+        setTimeout(() => doGenerate(retryCount + 1), 8000);
+      } else {
+        ls.classList.remove('show');
+        showError(data.error || 'Service temporarily unavailable. Please try again.');
+      }
       return;
     }
     if (!data.text) {
@@ -3977,9 +3986,34 @@ Return this exact JSON structure with exactly 3 colleges (1 reach, 1 match, 1 sa
 
   } catch(err) {
     clearInterval(iv);
-    ls.classList.remove('show');
-    showError(`Network error: ${err.message}`);
+    if (retryCount < 3) {
+      showWaiting(retryCount + 1);
+      setTimeout(() => doGenerate(retryCount + 1), 8000);
+    } else {
+      ls.classList.remove('show');
+      showError('We were unable to reach our servers. Please try again in a moment.');
+    }
   }
+}
+
+function showWaiting(attempt) {
+  const ls = document.getElementById('loadscr');
+  const lbl = document.getElementById('loadlbl');
+  ls.classList.add('show');
+  const msgs = [
+    'Personalizing your college list takes a moment...',
+    'Still working — great things take time...',
+    'Almost there — your list is worth the wait...',
+  ];
+  if (lbl) lbl.textContent = msgs[Math.min(attempt - 1, msgs.length - 1)];
+  // Update load screen with warm message
+  const existingWait = document.getElementById('wait-msg');
+  if (existingWait) existingWait.remove();
+  const waitDiv = document.createElement('div');
+  waitDiv.id = 'wait-msg';
+  waitDiv.style.cssText = 'text-align:center;padding:0 20px;margin-top:16px';
+  waitDiv.innerHTML = '<div style="font-size:.95rem;font-weight:600;color:rgba(255,255,255,.9);margin-bottom:8px">🎓 Personalizing your college list takes a moment...</div><div style="font-size:.82rem;color:rgba(255,255,255,.55);line-height:1.6;max-width:320px;margin:0 auto">Our AI is carefully matching 50+ data points to find your perfect schools. This level of personalization is worth the wait.</div>';
+  if (ls) ls.appendChild(waitDiv);
 }
 
 function updateGenCounter(remaining) {
