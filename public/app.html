@@ -815,57 +815,26 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
     </div>
     </div>
 
-    <div class="pw-cards">
-      <div class="pc" onclick="startApp('single')">
-        <div class="pname">Single Report</div>
+    <div class="pw-cards" style="justify-content:center">
+      <!-- FUTURE PRICING: Annual $79 and Family $49 plans removed for introductory launch - add back later -->
+      <div class="pc feat" onclick="startApp('single')" style="max-width:420px">
+        <div class="pbadge">Introductory Offer</div>
+        <div class="pname">Complete Report</div>
         <div class="pprice"><sup>$</sup>29<sub> one-time</sub></div>
-        <div class="pdesc">One payment, yours forever. No subscription, no surprises.</div>
+        <div class="pdesc">Everything you need to find the right college — one payment, yours forever.</div>
         <ul class="pfeats">
-          <li>Complete 50-question assessment</li>
           <li>Personalized top-10 college list</li>
-          <li>Rankings on every school</li>
-          <li>Weighted decision scorecard</li>
-          <li>PDF export &amp; email to parents</li>
+          <li>Net cost estimates after financial aid</li>
+          <li>Fit scores across 5 dimensions</li>
+          <li>5 personalized essay angle ideas</li>
+          <li>CollegeShepherd Recommends — AI pick</li>
+          <li>Regret Risk Score per school</li>
+          <li>Student Archetype Profile</li>
           <li>Up to 7 regenerations</li>
+          <li>Priority support</li>
         </ul>
-        <button class="pbtn pbtn-s">Get My List →</button>
+        <button class="pbtn pbtn-p">Get My College List →</button>
       </div>
-      <div class="pc feat" onclick="startApp('annual')">
-        <div class="pbadge">Most Popular</div>
-        <div class="pname">Annual Access</div>
-        <div class="pprice"><sup>$</sup>79<sub>/yr</sub></div>
-        <div class="pdesc">Full junior &amp; senior year coverage — regenerate anytime as things change.</div>
-        <ul class="pfeats">
-          <li>Everything in Single Report</li>
-          <li>Unlimited regenerations all year</li>
-          <li>Saved lists across sessions</li>
-          <li>Retake as your priorities change</li>
-          <li>Priority AI model access</li>
-          <li>Early access to new features</li>
-        </ul>
-        <button class="pbtn pbtn-p">Get Annual Access →</button>
-      </div>
-      <div class="pc" onclick="startApp('family')">
-        <div class="pname">Family Pack</div>
-        <div class="pprice"><sup>$</sup>49<sub> one-time</sub></div>
-        <div class="pdesc">Up to 3 students — perfect for families with multiple kids in the process.</div>
-        <ul class="pfeats">
-          <li>3 complete student reports</li>
-          <li>Each student gets full assessment</li>
-          <li>Personalized list per student</li>
-          <li>PDF export for each</li>
-          <li>Up to 7 regenerations each</li>
-          <li>Share with school counselor</li>
-        </ul>
-        <button class="pbtn pbtn-s">Get Family Pack →</button>
-      </div>
-    </div>
-    <div style="text-align:center;margin:1rem 0 .5rem;color:rgba(255,255,255,.12);letter-spacing:.5em;font-size:.95rem">✦ ✦ ✦</div>
-    <div style="margin:1rem auto;max-width:480px;text-align:left">
-      <label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;font-size:.82rem;color:rgba(255,255,255,.45);line-height:1.5">
-        <input type="checkbox" id="ageCheck" style="margin-top:3px;flex-shrink:0;accent-color:var(--gold)">
-        <span>I confirm I am 13 or older, or a parent/guardian completing this on behalf of a minor. I understand College Shepherd uses AI to generate personalized guidance and results are informational only — not a guarantee of admission or financial aid.</span>
-      </label>
     </div>
     <div class="pw-trust"><p>🔒 <strong>Secure payment via Stripe.</strong> No subscription. No auto-renewals.<br>By purchasing you agree to our <a href="/terms.html" style="color:rgba(255,255,255,.4);text-decoration:none">Terms of Service</a> and <a href="/privacy.html" style="color:rgba(255,255,255,.4);text-decoration:none">Privacy Policy</a>.<br>Questions? <a href="mailto:hello@collegeshepherd.com" style="color:rgba(255,255,255,.4);text-decoration:none;transition:color .2s" onmouseover="this.style.color='rgba(255,255,255,.7)'" onmouseout="this.style.color='rgba(255,255,255,.4)'">hello@collegeshepherd.com</a></p></div>
 
