@@ -3816,7 +3816,7 @@ echo "Rankings text created, length: $(wc -c < /tmp/new_rankings.txt) bytes"`
 
 STUDENT: ${profile}
 
-Return this exact JSON structure with exactly 3 colleges (1 reach, 1 match, 1 safety). Label them clearly in the tier field as reach, match, or safety:
+Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). Label tier as reach, match, or safety:
 {"studentName":"first name","personalSummary":"2 sentences","colleges":[{"rank":1,"name":"University Name","location":"City ST","tier":"reach","why":"one sentence","acceptanceRate":"X%","size":"Large","fitScores":{"academic":8,"campusVibe":7,"costFit":7,"location":8,"socialLife":7},"netPrice":{"estimated":"$25,000/yr","sticker":"$55,000/yr","savings":"$30,000/yr","basis":"income bracket","tuition":"$45,000","housing":"$12,000","meals":"$5,000","totalCOA":"$62,000"},"highlights":["fact1","fact2"],"funFacts":[{"emoji":"🏆","fact":"notable fact"},{"emoji":"💼","fact":"career fact"}],"rankings":{"usNews":"#50","forbes":"#60","princetonReview":"Best Value","moneyMag":"#55","wsj":"#45","studentFaculty":"15:1"},"regretScore":{"score":2,"label":"Low Risk","reason":"good fit"},"tagCategory":"Liberal Arts"}],"nextSteps":["step1","step2"],"topPick":{"school":"University Name","reason":"best fit","tradeoff":"one tradeoff"},"top3":["School1","School2","School3"],"studentArchetype":"Driven Scholar","essayAngles":[{"title":"title","hook":"hook","why":"why"}]}`;
 
   try {
@@ -4037,6 +4037,12 @@ function showError(msg) {
 // RESULTS RENDERER
 // ─────────────────────────────────────────────
 function renderResults(data) {
+  // Add AI disclaimer banner
+  const aiDisclaimer = document.createElement('div');
+  aiDisclaimer.style.cssText = 'background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);border-radius:8px;padding:.75rem 1rem;margin-bottom:1rem;font-size:.78rem;color:rgba(255,255,255,.5);line-height:1.6;text-align:center';
+  aiDisclaimer.innerHTML = '⚠️ <strong style="color:rgba(201,168,76,.8)">AI-Generated Estimates</strong> — Rankings, costs, and fit scores are personalized estimates. Always verify acceptance rates, net costs, and program availability directly with each college before making decisions.';
+  const rcContainer = document.getElementById('results-container');
+  if (rcContainer) rcContainer.insertBefore(aiDisclaimer, rcContainer.firstChild);
   console.log('renderResults data keys:', Object.keys(data));
   console.log('studentArchetype:', data.studentArchetype);
   console.log('topPick:', data.topPick);
@@ -4146,7 +4152,7 @@ function renderResults(data) {
                 const sav = np.savings ? '<span class="netprice-savings">Save '+np.savings+'</span>' : '';
                 const ins = np.inStateSavings ? ' <span style="font-size:.95rem;color:#1a5c2a;font-weight:600">(in-state rate)</span>' : '';
                 return '<div class="netprice-wrap">'
-                  +'<div class="netprice-label">Estimated Cost After Aid</div>'
+                  +'<div class="netprice-label">Estimated Cost After Aid <span style="font-size:.65rem;font-weight:400;color:rgba(255,255,255,.35)">— verify with college Net Price Calculator</span></div>'
                   +'<div class="netprice-amount">'+np.estimated+ins+'</div>'
                   +'<div class="netprice-sub">vs. '+np.sticker+' sticker price '+sav+'</div>'
                   +(np.tuition||np.housing||np.meals ? '<div class="netprice-breakdown">'
@@ -4204,7 +4210,7 @@ function renderResults(data) {
           </div>
           ${rkItems ? `
           <button class="ranks-toggle open" data-open="true" onclick="toggleRanks(this)">
-            Rankings &amp; stats <span class="arr">▾</span>
+            Rankings &amp; stats <span style="font-size:.6rem;color:rgba(255,255,255,.25);margin-left:4px">2025-26</span> <span class="arr">▾</span>
           </button>
           <div class="ranks-body" style="display:block">
             <div class="ranks-grid">${rkItems}</div>
@@ -4569,6 +4575,7 @@ function renderEssaySection(data) {
       <div class="essay-hdr">
         <div class="essay-ey">College Shepherd ✦ Essay Guide</div>
         <h2>What Should You Write About?</h2>
+        <p style="font-size:.78rem;color:rgba(255,255,255,.4);font-style:italic;margin-bottom:.5rem">These are AI-generated starting points. Personalize each with your own story and voice.</p>
         <p>Based on everything you told us, here are ${angles.length} essay angles that could work for you — each tied to something real from your life.</p>
       </div>
       <div class="essay-card">
