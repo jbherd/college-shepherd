@@ -736,6 +736,14 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
 .clarity-close{width:100%;padding:12px;border:1px solid #ddd;background:#fff;border-radius:8px;font-family:inherit;font-size:.9rem;cursor:pointer;margin-top:.5rem;color:#666}
 
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-18ZSH9G35N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-18ZSH9G35N');
+</script>
 </head>
 <body>
 
@@ -1114,6 +1122,7 @@ async function submitEmail() {
 }
 
 function startQuestionnaire() {
+  gtag('event', 'questionnaire_started', { event_category: 'engagement' });
   const bb = document.getElementById('beforebegin');
   const app = document.getElementById('app');
   if (bb) bb.style.display = 'none';
@@ -4037,6 +4046,7 @@ function showError(msg) {
 // RESULTS RENDERER
 // ─────────────────────────────────────────────
 function renderResults(data) {
+  gtag('event', 'list_generated', { event_category: 'conversion', value: 1 });
   // Add AI disclaimer banner
   const aiDisclaimer = document.createElement('div');
   aiDisclaimer.style.cssText = 'background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);border-radius:8px;padding:.75rem 1rem;margin-bottom:1rem;font-size:.78rem;color:rgba(255,255,255,.5);line-height:1.6;text-align:center';
@@ -4744,6 +4754,7 @@ function shareToSocial() {
 }
 
 function copyShareLink() {
+  gtag('event', 'share', { event_category: 'engagement', method: 'copy_link' });
   const url = getShareUrl();
   if (!url) return;
   const wrap = document.getElementById('shareLinkWrap');
