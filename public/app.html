@@ -2110,6 +2110,13 @@ const QS = [
    text:`<strong>Is there any college you\'ve already heard of that you kind of like?</strong><br><span class="note">This gives me a benchmark for your taste. Fine to say "none yet."</span>`,
    type:'text',placeholder:'e.g. "I like the idea of UNC" or "none yet" or "something like Williams"...'},
 
+  {id:52,ph:9,key:'hidden_gem',
+   text:`One of the things that makes <strong>College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> unique is our ability to surface <strong>hidden gem colleges</strong> — schools you've probably never heard of that could be a perfect fit for you.<br><br>How open are you to discovering a hidden gem?`,
+   opts:['Yes — show me at least one hidden gem I have never heard of',
+         'Absolutely — show me more hidden gems than well-known schools',
+         'A mix of well-known and hidden gems is fine',
+         'Stick mostly to schools I already know about']},
+
   {id:52,ph:9,key:'reach_mindset',
    text:`<strong>How do you feel about applying to a "reach" school — where your stats are below average but you love it?</strong>`,
    type:'quick',
@@ -3821,7 +3828,14 @@ ESADE Spain | HSG Switzerland | U of Amsterdam Netherlands
 PYEOF
 echo "Rankings text created, length: $(wc -c < /tmp/new_rankings.txt) bytes"`
 
-  const prompt = `You are a college counselor. Return ONLY valid JSON for this student. No markdown.
+  const prompt = `You are an expert college counselor known for finding hidden gem colleges that are perfect fits. Return ONLY valid JSON for this student. No markdown.
+
+CRITICAL INSTRUCTIONS:
+- Each school must be genuinely matched to THIS student's specific profile — not generic recommendations.
+- HIDDEN GEMS: Based on the student's hidden_gem preference in their profile, include the appropriate number of lesser-known schools (smaller colleges, regional universities, liberal arts colleges, honors programs, schools strong in their specific area but not nationally famous).
+- If student wants hidden gems, surface schools they have almost certainly never heard of that are outstanding fits.
+- If student mentioned specific schools they like, also consider similar but less obvious alternatives.
+- Consider: specialized programs, unique campus cultures, strong alumni networks in specific fields, exceptional value, distinctive locations.
 
 STUDENT: ${profile}
 
