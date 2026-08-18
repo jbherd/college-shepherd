@@ -1,0 +1,22 @@
+# CollegeShepherd
+
+> AI-powered college guidance for high school students. Answer 50+ questions and get a personalized top-10 college list with real net costs, fit scores, and a Regret Risk Score — in about 15 minutes.
+
+CollegeShepherd addresses the US high school counselor shortage (average public-school ratio is roughly 482:1 students per counselor, versus a recommended 250:1) by giving every student a personalized, data-backed college list without needing a private counselor.
+
+## Product
+
+- Complete Report: one-time $29 payment, includes up to 7 monthly regenerations
+- School licenses: $499–$999/year depending on enrollment, unlimited student access, reserved free-access codes for low-income families
+- Counselor licenses starting at $99/year; white-label options available for independent college consultants
+- Uses U.S. Department of Education College Scorecard data for cost and outcome figures; net price estimates are based on federal income-bracket data
+- Automatically flags regional tuition exchange eligibility (WUE, NEBHE, MSEP, SREB)
+
+## Pages
+
+- [Homepage](https://collegeshepherd.com/): overview, how it works, pricing, FAQ
+- [Start Assessment](https://collegeshepherd.com/app.html): the 50+ question assessment
+- [Terms of Service](https://collegeshepherd.com/terms.html)
+- [Privacy Policy](https://collegeshepherd.com/privacy.html)
+
+Contact: hello@collegeshepherd.com
