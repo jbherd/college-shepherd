@@ -3829,8 +3829,7 @@ Oxford University UK | Cambridge University UK | St Andrews Scotland
 Imperial College London UK | UCL London UK | Edinburgh Scotland | King's College London UK
 Erasmus University Netherlands | Sciences Po France | IE Business School Spain
 ESADE Spain | HSG Switzerland | U of Amsterdam Netherlands
-PYEOF
-echo "Rankings text created, length: $(wc -c < /tmp/new_rankings.txt) bytes"`
+`
 
   const prompt = `You are an expert college counselor known for finding hidden gem colleges that are perfect fits. Return ONLY valid JSON for this student. No markdown.
 
@@ -3840,6 +3839,11 @@ CRITICAL INSTRUCTIONS:
 - If student wants hidden gems, surface schools they have almost certainly never heard of that are outstanding fits.
 - If student mentioned specific schools they like, also consider similar but less obvious alternatives.
 - Consider: specialized programs, unique campus cultures, strong alumni networks in specific fields, exceptional value, distinctive locations.
+- ANTI-REPETITION: Do not default to the same handful of well-known "safe value" flagship publics (e.g. Indiana, Ohio State, Purdue, Penn State) just because they're commonly recommended in general — only include one of those if it is a genuinely standout match for THIS profile. Actively vary your picks across different student profiles; treat it as a failure mode if two students with meaningfully different majors, regions, budgets, or campus preferences end up with substantially overlapping lists.
+- Use REFERENCE DATA below to ground your picks in real schools and real rankings/acceptance-rate context — it is not an exhaustive or required list, just a sanity check against hallucinated names and stats.
+
+REFERENCE DATA:
+${RANKINGS_REF}
 
 STUDENT: ${profile}
 
@@ -3867,7 +3871,7 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
           'anthropic-version': '2023-06-01',
           'anthropic-dangerous-direct-browser-access': 'true'
         },
-        body: JSON.stringify({ model: 'claude-sonnet-4-5', max_tokens: 2500, messages: [{ role: 'user', content: prompt }] })
+        body: JSON.stringify({ model: 'claude-sonnet-4-5', max_tokens: 16000, messages: [{ role: 'user', content: prompt }] })
       });
       const raw2 = await res.json();
       clearInterval(iv);
@@ -3890,7 +3894,7 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
     res = await fetch('/api/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt, max_tokens: 2500 })
+      body: JSON.stringify({ prompt, max_tokens: 16000 })
     });
 
     // Handle SSE streaming response
