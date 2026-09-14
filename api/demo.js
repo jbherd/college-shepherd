@@ -1,14 +1,21 @@
 // api/demo.js
-// Generates a random but realistic college list for demo purposes
-// Called from ?access=shepherd2026&demo=true
+// Generates a random but realistic college list for demo purposes.
+// Requires a valid dev-access token (see lib/devAuth.js) — this endpoint
+// calls the Anthropic API on Jim's dime, so it isn't left open to anyone
+// who finds the URL.
 
-export default async function handler(req, res) {
+const { verifyToken, tokenFromRequest } = require('../lib/devAuth');
+
+module.exports = async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Dev-Token');
   if (req.method === 'OPTIONS') return res.status(200).end();
+
+  const auth = verifyToken(tokenFromRequest(req));
+  if (!auth.valid) return res.status(401).json({ error: 'Unauthorized (invalid or missing dev token)' });
 
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) return res.status(500).json({ error: 'API key not configured' });
@@ -70,6 +77,9 @@ Return ONLY valid JSON (no markdown, no backticks) in this exact format:
   "nextSteps": ["step 1", "step 2", "step 3"]
 }`;
 
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 55000);
+
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -79,23 +89,38 @@ Return ONLY valid JSON (no markdown, no backticks) in this exact format:
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-5-20251001',
+        model: 'claude-haiku-4-5-20251001', // same model as the real /api/generate flow — known-working on this account
         max_tokens: 8000,
         messages: [{ role: 'user', content: prompt }]
-      })
+      }),
+      signal: controller.signal
     });
+    clearTimeout(timeout);
 
     const data = await response.json();
+
+    if (!response.ok) {
+      console.error('Demo: Anthropic API error', response.status, data.error);
+      return res.status(502).json({ error: data.error?.message || `Anthropic API error (${response.status})` });
+    }
+
     const text = data.content?.[0]?.text || '';
-    
-    // Clean and parse JSON
     const clean = text.replace(/```json|```/g, '').trim();
-    const result = JSON.parse(clean);
-    
+
+    let result;
+    try {
+      result = JSON.parse(clean);
+    } catch (parseErr) {
+      console.error('Demo: failed to parse model output as JSON. Raw text (first 500 chars):', text.slice(0, 500));
+      return res.status(502).json({ error: 'Model returned unparseable output — check Vercel logs for the raw response' });
+    }
+
     return res.status(200).json({ result, profile: profile.name });
 
   } catch (err) {
-    console.error('Demo error:', err);
-    return res.status(500).json({ error: err.message });
+    clearTimeout(timeout);
+    console.error('Demo error:', err.message);
+    const message = err.name === 'AbortError' ? 'Generation timed out. Please try again.' : err.message;
+    return res.status(500).json({ error: message });
   }
-}
+};
