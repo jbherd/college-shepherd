@@ -78,7 +78,7 @@ Return ONLY valid JSON (no markdown, no backticks) in this exact format:
 }`;
 
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 55000);
+  const timeout = setTimeout(() => controller.abort(), 58000);
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -90,7 +90,7 @@ Return ONLY valid JSON (no markdown, no backticks) in this exact format:
       },
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001', // same model as the real /api/generate flow — known-working on this account
-        max_tokens: 8000,
+        max_tokens: 16000,
         messages: [{ role: 'user', content: prompt }]
       }),
       signal: controller.signal
