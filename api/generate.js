@@ -30,7 +30,7 @@ module.exports = async function handler(req, res) {
   console.log("START - prompt chars:", prompt.length, "max_tokens:", max_tokens);
 
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 55000);
+  const timeout = setTimeout(() => controller.abort(), 170000);
 
   try {
     console.log("Calling Anthropic...");
