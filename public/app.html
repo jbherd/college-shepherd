@@ -949,9 +949,8 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
       </div>
     </div>
 
-    <!-- Results + Scorecard injected here -->
+    <!-- Results injected here -->
     <div id="results"></div>
-    <div id="scorecard"></div>
     <div id="nextsteps"></div>
     <div id="essaysection"></div>
 
@@ -4096,15 +4095,6 @@ function renderResults(data) {
       <p class="ressumm">${data.personalSummary || ''}</p>
       ${data.studentArchetype ? `<div class="archetype-badge">🎓 Your Student Archetype: <strong>${data.studentArchetype}</strong></div>` : ''}
     </div>
-
-    ${data.topPick ? `
-    <div class="top-pick-card">
-      <div class="tp-eyebrow">⭐ <strong style="color:#fff">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> Recommends</div>
-      <div class="tp-school">${data.topPick.school}</div>
-      <div class="tp-reason">${data.topPick.reason}</div>
-      <div class="tp-tradeoff">⚖️ Consider: ${data.topPick.tradeoff}</div>
-      ${data.top3 && data.top3.length ? `<div class="tp-top3">Also consider: <strong>${data.top3.join(' · ')}</strong></div>` : ''}
-    </div>` : ''}
     <div class="profchips">
       ${(data.profileChips||[]).map((c,i)=>`<span class="pchips ${chipCols[i%4]}">${c}</span>`).join('')}
     </div>`;
@@ -4133,8 +4123,14 @@ function renderResults(data) {
   // Sort: match first, then reach, then safety
   const tierOrder = {match:0, reach:1, safety:2};
   const sortedColleges = [...(data.colleges||[])].sort((a,b) => (tierOrder[a.tier]||0) - (tierOrder[b.tier]||0));
-  // Re-number after sort
-  sortedColleges.forEach((col,i) => col.displayRank = i + 1);
+  // Re-number WITHIN each tier (Match/Reach/Safety are different categories, not one
+  // straight best-to-worst order, so numbering should never imply otherwise)
+  const _tierCounts = {};
+  sortedColleges.forEach((col) => {
+    const k = col.tier || 'match';
+    _tierCounts[k] = (_tierCounts[k]||0) + 1;
+    col.displayRank = _tierCounts[k];
+  });
   sortedColleges.forEach((c,i) => {
     const t = tMap[c.tier] || tMap.match;
     const rk = c.rankings || {};
@@ -4256,7 +4252,6 @@ function renderResults(data) {
   rc.innerHTML = html;
   rc.style.display = 'block';
 
-  renderScorecard(data);
   // Enrich with real College Scorecard data
   const incomeLevel = S.answers.family_income || '';
   enrichWithScorecardData(data.colleges || [], incomeLevel).then(scorecardResults => {
@@ -4289,265 +4284,6 @@ function toggleRanks(btn) {
   btn.dataset.open = String(!open);
   btn.classList.toggle('open', !open);
 }
-
-// ─────────────────────────────────────────────
-// SCORECARD
-// ─────────────────────────────────────────────
-const CATS = [
-  {key:'academic',label:'Academic Fit',      desc:'Program quality, rigor, reputation'},
-  {key:'campus',  label:'Campus & Lifestyle', desc:'Size, vibe, dorms, environment'},
-  {key:'social',  label:'Social & Culture',   desc:'Scene, Greek life, sports, belonging'},
-  {key:'career',  label:'Career Outcomes',    desc:'Job placement, internships, recognition'},
-  {key:'cost',    label:'Cost & Financial Fit',desc:'Net cost after aid, scholarships'},
-  {key:'location',label:'Location',            desc:'Region, setting, distance, airport'},
-  {key:'gut',     label:'Gut Feeling',          desc:'Hard-to-explain sense of "this is my place"'}
-];
-
-let _curSchool = null;
-const _scores = {};
-
-function renderScorecard(data) {
-  const colleges = data.colleges || [];
-  const defs = data.scorecardDefaults || {academic:3,campus:3,social:3,career:3,cost:3,location:2,gut:3};
-
-  const sc = document.getElementById('scorecard');
-  sc.innerHTML = `
-    <div class="sc-hdr">
-      <div class="sc-ey">Decision Tool</div>
-      <h2>Weighted Decision Scorecard</h2>
-      <p>Most students pick a college based on emotion. This scorecard makes it systematic — and surfaces the winner based on what <em>you</em> actually care about.</p>
-    </div>
-
-    <div class="sc-card">
-      <div class="sc-title"><strong>Step 1 — Set Your Weights</strong></div>
-      <p class="sc-desc"><strong>What matters most to you?</strong> Drag each slider from 1 (barely matters) to 5 (critical). These weights multiply your Step 2 scores — so a school with a mediocre location score won't hurt you if location is a 1 for you. Pre-set based on your answers.</p>
-      <div class="wgrid" id="wgrid">
-        ${CATS.map(cat=>`
-          <div>
-            <div class="wrow">
-              <div><div class="wlabel">${cat.label}</div><div class="wdesc">${cat.desc}</div></div>
-              <input type="range" class="wslider" min="1" max="5" step="1"
-                value="${defs[cat.key]||3}" id="w_${cat.key}"
-                oninput="document.getElementById('wv_${cat.key}').textContent=this.value;recalc();flashStep3()">
-              <span class="wval" id="wv_${cat.key}">${defs[cat.key]||3}</span>
-            </div>
-          </div>`).join('')}
-      </div>
-    </div>
-
-    <div class="sc-card">
-      <div class="sc-title"><strong>Step 2 — Score Each School (1–10)</strong></div>
-      <p class="sc-desc"><strong>Rate each college on a 1–10 scale for each category.</strong> Your ratings × your Step 1 weights = your personal ranking in Step 3. Update after campus visits, virtual tours, or more research — the ranking adjusts instantly.</p>
-      <div class="stabs" id="stabs">
-        ${colleges.map((c,i) => {
-          const label = c.name.length > 20 ? c.name.substring(0,20)+'…' : c.name;
-          return `<button class="stab${i===0?' active':''}" data-name="${c.name.replace(/"/g,'&quot;')}" onclick="switchSchool(this)">${label}</button>`;
-        }).join('')}
-      </div>
-      <div id="stbl"></div>
-    </div>
-
-    <div class="sc-card">
-      <div class="sc-title"><strong>Step 3 — Your Personal Ranking</strong> <span style="font-size:.92rem;color:var(--tmu);font-weight:400">(updates live as you score)</span></div>
-      <div class="sc-bars" id="scbars"></div>
-
-      <div class="tiebreak">
-        <h4>🤔 Tie-Breaker Questions</h4>
-        <p>Where would you go if rankings didn't exist?</p>
-        <p>Which campus felt like <em>you</em> when you saw photos or visited?</p>
-        <p>Where can you picture yourself on a random stressed Tuesday — needing to find your people?</p>
-        <p>Which school would you be excited to tell people you're going to?</p>
-      </div>
-    </div>
-  `;
-
-  // Init scores
-  colleges.forEach(c => {
-    _scores[c.name] = {};
-    CATS.forEach(cat => { _scores[c.name][cat.key] = 5; });
-  });
-
-  sc.style.display = 'block';
-  if (colleges.length) switchSchool(document.querySelector('.stab'));
-  recalc();
-}
-
-function switchSchool(btn) {
-  if (_curSchool) saveSchool(_curSchool);
-  _curSchool = btn.dataset.name;
-  document.querySelectorAll('.stab').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-
-  if (!_scores[_curSchool]) {
-    _scores[_curSchool] = {};
-    CATS.forEach(c => { _scores[_curSchool][c.key] = 5; });
-  }
-
-  const w = getWeights();
-  const s = _scores[_curSchool];
-
-  const rows = CATS.map(cat => `
-    <tr>
-      <td style="color:var(--tm)">${cat.label}</td>
-      <td><input class="sinput" type="number" min="1" max="10" value="${s[cat.key]}"
-        id="si_${cat.key}" oninput="onScoreInput('${cat.key}',this.value)"></td>
-      <td style="color:var(--tmu);font-size:.95rem">× ${w[cat.key]||1}</td>
-      <td class="wscore" id="sw_${cat.key}">${(s[cat.key]*(w[cat.key]||1)).toFixed(0)}</td>
-    </tr>`).join('');
-
-  const tot = CATS.reduce((n,c)=>n+(s[c.key]*(w[c.key]||1)),0);
-
-  document.getElementById('stbl').innerHTML = `
-    <table class="score-tbl">
-      <thead><tr><th>Category</th><th>Score (1–10)</th><th>Weight</th><th>Weighted</th></tr></thead>
-      <tbody>${rows}</tbody>
-      <tfoot><tr class="totrow"><td colspan="3" style="padding:8px 9px">Total — ${_curSchool}</td><td class="wscore" id="sw_total">${tot.toFixed(0)}</td></tr></tfoot>
-    </table>`;
-}
-
-function saveSchool(name) {
-  if (!_scores[name]) return;
-  CATS.forEach(c => {
-    const el = document.getElementById('si_' + c.key);
-    if (el) _scores[name][c.key] = Math.min(10, Math.max(1, parseInt(el.value)||5));
-  });
-}
-
-function onScoreInput(key, val) {
-  const w = getWeights();
-  const sw = document.getElementById('sw_' + key);
-  if (sw) sw.textContent = (Math.min(10,Math.max(1,parseInt(val)||5)) * (w[key]||1)).toFixed(0);
-  recalc();
-}
-
-function getWeights() {
-  const w = {};
-  CATS.forEach(cat => {
-    const el = document.getElementById('w_'+cat.key);
-    const val = el ? parseInt(el.value)||1 : 3;
-    w[cat.key] = val;
-    // Color the slider track: grey (1) → gold (5)
-    if (el) {
-      const pct = ((val - 1) / 4) * 100;
-      el.style.background = `linear-gradient(90deg, var(--navy) 0%, var(--gold) ${pct}%, #e0e0e0 ${pct}%)`;
-    }
-  });
-  return w;
-}
-
-function toggleFF(id) {
-  const body = document.getElementById(id);
-  const arr = document.getElementById('arr_' + id);
-  if (!body) return;
-  const isOpen = body.classList.contains('show');
-  body.classList.toggle('show', !isOpen);
-  if (arr) arr.classList.toggle('open', !isOpen);
-}
-
-function flashStep3() {
-  // Pulse the Step 3 bar chart to show it updated
-  const bars = document.getElementById('scbars');
-  if (!bars) return;
-  bars.style.transition = 'opacity .15s';
-  bars.style.opacity = '.5';
-  setTimeout(() => { bars.style.opacity = '1'; }, 180);
-
-  // Show a "ranking updated" toast near the bars
-  const card = bars.closest('.sc-card');
-  if (!card) return;
-  let badge = card.querySelector('.rank-updated-badge');
-  if (!badge) {
-    badge = document.createElement('div');
-    badge.className = 'rank-updated-badge';
-    badge.style.cssText = 'position:absolute;top:12px;right:14px;background:var(--gold);color:white;font-size:.95rem;font-weight:700;padding:2px 9px;border-radius:20px;opacity:0;transition:opacity .2s;pointer-events:none;letter-spacing:.04em';
-    badge.textContent = '✓ Ranking updated';
-    card.style.position = 'relative';
-    card.appendChild(badge);
-  }
-  badge.style.opacity = '1';
-  clearTimeout(badge._timer);
-  badge._timer = setTimeout(() => { badge.style.opacity = '0'; }, 1800);
-}
-
-function recalc() {
-  if (_curSchool) saveSchool(_curSchool);
-  const w = getWeights();
-  const cats = CATS.map(cat => cat.key);
-
-  // Update current school table
-  if (_curSchool && _scores[_curSchool]) {
-    const tot = cats.reduce((n,k) => n + (_scores[_curSchool][k]||5) * (w[k]||1), 0);
-    const el = document.getElementById('sw_total');
-    if (el) el.textContent = tot.toFixed(0);
-    cats.forEach(k => {
-      const sw = document.getElementById('sw_' + k);
-      if (sw) sw.textContent = ((_scores[_curSchool][k]||5) * (w[k]||1)).toFixed(0);
-    });
-  }
-
-  const maxPossible = cats.reduce((n,k) => n + 10 * (w[k]||1), 0);
-
-  const sorted = Object.entries(_scores)
-    .map(([name, s]) => ({
-      name,
-      total: cats.reduce((n,k) => n + (s[k]||5) * (w[k]||1), 0),
-      allDefault: cats.every(k => (s[k]||5) === 5)
-    }))
-    .sort((a,b) => b.total - a.total);
-
-  const barsEl = document.getElementById('scbars');
-  if (!barsEl) return;
-
-  // If no one has been scored yet (all still default 5s), show a prompt instead
-  const anyScored = sorted.some(s => !s.allDefault);
-
-  if (!anyScored) {
-    barsEl.innerHTML = `<div class="sc-pending">
-      <strong>Start scoring in Step 2 to see your personal ranking.</strong><br>
-      Click each school tab above and rate it 1–10 in every category. Your ranking 
-      appears here instantly — weighted by what matters most to you in Step 1.
-      <div style="margin-top:8px;font-size:.95rem;color:var(--tmu)">Tip: Step 1 weights × Step 2 scores = your personal ranking. A school that scores 7 in Cost with a weight of 5 beats one that scores 9 with a weight of 1.</div>
-    </div>`;
-    // Clear flags too
-    return;
-  }
-
-  // Color scale: gold for top, fading for lower
-  const colors = ['#2d8fe0','#d4b060','#debb75','#e8c88a','#efd4a0',
-                  '#f0daaa','#f2e0b8','#f4e6c4','#f6ecd0','#f8f2df'];
-
-  barsEl.innerHTML = sorted.map((s, i) => {
-    const pct = Math.round((s.total / maxPossible) * 100);
-    const sc = _scores[s.name] || {};
-    const flags = [];
-    if (!s.allDefault) {
-      if ((sc.cost||5) < 5)     flags.push('<span class="flag-pill flag-red">⚠ Cost</span>');
-      if ((sc.academic||5) < 6) flags.push('<span class="flag-pill flag-red">⚠ Academics</span>');
-      if ((sc.gut||5) < 5)      flags.push('<span class="flag-pill flag-yellow">⚠ Gut feeling</span>');
-      if ((sc.social||5) < 5)   flags.push('<span class="flag-pill flag-yellow">⚠ Culture fit</span>');
-    }
-    const shortName = s.name.length > 22 ? s.name.substring(0, 22) + '…' : s.name;
-    const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : '';
-    const rankColor = i < 3
-      ? ['#fff3cd','#e8e8e8','#ffe0cc'][i]
-      : 'var(--goldpale)';
-
-    return `<div>
-      <div class="bar-row">
-        <div class="bar-rank" style="background:${rankColor};color:var(--td)">${medal||i+1}</div>
-        <div class="bar-row-inner">
-          <span class="bar-name" title="${s.name}">${shortName}</span>
-          <div class="bar-wrap"><div class="bar-fill" style="width:${pct}%;background:${colors[i]||colors[9]}"></div></div>
-          <span class="bar-val">${s.total.toFixed(0)}</span>
-        </div>
-        ${s.allDefault ? '' : '<div style=\"width:100%\">'}
-        ${flags.length && !s.allDefault ? `<div style="grid-column:2;padding-left:0;display:flex;gap:4px;flex-wrap:wrap;margin-top:2px">${flags.join('')}</div>` : ''}
-      </div>
-    </div>`;
-  }).join('');
-}
-
-
 // ─────────────────────────────────────────────
 // NEXT STEPS + EXPORT
 // ─────────────────────────────────────────────
@@ -4633,6 +4369,8 @@ function renderNextSteps(data) {
     { label:'Khan Academy SAT Prep', url:'https://www.khanacademy.org/sat', desc:'Free official SAT practice, partnered with College Board' },
     { label:'Scholarship Search', url:'https://www.fastweb.com', desc:'Free scholarship matching tool — apply early and often' },
     { label:'College Confidential', url:'https://www.collegeconfidential.com', desc:'Student forums with real talk about admissions, campus life, and decisions' },
+    { label:'College Scorecard', url:'https://collegescorecard.ed.gov', desc:'Official U.S. Dept. of Education cost, debt, and earnings data by school' },
+    { label:'CollegeVine', url:'https://www.collegevine.com', desc:'Free admissions chancing calculator and essay support' },
   ];
 
   document.getElementById('nextsteps').innerHTML = `
@@ -4653,18 +4391,6 @@ function renderNextSteps(data) {
         </div>
       </div>
 
-      <div style="margin-bottom:1rem">
-        <button class="clarity-btn" onclick="showClarity()">
-          ⚡ Just tell me what to do
-        </button>
-      </div>
-      <div id="clarityModal" class="clarity-modal" onclick="if(event.target===this)hideClarity()">
-        <div class="clarity-inner">
-          <div class="clarity-title">Your Top 3 — <strong style="color:#fff">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> Recommends</div>
-          <div id="clarityContent"></div>
-          <button class="clarity-close" onclick="hideClarity()">Got it — back to my full list</button>
-        </div>
-      </div>
       <div class="nsfooter">
         <button class="btngh" onclick="restartApp()">↩ Retake Assessment</button>
         <button class="btngh" onclick="startBrandNew()" style="border-color:rgba(255,100,100,.4);color:#ff9999">🗑 Start Brand New</button>
@@ -4731,23 +4457,23 @@ function buildShareData() {
 }
 
 function getShareUrl() {
-  const shareId = buildShareData();
-  if (!shareId) return null;
   const base = window.location.origin + window.location.pathname.replace('app.html', '');
-  // Encode minimal data only to keep URL short
   const d = S.lastResult;
   if (!d) return null;
+  // Compact per-school data — this is what share.html actually reads (r/n/l/t/a/p),
+  // plus the timestamp so the shared page can show a real date instead of "Invalid Date".
   const miniData = {
     n: d.studentName || 'A Student',
-    c: (d.colleges||[]).slice(0,10).map(x=>({r:x.rank,n:x.name,l:x.location,t:x.tier,a:x.acceptanceRate,p:x.netPrice&&x.netPrice.estimated}))
+    c: (d.colleges||[]).slice(0,10).map(x=>({r:x.rank,n:x.name,l:x.location,t:x.tier,a:x.acceptanceRate,p:x.netPrice&&x.netPrice.estimated})),
+    cr: new Date().toISOString()
   };
   try {
-    // Just use college names to keep URL short
-    const names = miniData.c.map(x => x.n).join('|');
-    const shortData = encodeURIComponent(JSON.stringify({n: miniData.n, names: names}));
+    const shortData = encodeURIComponent(JSON.stringify(miniData));
     return base + 'share.html?d=' + shortData;
   } catch(e) {
-    return base + 'share.html?id=' + shareId;
+    // Fallback: full-data localStorage copy, same-device only
+    const shareId = buildShareData();
+    return shareId ? base + 'share.html?id=' + shareId : null;
   }
 }
 
@@ -4822,49 +4548,6 @@ function askParentToPay() {
   );
   window.location.href = 'mailto:?subject=' + subject + '&body=' + body;
   showToast('Email to parents opened! Send it to get started.');
-}
-
-function showClarity() {
-  const modal = document.getElementById('clarityModal');
-  const content = document.getElementById('clarityContent');
-  const data = S.lastResult;
-  if (!modal || !content || !data) return;
-
-  // Build top 3 from topPick + top3 array or first 3 colleges
-  const top3Names = data.top3 || (data.colleges||[]).slice(0,3).map(c=>c.name);
-  const colleges = data.colleges || [];
-
-  let html = '';
-  if (data.topPick) {
-    html += `<div class="clarity-pick" style="border-left-color:#1a7fd4;background:#eef4ff">
-      <div class="clarity-pick-num">⭐ #1 — Best Overall Fit</div>
-      <div class="clarity-pick-name">${data.topPick.school}</div>
-      <div class="clarity-pick-why">${data.topPick.reason}</div>
-      ${data.topPick.tradeoff ? `<div style="font-size:.82rem;color:#888;margin-top:.5rem;font-style:italic">⚖️ ${data.topPick.tradeoff}</div>` : ''}
-    </div>`;
-  }
-
-  // Filter out the topPick school from top3 to avoid duplication
-  const filteredTop3 = top3Names.filter(n => !data.topPick || n !== data.topPick.school);
-  filteredTop3.slice(0, 2).forEach((name, i) => {
-    const college = colleges.find(c => c.name === name) || {name};
-    html += `<div class="clarity-pick">
-      <div class="clarity-pick-num">#${i+2} — ${college.tier ? college.tier.charAt(0).toUpperCase()+college.tier.slice(1) : 'Strong Choice'}</div>
-      <div class="clarity-pick-name">${college.name}</div>
-      <div class="clarity-pick-why">${college.why || 'Strong fit based on your profile.'}</div>
-    </div>`;
-  });
-
-  if (!html) html = '<p style="color:#888">Generate your list first to see recommendations.</p>';
-  content.innerHTML = html;
-  modal.classList.add('show');
-  document.body.style.overflow = 'hidden';
-}
-
-function hideClarity() {
-  const modal = document.getElementById('clarityModal');
-  if (modal) modal.classList.remove('show');
-  document.body.style.overflow = '';
 }
 
 function savePDF() {
@@ -5018,8 +4701,6 @@ function restartApp() {
   // Reset state
   clearSession();
   Object.assign(S, {qi:0, answers:{}, skipped:[], visible:[], multi:[], listGenerated:false, lastResult:null, awaitingGeneration:false});
-  _curSchool = null;
-  Object.keys(_scores).forEach(k => delete _scores[k]);
 
   // Reset UI
   document.getElementById('chatfeed').innerHTML = '';
@@ -5057,8 +4738,6 @@ function startBrandNew() {
 
   // Reset all state
   Object.assign(S, {qi:0, answers:{}, skipped:[], visible:[], multi:[], listGenerated:false, lastResult:null, awaitingGeneration:false});
-  _curSchool = null;
-  Object.keys(_scores).forEach(k => delete _scores[k]);
 
   // Reset all UI
   document.getElementById('chatfeed').innerHTML = '';
