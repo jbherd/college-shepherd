@@ -22,8 +22,8 @@
   ],
   "functions": {
     "api/*.js": {
-      "maxDuration":180,
-      "includeFiles": "{data/**,lib/**,colleges_scorecard.json,character_profiles.json}"
+      "maxDuration": 180,
+      "includeFiles": "{data/**,lib/**,colleges_scorecard.json,character_profiles.json,character_profiles_updates.json}"
     }
   }
 }
