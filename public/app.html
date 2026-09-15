@@ -3071,7 +3071,58 @@ async function doGenerate(retryCount) {
   const profile = profileLines.join('\n');
   const skippedKeys = S.skipped.map(id => { const q=QS.find(x=>x.id===id); return q?q.key:''; }).filter(Boolean);
 
+  // ── REAL COLLEGE SEARCH ─────────────────────────────────────────────────
+  // Hard-filters + scores the full ~1,944-school College Scorecard dataset
+  // against this student's actual answers (cost, size, setting, major fit,
+  // home state/region, selectivity band, Greek life, hidden-gem openness).
+  // This is real search/discovery over real data — the AI below no longer
+  // has to recall college names or stats from memory; it only picks/narrates
+  // the best 10 from this verified shortlist. Falls back to the old static
+  // RANKINGS_REF block below only if this call fails for any reason.
+  let matchShortlist = [];
+  let usedRealShortlist = false;
+  try {
+    const matchRes = await fetch('/api/match', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ answers: S.answers, perTier: 15 })
+    });
+    if (matchRes.ok) {
+      const matchData = await matchRes.json();
+      matchShortlist = matchData.shortlist || [];
+      usedRealShortlist = matchShortlist.length > 0;
+    } else {
+      console.log('match.js returned', matchRes.status, '— falling back to static reference data');
+    }
+  } catch (e) {
+    console.log('match.js call failed, falling back to static reference data:', e.message);
+  }
+  // Keep for the post-render enrichment step (applyMatchData) so displayed
+  // numbers come from this exact same real data, not a second fuzzy lookup.
+  S.matchShortlistByName = {};
+  matchShortlist.forEach(s => { S.matchShortlistByName[s.name] = s; });
+
+  const shortlistText = matchShortlist.map(s => {
+    const parts = [
+      s.name + ' (' + s.city + ', ' + s.state + ')',
+      'tier-for-student:' + s.tierForStudent,
+      'admit:' + (s.admitRatePct != null ? s.admitRatePct + '%' : 'N/A'),
+      'size:' + (s.size || 'N/A') + (s.sizeCategory ? ' (' + s.sizeCategory + ')' : ''),
+      'ownership:' + (s.ownership || '?'),
+      'est-net-price-for-this-student:' + (s.estimatedNetPrice != null ? '$' + s.estimatedNetPrice.toLocaleString() + '/yr' : 'N/A'),
+      'sticker-in-state:' + (s.tuitionInState != null ? '$' + s.tuitionInState.toLocaleString() : 'N/A'),
+      'sticker-out-of-state:' + (s.tuitionOutOfState != null ? '$' + s.tuitionOutOfState.toLocaleString() : 'N/A'),
+      '4yr-completion:' + (s.completionRate4yr != null ? Math.round(s.completionRate4yr * 100) + '%' : 'N/A'),
+      'median-earnings-10yr:' + (s.medianEarnings10yr != null ? '$' + s.medianEarnings10yr.toLocaleString() : 'N/A'),
+      (s.dominantPrograms && s.dominantPrograms.length) ? 'strong-programs:' + s.dominantPrograms.join('/') : '',
+      s.vibe ? 'CHARACTER:' + s.vibe : '',
+      (s.distinctives && s.distinctives.length) ? 'DISTINCTIVE-FACTS:' + s.distinctives.join(' | ') : '',
+    ].filter(Boolean);
+    return '- ' + parts.join(' | ');
+  }).join('\n');
+
   // ── RANKING REFERENCE DATA (sourced from College Raptor 2026, US News 2026, Princeton Review 2026) ──
+  // Fallback only — used in referenceSection below when /api/match fails.
   const RANKINGS_REF = `
 === TOP 50 OVERALL (College Raptor 2026) ===
 1.Princeton NJ Private 5% | 2.Harvard MA Private 3% | 3.MIT MA Private 4%
@@ -3817,6 +3868,19 @@ Erasmus University Netherlands | Sciences Po France | IE Business School Spain
 ESADE Spain | HSG Switzerland | U of Amsterdam Netherlands
 `
 
+  const referenceSection = usedRealShortlist
+    ? `REAL CANDIDATE SCHOOLS — this is the ONLY list you may choose from. Every figure below comes straight from live U.S. Dept. of Education College Scorecard data for THIS student's specific situation (major fit, cost for their income bracket, size/setting preference, home-state value, and a mechanically-computed reach/match/safety tier vs. their academic profile):
+${shortlistText}
+
+STRICT RULES:
+- Choose your 10 schools ONLY from the list above, using the exact name given. Never invent, substitute, or add a school that is not in this list.
+- Use the exact admit rate, net price, tuition, completion rate, and earnings figures given above for each school — do not estimate or invent your own numbers.
+- The "tier-for-student" value given is a mechanical estimate based on admit rate vs. this student's academic profile — use it as your primary guide for the reach/match/safety label, but you may adjust individual schools with good judgment if the CHARACTER/DISTINCTIVE-FACTS suggest otherwise. Still aim for roughly 3-4 reach, 4-5 match, 2-3 safety overall.
+- Schools with a CHARACTER line and DISTINCTIVE-FACTS have real, researched detail — draw directly on it for "why", highlights, and fun facts. Schools WITHOUT those fields have only verified hard data (cost, size, admissions, programs) and no researched color yet — for those, keep "why"/highlights/funFacts grounded in the real facts given (location, size, program strength, cost, outcomes) rather than inventing campus-culture claims you have no data for. It's fine for a data-only school's highlights to be more factual/less colorful than a researched one's — don't compensate by making things up.
+- HIDDEN GEMS: the list above already reflects this student's hidden_gem preference in which schools were surfaced — pick across the range you're given rather than defaulting only to the most recognizable names, unless the student's profile says otherwise.`
+    : `REFERENCE DATA (static fallback — the live college search was temporarily unavailable for this request, so ground your picks in this list; it is not exhaustive and may be less current):
+${RANKINGS_REF}`;
+
   const prompt = `You are an expert college counselor known for finding hidden gem colleges that are perfect fits. Return ONLY valid JSON for this student. No markdown.
 
 CRITICAL INSTRUCTIONS:
@@ -3826,10 +3890,8 @@ CRITICAL INSTRUCTIONS:
 - If student mentioned specific schools they like, also consider similar but less obvious alternatives.
 - Consider: specialized programs, unique campus cultures, strong alumni networks in specific fields, exceptional value, distinctive locations.
 - ANTI-REPETITION: Do not default to the same handful of well-known "safe value" flagship publics (e.g. Indiana, Ohio State, Purdue, Penn State) just because they're commonly recommended in general — only include one of those if it is a genuinely standout match for THIS profile. Actively vary your picks across different student profiles; treat it as a failure mode if two students with meaningfully different majors, regions, budgets, or campus preferences end up with substantially overlapping lists.
-- Use REFERENCE DATA below to ground your picks in real schools and real rankings/acceptance-rate context — it is not an exhaustive or required list, just a sanity check against hallucinated names and stats.
 
-REFERENCE DATA:
-${RANKINGS_REF}
+${referenceSection}
 
 STUDENT: ${profile}
 
@@ -4239,17 +4301,34 @@ function renderResults(data) {
   rc.innerHTML = html;
   rc.style.display = 'block';
 
-  // Enrich with real College Scorecard data
+  // Enrich with real data — PRIMARY source is the exact shortlist we already
+  // handed the AI (S.matchShortlistByName): it's a guaranteed exact-name
+  // match on data we already verified, so no extra network round-trip or
+  // fuzzy-name lookup is needed for anything the AI picked from that list.
   const incomeLevel = S.answers.family_income || '';
-  enrichWithScorecardData(data.colleges || [], incomeLevel).then(scorecardResults => {
-    if (scorecardResults) {
-      data.colleges = applyRealData(scorecardResults, data.colleges || []);
-      // Badge only - no re-render to prevent twitching
-      document.querySelectorAll('.netprice-disclaimer').forEach(el => {
-        if (!el.dataset.v) { el.dataset.v='1'; el.insertAdjacentHTML('afterbegin','<strong style="color:#1a7fd4">✓ Verified federal data</strong> · '); }
-      });
-    }
-  });
+  const matchByName = S.matchShortlistByName || {};
+  const matchedNow = applyMatchData(matchByName, data.colleges || []);
+  data.colleges = matchedNow.colleges;
+  if (matchedNow.anyMatched) {
+    document.querySelectorAll('.netprice-disclaimer').forEach(el => {
+      if (!el.dataset.v) { el.dataset.v='1'; el.insertAdjacentHTML('afterbegin','<strong style="color:#1a7fd4">✓ Verified federal data</strong> · '); }
+    });
+  }
+  // FALLBACK ONLY: any college the AI returned that isn't an exact match in
+  // our own shortlist (e.g. it ignored the strict-list instruction, or the
+  // match step was unavailable this run) still gets a best-effort live
+  // Scorecard lookup by name, same as the old behavior.
+  const unmatchedColleges = (data.colleges || []).filter(c => !matchByName[c.name]);
+  if (unmatchedColleges.length) {
+    enrichWithScorecardData(unmatchedColleges, incomeLevel).then(scorecardResults => {
+      if (scorecardResults) {
+        data.colleges = applyRealData(scorecardResults, data.colleges || []);
+        document.querySelectorAll('.netprice-disclaimer').forEach(el => {
+          if (!el.dataset.v) { el.dataset.v='1'; el.insertAdjacentHTML('afterbegin','<strong style="color:#1a7fd4">✓ Verified federal data</strong> · '); }
+        });
+      }
+    });
+  }
 
   renderNextSteps(data);
   renderEssaySection(data);
@@ -4294,6 +4373,34 @@ async function enrichWithScorecardData(colleges, incomeLevel) {
     console.log('Scorecard enrichment failed:', e.message);
     return null;
   }
+}
+
+// Primary enrichment path: overlay each college with the exact real-data
+// record we already fetched from /api/match for it (guaranteed exact-name
+// match, since the AI was instructed to choose only from that list).
+function applyMatchData(matchByName, colleges) {
+  let anyMatched = false;
+  const enrichedColleges = (colleges || []).map(college => {
+    const real = matchByName[college.name];
+    if (!real) return college;
+    anyMatched = true;
+    const enriched = { ...college };
+    if (real.admitRatePct != null) enriched.acceptanceRate = real.admitRatePct + '%';
+    if (real.completionRate4yr != null) enriched.gradRate = Math.round(real.completionRate4yr * 100) + '%';
+    enriched.netPrice = enriched.netPrice || {};
+    if (real.estimatedNetPrice != null) {
+      enriched.netPrice.estimated = '$' + real.estimatedNetPrice.toLocaleString() + '/yr';
+      enriched.netPrice.verified = true;
+    }
+    if (real.tuitionOutOfState != null) enriched.netPrice.sticker = '$' + real.tuitionOutOfState.toLocaleString() + '/yr';
+    enriched.netPrice.basis = 'College Scorecard (federal data) · income-bracket estimate';
+    if (real.medianEarnings10yr != null) {
+      enriched.rankings = enriched.rankings || {};
+      enriched.rankings.payScale = '$' + real.medianEarnings10yr.toLocaleString() + ' median (10yr)';
+    }
+    return enriched;
+  });
+  return { colleges: enrichedColleges, anyMatched };
 }
 
 function applyRealData(scorecardResults, colleges) {
