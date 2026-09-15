@@ -22,7 +22,8 @@
   ],
   "functions": {
     "api/*.js": {
-      "maxDuration":180
+      "maxDuration":180,
+      "includeFiles": "{data/**,lib/**}"
     }
   }
 }
