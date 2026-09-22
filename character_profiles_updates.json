@@ -329,6 +329,22 @@
     ],
     "vibe": "A small Christian university in Fullerton, California affiliated with the Christian Church/Churches of Christ, training students for ministry, education, business, and counseling within an explicitly faith-centered campus culture."
   },
+  "121150": {
+    "confidence": "researched",
+    "distinctives": [
+      "George Pepperdine, who built his fortune founding Western Auto Supply Company, opened the school in 1937 on a campus in South Los Angeles with 167 students from 22 states and two countries on opening day.",
+      "The university relocated to its current 830-acre Malibu campus in 1972 after construction began in 1971, trading an urban Los Angeles setting for oceanfront bluffs.",
+      "The Phillips Theme Tower, a 125-foot obelisk with an embedded cross visible from the Pacific Coast Highway, serves as the university's central campus landmark and symbol of its Church of Christ affiliation.",
+      "Pepperdine has consistently ranked among the top U.S. universities for study-abroad participation, with a large majority of undergraduates completing a semester or year at one of its international campuses."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Pepperdine pairs a Church of Christ mission with a genuinely spectacular perch on the Malibu coastline, its campus organized around a 125-foot cross-topped tower overlooking the Pacific."
+  },
   "121257": {
     "confidence": "researched",
     "distinctives": [
@@ -421,6 +437,22 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A small, historically women's liberal-arts college within the Claremont Colleges consortium, built around a Mediterranean Revival campus and a humanities-forward core curriculum distinct from its more STEM-heavy consortium partners."
+  },
+  "123651": {
+    "confidence": "researched",
+    "distinctives": [
+      "The school opened in Los Angeles in 1920 as Southern California Bible School, founded by Harold K. Needham, D. W. Kerr, and W. C. Pierce to train workers for Assemblies of God ministries.",
+      "It relocated to Pasadena in 1927 and then to its current Costa Mesa campus in 1950, gradually adding a full liberal-arts curriculum and taking the name Southern California College in 1959.",
+      "In 1939 it became the first four-year college chartered by the Assemblies of God denomination, a distinction it still holds as the movement's oldest liberal-arts institution.",
+      "The school took its current name, Vanguard University of Southern California, in 1999, and its athletes compete in NCAA Division II as the Lions."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Vanguard is a small, tight-knit Pentecostal school a few miles from Orange County's beaches, tracing its roots to a 1920s Bible school and still explicitly training students for ministry and mission alongside standard liberal-arts majors."
   },
   "128498": {
     "confidence": "researched",
@@ -530,6 +562,22 @@
       "applied via scheduled batch on 2026-09-18"
     ],
     "vibe": "A historically Black, land-grant university in Dover, DE, founded in 1891 as Delaware College for Colored Students; it now runs the only full-service university-based flight school in the mid-Atlantic and in 2020 received a $20 million gift from MacKenzie Scott, its largest single gift ever."
+  },
+  "131159": {
+    "confidence": "researched",
+    "distinctives": [
+      "Chartered by Congress in 1893 (established 1892) at the urging of Methodist bishop John Fletcher Hurst, who envisioned a university dedicated to public service and international affairs \u2014 a mission still reflected in its School of International Service.",
+      "AU is consistently one of the top feeder schools into the U.S. State Department and has been named the nation's most politically active campus by the Princeton Review multiple times.",
+      "Notable alumni include broadcaster David Gregory (former moderator of 'Meet the Press'), Judge Judy Sheindlin ('63), former HHS Secretary Donna Shalala, and director Barry Levinson ('67).",
+      "In 2018, AU became the first university in the United States to achieve carbon-neutral status, and its campus sits on 90 acres near Ward Circle in Washington, D.C.'s Spring Valley/Tenleytown neighborhood."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "American University is Washington's policy-and-power campus \u2014 chartered by an Act of Congress to train public servants, it's the school for students who want their classroom conversations to spill straight into the halls of government a few Metro stops away."
   },
   "131450": {
     "confidence": "researched",
@@ -755,6 +803,22 @@
     ],
     "vibe": "A public university in Pensacola, FL, founded in 1963 as the sixth school in Florida's state university system, known for its sprawling 1,600-acre campus, strong maritime-archaeology ties through the Arcadia Mill site, and a young football program that won a national title just four years after its 2016 launch."
   },
+  "138600": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1889 by Presbyterian minister Frank Henry Gaines as the Decatur Female Seminary, it was renamed Agnes Scott Institute in 1890 \u2014 honoring Agnes Irvine Scott, mother of benefactor Col. George Washington Scott \u2014 and became Agnes Scott College in 1906.",
+      "It was the first institution of higher education in Georgia to receive regional accreditation, and its historic campus was added to the National Register of Historic Places in 1994.",
+      "Poet Robert Frost visited the campus annually from 1945 until his death in 1963, a tradition that became a defining feature of the college's literary life.",
+      "U.S. News & World Report ranked Agnes Scott #1 among 'Most Innovative Schools' in its National Liberal Arts Colleges category in 2025, and the college has committed to campus carbon neutrality by 2039."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Agnes Scott is one of the historic 'Seven Sisters of the South' \u2014 a tight-knit women's college outside Atlanta that has repeatedly out-innovated schools many times its size, and where Robert Frost once returned every year for nearly two decades just to read poetry to students."
+  },
   "138868": {
     "confidence": "researched",
     "distinctives": [
@@ -770,6 +834,22 @@
       "applied via scheduled batch on 2026-09-17"
     ],
     "vibe": "A small Christian university affiliated with Christian Churches/Churches of Christ, founded in 1937 near Atlanta to train ministers and missionaries, which took its current name and relocated to a new campus in West Point, Georgia in 2012."
+  },
+  "139144": {
+    "confidence": "researched",
+    "distinctives": [
+      "Martha Berry founded the school in 1902 as the Boys Industrial School on just 83 acres inherited from her father; the campus has since grown to over 27,000 acres, which Berry says makes it by far the world's largest college campus.",
+      "Berry's signature work program (today called LifeWorks) descends directly from Martha Berry's original model, in which students literally built, farmed, and maintained the campus in exchange for their education \u2014 the college still guarantees every student eight semesters of paid, professional work experience.",
+      "In 1904, Berry's school became the first institution approved by the Daughters of the American Revolution for its mission of educating rural Appalachian youth.",
+      "The sprawling campus includes 88 miles of hiking trails and Lavender Mountain, and has doubled as a filming location for Hollywood productions thanks to its scale and scenery."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Berry College in Rome, Georgia, sits on the largest contiguous college campus in the world \u2014 more than 27,000 acres of forest, farmland, and mountain \u2014 and it built its identity on the idea that students should work for their education, not just pay for it."
   },
   "139940": {
     "confidence": "researched",
@@ -880,6 +960,38 @@
       "applied via scheduled batch on 2026-09-19"
     ],
     "vibe": "A small private liberal arts college in Caldwell, Idaho, founded in 1891 by Presbyterian minister William Judson Boone with support from the Wood River Presbytery, and now the state's oldest private college."
+  },
+  "143084": {
+    "confidence": "researched",
+    "distinctives": [
+      "The college was founded in 1860 in Chicago as Augustana College and Theological Seminary by the Scandinavian Evangelical Lutheran Augustana Synod, then moved to Paxton, Illinois in 1863 and finally to its current Rock Island campus in 1875.",
+      "Physicist Daniel C. Tsui, a 1961 Augustana graduate, went on to share the 1998 Nobel Prize in Physics for the discovery of the fractional quantum Hall effect.",
+      "Under coach Bob Reade, Augustana's football team won four consecutive NCAA Division III national championships from 1983 through 1986.",
+      "Old Main, built between 1884 and 1893, is listed on the National Register of Historic Places and still anchors the 115-acre campus overlooking the Mississippi River."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Augustana is a Swedish-Lutheran liberal arts college on the Mississippi River in Rock Island that has quietly produced a Nobel physicist and a dynastic Division III football program, all while keeping a Viking mascot as a nod to its immigrant founders."
+  },
+  "143288": {
+    "confidence": "researched",
+    "distinctives": [
+      "Blackburn was founded in 1837, named for Presbyterian minister Rev. Gideon Blackburn, and evolved from a theological seminary into Blackburn University before taking its current name, Blackburn College, in 1918.",
+      "Its famous Work Program began as a 'Self-Help Plan' introduced by President William M. Hudson in 1912; today every residential student works 160 hours per semester across roughly a dozen campus departments in exchange for a substantial tuition discount, and past generations of students physically helped construct campus buildings like Stoddard Hall in 1924.",
+      "Blackburn is one of only about ten federally recognized 'work colleges' in the United States, and it's the only one whose work program is largely run by elected student managers rather than college staff.",
+      "The campus newspaper, founded in 1871, is reportedly the oldest continuously published college newspaper in Illinois."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Blackburn College in Carlinville, Illinois runs on a philosophy you won't find almost anywhere else: every resident student works to run the campus itself, and generations of students have literally built the buildings they live and study in."
   },
   "144005": {
     "confidence": "researched",
@@ -1040,6 +1152,54 @@
     ],
     "vibe": "A liberal arts university in Greencastle, IN, founded as Indiana Asbury College in 1837 and renamed for donor Washington C. DePauw in 1884; it's the birthplace of the first Greek-letter sorority and still has one of the highest Greek-affiliation rates in the country."
   },
+  "152673": {
+    "confidence": "researched",
+    "distinctives": [
+      "Wabash was founded on November 21, 1832, by a small group of young men with little money who met at James Thomson's home, convinced the frontier needed local preachers and teachers; trustees dedicated the donated land in a snowy ceremony the very next day.",
+      "The entire student conduct code boils down to the 'Gentleman's Rule,' first articulated in the 19th century: 'The student is expected to conduct himself at all times, both on and off campus, as a gentleman and a responsible citizen' \u2014 there is no dorm-room-search or curfew policy beyond it.",
+      "Caleb Mills, Wabash's first faculty member starting in 1833, went on to be called the 'father of the Indiana public school system' for his role in shaping statewide public education.",
+      "Wabash remains one of only a few traditionally all-male liberal arts colleges still operating in the U.S., and its notable alumni include composer and songwriter Cole Porter."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Wabash College in Crawfordsville, Indiana is one of only a small handful of all-male liberal arts colleges left in the United States, run on the strength of a single, deceptively simple rule of self-governed honor rather than a thick handbook."
+  },
+  "153144": {
+    "confidence": "researched",
+    "distinctives": [
+      "Coe traces its founding to 1851 as the 'School for the Prophets' under Rev. Williston Jones; it took its current name after Daniel Coe, a farmer who donated $1,500 on the condition that the school admit both men and women.",
+      "Coe's Writing Center, opened in 1986, is the largest undergraduate student-run writing center in the country, staffed by more than 60 students who conduct over 2,000 conferences a year.",
+      "The Stewart Memorial Library holds original works by celebrated Iowa artists Grant Wood and Marvin Cone, both tied to the Cedar Rapids art scene.",
+      "Notable alumni include journalist and 'The Rise and Fall of the Third Reich' author William L. Shirer and S. Donald Stookey, the inventor of Corningware's heat-resistant ceramic glass."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Coe College is a small, tightly-knit liberal arts school on a 70-acre urban campus in Cedar Rapids, Iowa, where a farmer's $1,500 gift with a condition attached shaped the school's identity from day one."
+  },
+  "153269": {
+    "confidence": "researched",
+    "distinctives": [
+      "Drake was founded in March 1881 by Union Army general Francis Marion Drake and educator George T. Carpenter, and its law school (established 1865, later absorbed into the university) is among the 25 oldest in the United States.",
+      "The Drake Relays, launched in 1910, is one of the most prestigious college track meets in the world; Jesse Owens set an American broad jump record on the Drake track in 1935.",
+      "Drake's Bulldog mascot dates to 1904, when track coach John L. Griffith started bringing his own pet bulldogs to the practice field.",
+      "Old Main, completed in 1883, has hosted major U.S. presidential debates, including a 2007 Democratic debate and 2015 Republican and Democratic primary debates."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Drake is a mid-sized private university in the heart of Des Moines that punches above its weight in journalism, law, and pharmacy, and every spring it becomes the epicenter of American track and field."
+  },
   "154590": {
     "confidence": "researched",
     "distinctives": [
@@ -1103,6 +1263,22 @@
       "applied via scheduled batch on 2026-09-18"
     ],
     "vibe": "A small Presbyterian-founded college in rural Sterling, KS, established in 1887 as Cooper Memorial College and renamed Sterling College in 1920, still centered on its original 1887 building, Cooper Hall."
+  },
+  "156213": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded on September 2, 1890, by Methodist evangelist John Wesley Hughes as Kentucky Holiness College, it was renamed Asbury College in 1891 after Methodist bishop Francis Asbury and became Asbury University in 2010.",
+      "In February 2023, an ordinary student chapel service in Wilmore, Kentucky unexpectedly extended into a continuous 24/7 gathering of worship and prayer for roughly two weeks, drawing tens of thousands of visitors and international media attention as the '2023 Asbury Revival.'",
+      "With about 1,850 students and a 12:1 student-to-faculty ratio, Asbury shifted its athletics from the NAIA to NCAA Division III during the 2023-24 academic year.",
+      "Notable alumni include missionary-theologian E. Stanley Jones, Ohio Governor Ted Strickland, Georgia Governor Joe Frank Harris, and Sue Bell Cobb, the first woman to serve as Chief Justice of the Alabama Supreme Court."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A tight-knit Wesleyan-Holiness Christian college in the Kentucky bluegrass whose campus became a global news story in February 2023 when a routine chapel service turned into a spontaneous, weeks-long revival watched by the world."
   },
   "156356": {
     "confidence": "researched",
@@ -1516,6 +1692,22 @@
     ],
     "vibe": "A private engineering- and architecture-focused university in Southfield, MI, founded in 1932 during the Great Depression, whose campus includes a Frank Lloyd Wright-designed Usonian house."
   },
+  "170806": {
+    "confidence": "researched",
+    "distinctives": [
+      "Madonna University was founded in 1937 by the Felician Sisters in Detroit as Presentation of the Blessed Virgin Mary Junior College, later relocating to its current 80-acre wooded campus in Livonia, Michigan.",
+      "It is one of the largest Franciscan universities in the country and offers more than 100 undergraduate majors alongside 35 master's programs.",
+      "Nursing is by far its most popular field of study, and the university began offering a Doctor of Nursing Practice, its first doctoral-level program, in 2009.",
+      "Its Franciscan Center earned Gold LEED certification from the U.S. Green Building Council, and its roughly 2,150 students compete athletically in the NAIA."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small Catholic Franciscan university in suburban Detroit where nursing dominates the course catalog and the Felician Sisters' service-first mission still shapes daily life on an 80-acre wooded campus."
+  },
   "171137": {
     "confidence": "researched",
     "distinctives": [
@@ -1578,6 +1770,22 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A small Lutheran liberal-arts college in Mankato, Minnesota, run by the Evangelical Lutheran Synod and rooted in Norwegian Lutheran heritage -- academically focused with a growing nursing program and notably strong graduate social-mobility outcomes."
+  },
+  "173300": {
+    "confidence": "researched",
+    "distinctives": [
+      "Concordia was founded by Red River Valley Norwegian Lutheran immigrants organized as the Northwestern Lutheran College Association, and the school was dedicated on October 31, 1891, on the former Bishop Whipple School property in Moorhead.",
+      "Bishop Whipple Hall, the school's oldest building, predates Concordia itself, having been built for the Episcopalian school Concordia's founders purchased the land from.",
+      "The Concordia Choir was founded in 1920, and the college's Christmas Concert tradition it anchors has run for roughly a century, earning Upper Midwest Emmy Awards for its public-television broadcasts.",
+      "Students are nicknamed 'Cobbers,' a name derived from 'corn cobbers,' reflecting the school's roots in the farming communities of the Red River Valley."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Concordia is a Norwegian-Lutheran college on the Minnesota\u2013North Dakota border best known nationally for one thing: a candlelit Christmas concert tradition now in its second century that packs a cathedral-sized choir into a gym-turned-concert-hall every December."
   },
   "173647": {
     "confidence": "researched",
@@ -2088,6 +2296,22 @@
     ],
     "vibe": "A private Jesuit Catholic research university based on an 85-acre Rose Hill campus in the Bronx, NY, founded June 24, 1841 by Bishop John Hughes as St. John's College and renamed Fordham University in 1907."
   },
+  "191630": {
+    "confidence": "researched",
+    "distinctives": [
+      "Hobart College traces its roots to 1822 (originally chartered as Geneva College and renamed Hobart in 1852), while William Smith College was founded in 1908 as its coordinate women's college; William Smith wasn't formally recognized as co-equal with Hobart until 1943.",
+      "Elizabeth Blackwell, the first woman to earn an M.D. in the United States, graduated from the Medical Institution of Geneva College \u2014 a predecessor of Hobart \u2014 in 1849, over the objections of many students and faculty at the time.",
+      "Alumnus Albert J. Myer founded the U.S. Army Signal Corps and later helped establish the International Meteorological Organization.",
+      "Hobart's men's ice hockey team won three consecutive NCAA Division III national championships in 2023, 2024, and 2025."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Set on the shore of Seneca Lake in the Finger Lakes, Hobart and William Smith is a single campus run as two coordinate colleges \u2014 one historically for men, one for women \u2014 that share classes and faculty but keep their own deans, traditions, and identities."
+  },
   "192712": {
     "confidence": "researched",
     "distinctives": [
@@ -2119,6 +2343,38 @@
       "applied via scheduled batch on 2026-09-21"
     ],
     "vibe": "A Hudson Valley university that grew out of a Marist Brothers religious training school into a school known for a deep, decades-long IBM technology partnership and a nationally ranked fashion program."
+  },
+  "193654": {
+    "confidence": "researched",
+    "distinctives": [
+      "The New School was founded in 1919 by intellectuals including economist Thorstein Veblen, philosopher John Dewey, and historians Charles Beard and James Harvey Robinson, several of whom had resigned from Columbia University in protest of its suppression of anti-war speech during World War I.",
+      "In 1933, the university created the 'University in Exile,' a graduate faculty built specifically to give refuge and teaching positions to Jewish and other scholars fleeing Nazi Germany.",
+      "Its Parsons School of Design, absorbed into the university in 1970, is one of the most influential design schools in the world, while the Dramatic Workshop trained a young Marlon Brando in the 1940s.",
+      "The school's motto, 'To the Living Spirit,' was inspired by an inscription the Nazis had chiseled off a German university building, and the university today enrolls roughly 10,000 students in Greenwich Village."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A boundary-pushing university carved out of Greenwich Village protest politics, home to the world-renowned Parsons School of Design and a century-long habit of sheltering radical thinkers and refugee scholars."
+  },
+  "194824": {
+    "confidence": "researched",
+    "distinctives": [
+      "Rensselaer Polytechnic Institute was founded in 1824 by Stephen Van Rensselaer, with scientist Amos Eaton as its first senior professor, making it the oldest continuously operating technological research university in the English-speaking world.",
+      "RPI awarded the first civil engineering degrees in the United States in 1835, decades before most American universities offered formal engineering education at all.",
+      "In 1999, it became one of the first universities in the country to require every incoming student to own a laptop computer, foreshadowing today's standard college tech expectations.",
+      "Notable alumni include Nobel physicist Ivar Giaever, Nvidia co-founder Curtis Priem, digital camera inventor Steven Sasson, and Apollo 11 program manager George Low."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "The oldest technological university in the English-speaking world, a Troy, New York powerhouse where practical, hands-on engineering has been the point since long before 'STEM' was a word."
   },
   "195030": {
     "confidence": "researched",
@@ -2167,6 +2423,38 @@
       "applied via scheduled batch on 2026-09-20"
     ],
     "vibe": "A liberal arts university in Canton, NY, founded in 1856 by the Universalist Church after four local church members raised $9,000 in pledges from about 150 townspeople to build a combined seminary and college; it now runs the second-oldest collegiate outing club in the country (after Dartmouth) on a 1,000-acre campus where only about a fifth of the land is developed."
+  },
+  "195304": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1926 by real estate developer William Van Duzer Lawrence, who named the college after his wife, Sarah Bates Lawrence; it was originally a women's college and went coeducational in 1968.",
+      "The signature 'don' system pairs every student with a faculty adviser for weekly one-on-one conferences alongside small seminars, replacing the standard major/GPA structure with individually supervised study.",
+      "Broadcast journalism legend Barbara Walters is among its most famous graduates, and the 2019 student center on campus was named in her honor.",
+      "The college dropped SAT/ACT requirements as early as 2003, well ahead of the test-optional trend, and its roughly 1,700-student campus competes as the Gryphons in NCAA Division III's Skyline Conference."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Sarah Lawrence is the school built around the seminar table, not the lecture hall \u2014 a small progressive campus in Yonkers, NY where students design individualized courses of study with dedicated faculty, and where nonconformity has been the norm since the 1920s."
+  },
+  "196042": {
+    "confidence": "researched",
+    "distinctives": [
+      "Farmingdale was founded in 1912 as the New York State School of Agriculture on Long Island, proposed by state assemblyman John Lupton, and went through roughly eight name changes before becoming Farmingdale State College in 1993.",
+      "Theodore Roosevelt Jr. delivered the school's commencement address in 1920, and a Memorial Oak planted on campus in 1921 to honor WWI soldiers was planted using soil gathered from all 48 states and allied nations.",
+      "The college is now part of the State University of New York system and enrolls over 10,000 students across four schools, including the Pasternack School of Engineering Technology, on a 380-acre campus in East Farmingdale.",
+      "Notable alumni include NASA astronaut Fernando Caldeiro, actor William Fichtner, and comic book writer Len Wein, reflecting the school's mix of technical and creative graduates."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Farmingdale State College is a hands-on, career-focused SUNY campus on Long Island that grew from an agricultural school into a hub for aviation, engineering technology, and applied sciences \u2014 the kind of place built for students who want a degree that leads directly to a job."
   },
   "196079": {
     "confidence": "researched",
@@ -2373,6 +2661,22 @@
       "applied via scheduled batch on 2026-09-16"
     ],
     "vibe": "North Carolina's original land-grant college, founded by agricultural reformers in 1887 as an agriculture-and-mechanic-arts school and now a national leader in engineering, textiles, design, and veterinary medicine across more than 100,000 acres of statewide research land."
+  },
+  "199412": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1857 as the Charlotte Female Institute, the school has changed names repeatedly \u2014 Presbyterian College for Women, Queens College, Queens\u2013Chicora College \u2014 before settling on Queens University of Charlotte in 2002.",
+      "Every undergraduate is guaranteed at least one internship before graduation, and the university offers roughly 50 undergraduate majors within its uptown Charlotte campus.",
+      "Queens competes in NCAA Division I as a member of the ASUN Conference, fielding 16-plus men's and women's teams as the Royals, with mascot Rex the Royal.",
+      "In September 2025, Elon University and Queens announced merger plans; as of spring 2026 the schools were awaiting SACSCOC accreditation approval (expected June 2026), with administrative integration beginning July 2026 and full completion targeted for late 2027/early 2028 \u2014 prospective students should confirm current status directly with the school."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Queens University of Charlotte is a small Presbyterian-rooted school in the heart of a booming city, known for guaranteed internships and Division I athletics \u2014 and, as of 2026, it's in the middle of the biggest change in its history: an active merger with Elon University."
   },
   "200059": {
     "confidence": "researched",
@@ -2718,6 +3022,22 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A mid-size private university in rural central Pennsylvania combining a full College of Arts & Sciences with a well-regarded undergraduate College of Engineering -- a liberal-arts feel with real engineering depth, unusual in combination."
+  },
+  "211556": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1869 as the Pennsylvania Female College (later Pennsylvania College for Women, then Chatham College), the school celebrated its 150th anniversary in 2019 with a legacy built on sustainability, health, and women's education.",
+      "Rachel Carson graduated magna cum laude in 1929 after switching her major from English to biology in 1928 \u2014 a pivot that led directly to her career as a marine biologist and author of 'Silent Spring.'",
+      "Chatham's Eden Hall Campus, opened in 2014, was designed as one of the first fully sustainable, net-zero-energy campuses in the country, reflecting the university's environmental focus decades after Carson's graduation.",
+      "The university transitioned to full coeducation in undergraduate programs in 2015, ending nearly 150 years as a women's college while preserving its Rachel Carson Institute and strong environmental science tradition."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Chatham University is Pittsburgh's science-and-sustainability school with an outsized legacy \u2014 the alma mater of Rachel Carson, whose environmental writing helped launch the modern conservation movement, and a campus that has spent 150-plus years empowering women in fields that once excluded them."
   },
   "212009": {
     "confidence": "researched",
@@ -3286,6 +3606,22 @@
     ],
     "vibe": "A small, urban Dallas HBCU that reinvented itself around a mandatory work-college model -- every residential student holds a paid internship -- and around the 'WE over Me' ethic embodied by its campus farm on a former football field."
   },
+  "228246": {
+    "confidence": "researched",
+    "distinctives": [
+      "SMU was chartered on April 17, 1911, by the Methodist Episcopal Church, South, after Dallas beat out Fort Worth for the university's location when local civic leaders pledged $300,000 to secure it; Robert Stewart Hyer became its first president.",
+      "In 1987, SMU's football program received the NCAA's so-called 'death penalty' for repeated, flagrant recruiting violations, forcing cancellation of the entire 1987 season \u2014 and SMU voluntarily canceled 1988 as well, becoming the only Division I program ever hit with that punishment.",
+      "The George W. Bush Presidential Center, including his presidential library and museum, was dedicated on SMU's campus on April 25, 2013, on a 23-acre site operated independently under a 249-year ground lease.",
+      "Notable alumni span entertainment and business, including Academy Award winner Kathy Bates, former First Lady Laura Bush, and Whitney Wolfe Herd, founder and CEO of Bumble."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Southern Methodist University is a polished, well-resourced private university on a famously beautiful Dallas campus, known equally for its business and entertainment-industry alumni and for the hardest penalty in college football history."
+  },
   "228343": {
     "confidence": "researched",
     "distinctives": [
@@ -3490,6 +3826,22 @@
     ],
     "vibe": "A tiny, all-male liberal arts college in rural Virginia -- one of only three remaining four-year all-men's colleges in the US -- built around an honor code and a mission, unchanged since 1775, 'to form good men and good citizens.'"
   },
+  "232265": {
+    "confidence": "researched",
+    "distinctives": [
+      "Instruction on the site began September 17, 1861, when Mary Smith Peake taught formerly enslaved people under what is now called the Emancipation Oak, before the school was formally chartered in 1868 as Hampton Normal and Agricultural Institute under former Union general Samuel Chapman Armstrong.",
+      "Booker T. Washington enrolled in 1872, worked his way through as a janitor, and later used Hampton's vocational-education model as the direct template for the Tuskegee Institute, which he founded.",
+      "Hampton houses the oldest museum of the African diaspora in the United States, the Hampton University Museum, founded in 1868.",
+      "The campus is home to the Hampton University Proton Therapy Institute, one of the largest free-standing proton cancer-treatment centers in the world, reflecting the school's heavy investment in STEM and health-science research."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Hampton began in 1861 under a live oak tree where a freed Black woman taught fellow freedmen to read\u2014today it's a polished, self-assured HBCU on the Chesapeake Bay that still calls itself 'the Real HU' with total sincerity."
+  },
   "232609": {
     "confidence": "researched",
     "distinctives": [
@@ -3597,6 +3949,38 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A small engineering-focused branch campus of West Virginia University, relocated in 2017 from its original Montgomery, WV site to a larger campus in Beckley -- a deliberate revitalization that grew enrollment and earned it a reputation as one of the best return-on-investment schools in the state."
+  },
+  "238333": {
+    "confidence": "researched",
+    "distinctives": [
+      "Beloit was chartered on February 2, 1846, while Wisconsin was still a territory, founded by seven New England colonists calling themselves the 'Friends for Education,' making it one of the oldest continuously operating colleges in the state.",
+      "The campus contains roughly 20 Native American effigy mounds built between 400 and 1200 CE by Late Woodland peoples, including a turtle-shaped mound that inspired the college's unofficial turtle mascot; the mounds are legally protected and studied alongside the campus's Logan Museum of Anthropology.",
+      "Beloit went coeducational in 1895, and in 1904 Grace Ousley became the first African-American woman to graduate from the college.",
+      "Notable alumni include naturalist and explorer Roy Chapman Andrews (a real-life inspiration for Indiana Jones), science fiction author Ursula K. Le Guin, and actor James Arness of 'Gunsmoke.'"
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Beloit College is a small Wisconsin liberal arts school where a 19th-century New England transplant sensibility meets literal ancient history \u2014 the quad sits on top of Native American effigy mounds, and the whole place has an unpretentious, slightly quirky intellectual energy."
+  },
+  "239017": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1847 and named for Boston philanthropist Amos Adams Lawrence, who donated $10,000 to launch it; classes began November 12, 1849, and it was only the second college in the U.S. founded as coeducational.",
+      "The Lawrence Conservatory of Music, established in 1874 and known simply as 'the Con,' lets students earn a Bachelor of Music alongside a Bachelor of Arts through a five-year dual-degree program.",
+      "Every incoming class takes the mandatory 'Freshman Studies' (First-Year Studies) program, created in 1945, working through roughly a dozen classic texts across disciplines.",
+      "Lawrence merged with Milwaukee-Downer College, a women's college, in 1964, and its alumni include 2009 Nobel Laureate in Chemistry Thomas A. Steitz."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Lawrence is a small liberal arts college in Appleton, Wisconsin, built around an unusual pairing of a top-tier music conservatory with a rigorous humanities core, all anchored by a two-ton painted boulder that's been the campus canvas for over a century."
   },
   "239318": {
     "confidence": "researched",
@@ -3961,6 +4345,22 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "vibe": "A private, non-residential aviation and aerospace university headquartered in Daytona Beach, FL, whose Worldwide division was created in 1970 to deliver aviation, engineering, and business degrees online and at over 130 sites worldwide, including more than 100 military bases, to working adults and active-duty servicemembers."
+  },
+  "433660": {
+    "confidence": "researched",
+    "distinctives": [
+      "Authorized by Florida Governor Lawton Chiles in 1991, FGCU welcomed its first students on August 25, 1997, making it one of the youngest schools in the State University System of Florida.",
+      "In 2013, the No. 15-seed men's basketball team, nicknamed 'Dunk City,' upset No. 2 seed Georgetown in the NCAA Tournament and became the first 15-seed ever to reach the Sweet 16.",
+      "The university's charter places environmental sustainability at its core, and it opened The Water School in November 2022 to focus on water research in a state defined by its coastlines and wetlands.",
+      "FGCU's PGA Golf Management program is one of only 19 university programs in the country certified by the PGA of America, and students have logged more than 5 million volunteer hours since the campus opened."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A young, sun-soaked public university near Fort Myers built around environmental stewardship, best known nationally for the 2013 'Dunk City' basketball run that turned a school most people had never heard of into a March Madness sensation."
   },
   "441982": {
     "confidence": "researched",
