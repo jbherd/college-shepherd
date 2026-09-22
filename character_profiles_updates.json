@@ -6425,5 +6425,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "126562": {
+    "profile_type": "researched",
+    "vibe": "A health-sciences powerhouse built almost from scratch on the grounds of the former Fitzsimons Army Medical Center, CU Anschutz functions as Colorado's dedicated medical and research city rather than a traditional campus.",
+    "distinctives": [
+      "The medical school traces back to 1883, when CU Boulder created a Department of Medicine and Surgery that awarded its first degrees in 1885, but the modern Anschutz Medical Campus was only formally established in 2006 after Philip Anschutz's family donated roughly $91 million.",
+      "The 256-acre campus was built on the decommissioned Fitzsimons Army Medical Center, which was placed on the federal base-closure list in 1995, with academic operations fully relocating there from Denver by 2008.",
+      "It is the largest academic health center in the Rocky Mountain region, housing six schools (including Medicine, Pharmacy, Nursing, Dental Medicine, and Public Health) across 42 degree programs and drawing $553 million in research grants as of 2018.",
+      "As of fall 2025 the campus enrolls 4,640 students, mostly graduate and professional (only 509 undergraduates), while employing roughly 25,000 faculty and staff, reflecting its identity as a research and clinical hub more than an undergraduate college."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "193584": {
+    "profile_type": "researched",
+    "vibe": "Founded by five Sisters of St. Joseph in a Rochester mansion, Nazareth grew from a tiny women's college into a full university while holding onto a close-knit, mission-driven feel.",
+    "distinctives": [
+      "Nazareth College of Rochester was founded on September 24, 1924 by five Sisters of St. Joseph at the request of Bishop Thomas Francis Hickey, opening with just 25 young women studying in a Lake Avenue mansion nicknamed 'the Glass House.'",
+      "The college began admitting men during the 1960s-70s and became independent of its founding religious congregation, then achieved official university status on June 1, 2023 after New York changed its naming guidelines.",
+      "Its men's lacrosse team won three NCAA Division III national championships (1992, 1996, and 1997), and the men's indoor volleyball team captured a Division III title in 2011.",
+      "Nazareth's rivalry with nearby St. John Fisher University is marked by the annual 'Battle of the Beaks' basketball game, and notable alumni include NBA coach Jeff Van Gundy and longtime college basketball coach John Beilein."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "206349": {
+    "profile_type": "researched",
+    "vibe": "Founded by the Ursuline Sisters of Cleveland in 1871, Ursuline College built a legacy as one of the first Catholic women's colleges in the country, and is now navigating a historic transition as it merges into Gannon University.",
+    "distinctives": [
+      "Ursuline College was established in 1871 by the Ursuline Sisters of Cleveland and holds the distinction of being the first Catholic women's college in Ohio and one of the oldest colleges for women in the United States.",
+      "In 2013 the campus moved up to NCAA Division II athletics, the same year an EF1 tornado struck and caused significant damage to campus facilities.",
+      "In 2024, Ursuline became Ohio's first four-year college to field an intercollegiate women's flag football team.",
+      "The college announced plans to merge with Gannon University by the end of 2026, becoming 'Ursuline College Campus of Gannon University' while keeping separate academic and athletic programs."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "179159": {
+    "profile_type": "researched",
+    "vibe": "The oldest university west of the Mississippi, Saint Louis University pairs 200+ years of Jesuit tradition with a string of scientific and cultural firsts, from the region's first medical school to the first forward pass in football history.",
+    "distinctives": [
+      "SLU was founded on November 16, 1818 as Saint Louis Academy by Bishop Louis William Valentine DuBourg, making it the oldest institution of higher learning west of the Mississippi River; it came under Jesuit oversight in 1827.",
+      "SLU opened the first medical school west of the Mississippi in 1836 and the first law school in the West in 1843, and in 1944 it became the first university in Missouri to formally admit African American students.",
+      "The first forward pass in football history was thrown at a SLU-related game in 1906, and in 1927 the university established the first federally licensed aviation school in the country.",
+      "SLU performed the first human heart transplant in the Midwest in 1972, and today the university enrolls 15,334 students (fall 2024) with a $2.02 billion endowment (2025) and a sister campus in Madrid, Spain."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "207388": {
+    "profile_type": "researched",
+    "vibe": "A land-grant institution born under the Morrill Act on Christmas Day 1890, Oklahoma State University has grown from a frontier agricultural college into a major research university with an outsized athletic and Olympic pedigree.",
+    "distinctives": [
+      "OSU was established on December 25, 1890 under the Morrill Act as Oklahoma Agricultural and Mechanical College, with first classes convening on December 14, 1891; it was renamed Oklahoma State University in 1957.",
+      "In 1954, Ethiopian Emperor Haile Selassie visited campus, remaining the only foreign head of state ever to visit Stillwater, Oklahoma.",
+      "In 2006, alumnus and billionaire T. Boone Pickens donated $165 million to the athletic department, one of the largest athletic gifts in college sports history at the time.",
+      "OSU students and alumni have won 34 Olympic medals and the Cowboys and Cowgirls have claimed 57 combined national athletic titles (sixth-most in NCAA history), with notable alumni including 1988 Heisman winner Barry Sanders, singer Garth Brooks, and legal scholar Anita Hill."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "110529": {
+    "profile_type": "researched",
+    "vibe": "A hands-on polytechnic where students build, grow, and test things themselves \u2014 the \"learn by doing\" motto isn't a slogan, it's the curriculum, from engineering labs to a working Arabian horse ranch.",
+    "distinctives": [
+      "Cal Poly Pomona traces its roots to 1938 as a southern branch of Cal Poly San Luis Obispo on the donated Voorhis School for Boys campus, then relocated in 1956 to W.K. Kellogg's former Arabian horse ranch in Pomona before becoming an independent university in 1966.",
+      "The university still operates the W.K. Kellogg Arabian Horse Center on campus, a breeding and research program required by the terms of Kellogg's original land donation and now used for equine science coursework and public shows.",
+      "It hosts the largest hospitality management program in the CSU system (about 1,000 students) and the second-largest engineering college in the CSU system, with roughly 5,000 engineering students, alongside a large agricultural sciences program tied to its working farmland.",
+      "Cal Poly Pomona Broncos have won 15 NCAA Division II national team championships and its athletes have combined for 7 Olympic medals (3 gold, 1 silver, 3 bronze), with the most recent NCAA title coming in women's soccer in 2024."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "150774": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic liberal arts college literally next door to Notre Dame, giving students a tiny-campus, high-touch education with real access to a big university's resources and traditions.",
+    "distinctives": [
+      "Founded in 1966 by the Congregation of Holy Cross as a two-year junior college to educate Holy Cross Brothers, it became coeducational in 1968 and later grew into a four-year, degree-granting institution.",
+      "Enrolling roughly 434 students as of fall 2022, Holy Cross keeps a 12:1 student-faculty ratio, and students who complete 30 credit hours with a 3.0 GPA can cross-register for Notre Dame courses at no extra tuition cost.",
+      "The college requires every Bachelor of Arts student to complete a global immersion experience as part of its \"Four Pillars\" model (service learning, global perspective, professional internship, and classroom study), with the cost built into tuition.",
+      "Notable alumni include Rudy Ruettiger, whose walk-on story at Notre Dame inspired the 1993 film 'Rudy,' and longtime college football coach Skip Holtz, son of former Notre Dame head coach Lou Holtz."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218724": {
+    "profile_type": "researched",
+    "vibe": "A once-small South Carolina junior college that grew into a Sun Belt powerhouse, best known nationally for a Chaucer-inspired rooster mascot and a Cinderella national baseball title.",
+    "distinctives": [
+      "Coastal Carolina began in 1954 as Coastal Carolina Junior College, a two-year school affiliated with the University of South Carolina, and became a fully independent state university on July 1, 1993.",
+      "Its Chanticleer mascot \u2014 \"the proud, witty rooster\" from Chaucer's 'The Nun's Priest's Tale' in The Canterbury Tales \u2014 was adopted while the school was still a USC extension and, despite calls to drop it after independence, was kept as the school's lasting emblem.",
+      "In 2016, Coastal Carolina's baseball team won the College World Series, beating the University of Arizona in the championship series for the first NCAA national title in school history and the first ever won by a Big South Conference member in a team sport.",
+      "The university owns and studies part of Waties Island as a living field laboratory for coastal research, and it's recognized as the only South Carolina institution among the nation's top producers of Fulbright U.S. Student award winners."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "166018": {
+    "profile_type": "researched",
+    "vibe": "An experimental liberal arts college built in 1970 around narrative evaluations instead of grades and student-designed majors \u2014 but its story now ends: Hampshire announced in April 2026 that it will permanently close after the fall 2026 semester.",
+    "distinctives": [
+      "Hampshire opened in 1970 in South Amherst, Massachusetts, founded on \"The New College Plan,\" a 1958 report backed by Amherst, Mount Holyoke, Smith, and UMass Amherst, with a $6 million founding gift from Amherst alumnus Harold F. Johnson and matching Ford Foundation support.",
+      "The college pioneered narrative evaluations in place of letter grades and required students to design individualized programs of study rather than choose from fixed majors, a model it maintained for its entire 56-year history.",
+      "Notable alumni include documentary filmmaker Ken Burns, actor Liev Schreiber, and musician Elliott Smith, reflecting the college's reputation for producing artists and media figures.",
+      "In April 2026, Hampshire's board announced the college will close permanently after the fall 2026 semester, citing unsustainable debt tied to its land assets and enrollment shortfalls that could not be closed despite years of turnaround efforts \u2014 prospective students should treat this as a closing institution, not an ongoing option."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "200217": {
+    "profile_type": "researched",
+    "vibe": "A Benedictine Catholic university on the Missouri River in Bismarck, North Dakota, built on a 19th-century pioneer mission of teaching and healing and now known for career-focused programs like nursing.",
+    "distinctives": [
+      "The university traces its founding to 1959, when the Benedictine Sisters of Annunciation Monastery \u2014 an order that had been serving Dakota Territory since 1878 \u2014 established it as Mary College; it was renamed the University of Mary in 1986.",
+      "Its original campus buildings were designed by Marcel Breuer, the celebrated Bauhaus-trained architect known for Cold War-era modernist landmarks, giving the Bismarck campus a distinctive mid-century architectural identity.",
+      "The university was founded to offer four-year degrees in nursing and education, reflecting the founding Sisters' long history of running hospitals and schools across North Dakota before the college itself existed.",
+      "University of Mary now enrolls roughly 4,000 students across in-person and online programs and brands itself with the tagline \"Faithfully Christian. Joyfully Catholic. Gratefully Benedictine,\" explicitly grounding its mission in Benedictine monastic tradition."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "198695": {
+    "profile_type": "researched",
+    "vibe": "A once-sleepy Methodist college transformed since 2005 into a strikingly manicured, amenity-rich campus that markets itself as 'the premier life skills university' in the Piedmont Triad.",
+    "distinctives": [
+      "Founded September 14, 1924, as High Point College by the Methodist Protestant Church and the City of High Point, succeeding the earlier Yadkin College (1852-1895), from which it inherited a library and a bell.",
+      "Since president Nido Qubein took office in 2005, the university has grown from 3 to 15 academic schools and invested more than $2 billion in campus construction, including the 4,500-seat Nido and Mariana Qubein Arena that opened in 2021.",
+      "In 2025 the Princeton Review ranked High Point #2 in the nation for Best College Dorm Rooms, reflecting a campus built around resort-style residential and dining amenities; undergraduates are required to live on campus through junior year.",
+      "Notable alumni include Medal of Honor recipient Jacklyn Harold Lucas, NASCAR drivers Austin Dillon and Harrison Rhodes, and longtime college basketball coach Tubby Smith."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "170532": {
+    "profile_type": "researched",
+    "vibe": "Michigan's oldest private college, built around the K-Plan, an intense liberal-arts-plus-international-experience model that sends most students abroad and produces an outsized share of future PhDs.",
+    "distinctives": [
+      "Founded April 22, 1833, Kalamazoo College is the oldest private college in Michigan, and in 1870 it became one of the earliest American colleges to award a degree to a woman.",
+      "The K-Plan, developed under president Weimer Hicks (1954-1971), requires students to combine rigorous coursework with at least one term of study abroad and an academic internship; about 70% of students study abroad through more than 45 programs in 22 countries.",
+      "Kalamazoo ranks among the top private liberal arts colleges nationally for the percentage of graduates who go on to earn PhDs, and in 2005 it ranked first per capita in the country for Peace Corps volunteer recruitment.",
+      "The campus is home to Michigan's only peal of change-ringing bells, cast in 1983 and housed in Stetson Chapel, and the college's motto, 'Lux Esto' ('Let there be light'), is drawn from Genesis."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "204024": {
+    "profile_type": "researched",
+    "vibe": "A stately 1809 public university in southwest Ohio nicknamed the 'Mother of Fraternities' and the 'Cradle of Coaches,' famed for a red-brick Georgian campus that Robert Frost called 'the most beautiful campus that ever there was.'",
+    "distinctives": [
+      "Chartered in 1809, Miami University is one of the oldest public universities in the country and earned the nickname 'Mother of Fraternities' after hosting the founding of the 'Miami Triad'\u2014Beta Theta Pi (1839), Phi Delta Theta (1848), and Sigma Chi (1855).",
+      "Miami is also known as the 'Cradle of Coaches' for producing College Football Hall of Fame coaches including Woody Hayes and Bo Schembechler through its football program.",
+      "Notable alumni include Benjamin Harrison, the 23rd U.S. President; former House Speaker Paul Ryan; Starbucks CEO Brian Niccol; and Pulitzer Prize-winning poet Rita Dove, the first African American U.S. Poet Laureate.",
+      "Each Valentine's Day, the alumni association mails 'Miami Merger' cards to couples who met and later married as students; in 2022 over 14,400 such couples were on the mailing list."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169716": {
+    "profile_type": "researched",
+    "vibe": "Michigan's largest Catholic university, born from the 1990 merger of a 113-year-old Jesuit institution and a Sisters of Mercy college, blending two religious teaching traditions on Detroit's west side.",
+    "distinctives": [
+      "Founded in 1877 as Detroit College by the Society of Jesus, the school became the University of Detroit in 1911, and merged in 1990 with Mercy College of Detroit (founded by the Sisters of Mercy in 1941) to form the University of Detroit Mercy.",
+      "It is jointly sponsored by the Jesuits and the Sisters of Mercy and is the largest Catholic university in Michigan, spanning four campuses with more than 100 academic degree programs.",
+      "The university's football team went undefeated (9-0) and claimed a national championship in 1928.",
+      "Its law school hosts the Institute for North Korean Studies, described as the first research center in the U.S. or Europe focused exclusively on North Korea, and its Urban Law Clinic has provided free legal services in Detroit for 60 years."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "163046": {
+    "profile_type": "researched",
+    "vibe": "A Jesuit university on Baltimore's Charles Street corridor, the first American college to bear the name of St. Ignatius of Loyola, known for its lacrosse rivalry with Johns Hopkins and a heavy emphasis on study abroad.",
+    "distinctives": [
+      "Founded in 1852 by Fr. John Early and eight fellow Jesuits, Loyola University Maryland is the ninth-oldest Jesuit college in the U.S. and the first American college named for St. Ignatius of Loyola.",
+      "The university became coeducational in 1971 through a merger with Mount Saint Agnes College, and it changed its official designation from 'college' to 'university' in 2009.",
+      "Loyola's men's lacrosse team won the NCAA Division I national championship in 2012, and the team's annual game against Johns Hopkins is known as the 'Battle of Charles Street.'",
+      "Notable alumni include novelist Tom Clancy, 'Black Hawk Down' author Mark Bowden, former NASA Administrator Michael D. Griffin, and Harry Markopolos, the financial investigator who exposed the Bernie Madoff Ponzi scheme."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "240329": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public university on the Mississippi River bluffs known for churning out physical therapists, recreation managers, and exercise scientists in unusually deep numbers for its size.",
+    "distinctives": [
+      "Founded in 1909 as La Crosse State Normal School, a teachers' college that grew into a comprehensive UW System campus with over 95,000 living alumni across all 50 states and 57 countries as of 2021.",
+      "UW-La Crosse houses Wisconsin's only nationally accredited recreation management and therapeutic recreation degree programs and the UW System's sole nuclear medicine technology program.",
+      "Each homecoming since 1931, students have observed the 'Hanging of the Lantern' from Hoeschler Tower to welcome returning alumni back to campus.",
+      "An illuminated letter 'L' has shone from Grandad Bluff overlooking campus since 1935, when the display began as a college prank and became a permanent campus landmark."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "233718": {
+    "profile_type": "researched",
+    "vibe": "A small Virginia women's college built around a nationally competitive equestrian program that survived a stunning 2015 closure attempt when alumnae fought a court battle and won.",
+    "distinctives": [
+      "Founded in 1901 by Indiana Fletcher Williams in memory of her daughter Daisy, Sweet Briar formally opened its doors in 1906 as 'Sweet Briar Institute.'",
+      "In March 2015 the board of directors voted to close the college over financial concerns, but the 'Saving Sweet Briar' campaign led by alumnae reversed the decision through litigation and a June 2015 mediation agreement that kept the school open.",
+      "Sweet Briar's equestrian teams have won nine ANRC (American National Riding Commission) national championship titles along with numerous ODAC conference titles.",
+      "The college pioneered its 'Junior Year in France' study-abroad program in 1948, one of the earliest such programs among American colleges, and admitted its first Black student, Marshalyn Yeargin-Allsopp, in 1966 after a federal court struck down a racial restriction in its founding charter."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "150941": {
+    "profile_type": "researched",
+    "vibe": "A small Christian liberal arts university in rural northeast Indiana rooted in the Church of the United Brethren in Christ, known for its basketball scoring records and a future U.S. vice president on its faculty roster.",
+    "distinctives": [
+      "Founded in 1897 as Central College by the Church of the United Brethren in Christ, the school took its current name, Huntington University, in 2005.",
+      "Future Vice President Dan Quayle taught as an adjunct instructor and served on Huntington's board of trustees during the 1970s, before his political career took off.",
+      "Alumnus Steve Platt set the all-time collegiate scoring record for the state of Indiana with 3,700 career points and was inducted into the Indiana Basketball Hall of Fame in 1996.",
+      "The 160-acre campus includes Lake Sno-Tip and the Thornhill Nature Preserve, and the university now offers programs in more than 80 academic disciplines, including a doctoral program in occupational therapy launched in 2014."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "165671": {
+    "profile_type": "researched",
+    "vibe": "A Boston college founded by Catholic nuns as a women's institution, now coed and embedded in the Fenway neighborhood's dense cluster of small colleges, with an alumni roster topped by an Olympic figure skater.",
+    "distinctives": [
+      "Emmanuel College was established in 1919 by the Sisters of Notre Dame de Namur as a women's college in Boston, and it transitioned to full coeducation in 2001.",
+      "The college is part of the Colleges of the Fenway consortium alongside MassArt, MCPHS, Simmons, and Wentworth Institute of Technology, sharing cross-registration and resources within Boston's Fenway neighborhood.",
+      "Nancy Kerrigan, the Olympic figure skater, and Mary McGrory, a Pulitzer Prize-winning political columnist, are both Emmanuel alumnae.",
+      "Emmanuel opened an 18-story residence hall in 2018, and the college reports that 100% of its graduates complete at least one internship before graduating."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "110413": {
+    "profile_type": "researched",
+    "vibe": "A Lutheran-affiliated university in Thousand Oaks, California that spent nearly three decades as the summer home of the Dallas Cowboys and built a reputation as a pipeline for football coaches.",
+    "distinctives": [
+      "California Lutheran College opened in 1961 with 330 students and became California Lutheran University on January 1, 1986.",
+      "The Dallas Cowboys held their NFL summer training camp on the Cal Lutheran campus from 1963 to 1989, a relationship commemorated by the Landry Medal, created in 1980 in honor of coach Tom Landry.",
+      "The football program has earned the nickname the 'Cradle of Coaches' on the West Coast, having produced 144 alumni who went on to become football coaches.",
+      "Cal Lutheran's football team won the NAIA national championship in 1971, and its baseball team won the Division III College World Series in 2017."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "201195": {
+    "profile_type": "researched",
+    "vibe": "A Cleveland-area university built on a 1913 merger of two 19th-century colleges, Baldwin Wallace pairs a nationally ranked music conservatory with strong pre-professional and business programs, all under a Methodist-founded but now independent identity.",
+    "distinctives": [
+      "Baldwin Wallace traces its roots to Baldwin Institute, founded December 20, 1845, by Methodist businessman John Baldwin, and became Baldwin-Wallace College in 1913 when it merged with German Wallace College, before renaming to Baldwin Wallace University on July 1, 2012.",
+      "The Conservatory of Performing Arts hosts the Baldwin Wallace Bach Festival, the oldest collegiate Bach festival in the United States.",
+      "Alumnus Harrison Dillard is the only man to win Olympic gold in both a sprint (100m, 1948) and a hurdles event (110m hurdles, 1952).",
+      "The football team, coached by Lee Tressel, went undefeated and won the NCAA Division III national championship in 1978, and BW disaffiliated from the United Methodist Church in 2019 after 174 years of affiliation."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "238661": {
+    "profile_type": "researched",
+    "vibe": "Founded by Dominican Sisters on a Madison, Wisconsin lakeside estate donated by a former governor, Edgewood grew from a small women's junior college into a coeducational university that recently rebranded itself for a new era.",
+    "distinctives": [
+      "Edgewood was founded September 4, 1927, as Edgewood Junior College by the Dominican Sisters of Sinsinawa on land at Lake Wingra donated in 1873 by Wisconsin Governor Cadwallader C. Washburn.",
+      "The school became a four-year institution in 1941 and awarded its first Bachelor of Science degrees in 1942, and it officially became Edgewood University on July 1, 2025.",
+      "Notable alumni include Alexis Herman, the 23rd U.S. Secretary of Labor, and Becca Hamilton, an Olympic curler and national champion.",
+      "Edgewood admitted its first African American students in 1949 and hired its first African American faculty member, Sharon Wexler, in 1956, and today fields 20 varsity teams in NCAA Division III."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "213358": {
+    "profile_type": "researched",
+    "vibe": "A small Pittsburgh institution founded in 1963 by the Sisters of Divine Providence, La Roche built its identity around global education and design, becoming one of the few U.S. colleges to run a dedicated program for students from conflict zones.",
+    "distinctives": [
+      "La Roche College was founded in 1963 by the Sisters of Divine Providence originally as a college for women religious, admitted its first lay students in 1965, and was renamed La Roche University in 2019.",
+      "Its Pacem In Terris Institute, established in 1993, brings students from conflict, post-conflict, and developing regions of the world to study at La Roche as part of its international mission.",
+      "The school built an early reputation in graphic and interior design through a 1970 partnership with the Art Institute of Pittsburgh.",
+      "La Roche's baseball team won the NCAA Division III Mideast Regional Championship in 2016, and the school has competed in the Allegheny Mountain Collegiate Conference (AMCC) as a charter member since 1997-98."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "133492": {
+    "profile_type": "researched",
+    "vibe": "Perched on Boca Ciega Bay in St. Petersburg, Eckerd College began as Florida Presbyterian College and became known for pioneering the 4-1-4 academic calendar, sending students abroad or into intensive independent study every January.",
+    "distinctives": [
+      "Eckerd was chartered as Florida Presbyterian College in 1958, opened in 1960 with 154 freshmen, and was renamed Eckerd College in 1972 after drugstore magnate Jack Eckerd donated $12.5 million to the school in 1971.",
+      "The college originated the 4-1-4 academic calendar, under which students take a January Winter Term focused on a single intensive course, often involving study abroad.",
+      "First-year students go through Autumn Term, a three-week faculty- and peer-mentor-guided orientation program, before graduating with either comprehensive exams or a senior thesis required in most majors.",
+      "Notable alumni include novelist Dorothy Allison (1971), author Dennis Lehane (1988), science communicator and author Hank Green (2002), and longtime San Francisco Giants general manager Brian Sabean (1978)."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "154527": {
+    "profile_type": "researched",
+    "vibe": "A Lutheran liberal arts college in Waverly, Iowa, Wartburg carries its German namesake castle in its choir tours and its identity in campus-wide traditions like Outfly and a decades-long prank rivalry with Luther College.",
+    "distinctives": [
+      "Wartburg College was founded in 1852 in Saginaw, Michigan, by Georg M. Grossmann as a pastor training school for German immigrants, and settled permanently in Waverly, Iowa, in 1935 after merging with St. Paul Luther College.",
+      "Outfly, first documented in 1883 when students traveled to Starved Rock, Illinois, is the college's oldest and most enduring tradition, a name derived from a deliberately mistranslated German word for 'excursion.'",
+      "Wartburg's rivalry with Luther College has produced elaborate pranks, including a 1996 stunt in which cross-country runners dropped leaflets from a plane, an incident Rolling Stone listed among the most memorable college pranks of 1996-97.",
+      "In 2012, Wartburg's wrestling and women's track teams both won NCAA national championships on the same day, making it the only school in NCAA history to do so, and in 2022 Rebecca Ehretsman became the college's first female president."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
