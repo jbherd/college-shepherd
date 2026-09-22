@@ -143,6 +143,22 @@
     ],
     "vibe": "A small United Methodist-affiliated liberal arts college in Conway, Arkansas, founded in 1876, distinguished by its mandatory 'Odyssey Program' of experiential learning and the absence of fraternities or sororities."
   },
+  "107558": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1834 as Cane Hill School; renamed Cane Hill College (1858), Arkansas Cumberland College (1891), College of the Ozarks (1920), and finally University of the Ozarks in 1987 (not to be confused with College of the Ozarks in Missouri).",
+      "Was the first institution in Arkansas to admit women (1875), the first predominantly white Arkansas university to integrate (1957), and graduated its first African-American student in 1959.",
+      "Home to the Jones Learning Center, cited as the first program in the country specifically designed to support college students with learning disabilities.",
+      "Received a $39.5 million donation from the Walton Family Charitable Support Foundation in 1998."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small private liberal arts university in Clarksville, AR, founded in 1834 as Cane Hill School by the Cumberland Presbyterian Church, making it the oldest institution of higher education in Arkansas."
+  },
   "110422": {
     "confidence": "researched",
     "distinctives": [
@@ -359,6 +375,22 @@
     ],
     "vibe": "A Catholic university in San Diego, CA, formed in 1972 from the merger of two Catholic colleges founded in 1949, set on a Spanish Renaissance-style campus at Alcala Park overlooking Mission Bay."
   },
+  "122612": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1855 by Jesuit priest Anthony Maraschi as St. Ignatius Academy, a one-room schoolhouse on Market Street; it became St. Ignatius College in 1859 upon receiving its degree-granting charter, and was renamed the University of San Francisco in 1930 to mark its 75th anniversary.",
+      "Organized today into the College of Arts and Sciences plus schools of Education, Law, Management, and Nursing and Health Professions, with satellite campuses in Orange County, Sacramento, San Jose, and Santa Rosa.",
+      "Its men's basketball team won the 1949 NIT and back-to-back NCAA championships in 1955 and 1956; the 1956 squad, led by future Hall of Famers Bill Russell and K.C. Jones, became the first undefeated team to win a national title.",
+      "The unbeaten 1951 football team produced three future Pro Football Hall of Famers, Gino Marchetti, Ollie Matson, and Bob St. Clair, among nine players who went on to the NFL, notable because USF dropped varsity football shortly afterward and has not fielded a team since."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Jesuit Catholic university on San Francisco's Lone Mountain, founded in 1855 as the city's first institution of higher learning, historically notable for a 1950s men's basketball dynasty built around Bill Russell."
+  },
   "122931": {
     "confidence": "researched",
     "distinctives": [
@@ -451,6 +483,22 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A mid-size Jesuit Catholic university on Connecticut's Gold Coast, blending a strong core liberal-arts curriculum with well-regarded business (Dolan School) and nursing programs, on a coastal New England campus near Long Island Sound."
+  },
+  "129941": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1920 as New Haven Junior College, a division of Northeastern University operating on Yale's campus; became New Haven College in 1926 and was renamed the University of New Haven in 1970.",
+      "Home to the Henry C. Lee Institute of Forensic Science, which opened in fall 1998 and includes a crime scene center, crisis management center, museum, laboratories, and a 104-seat lecture hall, tied to renowned forensic scientist Henry Lee.",
+      "The College of Business has held AACSB International accreditation since 2015; longstanding campus traditions include the student-run Charger Bulletin newspaper (founded 1938) and WNHU-FM radio, on air since 1973.",
+      "Alumni include 1987 National League Cy Young Award winner Steve Bedrosian, U.S. Representative Jamaal Bowman, and former U.S. Coast Guard Commandant Admiral Thomas H. Collins."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private university in West Haven, CT, founded in 1920 as New Haven Junior College, a Northeastern University division that shared Yale University's buildings, labs, and faculty for nearly 40 years before becoming independent; today known especially for its forensic science and criminal justice programs."
   },
   "130590": {
     "confidence": "researched",
@@ -1373,6 +1421,22 @@
     ],
     "vibe": "A private communications and performing-arts college in Boston, founded in 1880 by Charles Wesley Emerson as the Boston Conservatory of Elocution, Oratory, and Dramatic Art, now known for launching the country's first broadcast journalism program and a heavy concentration of alumni in film, TV, and comedy."
   },
+  "166629": {
+    "confidence": "researched",
+    "distinctives": [
+      "Chartered April 29, 1863 as Massachusetts Agricultural College, enrolled its first class of about 50 students in fall 1867 under founding president William S. Clark, was renamed Massachusetts State College in 1931, and became the University of Massachusetts in 1947 (Amherst is the system's flagship campus).",
+      "Classified as an R1 'very high research activity' doctoral university, spending roughly $211 million on research and development (2018 figures) across 109 undergraduate, 77 master's, and 48 doctoral programs in nine schools and colleges, including the Isenberg School of Management and Commonwealth Honors College.",
+      "Notable alumni include NBA Hall of Famer Julius Erving, actor Richard Gere, former General Electric CEO Jack Welch, astronaut Catherine Coleman, and physicist Russell Hulse, who won the 1993 Nobel Prize in Physics for the discovery of the first binary pulsar.",
+      "Mascot is Sam the Minuteman, referencing the state's Revolutionary War militia; its Minuteman Marching Band has more than 390 members, making it the largest collegiate marching band in New England."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "The flagship public land-grant research university of Massachusetts, founded April 29, 1863 as Massachusetts Agricultural College under the Morrill Act, renamed University of Massachusetts in 1947; an R1 research institution in Amherst known for its business school, one of the nation's largest honors colleges, and a marching band that's the biggest in New England."
+  },
   "166939": {
     "confidence": "researched",
     "distinctives": [
@@ -1403,6 +1467,22 @@
       "applied via scheduled batch on 2026-09-16"
     ],
     "vibe": "The oldest independent music school in the United States, founded in Boston in 1867 and still centered on the acoustically celebrated Jordan Hall, the only music school building in the US designated a National Historic Landmark."
+  },
+  "168421": {
+    "confidence": "researched",
+    "distinctives": [
+      "Incorporated May 10, 1865 through the joint philanthropy of tinware manufacturer John Boynton and wire-manufacturing magnate Ichabod Washburn, with campus land donated by Stephen Salisbury II; opened November 11, 1868 under first president Charles O. Thompson.",
+      "The WPI Plan, introduced in 1970, replaced conventional grading with project-based learning requiring every undergraduate to complete an Interactive Qualifying Project (IQP) and Major Qualifying Project (MQP); WPI's Global Projects Program sends more engineering students abroad than any other US university.",
+      "Campus landmarks Boynton Hall and the Washburn Shops form the 'Two Towers' symbolizing the school's theory-and-practice motto (Lehr und Kunst); the mascot, Gompei the Goat, is named for early-1900s student Gumpei Kuwada.",
+      "Alumnus Robert H. Goddard (class of 1908), the 'Father of Modern Rocketry,' conducted the first successful liquid-fueled rocket launch in 1926; Goddard Hall on campus is named in his honor."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private engineering-focused research university in Worcester, MA, incorporated May 10, 1865 and formally opened November 11, 1868 as the Worcester County Free Institute of Industrial Science, the nation's third-oldest private technological university, built on a 'theory and practice' philosophy that pairs classroom study with hands-on project work."
   },
   "168591": {
     "confidence": "researched",
@@ -1498,6 +1578,22 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A small Lutheran liberal-arts college in Mankato, Minnesota, run by the Evangelical Lutheran Synod and rooted in Norwegian Lutheran heritage -- academically focused with a growing nursing program and notably strong graduate social-mobility outcomes."
+  },
+  "173647": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1862 in Red Wing, MN as Minnesota Elementarskola, a Lutheran school started by Swedish Americans led by Eric Norelius; renamed St. Ansgar's Academy in 1865, moved to St. Peter in 1876, and took the name Gustavus Adolphus in 1873 to honor 17th-century Swedish King Gustavus II Adolphus.",
+      "Home to the Nobel Conference, founded after the 1963 dedication of the campus's Alfred Nobel Hall of Science drew 26 Nobel Laureates and Nobel Foundation officials; the first conference was held in January 1965 and it has continued annually since, one of very few Nobel-affiliated conferences held outside Scandinavia.",
+      "Its physics department has ranked among the top 10 nationally for the number of graduates who go on to earn physics PhDs, and the college has held a Phi Beta Kappa chapter since 1983.",
+      "Alumni include Pulitzer Prize-winning Civil War historian James M. McPherson, Grammy Award-winning jazz vocalist Kurt Elling, and Gwen Walz, First Lady of Minnesota since 2019."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small Lutheran liberal arts college in St. Peter, MN, that traces its roots to an 1862 Swedish-American parochial school and is now best known for hosting the annual Nobel Conference, one of the oldest continuing science conferences in the country open to the public."
   },
   "173902": {
     "confidence": "researched",
@@ -1640,6 +1736,38 @@
       "applied via scheduled batch on 2026-09-18"
     ],
     "vibe": "A small private HBCU in Holly Springs, MS, founded in 1866 by Freedmen's Aid Society missionaries of the Methodist Episcopal Church, making it the second-oldest private college in Mississippi and the oldest of the eleven historically Black colleges affiliated with the United Methodist Church."
+  },
+  "176406": {
+    "confidence": "researched",
+    "distinctives": [
+      "Chartered by the Mississippi Legislature in 1871 and founded by the American Missionary Association (established 1846) on roughly 500 acres of the former Boddie cotton plantation just north of Jackson.",
+      "On March 27, 1961, nine Tougaloo students (the 'Tougaloo Nine,' led by Joseph Jackson Jr. and including Albert Lassiter, Alfred Cook, Ethel Sawyer, Geraldine Edwards, Evelyn Pierce, Janice Jackson, James Bradford, and Meredith Anding Jr.) staged a 'read-in' at Jackson's whites-only public library and were arrested for breach of the peace, an act that helped spur the American Library Association's 1962 desegregation policy.",
+      "As one of the only Black colleges in Mississippi not under state control, the campus served as a hub for civil rights organizing in the 1960s, hosting figures such as Martin Luther King Jr., Robert F. Kennedy, and Fannie Lou Hamer.",
+      "Established the Brown-Tougaloo Partnership with Brown University beginning in 1963-64, after the Mississippi legislature introduced bills to revoke Tougaloo's charter; the exchange program, backed by Ford Foundation funding, continues today as one of the longest-running HBCU-Ivy League partnerships in the country."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private historically Black college near Jackson, MS, chartered in 1871 by the American Missionary Association on the former Boddie plantation, and one of the most significant institutional centers of the 1960s Civil Rights Movement in Mississippi."
+  },
+  "176479": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1892 as Pearl River Boarding School by W. I. Thames in Poplarville, MS; relocated to Hattiesburg in 1906 after a fire and reopened as South Mississippi College, was reorganized as Mississippi Woman's College in 1911, went coeducational and was renamed William Carey College in 1954, and attained university status in 2006.",
+      "Opened the William Carey University College of Osteopathic Medicine in 2008 (welcoming its first class in 2010) as the 29th osteopathic medical school in the US, and launched an accelerated Doctor of Pharmacy program in 2018, one of only 11 such programs nationally.",
+      "The Winters School of Music became Mississippi's first All-Steinway School in 2018; the Carey Dinner Theatre has operated for more than 30 years as the state's longest-running dinner theatre.",
+      "Athletic teams compete as the Crusaders in the NAIA across 18 varsity sports; alumni include former MLB manager Dan Jennings (class of 1984) and former U.S. Representative Mike Parker (class of 1978)."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private Baptist-affiliated university headquartered in Hattiesburg, MS, tracing its roots to an 1892 boarding school in Poplarville and renamed in 1954 for missionary William Carey after going coeducational; grew from a small women's college into a university that added osteopathic medicine and pharmacy programs in the 2000s and 2010s."
   },
   "176947": {
     "confidence": "researched",
@@ -1880,6 +2008,22 @@
     ],
     "vibe": "A public senior college of the City University of New York in Brooklyn's Midwood section, formed in 1930 by merging the Brooklyn campuses of Hunter and City College into New York City's first coeducational public liberal-arts college, and long celebrated for its Georgian quadrangle and famously tuition-free decades before 1976."
   },
+  "190567": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1847 as the Free Academy of the City of New York by Townsend Harris, who declared 'Open the doors to all... Let the children of the rich and the poor take their seats together'; it became the College of the City of New York and offered free tuition to qualified students until CUNY began charging tuition in 1976.",
+      "Ten City College alumni have won Nobel Prizes, including physicists Robert Hofstadter (1961), Arno Penzias (1978), and Leon Lederman (1988); physiologists/medicine laureates Arthur Kornberg (1959), Julius Axelrod (1970), and John O'Keefe (2014); chemists Herbert Hauptman and Jerome Karle (both 1985); and economists Kenneth Arrow (1972) and Robert Aumann (2005).",
+      "Other notable alumni include General Colin Powell (Class of 1958, for whom CCNY's Colin Powell School for Civic and Global Leadership is named) and polio-vaccine pioneer Jonas Salk, reflecting its historic role as a pathway for students shut out of elite private universities by religious and ethnic quotas.",
+      "Became a senior college of the newly formed City University of New York system in 1961, and its uptown Manhattan campus (north of Harlem, overlooking the city) is anchored by Gothic-style buildings including Shepard Hall."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "The founding senior college of the City University of New York, established in 1847 as the Free Academy of the City of New York, the first free public institution of higher education in the US, long nicknamed the 'Harvard of the Proletariat' for educating generations of immigrant and working-class New Yorkers, including ten Nobel laureates."
+  },
   "190594": {
     "confidence": "researched",
     "distinctives": [
@@ -1927,6 +2071,22 @@
       "applied via scheduled batch on 2026-09-21"
     ],
     "vibe": "A CUNY senior college on a Bronx campus that began as Hunter College's satellite women's campus, briefly hosted the United Nations Security Council in 1946, and became independent in 1968."
+  },
+  "191241": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded June 24, 1841 by Bishop (later Archbishop) John Hughes as St. John's College; the institution was renamed Fordham University on March 7, 1907.",
+      "A Jesuit-run university with campuses at Rose Hill (Bronx), Lincoln Center (Manhattan), and Westchester; includes the Gabelli School of Business (est. 1920) and School of Law (est. 1905).",
+      "Alumni include U.S. Attorney General Robert F. Kennedy, Secretary of State/General Colin Powell, and legendary NFL coach Vince Lombardi.",
+      "Fordham's baseball team is credited with playing what is considered the first modern intercollegiate baseball game in 1859."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private Jesuit Catholic research university based on an 85-acre Rose Hill campus in the Bronx, NY, founded June 24, 1841 by Bishop John Hughes as St. John's College and renamed Fordham University in 1907."
   },
   "192712": {
     "confidence": "researched",
@@ -2039,6 +2199,22 @@
     ],
     "vibe": "A public research university on Long Island, NY, founded in 1957 to train secondary math and science teachers and relocated to its current Stony Brook campus in 1962 on land donated by philanthropist Ward Melville, now known for elite physics and math programs and a $500 million gift from Jim and Marilyn Simons."
   },
+  "196149": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1868 as Cortland Normal School; became a four-year institution in 1941 as Cortland State Teachers College and joined the State University of New York system in 1948.",
+      "Plays the annual 'Cortaca Jug' football game against Ithaca College, a rivalry dating to 1959 that Sports Illustrated called 'the biggest little game in the nation' in 1991; the college has also won roughly two dozen national athletic titles.",
+      "Early student Elmer A. Sperry went on to found the Sperry Gyroscope Company and invent the marine gyrocompass, becoming one of the school's most historically notable alumni.",
+      "Counts about 55,000 living alumni across all 50 states and more than 40 countries, reflecting its origins as a teacher-training normal school and its continuing strength in education-related fields."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A SUNY comprehensive college in Cortland, NY, founded in 1868 as Cortland Normal School for teacher training, now known for education, kinesiology/physical education, and one of college sports' oldest and most storied rivalry games."
+  },
   "196413": {
     "confidence": "researched",
     "distinctives": [
@@ -2054,6 +2230,22 @@
       "applied via scheduled batch on 2026-09-18"
     ],
     "vibe": "A private research university in Syracuse, NY, chartered in 1870 out of a Methodist Episcopal seminary and made nonsectarian in 1920, notable for admitting men and women, Black and white students from its founding and for the Remembrance Scholars program it created after the 1988 Lockerbie bombing killed 35 of its students studying abroad."
+  },
+  "196592": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1971 by Orthodox Rabbi Bernard Lander with an initial class of 35 male students; a women's division was added in 1974.",
+      "Consolidated its previously scattered New York City locations (roughly 35 sites) into a single flagship campus at 3 Times Square in January 2023.",
+      "Combines undergraduate liberal-arts divisions (including the New York School of Career and Applied Studies and the Lander Colleges) with professional schools in osteopathic medicine, law, pharmacy, dentistry, education, and social work under the Touro University System.",
+      "First received Middle States Commission on Higher Education accreditation in 1976, reaffirmed in 2015."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Jewish-sponsored university system based in New York City, founded in 1971 by Orthodox Rabbi Bernard Lander to combine liberal arts education with Jewish heritage and professional training; its New York operations consolidated from roughly 35 scattered sites into a single campus at 3 Times Square in January 2023. Note: this Scorecard entity aggregates several affiliated undergraduate divisions of the Touro University System rather than one traditional single college."
   },
   "196866": {
     "confidence": "researched",
@@ -2197,6 +2389,22 @@
     ],
     "vibe": "A small public university in Dickinson, North Dakota with a notable historical specialty: it houses the Theodore Roosevelt Digital Library and has partnered on the Theodore Roosevelt Presidential Library, tying the campus directly to Roosevelt's ranching years in the North Dakota Badlands."
   },
+  "200800": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1870 as Buchtel College, affiliated with the Universalist Church of America (an affiliation dropped in 1907); became the Municipal University of Akron in 1913 and a state university in 1967.",
+      "Offered the world's first courses in rubber chemistry in 1909 and established the world's first College of Polymer Science and Polymer Engineering in 1988.",
+      "Athletic teams are the 'Zips,' a nickname derived from 'Zippers' rubber overshoes made by Akron's B.F. Goodrich Company, chosen in a 1925 student contest and shortened to 'Zips' by the athletic director in 1950.",
+      "The men's soccer team won the 2010 NCAA Division I national championship."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public research university in Akron, OH, founded in 1870 as Buchtel College under Universalist Church affiliation, becoming a municipal university in 1913 and a state university in 1967; nationally known for pioneering polymer science research."
+  },
   "201645": {
     "confidence": "researched",
     "distinctives": [
@@ -2226,6 +2434,22 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A small evangelical Christian university in rural Circleville, Ohio, affiliated with the Churches of Christ in Christian Union, that grew out of a Bible camp-meeting tradition and still centers ministry training alongside a growing set of professional and adult-degree programs."
+  },
+  "202046": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1882 by Sarah Kimball, who began teaching 'one teacher and one pupil' in her own sitting room as the Western Reserve School of Design for Women; the school became coeducational and was renamed Cleveland School of Art in 1892, then Cleveland Institute of Art in 1949.",
+      "Grants a BFA across specialized studio disciplines including Animation, Game Design, Glass, Industrial Design, Interior Architecture, and Jewelry + Metals, and its Cinematheque film series is housed in the Peter B. Lewis Theater.",
+      "CIA students can cross-register for classes at neighboring Case Western Reserve University and share dining and housing-area student life with CWRU under a long-standing partnership between the two University Circle institutions.",
+      "Notable alumni include industrial designer Viktor Schreckengost, comic book writer/artist Brian Michael Bendis (Ultimate Spider-Man), and ceramicist Toshiko Takaezu."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "An independent, single-purpose art and design college in Cleveland's University Circle neighborhood, founded in 1882 and now closely paired academically and socially with neighboring Case Western Reserve University."
   },
   "202073": {
     "confidence": "researched",
@@ -2305,6 +2529,22 @@
     ],
     "vibe": "A small, historically progressive liberal-arts college in Ohio, famous as the first American college to regularly admit Black students (1835) and one of the first coeducational colleges (1833) -- paired with the Oberlin Conservatory of Music, one of the top US conservatories."
   },
+  "204796": {
+    "confidence": "researched",
+    "distinctives": [
+      "Established March 22, 1870 as the Ohio Agricultural and Mechanical College; renamed The Ohio State University in 1878 and holds land-grant, sea-grant, and space-grant designations.",
+      "The Ohio State University Marching Band performs 'Script Ohio,' in which musicians march in single file to spell out the state's name, traditionally capped by a sousaphone player 'dotting the i'.",
+      "Running back Archie Griffin, a Buckeye, remains the only two-time Heisman Trophy winner in NCAA history (1974 and 1975).",
+      "Alumni include track and field legend Jesse Owens (four gold medals at the 1936 Berlin Olympics), golfer Jack Nicklaus, and author R.L. Stine."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public land-grant research university in Columbus, OH, established March 22, 1870 as the Ohio Agricultural and Mechanical College and renamed The Ohio State University in 1878; one of the largest US campuses by enrollment, known for its Script Ohio marching band formation and Buckeye mascot."
+  },
   "204909": {
     "confidence": "researched",
     "distinctives": [
@@ -2353,6 +2593,22 @@
     ],
     "vibe": "The oldest private HBCU owned and operated by African Americans, an AME Church-affiliated college in Ohio named for British abolitionist William Wilberforce and still rebuilding enrollment after nearly two centuries of financial and physical setbacks."
   },
+  "206589": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1866 by the Presbyterian Church as the 'University of Wooster'; renamed The College of Wooster in 1915 to reflect its focus on undergraduate liberal arts education.",
+      "Independent Study (I.S.) is a required, year-long, one-on-one mentored senior research or creative project completed by every student, culminating in a Senior Research Symposium and 'I.S. Monday' submission day.",
+      "Carries a Scottish 'Fighting Scots' identity: a 1939 donation funded marching band kilts in MacLeod tartan, and football games feature a pipe band and Highland dancers.",
+      "Alumni include Nobel Prize-winning physicist Arthur Holly Compton and film director Duncan Jones."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private liberal arts college in Wooster, OH, founded in 1866 by the Presbyterian Church as the University of Wooster and renamed The College of Wooster in 1915; best known for its mandatory year-long Independent Study senior thesis program."
+  },
   "207041": {
     "confidence": "researched",
     "distinctives": [
@@ -2384,6 +2640,22 @@
       "applied via scheduled batch on 2026-09-19"
     ],
     "vibe": "A Baptist university on 'Bison Hill' in Shawnee, Oklahoma, incorporated February 9, 1910 by the Baptist General Convention of Oklahoma, known for requiring every undergraduate to complete its distinctive Western Civilization Sequence."
+  },
+  "207971": {
+    "confidence": "researched",
+    "distinctives": [
+      "Traces its origin to the Presbyterian School for Indian Girls, founded in Muskogee, Indian Territory in 1882; renamed Henry Kendall College in 1894, it relocated to Tulsa in 1907 after the Tulsa Commercial Club offered $100,000 and 20 acres of land, then merged with the planned McFarlin College in 1920 to become the University of Tulsa.",
+      "Opened its School of Petroleum Engineering in 1928; the program remains a flagship, ranked among the top petroleum engineering programs nationally.",
+      "The university has reported having among the most National Merit Scholars per capita of any university in the country in recent entering classes.",
+      "Notable alumni include author S. E. Hinton (The Outsiders), television personality Dr. Phil McGraw, Walmart CEO Doug McMillon, and Pro Football Hall of Famer and former U.S. Congressman Steve Largent."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private research university in Tulsa, OK, with roots in an 1882 Presbyterian mission school, now known for a nationally ranked petroleum engineering program tied to the city's energy industry and for enrolling more National Merit Scholars per capita than any other US university."
   },
   "210669": {
     "confidence": "researched",
@@ -2539,6 +2811,22 @@
     ],
     "vibe": "A mid-size, business-and-engineering-heavy private university on a steep hillside campus in Bethlehem, Pennsylvania's old steel-industry town, with one of the oldest and most storied rivalries in college football."
   },
+  "213826": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1915 by the IHM Sisters of Scranton with an inaugural class of 34 women, making it the first college for women in Northeastern Pennsylvania and the first Catholic college for women in Pennsylvania; achieved university status in 1997.",
+      "Home to a Graduate School of Social Work established in 1967 and a School of Architecture opened in 2009, the first architecture program in northeastern Pennsylvania.",
+      "Offers more than 80 majors across undergraduate, graduate, and doctoral levels with an 11:1 student-to-faculty ratio.",
+      "Remains sponsored by the Sisters, Servants of the Immaculate Heart of Mary (IHM), headquartered in Scranton, PA."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Catholic university in Scranton, PA, founded in 1915 by the Sisters, Servants of the Immaculate Heart of Mary (IHM) as the first college for women in Northeastern Pennsylvania and the first Catholic women's college in the state; achieved university status in 1997 and remains IHM-sponsored today."
+  },
   "214157": {
     "confidence": "researched",
     "distinctives": [
@@ -2555,6 +2843,22 @@
     ],
     "vibe": "A Bethlehem, PA university tracing its roots to 1742, when Benigna von Zinzendorf, daughter of the Moravian Church's patron Count Zinzendorf, founded the Bethlehem Female Seminary, one of the oldest schools for women in the American colonies, though the institution did not become an accredited, degree-granting college until 1913."
   },
+  "214777": {
+    "confidence": "researched",
+    "distinctives": [
+      "Chartered February 22, 1855 as the Farmers' High School of Pennsylvania; designated Pennsylvania's land-grant institution in 1863, renamed Pennsylvania State College in 1874, and became Pennsylvania State University in 1953 under President Milton S. Eisenhower.",
+      "The Nittany Lion mascot originated April 20, 1904, when baseball player Harrison 'Joe' Mason invented the 'Nittany Mountain Lion' (named for Mount Nittany) in response to a rival's Princeton Tiger boast; a costumed mascot first appeared in 1921.",
+      "THON, held annually at the Bryce Jordan Center and benefiting the Four Diamonds fund for pediatric cancer, is billed as the world's largest student-run philanthropy and has raised tens of millions of dollars cumulatively since it began in 1973.",
+      "Alumni include Tom Ridge (first US Secretary of Homeland Security and 43rd Governor of Pennsylvania), astronaut Guion Bluford (first African American in space), and NFL running back Franco Harris."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public land-grant research university in University Park, PA, chartered February 22, 1855 as the Farmers' High School of Pennsylvania, renamed Pennsylvania State College in 1874, and elevated to university status in 1953; one of the largest US universities by enrollment, known for its Nittany Lion mascot and THON, billed as the world's largest student-run philanthropy."
+  },
   "215293": {
     "confidence": "researched",
     "distinctives": [
@@ -2570,6 +2874,22 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "vibe": "A large state-related research university in Pittsburgh, PA, chartered in 1787 as Pittsburgh Academy and best known today for its Gothic Revival Cathedral of Learning skyscraper and Jonas Salk's development of the polio vaccine on campus."
+  },
+  "215798": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1846 by Boniface Wimmer, a Benedictine monk who emigrated from Metten Abbey in Bavaria; the adjoining Saint Vincent Archabbey is the first Benedictine monastery established in the United States, and the college was formally incorporated by the Pennsylvania legislature on April 18, 1870.",
+      "Organized into three schools: Arts, Humanities, and Social Sciences; the Alex G. McKenna School of Business, Economics, and Government; and the Herbert W. Boyer School of Natural Sciences, Mathematics, and Computing, named for its alumnus.",
+      "Since 1966 the college has served as the official summer training camp site for the Pittsburgh Steelers, one of the longest-running team-college training camp partnerships in the NFL, with Rooney Hall (built 1995) housing players and staff.",
+      "Notable alumnus Herbert Boyer, a biochemist who co-founded Genentech with Robert Swanson in 1976 and, with Stanley Cohen, pioneered recombinant DNA technology that launched the modern biotechnology industry."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small Catholic, Benedictine-run college in Latrobe, PA, founded in 1846 alongside the first Benedictine monastery in the United States, and famous locally as the longtime summer training camp home of the Pittsburgh Steelers."
   },
   "216597": {
     "confidence": "researched",
@@ -2618,6 +2938,22 @@
     ],
     "vibe": "Traces its roots to Johnson Female Seminary, founded in 1848 by Baptist leader William B. Johnson, which closed during the Civil War and was rechartered in 1911 as Anderson College after the local Chamber of Commerce raised $100,000 for a new campus; it was renamed Anderson University on January 1, 2006, and remains affiliated with the South Carolina Baptist Convention."
   },
+  "217819": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1770 by a group that included three signers of the Declaration of Independence and three signers of the U.S. Constitution; chartered in 1785 and opened to students in 1790.",
+      "Organized into eight schools, including a School of the Arts and a School of Languages, Cultures, and World Affairs; hosts the Bully Pulpit Series, which has brought U.S. presidential candidates to campus, and participates in Charleston's Piccolo Spoleto festival through its Young Artists Series.",
+      "The men's basketball program ranks among the highest winning percentages in NCAA Division I men's basketball history.",
+      "Notable alumni include architect Robert Mills (designer of the Washington Monument, class of the late 1790s), explorer and first Republican presidential nominee John C. Fremont (class of 1836), and MLB outfielder Brett Gardner (class of 2005)."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public liberal arts university on a historic campus in downtown Charleston, SC, founded in 1770, chartered in 1785, and opened to students in 1790, the 13th-oldest institution of higher learning in the US and the nation's oldest municipal college."
+  },
   "217882": {
     "confidence": "researched",
     "distinctives": [
@@ -2648,6 +2984,22 @@
       "applied via scheduled batch on 2026-09-17"
     ],
     "vibe": "A private university in Greenville, SC founded in 1826 as a Baptist theological institute, which cut ties with the South Carolina Baptist Convention in 1992 to become secular, and is now known for its park-like 750-acre lake campus and for physicist alumnus Charles Townes's Nobel-winning work on the laser."
+  },
+  "218663": {
+    "confidence": "researched",
+    "distinctives": [
+      "Chartered December 19, 1801 as South Carolina College and opened to students on January 10, 1805; the location in Columbia was chosen to unite lowcountry Federalist and upcountry Jeffersonian interests rather than favor coastal Charleston.",
+      "Expanded academically over the 20th century with Ph.D. programs in history, English, and education plus schools of pharmacy and journalism in the 1920s, and later added a College of Criminal Justice, a medical school, and an Honors College.",
+      "Its historic campus core, the Horseshoe, has been preserved as part of a National Historic Landmark District.",
+      "Alumni include U.S. Senator Lindsey Graham (1977), 1980 Heisman Trophy winner George Rogers, Naismith Basketball Hall of Famer Alex English (1973-1976), and novelist Charles Frazier (Cold Mountain, 1986); all four members of the band Hootie & the Blowfish attended the university."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "South Carolina's flagship public research university in Columbia, chartered as South Carolina College on December 19, 1801 and opened January 10, 1805, deliberately sited in Columbia rather than Charleston to bridge the state's lowcountry and upcountry political factions, centered on the historic Horseshoe district."
   },
   "218973": {
     "confidence": "researched",
@@ -2696,6 +3048,22 @@
     ],
     "vibe": "A small, historic HBCU in Nashville founded in 1866, famous worldwide for the Fisk Jubilee Singers, the student choir that first popularized the African American spiritual as a concert art form and toured internationally in the 1870s to save the university from financial collapse."
   },
+  "220215": {
+    "confidence": "researched",
+    "distinctives": [
+      "Originated as Henderson Male Institute in 1869; after that school closed in 1907, N.B. Hardeman and A.G. Freed incorporated the National Teachers' Normal and Business College in May 1907 (classes began fall 1908), renamed it Freed-Hardeman College in 1919, and it achieved university status in February 1990.",
+      "Formally associated with the Churches of Christ; all members of the board of trustees are required to belong to that denomination, and daily Chapel is held at Dryden Auditorium.",
+      "Uses co-educational 'social clubs' instead of traditional Greek fraternities/sororities, and hosts an annual Homecoming Play tradition.",
+      "Organized into five colleges (Arts and Sciences, Biblical Studies, Business, Education and Behavioral Sciences, and an Honors College) with study-abroad sites in Belgium, Spain, Israel, Costa Rica, Canada, and South Korea."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private university in Henderson, TN, affiliated with the Churches of Christ, tracing its roots to an 1869 institute that closed in 1907 before N. B. Hardeman and A. G. Freed relaunched it in 1908 as a teachers' and business college in rural West Tennessee."
+  },
   "221351": {
     "confidence": "researched",
     "distinctives": [
@@ -2743,6 +3111,22 @@
       "applied via scheduled batch on 2026-09-16"
     ],
     "vibe": "Tennessee's flagship land-grant university, known for a dense calendar of football-driven traditions -- from the Vol Navy boating to games to a bluetick coonhound mascot named Smokey -- radiating out of its 1794 founding as Blount College."
+  },
+  "221971": {
+    "confidence": "researched",
+    "distinctives": [
+      "Institutional lineage traces to the 1823 Jackson Male Academy; the direct predecessor, Southwestern Baptist University, opened in Jackson, TN in 1874 (chartered 1875), and the institution was renamed Union University in 1907.",
+      "Consolidated with Hall-Moody Junior College in 1927 and relocated to its current north Jackson campus in 1975; affiliated with the Tennessee Baptist Convention.",
+      "Offers professional programs including nursing, pharmacy, and theology, plus the EDGE program (established 2015) serving students with intellectual and developmental disabilities.",
+      "Maintains additional campuses beyond Jackson in the Memphis area (Cordova) and the Nashville area (Hendersonville)."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Baptist university in Jackson, Tennessee, affiliated with the Tennessee Baptist Convention, whose institutional lineage traces to the 1823 Jackson Male Academy and was formally renamed Union University in 1907 after its direct predecessor, Southwestern Baptist University, opened in Jackson in 1874."
   },
   "222983": {
     "confidence": "researched",
@@ -3043,6 +3427,22 @@
       "applied via scheduled batch on 2026-09-21"
     ],
     "vibe": "A small Virginia university in Danville that began in 1859 as a Baptist women's college and today is known for hands-on programs like FAA-certified flight training and equestrian studies."
+  },
+  "231554": {
+    "confidence": "researched",
+    "distinctives": [
+      "Opened to students in September 1922 as Bluefield College, founded by the Baptist General Association of Virginia; became a four-year institution in 1975 and was renamed Bluefield University on August 18, 2021.",
+      "Nobel laureate mathematician John F. Nash Jr. took supplementary math courses at the college while still in high school.",
+      "Sports statistician Kenneth Massey, creator of the Massey Ratings used in the college football Bowl Championship Series rankings from 1999-2013, is an alumnus.",
+      "Athletics play an outsized role on campus, with roughly 60% of students competing on the Rams' NAIA athletic teams."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small private Christian university in Bluefield, VA, founded in 1922 as Bluefield College by the Baptist General Association of Virginia and renamed Bluefield University in 2021 during its centennial year."
   },
   "231624": {
     "confidence": "researched",
