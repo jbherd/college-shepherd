@@ -5225,5 +5225,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "191968": {
+    "profile_type": "researched",
+    "vibe": "A South Hill arts-and-media powerhouse in the heart of the Finger Lakes, Ithaca College built its identity as a conservatory-turned-comprehensive college where communications, music, and sustainability-minded campus life all share the same gorges-view campus.",
+    "distinctives": [
+      "Ithaca College was founded on September 19, 1892 by violin teacher William Grant Egbert as the Ithaca Conservatory of Music, and did not become a chartered, degree-granting college until 1931.",
+      "Composer Sergei Rachmaninoff joined the college's Board of Trustees in 1934, a legacy of its conservatory roots that still anchors its strong music program.",
+      "The Roy H. Park School of Communications runs ICTV, founded in 1958 as one of the oldest student-operated television stations in the country, alongside the 4,100-watt WICB-FM.",
+      "IC athletics (the Bombers) has won 14 NCAA national championships, and the campus, which relocated to its current South Hill site in the 1960s, now includes multiple LEED Platinum-certified buildings reflecting a long institutional push on sustainability."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "195474": {
+    "profile_type": "researched",
+    "vibe": "A small Franciscan college outside Albany that punches well above its size in Division I basketball lore, Siena blends a friar-founded liberal arts mission with a scrappy, green-and-gold athletic identity.",
+    "distinctives": [
+      "Siena was founded in 1937 by the Order of Friars Minor as St. Bernardine of Siena College, when Franciscan friars sent by St. Bonaventure University president Thomas Plassmann opened it with seven friars and one layperson on the former Garrett estate in Loudonville, NY; it was renamed Siena University in July 2025.",
+      "Men's basketball has made eight NCAA Tournament appearances and pulled off two celebrated upsets as a lower seed, beating Stanford in 1989 and Ohio State in 2009.",
+      "Novelist William J. Kennedy, a member of the class of 1949, went on to win the 1984 Pulitzer Prize for Fiction for his novel 'Ironweed.'",
+      "The school's mascot is Bernie 'Saint' Bernard, a St. Bernard dog, and its fight song is a rendition of 'When the Saints Go Marching In,' reflecting the Saints team name."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "220978": {
+    "profile_type": "researched",
+    "vibe": "Originally a teacher-training normal school in Murfreesboro, MTSU has grown into Tennessee's largest undergraduate-focused university and a national name in music-industry and aviation education.",
+    "distinctives": [
+      "MTSU was established in 1909 and opened its doors on September 11, 1911 as the State Normal School for the Middle Division of Tennessee, starting with just 125 students.",
+      "Its Department of Recording Industry, built out of the university's long-running aviation and media programs, has made MTSU one of the country's leading destinations for students pursuing careers in the Nashville music business.",
+      "MTSU's University Honors College was the first honors college established at a state university in Tennessee, and the school was among the first in the Southeast to offer the Doctor of Arts degree, aimed at training college-level teachers.",
+      "The campus is home to a distinctive Naked Eye Observatory, and MTSU athletics has notably upset Kentucky in the NCAA men's basketball tournament and won a national golf championship."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196060": {
+    "profile_type": "researched",
+    "vibe": "New York's oldest public higher-ed institution, UAlbany pairs a teacher-training pedigree dating to 1844 with a strikingly modernist Edward Durell Stone-designed uptown campus and a Nobel-laureate-studded alumni roster.",
+    "distinctives": [
+      "The university was founded May 7, 1844 as the New York State Normal School, opening with just 29 students and four faculty in an abandoned railroad depot on State Street in Albany, making it the first New York State-chartered public institution of higher education.",
+      "In 1905 it became the first public institution of higher education in New York granted the power to confer bachelor's degrees.",
+      "Architect Edward Durell Stone designed the university's Uptown Campus, built in 1961-1962, arranging its signature towers, domes, fountains and colonnades around residential quadrangles in a style critics called a 'formal masterpiece.'",
+      "UAlbany alumni include Nobel Prize winners Toni Morrison, Joachim Frank (2017, Chemistry), and Omar M. Yaghi (2025, Chemistry), as well as Pulitzer winner William Kennedy and gay-rights pioneer Harvey Milk; the school is also the only American college or university whose mascot is the Great Dane."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "486840": {
+    "profile_type": "researched",
+    "vibe": "One of the fastest-growing universities in the country, Kennesaw State exploded from a small junior college into Georgia's third-largest university and a doctoral research institution within a few decades.",
+    "distinctives": [
+      "Kennesaw State was established October 9, 1963 and opened in fall 1966 as Kennesaw Junior College with just 1,014 students; it did not achieve full university status until 1996.",
+      "In 2015 KSU merged with Southern Polytechnic State University, and by 2018 it had earned R2 doctoral research university classification.",
+      "Enrollment has ballooned from about 1,000 students at founding to 51,375 students in fall 2025, making it the third-largest university in Georgia.",
+      "The university's Center for Election Systems certified Georgia's voting machines until 2018, and its athletic teams (the Owls, mascot Scrappy) won four NCAA Division II national championships between 1995 and 2004."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "165936": {
+    "profile_type": "researched",
+    "vibe": "Gordon College is an evangelical Christian liberal arts college on a former Gilded Age estate north of Boston, where academic rigor and a shared statement of faith shape daily campus life.",
+    "distinctives": [
+      "Gordon College was founded in 1889 by Baptist minister Adoniram Judson Gordon as the Boston Missionary Training Institute, originally based at Clarendon Street Baptist Church in Boston.",
+      "The college relocated to its present 485-acre Wenham, Massachusetts campus in 1955 after acquiring the former estate of industrialist Frederick H. Prince.",
+      "All students are required to sign both a Statement of Faith and a Life and Conduct Statement, and attend mandatory chapel services held on Mondays and Wednesdays.",
+      "In 2021, Gordon cut its published tuition by roughly 33 percent, from about $56,700 to $37,900, as part of a national wave of college 'tuition resets.'"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "179043": {
+    "profile_type": "researched",
+    "vibe": "Rockhurst University is a Jesuit institution in Kansas City built around the Ignatian ideal of 'men and women for others,' pairing a business-school reputation with an unusually high rate of student community service.",
+    "distinctives": [
+      "Rockhurst was chartered as Rockhurst College by Jesuit priest Fr. Michael Dowling, S.J. in August 1910, with college-level classes beginning in 1917 after Sedgwick Hall opened in 1914; it became Rockhurst University in 1999.",
+      "The university reports that 97 percent of its students participate in community service, logging more than 25,000 service hours annually, which helped earn it a spot on the President's Higher Education Community Service Honor Roll with Distinction.",
+      "Its Helzberg School of Management has been nationally ranked, with U.S. News tying its undergraduate management program at No. 11 and its quantitative analysis program at No. 9 in the country.",
+      "Arrupe Hall, opened in 2015, is named for Jesuit superior general Pedro Arrupe, whose 'men and women for others' concept remains the university's guiding mission statement."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "136774": {
+    "profile_type": "researched",
+    "vibe": "Ringling College of Art and Design is a small, highly selective art and design school on Sarasota's Gulf Coast whose animation graduates routinely land at Pixar, DreamWorks, and the Academy Awards.",
+    "distinctives": [
+      "Ringling was founded on March 31, 1931 by Ludd M. Spivey as the School of Fine and Applied Art of the John and Mable Ringling Art Museum, initially operating as a branch of Florida Southern College before splitting off as an independent institution in 1933, partly over trustee objections to figure-drawing instruction.",
+      "Alumni Brandon Oldenburg and Patrick Osborne have each won the Academy Award for Best Animated Short Film, for 'The Fantastic Flying Books of Mr. Morris Lessmore' (2012) and 'Feast' (2015) respectively.",
+      "The college's Alfred R. Goldstein Library, a $20 million, 24-hour facility completed in 2017, overlooks Whitaker Bayou and includes a caf\u00e9 and multiple group-study terraces.",
+      "Enrollment grew from just 75 students when the school opened to about 1,663 students as of its most recent reporting, supported by an endowment of roughly $75.65 million in 2025."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "167598": {
+    "profile_type": "researched",
+    "vibe": "Regis College is a Catholic institution in Weston, Massachusetts that spent eight decades as a women's college before opening its doors to men, and today runs programs spanning early childhood through lifelong learning.",
+    "distinctives": [
+      "Regis College was founded in 1927 by the Sisters of St. Joseph of Boston, taking its name from Mary Regis Casserly, who established the order in Boston in 1873.",
+      "Regis operated as a women's-only college for 80 years and enrolled its first coeducational class in fall 2007, making it the last Catholic women's college in the Boston area to begin admitting men.",
+      "The Weston campus spans 132 acres and is home to the Spellman Museum of Stamps and Postal History, a specialty collection unusual for a college of its size.",
+      "Regis operates a Children's Center serving ages 15 months to six years alongside a Lifelong Learning Program for older adults, bookending its academic offerings across the full age spectrum."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "147703": {
+    "profile_type": "researched",
+    "vibe": "Northern Illinois University is a large public research university in DeKalb that grew from a teacher-training school into a comprehensive institution whose Huskies and alumni show up everywhere from Springfield to Hollywood.",
+    "distinctives": [
+      "NIU was founded on May 22, 1895 as the Northern Illinois State Normal School by Illinois Governor John P. Altgeld to train teachers, and was renamed Northern Illinois University in 1957 as it grew into a full liberal arts institution.",
+      "Alumnus Dan Castellaneta, a 1979 graduate, went on to voice Homer Simpson on 'The Simpsons,' winning multiple Emmy Awards for the role.",
+      "NIU alumna Tammy Duckworth serves as a U.S. Senator from Illinois, while fellow alumnus Dennis Hastert (M.S. Education, 1967) became the longest-serving Republican Speaker of the U.S. House of Representatives.",
+      "NIU hosts one of only seven federally recognized National Resource Centers for Southeast Asian Studies, established in 1963, and maintains an extensive Burmese art collection through its Center for Burma Studies."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "150604": {
+    "profile_type": "researched",
+    "vibe": "A small, historic liberal arts college in a classic Indiana college town, Franklin blends 19th-century roots with tight-knit Division III athletics and a quirky good-luck ritual before exams.",
+    "distinctives": [
+      "Founded in 1834 as the Indiana Baptist Manual-Labor Institute, the school was renamed Franklin College in 1844 and became Indiana's first coeducational college (and the seventh in the nation) when it began admitting women in 1842.",
+      "Students rub the nose of a bronze bust of Benjamin Franklin on campus for good luck before exams, a long-running campus tradition.",
+      "The men's basketball team, nicknamed the Grizzlies after 1920s coach Ernest 'Griz' Wagner, won 50 consecutive games during the 1922-23 season under coach Fuzzy Vandivier's era.",
+      "Notable alumni include CBS news director and Peabody Award winner Elmer Davis, Academy Award-winning director Robert Wise, actress Marjorie Main, and Arch West, the marketing executive credited with creating Doritos."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "167783": {
+    "profile_type": "researched",
+    "vibe": "Founded on the belief that women deserved economic independence, Simmons has grown from a women's career-training college into a university known for pioneering women's business education while keeping undergraduate studies women-focused.",
+    "distinctives": [
+      "Founded in 1899 in Boston by clothing manufacturer John Simmons, whose will established the college specifically so women 'might acquire an independent livelihood.'",
+      "Simmons launched the first MBA program in the world designed specifically for women, a signature distinctive of its School of Business.",
+      "The college graduated its first African American student in 1914 and, in November 2014, became one of the first women's colleges nationally to begin admitting transgender women.",
+      "Renamed from Simmons College to Simmons University in 2018, and its notable alumni include journalist Gwen Ifill (class of 1977) and author Gregory Maguire, creator of 'Wicked.'"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "166850": {
+    "profile_type": "researched",
+    "vibe": "An Augustinian Catholic college north of Boston, Merrimack was built to educate returning World War II veterans and has since become a Division I athletic competitor with a fast-growing campus.",
+    "distinctives": [
+      "Founded in 1947 by the Order of Saint Augustine at the invitation of Boston Archbishop Richard Cushing, originally to serve World War II veterans through a commuter-based liberal arts curriculum.",
+      "Merrimack is the second Augustinian-affiliated college established in the United States, after Villanova University.",
+      "The college moved its athletics program from NCAA Division II to Division I between 2019 and 2023, with its ice hockey team competing in Hockey East.",
+      "Notable alumni include Baseball Hall of Famer Carl Yastrzemski and actor Charlie Day; in 2025 the college purchased the 76-acre Royal Crest apartment complex to expand campus housing."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "455257": {
+    "profile_type": "researched",
+    "vibe": "A small Brooklyn-based post-secondary yeshiva offering intensive Judaic studies for young men within an Orthodox Jewish educational tradition.",
+    "distinctives": [
+      "Yeshiva of Machzikai Hadas is located in Brooklyn, New York, and is registered as a nonprofit religious educational institution (EIN 20-2570942).",
+      "The school offers a five-year post-high-school Judaic studies program rather than a conventional undergraduate liberal-arts curriculum.",
+      "Its name, 'Machzikei Hadas' (meaning 'upholders of the faith'), reflects ties to the broader Machzikei Hadas Hasidic and Orthodox educational tradition found in several Jewish communities.",
+      "As a very small, specialized religious institution, detailed public information on its founding date and specific notable alumni is limited, consistent with many single-purpose yeshivas of its size."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "201548": {
+    "profile_type": "researched",
+    "vibe": "A Lutheran-rooted university in Columbus's Bexley neighborhood, Capital pairs a well-regarded conservatory of music with a long institutional history stretching back to an 1830 theological seminary.",
+    "distinctives": [
+      "Founded June 3, 1830, as the German Theological Seminary of the Evangelical Lutheran Synod of Ohio in Canton, it relocated to Columbus in 1832 and was officially chartered as Capital University in 1850.",
+      "Capital's Conservatory of Music is known for early-adopter jazz and music industry programs, and its Chapel Choir has performed at Carnegie Hall; the school also hosts an annual Christmas Festival that is a longstanding community institution.",
+      "The women's basketball team became the first program in NCAA Division III history to win back-to-back national championships, in 1994 and 1995.",
+      "Trinity Lutheran Seminary, which had become independent in 1959 and merged with Hamma Divinity School in 1978, formally reunited with Capital University in 2018; the school also changed its athletic mascot from the Crusaders to the Comets in 2021."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "107044": {
+    "profile_type": "researched",
+    "vibe": "A Church of Christ liberal arts university in Searcy, Arkansas, where daily chapel and a famously massive Easter-weekend musical are as central to campus identity as the classroom.",
+    "distinctives": [
+      "Harding was formed in 1924 through the merger of Arkansas Christian College and Harper College, originally based in Morrilton, Arkansas, before relocating in 1934 to Searcy, Arkansas onto the former campus of Galloway Female College.",
+      "The university is affiliated with the Churches of Christ and requires daily chapel attendance for undergraduates as well as Church of Christ membership for its faculty.",
+      "Spring Sing, an annual student-produced musical variety show staged by campus social clubs each spring, draws roughly 12,000 attendees a year and is one of the university's signature traditions.",
+      "Harding's American Studies Institute, an outgrowth of the school's historic National Education Program, promotes free-enterprise and constitutional education and reflects the university's long-standing conservative civic-education mission."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "220613": {
+    "profile_type": "researched",
+    "vibe": "A Church of God-affiliated university in Cleveland, Tennessee that grew from a twelve-student Bible training school into a music- and ministry-producing campus with an outsized run of alumni in Christian and mainstream entertainment.",
+    "distinctives": [
+      "Lee University began in 1918 as the Church of God Bible Training School with just twelve students and one teacher, Nora I. Chambers, and did not attain university status until 1997.",
+      "In 1948 the school moved to Cleveland, Tennessee, acquiring the former campus of Bob Jones College, and was renamed Lee College in honor of its second president, Rev. F. J. Lee.",
+      "The university operates under a Community Covenant and requires students to attend chapel roughly 70% of the time each month plus complete 10 hours of community service per semester.",
+      "Notable alumni include Jordan Smith, winner of Season 9 of NBC's The Voice, Jay DeMarcus of the country trio Rascal Flatts, and Scott Stapp, lead singer of the rock band Creed."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "130943": {
+    "profile_type": "researched",
+    "vibe": "One of the oldest institutions of higher learning in the United States, the University of Delaware traces an unbroken line from a colonial-era clergy school to a major public research university whose earliest students helped found the nation.",
+    "distinctives": [
+      "The university's roots go back to 1743, when Rev. Dr. Francis Alison opened a school in New London, Pennsylvania to train clergy; the school moved to Newark, Delaware by 1765 and became a degree-granting college in 1834.",
+      "Three of the school's earliest students, Thomas McKean, George Read, and James Smith, went on to sign the Declaration of Independence, and Read also later signed the U.S. Constitution.",
+      "The modern University of Delaware was formed in 1921 through the merger of the men's college with the Women's College, which had been established in 1914.",
+      "In 2009 the university acquired the 272-acre former Chrysler assembly plant site in Newark and redeveloped it into the STAR Campus, now home to its Health Sciences Complex and interdisciplinary research and business ventures."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "194958": {
+    "profile_type": "researched",
+    "vibe": "A Free Methodist university in the Rochester, New York area, founded by a bishop who wanted to train 'servant leaders with high moral character,' and now known for producing a gold-medal Olympian alongside its Wesleyan theological identity.",
+    "distinctives": [
+      "Roberts Wesleyan was founded in 1866 by Free Methodist bishop Benjamin Titus Roberts as Chili Seminary, the first educational institution established for the Free Methodist Church in North America.",
+      "The school initially held classes in a local tavern before constructing a three-story brick building in 1869 that housed 56 students.",
+      "Alumna Jennifer Suhr, a 2004 graduate, went on to win Olympic gold in pole vault in 2012 and silver in 2008.",
+      "The university established Northeastern Seminary in 1998 as its graduate school of theology and fields NCAA Division II athletics across 19 varsity sports."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "206437": {
+    "profile_type": "researched",
+    "vibe": "A Catholic university in North Canton, Ohio governed by the La Mennais Brothers, notable both for its Maine origins as a college for training brothers and teachers and for a legendary undefeated Bob Huggins-coached basketball season.",
+    "distinctives": [
+      "Walsh University traces its roots to LaMennais College, founded in Alfred, Maine in 1951 by the Brothers of Christian Instruction to educate young men as brothers and teachers, before relocating to North Canton, Ohio in 1959-1960 after Bishop Emmet M. Walsh donated $304,000 toward the move.",
+      "It is the only college governed by the Roman Catholic Diocese of Youngstown, and it was formally established as Walsh University in 1960.",
+      "Under coach Bob Huggins, who later became a major Division I coach, Walsh's basketball team ran a perfect 30-0 regular season during the 1980-1983 era.",
+      "The campus features a Peace Pole honoring visiting peace advocates including Mother Teresa, Coretta Scott King, and Elie Wiesel, and the university now offers more than 70 undergraduate majors and seven graduate programs."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "146427": {
+    "profile_type": "researched",
+    "vibe": "A tiny, fiercely intellectual liberal-arts college on the Illinois prairie that punches way above its size in history, having hosted Lincoln himself and still running on quirky, tight-knit rituals.",
+    "distinctives": [
+      "Knox was founded February 15, 1837 as Knox Manual Labor College by Presbyterian and Congregationalist settlers from New York, and admitted Black students and women almost from its 1843 opening.",
+      "Old Main hosted the fifth Lincoln-Douglas debate on October 7, 1858, and is now a National Historic Landmark; in 1860 Knox awarded Abraham Lincoln his first honorary doctorate.",
+      "Alumni include Edgar Lee Masters (author of Spoon River Anthology), Thomas E. Kurtz (co-inventor of the BASIC programming language), Hiram R. Revels (first Black U.S. Senator), and John Podesta (White House Chief of Staff).",
+      "Knox runs on a 3-3 academic calendar (three 10-week terms, three courses each) and keeps traditions like Pumphandle, an all-campus handshake line dating to 1885, and Flunk Day, a surprise spring day when classes are cancelled for a campus-wide carnival."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169080": {
+    "profile_type": "researched",
+    "vibe": "A Christian Reformed university in Grand Rapids built on a deliberate synthesis of rigorous scholarship and Calvinist faith, known nationally for sending an outsized share of its students abroad.",
+    "distinctives": [
+      "Calvin was founded August 4, 1876 by the Christian Reformed Church in North America, starting as Calvin College and Seminary with seven students meeting in a rented room on Spring Street.",
+      "It became a four-year liberal arts college in 1920, moved onto its 390-acre Knollcrest campus after acquiring the farm in 1956, and formally became Calvin University in 2019.",
+      "Notable alumni include former U.S. Secretary of Education Betsy DeVos, Amway co-founder Richard DeVos, Academy Award-nominated screenwriter Paul Schrader, and philosopher Alvin Plantinga.",
+      "Calvin ranks among the top baccalaureate institutions nationally for study-abroad participation and requires daily chapel, reflecting its stated mission of integrating Reformed Christian faith with academic learning."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "180106": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic liberal-arts college beneath the Montana state capitol, known for near-guaranteed med-school placement and a pioneering human-animal bond degree found nowhere else in the country.",
+    "distinctives": [
+      "Carroll College was founded September 27, 1909 by Bishop John Patrick Carroll of the Diocese of Helena, with President William Howard Taft helping lay the cornerstone of St. Charles Hall that year; it was renamed from Mount St. Charles College to Carroll College in 1932.",
+      "Its pre-professional health tracks report roughly an 85% acceptance rate into medical and dental school for qualified applicants, and Carroll created the first undergraduate Anthrozoology (human-animal bond) degree program in the United States.",
+      "The campus survived the 1935 Helena earthquake with only minor damage, and stones from a collapsed structure were later repurposed to build Montana's oldest astronomical observatory.",
+      "Notable alumni include Montana Governor Marc Racicot, longtime college football coaching legend John Gagliardi, and Father Stuart Long, whose life as a boxer-turned-priest inspired the 2022 film Father Stu."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214069": {
+    "profile_type": "researched",
+    "vibe": "A close-knit Catholic university in northeastern Pennsylvania founded by the Sisters of Mercy, distinctive for a job-placement guarantee that backs up its career-focused mission.",
+    "distinctives": [
+      "Misericordia was founded September 15, 1924 by the Religious Sisters of Mercy (an order founded in Dublin in 1831) as College Misericordia, opening with 37 students on nearly 100 acres in Dallas, PA; it became co-educational in the 1970s and achieved university status in 2007.",
+      "Its Guaranteed Placement Program, launched in 1999, promises graduates a paid internship in their field if they haven't secured a job offer or graduate school acceptance within six months of graduation.",
+      "The Misericordia baseball team won the NCAA Division III national championship in 2024.",
+      "Notable alumni include Alaska Governor Mike Dunleavy and Maria Pallante, who served as the U.S. Register of Copyrights; the campus also maintains the only Shakespeare garden in northeastern Pennsylvania, honored with a 2011 Greening Award."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216852": {
+    "profile_type": "researched",
+    "vibe": "A Delaware Valley university with roots as a 19th-century military academy, now known for its law schools and Division III football pedigree just outside Philadelphia.",
+    "distinctives": [
+      "Widener traces its roots to 1821 as the Bullock School for Boys in Wilmington, Delaware, and operated as Pennsylvania Military College (PMC) from 1892 to 1966, becoming one of the nation's senior military colleges; composer John Philip Sousa dedicated his 1923 march 'The Dauntless Battalion' to PMC.",
+      "PMC hosted the first U.S. Army detail assigned to any school, starting in 1869, and received formal recognition from the War Department in 1904.",
+      "Alumnus Billy 'White Shoes' Johnson starred for Widener's football team in the early 1970s before becoming an NFL All-Pro and a College Football Hall of Fame inductee.",
+      "Widener's football team won NCAA Division III national championships in 1977 and 1981, and the university now maintains law schools in both Delaware and Harrisburg, Pennsylvania, plus a 90-plus-percent terminal-degree faculty and a 12:1 undergraduate student-to-faculty ratio."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
