@@ -251,6 +251,22 @@
     ],
     "vibe": "A UC campus directly on the Pacific coast in Isla Vista, combining a strong beach/surf social culture with genuinely elite physics and materials-science research -- UCSB has produced multiple Nobel laureates in physics."
   },
+  "110714": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1965 as one of the University of California's newest campuses, UC Santa Cruz was designed around a cluster of small residential colleges nestled in the redwoods above Monterey Bay, and it built its early academic identity around narrative evaluations instead of letter grades.",
+      "Students informally embraced the banana slug, a bright-yellow forest mollusk, as an unofficial mascot from the campus's earliest days, partly as a wink at the slow-moving, anti-jock spirit of the school.",
+      "In 1980, when UCSC joined NCAA Division III and needed an official team name, the chancellor polled student athletes, who picked \"Sea Lions\" instead \u2014 but the wider student body kept rooting for the Slugs, and after five years of dueling mascots, an overwhelming 1986 student straw vote finally forced the chancellor to make the Banana Slug official.",
+      "The Banana Slug's rebellious origin story paid off nationally: a 1992 poll by the National Directory of College Athletics ranked it the single best mascot in college sports, beating out rivals like UC Irvine's Anteaters."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A redwood-forest campus built in 1965 around a countercultural, anti-competition ethos, best known for a mascot students fought their own chancellor to keep: the banana slug."
+  },
   "111081": {
     "confidence": "researched",
     "distinctives": [
@@ -265,6 +281,38 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A small, intensely arts-focused conservatory in Valencia, California founded by Walt Disney specifically to train animators, filmmakers, musicians, and visual artists -- CalArts alumni dominate the modern animation and visual-effects industries."
+  },
+  "111948": {
+    "confidence": "researched",
+    "distinctives": [
+      "Chapman traces its roots to Hesperian College, founded March 4, 1861, in Woodland, California, timed to open alongside Abraham Lincoln's first inauguration, and notably admitted students regardless of sex or race from the start, a rarity in Civil War-era America.",
+      "The institution cycled through at least seven names, including Pierce Christian College, Berkeley Bible Seminary, and California Christian College, before becoming Chapman College in 1934 (honoring benefactor C. C. Chapman) and finally Chapman University in 1991.",
+      "Its Dodge College of Film and Media Arts, opened in 1996 and housed in the Marion Knott Studios, was ranked sixth among American film schools by The Hollywood Reporter in 2017 and counts Stranger Things co-creators Matt and Ross Duffer among its alumni.",
+      "Other notable alumni include filmmaker Justin Simien (Dear White People) and 1976 NL Cy Young Award winner Randy Jones, reflecting the school's blend of creative and athletic pedigree."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Southern California university with an identity crisis turned strength: born during the Civil War as a tiny frontier college, Chapman has reinvented itself under half a dozen names before becoming a name synonymous with elite film and media education."
+  },
+  "112075": {
+    "confidence": "researched",
+    "distinctives": [
+      "The university's roots go back to a 1955 proposal by Dr. Victor Behnken to build a Lutheran preparatory college for the Pacific Southwest; after evaluating 87 possible sites, planners settled on land from The Irvine Company, and the school opened as Christ College Irvine under founding president Rev. Dr. Charles Manske.",
+      "It was renamed Concordia University Irvine in February 1993, becoming the tenth campus in the national Concordia University System affiliated with the Lutheran Church\u2013Missouri Synod.",
+      "Beach volleyball legend Misty May-Treanor, a three-time Olympic gold medalist, is among the school's most decorated alumni.",
+      "Concordia Irvine's athletic teams, the Golden Eagles, compete in NCAA Division II and rebranded their identity in 2022, while the university added its first doctoral program, in Educational Leadership, back in 2014."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Lutheran Church\u2013Missouri Synod university perched on a 70-acre plateau above Orange County, born from a 1955 vision to plant a Christian college in Southern California."
   },
   "117946": {
     "confidence": "researched",
@@ -532,6 +580,22 @@
     ],
     "vibe": "A private university in West Haven, CT, founded in 1920 as New Haven Junior College, a Northeastern University division that shared Yale University's buildings, labs, and faculty for nearly 40 years before becoming independent; today known especially for its forensic science and criminal justice programs."
   },
+  "130253": {
+    "confidence": "researched",
+    "distinctives": [
+      "Sacred Heart was founded in 1963 by Most Rev. Walter W. Curtis, the second bishop of the Diocese of Bridgeport, with an original mission to serve the region 'regardless of sex, race, creed or religion.'",
+      "The university started with fewer than 200 undergraduates and didn't even accept residential students until 1990; today it enrolls over 9,000 students, roughly 91% of whom live on campus as first-years.",
+      "It has grown into the second-largest Catholic university in New England and fields 38 NCAA Division I varsity athletic programs.",
+      "Sacred Heart maintains a satellite campus in Dingle, Ireland, part of a broader footprint that spans over 300 acres in Fairfield, Connecticut, and includes nine colleges and schools offering 200-plus degree and certificate programs."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A youthful, fast-growing Catholic university on the Connecticut coast that has scaled from a tiny commuter school into a Division I powerhouse in just over sixty years, all while keeping an explicitly inclusive founding mission."
+  },
   "130590": {
     "confidence": "researched",
     "distinctives": [
@@ -643,6 +707,38 @@
     ],
     "vibe": "A former aerospace-training school turned one of the largest public universities in the country, still tied to the Space Coast through NASA partnerships and known for its raucous 'Spirit Splash' homecoming tradition."
   },
+  "133553": {
+    "confidence": "researched",
+    "distinctives": [
+      "The university's roots trace to 1925, when Talton Higbee Embry and John Paul Riddle founded the Embry-Riddle Company as an aircraft dealership and airmail carrier in Cincinnati; the school moved to its current Daytona Beach campus in 1965 and became a university in 1970.",
+      "The Jack R. Hunt Memorial Library holds one of the largest collections of NASA and NACA documents in the world, a research trove most students never think to look for at a college library.",
+      "Embry-Riddle runs one of the nation's largest Air Force ROTC programs and trains students on an Advanced Flight Simulation Center with 14 simulators alongside a Cray CS400 supercomputer.",
+      "Its undergraduate aerospace engineering program tied for 8th nationally in the 2023 U.S. News rankings, and the school's Boeing Center for Aviation & Aerospace Safety opened in January 2024."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Embry-Riddle Daytona Beach is the school for kids who grew up staring at planes overhead instead of at the ground \u2014 a campus built almost entirely around the sky, from flight lines to a supercomputer crunching aerospace data."
+  },
+  "133669": {
+    "confidence": "researched",
+    "distinctives": [
+      "FAU was authorized in 1961 and opened in 1964 as the first public university in the Miami metro area, but for its first two decades it enrolled only upper-division and graduate students \u2014 freshmen and sophomores weren't admitted until 1984.",
+      "The Boca Raton campus sits on the site of a former U.S. Army Air Corps radar training airfield from World War II, and the university's first-ever degree was an honorary doctorate awarded to President Lyndon B. Johnson at its 1964 dedication.",
+      "FAU's mascot, Owlsley the owl, comes from the burrowing owls that nest on campus; the Audubon Society designated the campus a protected owl sanctuary in 1971, and the school still marks and protects active burrows near sidewalks and parking lots.",
+      "Now one of Florida's largest universities with over 32,000 students, FAU counts former U.S. Congresswoman Carrie Meek and Inter-American Development Bank president Luis Alberto Moreno among its alumni."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "FAU is a school that grew up fast \u2014 from a small upper-division campus built on a WWII airfield into a 32,000-student research university in the heart of South Florida, with a burrowing owl as its unlikely, scrappy mascot."
+  },
   "133881": {
     "confidence": "researched",
     "distinctives": [
@@ -674,6 +770,22 @@
       "applied via scheduled batch on 2026-09-20"
     ],
     "vibe": "Founded by the Florida Legislature in 1965 and opened to students in 1972 on the site of the decommissioned Tamiami Airport, with the airport's old control tower serving as its first building; now an R1 research university best known for hurricane-resilience engineering and one of the largest Hispanic-serving institutions in the US."
+  },
+  "134079": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1883 (originally as the South Florida Institute in Orlando), Florida Southern College is one of Florida's oldest private colleges.",
+      "The campus holds the world's largest single-site collection of Frank Lloyd Wright architecture, a group of buildings called 'Child of the Sun' that Wright began designing in 1938; the district was designated a National Historic Landmark in 2012.",
+      "Florida Southern offers the nation's only bachelor's degree program in citrus, a nod to its Central Florida roots in the heart of citrus country.",
+      "The Princeton Review named it the most beautiful campus in America in 2011 and 2012, and the grounds have been used as a filming location, including for Adam Sandler's 1998 comedy 'The Waterboy.'"
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small Methodist-founded college in Lakeland, Florida, whose campus doubles as a living Frank Lloyd Wright museum \u2014 genuinely one of the most architecturally unique places to spend four years in the country."
   },
   "134945": {
     "confidence": "researched",
@@ -961,6 +1073,22 @@
     ],
     "vibe": "A small private liberal arts college in Caldwell, Idaho, founded in 1891 by Presbyterian minister William Judson Boone with support from the Wood River Presbytery, and now the state's oldest private college."
   },
+  "142461": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1913 by Eugene Emerson as the Idaho Holiness School, the institution began as a combined grade school and Bible school before becoming a liberal arts college in 1917.",
+      "It became the first Nazarene college accredited as a four-year institution in 1937, and took its current name, Northwest Nazarene University, in 1999.",
+      "Notable alumnus Richard Hieb flew on three Space Shuttle missions for NASA, including the dramatic 1992 Intelsat VI satellite-rescue spacewalk on STS-49.",
+      "NNU fields NCAA Division II athletic teams known as the Nighthawks and remains formally affiliated with the Church of the Nazarene, shaping its academic and residential-life culture."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Church of the Nazarene-affiliated university in Nampa, Idaho, that grew from a one-room holiness school into a four-year Christian liberal arts college producing everything from NASA astronauts to theologians."
+  },
   "143084": {
     "confidence": "researched",
     "distinctives": [
@@ -1136,6 +1264,22 @@
     ],
     "vibe": "A small Franciscan Catholic university in Quincy, IL, founded February 6, 1860 as St. Francis Solanus College by Franciscan friars who had emigrated from Germany two years earlier to serve frontier German-speaking communities."
   },
+  "148584": {
+    "confidence": "researched",
+    "distinctives": [
+      "The school was founded in 1920 as The Sisters' Normal Institute of Higher Learning by the Sisters of St. Francis of Mary Immaculate, an order led by Mother Alfred Moes, though the sisters' educational work in the area dates back to 1865.",
+      "It stayed a women's college for most of its history, only going coeducational in 1971, and didn't reach full university status until 1998, adding doctoral degree authority in 2009.",
+      "The school's athletic teams, nicknamed the Fighting Saints since 1975, won the university's first-ever NAIA World Series national championship in baseball in 1993.",
+      "Its Latin motto, 'Primo Unctio et Postea Speculatio' ('Holiness First and Then Learning'), still frames the school's Franciscan identity, and its student-run radio station WCSF has been broadcasting since 1945."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "The University of St. Francis is a small Catholic Franciscan school in Joliet, Illinois, that started as a teacher-training program for nuns and grew into a university that once sent its baseball team all the way to a national title."
+  },
   "150400": {
     "confidence": "researched",
     "distinctives": [
@@ -1151,6 +1295,22 @@
       "applied via scheduled batch on 2026-09-21"
     ],
     "vibe": "A liberal arts university in Greencastle, IN, founded as Indiana Asbury College in 1837 and renamed for donor Washington C. DePauw in 1884; it's the birthplace of the first Greek-letter sorority and still has one of the highest Greek-affiliation rates in the country."
+  },
+  "151263": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1902 as Indiana Central University by the Church of the United Brethren in Christ, the school went through several names \u2014 Indiana Central College (1921-1975), back to Indiana Central University (1975-1986) \u2014 before settling on the University of Indianapolis in 1986.",
+      "Actor Adam Driver attended the University of Indianapolis before transferring to the Juilliard School and going on to star in the Star Wars sequel trilogy and earn multiple Oscar nominations.",
+      "UIndy's athletic teams, the Greyhounds, compete in NCAA Division II and have finished in the top 20 of the NACDA Directors' Cup (measuring overall athletic program success) every year since 2006-07, including a 2nd-place finish in 2023-24.",
+      "Beyond Driver, notable alumni include Golden Age film star Irene Dunne and 2009 Miss America Katie Stam, reflecting a school that has quietly produced outsized talent from a 50-acre residential campus on Indianapolis's south side."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A friendly, mid-sized Indianapolis university with United Brethren roots and a live greyhound mascot, UIndy is also the school where a future Kylo Ren got his acting start before transferring to Juilliard."
   },
   "152673": {
     "confidence": "researched",
@@ -1644,6 +1804,22 @@
     ],
     "vibe": "The oldest independent music school in the United States, founded in Boston in 1867 and still centered on the acoustically celebrated Jordan Hall, the only music school building in the US designated a National Historic Landmark."
   },
+  "167996": {
+    "confidence": "researched",
+    "distinctives": [
+      "Stonehill was founded on June 29, 1948 by the Congregation of Holy Cross \u2014 the same order behind the University of Notre Dame \u2014 on the grounds of the former Ames family estate, 'Stone-House Hill,' a mansion built in 1905 by Frederick Lothrop Ames.",
+      "The college went coeducational just three years after opening, in 1951, and named its first female valedictorian, Margaret Mullaney, in 1954.",
+      "Stonehill's outdoor commencement, held under a green-and-white tent, has been a tradition since 1953; the school awarded its 30,000th diploma in 2023.",
+      "In 2022, Stonehill jumped from NCAA Division II to Division I athletics, a major leap for a school of its size that reflects its recent growth and ambition."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small Catholic college on Boston's South Shore built literally on a hill, Stonehill blends the intimacy of a 2,000-student campus with a values-driven Holy Cross mission \u2014 and it just leveled up to NCAA Division I."
+  },
   "168421": {
     "confidence": "researched",
     "distinctives": [
@@ -1723,6 +1899,22 @@
       "applied via scheduled batch on 2026-09-21"
     ],
     "vibe": "A commuter-oriented campus of the University of Michigan established in 1959 on land and funding donated by the Ford Motor Company, whose grounds include Fair Lane, the historic estate of Henry and Clara Ford."
+  },
+  "171492": {
+    "confidence": "researched",
+    "distinctives": [
+      "Northwood was founded in 1959 by Arthur E. Turner and R. Gary Stauffer as Northwood Institute, opening with just 100 students in Alma, Michigan before relocating to its current Midland, Michigan campus in 1961.",
+      "The school renamed itself Northwood University in 1993, the same year it established the DeVos Graduate School of Management, named for the family behind Amway/Alticor, who remain major benefactors.",
+      "Northwood's curriculum centers specifically on business, management, and free-market economics, with distinctive majors like automotive marketing and management alongside standard finance and entrepreneurship tracks.",
+      "More than 57,000 students have graduated from Northwood since its founding, and its alumni network includes U.S. Representatives Lisa McClain and Candice Miller."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small Michigan university built almost entirely around business and entrepreneurship, closely tied to the DeVos family of Amway fame, that trains students in free-enterprise thinking from day one."
   },
   "172334": {
     "confidence": "researched",
@@ -2104,6 +2296,22 @@
     ],
     "vibe": "A small Christian university in York, NE, affiliated with the Churches of Christ since 1956, founded in 1890 and rebranded from York College to York University in 2022 to clarify what the college title meant to prospective students."
   },
+  "185828": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded February 9, 1881 as the Newark Technical School with backing from industrialists including inventor Edward Weston, it opened in 1885 with just 88 students in a rented building before growing into a full research university.",
+      "The school changed names twice on its way to its current identity: Newark College of Engineering from 1930 to 1975, then New Jersey Institute of Technology from 1975 onward.",
+      "Alumnus Wally Schirra flew as one of NASA's original Mercury Seven astronauts, and computer scientist Judea Pearl, also an alum, won the Turing Award for his work on Bayesian networks and causal inference.",
+      "NJIT operates the Big Bear Solar Observatory in California and the Owens Valley Radio Observatory, giving undergraduates access to research infrastructure most engineering schools its size don't have."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "NJIT is Newark's engine of hands-on engineers \u2014 a no-frills technical school with a 140-year pedigree that has quietly produced astronauts, Turing Award winners, and thousands of working problem-solvers."
+  },
   "186380": {
     "confidence": "researched",
     "distinctives": [
@@ -2151,6 +2359,22 @@
       "applied via scheduled batch on 2026-09-17"
     ],
     "vibe": "A small, research-heavy public STEM institute in the high desert of Socorro, founded in 1889 as a territorial mining school, whose faculty and campus facilities punch well above the school's roughly 1,500-student enrollment in atmospheric science and explosives research."
+  },
+  "188429": {
+    "confidence": "researched",
+    "distinctives": [
+      "Adelphi traces its roots to the Adelphi Academy, founded in Brooklyn in 1863, but was officially chartered as Adelphi College on June 24, 1896, opening with just 57 students and 16 instructors as one of the first coeducational institutions to receive a New York State charter.",
+      "The university relocated to its current Garden City, Long Island campus in 1929 and was elevated to full university status in 1963.",
+      "Adelphi's dance program, founded in 1938 by modern-dance pioneer Ruth St. Denis, helped establish the school's long-running strength in the performing arts.",
+      "Its alumni roster spans an unusually wide range of fields, from Public Enemy's Chuck D and Flavor Flav, to Pulitzer Prize-winning playwright Jonathan Larson (creator of Rent), to 1990 U.S. World Cup team captain Mike Windischmann."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Garden City, New York university that grew from a small Brooklyn academy into one of the first coeducational chartered colleges in the state, and now counts hip-hop pioneers among its most famous graduates."
   },
   "188526": {
     "confidence": "researched",
@@ -2279,6 +2503,22 @@
       "applied via scheduled batch on 2026-09-21"
     ],
     "vibe": "A CUNY senior college on a Bronx campus that began as Hunter College's satellite women's campus, briefly hosted the United Nations Security Council in 1946, and became independent in 1968."
+  },
+  "190664": {
+    "confidence": "researched",
+    "distinctives": [
+      "Queens College opened in October 1937 with an inaugural class of just 400 freshmen and 21 faculty, launched with support from Mayor Fiorello La Guardia as a tuition-free public college.",
+      "Its alumni roster includes musicians Paul Simon ('63) and Carole King ('63), Moog synthesizer inventor Robert Moog ('57), and comedian Jerry Seinfeld ('76) \u2014 an unusually dense concentration of cultural icons for a single commuter campus.",
+      "Civil rights activist Andrew Goodman was a Queens College student when he was murdered in Mississippi during Freedom Summer in 1964, a piece of history the college still commemorates.",
+      "The campus houses the Aaron Copland School of Music and the Godwin-Ternbach Museum, which holds more than 7,000 artworks, giving a commuter school real museum-and-conservatory-level arts infrastructure."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A CUNY public college in Flushing that opened in 1937 as a free college for New York City's working-class kids and quietly produced Paul Simon, Carole King, and Jerry Seinfeld from the same few graduating classes."
   },
   "191241": {
     "confidence": "researched",
@@ -2440,6 +2680,22 @@
     ],
     "vibe": "Sarah Lawrence is the school built around the seminar table, not the lecture hall \u2014 a small progressive campus in Yonkers, NY where students design individualized courses of study with dedicated faculty, and where nonconformity has been the norm since the 1920s."
   },
+  "195720": {
+    "confidence": "researched",
+    "distinctives": [
+      "St. John Fisher was founded in 1948 as a men's college by the Basilian Fathers, with support from Bishop James E. Kearney of the Diocese of Rochester; it became independent of the Basilians in 1968 and went coeducational in 1971.",
+      "The school has hosted the Buffalo Bills' NFL training camp on its Rochester campus every summer since 2000, giving students a front-row seat to professional football during preseason.",
+      "It officially became St. John Fisher University on July 1, 2022, after 74 years as St. John Fisher College.",
+      "The school's signature student philanthropy event, the Teddi Dance for Love, has raised more than $1.8 million for families of children with cancer since its founding, and alumni include Dick's Sporting Goods CEO Edward Stack and federal judge David Larimer."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A compact Catholic university in suburban Rochester, St. John Fisher pairs a close-knit, career-focused education with an only-in-Fisher summer perk: the Buffalo Bills have trained on its campus since 2000."
+  },
   "196042": {
     "confidence": "researched",
     "distinctives": [
@@ -2598,6 +2854,22 @@
     ],
     "vibe": "The oldest college in western North Carolina, formed in 1934 by merging three financially struggling institutions during the Depression and still built around hands-on, experiential learning under its founding motto 'Labor, Learn, Live.'"
   },
+  "198516": {
+    "confidence": "researched",
+    "distinctives": [
+      "Elon was founded in 1889 as Elon College by the Christian Connection (a precursor to the United Church of Christ); it didn't become Elon University until 2001, reflecting its growth into a much larger, more research-active institution.",
+      "A devastating fire in 1923 destroyed nearly the entire original campus. The college rebuilt immediately, and Elon later adopted the Phoenix as its mascot in 2000 specifically to symbolize that rise from the ashes.",
+      "In September 2025, Elon and Queens University of Charlotte announced plans to merge; as of spring 2026 the two schools have submitted their joint accreditation request to SACSCOC (a decision was expected by June 2026), with some administrative departments integrating starting July 2026 and full merger completion projected for late 2027 or early 2028 \u2014 so prospective students should expect real, ongoing changes to the Elon experience over the next few years.",
+      "Elon has been ranked #1 in the nation for 'Best Undergraduate Teaching' by U.S. News & World Report for multiple consecutive years, a reputation built on small classes, mentoring, and one of the country's most developed study-abroad and experiential-learning programs."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Elon rose from the ashes \u2014 literally \u2014 of a 1923 campus fire to become a nationally ranked leader in undergraduate teaching, and it's now in the middle of one of the biggest moves in recent higher-ed history: merging with Queens University of Charlotte."
+  },
   "198756": {
     "confidence": "researched",
     "distinctives": [
@@ -2662,6 +2934,22 @@
     ],
     "vibe": "North Carolina's original land-grant college, founded by agricultural reformers in 1887 as an agriculture-and-mechanic-arts school and now a national leader in engineering, textiles, design, and veterinary medicine across more than 100,000 acres of statewide research land."
   },
+  "199218": {
+    "confidence": "researched",
+    "distinctives": [
+      "UNCW was founded on September 4, 1947 as Wilmington College, created specifically to serve returning World War II veterans on the GI Bill before joining the UNC System as a four-year university in 1969.",
+      "The school runs a dedicated Center for Marine Science and offers deep marine biology and oceanography research opportunities, leveraging its location just miles from the Atlantic coast and Cape Fear estuary.",
+      "UNCW is classified as an R2 'Doctoral University: High Research Activity' institution, offering 6 doctoral and 35 master's programs alongside 55 undergraduate majors across seven colleges.",
+      "Notable alumni include novelists Clyde Edgerton and Jason Mott (National Book Award winner) and actor Peter Jurasik, reflecting the school's respected creative writing program within UNCW's Department of Creative Writing."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A coastal North Carolina public university that grew from a junior college for WWII veterans into a research-active school built around its beaches, its Cape Fear River location, and a genuinely elite marine science program."
+  },
   "199412": {
     "confidence": "researched",
     "distinctives": [
@@ -2724,6 +3012,22 @@
     ],
     "vibe": "A research-intensive private university in Cleveland formed by the 1967 merger of Case Institute of Technology and Western Reserve University -- strong across engineering, medicine, and the sciences, situated in Cleveland's University Circle arts-and-culture district."
   },
+  "201654": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1887 by five men with a shared Christian vision, Cedarville nearly closed after World War II due to financial strain before the Baptist Bible Institute of Cleveland took ownership in 1953, ushering in the long presidency of Dr. James T. Jeremiah (1953-1978).",
+      "The school operated as Cedarville College for over a century before officially becoming Cedarville University in 2000 to reflect its growing graduate and professional offerings.",
+      "Every student and faculty member signs a doctrinal statement, and the Yellow Jackets mascot, adopted in 1924, celebrated its 100th anniversary in 2024.",
+      "The university's motto, 'For the Word of God and the testimony of Jesus Christ,' has anchored its mission across more than 135 years and ten university presidents."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A tight-knit evangelical Christian university in rural Ohio that rebuilt itself from near-closure in the 1950s into one of the largest Baptist universities in the country, blending conservative faith commitments with surprisingly strong engineering and pharmacy programs."
+  },
   "201964": {
     "confidence": "researched",
     "distinctives": [
@@ -2770,6 +3074,22 @@
       "applied via scheduled batch on 2026-09-18"
     ],
     "vibe": "A small, highly selective classical-music conservatory in Cleveland's University Circle, founded in 1920 by members of the city's Fortnightly Musical Club with Swiss-American composer Ernest Bloch as its first director; it admits roughly 100 of over 1,000 applicants a year and runs a dual-degree program with neighboring Case Western Reserve University."
+  },
+  "202480": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1850 by the Society of Mary (Marianists) as St. Mary's School for Boys with just 14 students, UD is one of only three Marianist universities in the United States.",
+      "During the catastrophic 1913 Great Dayton Flood, the university's hilltop campus became a refuge, sheltering roughly 800 flood victims.",
+      "UD embraced coeducation early for a Catholic institution, admitting women on an equal basis with men in the 1930s, about 40 years ahead of most Catholic universities, and its teams have been the Flyers since 1923, a nod to hometown heroes the Wright Brothers.",
+      "The University of Dayton Research Institute has conducted more than $2.5 billion in sponsored research, and in 2014 UD became the first Catholic university in the U.S. to divest its endowment from fossil fuels."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Catholic Marianist university in the birthplace of aviation, Dayton pairs a close-knit, service-driven campus culture with a research engine that has quietly powered materials science and aerospace innovation for decades."
   },
   "202514": {
     "confidence": "researched",
@@ -3226,6 +3546,22 @@
     ],
     "vibe": "A Catholic Augustinian university on Philadelphia's affluent Main Line, academically strong (especially in business and engineering) but best known nationally for a basketball program that won national championships in 2016 and 2018."
   },
+  "217165": {
+    "confidence": "researched",
+    "distinctives": [
+      "Bryant traces its lineage to 1863, when it opened in downtown Providence as Bryant and Stratton College, a branch of a national chain of business schools founded by brothers John Collins Bryant and Henry Beadman Bryant.",
+      "The school changed its name twice on the way to today's identity: it became Bryant College in 1935 and Bryant University in 2004, after moving to College Hill and then, in 1971, to its current Smithfield campus built on 428 acres donated by Tupperware inventor Earl Tupper in 1967.",
+      "The Bryant Archway, the only physical piece of the old Providence campus still standing, has become the centerpiece of graduation tradition: seniors walk back through it as newly minted alumni.",
+      "In 2022 Fidelity Investments funded a 250,000-square-foot Business Entrepreneurship Leadership Center on campus, reinforcing Bryant's identity as a business-first university where every business major must also complete a liberal arts minor."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A business-focused university on a 428-acre Smithfield, Rhode Island campus that traces its roots to an 1863 Providence business school and now blends entrepreneurial training with a mandatory dose of the liberal arts."
+  },
   "217402": {
     "confidence": "researched",
     "distinctives": [
@@ -3384,6 +3720,22 @@
     ],
     "vibe": "A private university in Henderson, TN, affiliated with the Churches of Christ, tracing its roots to an 1869 institute that closed in 1907 before N. B. Hardeman and A. G. Freed relaunched it in 1908 as a teachers' and business college in rural West Tennessee."
   },
+  "220473": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founder Ashley S. Johnson proposed the school in an 1892 sermon and opened it in 1893 as 'The School of the Evangelists,' an outgrowth of his Correspondence Bible College.",
+      "Students petitioned to rename it Johnson Bible College in 1909 after its founder; the school didn't become Johnson University until 2011, well over a century after it first opened.",
+      "The original 1893 Main Building burned down on December 1, 1904, and a replacement was dedicated the following year \u2014 an early test the young school survived.",
+      "In 1925, Emma Elizabeth Johnson, the founder's widow, took over as president, making her one of the earliest women to lead a college in the United States."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "Johnson University is a small, mission-driven Christian school on the French Broad River in rural Tennessee, built by a 19th-century preacher who wanted to train ministers by correspondence and ended up founding a campus instead."
+  },
   "221351": {
     "confidence": "researched",
     "distinctives": [
@@ -3447,6 +3799,22 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "vibe": "A Baptist university in Jackson, Tennessee, affiliated with the Tennessee Baptist Convention, whose institutional lineage traces to the 1823 Jackson Male Academy and was formally renamed Union University in 1907 after its direct predecessor, Southwestern Baptist University, opened in Jackson in 1874."
+  },
+  "222178": {
+    "confidence": "researched",
+    "distinctives": [
+      "Abilene Christian opened in 1906 as Childers Classical Institute with just 25 students, was renamed Abilene Christian College in 1920 under president Jesse P. Sewell, and did not become a full university until 1976.",
+      "Billy Curl enrolled in 1962 as the university's first Black student, formally ending its segregation policy.",
+      "ACU's biggest annual tradition is Sing Song, launched in 1956, a February competition in which student clubs perform elaborate, choreographed a cappella medleys for bragging rights.",
+      "In 2022 ACU applied for an NRC construction license to build a molten salt research reactor on campus, an unusually ambitious nuclear engineering project for a university of its size, and its alumni include 1956 Olympic sprint champion Bobby Morrow and longtime bestselling author Max Lucado."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A Churches of Christ-affiliated university in West Texas that grew from a 25-student prep school in 1906 into an R2 research institution now pursuing an experimental nuclear reactor."
   },
   "222983": {
     "confidence": "researched",
@@ -3669,6 +4037,22 @@
     ],
     "vibe": "A massive, high-powered flagship in the heart of a booming tech-and-music city -- Austin's live-music culture, Texas football Saturdays, and serious research depth (especially in computer science, business, and engineering) all feed off each other."
   },
+  "228787": {
+    "confidence": "researched",
+    "distinctives": [
+      "The university began in March 1961 as the Graduate Research Center of the Southwest, founded by three Texas Instruments executives \u2014 Eugene McDermott, J. Erik Jonsson, and Cecil Green \u2014 who worried Texas was exporting its best young scientists elsewhere; it joined the UT System in 1969 and didn't admit freshmen until 1990.",
+      "UT Dallas didn't award its first bachelor's degrees until 1976, and it only became a full four-year undergraduate university in the late 1980s, making it one of the youngest schools in the UT System to reach that status.",
+      "Its chess program, built up under longtime coach and former U.S. Chess Federation president Tim Redman, has repeatedly out-competed traditional chess powerhouses and captured the first-ever national women's collegiate chess championship in 2025.",
+      "The Eugene McDermott Scholars Program, named for one of the university's three founders, offers a highly selective full-ride scholarship that has become one of the school's signature draws for top applicants."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "UT Dallas started as a corporate side project for Texas Instruments executives who didn't want to keep losing talent to other states, and it grew into a research powerhouse that recruits its brightest students the way other schools recruit athletes \u2014 with scholarships and a genuinely elite chess team."
+  },
   "228875": {
     "confidence": "researched",
     "distinctives": [
@@ -3747,6 +4131,22 @@
       "applied via scheduled batch on 2026-09-17"
     ],
     "vibe": "A small, expensive liberal-arts college in Vermont founded in 1932 as a women's college built around progressive, student-directed education, best known for having no majors or required courses and for a mid-1990s faculty-firing controversy that nearly halved its enrollment."
+  },
+  "231174": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1791, the very same year Vermont became a state, UVM was organized by Ira Allen, brother of Revolutionary War hero Ethan Allen, who donated 50 acres of land to get the college started.",
+      "Its founding charter was notably progressive for the era, explicitly declaring that no rule or by-law would give preference to any religious sect, and UVM became the first American university to admit women (1875) and Black students (1877) into Phi Beta Kappa.",
+      "The medical program traces to 1804, when Dr. John Pomeroy began teaching medicine from his own home; the College of Medicine was formally established in 1822, making UVM's medical school one of the oldest in the nation.",
+      "Notable alumni span philosopher John Dewey, Nobel Peace Prize laureate Jody Williams, novelist Annie Proulx, and actor Ben Affleck, while the school's teams compete as the Catamounts."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "New England's public flagship in the Green Mountains, UVM has spent over two centuries pairing rigorous science and medicine with an unusually progressive founding ethos, all set against Burlington's outdoorsy, lake-and-mountain backdrop."
   },
   "231420": {
     "confidence": "researched",
