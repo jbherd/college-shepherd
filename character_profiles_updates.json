@@ -6825,5 +6825,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "144740": {
+    "profile_type": "researched",
+    "vibe": "DePaul is a big, budget-friendly Catholic university in the heart of Chicago that runs on Vincentian values of service and access rather than prestige-chasing \u2014 the kind of place where a first-generation student and a future filmmaker sit in the same lecture hall.",
+    "distinctives": [
+      "Founded in 1898 by the Congregation of the Mission (Vincentian priests) as St. Vincent's College, re-chartered as DePaul University in 1907.",
+      "Became the largest Catholic university by enrollment in North America in 1998, and still enrolls over 20,000 students across its Lincoln Park and Loop campuses.",
+      "Home to the Theatre School, the Midwest's oldest theater conservatory, and a School of Cinematic Arts ranked among the top 25 U.S. film schools by The Hollywood Reporter.",
+      "Its 1945 men's basketball team, led by star center George Mikan, won the National Invitation Tournament \u2014 still the program's only national title."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "185262": {
+    "profile_type": "researched",
+    "vibe": "Kean is a diverse, working-class public university in Union, New Jersey, that grew from a 19th-century Newark teacher-training school into a broad regional university \u2014 anchored, oddly, on the grounds of a Revolutionary War-era estate that once hosted presidents.",
+    "distinctives": [
+      "Traces its roots to April 1855, when Newark superintendent Stephen Congar founded the Newark Normal School, a Saturday teacher-training program that started with 85 students; it became Kean College in 1958 and Kean University in 1997.",
+      "Its main campus sits on the former Livingston-Kean estate, including Liberty Hall, built in 1760 by NJ's first governor William Livingston, which later hosted Presidents Washington, Grant, Taft, Hoover, Ford, and Clinton.",
+      "Home to the Michael Graves College, named for the internationally known postmodern architect and designer, who taught at Princeton and reshaped Kean's design programs.",
+      "Operates a full branch campus in Wenzhou, China (Wenzhou-Kean University), one of the few U.S. public universities with its own accredited Chinese campus."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "194310": {
+    "profile_type": "researched",
+    "vibe": "Pace started as a scrappy accounting night school run by two brothers out of a rented room in lower Manhattan and grew into a career-focused university that still trades on its Wall Street proximity and hands-on professional training.",
+    "distinctives": [
+      "Founded December 14, 1906, by brothers Homer St. Clair Pace and Charles A. Pace, who took out a $600 loan to rent a classroom in the New York Tribune Building and taught 13 students accountancy.",
+      "Renamed Pace College in 1947 and achieved university status in 1973; now spans three campuses in New York City, Pleasantville, and White Plains.",
+      "Its Elisabeth Haub School of Law has repeatedly been ranked the No. 1 environmental law program in the country by U.S. News & World Report.",
+      "Houses the Actors Studio Drama School, an MFA acting conservatory tied to the famed Actors Studio that trained figures like Marlon Brando and Al Pacino."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "152390": {
+    "profile_type": "researched",
+    "vibe": "Saint Mary's is a small Catholic women's college that sits literally across the street from Notre Dame, giving students a close-knit, faith-rooted liberal arts education plus full access to a major research university's classes, clubs, and football Saturdays.",
+    "distinctives": [
+      "Founded in 1844 by the Sisters of the Holy Cross, who arrived from Le Mans, France, in 1843 at the invitation of Notre Dame founder Fr. Edward Sorin.",
+      "The first women's college in the Great Lakes region; when Notre Dame went coed in 1972, Saint Mary's deliberately stayed a women's college after rejecting merger talks.",
+      "In 1943, Sister Madeleva Wolf established a School of Sacred Theology at Saint Mary's, the first program in the U.S. offering women graduate study in theology.",
+      "Notable alumnae include actress Catherine Hicks, longtime U.S. Congresswoman Eddie Bernice Johnson, and San Francisco 49ers owner Denise DeBartolo York."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "221847": {
+    "profile_type": "researched",
+    "vibe": "Tennessee Tech is an engineering-heavy public university in the Cumberland Plateau town of Cookeville, where hands-on STEM training and a quirky, hard-won mascot statue define a campus culture built more on grit than polish.",
+    "distinctives": [
+      "Established March 27, 1915, when the state took over the former University of Dixie campus; it opened with just 13 faculty and 19 students in its first full year (1916-17).",
+      "Grew from about 700 to 7,000 students under President Everett Derryberry (1940-1974) and became Tennessee Technological University in 1965, dropping its old name, Tennessee Polytechnic Institute.",
+      "The eagle statue atop Derryberry Hall was famously 'stolen' by students from a hotel in 1952 and later legitimately purchased for $500 after the governor got involved \u2014 origin of the Golden Eagles mascot lore.",
+      "Alumni include NASA astronauts Roger K. Crouch and Barry 'Butch' Wilmore, and former Boeing CEO Harry Stonecipher."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "107141": {
+    "profile_type": "researched",
+    "vibe": "A small evangelical Christian university in the Ozark foothills of Siloam Springs, Arkansas, that still bakes founder John E. Brown's 1919 vision of pairing rigorous academics with practical, hands-on work into campus life.",
+    "distinctives": [
+      "Founded in 1919 by Methodist evangelist John E. Brown, who required students to work four-hour days in trades like carpentry alongside their coursework.",
+      "Home to the 'Toilet Paper Game,' a decades-old tradition where fans shower the court with an estimated 2,000 rolls of toilet paper after JBU's first home basketball basket, triggering an automatic technical foul.",
+      "Won the 2005 NAIA Men's Basketball National Championship, and competes today as the Golden Eagles in the NAIA Sooner Athletic Conference.",
+      "Enrolls roughly 2,300 students on a 200-acre campus and requires a Bible-centered core curriculum under the institutional motto 'Christ Over All.'"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215691": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic liberal-arts college on Philadelphia's Main Line, founded by nuns as a women's college in 1921, that has since gone coed and is now in the process of merging into Villanova University.",
+    "distinctives": [
+      "Founded in 1921 by the Society of the Holy Child Jesus as a Catholic women's college; men were first admitted to the undergraduate program in fall 2009.",
+      "Its centerpiece building, Rathalla (the 1891 Joseph Sinnott mansion), is listed on the National Register of Historic Places and anchors the 58-acre Gothic-style campus.",
+      "The campus chapel, the Immaculate Conception Chapel, is notable for stained-glass windows that depict only women.",
+      "Announced a merger with Villanova University in March 2025, with the transition beginning in 2027 and completing by 2028 \u2014 meaning Rosemont's run as an independent college is ending."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "151111": {
+    "profile_type": "researched",
+    "vibe": "A large downtown Indianapolis research university that emerged in 2024 from the historic split of IUPUI, now standing on its own as a major urban campus anchoring Indiana University's medical, law, and health science programs.",
+    "distinctives": [
+      "Formally launched July 1, 2024, after Indiana University and Purdue University dissolved their 50-plus-year joint IUPUI campus, with IU retaining most science and health programs and Purdue taking engineering and technology.",
+      "Achieved 'R1: Very High Research Activity' Carnegie classification in February 2025, just months after becoming an independent university.",
+      "Hosts the Indiana University School of Medicine, the largest medical school in the United States, plus the state's only dental school and the IU McKinney School of Law.",
+      "Sits on a 536-acre urban campus along the White River and Fall Creek and fields 16 NCAA Division I teams in the Horizon League."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "110671": {
+    "profile_type": "researched",
+    "vibe": "A UC campus that grew out of a world-renowned citrus research station in the Inland Empire, evolving from an elite 1950s liberal-arts experiment into one of the most ethnically diverse research universities in the country.",
+    "distinctives": [
+      "Traces its roots to the UC Citrus Experiment Station, founded February 14, 1907, which built what became the world's premier citrus variety collection with around 500 species.",
+      "Opened as a UC undergraduate campus in 1954 with just 65 faculty and 131 students, prompting one observer to remark 'Never have so few been taught by so many'; it was ranked among the nation's ten best liberal arts colleges in 1956.",
+      "By 1995, roughly 30% of UCR's students were from non-Caucasian groups, the highest share in the UC system at the time \u2014 a diversity distinction the campus still carries.",
+      "Alumnus Charles E. Young went on to become UCLA's longest-serving chancellor; UCR itself added NCAA Division I athletics in 1998 after a student vote to fund the move."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "201104": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized university in rural north-central Ohio, founded by the Brethren Church in 1878, that has grown into a career-oriented campus with strong health-sciences and education programs.",
+    "distinctives": [
+      "Founded in 1878 as Ashland College by the Brethren Church, and known by that name until rebranding as Ashland University in 1989.",
+      "Operates Ashland Theological Seminary alongside its undergraduate college, offering a Doctor of Ministry and reflecting the school's continuing religious roots.",
+      "Fields the Eagles in NCAA Division II's Great Midwest Athletic Conference on a 135-acre suburban campus.",
+      "Ranked #37 among Midwest Regional Universities and #36 for Best Value Schools by U.S. News in 2025, with an 80% undergraduate population and a 13:1 student-to-faculty ratio."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "104586": {
+    "profile_type": "researched",
+    "vibe": "A desert-campus engineering school where nearly every student is chasing a cockpit, launchpad, or control tower job; the Prescott campus feels like a small, intensely technical academy built around airplanes, drones, and rockets rather than a traditional college quad.",
+    "distinctives": [
+      "Embry-Riddle traces its roots to 1925, when T. Higbee Embry and John Paul Riddle founded an aviation company in Cincinnati; the Prescott, Arizona campus opened in 1978 on the grounds of the former Prescott College, which had closed in 1974.",
+      "The Golden Eagles flight team has won 15 National Intercollegiate Flying Association national championships and captured regional titles for 39 consecutive years.",
+      "Notable alumni include commercial astronaut Jared Isaacman (2011), who commanded the Inspiration4 and Polaris Dawn missions, and NASA astronaut Terry Virts (1997), a former International Space Station commander.",
+      "The campus operates its own wind tunnels, a satellite ground station, and a composites lab, and houses a College of Security and Intelligence focused on cyber threats alongside its aeronautics programs."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "207500": {
+    "profile_type": "researched",
+    "vibe": "A big, spirited Big 12 flagship on the Oklahoma prairie where football Saturdays and 'Sooner Magic' run alongside a serious research university, all anchored by the same founding optimism David Boyd voiced in 1892: 'What possibilities!'",
+    "distinctives": [
+      "Founded in 1890, OU opened for classes in Norman in 1892 under first president David Ross Boyd, who arrived to find little more than open prairie.",
+      "Alumni include Apollo 13 astronaut Fred Haise (1959), longtime Speaker of the U.S. House Carl Albert, and Heisman Trophy winners Baker Mayfield and Sam Bradford.",
+      "The 'Sooner Magic' tradition, popularized by coach Barry Switzer in the 1970s-80s for last-second football comebacks, has become campus shorthand for resilience across athletics and academics alike.",
+      "Campus lore holds that walking under the Clock Tower near Bizzell Memorial Library dooms a student to miss graduating in four years, so students detour around it instead."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "100751": {
+    "profile_type": "researched",
+    "vibe": "A massive Deep South flagship where SEC football pageantry, Greek life, and Crimson Tide tradition sit atop a campus that has also been a site of real historical reckoning, from 1956's first Black enrollee to the 1963 'Stand in the Schoolhouse Door.'",
+    "distinctives": [
+      "Chartered in 1820 as the University of the State of Alabama, it opened to its first 52 students in 1831 under founding president Alva Woods.",
+      "Autherine Lucy became the university's first Black student in 1956, and in 1963 Vivian Malone and James Hood enrolled despite Governor George Wallace's 'stand in the schoolhouse door.'",
+      "Alabama won its first national football championship after a Rose Bowl victory in 1926, launching a program that has since produced NFL Hall of Famers Joe Namath and Bart Starr.",
+      "Other notable alumni include Habitat for Humanity founder Millard Fuller, Wikipedia founder Jimmy Wales, and biologist E.O. Wilson; the university achieved the Carnegie R1 'very high research activity' designation in 2019."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199607": {
+    "profile_type": "researched",
+    "vibe": "The oldest women's college in the country, tucked into the Moravian Old Salem historic district of Winston-Salem, where small classes and a 250-year continuous history give students a sense of belonging to something far older than most American colleges.",
+    "distinctives": [
+      "Founded in 1772 by the Moravian community's Single Sisters as a girls' school, making it the oldest institution of higher education for women in the United States; the college celebrated its 250th anniversary in 2021-2022.",
+      "By 1802 it was the only school in North Carolina offering girls education beyond primary grades, and in 1890 it awarded its first baccalaureate degrees, to seven women.",
+      "Sarah Childress Polk, who enrolled in 1817, later became First Lady and is noted as the first wife of a U.S. president to have a formal education; Cherokee students Martha and Mary McNair enrolled in 1823, among 13 Cherokee students who attended during the 19th century.",
+      "Alma Hines Boyd became the college's first African American graduate in 1972, the same year swimmer Jane Barkman, a Salem student, won Olympic gold."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "143358": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized private university in downstate Illinois built by one widow's fortune and grief, now known for hands-on programs like its pioneering entrepreneurship school and a scrappy, practical, business-and-engineering-minded campus culture.",
+    "distinctives": [
+      "Founded in 1897 by philanthropist Lydia Moss Bradley as Bradley Polytechnic Institute, in memory of her late husband Tobias and their six children who had all died; it was renamed Bradley University in 1946.",
+      "Bradley's Turner School of Entrepreneurship was among the first freestanding schools of entrepreneurship in the country, and its sales team became the first-ever back-to-back national champion at the National Collegiate Sales Competition in 2022.",
+      "The men's basketball team reached the NCAA Final Four twice, in 1950 and 1954, and the baseball team advanced to the College World Series in 1950 and 1956, even though Bradley dropped football entirely in 1970.",
+      "The campus absorbed the Parsons Horological School, America's first watchmaking school, into its curriculum, and today hosts the Charley Steiner School of Sports Communication, the first school in the U.S. named for sports communication."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "163295": {
+    "profile_type": "researched",
+    "vibe": "A studio-intensive art and design college in the heart of Baltimore where students live in the work, not just study it, and where a former B&O railroad station now houses printmaking and painting studios instead of trains.",
+    "distinctives": [
+      "Founded in 1826 as the Maryland Institute for the Promotion of the Mechanic Arts, making it one of the oldest continuously operating art colleges in the United States.",
+      "President Abraham Lincoln delivered his 'Baltimore Address' at the school's Great Hall in 1864, and the campus hosted the 1852 national political conventions that nominated Winfield Scott and Franklin Pierce.",
+      "In 1964 MICA purchased and converted the historic Mount Royal Station, a former B&O Railroad depot, into studio and gallery space that still anchors campus today.",
+      "Notable alumni span pop art to pop music: sculptor Jeff Koons (BFA 1976), painter Amy Sherald (MFA 2004, painter of Michelle Obama's official portrait), and Talking Heads' David Byrne, who attended in the early 1970s."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215743": {
+    "profile_type": "researched",
+    "vibe": "A small Franciscan Catholic university tucked into 600 rural acres of the Allegheny foothills, where the friars' emphasis on close mentorship shows up in a physician assistant and physical therapy program that draws students well beyond Pennsylvania.",
+    "distinctives": [
+      "Founded in 1847 by six Franciscan Friars from Ireland, it is recognized as the first Franciscan institution of higher learning established in the United States.",
+      "The surrounding area was the site of the first English-speaking Roman Catholic settlement west of the Allegheny Front, dating to 1799, giving the region a Catholic history predating the university itself.",
+      "The campus includes the historic Immergr\u00fcn Golf Course, designed in 1917 by famed golf architect Donald Ross for steel magnate Charles M. Schwab.",
+      "It moved from academy to college status in the 1860s and did not become 'Saint Francis University' until achieving full university status in 2001; the school is also transitioning its athletics to NCAA Division III as the Red Wolves starting in 2026-27."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "152318": {
+    "profile_type": "researched",
+    "vibe": "A famously rigorous, all-engineering campus in Terre Haute, Indiana where a demanding calculus-and-physics gauntlet is a rite of passage and graduates consistently rank among the highest-paid and best-prepared engineers in the country.",
+    "distinctives": [
+      "Founded in 1874 by Terre Haute businessman and philanthropist Chauncey Rose, originally chartered as the Terre Haute School of Industrial Science before being renamed Rose Polytechnic Institute over his objections; instruction began in 1883 with a class of 25 students.",
+      "Renamed Rose-Hulman in 1971 after a major gift from the Hulman family (of Indianapolis Motor Speedway fame), whose 1917 donation of a 123-acre farm had already given the school room to grow into its current campus by 1922.",
+      "The school did not go coeducational until 1995, after roughly a decade of deliberation.",
+      "U.S. News has ranked Rose-Hulman the #1 undergraduate engineering college among schools without a doctoral program for over 25 consecutive years."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "200280": {
+    "profile_type": "researched",
+    "vibe": "A Great Plains flagship in Grand Forks whose identity is split between deep-rooted hockey obsession and a world-class aerospace program that trains a disproportionate share of the country's commercial pilots and drone operators.",
+    "distinctives": [
+      "Chartered in 1883 by the Dakota Territorial Assembly, six years before North Dakota achieved statehood, with first classes held on September 8, 1884.",
+      "Houses the John D. Odegard School of Aerospace Sciences, the first program in the country to offer a degree in unmanned aircraft systems operation, alongside the state's only law and medical schools.",
+      "Alumni include NBA coach Phil Jackson, NHL stars Jonathan Toews and Zach Parise, 1980 'Miracle on Ice' player Dave Christian, NASA astronaut Karen Nyberg, and Arctic explorer Vilhjalmur Stefansson.",
+      "Generates an estimated $1.4 billion in annual economic impact for North Dakota, run from a 521-acre campus with 240 buildings."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "236595": {
+    "profile_type": "researched",
+    "vibe": "A Jesuit university perched on Seattle's First Hill ('Pill Hill') that pairs Catholic social-justice tradition with tight ties to the city's tech, health, and law industries just blocks from downtown.",
+    "distinctives": [
+      "Traces its founding to September 27, 1891, when Jesuit priests Victor Garrand and Adrian Sweere dedicated the School of the Immaculate Conception, initially teaching 191 boys.",
+      "Reincorporated as Seattle College in 1898, awarded its first three bachelor's degrees in 1909, and didn't take its current name, Seattle University, until 1948, the same year it became fully coeducational.",
+      "The original First Hill building, Garrand Hall, was dedicated December 8, 1894, and the university returned permanently to that campus in 1931 after a brief relocation.",
+      "As a Jesuit, Catholic institution it emphasizes 'cura personalis' (care for the whole person) and social-justice-oriented service learning across its undergraduate core curriculum."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "233541": {
+    "profile_type": "researched",
+    "vibe": "Shenandoah University grew from a tiny 1875 school of eleven young men in the Shenandoah Valley into a health-sciences and performing-arts powerhouse, blending pre-professional rigor (nursing, pharmacy, PA studies) with a genuinely global, travel-abroad ethos baked into the first-year experience.",
+    "distinctives": [
+      "Founded in 1875 in Dayton, Virginia by Rev. A.P. Funkhouser as a school for eleven young men; became Shenandoah Seminary in 1877 under the United Brethren in Christ church and moved to its current Winchester, VA campus in 1960.",
+      "Music has anchored the institution since 1887, when James H. Ruebush joined the faculty, and today the Shenandoah Conservatory is a nationally recognized program for music, theatre, and dance.",
+      "The university's Global Citizenship Project sends every student abroad during spring break with travel costs covered by the school, paired with a 'Going Global' first-year seminar on cross-cultural engagement.",
+      "Shenandoah Summer Music Theatre, founded in 1984, is the only professional musical theatre company operating in the Shenandoah Valley."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190983": {
+    "profile_type": "researched",
+    "vibe": "Elmira College made history in 1855 as the first college to offer women an education equal in academic rigor to elite men's colleges, and it still carries that pioneering, close-knit identity as a small, Phi Beta Kappa liberal arts school forever linked to its most famous literary in-law, Mark Twain.",
+    "distinctives": [
+      "Founded in 1855, Elmira was the first women's college in the U.S. to offer a curriculum matching the rigor of top men's colleges, distinguishing it from the 'female seminaries' of the era; the college went fully coeducational in 1969.",
+      "Mark Twain's wife, Olivia Langdon Clemens, was an Elmira native who graduated in 1864, and Twain wrote much of 'The Adventures of Tom Sawyer' and 'The Adventures of Huckleberry Finn' in an octagonal study built for him on the family's nearby farm, now relocated to Elmira's campus and recognized as one of the nation's top literary landmarks.",
+      "Elmira's teams are nicknamed the 'Soaring Eagles,' a name adopted in the 1970s honoring the surrounding Chemung Valley's reputation as the 'Soaring Capital of America' for gliding and sailplane flight.",
+      "The college maintains a set of century-old campus traditions, including Mountain Day (started in 1918), the Holiday Banquet, and Candlelight ceremonies marking students' entry and graduation."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "207458": {
+    "profile_type": "researched",
+    "vibe": "Oklahoma City University is best known for punching far above its weight in music theatre and performing arts, producing a steady pipeline of Broadway talent out of a mid-sized Methodist-affiliated university that also runs an ABA-accredited law school in a converted historic high school downtown.",
+    "distinctives": [
+      "Founded in 1904 as Epworth University on land donated by developer Anton H. Classen, three years before Oklahoma statehood; the school closed in 1911, was revived by the Methodist Church as Methodist University of Oklahoma, relocated to Oklahoma City in 1919, and took its current name in 1924.",
+      "Its Ann Lacy School of American Dance and Entertainment and Wanda L. Bass School of Music (built around the $38 million Bass Music Center) have made OCU one of the country's top producers of working Broadway performers relative to its size.",
+      "Tony winner Kristin Chenoweth is OCU's most famous alumna, later returning as an artist-in-residence and namesake of the university's Kristin Chenoweth Theatre.",
+      "OCU's School of Law relocated in 2012 into the restored, historic Central High School building in downtown Oklahoma City, and its alumni include David Holt, the 38th and first Native American mayor of Oklahoma City."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "125727": {
+    "profile_type": "researched",
+    "vibe": "Westmont is a small evangelical Christian liberal arts college perched on the former Dwight Murphy estate above Santa Barbara, pairing a Mediterranean-villa campus with a serious academic reputation that has produced Hollywood writers, tech founders, and missionaries alike.",
+    "distinctives": [
+      "Founded in 1937 by Ruth Kerr as the Bible Missionary Institute in Los Angeles; renamed Westmont College in 1940 and relocated in 1945 to a 125-acre former private estate in Santa Barbara with Mediterranean-style architecture.",
+      "The college gained regional accreditation in 1958 and expanded with nine major new buildings through the 1960s as it grew into a recognized national liberal arts institution.",
+      "Alumnus Ron Shelton ('67) became an Oscar-nominated screenwriter and director of 'Bull Durham,' 'Tin Cup,' and 'White Men Can't Jump.'",
+      "Chemistry professor and alumnus Niva Tro ('85) wrote chemistry textbooks used at more than 600 colleges, reaching roughly a third of all U.S. college chemistry students."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "210401": {
+    "profile_type": "researched",
+    "vibe": "Willamette University is the oldest university in the American West, tracing its roots to an 1834 Methodist mission school in Oregon Territory, and it has grown into a politically engaged liberal arts school in the state capital whose law school has sent graduates straight to the U.S. Senate and the governor's mansion.",
+    "distinctives": [
+      "Traces its origins to 1834, when missionary Jason Lee founded a mission school in Oregon Territory; the school was formally reorganized as the Oregon Institute in 1842 and later became Willamette University, making it the oldest university in the western United States.",
+      "Waller Hall, built in the 19th century, is the oldest university building still in use west of the Mississippi River.",
+      "Willamette opened the Pacific Northwest's first law school in 1883 and first medical school in 1866, and was one of the earliest coeducational colleges in the country, graduating its first woman, Emily J. York, in 1859.",
+      "Law school alumni include U.S. Senator Lisa Murkowski (JD '85) and Washington Governor Jay Inslee (JD '76); other alumni include Olympic runner Nick Symmonds ('06) and Elizabeth Heaston ('99), the first woman to play in a college football game."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
