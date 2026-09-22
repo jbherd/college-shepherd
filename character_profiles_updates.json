@@ -8025,5 +8025,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "181002": {
+    "profile_type": "researched",
+    "vibe": "A Jesuit, Catholic university in Omaha built on a rigorous health-sciences and pre-health reputation, where a small-college feel (roughly 9,000 students) coexists with a full academic health center spanning medicine, pharmacy, dentistry, nursing, and law.",
+    "distinctives": [
+      "Founded September 2, 1878, funded by a bequest from Mary Lucretia Creighton in memory of her husband, Omaha businessman Edward Creighton; opened with just 120 students taught by five Jesuits and two lay instructors.",
+      "Originally chartered as Creighton College and elevated to university status in 1879; women were first admitted in 1913, decades before many Jesuit peers coeducated.",
+      "Operates one of the few Jesuit university campuses with its own academic health sciences complex, and opened a second full campus, the Creighton University Health Sciences Campus-Phoenix, in 2021.",
+      "Fields nationally competitive Division I athletics in the Big East Conference despite its modest undergraduate size, with a men's basketball program that has made repeated NCAA Tournament appearances."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "181446": {
+    "profile_type": "researched",
+    "vibe": "A small, historically Methodist-affiliated liberal arts university in Lincoln, Nebraska, that pairs a hands-on 'Learning in Action' philosophy with an unusually engaged, close-knit campus culture just blocks from the state capitol.",
+    "distinctives": [
+      "Founded in 1887 by the Methodist Episcopal Church, opening that fall with 96 students on land in what was then the outskirts of Lincoln.",
+      "The sunflower became NWU's official emblem in 1894, and school colors of yellow and brown derive from it; the athletic mascot has changed multiple times over the university's history, from the Coyotes (1907) to the Plainsmen (1933) to today's Prairie Wolves (adopted in 2000).",
+      "Adopted a formal Student Bill of Rights in 1971, an early and notable expansion of student governance authority on a Midwestern campus.",
+      "Runs its curriculum around the 'Archway Curriculum,' explicitly built to combine liberal-arts breadth with experiential, career-connected learning rather than a traditional distribution-requirement model."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "239628": {
+    "profile_type": "researched",
+    "vibe": "A tiny liberal arts college (under 1,000 students) in a small Wisconsin town that punches far above its size in historical significance, best known as the birthplace of the Republican Party and for an outsized list of notable alumni relative to its enrollment.",
+    "distinctives": [
+      "The college traces to an 1851 charter as Brockway College, reorganized and renamed Ripon College in the early 1860s, with civic founder David P. Mapes central to its establishment in the town of Ripon.",
+      "On March 20, 1854, roughly 30 opponents of the Kansas-Nebraska Act met at the 'Little White Schoolhouse' in Ripon to call for a new political party opposing the expansion of slavery \u2014 an event widely cited as the founding meeting of the Republican Party, just steps from where the college would grow.",
+      "Actor Spencer Tracy attended Ripon College in the early 1920s before leaving for a career in film, one of the school's most famous alumni.",
+      "Maintains an unusually small student-to-faculty ratio characteristic of its size, with an academic model built around close mentorship rather than large lecture courses."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153162": {
+    "profile_type": "researched",
+    "vibe": "A small Iowa liberal arts college known nationally for the 'One Course At a Time' Block Plan, where students immerse in a single class for 3.5 weeks before moving to the next \u2014 a distinctive academic rhythm unlike almost any other American college.",
+    "distinctives": [
+      "Founded in 1853 as the Iowa Conference Seminary under Methodist auspices, later renamed Cornell College (unrelated to Cornell University in Ithaca, a distinction the college addresses directly on its own website).",
+      "Adopted the One Course At a Time Block Plan in 1978, dividing the academic calendar into intensive blocks (originally nine per year, reduced to eight starting fall 2012) so students focus on one subject at a time.",
+      "Mary Fellows became Iowa's first female recipient of a baccalaureate degree at Cornell in 1858, and in 1871 Harriette J. Cooke became the first woman in the United States to hold a full professorship at equal salary to male colleagues.",
+      "Its football rivalry with Coe College, dating to 1891, is billed as the oldest intercollegiate football rivalry west of the Mississippi River; alumnus Lee A. DuBridge (class of 1922) went on to lead Caltech and serve as science advisor to President Nixon."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228769": {
+    "profile_type": "researched",
+    "vibe": "A large, fast-growing public research university in the heart of the Dallas-Fort Worth Metroplex, known for engineering, nursing, and a commuter-to-residential campus transformation that has made it one of the most diverse research universities in the country.",
+    "distinctives": [
+      "Traces its roots to Arlington College, a private school founded in September 1895 by Lee M. Hammond and William M. Trimble to fill a gap left by underfunded local public schools; the campus later hosted a succession of military academies before evolving into a college.",
+      "Became part of the University of Texas System in 1965, taking the name The University of Texas at Arlington and shifting its focus toward engineering, science, and graduate research.",
+      "Grew from its military-school and junior-college roots into one of Texas's largest universities, now enrolling tens of thousands of students and routinely ranked among the most ethnically diverse national research universities in the U.S.",
+      "Home to a Carnegie R1 ('very high research activity') designation, with particular research strength in bioengineering, robotics, and sustainable urban infrastructure tied to its location in a major metropolitan region."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "182634": {
+    "profile_type": "researched",
+    "vibe": "A small, intimate campus in the New Hampshire hills built on hands-on learning, where every student completes a required internship and the equestrian team once rode to a national title.",
+    "distinctives": [
+      "Chartered in 1837 as the New London Academy, it operated as a coeducational secondary school, then a women's junior college starting 1928, before becoming a four-year college and returning to full coeducation in 1990.",
+      "Renamed Colby-Sawyer College to honor longtime president H. Leslie Sawyer amid a 1920s naming dispute with Colby College in Maine.",
+      "Runs the Windy Hill School, a child-study lab school established in 1976 that gives education students real classroom experience.",
+      "The equestrian team won the IHSA national hunt-seat team championship in 1989; alumni include children's author/illustrator Tomie dePaola and actor Nate Corddry."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "211088": {
+    "profile_type": "researched",
+    "vibe": "A Philadelphia-suburb university built around a landmark stone castle, best known nationally for pioneering study-abroad education long before it became standard on college campuses.",
+    "distinctives": [
+      "Founded in 1853 as Beaver Female Seminary by two students, Sylvania Jones and Juliet A. Poundstone; it became Beaver College in 1907 and was renamed Arcadia University in 2001.",
+      "Its campus centerpiece, Grey Towers Castle, is a National Historic Landmark and one of the most recognizable college buildings on the East Coast.",
+      "Home to the College of Global Studies, established as the first college within a U.S. university dedicated entirely to international education, and its long-running Center for Education Abroad.",
+      "Notable alumni include actress and playwright Anna Deavere Smith and 2015 World Series of Poker Main Event runner-up Joe McKeehen."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190655": {
+    "profile_type": "researched",
+    "vibe": "A hands-on, career-focused CUNY campus in Downtown Brooklyn that trains tens of thousands of students each year in technical and applied fields, from engineering technology to entertainment tech and culinary arts.",
+    "distinctives": [
+      "Established in 1946 as the New York State Institute of Applied Arts and Sciences to train returning World War II veterans; it has grown from 246 students to over 30,000 degree and non-degree students today.",
+      "Offers 58 baccalaureate and associate degree programs spanning engineering technology, architecture, nursing, dental hygiene, and hospitality/culinary arts.",
+      "Spread across seven buildings in Downtown Brooklyn's MetroTech and Tech Triangle/DUMBO area, making it one of the most urban, industry-adjacent CUNY campuses.",
+      "Alumni include NYC Mayor Eric Adams and Benihana founder Hiroaki 'Rocky' Aoki; Pulitzer Prize-winning author Frank McCourt also taught there."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "154101": {
+    "profile_type": "researched",
+    "vibe": "A close-knit, Reformed Church-affiliated Christian college on the Iowa prairie that pairs a strong liberal arts core with an outsized athletic tradition and distinctive semester-abroad programs in Oman and Romania.",
+    "distinctives": [
+      "Founded in 1882 by Dutch immigrants and local businessman Henry Hospers as Northwestern Classical Academy in Orange City, Iowa; it became a four-year college in 1961.",
+      "Affiliated with the Reformed Church in America, describing itself as 'Reformed, evangelical and ecumenical' in its Christian identity.",
+      "Has won 15 national athletic championships (10 team, 5 individual) and offers unusual study-abroad options including an Oman Semester and a Romania Semester.",
+      "Notable alumni include Tony Award-nominated actress Cora Vander Broek and longtime pacifist/civil rights activist A.J. Muste; historic Zwemer Hall (1894) is listed on the National Register of Historic Places."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216339": {
+    "profile_type": "researched",
+    "vibe": "A big, cherry-and-white urban research university in North Philadelphia that grew out of one minister's free night classes for working-class students into a 30,000-student powerhouse with a global campus network.",
+    "distinctives": [
+      "Founded in 1884 by Russell Conwell, a Baptist minister who began tutoring a single aspiring student, Charles Davies, in the basement of the Baptist Temple; the school grew from 7 students to 40 within three terms and was chartered in 1888.",
+      "Merged with Philadelphia Dental College in 1906 and formally became Temple University in 1907; Conwell served as its president for 38 years until his death in 1925.",
+      "The owl mascot dates to the university's founding as a night school (symbolizing wisdom), with costumed mascot 'Hooter T. Owl' introduced in 1977 and live great horned owl 'Stella' serving since 2011.",
+      "Maintains satellite campuses in Rome, Tokyo, and Kyoto alongside its 115-acre main Philadelphia campus; alumni include Bill Cosby, Bob Saget, Daryl Hall & John Oates, and Tamron Hall."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216667": {
+    "profile_type": "researched",
+    "vibe": "A small, historic liberal-arts college in western Pennsylvania that traces its roots to two 18th-century academies and has long punched above its weight in pre-law and pre-med placement, all wrapped in a campus culture steeped in fraternity history.",
+    "distinctives": [
+      "Formed in 1865 by the merger of Washington College (chartered 1806, tracing to a 1787 academy) and Jefferson College (chartered 1794, tracing to Canonsburg Academy founded 1781), making it one of the oldest colleges in the United States.",
+      "Phi Gamma Delta (FIJI) fraternity was founded on the Jefferson College campus in Canonsburg, PA on May 1, 1848, giving W&J a claim as birthplace of a major national Greek organization.",
+      "The W&J football team went undefeated in 1921 and played the University of California to a scoreless 0-0 tie in the 1922 Rose Bowl, still remembered as one of the great underdog stories in college football history.",
+      "The school's teams are nicknamed the Presidents, a nod to both namesakes George Washington and Thomas Jefferson."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "168546": {
+    "profile_type": "researched",
+    "vibe": "A Methodist-rooted liberal arts college in small-town Michigan that blends a classic residential campus experience with a distinctive, hands-on public policy institute named for a U.S. president.",
+    "distinctives": [
+      "Founded in 1835 (originally as the Wesleyan Seminary), Albion is one of Michigan's oldest colleges and has been affiliated with the United Methodist Church since its founding.",
+      "Albion is a founding member of the Michigan Intercollegiate Athletic Association (MIAA), organized in 1888 and recognized as the oldest college athletic conference in the United States.",
+      "The Gerald R. Ford Institute for Leadership in Public Policy and Service, established in 1988, is one of only a handful of undergraduate institutes of its kind nationally, giving students direct access to a structured leadership-studies curriculum, internships, and policy simulations.",
+      "The college sits on the banks of the Kalamazoo River in Albion, Michigan, and its athletic teams compete as the Britons."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "133711": {
+    "profile_type": "researched",
+    "vibe": "A college housed inside a Gilded Age architectural landmark in the oldest city in America, giving students a daily backdrop of Tiffany glass and Spanish Renaissance grandeur unlike any other campus in the country.",
+    "distinctives": [
+      "Founded in 1968, Flagler College's main building is the former Hotel Ponce de Leon, built in 1888 by railroad and oil magnate Henry Flagler and designed by architects Carr\u00e8re and Hastings.",
+      "The Hotel Ponce de Leon was among the first major buildings in the U.S. constructed of poured concrete and features an extensive collection of Louis Comfort Tiffany stained-glass windows, one of the largest collections of its kind housed in a single building.",
+      "The college is located in St. Augustine, Florida, the oldest continuously occupied European-founded settlement in the continental United States (founded 1565).",
+      "The Hotel Ponce de Leon building was designated a National Historic Landmark, and the campus's Flagler Room and rotunda remain popular tour and event spaces beyond academics."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "125763": {
+    "profile_type": "researched",
+    "vibe": "A small Quaker-founded liberal arts college in Southern California best known as the undergraduate home of a future U.S. president, now known for tight-knit classes and a strong pre-professional bent within a traditional liberal arts core.",
+    "distinctives": [
+      "Founded in 1887 by Quaker settlers and named for abolitionist poet John Greenleaf Whittier, the college sits in the city of Whittier, California, which was also named for the poet.",
+      "Richard Nixon, the 37th President of the United States, graduated from Whittier College in 1934, where he played on the football team and was active in student government; the campus later opened the Nixon-era Ruth B. Shannon Center for the Performing Arts.",
+      "Whittier's athletic teams are nicknamed the Poets, a direct reference to the college's namesake.",
+      "The college has long emphasized a low student-to-faculty ratio and a required first-year writing seminar model built around small discussion sections rather than large lectures."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "167260": {
+    "profile_type": "researched",
+    "vibe": "A career-focused business college in rural central Massachusetts that has evolved from a 19th-century academy into a school almost entirely oriented around business, finance, and applied career outcomes.",
+    "distinctives": [
+      "Nichols College traces its founding to 1815, when it was established as Nichols Academy in Dudley, Massachusetts, before evolving into a junior college in the 1930s and later a four-year business-focused institution.",
+      "The college's athletic teams are nicknamed the Bison, and Nichols fields a full slate of NCAA Division III programs despite its small size.",
+      "Nichols has built its academic identity almost entirely around business administration, sport management, and applied finance/accounting programs rather than a broad liberal-arts curriculum, a comparatively narrow focus among small New England colleges.",
+      "The campus centers on the historic Fisher Hall and Davis Hall buildings, remnants of the original 19th-century academy grounds, blended with more recent business-school facilities."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "143118": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused Midwestern university outside Chicago that grew out of a 19th-century seminary tradition into a hands-on, Division III campus known for its education and social-work programs.",
+    "distinctives": [
+      "Traces its roots to 1893, when it was founded in Mendota, Illinois, before relocating to Aurora and taking the Aurora College name in 1912; it became Aurora University in 1985.",
+      "Merged with Chicago's George Williams College of Aurora University in 1992, bringing a century-old YMCA-affiliated recreation, therapeutic recreation, and social work tradition onto the campus.",
+      "Home to the Schingoethe Center, a campus museum built around a donated collection of Native American art and artifacts that supports coursework and public exhibitions.",
+      "Competes as the Spartans in NCAA Division III athletics within the Northern Athletics Collegiate Conference, with no athletic scholarships offered."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "203368": {
+    "profile_type": "researched",
+    "vibe": "A Jesuit Catholic liberal-arts university on Cleveland's east side that pairs a close-knit, values-driven campus culture with a strong record of sending graduates into business, law, and public life.",
+    "distinctives": [
+      "Founded in 1886 as St. Ignatius College in downtown Cleveland by Jesuit priests; the school moved to its current University Heights campus in 1935 and was renamed John Carroll University in 1923 after the first Catholic bishop in the United States.",
+      "Alumni include longtime NBC 'Meet the Press' moderator Tim Russert (class of 1972) and Pro Football Hall of Fame coach Don Shula, who played fullback and defensive back for the Blue Streaks in the late 1940s.",
+      "Its Boler College of Business is one of a small number of Jesuit business schools with AACSB accreditation, and the university has held a Phi Beta Kappa chapter since 1971.",
+      "Athletic teams are the Blue Streaks, competing in NCAA Division III as a longtime member of the Ohio Athletic Conference with a football rivalry against Baldwin Wallace dating back decades."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "487524": {
+    "profile_type": "researched",
+    "vibe": "A practical, career-oriented private university in Bangor, Maine, that has evolved from a 19th-century business college into a multi-program institution known for nursing, pharmacy, and its own on-campus broadcasting school.",
+    "distinctives": [
+      "Founded in 1898 as Bangor Business College by Hiram Husson, reflecting its origins as a commercial and vocational training school before growing into a full university.",
+      "Houses the New England School of Communications (NESCom), a distinctive campus unit that gives students access to on-site recording studios, radio, and TV production facilities as part of their degree.",
+      "Operates the School of Pharmacy, one of the few pharmacy programs in Maine, alongside a College of Health and Pharmacy with strong nursing and occupational therapy offerings.",
+      "Athletic teams compete as the Eagles in NCAA Division III as members of the North Atlantic Conference."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "201441": {
+    "profile_type": "researched",
+    "vibe": "A large public research university in northwest Ohio with a spirited, tradition-heavy campus culture built around a nationally competitive hockey program and a strong reputation in journalism and business.",
+    "distinctives": [
+      "Established in 1910 as Bowling Green State Normal College to train teachers, and elevated to full university status in 1935 as Bowling Green State University.",
+      "Its NCAA Division I men's ice hockey program, the Falcons, won the 1984 national championship in a four-overtime title game against Minnesota-Duluth, still one of the longest championship games in NCAA hockey history.",
+      "Home to one of the country's oldest and most respected undergraduate popular culture studies programs, reflecting a journalism and media tradition that has produced numerous broadcasting alumni.",
+      "The 'Falcon Flame' and the bronze Freddie and Frieda Falcon statues are enduring campus landmarks tied to student traditions around football and hockey games."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216366": {
+    "profile_type": "researched",
+    "vibe": "A health-sciences-driven urban university in center city Philadelphia, built around one of the nation's oldest medical schools and reshaped in the 2010s by a major merger into a broader design, health, and sciences institution.",
+    "distinctives": [
+      "Traces its origins to Jefferson Medical College, founded in 1824 by Dr. George McClellan, making it one of the oldest medical schools in the United States.",
+      "Merged with Philadelphia University in 2017, combining Jefferson's medical and health-sciences strength with Philadelphia University's design, textile, and architecture programs under the single Thomas Jefferson University name.",
+      "Jefferson surgeons performed the first hand transplant in the United States in 1999 at Thomas Jefferson University Hospital, a milestone in the school's clinical research history.",
+      "The Sidney Kimmel Medical College, named for the Jones Apparel Group founder after a major 2014 naming gift, is the university's flagship medical school."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "194091": {
+    "profile_type": "researched",
+    "vibe": "A career-focused private university built around engineering, architecture, and health sciences, with a global footprint stretching from Long Island to Jordan and Vancouver.",
+    "distinctives": [
+      "Founded in 1955 in Manhattan by Alexander Schure as a junior college focused on technical and professional training, moving to its Old Westbury, NY campus in the 1960s.",
+      "Home to the New York Institute of Technology College of Osteopathic Medicine (NYITCOM), founded in 1977 as one of the first osteopathic medical schools in New York State.",
+      "In the 1970s-80s, NYIT's Computer Graphics Lab was a pioneering center for early 3D computer animation research, with several of its researchers later joining Lucasfilm's computer division, which became Pixar.",
+      "Maintains full-fledged branch campuses in Vancouver, Canada and Amman, Jordan, alongside its two New York campuses in Old Westbury and Manhattan."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "213987": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university in Erie, Pennsylvania that punches above its weight in forensic science, applied intelligence, and Division I ice hockey.",
+    "distinctives": [
+      "Founded in 1926 by the Sisters of Mercy as a college for women; it became coeducational in 1969.",
+      "Runs one of the few undergraduate Intelligence Studies programs in the country, training students for careers with agencies like the FBI and CIA, alongside a well-regarded Anthropology/Archaeology program with its own field school.",
+      "Fields a Division I men's ice hockey program (Atlantic Hockey) that has sent numerous players on to pro and NHL organizations.",
+      "Operates the Mercyhurst Institute for Arts and Culture and a d'Angelo School of Music, giving a liberal-arts core to a campus otherwise known for pre-professional programs."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "221740": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university perched on Chattanooga's Lookout Mountain foothills, blending a metro-college feel with strong engineering and health programs.",
+    "distinctives": [
+      "Traces its roots to Chattanooga University, founded in 1886, and became part of the University of Tennessee system in 1969 as UT Chattanooga.",
+      "The Mocs mascot and nickname reference Moccasin Bend, the horseshoe bend of the Tennessee River that wraps around the city.",
+      "Home to the SimCenter, a graduate program in computational engineering that has produced modeling and simulation research used by NASA and the Department of Defense.",
+      "Its campus sits at the base of Lookout Mountain in downtown Chattanooga, giving students direct access to the city's outdoor recreation scene, including rock climbing and whitewater on the Tennessee River."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "172644": {
+    "profile_type": "researched",
+    "vibe": "A large public research university embedded in the heart of Detroit's Midtown cultural district, known for urban health, law, and medical research.",
+    "distinctives": [
+      "Traces its origins to the Detroit Medical College, founded in 1868; the name 'Wayne State' (after Revolutionary War general Anthony Wayne, for whom Wayne County is named) was formally adopted in 1956.",
+      "Its Midtown Detroit campus sits directly alongside the Detroit Institute of Arts, Detroit Public Library main branch, and the city's Cultural Center, giving students walkable access to major museums.",
+      "The Wayne State University School of Medicine is one of the largest single-campus medical schools in the United States by enrollment.",
+      "Actress and comedian Lily Tomlin and playwright/actor David Alan Grier both attended Wayne State before launching their entertainment careers."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "166391": {
+    "profile_type": "researched",
+    "vibe": "A small private university outside Boston built around 'connected learning' \u2014 pairing every major with hands-on internships and career experience from day one.",
+    "distinctives": [
+      "Founded in 1851 as Auburndale Female Seminary in Newton, Massachusetts, making it one of the oldest women's colleges in the country before it went fully coeducational in 1998.",
+      "Pioneered a required 'Connected Learning' curriculum that embeds internships, community-engaged projects, and career-competency assessment into every undergraduate major.",
+      "Its campus includes the Lasell Village, a continuing-care retirement community built directly on campus that intentionally pairs older residents with students for intergenerational learning and research.",
+      "Historically known for pioneering programs in early childhood education and fashion/retail merchandising dating back to the early 20th century, reflecting its roots as a women's professional-training seminary."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
