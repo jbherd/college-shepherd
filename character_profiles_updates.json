@@ -7625,5 +7625,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "145691": {
+    "profile_type": "researched",
+    "vibe": "A small, historic liberal arts college on the Illinois prairie whose 19th-century abolitionist roots and intimate literary-society culture still shape a campus built around close mentorship and moral seriousness.",
+    "distinctives": [
+      "Founded in 1829 by the 'Illinois Band,' a group of Yale Divinity School students who traveled west to establish the college; it awarded Illinois's first college degree in 1835.",
+      "Beecher Hall, built in 1829 and named for founding president Edward Beecher, is the oldest college building still standing in Illinois and is believed to have served as an Underground Railroad stop.",
+      "William Jennings Bryan graduated in the class of 1881 and went on to serve as U.S. Secretary of State and run for president three times (1896, 1900, 1908); he reportedly carved his initials into a Whipple Hall banister as a student.",
+      "Illinois College is one of a small number of U.S. campuses that still maintains active traditional literary societies, a 19th-century intellectual tradition largely extinct elsewhere."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "204185": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized Methodist-affiliated university in Alliance, Ohio, best known nationally for building one of the most dominant dynasties in college football history while quietly running solid business and engineering programs.",
+    "distinctives": [
+      "Founded in 1846 by educator Orville Nelson Hartshorn as Mount Union Seminary, one of the first colleges in the country to admit women and men on equal terms from its start.",
+      "The Purple Raiders football program has won 13 NCAA Division III national championships (1993-2017), an unmatched small-college dynasty.",
+      "Longtime head coach Larry Kehres retired in 2012 with a 332-24-3 record and authored the two longest winning streaks in NCAA football history (54 games, 1996-99, and 55 games, 2000-03).",
+      "From 1994 to 2005, Mount Union won 100 consecutive Ohio Athletic Conference games under Kehres."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "238616": {
+    "profile_type": "researched",
+    "vibe": "A Lutheran (LCMS) university on a lakeside Mequon, Wisconsin campus that grew from a tiny church-basement teacher-training school into a health-sciences-heavy institution with pharmacy and physical therapy doctoral programs.",
+    "distinctives": [
+      "Founded in 1881 as Concordia College Milwaukee, starting with just 13 students meeting in the basement of Trinity Evangelical Lutheran Church downtown.",
+      "Relocated in 1982-83 to its current 191-acre Lake Michigan bluff campus in Mequon, the former grounds of the School Sisters of Notre Dame.",
+      "Opened a School of Pharmacy in 2010 (building completed 2011), making it one of only three Pharm.D.-granting institutions in Wisconsin.",
+      "Remains affiliated with the Lutheran Church-Missouri Synod and now offers roughly 70 undergraduate majors alongside doctoral programs in pharmacy, physical therapy, nursing practice, and educational leadership."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "151351": {
+    "profile_type": "researched",
+    "vibe": "A flagship Big Ten research university in a classic limestone-and-woods Midwestern college town, famous for its Jacobs School of Music, a storied Sample Gates entrance, and a campus culture built around the Little 500 bike race immortalized in 'Breaking Away.'",
+    "distinctives": [
+      "Founded in 1820 as the State Seminary, renamed Indiana College in 1828, and chartered as Indiana University in 1838 \u2014 one of the oldest public universities in the Midwest.",
+      "Home to the Kinsey Institute, established by biology professor Alfred Kinsey in 1947 to study human sexuality, and to one of the top-ranked music schools in the country, the Jacobs School of Music.",
+      "The Little 500 bicycle race, started in 1951 and known as 'the world's greatest college weekend,' inspired the Academy Award-winning 1979 film 'Breaking Away.'",
+      "Legendary president Herman B Wells led the university from 1937 to 1962, expanding it into a national research institution and founding fixtures like the Sample Gates, IU's iconic Indiana limestone campus entrance."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216764": {
+    "profile_type": "researched",
+    "vibe": "A PASSHE public university in historic West Chester, Pennsylvania, that grew out of a 19th-century teacher-training academy into a well-rounded regional university known for its music program and 'Incomparable' marching band.",
+    "distinctives": [
+      "Traces its roots to West Chester Academy (1812-1869) before opening as a state normal school on September 25, 1871, with an entering class of 160 students.",
+      "In 1913 it became the first Pennsylvania normal school to be owned outright by the Commonwealth, a step toward its later status as a full state university.",
+      "The Incomparable Golden Rams Marching Band, one of the university's signature traditions, performed in the 2024 Rose Parade.",
+      "Notable alumni include First Lady Jill Biden and Basketball Hall of Fame coach Geno Auriemma, who led UConn women's basketball to multiple NCAA titles."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178396": {
+    "profile_type": "researched",
+    "vibe": "Mizzou is the flagship of Missouri's public university system and the birthplace of journalism education worldwide, a Big 12/SEC-scale campus where a Southern-tinged football culture meets serious academic weight in medicine, agriculture, and reporting.",
+    "distinctives": [
+      "Chartered in 1839 as the first public university west of the Mississippi River, funded partly by an 1839 pledge of $117,921 in cash and land from Columbia and Boone County citizens.",
+      "Opened the world's first school of journalism in 1908, and still runs the Missouri Method of hands-on training through the student-staffed Columbia Missourian newspaper and KOMU-TV.",
+      "Hosted the first Homecoming football game in American college history in 1911, a tradition invented at Mizzou and later copied nationwide.",
+      "Six Ionic columns from the original 1892 Academic Hall, destroyed by fire, still stand at the center of Francis Quadrangle as the university's defining landmark."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "209056": {
+    "profile_type": "researched",
+    "vibe": "Lewis & Clark is a small, outdoorsy liberal arts college on a wooded Portland estate campus, known for environmental and international-relations strength, a strong overseas study tradition, and a low-key Pacific Northwest intellectual culture rather than big-time athletics or Greek life.",
+    "distinctives": [
+      "Traces its roots to Albany Collegiate Institute, chartered by the Oregon Legislature on February 2, 1867, and founded by Presbyterian pioneers with an initial class of about 40 students.",
+      "Took its current name and relocated to the former Frank estate in Portland in 1942, adopting the Latin motto 'Explorare, Discere, Sociare' (to explore, to learn, to work together) in 1993.",
+      "Its law school traces to the 1965 merger with Northwestern College of Law, and the college has long ranked among the top small schools for Peace Corps volunteers, with close to 300 alumni serving since the agency's founding.",
+      "Poet William Stafford, Oregon's poet laureate from 1975 to 1990, taught at Lewis & Clark for more than three decades, anchoring its literary reputation."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "130314": {
+    "profile_type": "researched",
+    "vibe": "The University of Saint Joseph is a small, mission-driven Catholic university in West Hartford that built its identity as a women's college for over 85 years before going fully coeducational in 2018, and now leans heavily into health-science and doctoral programs like nursing and pharmacy.",
+    "distinctives": [
+      "Founded in 1932 by the Sisters of Mercy of Connecticut as Saint Joseph College, the first college for women in the greater Hartford area; it didn't open undergraduate admission to men until fall 2018 and rebranded as University of Saint Joseph in 2012.",
+      "Offers two clinical doctoral programs, a Doctor of Nursing Practice and a Doctor of Pharmacy, unusually advanced health-science offerings for a school of its size.",
+      "Psychologist Pamela Trotman Reid served as the university's first African-American president from 2008 to 2015.",
+      "In 2018, the university brought on Hall of Fame coach Jim Calhoun, who built UConn into a national basketball power, to launch its first-ever men's basketball program."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "186283": {
+    "profile_type": "researched",
+    "vibe": "Rider University in Lawrenceville, New Jersey grew from a practical Civil War-era business college into a mid-size private university known today for its business school and, distinctively, for absorbing one of the country's premier choral-conducting conservatories, Westminster Choir College.",
+    "distinctives": [
+      "Founded October 2, 1865, as Trenton Business College by Henry Bryant, Henry Stratton, and William Whitney to train Civil War veterans for the postwar economy; it began admitting women just a year later, in 1866.",
+      "Didn't become a four-year institution granting degrees until 1922, moved fully to its current Lawrenceville campus in 1964, and only became 'Rider University' on April 13, 1994.",
+      "Merged with Westminster Choir College in 1992, giving Rider a nationally recognized conservatory-level music program through the Westminster College of the Arts (est. 2007).",
+      "A multimillion-dollar gift from businessman Norm Brodsky, class of 1964, led to the university's business school being renamed the Norm Brodsky College of Business."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169983": {
+    "profile_type": "researched",
+    "vibe": "Kettering University in Flint, Michigan is a highly focused STEM school built entirely around mandatory cooperative education: every undergraduate alternates classroom terms with paid full-time engineering jobs, producing one of the strongest job-placement records and industry pipelines of any US college.",
+    "distinctives": [
+      "Founded October 20, 1919, as the School of Automotive Trades by Albert Sobey; General Motors acquired it in 1926 and ran it as the General Motors Institute (GMI) until 1982, before it was renamed Kettering University on January 1, 1998, after GM research chief and inventor Charles Kettering.",
+      "Every undergraduate must complete at least five co-op work terms, starting as early as freshman year, rotating through a network of more than 550 partner employers; freshmen co-op workers average around $14/hour and upperclassmen around $18/hour.",
+      "About 98% of graduates are employed or in graduate school within six months of graduation, a figure the university credits directly to the co-op model.",
+      "Mary Barra, who became CEO of General Motors in 2014, earned her engineering degree here in 1985 when the school was still GMI, one of several GM-executive alumni including former GM president Edward Cole (1933 graduate)."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "104717": {
+    "profile_type": "researched",
+    "vibe": "A Phoenix-based Christian university that grew from a small Baptist college into one of the largest universities in America by enrollment, anchored by a rowdy 'Havocs' student section that's made GCU Arena one of college basketball's loudest atmospheres.",
+    "distinctives": [
+      "Founded August 1, 1949, as Grand Canyon College in Prescott, Arizona, by the Arizona Southern Baptist Convention; moved to Phoenix in 1951 and became Grand Canyon University in 1989.",
+      "Converted to for-profit status in 2004, then converted back to nonprofit status in December 2025 following a Ninth Circuit Court ruling, after years of dispute with the U.S. Department of Education over its status.",
+      "Enrolled over 113,000 students in fall 2024 (roughly 76,000 undergraduates), making it one of the largest Christian universities in the world, offering 200+ programs across 10 colleges on a 300-acre Phoenix campus.",
+      "GCU's men's basketball 'Havocs' student section has been nationally cited as one of the most electric in college hoops; the athletic program has won 10 national titles (2 NCAA Division II, 8 NAIA) and joined the Mountain West Conference in 2025-26."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "164173": {
+    "profile_type": "researched",
+    "vibe": "A career-focused Maryland university that began as a one-year medical secretary training program run by Catholic nuns and has grown into a hands-on, applied-learning school with more than 90 majors and minors.",
+    "distinctives": [
+      "Founded in 1947 as Villa Julie College by the Sisters of Notre Dame de Namur, originally offering just a one-year medical secretary certificate program; went coed in 1972 and became Stevenson University in 2008.",
+      "Won the 2013 NCAA Division III men's lacrosse national championship, the school's first national title, and in 2016 became the first NCAA Division III institution to add women's beach volleyball as a varsity sport.",
+      "Expanded its footprint substantially through a 2017 agreement acquiring the 117-acre former Rosewood Center property in Owings Mills.",
+      "Hosts the Baltimore Speakers Series (since 2006), which has brought figures such as former President Bill Clinton and former FBI Director James Comey to campus."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "213251": {
+    "profile_type": "researched",
+    "vibe": "A small Pennsylvania liberal arts college founded above a print shop by the Church of the Brethren, known for letting students design their own interdisciplinary majors and for a Maya Lin-designed peace chapel on its Huntingdon campus.",
+    "distinctives": [
+      "Founded April 17, 1876, as the Huntingdon Normal School in a second-story room above a print shop, making it the first college started by members of the Church of the Brethren; took the name Juniata College in 1894/1896.",
+      "Home to the Baker Peace Chapel, designed by renowned architect Maya Lin (also known for the Vietnam Veterans Memorial), and to the 365-acre Raystown Field Station, which holds LEED Gold certification for its environmental science programs.",
+      "Alumnus William Daniel Phillips won the Nobel Prize in Physics in 1997 for developing methods to cool and trap atoms with laser light.",
+      "Women's volleyball won three straight NCAA Division III national championships (2022, 2023, 2024), with the 2023 and 2024 squads posting perfect 35-0 seasons."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "192703": {
+    "profile_type": "researched",
+    "vibe": "A Bronx-based Lasallian Catholic university with roots in a 19th-century Canal Street academy, long a launching pad for NYC political and business leaders, that has recently weathered steep enrollment declines and program cuts.",
+    "distinctives": [
+      "Founded in 1853 as the Academy of the Holy Infancy by the De La Salle Christian Brothers on Canal Street in Lower Manhattan; chartered as Manhattan College in 1863, relocated to Riverdale in the Bronx in 1922, and renamed Manhattan University in 2024.",
+      "Alumni include two NYC mayors (Rudy Giuliani and Hugh J. Grant), American Express CEO Stephen J. Squeri, and novelist James Patterson.",
+      "The Baseball Hall of Fame credits the school with helping popularize the 'seventh-inning stretch' tradition, and its track and field program has won 31 of a possible 32 MAAC conference titles.",
+      "Faced significant financial strain in 2023-2024: enrollment fell over 30% from 2020-2024, leading the university to cut more than 20 academic programs and over 25% of faculty, and prompting a faculty 'no confidence' vote in the president in January 2024."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "213996": {
+    "profile_type": "researched",
+    "vibe": "An evangelical Christian university in rural central Pennsylvania built on a Brethren in Christ missionary-training school, distinctive for a student 'Community Covenant,' a beloved creek-tossing tradition, and a soccer dynasty unmatched in NCAA history.",
+    "distinctives": [
+      "Founded in 1909 as the Messiah Bible School and Missionary Training Home by the Brethren in Christ Church in Harrisburg, moved to Grantham, PA in 1911, and became Messiah University in July 2020 after decades as Messiah College.",
+      "Messiah is the only school in NCAA history to win both the men's and women's soccer national championships in the same year, doing so four times, with 11 men's and 6 women's national titles overall.",
+      "Incoming students sign a 'Community Covenant' outlining behavioral expectations, and 'creeking' \u2014 tossing newly engaged or birthday students into Yellow Breeches Creek \u2014 is a longstanding campus tradition.",
+      "Ray Crist (class of 1916) went on to work on the Manhattan Project as a chemist, and Joy Yu-Ho Wang (1997) became the university's first Rhodes Scholar."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "179946": {
+    "profile_type": "researched",
+    "vibe": "A small Presbyterian-rooted liberal arts college in rural New Wilmington, PA, where Greek life, tight-knit tradition, and a genuinely close campus community define the experience.",
+    "distinctives": [
+      "Founded January 21, 1852, by the Ohio and Shenango Presbyteries, making it one of the nation's earliest coeducational colleges.",
+      "The 'Faculty Gauntlet' tradition has students walk a corridor of faculty and staff at opening convocation and again at graduation, bookending their four years.",
+      "The Duff-Armington Memorial Carillon began as a 12-bell chime in 1935 and has grown to 42 bells, rung today by a student-led Guild of Carillonneurs.",
+      "Football alumnus Joe Micchia was inducted into the College Football Hall of Fame, and the Titans won six NAIA Division II national football championships between 1970 and 1994."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "170301": {
+    "profile_type": "researched",
+    "vibe": "A Reformed Church in America college in downtown Holland, Michigan, where faith-rooted academics blend with fiercely competitive class traditions like The Pull and the Nykerk Cup.",
+    "distinctives": [
+      "Began in October 1851 as the 'Pioneer School' founded by Rev. Albertus C. Van Raalte, received its state charter in 1866, and first admitted women in 1878.",
+      "The Pull, an intense freshman-vs-sophomore tug-of-war across the Black River, has been a campus tradition since 1898, with 19 'pullers' per team battling for up to three hours.",
+      "The Nykerk Cup, a freshman-sophomore women's competition in song, play, and oration held during Family Weekend, has run since 1936.",
+      "Alumni include Nobel Prize-winning chemist Richard Smalley, Academy Award-nominated musician Sufjan Stevens, and Baseball Hall of Famer Jim Kaat."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "203845": {
+    "profile_type": "researched",
+    "vibe": "A historic small liberal arts college on the Ohio River in Marietta, Ohio, known for pairing a Phi Beta Kappa academic core with one of the country's few undergraduate petroleum engineering programs.",
+    "distinctives": [
+      "Traces its roots to the Muskingum Academy of 1797 in the Northwest Territory and was formally chartered as Marietta College on January 16, 1835, making it a foundational institution in Ohio higher education.",
+      "Received a Phi Beta Kappa chapter in 1860, only the 16th U.S. institution to be so honored.",
+      "Its Petroleum Engineering and Geology programs are housed in the Edwy Rolfe Brown Building, built in 1955 specifically for the department, reflecting a petroleum engineering tradition that predates most peer programs nationally.",
+      "The baseball program holds an NCAA Division III record of six national championships (1981, 1983, 1986, 2006, 2011, 2012), including back-to-back titles in 2011-2012."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "227526": {
+    "profile_type": "researched",
+    "vibe": "A proud, historically Black land-grant university in the Texas prairie whose 'Marching Storm' band energy and STEM pipeline reputation anchor a tight, achievement-driven community.",
+    "distinctives": [
+      "Founded in 1876 as Alta Vista Agricultural and Mechanical College of Texas for Colored Youth under the Texas Constitution of 1876, championed by formerly enslaved legislators Matthew Gaines, Walter Moses Burton, and William H. Holland \u2014 making it the oldest public HBCU in Texas.",
+      "Consistently ranks among the top U.S. institutions for producing African American engineers and architects, reflecting a decades-long STEM emphasis.",
+      "Attained Carnegie R2 'Doctoral University' research classification in 2021, one of only 11 HBCUs nationally with that distinction.",
+      "Received a $63 million gift from MacKenzie Scott in November 2025, the largest single donation in the university's history."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "157289": {
+    "profile_type": "researched",
+    "vibe": "A major urban research university in downtown Louisville, Kentucky, where big-time Cardinal athletics and a pioneering medical school coexist with a namesake law school honoring Supreme Court Justice Louis Brandeis.",
+    "distinctives": [
+      "Chartered April 3, 1798, as Jefferson Seminary, with its Louisville Medical Institute (1837) and Louisville College (1840) consolidating into the University of Louisville in 1846.",
+      "The School of Medicine performed the world's first self-contained artificial heart transplant in 2001 and the world's first successful hand transplant in 1999.",
+      "Its law school is named for U.S. Supreme Court Justice Louis D. Brandeis, a Louisville native.",
+      "Notable alumni include Heisman Trophy winner Lamar Jackson (2016), NFL Hall of Famer Johnny Unitas, U.S. Senate Majority Leader Mitch McConnell, and Gina Haspel, the first woman to lead the CIA."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "212054": {
+    "profile_type": "researched",
+    "vibe": "A career-launchpad school in the heart of West Philadelphia where nearly every student cycles through paid, real-world jobs before they graduate \u2014 Drexel treats the classroom and the workplace as one continuous curriculum.",
+    "distinctives": [
+      "Founded December 17, 1891 by financier and philanthropist Anthony J. Drexel as a school for practical arts and sciences.",
+      "Launched its cooperative education program in 1919, now one of the largest and oldest co-op systems in the U.S., with students typically logging 18 months of paid work across up to three employers before graduation.",
+      "One of only 17 U.S. universities offering a bachelor's degree in architectural engineering, and ranks 51st nationally in utility patents granted.",
+      "Merged with Salus University on July 3, 2025, adding optometry, physician assistant, and audiology programs to its health sciences offerings."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215947": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university in the hills of Greensburg, Pennsylvania, rooted in the legacy of Elizabeth Ann Seton and built around close-knit professional programs, from visual arts to physician assistant studies.",
+    "distinctives": [
+      "Founded in 1885 by the Sisters of Charity, the religious order established by Elizabeth Ann Seton, the first U.S.-born canonized saint.",
+      "Began as a women's college, first admitted male WWII veterans in 1946, expanded men's enrollment through the 1980s, and formally became coeducational Seton Hill University in 2002.",
+      "Hosts a satellite campus of Lake Erie College of Osteopathic Medicine (LECOM), established in 2009, giving students a direct pathway into osteopathic medical training.",
+      "Notable alumni include Maureen O'Connor ('73), the first woman to serve as chief justice of the Ohio Supreme Court, and Patricia Gabow ('65), longtime CEO of Denver Health."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199139": {
+    "profile_type": "researched",
+    "vibe": "A young, fast-growing R1 research university that has ridden Charlotte's banking-and-tech boom from a 278-student night-school outpost into North Carolina's fourth-largest public university.",
+    "distinctives": [
+      "Opened September 23, 1946 as the Charlotte Center of the University of North Carolina with just 278 students, driven largely by math teacher Bonnie Cone, and didn't join the UNC system as its own campus until 1965.",
+      "The '49er' nickname commemorates 1949, the year the fledgling Charlotte College nearly closed for lack of funding before the community rallied to save it.",
+      "Now enrolls over 32,000 students (fall 2025) from 99 of North Carolina's 100 counties and 128 countries, and holds 'R1: Very High Research Activity' classification.",
+      "Its College of Computing and Informatics is the top producer of computer science graduates across North Carolina, South Carolina, and Virginia."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169798": {
+    "profile_type": "researched",
+    "vibe": "A historic teacher-training school turned comprehensive university in Ypsilanti, Michigan, still known above all for producing educators \u2014 a mission it's carried since before the Civil War.",
+    "distinctives": [
+      "Founded in 1849 as Michigan State Normal School, the fourth teachers' college established in the U.S. and the first outside New England; classes began March 29, 1853 with 122 students.",
+      "In 1899 it introduced the nation's first four-year curriculum for a normal school, becoming Michigan State Normal College before reaching university status in 1959.",
+      "Its College of Education runs one of the oldest special education programs in the country, dating to 1923, and EMU has been among the largest producers of teachers nationally since 1991.",
+      "Notable alumni include NBA Hall of Famer George Gervin, Discount Tire founder Bruce Halle, and NFL players Maxx Crosby and Charlie Batch."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "174066": {
+    "profile_type": "researched",
+    "vibe": "A sprawling Big Ten research powerhouse straddling the Mississippi River, where medical breakthroughs and Nobel-caliber achievement are part of daily campus life, not just history.",
+    "distinctives": [
+      "Founded in 1851, seven years before Minnesota became a state, and now one of the ten largest U.S. campuses by enrollment at nearly 58,000 students (fall 2025).",
+      "Pioneered open-heart surgery via cross-circulation in 1954, developed the first portable pacemaker in 1958, and performed the world's first kidney-pancreas transplant in 1967.",
+      "25 Nobel laureates are affiliated with the university, including Norman Borlaug (Peace, 1970) and alumnus Bob Dylan (Literature, 2016).",
+      "Bred the Honeycrisp apple (1991) and created the Gopher protocol, an early precursor to the World Wide Web."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
