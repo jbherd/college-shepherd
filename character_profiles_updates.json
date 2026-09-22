@@ -4825,5 +4825,405 @@
       "applied via scheduled batch on 2026-09-16"
     ],
     "vibe": "A small, Christ-centered university in Winston-Salem built from the 2020 merger and rebranding of Piedmont International University with several other Christian colleges, aimed at low-cost, career-focused Christian higher education rather than a traditional residential college experience."
+  },
+  "230807": {
+    "profile_type": "researched",
+    "vibe": "A small, feisty liberal-arts school at the foot of the Wasatch Mountains that has reinvented itself three times since 1875 and turned its Salt Lake City location into an Olympic-training pipeline \u2014 Westminster is what happens when a Presbyterian seminary grows up next to world-class ski slopes.",
+    "distinctives": [
+      "Founded in 1875 as the Salt Lake Collegiate Institute, the school was renamed Sheldon Jackson College in 1897, became Westminster College in 1902, and officially became Westminster University in 2023 \u2014 celebrating its 150th anniversary in 2025.",
+      "Westminster has produced more than 50 Olympians, and at the 2014 Sochi Games the school housed more than 10% of the entire Team USA roster, including gold medalists Maddie Bowman (ski halfpipe) and Joss Christensen (slopestyle).",
+      "Broadway history runs through campus too: alumna Maude Adams became the first American actress to play Peter Pan on Broadway, and lyricist Otto Harbach (co-writer of 'Smoke Gets in Your Eyes') also studied there.",
+      "The Griffins field NCAA Division II teams and the university now offers 38 undergraduate majors and 13 graduate degrees across four schools, including a dedicated Center for New Enterprise for student entrepreneurs."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "483124": {
+    "profile_type": "researched",
+    "vibe": "This isn't a separate school \u2014 it's Arizona State's fully online 'Digital Immersion' arm, the same Sun Devil degrees and faculty as the massive Tempe campus, just delivered entirely over the internet to a student body that's mostly working adults fitting college around real life.",
+    "distinctives": [
+      "ASU Online launched in 2010 under the university's EdPlus digital-learning division and has grown roughly sevenfold in enrollment since 2012-13, now serving over 70,000 students \u2014 far larger than most entire college campuses.",
+      "It offers more than 300 fully online undergraduate and graduate degrees, certificates, and concentrations, from psychology and biological sciences to special education, all built by the same faculty who teach on ASU's physical campuses.",
+      "ASU markets the online and in-person versions of a degree as functionally identical: same course content, same learning outcomes, same diploma \u2014 no 'online' distinction is noted on the transcript.",
+      "The program is consistently ranked among the top online bachelor's programs in the country by U.S. News & World Report, reflecting ASU's decade-plus head start in scaling large-format digital higher ed."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "238458": {
+    "profile_type": "researched",
+    "vibe": "Wisconsin's very first four-year college, Carroll University is a tight-knit campus in Waukesha where a lone bagpiper has welcomed freshmen \u2014 and led graduates out \u2014 since the 1960s, blending old-school ceremony with heavy-hitting nursing and health-science programs.",
+    "distinctives": [
+      "Chartered on January 31, 1846 \u2014 before Wisconsin was even a state \u2014 Carroll traces its roots to the 1841 Prairieville Academy and was named for Charles Carroll of Carrollton, the last surviving signer of the Declaration of Independence; it became Carroll University in 2008.",
+      "A signature tradition since the 1960s: incoming freshmen are escorted to their first campus assembly by a lone bagpiper, and four years later a full band of bagpipers leads them into commencement.",
+      "Carroll alumnus Donald Goerke invented Spaghetti-Os while working as a Campbell's Soup Company product developer, one of the more unexpected claims to fame among the school's graduates.",
+      "The university now offers 95-plus undergraduate areas of study, with Exercise Science/Kinesiology and Registered Nursing among its largest programs, plus graduate offerings including a clinical doctorate in physical therapy."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "195003": {
+    "profile_type": "researched",
+    "vibe": "Known as 'Brick City' for its roughly 15.7 million bricks of Henrietta, New York campus, RIT is a technology powerhouse built on one of the oldest and largest cooperative-education programs in the world and home to the largest community of Deaf and hard-of-hearing students at any mainstream university in the country.",
+    "distinctives": [
+      "RIT traces its founding to 1829, when the Rochester Athenaeum merged with the Mechanics Institute; it took its current name in 1944 and moved to its present 1,300-acre suburban campus in 1968.",
+      "The National Technical Institute for the Deaf was established on RIT's campus in 1966 by act of Congress and enrolled its first students in 1968 \u2014 today Deaf and hard-of-hearing students make up roughly 8-9% of the student body, one of the highest concentrations at any hearing university in the world.",
+      "RIT's co-op program began in 1912, making it the fourth-oldest cooperative education program on earth and now one of the largest in the nation, with about 3,500 students completing paid co-ops annually.",
+      "Notable alumni include jQuery creator John Resig and LG Corporation chairman Koo Kwang-mo, and the RIT community has produced eleven Pulitzer Prize-winning alumni, affiliates, and faculty."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "209409": {
+    "profile_type": "researched",
+    "vibe": "A small Christian university in Eugene, Oregon, separated from the University of Oregon by little more than a single-lane street, Bushnell has spent 130 years quietly renaming itself as its mission evolved \u2014 from a Bible school sharing classrooms with UO to today's four-year university that just brought baseball back after a half-century away.",
+    "distinctives": [
+      "Founded in 1895 as the Eugene Divinity School, the institution originally taught only Bible and ministry courses while students took their other classes at the neighboring University of Oregon, an arrangement that lasted a century until 1995.",
+      "The school changed names repeatedly \u2014 Eugene Bible University (1908), Eugene Bible College (1930), Northwest Christian College (1934), Northwest Christian University (2008) \u2014 before becoming Bushnell University in 2020, honoring James A. Bushnell, the first chairman of its board of trustees.",
+      "Bushnell's women's cross country team won the NAIA National Championship in 2015, and individual national titles followed from javelin thrower Bailey Dell (2018) and steeplechaser Anika Rasubala (2019).",
+      "The university revived its baseball program in 2021 after more than 50 years without a team, reflecting a broader athletics build-out on its compact Eugene campus."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "107512": {
+    "profile_type": "researched",
+    "vibe": "A small Southern Baptist university on the Ouachita River in Arkadelphia, Arkansas, where campus life still runs on old-school social clubs and a legendary homegrown musical revue rather than Greek letters.",
+    "distinctives": [
+      "Founded September 6, 1886 as Ouachita Baptist College, it has operated continuously on the same site since, becoming a university in 1965.",
+      "Its 'Tiger Tunes' variety show, first staged in the late 1970s, is a decades-old student-run musical competition among campus social clubs that has raised well over $200,000 for scholarships in a single year.",
+      "In 2010, Ouachita became the first university in Arkansas to field an NCAA wrestling program, and the Tigers won their first national title in the sport in 2015.",
+      "The campus sits on land bordered by the Ouachita River, which gives the school its name, and its athletic teams compete as the Tigers in purple and gold."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153320": {
+    "profile_type": "researched",
+    "vibe": "A tiny, tightly focused Bible college in Ankeny, Iowa that trains students almost exclusively for pastoral, missionary, and church ministry within a conservative fundamentalist Baptist tradition.",
+    "distinctives": [
+      "Traces its roots to 1921, when Omaha pastor William H. Jordan founded the Omaha Bible Institute after hearing evangelist D.L. Moody speak at the 1893 World's Fair; it was formally incorporated in 1924.",
+      "The school changed names and identity several times before relocating from Omaha to a 30-acre campus in Ankeny, Iowa in 1967, becoming Faith Baptist Bible College.",
+      "It has been affiliated with the General Association of Regular Baptist Churches (GARBC) since 1952 and describes its mission around 'fundamental, Biblical Christianity' with no compromise toward theological modernism.",
+      "A seminary program was added in 1986, and today the college enrolls roughly 500 undergraduates who compete athletically in the NCCAA and Midwest Christian College Conference."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "157447": {
+    "profile_type": "researched",
+    "vibe": "A young, fast-growing public university just across the river from Cincinnati that built its identity around practical programs, including an unusual in-house law school, for a largely commuter, first-generation student body.",
+    "distinctives": [
+      "Grew out of a 1948 University of Kentucky extension center in Covington and became its own institution, Northern Kentucky State College, in 1968, reaching full university status in 1976 as the youngest of Kentucky's public universities.",
+      "In 1971 it absorbed the formerly independent Salmon P. Chase College of Law from Cincinnati, giving a young regional university its own law school.",
+      "Its planetarium, in the Dorothy Westerman Hermann Natural Science Center, was the first in the world to use laser-projection technology.",
+      "Actor George Clooney attended NKU before leaving to pursue acting, and the school's Norse teams (mascot Victor E. Viking) moved to NCAA Division I's Horizon League in 2015."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "202170": {
+    "profile_type": "researched",
+    "vibe": "A single-purpose art and design school in downtown Columbus, Ohio, founded by a group of women in the 1870s, that has quietly fed a stream of illustrators and animators into Pixar, Disney, and NASA's visual imagination.",
+    "distinctives": [
+      "Began January 6, 1879 when the Columbus Art Association, formed by local women in 1878, opened classes on the top floor of a downtown building donated by banker Francis Sessions, starting with just three students and one teacher.",
+      "Took its current name, Columbus College of Art & Design, in 1959, and became fully independent from the adjacent Columbus Museum of Art in 1982; a giant 100-foot 'ART' sculpture now spans Gay Street on its 9-acre urban campus.",
+      "Alumni include Nathan Greno, director of Disney's 'Tangled,' Pixar director Dan Scanlon ('Monsters University,' 'Onward'), and NASA conceptual illustrator Robert McCall, whose space-themed murals hang in the Smithsonian.",
+      "In 2015 the school named Melanie Corn as its president, the first woman to hold the role in the institution's then-136-year history."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "168281": {
+    "profile_type": "researched",
+    "vibe": "A small, leafy liberal arts college in Norton, Massachusetts, born as a memorial to a young woman's death and shaped by pioneering educator Mary Lyon, that has since evolved from an elite women's seminary into a fully coeducational school known for close mentoring and a century-and-a-half-old literary magazine.",
+    "distinctives": [
+      "Founded in 1834 when Laban Wheaton, mourning the death of his daughter Eliza, was persuaded by his daughter-in-law to memorialize her through education; he enlisted famed women's educator Mary Lyon to design the curriculum, and the seminary opened its doors on April 22, 1835 with 50 students and three teachers.",
+      "Received a college charter in 1912 and formally became Wheaton College, but remained a women's institution for 75 more years until trustees voted to admit men in 1987, enrolling its first coeducational class in fall 1988.",
+      "Its student literary magazine, The Rushlight, has been published continuously since 1855, and the college's Phi Beta Kappa chapter dates to 1932.",
+      "Notable alumni include 60 Minutes correspondent Lesley Stahl, Oscar-nominated actress Catherine Keener, and Jigme Khesar Namgyel Wangchuck, the King of Bhutan; the picturesque campus has also stood in as a filming location for movies including 'Legally Blonde' and 'Don't Look Up.'"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219976": {
+    "profile_type": "researched",
+    "vibe": "Lipscomb is a Churches of Christ university in Nashville's leafy Green Hills neighborhood, where a faith-centered liberal arts education meets Music City's creative energy \u2014 small classes, real chapel commitments, and a campus that has produced both country stars and health-science professionals.",
+    "distinctives": [
+      "Founded in 1891 by David Lipscomb and James A. Harding as the Nashville Bible School, the university grew directly out of the Restoration Movement within the Churches of Christ, and full-time undergraduate faculty are still required to be members of that fellowship.",
+      "Instead of traditional Greek-letter fraternities and sororities, Lipscomb has its own system of local 'social clubs,' giving campus social life a distinctly homegrown, non-national-chapter flavor.",
+      "Alumni include Grammy-winning country singer Kelsea Ballerini and country star Thomas Rhett, reflecting Lipscomb's deep ties to Nashville's music industry alongside its academic programs in health sciences, nursing, and its integrated seminary.",
+      "The Bisons compete in NCAA Division I (ASUN Conference) and face crosstown rival Belmont University in the annual 'Battle of the Boulevard.'"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217961": {
+    "profile_type": "researched",
+    "vibe": "Converse is a small, tight-knit school in Spartanburg, South Carolina, with over 130 years of history as a women's college that only recently opened its undergraduate residential program to all genders \u2014 a campus where a strong sense of historic identity now coexists with a genuinely new chapter.",
+    "distinctives": [
+      "Established in 1889 by Spartanburg residents and named for textile magnate Dexter Edgar Converse, the college opened its doors in October 1890 with 168 female students and 16 faculty members.",
+      "A fire destroyed the main building in 1892, but the college rebuilt and expanded rather than folding \u2014 an early test of institutional resilience that shaped its historic campus, whose 1891\u20131915 buildings are now listed on the National Register of Historic Places.",
+      "After 130-plus years as a women's college, Converse rebranded as Converse University in 2021 and extended its undergraduate residential program to co-ed admission that same fall, a major shift in its identity.",
+      "Notable alumni include Pulitzer Prize\u2013winning novelist Julia Peterkin (class of 1896) and reality-TV personality Sutton Stracke, and its athletic teams \u2014 the Valkyries \u2014 compete in NCAA Division II's Conference Carolinas."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219000": {
+    "profile_type": "researched",
+    "vibe": "Augustana University is South Dakota's largest private university, a Lutheran-rooted liberal arts school in Sioux Falls whose Viking mascot and Scandinavian heritage trace back to Swedish immigrant founders \u2014 a campus that mixes small-college intimacy with genuine Division II athletic firepower.",
+    "distinctives": [
+      "Traces its roots to 1860, when Professor Lars Paul Esbj\u00f6rn and fellow Swedish Lutherans founded Augustana College and Seminary in Chicago under the Scandinavian Evangelical Lutheran Augustana Synod, before the school moved several times and finally settled in Sioux Falls in 1918.",
+      "The university's name comes from the Confessio Augustana (the Augsburg Confession), the foundational 1530 document of Lutheranism, and the school remains affiliated with the Evangelical Lutheran Church in America.",
+      "Its mascot, Ole the Viking, and motto 'The Word of God endures forever' reflect that Scandinavian Lutheran heritage, and the campus hosts the Center for Western Studies and its annual Dakota Conference on the Northern Plains.",
+      "Augustana's athletic program punches above its weight: the men's basketball team won the NCAA Division II national championship in 2016, and the baseball team won its own Division II national title in 2018."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "230038": {
+    "profile_type": "researched",
+    "vibe": "BYU is a sprawling private university in Provo, Utah, owned and operated by The Church of Jesus Christ of Latter-day Saints, where academics are wrapped in an explicit honor code and a huge share of students arrive on campus after already completing a mission \u2014 making it one of the most distinctive campus cultures in American higher education.",
+    "distinctives": [
+      "Founded on October 16, 1875, by Brigham Young himself, the school opened as Brigham Young Academy in January 1876 with just 29 students and didn't become a full university until 1903.",
+      "Karl G. Maeser, who arrived as principal in 1876, shaped the school's founding educational philosophy and is still honored across campus, including in the name of a campus building.",
+      "Every student agrees to BYU's Honor Code, which includes abstaining from alcohol, tobacco, coffee, tea, and premarital sex, following dress and grooming standards, and \u2014 for church members \u2014 attending religious services, with compliance confirmed through an ecclesiastical endorsement process.",
+      "The giant hillside 'Y' overlooking campus, a Provo landmark, was built by the Brigham Young High School class of 1907, and the school grew explosively after WWII under president Ernest L. Wilkinson, becoming the largest private university in the country for a time."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "184348": {
+    "profile_type": "researched",
+    "vibe": "Drew University sits on a former private estate nicknamed 'The Forest' in Madison, New Jersey \u2014 just 25 miles from Manhattan \u2014 giving it a wooded, almost secluded campus feel with an unusually direct pipeline into New York City's diplomatic and media worlds.",
+    "distinctives": [
+      "Founded in 1867 when railroad-industrialist-turned-financier Daniel Drew purchased the 95-acre former estate of William Gibbons and donated it to the Methodist Church to establish a theological seminary; the campus retains the nickname 'The Forest,' or 'University in the Forest,' that Gibbons gave it back in 1832.",
+      "Mead Hall, the university's landmark main building, is named for Daniel Drew's wife, Roxanna Mead, and the campus mixes Greek Revival, Collegiate Gothic, and neoclassical architecture across its wooded grounds.",
+      "Drew runs a long-running United Nations Semester, letting students spend a term studying and interning amid the UN and NGO world in New York City \u2014 a signature offering for students interested in international affairs and diplomacy.",
+      "Notable alumni include 2015 Nobel Prize in Physiology or Medicine winner William Campbell and Olive Winchester, who in 1925 became the first woman ordained as a minister in Great Britain."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "482680": {
+    "profile_type": "researched",
+    "vibe": "One of only six senior military colleges in the nation, UNG blends a full liberal-arts university experience with a uniformed Corps of Cadets that still marches to bugle calls and a booming 1902 cannon every evening on the Dahlonega Drill Field.",
+    "distinctives": [
+      "UNG traces its roots to North Georgia Agricultural College, chartered in 1873 with Morrill Act land-grant funds, and was the first public institution in Georgia to award a degree to a woman, in 1879.",
+      "Its Corps of Cadets is one of only six 'senior military college' programs in the United States (alongside schools like The Citadel and VMI), and Army ROTC has run continuously on the Dahlonega campus since 1916.",
+      "Cadets live by daily military traditions including Reveille at 6:30 a.m., Retreat at 5:00 p.m., and Taps at midnight, punctuated by a historic 1902 cannon fired every day at retreat.",
+      "The university was formally created on January 8, 2013, by merging North Georgia College & State University with Gainesville State College, and its Blue Ridge Rifles drill platoon won back-to-back national precision drill championships in 2001 and 2002."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "232308": {
+    "profile_type": "researched",
+    "vibe": "Tucked against the Blue Ridge Mountains in Roanoke, Virginia, Hollins is a small women's college with an outsized literary pedigree, having sent more graduates into major publishing houses and onto Pulitzer podiums than its size would ever suggest.",
+    "distinctives": [
+      "Founded in 1842 as Valley Union Seminary, Hollins is one of the oldest women's colleges in the country, with Charles Lewis Cocke \u2014 who took over as principal in 1846 \u2014 credited as its founding force after steering it through financial crises and the Civil War era.",
+      "Its graduate creative writing program has produced multiple Pulitzer Prize winners, including Annie Dillard (1975, general nonfiction) and Natasha Trethewey (poetry), who later served as U.S. Poet Laureate.",
+      "The 475-acre campus sits at the foot of the Blue Ridge Mountains, and Hollins counts children's author Margaret Wise Brown (Goodnight Moon) and ABC News correspondent Ann Compton among its notable alumnae.",
+      "Hollins briefly went coeducational at its founding before eliminating its male department in 1852 to become a dedicated women's college, a status it has held for most of its 180-plus-year history."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "191649": {
+    "profile_type": "researched",
+    "vibe": "A sprawling 244-acre Long Island campus that doubles as an arboretum, Hofstra has twice hosted the biggest stage in American politics \u2014 a presidential debate \u2014 while quietly building one of the country's most storied lacrosse and Shakespeare traditions.",
+    "distinctives": [
+      "Hofstra was founded on September 23, 1935, as an extension of NYU on the former estate of lumber magnate William S. Hofstra, becoming an independent college in 1939 and earning full university status in 1963.",
+      "The campus has hosted two U.S. presidential debates: the 2012 town-hall debate between Barack Obama and Mitt Romney, and the first 2016 debate between Hillary Clinton and Donald Trump on September 26, 2016.",
+      "Hofstra ran the very first NCAA Division I Men's Lacrosse Championship in 1971 and has staged an annual Shakespeare Festival since 1950.",
+      "Notable alumni include filmmaker Francis Ford Coppola and former New York Governor David Paterson, and the school's motto, 'Je maintiendrai' ('I will uphold'), comes from the House of Orange-Nassau, honoring founder William Hofstra's Dutch heritage."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "192192": {
+    "profile_type": "researched",
+    "vibe": "Perched on the shore of Keuka Lake in New York's Finger Lakes, this small college is built around a genuinely unusual requirement: every student must step off campus for a month-long, self-designed 'Field Period' of hands-on learning before they graduate.",
+    "distinctives": [
+      "Keuka College was founded in 1890 by George Harvey Ball with a mission to make quality education accessible regardless of economic background, opening its first academic building on August 14, 1890, with a class of 80 freshmen.",
+      "Its signature 'Field Period' program, created in 1942, requires every student to complete roughly 140 hours of self-directed experiential learning each year \u2014 internships, community service, cross-cultural travel, or spiritual exploration \u2014 earning credit on a pass/fail contract basis.",
+      "The college suspended operations in 1915, reopened in 1921 as a women's college, and stayed all-female until 1985, when it went coeducational and enrollment subsequently surged past 1,200 students.",
+      "Keuka now maintains international partnerships with universities in China and Vietnam serving thousands of students abroad, while its home teams compete as the 'Wolves' in NCAA Division III's Empire 8 Conference."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217536": {
+    "profile_type": "researched",
+    "vibe": "Salve Regina turns a stretch of Newport's Gilded Age 'Millionaire's Row' into a working campus, teaching students in mansions built for robber-baron fortunes while grounding them in the Sisters of Mercy's tradition of service.",
+    "distinctives": [
+      "Founded by the Sisters of Mercy and chartered in 1934, Salve Regina opened as an all-women's college in 1947 with its first class of 58 students, made possible when it received the Gilded Age mansion Ochre Court as a gift.",
+      "Its 80-acre campus is built from seven contiguous historic estates and 21 structures along the Newport Cliff Walk, including Ochre Court (built 1890\u20131895 for Ogden Goelet) and the 1887 mansion Wakehurst, earning preservation awards from the National Trust for Historic Preservation.",
+      "The school went coeducational in 1973, added graduate programs in 1975, and officially became Salve Regina University in 1991.",
+      "Notable alumni include retired four-star General Stanley McChrystal and Coast Guard Commandant Admiral Robert J. Papp Jr., reflecting the school's strong pipeline of military and public-service leaders."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190725": {
+    "profile_type": "researched",
+    "vibe": "A small Buffalo-suburb university that started as a Catholic women's college run by Franciscan nuns and has reinvented itself into a health-sciences-heavy, career-focused school for students who want hands-on programs and a tight-knit campus.",
+    "distinctives": [
+      "Daemen was founded in 1947 as Rosary Hill College by the Sisters of St. Francis of Penance and Christian Charity, and only became secular and independent in 1976, when it was renamed Daemen College in honor of Mother Magdalene Daemen; it didn't gain full university status until March 2022.",
+      "It hosts the only ABA-approved paralegal program in Western New York and the only state-approved applied behavior analysis graduate program in New York, making it a regional go-to for those specific career paths.",
+      "Alumna Mary Ann Esposito created and has hosted the long-running PBS cooking show 'Ciao Italia' since 1989, and fellow alum Sue Falsone became the first female physical therapist and athletic trainer in Major League Baseball history, working with the LA Dodgers.",
+      "Every fall, students celebrate Founders Celebration around the historic Founders Bell, and the university's Springfest concert series has brought acts like Drake to campus."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "179326": {
+    "profile_type": "researched",
+    "vibe": "A rural Missouri Baptist university built by frontier grit \u2014 it was founded in one town, moved after a year, then rebuilt itself twice after devastating fires \u2014 and today it's a Southern Baptist Convention-affiliated school known for producing pastors, teachers, and at least one U.S. senator.",
+    "distinctives": [
+      "Southwest Baptist University was founded in 1878 in Lebanon, Missouri by Abner S. Ingman and James R. Maupin, but relocated to Bolivar the following year after the founding town declined to keep hosting it.",
+      "The campus has literally risen from ashes twice: a 1910 fire destroyed its buildings and forced a 1913 reopening, and a 1962 fire that leveled Pike Auditorium pushed the university to expand into what is now its Shoffner campus area.",
+      "Alumnus Roy Blunt went on to serve as a U.S. Senator from Missouri (and was previously a university president himself), while alumnus Buddy Baker became a prolific film composer known for decades of work scoring films for Disney.",
+      "SBU transitioned from Southwest Baptist College to full university status in 1981 and was an early adopter of varsity collegiate esports, becoming a charter member of the Collegiate Esports Association."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153250": {
+    "profile_type": "researched",
+    "vibe": "A young, unapologetically Reformed university on the Iowa prairie, founded by Dutch Christian Reformed Church families and named after a 17th-century Dutch church council \u2014 small-town roots with a surprisingly strong ABET-accredited engineering program and NAIA championship athletics.",
+    "distinctives": [
+      "Dordt started in 1955 as Midwest Christian Junior College with only about 40 students, renamed itself Dordt College in 1956 after the historic Synod of Dordt (1618-1619) in the Netherlands, and didn't become Dordt University until May 2019.",
+      "It's affiliated with the Christian Reformed Church in North America and sits on a 115-acre rural campus in Sioux Center, Iowa, offering more than 90 programs including an ABET-accredited engineering major.",
+      "Dordt's athletic program has punched above its weight: the men's cross country team won the 2022 NAIA National Championship, and the women's basketball team won back-to-back NAIA national titles in 2024 and 2025.",
+      "The school channels nearly all its students into financial aid \u2014 98% receive it, and Dordt awards more than $18.5 million in scholarships and grants annually \u2014 while also running 25-plus off-campus study programs in places like Ghana, Hungary, and the Netherlands through the Council for Christian Colleges and Universities."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "147679": {
+    "profile_type": "researched",
+    "vibe": "A Chicago university with Swedish immigrant roots, founded by the Evangelical Covenant Church as a seminary and now known for blending faith, an intercultural student body, and a genuinely distinctive Scandinavian heritage tradition that still shows up every December.",
+    "distinctives": [
+      "North Park was established in 1891 as North Park Theological Seminary in Minneapolis by the Evangelical Covenant Church, a denomination rooted in Swedish immigrant pietism, and moved to its current Chicago campus at Foster and Kedzie in 1894 \u2014 Old Main, the oldest building on campus, was dedicated that June.",
+      "The school still honors its Swedish founding heritage by hosting an annual Saint Lucy's Day festival every December, and it maintains an ongoing student exchange partnership with J\u00f6nk\u00f6ping University in Sweden along with the Swedish-American Historical Society Archives on campus.",
+      "Alumnus James R. Thompson went on to become the longest-serving governor of Illinois, holding office for over 14 years across four terms.",
+      "North Park's Vikings compete in NCAA Division III within the College Conference of Illinois and Wisconsin, and the school opened its $57 million Nancy and G. Timothy Johnson Center for Science and Community Life in 2014."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "140447": {
+    "profile_type": "researched",
+    "vibe": "Georgia's oldest private university, founded by Baptists on the frontier in 1833 and now a full research university with its own law school, medical school, and a genuine civil-rights milestone in its history \u2014 it was the first college in Georgia to fully desegregate.",
+    "distinctives": [
+      "Mercer was founded January 14, 1833 as Mercer Institute in Penfield, Georgia, by Baptist minister Adiel Sherwood and professor Billington McCarter Sanders with just 39 students, named for Baptist leader Jesse Mercer who funded its founding endowment; it gained a university charter from the Georgia General Assembly in December 1837 and moved to Macon in 1871.",
+      "In April 1963, Mercer became the first college in Georgia to fully desegregate, a notable stand for a Deep South institution at that time.",
+      "The Walter F. George School of Law, established in 1873, is named for alumnus Walter F. George, who became a U.S. Senator and President pro tempore of the Senate, and alumnus Carl Vinson served more than 50 years in the U.S. House of Representatives.",
+      "Mercer's School of Medicine, founded in 1982, was created specifically to train primary care physicians for rural Georgia and now operates campuses in Macon, Savannah, and Columbus, reflecting the university's broader identity today as a doctoral research institution with an endowment exceeding $500 million."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
