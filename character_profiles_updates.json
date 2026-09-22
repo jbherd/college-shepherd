@@ -8825,5 +8825,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "102049": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized Christian university in Birmingham, Alabama, affiliated with the Baptist tradition, known for a polished campus, strong sense of school spirit, and a blend of rigorous academics with a close-knit, faith-integrated community.",
+    "distinctives": [
+      "Selective private university with programs spanning pharmacy, nursing, business, education, and law",
+      "Samford's campus is consistently ranked among the most beautiful in the country",
+      "Strong Greek life participation and a tight-knit residential undergraduate culture",
+      "Christian mission is woven into campus life, with chapel and faith-based programming alongside standard academics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "152099": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-affiliated (General Baptist) university in rural Oakland City, Indiana, offering a low-cost, close-community option for students seeking personal attention and small class sizes rather than a large-campus experience.",
+    "distinctives": [
+      "Small private university with a General Baptist religious affiliation and mission emphasis",
+      "Offers undergraduate and graduate programs with a notably high acceptance rate, serving as an accessible option for many applicants",
+      "Small town, rural Indiana setting distinct from larger metro-area colleges",
+      "Emphasizes personal, small-class instruction rather than large lecture formats"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "154013": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic liberal arts university in Cedar Rapids, Iowa, known for a career-focused curriculum, especially in nursing and business, within a tight-knit campus community.",
+    "distinctives": [
+      "Founded by the Sisters of Mercy, retaining a Catholic mission with an emphasis on service and justice",
+      "Strong, well-regarded nursing program alongside business and education offerings",
+      "Small student body allowing close faculty-student relationships and personalized advising",
+      "Located in Cedar Rapids, offering a mid-sized Iowa city setting rather than a big-city or purely rural campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "147369": {
+    "profile_type": "researched",
+    "vibe": "A conservative evangelical Christian Bible college in downtown Chicago, focused explicitly on training students for ministry, missions, and vocational Christian service rather than a traditional secular liberal-arts path.",
+    "distinctives": [
+      "Undergraduate curriculum centers on Bible, theology, and ministry preparation, often paired with a practical ministry major",
+      "Tuition-free or heavily subsidized tuition model has historically been a hallmark of Moody's affordability approach",
+      "Urban Chicago campus embeds students in a major city context for ministry practicum and urban outreach",
+      "Strong institutional identity tied to evangelical doctrinal statements and lifestyle commitments students agree to uphold"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "121691": {
+    "profile_type": "researched",
+    "vibe": "A private liberal arts university in Redlands, California, known for its picturesque Southern California campus, individualized 'Johnston Center' alternative-education option, and a strong sense of undergraduate community within a moderately selective admissions environment.",
+    "distinctives": [
+      "Offers the Johnston Center for Integrative Studies, a self-designed, narrative-evaluation alternative to conventional grading",
+      "Strong programs in business, environmental studies, and music (including a well-known School of Music)",
+      "Historic, tree-lined Southern California campus in Redlands, within reach of Los Angeles and Palm Springs",
+      "Moderately selective private university emphasizing small class sizes and undergraduate research opportunities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "131283": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized Catholic research university in Washington, D.C., with a national basilica on campus and a strong sense of religious identity paired with access to a major East Coast capital city.",
+    "distinctives": [
+      "Pontifical university chartered by the U.S. Catholic bishops, with a School of Canon Law unique among U.S. Catholic institutions",
+      "Located in Washington, D.C., giving students easy access to internships on Capitol Hill, at federal agencies, and at national nonprofits/media outlets",
+      "Home to the Rome School of Music, Drama, and Art and a well-regarded School of Architecture and Planning offering a five-year professional degree",
+      "Campus includes the Basilica of the National Shrine of the Immaculate Conception, one of the largest Catholic churches in North America"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219383": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-affiliated (Baptist heritage) private university in Sioux Falls, South Dakota, known for a close-knit, personally attentive campus community and strong regional identity.",
+    "distinctives": [
+      "Small private university affiliated with the American Baptist Churches, with a visible campus emphasis on faith integration alongside academics",
+      "Competes in NAIA athletics (Great Plains Athletic Conference) with a broad range of varsity sports for its size",
+      "Offers professional programs including nursing, education, and business alongside liberal arts, with small class sizes typical of a tuition-driven private college",
+      "Located in Sioux Falls, South Dakota's largest city, giving students access to a growing regional health care and finance job market for internships"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "230852": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused private college in Burlington, Vermont, best known for pioneering hands-on programs in game design, cybersecurity, and creative professions, with a practical, industry-oriented culture rather than a traditional liberal-arts feel.",
+    "distinctives": [
+      "Widely recognized as one of the top game design programs in the country, frequently ranked highly by The Princeton Review and similar outlets",
+      "Strong emphasis on career-relevant, applied majors \u2014 including cybersecurity/digital forensics, software engineering, film, and business \u2014 often built around required internships or co-ops",
+      "Located in Burlington, Vermont, a small, outdoorsy college city on Lake Champlain",
+      "Historically grew out of a business/professional training school lineage, giving it a hands-on, skills-first academic culture distinct from most liberal arts colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "140951": {
+    "profile_type": "researched",
+    "vibe": "A large, highly selective-in-portfolio-review, career-focused private art and design university with a distinctive creative, visually immersive campus culture spread across historic Savannah, Georgia (plus locations in Atlanta and abroad).",
+    "distinctives": [
+      "One of the largest and most comprehensive art and design universities in the U.S., offering dozens of majors spanning animation, film, fashion, interior design, UX, and more",
+      "Main campus occupies restored historic buildings throughout Savannah's downtown historic district, giving it an unusually integrated town-and-campus feel",
+      "Also operates a campus in Atlanta, Georgia, plus study-abroad/international programming",
+      "Admission emphasizes portfolio/creative potential alongside academics rather than being purely test-score or GPA driven, and the university is known for strong industry placement in animation, VFX, and game design"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "164562": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic liberal arts university in Worcester, Massachusetts, run in the Augustinian tradition, offering a close-knit residential campus experience within a mid-sized New England college city.",
+    "distinctives": [
+      "Rooted in the Augustinian Catholic tradition (founded by the Augustinians of the Assumption), with a mission emphasizing faith, reason, and service",
+      "Located in Worcester, Massachusetts, part of a dense cluster of colleges and universities in the city and greater Worcester area",
+      "Changed its name from Assumption College to Assumption University in 2021 as it expanded graduate offerings",
+      "Offers professional-adjacent liberal arts programs, including notable strength in nursing, business, and pre-health tracks, alongside a core liberal arts curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "192323": {
+    "profile_type": "researched",
+    "vibe": "A small Jesuit liberal arts college in Syracuse, NY, with a close-knit, values-driven community that blends a Catholic/Jesuit mission with professional programs like nursing and business.",
+    "distinctives": [
+      "Jesuit Catholic institution emphasizing 'cura personalis' (care for the whole person) and service-oriented education",
+      "Strong nursing, physician assistant, and business programs alongside a core liberal arts curriculum",
+      "Small undergraduate enrollment fostering close faculty-student relationships",
+      "Competes in NCAA Division I athletics as the Dolphins"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "170082": {
+    "profile_type": "researched",
+    "vibe": "A large, spirited public university in Allendale, Michigan, known for practical, career-focused programs and a strong sense of school pride centered on its 'Laker' identity near Grand Rapids.",
+    "distinctives": [
+      "Large public university with a comparatively high admission rate, making it broadly accessible",
+      "Well-regarded health sciences programs, including physical therapy and nursing, plus strong engineering and business schools",
+      "Main campus in Allendale with a significant downtown Grand Rapids presence for health/professional programs",
+      "NCAA Division II athletics with a historically strong football and other athletic programs; mascot is the Laker"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "166513": {
+    "profile_type": "researched",
+    "vibe": "A public research university on the Merrimack River in Lowell, Massachusetts, known for hands-on engineering and STEM education, co-op/experiential learning, and a rising Division I athletics profile, especially hockey.",
+    "distinctives": [
+      "Strong reputation in engineering, computer science, and the sciences, with a legacy plastics/polymer engineering program that is nationally distinctive",
+      "Offers co-op and experiential learning opportunities tying academics to industry experience",
+      "Part of the University of Massachusetts public system, offering relatively strong value for in-state students",
+      "NCAA Division I River Hawks, with an especially prominent and successful men's ice hockey program (Hockey East)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "233426": {
+    "profile_type": "researched",
+    "vibe": "A small private liberal arts college in Salem, Virginia (Roanoke Valley), with a Lutheran (ELCA) heritage, a picturesque campus, and a warm, community-oriented residential feel.",
+    "distinctives": [
+      "Private, historically Lutheran-affiliated liberal arts college with a strong emphasis on undergraduate teaching and mentorship",
+      "Popular programs include business administration, psychology, and health/pre-professional tracks",
+      "Known for a scenic campus set against the Blue Ridge Mountains and strong study-abroad participation",
+      "NCAA Division III athletics as the Maroons, with a strong sense of campus community and traditions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "183974": {
+    "profile_type": "researched",
+    "vibe": "A small, highly accessible private university in Hackettstown, New Jersey, distinctive for its nationally recognized equine studies program alongside a mix of professional and creative majors.",
+    "distinctives": [
+      "Widely known for its equine studies program, one of the more distinctive and recognized programs of its kind nationally, supported by on-campus riding facilities",
+      "Small enrollment with a high admission rate, making it a broadly accessible option",
+      "Offers career-focused programs in business, education, fashion, and nursing alongside the arts and sciences",
+      "NCAA Division III athletics as the Cyclones, with a small, tight-knit campus community"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "124292": {
+    "profile_type": "researched",
+    "vibe": "A tiny, intensely traditional Catholic liberal arts college where every student follows the same four-year Great Books curriculum, with no majors, no electives, and learning driven almost entirely by Socratic seminar discussion rather than lectures.",
+    "distinctives": [
+      "Single integrated 'Great Books' curriculum required of all students \u2014 no majors, minors, or elective courses; everyone graduates with the same liberal arts degree",
+      "Classes are taught by discussion (tutorials/seminars), not lecture, with faculty called 'tutors' rather than professors",
+      "Very small total enrollment, with a main campus in Santa Paula, California and a second campus in Northfield, Massachusetts",
+      "Devoutly and explicitly Catholic in identity and daily life, with religious practice woven into campus culture"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "236133": {
+    "profile_type": "researched",
+    "vibe": "A small, evangelical Christian university just outside Seattle that blends a faith-centered campus life with practical, career-oriented majors like business, nursing, and education, while also serving as a training ground for ministry.",
+    "distinctives": [
+      "Affiliated with the Assemblies of God denomination, with a strong ministry/theology program alongside more conventional undergraduate majors",
+      "Located in Kirkland, Washington, giving students proximity to the greater Seattle metro area and its tech/business job market",
+      "Relatively small, less-selective institution that emphasizes personal faith formation, chapel, and close-knit community life alongside academics",
+      "Offers both undergraduate and graduate programs, including programs aimed at working adults and online learners"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "202763": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized private university in northwest Ohio best known for its animal-focused programs \u2014 especially equestrian studies and pre-veterinary/animal science \u2014 alongside a respected pharmacy school and career-practical majors.",
+    "distinctives": [
+      "Home to one of the most established and respected equestrian studies programs in the country, with its own equestrian complex and multiple riding disciplines",
+      "Strong pre-veterinary and animal science offerings, often cited as a regional draw for students pursuing veterinary careers",
+      "Houses a College of Pharmacy offering a Doctor of Pharmacy (Pharm.D.) degree",
+      "Historically known for international business and foreign language programs; athletics teams are the Oilers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "236577": {
+    "profile_type": "researched",
+    "vibe": "A private Christian university on Seattle's Queen Anne hill that combines a Free Methodist faith identity with an urban setting close to the city's tech and healthcare industries, known for nursing and business programs.",
+    "distinctives": [
+      "Affiliated with the Free Methodist Church, with chapel and Christian formation woven into a traditional liberal arts curriculum",
+      "Located directly in Seattle, giving students unusually close access to internships and jobs in the city's tech, healthcare, and business sectors",
+      "Nursing is one of its most prominent and long-standing programs, alongside business and computer science",
+      "Small residential campus culture with strong ties to its Free Methodist heritage"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "195809": {
+    "profile_type": "researched",
+    "vibe": "A large, diverse Catholic (Vincentian) university based in Queens, New York, with a strong urban, career-focused identity anchored by nationally known pharmacy, business, and law programs, plus a high-profile Division I athletics tradition.",
+    "distinctives": [
+      "Main campus in Queens, NY, with additional U.S. campuses in Staten Island and Manhattan and international study locations including Rome and Paris",
+      "College of Pharmacy and Health Sciences is one of the university's most recognized and long-running programs",
+      "Tobin College of Business and a well-regarded School of Law give it strong pre-professional and graduate pipelines",
+      "Division I athletics in the Big East Conference, with a men's basketball program historically among the most storied in New York City college sports"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "168254": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Springfield, Massachusetts known for a hands-on, career-focused education, especially in engineering, business, and pharmacy, with a tight-knit campus community and strong faculty accessibility.",
+    "distinctives": [
+      "Offers a six-year Doctor of Pharmacy (PharmD) program through its College of Pharmacy and Health Sciences",
+      "Its College of Engineering is known for project-based, hands-on learning and co-op/internship opportunities",
+      "Home to a School of Law, one of relatively few small private universities with an on-campus law school",
+      "Competes in NCAA Division III athletics as the Golden Bears"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "113698": {
+    "profile_type": "researched",
+    "vibe": "A small, Catholic-founded liberal arts university in San Rafael, California, in scenic Marin County near San Francisco, offering an intimate, personalized academic environment with very small class sizes.",
+    "distinctives": [
+      "Known for strong health science programs, including nursing and occupational therapy",
+      "Very small student-to-faculty ratio and small overall enrollment compared to most four-year universities",
+      "Located in Marin County, close to San Francisco, giving students access to a major metro area while on a quiet suburban campus",
+      "Originally founded by Dominican Sisters as a women's college before becoming coeducational"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161518": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic college historically based on Sebago Lake in Standish, Maine, long known for pairing a small residential campus with a large online adult-degree program among small New England colleges, though the institution has faced significant financial and structural challenges in recent years.",
+    "distinctives": [
+      "Long operated a large online/distance-learning division (including nursing and other adult-degree programs) alongside its small residential campus",
+      "Traditional strength in nursing and health-related programs",
+      "Scenic lakeside campus setting on Sebago Lake near Standish, Maine",
+      "The college has undergone financial strain in recent years affecting its residential operations, so prospective students should verify current enrollment status directly with the college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "212106": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized private Catholic university in Uptown Pittsburgh, founded by the Spiritan order, offering a values-driven education with strong professional and health science programs and dramatic views of the city skyline.",
+    "distinctives": [
+      "Highly regarded School of Pharmacy offering a Doctor of Pharmacy (PharmD) program",
+      "Palumbo-Donahue School of Business is AACSB-accredited and a core strength of the university",
+      "Also home to a School of Law and strong nursing/health sciences programs",
+      "Competes in NCAA Division I athletics as the Dukes, with a campus perched above downtown Pittsburgh offering notable skyline views"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153658": {
+    "profile_type": "researched",
+    "vibe": "A large public flagship research university in Iowa City, Iowa, combining major Big Ten athletics culture with a nationally renowned literary and academic reputation in a classic college-town setting.",
+    "distinctives": [
+      "Home to the Iowa Writers' Workshop, widely regarded as one of the most prestigious creative writing MFA programs in the United States",
+      "Major academic medical center (University of Iowa Hospitals & Clinics) supporting a strong College of Medicine and health sciences programs",
+      "Well-known School of Journalism and Mass Communication and a strong College of Law",
+      "NCAA Division I Hawkeyes athletics program is a central part of campus and Iowa City community life, part of the Big Ten Conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
