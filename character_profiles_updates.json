@@ -5625,5 +5625,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "102094": {
+    "profile_type": "researched",
+    "vibe": "A young public research university built to serve Alabama's Gulf Coast, South blends a medical-school-anchored research mission with a laid-back coastal campus feel in Mobile.",
+    "distinctives": [
+      "The University of South Alabama was created by an act of the Alabama Legislature on May 3, 1963, and welcomed its first class of 276 students in June 1964.",
+      "Frederick Palmer Whiddon served as founding president for 35 years, from 1963 to 1998, shaping the university from its earliest days.",
+      "South operates one of only two state-supported medical schools in Alabama and holds Carnegie R2 'Doctoral Universities \u2013 High research activity' status.",
+      "Notable alumni include MLB players Luis Gonzalez, David Freese, and Juan Pierre, and the school opened its on-campus Hancock Whitney Stadium in 2022 as its Jaguars football program grew."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "212984": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university in Philadelphia rooted in a teaching order's mission, Holy Family has grown from a single-purpose teacher-training school into a multi-school institution built around nursing, education, and business.",
+    "distinctives": [
+      "Holy Family University was founded in 1954 by the Sisters of the Holy Family of Nazareth as the Holy Family Teacher Training School, making it the youngest of Philadelphia's four Catholic universities (alongside Saint Joseph's, La Salle, and Chestnut Hill).",
+      "The university added graduate education programs in 1990 and expanded steadily into nursing and counseling psychology (1997), an accelerated business degree (2003), and a Doctor of Nursing Practice (2017) and Psy.D. program (2019).",
+      "Its mascot is Blue the Tiger, and the school today enrolls roughly 3,100 students (fall 2024) across four schools: Arts & Sciences, Business & Technology, Education, and Nursing & Health Sciences.",
+      "Notable alumni include Gene DiGirolamo, a longtime member of the Pennsylvania House of Representatives, and Erick Stakelbeck, an author and television host."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "117140": {
+    "profile_type": "researched",
+    "vibe": "Founded by the Church of the Brethren in the Southern California hills, La Verne has grown into a diverse, values-driven university known for the painted boulder at its heart and a student body that is majority Hispanic.",
+    "distinctives": [
+      "The University of La Verne was founded in 1891 as Lordsburg College by members of the Church of the Brethren, was renamed La Verne College in 1917, and became a university in 1977; the Board achieved independence from Brethren control in 1969.",
+      "A campus landmark called 'The Rock,' a large boulder in front of Founders Hall, has been repainted by students for more than 60 years to announce events and mark milestones.",
+      "The university ran an international campus in Athens, Greece from 1975 to 2004 and founded its College of Law in 1970.",
+      "84% of undergraduates identify as students of color and 63% as Hispanic or Latino; notable alumni include CSI creator Anthony E. Zuiker, TV host Ross Mathews, and MLB reliever Dan Quisenberry, a 1985 World Series champion with 238 career saves."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "165699": {
+    "profile_type": "researched",
+    "vibe": "Perched on a 235-acre oceanfront campus north of Boston, Endicott built its identity as a women's junior college focused on career readiness and still centers its curriculum on hands-on internships rather than a traditional senior thesis.",
+    "distinctives": [
+      "Endicott College was founded in 1939 as Endicott Junior College by Eleanor Tupper and George O. Bierkoe, a two-year women's college aimed at 'educating women for greater independence and an enhanced position in the workplace'; its first class of 20 students graduated in 1941.",
+      "It dropped 'Junior' from its name in 1975, became a four-year college in 1988, and went coeducational in 1994.",
+      "Every bachelor's degree candidate is required to complete three distinct internships before graduating, including two 120-hour placements and a semester-long senior internship.",
+      "The campus sits on 235 oceanfront acres in Beverly, Massachusetts, and Richard E. Wylie's 30-year presidency (1988-2018) drove much of its modern expansion; notable alumni include Olympic figure skater Aimee Buchanan and former Miss USA Susie Castillo."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "146612": {
+    "profile_type": "researched",
+    "vibe": "A Catholic university outside Chicago with roots in an aviation trade school, Lewis still trades on its aeronautics pedigree, sitting adjacent to its own airport.",
+    "distinctives": [
+      "Lewis University was founded in 1932 by Bishop Bernard J. Scheil of the Archdiocese of Chicago as the Holy Name Technical School, and was renamed Lewis Holy Name School of Aeronautics in 1935 after philanthropist Frank J. Lewis, who funded much of the campus.",
+      "During World War II the campus served as a U.S. Navy pilot training facility, and the school admitted its first female students in 1949.",
+      "Its Department of Aviation and Transportation Studies remains a signature program, with the campus located adjacent to Lewis University Airport.",
+      "Notable alumni include eight-time Grammy winner Chaka Khan, 'Pitch Perfect' screenwriter and director Kay Cannon, and Tim McCarthy, the former Secret Service agent wounded protecting President Reagan in 1981."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "120883": {
+    "profile_type": "researched",
+    "vibe": "Pacific blends a historic, film-ready campus with unusually early professional programs, functioning almost like a small university system across three California cities.",
+    "distinctives": [
+      "Chartered July 10, 1851 as California Wesleyan College in Santa Clara, it was the first university chartered in the state of California, later renamed University of the Pacific.",
+      "Its Conservatory of Music was founded in 1878, making it the first conservatory west of the Mississippi River.",
+      "The Stockton campus's Ivy League-style Gothic architecture has been used as a filming location for movies including 'Raiders of the Lost Ark' and 'Indiana Jones and the Kingdom of the Crystal Skull.'",
+      "Notable alumni include jazz pianist Dave Brubeck, NASA astronaut Jose Hernandez, NFL coach Pete Carroll, and Arif Alvi, who served as the 13th President of Pakistan from 2018 to 2024."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "183910": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university just outside Manhattan, Caldwell keeps its Dominican-order roots visible while quietly pushing into new fields like esports.",
+    "distinctives": [
+      "Founded August 10, 1939 by the Sisters of St. Dominic as Caldwell College for Women, it became coeducational and was renamed Caldwell University in 2014.",
+      "The 70-acre campus in Caldwell, New Jersey is shared with the Sisters of St. Dominic's convent and Mount Saint Dominic Academy, an all-girls high school, and sits about 20 miles from Manhattan.",
+      "In 2019 Caldwell launched a varsity eSports team alongside a B.S. degree in eSports Management, making it an early academic adopter of competitive gaming.",
+      "The U.S. Department of Education designated Caldwell a Hispanic-Serving Institution in 2020."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "232423": {
+    "profile_type": "researched",
+    "vibe": "JMU grew from a women's teacher-training school into a spirited, tradition-heavy public university best known for the size and reach of its marching band and campus culture.",
+    "distinctives": [
+      "Established February 29, 1908 as the State Normal and Industrial School for Women at Harrisonburg, it was renamed Madison College in 1938 to honor President James Madison, whose Montpelier estate lies nearby in Orange, Virginia, before becoming James Madison University in 1977.",
+      "The Marching Royal Dukes, with roughly 540 members as of fall 2022, is the largest collegiate marching band in the country and has performed at presidential inaugurations and the Macy's Thanksgiving Day Parade four times.",
+      "In 2020 JMU renamed three historic residence halls that had previously honored Confederate figures.",
+      "Student-run SafeRides has provided more than 100,000 free late-night rides to students since its founding, reflecting JMU's strong campus-community culture."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153834": {
+    "profile_type": "researched",
+    "vibe": "A tight-knit Norwegian-Lutheran liberal arts college in the bluffs of Decorah, Iowa, Luther pairs strong music and study-abroad traditions with a nearly campus-wide residential community.",
+    "distinctives": [
+      "Founded in 1861 as a Lutheran seminary by Norwegian immigrants, Luther College moved to Decorah, Iowa in 1862, where its campus still borders the Vesterheim Norwegian-American Museum tradition and the annual Nordic Fest started in 1967.",
+      "Luther maintains four internationally touring music ensembles and produces the nationally broadcast 'Christmas at Luther' concert each year.",
+      "More than two-thirds of Luther students study abroad, and the college has kept a distinctive 4-1-4 semester calendar (including a short January term) since the 1960s.",
+      "Notable alumni include longtime Chicago Symphony Orchestra principal trumpet Adolph Herseth (1943) and former Marriott International CEO Arne Sorenson (1980)."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "137546": {
+    "profile_type": "researched",
+    "vibe": "Florida's oldest private college, Stetson carries the name and philanthropy of hat magnate John B. Stetson into a campus centered on one of the state's longest-running law schools.",
+    "distinctives": [
+      "Founded in 1883 as DeLand Academy by Henry Addison DeLand, it was renamed for hat manufacturer and philanthropist John B. Stetson in 1889 after his major donations, and it holds the distinction of being the oldest private college in Florida.",
+      "DeLand Hall, opened in 1884, is the oldest building in Florida still in continuous use for higher education.",
+      "Stetson University College of Law, founded in 1900 and relocated to Gulfport in 1954, has been continuously accredited by the Association of American Law Schools since 1931.",
+      "Notable alumni include Cy Young Award-winning pitchers Jacob deGrom and Corey Kluber, as well as former Florida Attorney General and current U.S. Senator Ashley Moody."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "177339": {
+    "profile_type": "researched",
+    "vibe": "A Pentecostal Christian university in Springfield, Missouri, built on the grounds of a former WWII Army hospital and shaped by the Assemblies of God, blending ministry training with a full liberal-arts catalog.",
+    "distinctives": [
+      "Evangel University was founded in 1955 as the first national liberal arts college of the Assemblies of God denomination, chartered as 'Evangel College' before university status came later.",
+      "The 80-acre campus sits on the former grounds of O'Reilly General Hospital, a U.S. Army hospital that operated in Springfield during World War II, and several early campus buildings were converted Army structures.",
+      "In 2013 Evangel absorbed two sister Assemblies of God institutions, Central Bible College and the Assemblies of God Theological Seminary, consolidating Pentecostal higher education in Springfield onto one campus.",
+      "Notable alumni include Richard Grenell, who served as U.S. Ambassador to Germany and acting Director of National Intelligence, and Adm. Vern Clark, the 27th Chief of Naval Operations."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153126": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university on a Mississippi River bluff in Dubuque, Iowa, founded by pioneering sisters and now known equally for social-work programs and an NAIA basketball championship.",
+    "distinctives": [
+      "Clarke University traces to 1843, when Mother Mary Frances Clarke and the Sisters of Charity of the Blessed Virgin Mary opened St. Mary's Female Academy, making it one of the first schools for women established west of the Mississippi River.",
+      "A fire on May 17, 1984 destroyed four of the college's main buildings; the campus was rebuilt by 1986 around the distinctive glass-enclosed Wahlert Atrium that still anchors it today.",
+      "Alumna Sister Mary Kenneth Keller became the first woman in the United States to earn a PhD in computer science, and novelist George R. R. Martin both graduated from and later taught journalism and English at Clarke.",
+      "The women's basketball team won the NAIA Division II national championship in 2022-23, and the school formally became coeducational and was renamed Clarke University (from Clarke College) in 2010."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "167899": {
+    "profile_type": "researched",
+    "vibe": "The self-described 'Birthplace of Basketball' in Springfield, Massachusetts, where a 19th-century YMCA training school became the launching pad for two of the world's most popular sports.",
+    "distinctives": [
+      "Founded in 1885 as the School for Christian Workers (later the International YMCA Training School), the institution took the name Springfield College in 1954.",
+      "In the winter of 1891-92, instructor James Naismith invented basketball on campus at the request of Dr. Luther Halsey Gulick, nailing peach baskets ten feet up the gymnasium balcony and drafting 13 original rules.",
+      "William G. Morgan, a 1894 graduate of the school, invented volleyball (originally called Mintonette) in 1895 at the nearby Holyoke, Massachusetts YMCA, giving the college a claim to inventing two major American sports.",
+      "The college's academic identity centers on physical education, exercise science, and 'Humanics,' the guiding philosophy of educating the whole person in spirit, mind, and body that Gulick championed there in the 1880s."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "239071": {
+    "profile_type": "researched",
+    "vibe": "A conservative independent Baptist university in Watertown, Wisconsin, founded in the late 1960s to train pastors and church leaders and still built around that mission today.",
+    "distinctives": [
+      "Maranatha Baptist University opened its doors on September 10, 1968 as Maranatha Baptist Bible College, founded by B. Myron Cedarholm with 173 students and 27 faculty members.",
+      "Cedarholm purchased the campus, a former Brothers of the Holy Cross property, for roughly $150,000; that same land is now valued at millions of dollars and remains the school's 79-acre urban Watertown campus.",
+      "The school's name comes from the Aramaic phrase 'Maranatha' ('Lo, He cometh'), drawn from 1 Corinthians 16:22, reflecting its independent Baptist doctrinal identity.",
+      "It was renamed from Maranatha Baptist Bible College to Maranatha Baptist University in 2013, after earning Higher Learning Commission accreditation in 1993, and its women's volleyball program won eight NCCAA national championships between 1987 and 2017."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214175": {
+    "profile_type": "researched",
+    "vibe": "A Lutheran-founded liberal arts college in Allentown, Pennsylvania, whose campus culture is distinctively shaped by one of the largest Jewish student populations of any historically Christian college in the country.",
+    "distinctives": [
+      "Muhlenberg College was founded in 1848 as the Allentown Seminary by Reformed Lutheran minister Samuel K. Brobst and was later renamed for Henry Muhlenberg, the patriarch of American Lutheranism.",
+      "Despite its Lutheran roots, roughly 30 percent of Muhlenberg's students are Jewish and Hillel is the college's largest student organization; the school offers one of the relatively few standalone Jewish studies majors among American liberal arts colleges.",
+      "Under coach Ben Schwartzwalder, Muhlenberg's football team won a 1946 national small-college championship by defeating St. Bonaventure University in the postseason 'Tobacco Bowl.'",
+      "Athletic teams compete as the Mules with mascot Marti the Mule, and the campus displays public artwork by internationally known sculptor Mark di Suvero."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "220862": {
+    "profile_type": "researched",
+    "vibe": "Memphis is a public research university whose blue-and-gray colors were chosen after the Civil War to symbolize reunification, and it has grown from a small teachers' college into the city's largest institution of higher learning.",
+    "distinctives": [
+      "The University of Memphis was established by Tennessee's General Education Bill in 1909 and opened its doors on September 10, 1912, as West Tennessee State Normal School under founding president Seymour A. Mynders.",
+      "The school did not take its current name until 1994, having previously been known as West Tennessee State Teachers College (1925) and Memphis State University/College before that.",
+      "Memphis holds 25 Chairs of Excellence, more than any other university in Tennessee, an endowed-professorship program created by the state legislature in 1984 to attract top scholars.",
+      "Notable alumni include NBA guard Derrick Rose, Grammy-winning musician Jason Isbell, and science writer Rebecca Skloot (author of 'The Immortal Life of Henrietta Lacks'), who also teaches in the English department."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "195544": {
+    "profile_type": "researched",
+    "vibe": "St. Joseph's is a small, values-driven Catholic institution founded by nuns to educate women in Brooklyn, and it only became a university in name in 2022 after more than a century as a college.",
+    "distinctives": [
+      "St. Joseph's College for Women was founded in 1916 by the Congregation of the Sisters of St. Joseph in Brooklyn's Clinton Hill neighborhood, opening with just twelve students.",
+      "The college went coeducational in 1969 and did not gain university status, becoming St. Joseph's University, New York, until it was approved by the New York State Board of Regents in 2022.",
+      "In 1934, the school established one of the East Coast's first laboratory preschools, reflecting its long emphasis on teacher preparation.",
+      "The university now enrolls roughly 3,900 students across Brooklyn, Long Island, and online, and counts about 49,000 living alumni worldwide."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "130226": {
+    "profile_type": "researched",
+    "vibe": "Quinnipiac is a private university in Hamden, Connecticut best known nationally for its nonpartisan Polling Institute and for a 2023 national championship that put its ice hockey program on the map.",
+    "distinctives": [
+      "Quinnipiac was founded in 1929 as the Connecticut College of Commerce, created after Northeastern University abandoned its New Haven program at the onset of the Great Depression; it began with fewer than 200 students.",
+      "The school took the name Quinnipiac College in 1951, honoring the Quinnipiac tribe that once inhabited the greater New Haven area, and relocated to its Hamden hilltop campus in 1966; it became Quinnipiac University in 2000.",
+      "The Quinnipiac University Polling Institute, launched in 1988, is one of the most frequently cited independent polling operations by national news outlets during U.S. elections.",
+      "In 2023, the men's ice hockey team won the NCAA Division I national championship, the first national title in any sport in the university's history."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217484": {
+    "profile_type": "researched",
+    "vibe": "URI grew out of a small land-grant agricultural school on a South Kingstown farm into a full 'Land, Sea, and Urban Grant' research university, with oceanography and pharmacy as historic strengths tied to its coastal setting.",
+    "distinctives": [
+      "The University of Rhode Island traces its roots to 1888, when it was chartered as the State Agricultural School on the 140-acre Oliver Watson Farm, purchased for $5,000 using funds tied to the federal land-grant Morrill Act.",
+      "The school changed names several times before becoming the University of Rhode Island in 1951, having previously been Rhode Island College of Agriculture and Mechanic Arts (1892) and Rhode Island State College (1909).",
+      "URI established one of the first university-operated marine laboratories in the country in 1896, laying groundwork for what later became its nationally recognized Graduate School of Oceanography.",
+      "Its Reserve Officers' Training Corps program, founded in 1894 by Captain William Wallace Wotherspoon, was one of the earliest ROTC programs in the nation; Wotherspoon later became U.S. Army Chief of Staff."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "227216": {
+    "profile_type": "researched",
+    "vibe": "UNT began as a small teacher-training college above a Denton hardware store and grew into a Tier One research university whose College of Music is internationally renowned as the birthplace of collegiate jazz education.",
+    "distinctives": [
+      "The University of North Texas was founded on September 16, 1890, by Joshua C. Chilton as the Texas Normal College and Teacher Training Institute, opening with about 70 students.",
+      "UNT's College of Music, dating to 1890, established the first jazz studies degree program in the world in 1947, and its jazz program was ranked the nation's best by U.S. News & World Report from 1994 to 1997.",
+      "The university did not become a general university until 1961 and did not adopt the name 'University of North Texas' until 1988; it was designated a Tier One research university by the Carnegie Classification in 2010.",
+      "Musicians Roy Orbison and Don Henley of the Eagles both attended North Texas State University (as UNT was then known) before launching their recording careers."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "236328": {
+    "profile_type": "researched",
+    "vibe": "A Pacific Northwest liberal arts college in Tacoma known for rain-soaked forests, a distinctive combined School of Music and School of Business, and a quirky, decades-old hatchet cult tradition.",
+    "distinctives": [
+      "Puget Sound was chartered on March 17, 1888 by the Methodist Episcopal Church as 'The Puget Sound University' and opened its doors to 88 students in September 1890.",
+      "It is the only independent national undergraduate liberal arts college in the Pacific Northwest to house both a School of Music and a School of Business and Leadership.",
+      "The 'Log' tradition began in 1906 with a ceremonial hatchet that has been secretly passed between graduating senior classes for over a century, complete with disappearances and dramatic recoveries.",
+      "Every three years, the Pacific Rim/Asia Study-Travel Program selects 15-25 students to spend two full semesters traveling and researching across eight Asian countries, an unusually immersive study-abroad model for a school its size."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "486901": {
+    "profile_type": "researched",
+    "vibe": "A small Christian liberal arts university in the Tennessee hills built on a service-first ethos, whose campus was once handed over almost entirely to the U.S. Navy during World War II.",
+    "distinctives": [
+      "Founded in 1866 as the Buffalo Male and Female Institute in East Tennessee, the school was renamed Milligan College in 1881 (after trustee Josephus Hopwood honored professor Robert Milligan) and became Milligan University in 2020.",
+      "During World War II, Milligan was the only college in the nation to turn its facilities completely over to naval training, hosting the V-12 Navy College Training Program from 1943 to 1945.",
+      "Alumnus Francis Gary Powers, class of 1950, was the U.S. pilot whose U-2 spy plane was shot down over the Soviet Union in 1960, a Cold War incident that made international headlines.",
+      "The Elizabeth Leitner Gregory Center for the Liberal Arts, opened in 2008, gave the small campus a 300-seat theater alongside its fine arts program, a significant facilities upgrade for a school of Milligan's size."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "212805": {
+    "profile_type": "researched",
+    "vibe": "A fiercely independent Pennsylvania liberal arts college that has refused all federal funding since the 1980s, choosing self-reliance over the strings attached to Pell Grants and Stafford Loans.",
+    "distinctives": [
+      "Grove City College traces its roots to Pine Grove Normal Academy, founded in 1876 with just 26 students, and was chartered under its current name in 1884.",
+      "The 1984 Supreme Court case Grove City College v. Bell, in which the court ruled 6-3 on Title IX compliance for federal aid recipients, led the college to withdraw entirely from the Pell Grant program in 1988 and the Stafford Loan program in 1996, funding students through institutional aid instead.",
+      "The college holds the post-1938 papers of free-market economist Ludwig von Mises and hosts an annual Austrian Student Scholars Conference each February for undergraduate economics research.",
+      "Every student completes a required three-year humanities core sequence covering the foundational ideas of Western civilization, religion, philosophy, history, and the arts. Notable alumni include former U.S. Vice President Mike Pence."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "189705": {
+    "profile_type": "researched",
+    "vibe": "A Jesuit university in Buffalo, New York, founded by German immigrants and named for a 16th-century Dutch Jesuit saint, with a mythical griffin as its mascot and deep ties to the region's civic and business life.",
+    "distinctives": [
+      "Canisius was founded in 1870 by German Jesuits to educate the sons of Buffalo's German immigrant community, and officially transitioned from college to university status on August 1, 2023.",
+      "The Golden Griffin mascot, adopted in 1932, was inspired by 'Le Griffon,' the ship built in Buffalo by French explorer Rene-Robert Cavelier de La Salle in 1679, the first European sailing vessel on the Great Lakes.",
+      "The school serves as the Reserve Officer Training Corps hub for Western New York and counts roughly 40,000 living alumni, including former Verizon Wireless CEO Dennis Strigl (class of 1974) and Food Network chef Anne Burrell (class of 1991).",
+      "Its George E. Schreiner Pre-Medical Center maintains structured partnerships with medical schools, reflecting a long institutional emphasis on pre-health preparation."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "163268": {
+    "profile_type": "researched",
+    "vibe": "A young, scrappy public research university near Baltimore best known for punching above its weight academically and athletically, from producing outsized numbers of STEM PhDs to pulling off the biggest upset in NCAA tournament history.",
+    "distinctives": [
+      "UMBC opened on September 19, 1966, with 750 students, 3 buildings, and 45 faculty, and became the first public college or university in Maryland founded to be inclusive of all races.",
+      "On March 16, 2018, UMBC's men's basketball team became the first 16-seed ever to beat a 1-seed in NCAA tournament history, defeating the top-overall-seeded Virginia Cavaliers 74-54.",
+      "Freeman A. Hrabowski III led UMBC as president for 30 years (1992-2022) and co-founded the Meyerhoff Scholars Program, which has become a national model for producing minority students who go on to earn STEM PhDs.",
+      "UMBC's competitive chess team won the Pan American Intercollegiate Chess Championship nine times between 1996 and 2009, and its mock trial team beat Yale University to win the 2021 American Mock Trial Association national championship."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
