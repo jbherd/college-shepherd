@@ -1,4 +1,20 @@
 {
+  "100654": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded May 1, 1875, by William Hooper Councill as the Huntsville State Normal School for Negroes, opening with 61 teaching students in a Huntsville church; became a land-grant institution in 1891 under the second Morrill Act and adopted the name Alabama Agricultural and Mechanical University in 1969.",
+      "Historic campus in Normal, AL, spans 880 acres and includes a historic district with 28 buildings on the National Register of Historic Places.",
+      "Public HBCU with roughly 7,800 students, about 90% of undergraduates identifying as Black, and a new Events Center that opened in 2022.",
+      "Notable alumni include NFL Hall of Famer and four-time Super Bowl champion John Stallworth, Super Bowl champion Robert Mathis, and Olympic gold medalist sprinter Jearl Miles Clark; the Bulldogs' Mickell Gladness set the NCAA Division I single-game record with 16 blocks in 2007."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public historically Black land-grant university in Normal, AL, founded May 1, 1875, by William Hooper Councill as a normal school for 61 Black teaching students and now an 880-acre campus whose Bulldogs athletics and historic 28-building district anchor a proud HBCU legacy in the Huntsville area."
+  },
   "100858": {
     "confidence": "researched",
     "distinctives": [
@@ -78,6 +94,22 @@
       "applied via scheduled batch on 2026-09-18"
     ],
     "vibe": "A private HBCU in Tuskegee, AL, founded in 1881 by Booker T. Washington, famed for George Washington Carver's decades on its faculty and for training the Tuskegee Airmen, the first Black military pilots, during World War II."
+  },
+  "106245": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1927 as Little Rock Junior College by the Little Rock School District, it became a private four-year institution as Little Rock University in 1957 before joining the University of Arkansas System in 1969 as UA Little Rock.",
+      "Home to the William H. Bowen School of Law, established in 1975, one of only two law schools in Arkansas.",
+      "Launched Arkansas's first NCAA Division I wrestling program in 2019, competing in the Ohio Valley Conference alongside its Trojans athletic teams.",
+      "Fall 2025 enrollment reached about 8,026 students, its largest undergraduate enrollment increase since 2001, as the university runs a Centennial Campaign toward a $250 million goal ahead of its 100th anniversary in 2027."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public research university on a 250-acre urban campus in Little Rock, AR, founded in 1927 as Little Rock Junior College and now part of the University of Arkansas System, distinguished by its Bowen School of Law and research centers in nanotechnology and data analytics, serving a largely commuter and nontraditional student population in the state capital."
   },
   "106412": {
     "confidence": "researched",
@@ -358,6 +390,22 @@
     ],
     "vibe": "A small, historically women's liberal-arts college within the Claremont Colleges consortium, built around a Mediterranean Revival campus and a humanities-forward core curriculum distinct from its more STEM-heavy consortium partners."
   },
+  "128498": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded July 13, 1925, in New Haven, CT by the Dominican Sisters of St. Mary of the Springs (now Dominican Sisters of Peace) as a Catholic women's college, with Yale president James Rowland Angell speaking at its founding ceremony",
+      "Originally required four years of Latin or Greek as part of a strict classical liberal-arts curriculum; its board restructured in 1968 to be 80% secular and 20% Dominican Sisters, and the college became coeducational in 1985, the last college in Connecticut to admit men",
+      "Sits on a 50-acre Prospect Hill campus about two miles from Yale's central campus, its historic 19th-century mansions repurposed as residence halls and administrative buildings",
+      "Enrolls roughly 1,200 full-time undergraduates and 270 full-time graduate students at a 17:1 student-faculty ratio; launched its first graduate program in 1992"
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private Catholic liberal-arts college in New Haven, CT, founded July 13, 1925 by the Dominican Sisters of St. Mary of the Springs as a women's college with a rigorous classical curriculum, now a small coeducational institution (since 1985, the last in Connecticut to go coed) occupying a 50-acre campus of converted 19th-century mansions near Yale."
+  },
   "128902": {
     "confidence": "researched",
     "distinctives": [
@@ -435,6 +483,22 @@
     ],
     "vibe": "A historically Black, land-grant university in Dover, DE, founded in 1891 as Delaware College for Colored Students; it now runs the only full-service university-based flight school in the mid-Atlantic and in 2020 received a $20 million gift from MacKenzie Scott, its largest single gift ever."
   },
+  "131450": {
+    "confidence": "researched",
+    "distinctives": [
+      "Established April 8, 1864, when President Abraham Lincoln signed the act authorizing the Columbia Institution (founded on land donated by philanthropist Amos Kendall in 1857) to confer college degrees, making it the first college in the world founded specifically for deaf and hard-of-hearing students.",
+      "Is a private, federally chartered university on a 99-acre campus in Washington, D.C.; instruction is officially bilingual, delivered in American Sign Language and written English, and it remains the only U.S. higher-education institution where all programs are specifically designed for deaf and hard-of-hearing students.",
+      "The 1988 'Deaf President Now' protest, sparked when a hearing candidate was chosen as president on March 6, 1988, forced her resignation within a week and led to the appointment of I. King Jordan as the university's first deaf president.",
+      "Enrolled 1,354 students in Fall 2024 (875 undergraduates, 460 graduates) with an endowment of $228.9 million; notable alumni include Academy Award-winning actor Troy Kotsur and actor Daniel Durant."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private, federally chartered university in Washington, D.C., established April 8, 1864, by an act signed by President Lincoln as the world's first institution to grant college degrees to deaf and hard-of-hearing students; instruction is conducted in American Sign Language and written English, and the campus's 1988 Deaf President Now protest remains a landmark moment in disability-rights history."
+  },
   "131469": {
     "confidence": "researched",
     "distinctives": [
@@ -482,6 +546,22 @@
       "applied via scheduled batch on 2026-09-16"
     ],
     "vibe": "A former aerospace-training school turned one of the largest public universities in the country, still tied to the Space Coast through NASA partnerships and known for its raucous 'Spirit Splash' homecoming tradition."
+  },
+  "133881": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded September 22, 1958, as Brevard Engineering College by Dr. Jerome P. Keuper specifically to train working engineers and technicians for the U.S. space program at nearby Cape Canaveral and what became Kennedy Space Center.",
+      "Located on Florida's Space Coast, about 16 miles from Patrick Space Force Base, the university's alumni roster includes six NASA astronauts.",
+      "Its oceanography department, founded in 1966, has produced more NOAA Corps officers than any other U.S. institution, and its School of Aeronautics, established in 1967, is one of a small number of American university-based aviation-degree programs.",
+      "Roughly half of Florida Tech's students study in the College of Engineering and Science; the men's soccer team won back-to-back NCAA Division II national championships in 1988 and 1991."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private technological university in Melbourne, FL, founded on September 22, 1958, as Brevard Engineering College to train the workforce for the nascent U.S. space program, and still deeply tied to aerospace, oceanography, and aviation on Florida's Space Coast."
   },
   "133951": {
     "confidence": "researched",
@@ -611,6 +691,22 @@
     ],
     "vibe": "A small Church of God-affiliated university in Lake Wales, Florida, founded in 1968 as Warner Southern College, with an agriculture- and ministry-oriented curriculum built around a hands-on missionary-training simulation village."
   },
+  "138354": {
+    "confidence": "researched",
+    "distinctives": [
+      "Established in 1963 as the sixth university in the Florida State University System; opened to its first students in fall 1967 and awarded its first degrees to 58 graduates in June 1968, under founding president Harold Crosby.",
+      "Sits on a roughly 1,600-acre campus in Pensacola's Ferry Pass area -- the third-largest campus footprint in Florida's public university system -- and its anthropology/archaeology department curates the Arcadia Mill Complex, the first industrial complex powered by water in Florida.",
+      "Its emblem, the chambered nautilus, was adopted in 1965 to symbolize 'growth, change and accomplishment,' and the school's motto is 'No Limit.'",
+      "UWF football, launched only in 2016, won the NCAA Division II national championship in 2019 in just its fourth season; the Argonauts have earned 11 national championships across sports, most recently men's golf in 2025."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public university in Pensacola, FL, founded in 1963 as the sixth school in Florida's state university system, known for its sprawling 1,600-acre campus, strong maritime-archaeology ties through the Arcadia Mill site, and a young football program that won a national title just four years after its 2016 launch."
+  },
   "138868": {
     "confidence": "researched",
     "distinctives": [
@@ -688,6 +784,22 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A small, career-focused university in Thomasville, Georgia that traces back to a 1950 Primitive Baptist junior college founded on the former winter estate of a colonial governor-general -- now a nonsectarian institution serving traditional, working-adult, and military students with programs like nursing and criminal justice."
+  },
+  "141325": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1836 as Georgia Female College, it was the first college in the world chartered to grant degrees to women, opening to students in 1839",
+      "Home to the world's oldest alumnae association, begun in 1859, and birthplace of the first two American sororities, Alpha Delta Pi (1851) and Phi Mu (1852), together nicknamed the 'Macon Magnolias'",
+      "Sits on a 200-acre Macon, GA campus with Georgian Revival architecture and a 6.3-acre lake, and hosts the annual International Cherry Blossom Festival",
+      "Remains a women's undergraduate college (coed at the graduate level) with roughly 650 total students; athletic teams, the Wolves, are moving from NCAA Division III to the NAIA starting the 2026-27 academic year"
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private, historically women's liberal-arts college in Macon, GA, chartered in 1836 as Georgia Female College and the first institution in the world empowered to grant degrees to women, still educating undergraduate women today amid Georgian Revival buildings and a legacy of founding the nation's first sororities."
   },
   "141334": {
     "confidence": "researched",
@@ -1418,6 +1530,22 @@
     ],
     "vibe": "A small independent art and design college in Minneapolis, founded in 1886 as the Minneapolis School of Fine Arts under portrait painter Douglas Volk, and now one of only a few U.S. art schools with a dedicated comic art major."
   },
+  "174358": {
+    "confidence": "researched",
+    "distinctives": [
+      "Opened in 1888 as Moorhead Normal School, a teacher-training institution, and has been renamed several times since -- Moorhead State Teachers College (1921), Moorhead State College (1957), Moorhead State University (1975), and finally Minnesota State University Moorhead in 2000.",
+      "Operates New Rivers Press, a nonprofit literary publisher founded in 1968, alongside student-run literary outlets Red Weather magazine and The Yellow Bicycle journal, reflecting a strong creative-writing tradition.",
+      "Hosts an annual Student Academic Conference, established in 1998, where undergraduates present original research and creative work across every discipline on campus.",
+      "Notable alumni include Academy Award-nominated actor Barkhad Abdi (Captain Phillips), longtime U.S. Representative Collin Peterson, and poet James Wright, a Pulitzer Prize winner."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public regional university in Moorhead, MN, founded in 1888 as a teacher-training normal school and now known as the Dragons, with an emphasis on writing and the arts through its own literary press and student journals, alongside AACSB-accredited business and accredited nursing programs serving the Fargo-Moorhead metro."
+  },
   "174844": {
     "confidence": "researched",
     "distinctives": [
@@ -1529,6 +1657,22 @@
     ],
     "vibe": "A United Methodist-affiliated university in Fayette, Missouri, founded in 1853 and now the only Methodist-related university in the state, with a campus that sat near a real Civil War skirmish involving Frank and Jesse James."
   },
+  "177214": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1873 as Springfield College by Congregationalist missionaries Nathan J. Morrison, Samuel Drury, and the Harwood brothers, it was renamed Drury College in 1874 and became Drury University on January 1, 2000.",
+      "It remains affiliated with the United Church of Christ and, since the founding of its School of Religion in 1909, also with the Christian Church (Disciples of Christ).",
+      "Professional programs include the Hammons School of Architecture and the Breech School of Business Administration, and most business and architecture majors must fulfill a foreign-learning (study abroad) requirement.",
+      "Drury's Panthers have won 22 combined NCAA Division II national championships, including the men's basketball title in 2013, on a compact 115-acre campus in Springfield, MO."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private liberal-arts university in Springfield, MO, founded in 1873 by Congregationalist missionaries and still affiliated with the United Church of Christ, known for a global-learning requirement in its business and architecture schools and an outsized Division II athletic pedigree."
+  },
   "177746": {
     "confidence": "researched",
     "distinctives": [
@@ -1624,6 +1768,22 @@
     ],
     "vibe": "A small Christian university in York, NE, affiliated with the Churches of Christ since 1956, founded in 1890 and rebranded from York College to York University in 2022 to clarify what the college title meant to prospective students."
   },
+  "186380": {
+    "confidence": "researched",
+    "distinctives": [
+      "Chartered as Queen's College on November 10, 1766 by King George III, later renamed Rutgers College in 1825 in honor of Revolutionary War veteran and benefactor Colonel Henry Rutgers, and designated the State University of New Jersey by legislation in 1945 and 1956.",
+      "Rutgers is the only college in the U.S. that is simultaneously a colonial-era chartered institution, a land-grant university (designated 1864), and a state university.",
+      "Hosted the first intercollegiate football game in history on November 6, 1869, beating Princeton 6-4 in New Brunswick -- the origin of Rutgers' claim to be the 'Birthplace of College Football.'",
+      "The New Brunswick campus spans five distinct sub-campuses (College Avenue, Busch, Livingston, and Cook/Douglass) across roughly 2,700 acres and enrolls about 44,000 students; Rutgers joined the Big Ten Conference in 2014."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public land-grant flagship research university in New Brunswick, NJ, chartered as Queen's College in 1766, uniquely combining colonial-college roots, land-grant status, and state-university status, and credited as the birthplace of American college football in 1869."
+  },
   "186867": {
     "confidence": "researched",
     "distinctives": [
@@ -1703,6 +1863,22 @@
       "applied via scheduled batch on 2026-09-18"
     ],
     "vibe": "A public, business-focused senior college of CUNY in Manhattan's Gramercy/Flatiron area, which grew out of City College's 1919 School of Business and Civic Administration, was renamed in 1953 for financier and CCNY alumnus Bernard Baruch, and split off as its own CUNY college in 1968; its Zicklin School of Business is one of the largest AACSB-accredited business schools in the country."
+  },
+  "190549": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1930 by combining the Brooklyn branches of the all-female Hunter College and the all-male City College of New York, making it the first public coeducational liberal-arts college in New York City.",
+      "Its Georgian-style 35-acre quadrangle campus in the Midwood/Flatbush section, anchored by the Gideon Klein-designed library tower, was laid out under a 1932 master plan by architect Randolph Evans.",
+      "Notable alumni include U.S. Senators Bernie Sanders and Barbara Boxer, Nobel laureate biochemist Stanley Cohen, and filmmaker Mel Brooks; the college's Scholars Program, founded in 1960, is the oldest honors program in the CUNY system.",
+      "Was tuition-free from its 1930 founding until New York City's 1975 fiscal crisis forced CUNY to begin charging tuition starting fall 1976; today it enrolls about 14,000 students and is one of the most ethnically diverse colleges in the country."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public senior college of the City University of New York in Brooklyn's Midwood section, formed in 1930 by merging the Brooklyn campuses of Hunter and City College into New York City's first coeducational public liberal-arts college, and long celebrated for its Georgian quadrangle and famously tuition-free decades before 1976."
   },
   "190594": {
     "confidence": "researched",
@@ -1958,6 +2134,22 @@
     ],
     "vibe": "A small private HBCU in Charlotte, NC, founded in 1867 by the Catawba Presbytery as a Presbyterian training school and renamed in 1923 for donor Jane Berry Smith's late husband; it's a roughly 1,100-student campus best known for producing the Marine Corps' first Black commissioned officer and a two-time Olympic gold-medal sprinter."
   },
+  "198862": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1879 as Zion Wesley Institute in Concord, NC, by the African Methodist Episcopal Zion (AME Zion) Church, then relocated to Salisbury, NC in 1882 through fundraising led by Rev. Joseph C. Price and Bishop J. W. Hood, and renamed Livingstone College in 1887 to honor missionary explorer David Livingstone",
+      "The 1887 inaugural graduating class of eight men and two women included the first Black women to earn bachelor's degrees in North Carolina",
+      "Hosted the first known African American intercollegiate football game in 1892, against Biddle University (now Johnson C. Smith University), a rivalry still played today as the Commemorative Classic, alongside the Mayors' Cup rivalry with Catawba College each October",
+      "An HBCU affiliated with the AME Zion Church, its historic campus district was added to the National Register of Historic Places in 1982; enrollment stood at about 936 students (924 undergraduate) in fall 2024"
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private HBCU in Salisbury, NC, founded in 1879 as Zion Wesley Institute by the African Methodist Episcopal Zion Church and renamed Livingstone College in 1887 in honor of missionary David Livingstone, notable for graduating North Carolina's first Black women bachelor's recipients in 1887 and for staging the first African American intercollegiate football game in 1892."
+  },
   "199102": {
     "confidence": "researched",
     "distinctives": [
@@ -2082,6 +2274,22 @@
     ],
     "vibe": "A small, remote liberal-arts college in rural Gambier, Ohio, centered on a mile-long 'Middle Path' through campus and one of the most storied undergraduate creative-writing traditions in the country via the Kenyon Review."
   },
+  "204200": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in September 1920 by the Sisters of Charity of Cincinnati as the first Catholic college for women in southwestern Ohio, opening with 20 students the same year the 19th Amendment gave women the vote",
+      "Relocated to its current 92-acre Delhi Township campus in 1962, became coeducational in 1986, and was elevated from college to university status on July 1, 2014",
+      "In fall 2014, freshman basketball player Lauren Hill, who had terminal brain cancer, played in a nationally televised game that sparked a fundraising campaign for pediatric cancer research raising over $1.5 million before her death in April 2015",
+      "Enrolled about 2,265 students in fall 2024 (1,545 undergraduate, 720 graduate) across roughly 48 undergraduate programs, with Division III Lions football teams winning HCAC titles in 2004, 2005, 2006, 2009, 2022, 2023, and 2024"
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private Catholic university in Delhi Township near Cincinnati, OH, founded in September 1920 by the Sisters of Charity of Cincinnati as the region's first Catholic women's college, now a coeducational institution known for its nursing and health-sciences programs and for the national attention drawn by basketball player Lauren Hill's 2014 fight against brain cancer."
+  },
   "204501": {
     "confidence": "researched",
     "distinctives": [
@@ -2113,6 +2321,22 @@
     ],
     "vibe": "A Methodist-founded liberal arts college in Delaware, Ohio, opened in 1844, best known outside its classrooms for two odd traditions: a century-old student-run Mock Presidential Convention and the annual 'Little Brown Jug' harness race, whose trophy the OWU president helps award each September at the county fair."
   },
+  "205957": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1946 as the College of Steubenville by Franciscan Friars of the Third Order Regular at the request of Bishop Anthony King Mussio, and renamed Franciscan University of Steubenville in 1986.",
+      "Replaced fraternities and sororities in the 1970s under president Fr. Michael Scanlan, TOR, with a 'household system' of single-sex small communities built around faith and mutual support; the university marked '50 years of household life' in 2024.",
+      "Runs a long-standing study-abroad program (since 1991) housing up to 180 students per semester in a renovated 14th-century Carthusian monastery in Gaming, Austria.",
+      "Bucked national enrollment declines with record growth, reaching roughly 3,962 students in fall 2024 and about 4,250 in fall 2025, driven in part by its explicit Catholic identity and charismatic-renewal campus culture."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private Roman Catholic university in Steubenville, OH, founded in 1946 by Franciscan Friars of the Third Order Regular, known for an intensely faith-centered campus culture built around small 'household' communities, a signature semester-abroad program at a converted medieval monastery in Austria, and enrollment growth that has run against the national tide for religious colleges leaning into their identity."
+  },
   "206491": {
     "confidence": "researched",
     "distinctives": [
@@ -2128,6 +2352,22 @@
       "applied via scheduled batch on 2026-09-16"
     ],
     "vibe": "The oldest private HBCU owned and operated by African Americans, an AME Church-affiliated college in Ohio named for British abolitionist William Wilberforce and still rebuilding enrollment after nearly two centuries of financial and physical setbacks."
+  },
+  "207041": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1909 as East Central State Normal School, just two years after Oklahoma statehood, to train teachers; its Horace Mann Training School operated from 1910 to 1960 as a lab school for practice teaching.",
+      "Renamed East Central State College in 1939, East Central Oklahoma State University in 1974, and adopted its current name, East Central University, in 1985.",
+      "Sits on a 135-acre, 37-building campus in Ada, Oklahoma, about 90 miles southeast of Oklahoma City, and enrolls roughly 3,500-4,000 students from more than 25 states and 30 countries.",
+      "Its Environmental Health Science program is one of only about 30 nationally accredited by the National Environmental Health Science and Protection Accreditation Council; notable alumni include former Microsoft COO Kevin Turner and Oklahoma governors Robert S. Kerr and George Nigh."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public regional university in Ada, OK, founded in 1909 as East Central State Normal School to train teachers in the newly minted state of Oklahoma, still rooted in that education mission while known regionally for its nationally accredited environmental health science program."
   },
   "207403": {
     "confidence": "researched",
@@ -2160,6 +2400,22 @@
       "applied via scheduled batch on 2026-09-20"
     ],
     "vibe": "A liberal arts college in Meadville, PA, founded in April 1815 by Harvard-educated minister Timothy Alden, whose library was praised in an 1824 letter from Thomas Jefferson, who hoped his new University of Virginia might one day rival it \u2014 making Allegheny the 32nd-oldest and, per its own claim, the oldest college in continuous existence under the same name west of the Alleghenies."
+  },
+  "210775": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1958 by the Bernardine Sisters of the Third Order of St. Francis as a Catholic women's college in Reading, PA; its first building, Francis Hall (1926), originally served as an orphanage, and the school was chartered by Pennsylvania in 1960 and first accredited in 1967.",
+      "Admitted its first lay female students in 1961, began accepting male commuters in 1971 and resident men in 1973, and was granted university status by the Pennsylvania Department of Education in 2008.",
+      "Enrolls about 2,800 students (roughly 2,300 undergraduates) on a 121-acre suburban campus, offering a seven-year entry-level Doctorate in Physical Therapy and a Doctor of Philosophy in leadership among more than 50 majors and minors.",
+      "Athletic teams rebranded from the Crusaders to the Golden Wolves in 2017, and the university launched varsity football in 2018 and wrestling in 2019."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private Catholic university in Reading, PA, founded in 1958 by the Bernardine Sisters of the Third Order of St. Francis on the site of a former orphanage, retaining a Franciscan mission of service even after going coeducational in the 1970s and attaining university status in 2008."
   },
   "211273": {
     "confidence": "researched",
@@ -2298,6 +2554,22 @@
       "applied via scheduled batch on 2026-09-20"
     ],
     "vibe": "A Bethlehem, PA university tracing its roots to 1742, when Benigna von Zinzendorf, daughter of the Moravian Church's patron Count Zinzendorf, founded the Bethlehem Female Seminary, one of the oldest schools for women in the American colonies, though the institution did not become an accredited, degree-granting college until 1913."
+  },
+  "215293": {
+    "confidence": "researched",
+    "distinctives": [
+      "Chartered February 28, 1787 as Pittsburgh Academy by Hugh Henry Brackenridge, making Pitt the oldest continuously chartered institution of higher learning west of the Allegheny Mountains.",
+      "Its 535-foot, 42-story Cathedral of Learning (construction began 1926, classes started 1931, dedicated 1937) is the second-tallest university building in the world and houses 31 Nationality Rooms, each decorated in a different ethnic style, with a public open house each December.",
+      "Jonas Salk developed and tested the polio vaccine at Pitt's Virus Research Lab in the basement of what is now Salk Hall, announcing on April 12, 1955 that it was safe and effective -- a result that cut U.S. polio cases roughly 95% by 1962.",
+      "Became a state-related university in 1966 (public funding, independent governance) and now enrolls about 35,500 students; its Panthers compete in the Atlantic Coast Conference, and students rub the nose of the Cathedral's 'Panther' statue for exam luck."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A large state-related research university in Pittsburgh, PA, chartered in 1787 as Pittsburgh Academy and best known today for its Gothic Revival Cathedral of Learning skyscraper and Jonas Salk's development of the polio vaccine on campus."
   },
   "216597": {
     "confidence": "researched",
@@ -2520,6 +2792,22 @@
     ],
     "vibe": "A private Catholic liberal arts university in Irving, TX, chartered in 1956 by the Sisters of St. Mary of Namur and Bishop Thomas Gorman, who modeled it on Belgium's University of Louvain; known for a mandatory ~20-course Core Curriculum in the Western tradition and a required sophomore semester at its own campus in the Alban Hills outside Rome."
   },
+  "224527": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1912 as the College of Marshall following a Southern Baptist campaign to establish an East Texas college, it opened as a two-year junior college and academy in 1917 before growing into a four-year institution under President Frank Shelby Groner (1928-1942).",
+      "Renamed East Texas Baptist College in 1944 and East Texas Baptist University in 1984, it is affiliated with the Baptist General Convention of Texas and carries the campus motto 'May the Light on the Hill Never Die.'",
+      "The Tigers' mascot is Sarge, a live tiger housed off-campus rather than on the Marshall, TX campus, competing in NCAA Division III athletics in the American Southwest Conference.",
+      "In June 2024 ETBU merged with the B.H. Carroll Theological Institute, expanding its graduate theological offerings alongside undergraduate programs such as its Bachelor of Science in Nursing."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small private Baptist university in Marshall, TX, founded in 1912 as the College of Marshall and affiliated with the Baptist General Convention of Texas, known for its live-tiger mascot Sarge and its motto, 'May the Light on the Hill Never Die.'"
+  },
   "225201": {
     "confidence": "researched",
     "distinctives": [
@@ -2629,6 +2917,22 @@
       "applied via scheduled batch on 2026-09-17"
     ],
     "vibe": "A private liberal arts university in Georgetown, TX formed in 1873 through the merger of four pre-Civil War Methodist colleges (Rutersville, McKenzie, Wesleyan, and Soule), making it, by that lineage, the oldest continuously operating institution of higher education in Texas."
+  },
+  "228723": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1876 as the Agricultural and Mechanical College of Texas, it was the first public institution of higher education in Texas and remains a land-grant university under the 1862 Morrill Act.",
+      "The Corps of Cadets, over 2,500 members strong, is the largest uniformed student body outside the U.S. service academies; it went voluntary in 1963 and admitted its first women in fall 1974.",
+      "The '12th Man' tradition, in which the entire student section stands for the whole football game, dates to January 2, 1922, when student E. King Gill suited up from the stands during the Dixie Classic against Centre College.",
+      "Aggie Muster, held every April 21 since the early 1900s, includes a 'Roll Call for the Absent' in which family members answer 'here' for Aggies who died that year, while candles are lit; the annual Aggie Bonfire, built since 1909, tragically collapsed in 1999, killing 12 students."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public land-grant research university in College Station, TX, founded in 1876 as Texas's first public college and built around one of the country's strongest school-spirit cultures, anchored by the Corps of Cadets and traditions like the 12th Man and Aggie Muster."
   },
   "228778": {
     "confidence": "researched",
@@ -2863,6 +3167,22 @@
     ],
     "vibe": "A small, academically rigorous liberal-arts college in Walla Walla, Washington, known for an outdoorsy, Pacific Northwest student culture and unusually strong outcomes for a school its size in law, medicine, and the sciences."
   },
+  "237181": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1840 by Alexander Campbell, a leading minister of the Restoration Movement who donated the land and funds for the first building; the college remains affiliated with the Christian Church (Disciples of Christ), though the denomination exercises no sectarian control.",
+      "Its 1,300-acre rural campus in Bethany, WV, includes the Bethany Historic District (listed on the National Register of Historic Places in 1982) and Parkinson Forest, designated an old-growth forest in 2019.",
+      "Notable alumni include four-time Academy Award winner Frances McDormand, Emmy-winning actor William H. Macy, and U.S. Supreme Court Justice Joseph Rucker Lamar.",
+      "As of the 2026-27 academic year the college remains open and operating (publishing a current course catalogue and fall 2025-26 dean's/president's lists), with enrollment around 650 students in spring 2026 -- small enough that, like many similarly sized private colleges nationally, it has appeared in industry discussions of enrollment-driven financial pressure on small liberal-arts institutions, though no closure has been announced."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small private liberal-arts college in rural Bethany, WV, founded in 1840 by Restoration Movement minister Alexander Campbell and still affiliated with the Disciples of Christ; it remains open and enrolling students as of 2026, though its small size (roughly 650 students) puts it among the many tuition-dependent small colleges facing national enrollment and financial headwinds -- prospective students should independently verify its current operating status before enrolling."
+  },
   "237950": {
     "confidence": "researched",
     "distinctives": [
@@ -2877,6 +3197,22 @@
       "applied batch3 on 2026-09-15"
     ],
     "vibe": "A small engineering-focused branch campus of West Virginia University, relocated in 2017 from its original Montgomery, WV site to a larger campus in Beckley -- a deliberate revitalization that grew enrollment and earned it a reputation as one of the best return-on-investment schools in the state."
+  },
+  "239318": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1903 by Oscar Werwath, credited as the first person to build an American educational institution around an applications-oriented engineering curriculum.",
+      "Sits on a compact 22-acre urban campus in the East Town neighborhood of downtown Milwaukee, WI, built largely of the city's signature cream-colored 'Cream City' brick.",
+      "Operates on a four-quarter, ten-week academic calendar rather than the standard semester system, and offers 10 of its 16 undergraduate majors in engineering fields, plus programs like cardiovascular perfusion.",
+      "Home to the Grohmann Museum, which houses 'Man at Work,' the Eckhart G. Grohmann Collection of art depicting the history of human labor -- an unusual cultural landmark for a technical university."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private engineering-focused university on a compact downtown campus in Milwaukee, WI, founded in 1903 by Oscar Werwath as one of the country's first applications-oriented technical schools, known for its practical, industry-connected engineering programs, four-quarter academic calendar, and the unexpected cultural landmark of the on-campus Grohmann Museum."
   },
   "240444": {
     "confidence": "researched",
@@ -2986,6 +3322,22 @@
       "applied via scheduled batch on 2026-09-16"
     ],
     "vibe": "A commuter-oriented campus of the eleven-unit Inter American University of Puerto Rico system, occupying a 51-acre urban site with easy access to San Juan and serving an entirely Hispanic student body focused on computing, communications, and engineering technology."
+  },
+  "243115": {
+    "confidence": "researched",
+    "distinctives": [
+      "Established in 1967 as the Colegio Regional de Arecibo, a regional branch of the University of Puerto Rico system (itself founded in 1903 in Rio Piedras); the Arecibo campus was renamed Colegio Universitario Tecnologico de Arecibo in the 1980s and gained full college autonomy within the UPR system in 1998",
+      "Offers distinctive bachelor's programs not common at other UPR units, including Microbiology, Industrial Chemical Process Technology, and an Associate Degree in Veterinary Technology, reflecting its ties to the region's pharmaceutical and biotech industry corridor",
+      "Located in northern Puerto Rico near the Arecibo Observatory, the site of the giant radio telescope that collapsed in 2020; the campus enrolled roughly 2,875 students as of recent counts",
+      "Singer and global recording artist Bad Bunny (Benito Antonio Martinez Ocasio) attended UPR-Arecibo, studying audiovisual communications while working at a local supermarket before his music career took off"
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A public college in Arecibo, PR, part of the University of Puerto Rico system (system founded 1903), established on this campus in 1967 as a regional college and granted full autonomous-unit status in 1998, known today for technical and science programs tied to the island's biotech corridor and as the alma mater of global superstar Bad Bunny."
   },
   "243133": {
     "confidence": "researched",
@@ -3098,6 +3450,22 @@
     ],
     "vibe": "The flagship, founding campus of the University of Puerto Rico system, created by an act of the island's 2nd Legislative Assembly on March 12, 1903 out of a normal school that had opened in Fajardo in 1900 with just 20 students \u2014 today an R2 research university whose 1937 Rafael Carmoega-designed clock tower and quadrangle are listed on the National Register of Historic Places."
   },
+  "243443": {
+    "confidence": "researched",
+    "distinctives": [
+      "Traces its origins to 1880, when three nuns of the Society of the Sacred Heart arrived from Cuba to found educational work in San Juan; formally chartered as the College of the Sacred Heart in 1935 and became coeducational in February 1972.",
+      "Pope John Paul II celebrated Mass on campus during his October 1984 visit to Puerto Rico, part of the only papal visit the island has received.",
+      "A private Catholic university of about 5,260 students (roughly 4,640 undergraduates) on a 33-acre campus in the Santurce district of San Juan, offering distinctive programs like a Cinema major (launched 1993) and a School of Music that graduated its first students in 2019.",
+      "Began limiting undergraduate admissions in 1990 to raise academic standards, and operates Sagrado Global, offering professional certificates in digital marketing, data analytics, and graphic design."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private Catholic university in the Santurce district of San Juan, Puerto Rico, founded by nuns of the Society of the Sacred Heart who arrived from Cuba in 1880 and formally chartered the college in 1935; instruction is conducted primarily in Spanish, and Pope John Paul II said Mass on its campus during his 1984 visit."
+  },
   "243780": {
     "confidence": "researched",
     "distinctives": [
@@ -3178,6 +3546,22 @@
     ],
     "vibe": "The adult-learner and satellite-campus arm of Trine University, an engineering-focused Indiana university that grew out of an 1884 normal college in Angola and now serves working/non-traditional students separately from the traditional Angola campus."
   },
+  "426314": {
+    "confidence": "researched",
+    "distinctives": [
+      "Founded in 1970 as the international/off-campus division of Embry-Riddle, which itself traces to a 1925 flying school co-founded by T. Higbee Embry and John Paul Riddle; Worldwide grew into a network of more than 130 learning locations, over 100 of them on U.S. military bases.",
+      "Serves roughly 22,000-plus students almost entirely online or via video-linked classrooms, with degree options spanning aviation, unmanned systems, emergency services, logistics, and a rare Master of Business Administration in Aviation (MBA-A).",
+      "U.S. News ranked its online bachelor's programs #1 in the nation out of nearly 300 in 2016, and it has repeatedly ranked #1 or #2 nationally for online education serving military veterans since 2016.",
+      "Distinct from Embry-Riddle's residential Daytona Beach, FL and Prescott, AZ campuses, Worldwide's largest single physical site is in Singapore, reflecting the division's roots serving deployed servicemembers and working aviation professionals."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A private, non-residential aviation and aerospace university headquartered in Daytona Beach, FL, whose Worldwide division was created in 1970 to deliver aviation, engineering, and business degrees online and at over 130 sites worldwide, including more than 100 military bases, to working adults and active-duty servicemembers."
+  },
   "441982": {
     "confidence": "researched",
     "distinctives": [
@@ -3209,6 +3593,22 @@
       "applied via scheduled batch on 2026-09-16"
     ],
     "vibe": "A young, orthodox Catholic university founded by Domino's Pizza founder Tom Monaghan, who built both the school and an entire planned town, Ave Maria, Florida, around it after relocating from an earlier Michigan campus."
+  },
+  "482936": {
+    "confidence": "researched",
+    "distinctives": [
+      "Became Florida's 12th public university on April 20, 2012, when Gov. Rick Scott signed legislation splitting it off from USF Polytechnic, a branch campus that had existed since 1988; its first classes as an independent university began August 25, 2014, with 554 students.",
+      "Its signature Innovation, Science and Technology (IST) Building, designed by Spanish architect Santiago Calatrava and completed in 2014, is a 162,000-square-foot structure topped with 94 automated robotic louvers that track the sun.",
+      "The campus library was built entirely digital from day one, giving students access to over 135,000 titles with no traditional print stacks -- one of the first fully bookless academic libraries in the U.S.",
+      "It is Florida's only public university dedicated exclusively to STEM, offering nine bachelor's and two master's degrees to a small, highly selective student body -- admit rate fell from 73.6% in 2016 to 39.6% in 2024."
+    ],
+    "last_updated": "2026-09-22",
+    "profile_type": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "vibe": "A small, STEM-only public university in Lakeland, FL, created by the Florida legislature in 2012 and instantly recognizable for its Santiago Calatrava-designed campus, drawing a tightly focused, highly selective engineering- and tech-minded student body."
   },
   "489937": {
     "confidence": "researched",
