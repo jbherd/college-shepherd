@@ -21690,5 +21690,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "217721": {
+    "profile_type": "researched",
+    "vibe": "A historically Black college in Columbia, South Carolina with a long legacy of educating first-generation and underserved students, currently working to stabilize its finances and enrollment.",
+    "distinctives": [
+      "Founded in 1870 as a private HBCU in Columbia, South Carolina",
+      "Small campus community with historically close student-faculty relationships",
+      "Has publicly faced significant financial strain in recent years, including budget shortfalls, staff layoffs, and declining enrollment that led to a declared financial exigency around 2021",
+      "Accreditation status has drawn scrutiny from SACSCOC amid these financial challenges, which prospective students should verify directly with the college and accreditor before enrolling"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228981": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit liberal arts college in Seguin, Texas, affiliated with the Evangelical Lutheran Church in America, offering a personal, faith-rooted undergraduate experience.",
+    "distinctives": [
+      "Private liberal arts university located in Seguin, Texas (San Antonio metro area), affiliated with the ELCA",
+      "Small undergraduate enrollment, generally in the low thousands, supporting small class sizes and close faculty contact",
+      "Offers a mix of liberal arts majors alongside pre-professional programs such as business, nursing, and education",
+      "NCAA Division III athletics with a notable school pride around its 'Bulldogs' teams and campus traditions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "237525": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public research university in Huntington, West Virginia, known for its resilient community spirit forged after the 1970 football team plane crash and for solid regional programs in health sciences and forensic science.",
+    "distinctives": [
+      "Public research university in Huntington, West Virginia, serving several thousand undergraduate and graduate students",
+      "Home to a nationally recognized forensic science program and a medical school (Marshall University Joan C. Edwards School of Medicine)",
+      "Widely known for the 1970 plane crash that killed most of its football team and coaching staff, an event memorialized in the film 'We Are Marshall,' which remains central to campus identity",
+      "Offers a broad range of undergraduate and graduate programs with relatively affordable in-state tuition typical of a state flagship-adjacent institution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "129525": {
+    "profile_type": "researched",
+    "vibe": "A private university in West Hartford, Connecticut, offering a wide range of undergraduate and professional programs, which has undergone notable financial and enrollment challenges and a period of institutional restructuring in recent years.",
+    "distinctives": [
+      "Private, non-sectarian university located in West Hartford, Connecticut, with programs spanning business, engineering, health sciences, and the arts",
+      "Includes the Hartford Art School and the Hartt School (music, dance, theatre), giving it a stronger-than-typical presence in the performing and visual arts",
+      "Has experienced enrollment declines and financial pressure in recent years, prompting a publicly discussed restructuring effort (sometimes referred to as 'University of Hartford 2023') that included program consolidations and cuts to some athletic programs",
+      "Prospective students should verify current program offerings and institutional stability directly with the university, as changes have been ongoing"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "226471": {
+    "profile_type": "researched",
+    "vibe": "A private Baptist university in Belton, Texas, with a growing enrollment and a strong emphasis on nursing and health-related professional programs within a faith-based campus culture.",
+    "distinctives": [
+      "Private university affiliated with the Baptist General Convention of Texas, located in Belton, Texas",
+      "Has seen steady enrollment growth in recent years relative to many small private institutions",
+      "Known for strong nursing and allied health programs, alongside education, business, and liberal arts offerings",
+      "Competes in NCAA Division III athletics and maintains a campus culture with an explicit Christian faith identity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "120166": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused private university in the East Bay that has built its identity around serving first-generation, immigrant, and working adult students with affordable STEM and business degrees close to Silicon Valley.",
+    "distinctives": [
+      "Located in Fremont, California, in the heart of the Bay Area tech corridor",
+      "Emphasizes computer science, computer engineering, and business administration programs",
+      "Very small enrollment (in the low hundreds to low thousands), with a large share of international and transfer students",
+      "Regionally accredited by WASC Senior College and University Commission (WSCUC); tuition is notably lower than most private Bay Area competitors"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "117104": {
+    "profile_type": "researched",
+    "vibe": "A small evangelical Christian university rooted in the Foursquare Church tradition, centered on preparing students for pastoral ministry, missions, and church leadership alongside a limited set of liberal arts and professional programs.",
+    "distinctives": [
+      "Located in San Dimas, California, with historical roots as a Bible college (formerly LIFE Bible College)",
+      "Affiliated with the International Church of the Foursquare Gospel; strong emphasis on ministry, theology, and Christian leadership degrees",
+      "Very small student body, with a campus culture centered on chapel, discipleship, and close faculty-student relationships",
+      "Has faced enrollment and financial pressures common to small denominational colleges, and has periodically adjusted program offerings and delivery formats (including online options) in response"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "205027": {
+    "profile_type": "researched",
+    "vibe": "A unique pontifical seminary and college of liberal arts in Columbus, Ohio, dedicated almost entirely to forming Roman Catholic men for the priesthood, making it one of the most specialized and distinctive institutions in American higher education.",
+    "distinctives": [
+      "One of only a handful of pontifical colleges/seminaries in the United States chartered directly under the authority of the Holy See",
+      "Primary mission is priestly formation: undergraduate students are seminarians pursuing philosophy and pre-theology in preparation for graduate-level theological study",
+      "Extremely small, nearly all-male student population, with a highly structured residential and spiritual formation program (prayer, liturgy, community life) alongside academics",
+      "Not a typical open-admission college; most students are sponsored by a diocese or religious order rather than applying as general degree-seekers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "180489": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public research university nestled in the Rocky Mountains of Missoula, drawing students who want a strong outdoors-and-academics balance, with particular strength in environmental, natural resource, and creative writing fields.",
+    "distinctives": [
+      "Located in Missoula, Montana, surrounded by mountains and national forest, with a campus culture strongly tied to outdoor recreation",
+      "Known nationally for forestry, wildlife biology, environmental science, and its MFA program in creative writing",
+      "Home to the Davidson Honors College and a School of Journalism with a long-standing reputation",
+      "Public flagship-style research university (part of the Montana University System) with a moderate enrollment of roughly 8,000-10,000 students, drawing a mix of in-state and out-of-state students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "167729": {
+    "profile_type": "researched",
+    "vibe": "A public comprehensive university on Massachusetts' North Shore that serves a largely local, first-generation, and working-student population with practical, career-oriented degrees at an affordable public-school price.",
+    "distinctives": [
+      "Located in the historic city of Salem, Massachusetts, part of the Massachusetts state university system",
+      "Strong programs in education, nursing, business, and criminal justice, with many students commuting from the surrounding North Shore/Boston area",
+      "Serves a diverse, often first-generation and transfer-heavy student body, with a mission emphasizing access and affordability",
+      "Moderate-sized public university (enrollment in the range of several thousand undergraduates), offering a lower cost of attendance than most private New England schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "192271": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused private college in New York City built entirely around the business side of fashion, retail, and the beauty industry.",
+    "distinctives": [
+      "Located in Manhattan, giving students direct access to fashion, retail, and beauty industry employers for internships and networking",
+      "Curriculum centers on fashion merchandising, business, marketing, and product development rather than fashion design itself",
+      "Very small student body compared to most four-year colleges, with a narrow, industry-specific academic focus",
+      "Tuition and cost of living in NYC are significant factors for students to weigh against the specialized career outcomes"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "225502": {
+    "profile_type": "researched",
+    "vibe": "A small public university in South Texas that serves as an accessible, regional option within the Texas A&M System, with a growing presence in Victoria and nearby Katy.",
+    "distinctives": [
+      "Part of the Texas A&M University System, offering a public, lower-cost alternative to the flagship campus",
+      "Historically grew from an upper-level institution serving transfer and junior/senior students before expanding to a full four-year university",
+      "Smaller enrollment and more limited program breadth than larger A&M System campuses like College Station",
+      "Serves a significant number of transfer, working, and nontraditional students in addition to traditional undergraduates"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "237899": {
+    "profile_type": "researched",
+    "vibe": "A public historically Black university (HBCU) in Institute, West Virginia, with land-grant roots and a mission of providing accessible higher education in Appalachia.",
+    "distinctives": [
+      "One of the nation's historically Black colleges and universities (HBCUs), founded in 1891 as a land-grant institution",
+      "Offers a mix of liberal arts, STEM, and agriculture-related programs reflecting its land-grant heritage",
+      "Serves a relatively small, diverse student body drawn heavily from West Virginia and the surrounding region",
+      "As with many regional public HBCUs, has faced enrollment and funding pressures common to smaller state institutions, which prospective students should research current data on"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "152336": {
+    "profile_type": "researched",
+    "vibe": "A small private Catholic university in Fort Wayne, Indiana, known for close-knit classes and strong footing in health sciences and nursing.",
+    "distinctives": [
+      "Rooted in the Catholic Franciscan tradition, with values-based and service-oriented campus culture",
+      "Particularly known for health science programs, including nursing and physical/occupational therapy pathways",
+      "Small overall enrollment enabling small class sizes and close student-faculty interaction",
+      "Located in Fort Wayne, a mid-sized Indiana city, offering more affordable regional cost of living than larger metro areas"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199306": {
+    "profile_type": "researched",
+    "vibe": "A small private university in rural North Carolina with historic ties to the United Methodist Church, known for its nursing program and NCAA Division III athletics.",
+    "distinctives": [
+      "Located in Misenheimer, a small rural community in North Carolina, offering a quiet, close-knit campus environment",
+      "Has historical affiliation with the United Methodist Church, though it enrolls students of all backgrounds",
+      "Nursing is one of its more established and recognized programs among a relatively small overall academic portfolio",
+      "Competes in NCAA Division III athletics, and as a small tuition-dependent private university, cost and financial aid packaging are especially important to evaluate closely"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "157058": {
+    "profile_type": "researched",
+    "vibe": "Kentucky State University is a small public HBCU and land-grant institution in Frankfort, the state capital, offering a close-knit, historically rooted campus experience.",
+    "distinctives": [
+      "One of Kentucky's two land-grant universities and a historically Black college/university (HBCU) founded in 1886",
+      "Small enrollment with low student-to-faculty ratios that allow for close mentoring relationships",
+      "Located in Frankfort, Kentucky's state capital, offering proximity to state government and internship opportunities",
+      "Has faced well-documented financial and enrollment challenges in recent years, including budget shortfalls that drew state legislative attention"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161563": {
+    "profile_type": "researched",
+    "vibe": "Thomas College is a small private college in Waterville, Maine, known for its career-focused business and professional programs and a guaranteed-job-placement pledge for graduates.",
+    "distinctives": [
+      "Small private institution with a strong emphasis on business, accounting, and professional/career-oriented majors",
+      "Known for its Guaranteed Job Placement (GPS) program, promising job placement or continued academic support after graduation",
+      "Located in Waterville, a small central Maine city, giving it a quiet, tight-knit campus community",
+      "Small overall enrollment typical of a private New England career college rather than a large research university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "206604": {
+    "profile_type": "researched",
+    "vibe": "Wright State University is a mid-sized public research university in Dayton, Ohio, with strong ties to aerospace and engineering through nearby Wright-Patterson Air Force Base.",
+    "distinctives": [
+      "Located adjacent to Wright-Patterson Air Force Base, supporting notable engineering, aviation, and aerospace research and internship connections",
+      "Offers a broad range of undergraduate and graduate programs including a medical school (Boonshoft School of Medicine) and a strong engineering college",
+      "Has experienced significant, publicly reported financial difficulties in the past decade, including budget deficits and a 2019 faculty strike",
+      "Serves a largely regional, commuter-heavy student population typical of a mid-sized public university in a mid-size metro area"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219046": {
+    "profile_type": "researched",
+    "vibe": "Black Hills State University is a small public university in Spearfish, South Dakota, offering an accessible, liberal-arts-grounded education near the Black Hills.",
+    "distinctives": [
+      "Public regional university located in Spearfish, South Dakota, at the edge of the scenic Black Hills, appealing to students who want outdoor access",
+      "Relatively small enrollment with a broad mix of liberal arts, education, and business programs typical of a regional comprehensive university",
+      "Part of the South Dakota Board of Regents system, with generally affordable in-state tuition relative to national averages",
+      "Known for teacher education and STEM outreach programs serving the surrounding rural region"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "235167": {
+    "profile_type": "researched",
+    "vibe": "The Evergreen State College is a small public liberal arts college in Olympia, Washington, known for its unconventional, self-directed academic model built around narrative evaluations instead of traditional grades.",
+    "distinctives": [
+      "Uses an interdisciplinary, seminar-based curriculum with narrative evaluations rather than traditional letter grades or fixed majors",
+      "Known for a progressive, student-driven academic culture that emphasizes independent and collaborative learning",
+      "Located in Olympia, Washington, on a wooded campus near the state capital",
+      "Has experienced significant enrollment declines and budget pressures over the past decade, including well-publicized campus unrest in 2017 that affected its public profile and applications"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178208": {
+    "profile_type": "researched",
+    "vibe": "A Southern Baptist graduate seminary in Kansas City, Missouri, focused almost entirely on training pastors, missionaries, and church leaders rather than offering a traditional broad undergraduate experience.",
+    "distinctives": [
+      "Primarily a graduate theological seminary (M.Div, M.A., D.Min, Ph.D.) affiliated with the Southern Baptist Convention, though it also operates an undergraduate college (Spurgeon College) for students pursuing ministry-related degrees",
+      "Very small institution with an enrollment in the hundreds, not thousands, and a strong denominational and doctrinal identity centered on evangelical Christian faith",
+      "Curriculum is built around biblical studies, theology, and practical ministry preparation rather than a broad liberal arts core",
+      "Best fit is a narrow population of students already committed to vocational ministry within a conservative evangelical/Southern Baptist tradition, not a general-purpose college search match"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "163338": {
+    "profile_type": "researched",
+    "vibe": "A historically Black public university on Maryland's rural Eastern Shore that combines a land-grant agricultural mission with standout programs in pharmacy and aviation, offering a close-knit campus community.",
+    "distinctives": [
+      "A Historically Black College/University (HBCU) and land-grant institution, part of the University System of Maryland, located in the small town of Princess Anne on Maryland's Eastern Shore",
+      "Known for its School of Pharmacy and Health Professions (PharmD program) and one of the few HBCU-affiliated aviation science programs in the country",
+      "Competes in NCAA Division I athletics as a member of the Mid-Eastern Athletic Conference (MEAC)",
+      "Relatively small, rural residential campus, which offers a tight community feel but limited off-campus city life compared to Baltimore or DC-area schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214768": {
+    "profile_type": "researched",
+    "vibe": "A small commuter-friendly branch campus of Penn State in Hazleton, Pennsylvania, designed as an accessible entry point into the Penn State system for students who later transfer to a larger campus to finish their degree.",
+    "distinctives": [
+      "One of Penn State's smaller Commonwealth Campuses, offering the first two years of many bachelor's degrees plus a limited set of full four-year programs, with many students completing their degree at University Park or another Penn State campus (the '2+2' pathway)",
+      "Small student body (roughly in the low thousands or fewer), offering smaller class sizes and more individual attention than the flagship campus",
+      "Located in Hazleton in northeastern Pennsylvania, a modest-sized town rather than a major college town",
+      "Graduates receive a Penn State degree/diploma, giving access to the broader Penn State alumni network despite the smaller local campus experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219602": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Clarksville, Tennessee, notable for its close ties to nearby Fort Campbell and a large population of military-affiliated and nontraditional students alongside a traditional undergraduate base.",
+    "distinctives": [
+      "Located adjacent to Fort Campbell, home to the U.S. Army's 101st Airborne Division, giving Austin Peay one of the larger military-connected and veteran student populations among regional public universities",
+      "Offers a broad range of undergraduate and graduate programs typical of a regional comprehensive university, including business, education, nursing, and the sciences",
+      "Competes in NCAA Division I athletics as a member of the ASUN Conference",
+      "A public, moderately sized institution serving primarily students from Tennessee and the surrounding region, with a mix of traditional-age and adult/military students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "233611": {
+    "profile_type": "researched",
+    "vibe": "A small private liberal arts university in Buena Vista, Virginia, with a strong campus culture shaped by Latter-day Saint values and an honor code, drawing a student body that is heavily LDS even though the university is not officially owned by the LDS Church.",
+    "distinctives": [
+      "Small private institution in the Shenandoah Valley with an honor code and campus culture closely tied to The Church of Jesus Christ of Latter-day Saints, though it is independently operated rather than church-owned",
+      "Has experienced significant enrollment growth and rebuilding in recent years after historically operating with a small student body and periods of financial strain",
+      "Offers a traditional liberal arts curriculum with a relatively small range of majors compared to larger universities",
+      "Competes in NCAA Division III/II athletics (transitioning divisions in recent years) and emphasizes a close-knit, values-based residential community"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
