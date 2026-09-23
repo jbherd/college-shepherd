@@ -12425,5 +12425,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "174437": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Christian university embedded in downtown Minneapolis, blending ministry-focused academics with urban city life just blocks from US Bank Stadium.",
+    "distinctives": [
+      "Affiliated with the Assemblies of God and centered on ministry, worship arts, and pastoral training alongside a growing slate of business and health science majors",
+      "Very small enrollment (roughly 1,000-1,500 students), giving it a tight-knit, highly personal campus community",
+      "Urban campus location in downtown Minneapolis places students within walking distance of professional sports venues, internships, and the Twin Cities arts and music scene",
+      "Strong emphasis on chapel life, spiritual formation, and integrating faith with career fields like counseling, education, and communications"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "232557": {
+    "profile_type": "researched",
+    "vibe": "An evangelical Christian mega-university where a small residential campus in the Blue Ridge foothills anchors one of the largest online student bodies in the country.",
+    "distinctives": [
+      "Enrolls well over 100,000 students, the vast majority through its large-scale online degree programs spanning business, education, nursing, and criminal justice",
+      "Residential campus in Lynchburg, Virginia operates under a conservative honor code (\"The Liberty Way\") governing dress, conduct, and campus life",
+      "Home to a full law school, School of Divinity, and one of the largest university flight/aviation programs in the U.S.",
+      "Division I athletics (the Flames) with major recent facility investment, including a large indoor athletic training and stadium complex"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "176372": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public research university in the Mississippi Pine Belt with an unexpectedly strong research profile in niche fields like polymer science and game design, wrapped in classic SEC-region college-town spirit.",
+    "distinctives": [
+      "Home to the nationally ranked School of Polymer Science and Engineering, one of the few dedicated polymer programs in the country and a major research draw",
+      "Offers a distinctive Computer Science/Game Design program with a strong industry reputation for toy and interactive-media design",
+      "Maintains a separate Gulf Park campus in Long Beach, MS, supporting marine science, coastal, and Gulf-focused research tied to the Mississippi coast",
+      "Well-regarded School of Music, including opera and music theatre, plus Golden Eagles Division I athletics anchoring campus culture in Hattiesburg"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "160612": {
+    "profile_type": "researched",
+    "vibe": "A welcoming, accessible regional public university in Hammond, Louisiana, popular with in-state students for its affordability and strong nursing and business pipelines between New Orleans and Baton Rouge.",
+    "distinctives": [
+      "Nursing and allied health programs are among the university's largest and most in-demand, feeding regional Louisiana hospital systems",
+      "Located roughly halfway between New Orleans and Baton Rouge, giving students easy access to internships and culture in both metro areas",
+      "Honors Program and a business college with active student organizations provide smaller-cohort experiences within a larger public-university setting",
+      "Lions athletics and a lively Greek and student-organization scene anchor a traditional Southern public-university campus culture"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "183026": {
+    "profile_type": "researched",
+    "vibe": "A New Hampshire-based nonprofit university that has become a national leader in large-scale, affordable online education, alongside a much smaller traditional residential campus in Manchester.",
+    "distinctives": [
+      "One of the largest online student populations of any U.S. university, with well over 100,000 students pursuing online degrees in business, IT, healthcare administration, and criminal justice",
+      "Pioneered competency-based and self-paced online degree models aimed at working adults and career-changers, with flat-rate tuition plans",
+      "Small residential undergraduate campus in Manchester offers a traditional four-year experience distinct from its massive online division",
+      "Frequently cited in rankings for affordability and accessibility, with extensive transfer-credit and military/veteran support programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153825": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic liberal arts college on the Mississippi River bluffs in Dubuque, Iowa, where tight-knit classes and Duhawk athletics pride define a close, supportive campus culture.",
+    "distinctives": [
+      "Founded in 1839 by Trappist monks, one of the oldest Catholic colleges in the Midwest, still affiliated with the Archdiocese of Dubuque",
+      "Strong undergraduate business and accounting programs with high CPA exam pass rates, plus a well-regarded athletic training/pre-health track",
+      "NCAA Division III athletics (Duhawks) with a large share of students playing varsity or club sports, fostering a spirited campus identity",
+      "Small classes (roughly 12:1 student-faculty ratio) on a compact hilltop campus overlooking the Mississippi River, emphasizing personal attention from faculty"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228796": {
+    "profile_type": "researched",
+    "vibe": "A large public research university on the US-Mexico border whose identity is inseparable from its binational, majority-Hispanic community and its mission of access-oriented excellence.",
+    "distinctives": [
+      "One of the largest Hispanic-Serving Institutions in the country, with over 80% Hispanic enrollment and deep ties to Ciudad Ju\u00e1rez and the borderland community",
+      "Carnegie R1 'very high research activity' designation, notable for engineering, computer science (including the Center for Cyber Security), and border/Chicano studies",
+      "Affordable public tuition with a majority of students commuting or coming from the immediate El Paso region, many as first-generation college students",
+      "Distinctive Bhutanese-inspired campus architecture and NCAA Division I athletics (Conference USA) give the campus a visually unique, spirited identity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "232043": {
+    "profile_type": "researched",
+    "vibe": "A small Mennonite Christian liberal arts university in the Shenandoah Valley known nationally for its pioneering peacebuilding and conflict-transformation scholarship layered onto a faith-rooted, service-minded campus culture.",
+    "distinctives": [
+      "Home to the Center for Justice and Peacebuilding and a globally recognized graduate program in conflict transformation, drawing students worldwide for peace studies",
+      "Rooted in Anabaptist/Mennonite values emphasizing simplicity, service, and social justice, with a mandatory cross-cultural study experience for undergraduates",
+      "Small campus (under 1,000 undergrads) in Harrisonburg, Virginia offering close faculty mentorship and strong nursing and social work programs",
+      "Active outdoor and Shenandoah Valley community engagement culture, with a strong tradition of volunteerism and community-based learning"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "241331": {
+    "profile_type": "researched",
+    "vibe": "A specialized private university in San Juan built almost entirely around psychology, mental health, and health sciences training, serving Puerto Rico's Spanish-speaking clinical workforce.",
+    "distinctives": [
+      "Founded by Dr. Carlos Albizu as a psychology-focused institution, now offering doctoral (PsyD), master's, and bachelor's programs concentrated in clinical and school psychology",
+      "Bilingual/Spanish-language instruction serving primarily Puerto Rican and Latino students pursuing licensure in psychology and allied health fields",
+      "Small, career-focused campus in San Juan with strong ties to local clinical practicum sites, hospitals, and mental health agencies across the island",
+      "Part of a two-campus system (San Juan and Miami), with San Juan as the founding, larger campus emphasizing graduate-level clinical training"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "119605": {
+    "profile_type": "researched",
+    "vibe": "A large private nonprofit university built for working adults and military-connected students, offering one-course-per-month formats and extensive online and regional campus options across California.",
+    "distinctives": [
+      "Nonprofit institution with a four-week, one-class-at-a-time course format designed for working adults balancing jobs and family",
+      "Significant military and veteran student population, with dedicated support services and campuses near several California military bases",
+      "Broad online degree offerings alongside in-person campuses in San Diego, Los Angeles, Sacramento, and other California cities, serving a largely older, non-traditional student body",
+      "Part of the National University System, with open or less-selective admissions and a mission centered on access for adult and career-changing learners"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "126669": {
+    "profile_type": "researched",
+    "vibe": "An evangelical Christian university in the Denver foothills that blends a conservative faith-integrated curriculum with a growing slate of career-focused majors and NCAA Division II athletics.",
+    "distinctives": [
+      "Requires all students to complete a core curriculum grounded in a Christian worldview, including apologetics and biblical studies courses regardless of major",
+      "Located on a scenic Lakewood, Colorado campus at the base of the Rocky Mountains foothills, with easy access to outdoor recreation",
+      "Competes in NCAA Division II athletics as the Cougars and has built strong programs in business, nursing, and criminal justice",
+      "Operates a large adult and graduate studies division alongside its traditional undergraduate college, serving many working and military-affiliated students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "148593": {
+    "profile_type": "researched",
+    "vibe": "A fiercely intellectual, small liberal arts college where every student follows the same four-year Great Books curriculum, discussing Homer to Einstein in Socratic seminars rather than lectures.",
+    "distinctives": [
+      "Has no majors, electives, or textbooks in the traditional sense \u2014 all students at both the Annapolis, Maryland and Santa Fe, New Mexico campuses read the same 200-plus 'Great Books' curriculum spanning philosophy, literature, math, and science",
+      "Classes are run as small, discussion-based seminars and tutorials led by 'tutors' rather than professors lecturing",
+      "Students study classical Greek, French, and original-language mathematics (including Euclid) as part of the required curriculum",
+      "Extremely small student body (well under 1,000 total across both campuses) with an unusually high yield of graduates going on to PhD programs relative to college size"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "154022": {
+    "profile_type": "researched",
+    "vibe": "A fully online, career-oriented university (formerly Ashford University, acquired by the University of Arizona in 2020) designed for working adults and nontraditional students seeking flexible degree completion.",
+    "distinctives": [
+      "Formerly Ashford University, a for-profit institution, acquired and converted to a nonprofit affiliate of the University of Arizona in 2020",
+      "100% online delivery with no residential campus, targeting adult learners, transfer students, and military-affiliated students seeking flexible scheduling",
+      "Offers rolling/monthly start dates and accelerated course formats rather than a traditional semester calendar",
+      "Has faced scrutiny and past legal settlements (including with the state of California under its Ashford-era ownership) over recruiting and student-outcome practices, which prospective students should research directly"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "159948": {
+    "profile_type": "researched",
+    "vibe": "A Southern Baptist seminary in New Orleans training pastors, missionaries, and ministry leaders through a tightly denominational, vocation-specific curriculum rather than a general liberal arts experience.",
+    "distinctives": [
+      "Affiliated with the Southern Baptist Convention and focused almost entirely on preparing students for pastoral ministry, missions, worship leadership, and chaplaincy",
+      "Offers undergraduate (Leavell College), graduate (Master of Divinity), and doctoral-level theological degrees, unusual breadth for a school this size",
+      "Located in New Orleans and has a history tied to post-Katrina community rebuilding and urban ministry training",
+      "Admission and enrollment are effectively limited to students committed to vocational Christian ministry, making it a poor fit outside that track"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "163204": {
+    "profile_type": "researched",
+    "vibe": "A large, fully online public university built around working adults and military service members, with no traditional residential campus or undergraduate social scene.",
+    "distinctives": [
+      "Part of the University System of Maryland, historically known for serving active-duty military, veterans, and adult learners worldwide, including on overseas U.S. military bases",
+      "Entirely online/distance format with no residential campus, dorms, or traditional undergraduate student life",
+      "Offers highly flexible, career-aligned programs in cybersecurity, IT, and business that are popular with working professionals",
+      "Charges the same in-state tuition rate to all U.S. military-affiliated students regardless of home state, a distinctive military-friendly pricing policy"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "180814": {
+    "profile_type": "researched",
+    "vibe": "A Nebraska-based institution built almost entirely around working adults, military-affiliated students, and online degree completion rather than a traditional residential campus experience.",
+    "distinctives": [
+      "Located in Bellevue, Nebraska, near Offutt Air Force Base, with a long history of serving military, veteran, and adult learners",
+      "Predominantly online delivery, with programs concentrated in business, management, IT, and healthcare administration",
+      "Structured around credit for prior learning and workforce/military experience, making it attractive to students transferring in significant coursework",
+      "Operates as a private nonprofit institution focused on career-oriented bachelor's and master's degrees rather than a traditional undergraduate liberal arts path"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "183257": {
+    "profile_type": "researched",
+    "vibe": "An online-first extension of the University of New Hampshire system aimed at working adults and professionals seeking flexible, career-relevant degrees rather than a traditional on-campus experience.",
+    "distinctives": [
+      "Formerly Granite State College, now integrated into the University of New Hampshire system as its adult/professional-studies online division",
+      "Focused on degree completion for adult learners, with generous transfer credit and prior-learning assessment policies",
+      "Fully online programs in fields like business, healthcare, education, and IT management designed for working students",
+      "Carries the UNH name and accreditation while operating with a nontraditional, flexible-pacing model distinct from UNH's main Durham campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "194666": {
+    "profile_type": "researched",
+    "vibe": "A small Hasidic rabbinical college in Brooklyn serving the Bobover Hasidic community, focused on Talmudic and rabbinical training rather than a conventional secular undergraduate experience.",
+    "distinctives": [
+      "Located in Borough Park, Brooklyn, and affiliated with the Bobover Hasidic community",
+      "Curriculum centers on Talmudic study and rabbinical/religious training rather than a general liberal arts or secular degree program",
+      "Very small, tightly knit student body drawn primarily from within the Bobover Hasidic community",
+      "Public data on this institution is limited, as is typical for small single-purpose religious seminaries"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196680": {
+    "profile_type": "researched",
+    "vibe": "A New York-based nonprofit online university built for adult, transfer, and nontraditional students, well known for flexible degree-completion pathways and its nursing program.",
+    "distinctives": [
+      "Headquartered in Albany, New York, with a long history (originally Regents External Degree Program) of serving adult learners nationwide via distance education",
+      "Notable for its School of Nursing, including exam-based options for experienced nurses and licensure-track programs",
+      "Emphasizes prior learning assessment, credit for military and work experience, and self-paced online coursework",
+      "Serves a largely adult, often already-working student population rather than students coming straight from high school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197018": {
+    "profile_type": "researched",
+    "vibe": "A small Hasidic Orthodox Jewish seminary in Brooklyn focused on Talmudic and rabbinical education for its religious community rather than a conventional secular college experience.",
+    "distinctives": [
+      "Based in the Williamsburg section of Brooklyn, serving the Satmar and related Hasidic communities",
+      "Curriculum is centered on Talmudic scholarship and religious/rabbinical training rather than general secular academics",
+      "Very small, close-knit enrollment drawn almost entirely from within the local Hasidic community",
+      "As with similar single-purpose seminaries, detailed public information (outcomes data, program specifics) is limited"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197735": {
+    "profile_type": "researched",
+    "vibe": "A small, insular Hasidic yeshiva serving the Viznitz community, focused entirely on advanced Talmudic and rabbinical study rather than a conventional college experience.",
+    "distinctives": [
+      "An all-male institution dedicated to Torah and Talmudic scholarship within the Viznitz Hasidic tradition, located in the Monsey/South Fallsburg area of New York",
+      "Very limited public information is available; it does not offer a typical secular liberal-arts curriculum, majors, or campus life in the way most colleges do",
+      "Primarily serves students already embedded in Hasidic religious life and community, rather than a broad applicant pool",
+      "Best suited to families seeking an intensive religious/rabbinical education rather than a general undergraduate degree"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "212656": {
+    "profile_type": "researched",
+    "vibe": "A close-knit Christian liberal arts college with a strong Reformed Presbyterian identity, known for punching above its weight in engineering and pre-professional programs.",
+    "distinctives": [
+      "Affiliated with the Reformed Presbyterian Church of North America, with mandatory chapel and a visible faith-integrated curriculum",
+      "Notably strong undergraduate engineering program for a school of its size, alongside popular criminal justice, nursing, and business majors",
+      "Small campus (under 2,000 students) in Beaver Falls, PA, about 30 miles from Pittsburgh, giving students easy access to a major city",
+      "Emphasizes a residential, community-oriented experience with strict conduct expectations tied to its conservative Christian mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217749": {
+    "profile_type": "researched",
+    "vibe": "A large, tightly-structured fundamentalist Christian university known for its rigorous conduct code, strong fine arts tradition, and conservative evangelical worldview.",
+    "distinctives": [
+      "Home to a notable fine arts program, including an art gallery with European old masters and an annual opera/oratorio production tradition rare for a school its size",
+      "Strong nursing, education, and business programs alongside its Bible/theology core requirements for all students",
+      "Maintains a strict behavioral and dress code and a distinctly conservative campus culture rooted in fundamentalist Christian doctrine",
+      "Publicly apologized in 2008 for its historical policies on race and interracial dating (lifted in 2000), a notable part of its institutional history"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "236896": {
+    "profile_type": "researched",
+    "vibe": "A small Seventh-day Adventist university with a reputation for strong health-sciences and engineering programs, set in a quiet rural Pacific Northwest town.",
+    "distinctives": [
+      "Well-regarded nursing and health-sciences programs, plus one of relatively few undergraduate engineering programs among Adventist colleges nationally",
+      "Located in College Place, WA, near Walla Walla's wine country, with a small, tight-knit residential community",
+      "Observes Seventh-day Adventist practices campus-wide, including a Friday-evening-to-Saturday Sabbath observance that shapes the weekly schedule",
+      "Offers an aviation program, a notable niche offering tied to its engineering and STEM strengths"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "243823": {
+    "profile_type": "researched",
+    "vibe": "A specialized health-sciences university in Dallas best known as a leading destination for chiropractic education, with a growing set of allied health programs.",
+    "distinctives": [
+      "Its flagship Doctor of Chiropractic program is one of the largest and most established in the country, historically known as Parker College of Chiropractic",
+      "Offers a range of complementary health-sciences degrees (e.g., exercise science, nutrition, massage therapy) alongside the chiropractic doctorate",
+      "Located in Dallas, TX, giving students access to a major metro job market and clinical training sites",
+      "Attracts a nontraditional, career-focused student population more than a typical undergraduate liberal-arts population"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
