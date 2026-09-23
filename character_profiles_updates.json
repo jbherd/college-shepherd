@@ -26490,5 +26490,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "205443": {
+    "profile_type": "researched",
+    "vibe": "A small public university in Portsmouth, Ohio, that serves as an accessible, career-oriented option for students in the Appalachian region of southern Ohio, with a hands-on, teaching-focused culture.",
+    "distinctives": [
+      "Public regional university located in Portsmouth, Ohio, along the Ohio River in the Appalachian foothills",
+      "Offers a mix of associate, bachelor's, and select graduate programs with a strong emphasis on career-ready fields like nursing, engineering technology, and education",
+      "Serves a largely first-generation, regional student population and maintains relatively affordable, open-access admissions typical of Ohio's regional public universities",
+      "Small campus size supports close student-faculty interaction compared to large state flagships"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "206154": {
+    "profile_type": "researched",
+    "vibe": "A very small, independent Bible college in South Point, Ohio, focused on training students for ministry, missions, and church leadership within an evangelical Christian framework rather than offering a broad liberal-arts curriculum.",
+    "distinctives": [
+      "Small, faith-based religious institution offering Bible and ministry-focused degree programs rather than a comprehensive general-education college",
+      "Curriculum centers on biblical studies, theology, pastoral ministry, and related vocational-ministry preparation",
+      "Enrolls a small student body, typical of independent Bible colleges, with an intentionally close-knit, mission-driven campus culture",
+      "Not a regionally comprehensive university -- prospective students should understand it as a specialized religious training institution, best suited to those pursuing ministry or church-related vocations"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "206613": {
+    "profile_type": "researched",
+    "vibe": "A small regional branch campus of Wright State University located in Celina, Ohio, offering an affordable, local entry point into Wright State's degree programs for students in the Grand Lake St. Marys area rather than the full main-campus experience found in Dayton.",
+    "distinctives": [
+      "Branch/regional campus of Wright State University, physically and administratively distinct from the main Dayton, Ohio campus",
+      "Offers primarily associate degrees and select bachelor's-completion pathways, often with students transitioning to the Dayton campus for upper-division or specialized majors",
+      "Serves a small, largely local and commuter student population in west-central Ohio's rural Mercer/Auglaize county area",
+      "Provides a lower-cost, smaller-scale alternative to the main campus, with more limited program breadth, campus life, and facilities than a full four-year university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "206862": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Bethany, Oklahoma, affiliated with the Church of the Nazarene, blending a liberal-arts undergraduate experience with an explicitly Christian mission and community.",
+    "distinctives": [
+      "Private university affiliated with the Church of the Nazarene, with campus life, mission statement, and curriculum shaped by that evangelical Wesleyan-Holiness tradition",
+      "Located in Bethany, Oklahoma, part of the greater Oklahoma City metropolitan area",
+      "Offers a range of undergraduate liberal-arts and professional programs (e.g., business, education, nursing, ministry) along with select graduate programs",
+      "Small student body relative to public flagship universities, fostering a close-knit, faith-integrated campus community with mandatory chapel or similar religious-life expectations typical of Nazarene-affiliated schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "206914": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in Lawton, Oklahoma, offering accessible, career-focused undergraduate and select graduate programs to a diverse student population in southwestern Oklahoma, including strong ties to nearby Fort Sill's military community.",
+    "distinctives": [
+      "Public regional university located in Lawton, Oklahoma, in the southwestern part of the state",
+      "Serves a significant population of military-affiliated and non-traditional students due to proximity to Fort Sill",
+      "Offers a broad range of bachelor's degrees along with associate degrees and some graduate programs, with relatively open and affordable access compared to Oklahoma's flagship research universities",
+      "Functions as a regional comprehensive university rather than a research-intensive institution, emphasizing teaching and workforce-relevant fields such as business, education, and nursing"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "207342": {
+    "profile_type": "researched",
+    "vibe": "The graduate and professional health-sciences campus of the University of Oklahoma, training physicians, nurses, dentists, pharmacists, and public health researchers in Oklahoma City \u2014 not an undergraduate destination.",
+    "distinctives": [
+      "Serves as OU's academic health center, housing the OU College of Medicine, College of Nursing, College of Dentistry, College of Pharmacy, College of Public Health, and Allied Health, plus affiliated teaching hospitals.",
+      "Enrolls graduate and professional students only (MD, DDS, PharmD, PhD, nursing and allied-health degrees); there is no undergraduate admissions pathway here.",
+      "Located in Oklahoma City's medical district, closely tied to clinical partners such as OU Medical Center and Children's Hospital, and a major site for biomedical research in the state.",
+      "A student considering it is almost always already committed to a specific health profession and applying post-baccalaureate, not exploring it as a high-school-to-college option."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "207351": {
+    "profile_type": "researched",
+    "vibe": "A tiny public university on the Oklahoma Panhandle, offering an affordable, close-knit campus experience in a very rural, agricultural part of the state.",
+    "distinctives": [
+      "Located in Goodwell, Oklahoma, a small town in the state's remote panhandle region, far from any major metro area.",
+      "One of the smallest four-year public universities in Oklahoma, with an enrollment typically in the low hundreds to low thousands, fostering small class sizes and close faculty contact.",
+      "Historically rooted in agriculture, with programs in agricultural sciences reflecting the surrounding farm and ranch economy, alongside general education, business, and teacher-education offerings.",
+      "Serves largely as a regional access institution for first-generation and rural students from the panhandle and surrounding tri-state area (Oklahoma, Texas, Kansas)."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "207661": {
+    "profile_type": "researched",
+    "vibe": "A small public regional university in Claremore, Oklahoma, offering career-oriented bachelor's degrees to a largely commuter and first-generation student body in the Tulsa metro area.",
+    "distinctives": [
+      "Located in Claremore, within commuting distance of Tulsa, and part of the Oklahoma public regional university system.",
+      "Emphasizes applied and career-focused programs, including business, nursing/health sciences, and criminal justice, alongside general liberal arts offerings.",
+      "Moderate enrollment size (roughly a few thousand students), with many students commuting or attending part-time while working.",
+      "Functions primarily as an accessible, affordable option for northeastern Oklahoma residents rather than a residential, national-draw university."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "207856": {
+    "profile_type": "researched",
+    "vibe": "A small, private Pentecostal Christian university in Bethany, Oklahoma, combining a conservative evangelical faith community with career-oriented degree programs, including ministry training.",
+    "distinctives": [
+      "Affiliated with Pentecostal/evangelical Christian tradition; chapel attendance, faith-based coursework, and a Christian lifestyle covenant are typically part of student life.",
+      "Very small enrollment (in the low hundreds to low thousands), producing a tight-knit, mission-driven campus community.",
+      "Offers a mix of ministry and theology degrees alongside more secular professional programs such as business, education, and counseling.",
+      "Best suited to students specifically seeking a faith-integrated undergraduate experience rather than a secular or religiously unaffiliated campus."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "207865": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in Weatherford, Oklahoma, known especially for a well-regarded pharmacy program alongside a broad range of undergraduate offerings for western Oklahoma students.",
+    "distinctives": [
+      "Located in Weatherford, a small western-Oklahoma town, serving as a regional hub for higher education in that part of the state.",
+      "Home to a notably strong College of Pharmacy offering a PharmD program, a distinctive strength relative to its size and giving it a reputation beyond typical regional universities.",
+      "Offers a broad mix of undergraduate programs including education, nursing, business, and the sciences, with moderate total enrollment (roughly a few thousand students).",
+      "Maintains a satellite/extension presence in Sayre, Oklahoma, extending access to students across the wider region."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "209296": {
+    "profile_type": "researched",
+    "vibe": "A small, graduate-only college in Portland, Oregon dedicated entirely to naturopathic and complementary/alternative medicine \u2014 a niche training ground for future naturopathic doctors, acupuncturists, and nutritionists rather than a conventional college.",
+    "distinctives": [
+      "Graduate-only institution; awards no bachelor's degrees, so it is not an option for a typical undergraduate applicant",
+      "One of the oldest accredited naturopathic medical schools in North America, offering a Doctor of Naturopathic Medicine (ND) degree",
+      "Also offers programs in classical Chinese medicine/acupuncture, nutrition, and global health, reflecting an integrative/alternative-medicine focus",
+      "Very small enrollment (in the hundreds), concentrated in health-sciences fields outside mainstream allopathic medicine"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "209490": {
+    "profile_type": "researched",
+    "vibe": "Oregon's only public academic health center \u2014 a major graduate and professional research university in Portland training physicians, nurses, dentists, and scientists, not a destination for undergraduates.",
+    "distinctives": [
+      "Graduate/professional institution only \u2014 no general undergraduate liberal-arts programs; admission is almost entirely into medical, nursing, dental, pharmacy, and PhD/health-sciences programs",
+      "A leading biomedical research center and Oregon's main academic medical system, with a large hospital and research enterprise on Marquam Hill",
+      "Highly competitive professional programs (School of Medicine, School of Nursing, School of Dentistry) drawing applicants nationally",
+      "Distinct from typical 'college' searches: prospective students usually arrive after completing a bachelor's degree elsewhere"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "210438": {
+    "profile_type": "researched",
+    "vibe": "A small, specialized graduate institution in the Portland area focused on chiropractic and allied health sciences \u2014 a professional training school, not a broad-based college.",
+    "distinctives": [
+      "Graduate-only; best known for its Doctor of Chiropractic (DC) program, along with master's-level programs in fields like human nutrition and sports medicine",
+      "Small, focused enrollment concentrated in health-sciences professional training rather than general education",
+      "Located in the Portland metro area (Swan Island/Portland, Oregon), serving primarily students who already hold a bachelor's degree",
+      "Not a fit for typical high-school-to-undergraduate college searches; relevant mainly to students planning a chiropractic or health-sciences graduate career"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "211608": {
+    "profile_type": "researched",
+    "vibe": "A small public HBCU with a historic legacy as the oldest historically Black college or university in the United States, but one that has endured serious financial distress, steep enrollment declines, and accreditation challenges in recent years \u2014 a school whose history is far stronger than its current institutional stability.",
+    "distinctives": [
+      "Founded in 1837, it is widely recognized as the oldest HBCU in the country, with deep historical significance in Black higher education",
+      "Part of the Pennsylvania State System of Higher Education (PASSHE), located in rural Cheyney, Pennsylvania near Philadelphia",
+      "Has faced well-documented financial crises, very low enrollment (a few hundred students), deferred maintenance, and periods of probationary accreditation status over the past decade",
+      "Prospective students and families should weigh its historic mission and small, close-knit community against real concerns about program breadth, campus resources, and institutional stability"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "212771": {
+    "profile_type": "researched",
+    "vibe": "A small, distinctive institution in the Philadelphia suburbs built around Jewish studies, Jewish education, and Holocaust/genocide studies \u2014 largely a graduate school rather than a conventional undergraduate college.",
+    "distinctives": [
+      "Located in Melrose Park, Pennsylvania (Greater Philadelphia); historically tied to Jewish communal and educational organizations",
+      "Primarily a graduate institution, offering master's and doctoral programs in areas like Jewish education, Holocaust and genocide studies, and Jewish studies, with some undergraduate offerings",
+      "Very small enrollment, serving a specialized population \u2014 often educators, clergy, and communal professionals \u2014 rather than a broad traditional student body",
+      "Distinctive mission focus makes it a niche fit: valuable for students specifically seeking Jewish studies/education credentials, not a general-purpose college choice"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "214883": {
+    "profile_type": "researched",
+    "vibe": "Peirce College is a small private nonprofit institution in Philadelphia built almost entirely around helping working adults finish a degree, with flexible online and evening formats rather than a traditional residential campus experience.",
+    "distinctives": [
+      "Founded in 1865, Peirce has long specialized in business, healthcare administration, legal studies, and technology degrees aimed at working adults and career-changers.",
+      "Most programs are offered online or in flexible formats designed around students who are also working, with significant transfer-credit and prior-learning-assessment options.",
+      "It is a small institution (typically well under 2,000 students) with no traditional residential campus life, athletics, or dorms in the way a conventional four-year college would.",
+      "Located in Center City Philadelphia, it serves primarily adult, nontraditional, and often first-generation students pursuing associate's and bachelor's degrees."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "214971": {
+    "profile_type": "researched",
+    "vibe": "The Pennsylvania Academy of the Fine Arts (PAFA) is a small, historic independent art school and museum in Philadelphia, one of the oldest institutions of its kind in the country, offering an intensive studio-based education for aspiring visual artists.",
+    "distinctives": [
+      "Founded in 1805, PAFA is one of the oldest art museums and schools in the United States, combining a working museum with a professional art school.",
+      "It is a very small institution, enrolling only a few hundred students total, with a strong emphasis on studio practice (painting, sculpture, printmaking) rather than a broad general-education curriculum.",
+      "Offers a BFA and low-residency/MFA-style graduate programs, often in partnership with the University of Pennsylvania for the bachelor's degree component of some tracks.",
+      "Located in Philadelphia's Center City, PAFA's identity is inseparable from its museum collection of American art and its long tradition of academic figure drawing and classical training."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "217606": {
+    "profile_type": "researched",
+    "vibe": "Northpoint Bible College is a small Christian institution in Haverhill, Massachusetts, affiliated with the Assemblies of God, focused on preparing students for ministry, missions, and other vocations through a Pentecostal/evangelical faith-based education.",
+    "distinctives": [
+      "A denominational Bible college affiliated with the Assemblies of God, with a curriculum centered on biblical studies, theology, and ministry preparation alongside select professional majors.",
+      "Very small enrollment, typically only a few hundred students, with a close-knit, faith-integrated residential campus community.",
+      "Students and faculty are generally expected to affirm a statement of faith and participate in campus religious life, chapel, and ministry practicum as part of the program.",
+      "Offers bachelor's degrees oriented toward pastoral ministry, worship, youth ministry, missions, and related vocational church and nonprofit roles rather than a broad secular liberal-arts catalog."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "217891": {
+    "profile_type": "researched",
+    "vibe": "Clinton College is a small, historically Black college in Rock Hill, South Carolina, affiliated with the African Methodist Episcopal Zion (AME Zion) Church, offering a close-knit, faith-rooted environment focused on access and opportunity for underserved students.",
+    "distinctives": [
+      "One of the nation's historically Black colleges and universities (HBCUs), founded in the late 19th century and affiliated with the AME Zion Church.",
+      "A very small institution, typically enrolling only a few hundred students, emphasizing personal attention, small class sizes, and strong faculty-student relationships.",
+      "Primarily offers associate's and bachelor's degrees in a limited number of fields such as business, education, and liberal studies, rather than a wide array of majors.",
+      "Serves a student population that includes many first-generation college students and students from the local Rock Hill/Charlotte metro region, with a mission centered on access and character development alongside academics."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "218335": {
+    "profile_type": "researched",
+    "vibe": "The Medical University of South Carolina (MUSC) in Charleston is primarily a major academic health center and graduate/professional institution \u2014 training physicians, nurses, dentists, pharmacists, and other health professionals \u2014 with a smaller set of undergraduate health-sciences programs layered on top of its dominant graduate mission.",
+    "distinctives": [
+      "MUSC is overwhelmingly known as a graduate and professional health-sciences university, housing colleges of Medicine, Dental Medicine, Pharmacy, Nursing, and Health Professions alongside a large academic medical center and hospital system.",
+      "It does offer a limited number of undergraduate degree programs (such as in the College of Health Professions), but these represent a small fraction of total enrollment compared to its graduate and professional programs.",
+      "Located in Charleston, South Carolina, MUSC is a major regional referral hospital and research center, meaning most students train in a clinical, hospital-integrated environment rather than a traditional undergraduate campus setting.",
+      "Prospective high schoolers should understand MUSC mainly as a long-term destination for graduate/professional health training (post-bachelor's) rather than a typical four-year undergraduate college choice, with any undergraduate offerings being narrow and health-science-specific."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "218399": {
+    "profile_type": "researched",
+    "vibe": "Morris College is a small, tight-knit, faith-rooted historically Black college in Sumter, South Carolina, where a Baptist heritage and close student-faculty relationships shape campus life more than name-brand prestige or research output.",
+    "distinctives": [
+      "Founded in 1908 by the Baptist Educational and Missionary Convention of South Carolina and remains affiliated with that Baptist convention",
+      "A small, four-year historically Black college (HBCU) with a total enrollment typically in the several-hundred to low-thousand range, emphasizing personal attention and small class sizes",
+      "Offers primarily undergraduate liberal arts and professional programs (education, business, biology, criminal justice, and religion/ministry among them) rather than graduate or doctoral study",
+      "Competes in NAIA athletics and serves a largely first-generation, regional South Carolina student population"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "218919": {
+    "profile_type": "researched",
+    "vibe": "Voorhees University is a small historically Black university in rural Denmark, South Carolina, carrying an Episcopal Church heritage and a mission centered on uplift, character formation, and access for first-generation students from the surrounding Lowcountry region.",
+    "distinctives": [
+      "Founded in 1897 (originally as Voorhees Industrial School, later Voorhees College) and historically affiliated with the Episcopal Church, one of only a small number of Episcopal-affiliated HBCUs",
+      "Rebranded from 'Voorhees College' to 'Voorhees University' in 2022 as it began adding graduate-level and expanded professional programs alongside its traditional undergraduate liberal arts base",
+      "Small, residential campus with total enrollment typically in the several-hundred to low-thousand range, located in a small rural town in Bamberg County, South Carolina",
+      "Competes in NAIA athletics and emphasizes community engagement, leadership development, and service as part of its institutional identity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "219204": {
+    "profile_type": "researched",
+    "vibe": "National American University-Rapid City was historically a for-profit career-college campus offering vocational and applied degree programs, but the broader National American University system underwent significant financial distress, closures, and restructuring in the years leading into the mid-2020s, so its current operating status should be treated as uncertain rather than assumed to be active.",
+    "distinctives": [
+      "Part of the National American University (NAU) system, a for-profit institution historically offering career-focused associate's, bachelor's, and some graduate programs in fields like business, health sciences, and legal studies",
+      "The NAU system announced a teach-out and closure of most or all of its campuses around 2023, and its accreditation and operating status have been in flux since then \u2014 prospective students and counselors should independently verify with the U.S. Department of Education's College Scorecard or the school directly whether this Rapid City location is still enrolling students",
+      "Historically served working adults and career-changers with flexible/evening scheduling typical of for-profit career colleges rather than a traditional residential liberal-arts experience",
+      "Given the documented instability in the NAU system, this profile is deliberately conservative and flags operating-status uncertainty rather than asserting current enrollment or program details as fact"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "219505": {
+    "profile_type": "researched",
+    "vibe": "American Baptist College is a very small, historically Black Baptist seminary/college in Nashville, Tennessee, whose core mission is training ministers, pastors, and Christian leaders rather than offering a broad secular undergraduate curriculum \u2014 a religious and vocational identity that should be front and center in how it's presented.",
+    "distinctives": [
+      "Founded in 1924 (originally the American Baptist Theological Seminary) to train African American Baptist ministers, and remains a historically Black institution with a distinctly ministry- and religious-education-focused mission",
+      "Notable historically as a training ground for civil rights leaders, including several Nashville sit-in movement participants who studied there in the late 1950s and early 1960s",
+      "Very small enrollment (typically only in the low hundreds or fewer), concentrated in biblical studies, theology, ministry leadership, and related religious/vocational programs rather than a wide array of secular majors",
+      "Best suited for students specifically discerning a call to ministry or Christian leadership within a Baptist tradition, not a general-purpose liberal arts choice"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "219790": {
+    "profile_type": "researched",
+    "vibe": "Bryan College is a small evangelical Christian liberal arts college in Dayton, Tennessee, distinctive for its explicit doctrinal/faith commitments and its historical link to the 1925 Scopes 'Monkey Trial,' having been founded in the town where that trial took place and named after William Jennings Bryan, who argued the prosecution's case.",
+    "distinctives": [
+      "Founded in 1930 in Dayton, Tennessee, and named for William Jennings Bryan in honor of his role in the 1925 Scopes evolution trial held in that same town",
+      "An evangelical Christian institution requiring faculty and often students to affirm a statement of faith, with a curriculum integrating biblical/theological perspectives across academic disciplines",
+      "Small, residential liberal arts college with total enrollment typically in the low thousands or fewer, offering a range of undergraduate majors (education, business, biology, ministry, and more) alongside some graduate programs",
+      "Competes in NAIA athletics and draws a student body largely seeking a conservative, faith-integrated college experience rather than a secular or religiously unaffiliated one"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
   }
 }
