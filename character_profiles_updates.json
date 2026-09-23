@@ -21290,5 +21290,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "498571": {
+    "profile_type": "researched",
+    "vibe": "A public regional university formed from the 2022 merger of California, Clarion, and Edinboro Universities of Pennsylvania, PennWest serves western Pennsylvania with a practical, career-focused approach across its three campuses.",
+    "distinctives": [
+      "Created in 2022 by consolidating three former Pennsylvania State System of Higher Education (PASSHE) universities into a single accredited institution with three campuses (California, Clarion, and Edinboro, PA)",
+      "Offers a broad mix of undergraduate and graduate programs including education, nursing, business, and criminal justice, reflecting its roots as three separate regional teaching-focused universities",
+      "Part of Pennsylvania's state system, so it carries relatively affordable in-state tuition compared to private institutions",
+      "The merger was driven by declining enrollment across all three legacy campuses, a challenge common to many small regional public universities in the Northeast and Midwest"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197285": {
+    "profile_type": "researched",
+    "vibe": "A small private career college in White Plains, New York, The College of Westchester emphasizes hands-on, career-oriented training in fields like business, health sciences, legal studies, and technology.",
+    "distinctives": [
+      "A small, private, non-profit career-focused college concentrated in White Plains, NY, serving a largely local and commuter student population",
+      "Programs are built around direct workforce preparation (e.g., medical assisting, paralegal studies, business administration, information technology) rather than a traditional liberal arts curriculum",
+      "Offers certificate, associate, and bachelor's degree pathways, appealing to students seeking a faster or more applied route into a specific career",
+      "As a small career college, it has a much smaller academic footprint and name recognition than larger regional universities, so students should verify program-specific accreditation for their intended career field"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217925": {
+    "profile_type": "researched",
+    "vibe": "Columbia International University is a private evangelical Christian university in Columbia, South Carolina, built around an explicit mission and ministry-training identity woven into all of its academic programs.",
+    "distinctives": [
+      "Founded as a Bible college and missionary training institute; retains a strong evangelical Christian identity with required Bible/theology coursework across all majors",
+      "Offers undergraduate and graduate programs in ministry, missions, counseling, education, and business, in addition to a seminary (Columbia Biblical Seminary)",
+      "Small, close-knit campus community with a conservative Christian code of conduct that students and families should expect to affirm",
+      "Best fit for students specifically seeking a faith-integrated education with vocational ministry or missions preparation, rather than a secular liberal arts experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "105589": {
+    "profile_type": "researched",
+    "vibe": "Prescott College is a small, alternative liberal arts college in Prescott, Arizona known for experiential, self-directed learning and a deep focus on environmental studies and sustainability, though it has faced significant financial and enrollment strain in recent years.",
+    "distinctives": [
+      "Distinctive for its experiential, low-residency, and self-designed degree model, with strong emphasis on environmental studies, sustainability, adventure education, and social justice",
+      "Historically known for narrative evaluations instead of traditional letter grades in many programs, and small, discussion-based classes",
+      "Has publicly experienced serious financial difficulties in recent years, including budget cuts, staff and faculty reductions, and declining enrollment, which prospective students and families should factor into their decision",
+      "Attracts a self-selecting student population drawn to nontraditional, hands-on, and outdoor/field-based learning rather than a conventional campus experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "129774": {
+    "profile_type": "researched",
+    "vibe": "Mitchell College is a small private college in New London, Connecticut, distinctive for its long-standing focus on supporting students with learning differences, including ADHD and dyslexia, alongside a traditional small-college liberal arts and professional program mix.",
+    "distinctives": [
+      "Widely recognized for its Thames Academy and academic support programs (such as PALS) designed specifically for students with learning differences, ADHD, and other learning disabilities",
+      "Small, private, residential college with a low student-to-faculty ratio and small class sizes, located on the Thames River in New London, CT",
+      "Offers a mix of career-oriented and liberal arts programs, including criminal justice, business, education, and marine/environmental-adjacent offerings tied to its coastal location",
+      "A strong fit for students who need structured academic support services alongside their coursework, rather than students seeking a large-scale or highly selective research environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "166692": {
+    "profile_type": "researched",
+    "vibe": "A small, highly disciplined public maritime academy on Cape Cod where cadets live under a regimental system and graduate with hands-on licensure in maritime and engineering trades.",
+    "distinctives": [
+      "One of a handful of state maritime academies in the U.S., located in Buzzards Bay, Massachusetts, and part of the Massachusetts public higher education system",
+      "Students in the regiment of cadets wear uniforms, live in a structured corps environment, and can earn U.S. Coast Guard licensure alongside their degree",
+      "Strong emphasis on engineering, marine transportation, and STEM majors tied directly to maritime and shipping industries, with sea-term training aboard the school's training ship",
+      "Very small student body compared to typical public universities, with high job placement rates reported for graduates entering maritime, engineering, and logistics careers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "174783": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public university in central Minnesota offering a broad range of comprehensive programs, though it has faced real enrollment declines and budget pressure in recent years.",
+    "distinctives": [
+      "Public regional university located in St. Cloud, Minnesota, part of the Minnesota State system of colleges and universities",
+      "Offers a wide range of undergraduate and graduate programs including business, education, health sciences, and criminal justice",
+      "Has experienced significant enrollment decline over the past decade and, like many Minnesota State campuses, has had to make budget cuts and program/faculty reductions in recent years -- prospective students should factor this into their evaluation",
+      "Serves a largely regional, in-state student population and is a relatively affordable option within the Minnesota State system"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "441937": {
+    "profile_type": "researched",
+    "vibe": "The youngest campus in the California State University system, offering a smaller-scale, community-oriented public university experience in a suburban Southern California setting.",
+    "distinctives": [
+      "Founded in 2002 as the 23rd and newest campus of the California State University system, located in Camarillo, California",
+      "Designated a Hispanic-Serving Institution, reflecting its diverse student population and regional mission to serve Ventura County and surrounding areas",
+      "Smaller in size than most CSU campuses, with an emphasis on interdisciplinary studies and community-engaged learning built into its founding academic model",
+      "Offers a range of undergraduate programs including business, psychology, biology, and nursing, with a largely commuter and regional student base"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215284": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit regional campus of the University of Pittsburgh, offering the Pitt name and degree in a more intimate, residential-college setting in the Laurel Highlands.",
+    "distinctives": [
+      "A regional campus of the University of Pittsburgh located in Johnstown, Pennsylvania, awarding Pitt-branded degrees with a smaller-college feel than the flagship Oakland campus",
+      "Notably smaller student body and more personalized class sizes compared to Pitt's main Pittsburgh campus",
+      "Competes in NCAA Division II athletics, unlike Pitt's flagship Division I programs",
+      "Strong regional draw for programs in business, engineering, health sciences (including nursing), and education, serving many first-generation and Western Pennsylvania students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "229018": {
+    "profile_type": "researched",
+    "vibe": "A public university in West Texas's oil-and-gas heartland, serving a largely regional and nontraditional student population with programs closely tied to the local energy economy.",
+    "distinctives": [
+      "Located in Odessa, Texas, and part of the University of Texas System, serving the Permian Basin region known for its oil and gas industry",
+      "Offers programs with strong ties to the regional economy, including petroleum engineering and other energy- and business-related fields",
+      "Serves a significant share of commuter, working, and nontraditional-age students reflective of its West Texas service region",
+      "Smaller in enrollment than most UT System campuses, with a more regional and commuter-oriented campus culture than flagship UT campuses like Austin"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "128106": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in Pueblo, Colorado, serving a largely first-generation, working-class student population with a mix of career-focused and liberal arts programs.",
+    "distinctives": [
+      "Public four-year university in southern Colorado, part of the Colorado State University System",
+      "Competes in NCAA Division II athletics as the ThunderWolves",
+      "Offers career-oriented programs including nursing, engineering, business, and education alongside traditional liberal arts majors",
+      "Serves a significant share of first-generation and Pell-eligible students, with relatively open admissions compared to flagship state schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "482228": {
+    "profile_type": "researched",
+    "vibe": "A very small, conservative Baptist Bible college focused on ministry and religious training within a fundamentalist Christian tradition.",
+    "distinctives": [
+      "Small, religiously affiliated institution centered on Bible, ministry, and Christian education degrees",
+      "Very small enrollment, typical of independent Baptist bible colleges rather than a broad-curriculum university",
+      "Students should independently verify current accreditation status, as small religious colleges of this type sometimes hold nationally recognized (rather than regional) accreditation, which affects credit transfer and financial aid eligibility",
+      "Best fit for students seeking explicitly faith-centered, denominationally specific education rather than a broad range of secular academic or career programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "111188": {
+    "profile_type": "researched",
+    "vibe": "A small, highly specialized maritime academy on San Francisco Bay that trains students for careers in the merchant marine, marine engineering, and maritime business, now operating as part of the Cal Poly system.",
+    "distinctives": [
+      "Formerly California State University Maritime Academy (Cal Maritime); merged into California Polytechnic State University, San Luis Obispo around 2022-2023 as Cal Poly Maritime Academy",
+      "One of only a handful of maritime academies in the U.S.; offers a U.S. Coast Guard-licensed cadet program (Corps of Cadets) alongside civilian degree tracks",
+      "Small campus in Vallejo, California, with programs in marine transportation, marine engineering technology, mechanical engineering, global logistics, and facilities engineering",
+      "Distinctive training ship (training vessel cruises) required for license-track cadets, a feature almost no other U.S. college offers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "209506": {
+    "profile_type": "researched",
+    "vibe": "A public polytechnic university in rural southern Oregon known for hands-on, applied degrees in engineering, health, and technology fields with strong industry placement outcomes.",
+    "distinctives": [
+      "Public university based in Klamath Falls, Oregon, with a branch campus in Wilsonville near Portland",
+      "Focuses on applied, hands-on STEM programs such as engineering, engineering technology, health sciences, and computer science rather than a broad liberal arts curriculum",
+      "Smaller enrollment and rural main-campus setting compared to Oregon's larger public universities (University of Oregon, Oregon State)",
+      "Known for strong graduate earnings outcomes relative to size, reflecting its applied/technical program focus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "147536": {
+    "profile_type": "researched",
+    "vibe": "A Chicago-based private university historically known for teacher education and serving adult, working, and nontraditional students, which has undergone significant financial and structural strain in recent years.",
+    "distinctives": [
+      "Private nonprofit university based in Chicago, Illinois, with historical strength in education, psychology, and adult/professional degree programs",
+      "Has experienced well-documented financial difficulties in recent years, including budget cuts, program eliminations, and the closure of its suburban Chicago campus (Wheeling) as it consolidated operations",
+      "Serves a large proportion of adult, transfer, and nontraditional students rather than a traditional 18-22 residential undergraduate population",
+      "Prospective students should verify current program offerings, financial stability, and accreditation status directly with the university given its recent restructuring"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "157377": {
+    "profile_type": "researched",
+    "vibe": "A small private university in the horse country of Midway, Kentucky, blending a close-knit liberal arts campus with one of the region's best-known equine studies programs.",
+    "distinctives": [
+      "Founded in 1847 as a women's college, Midway University became coeducational in 2015 and now enrolls both traditional undergraduates and adult/online students",
+      "Known for its equine studies and equine business programs, drawing on Kentucky's horse industry and nearby Lexington-area farms",
+      "Small campus with low student-to-faculty ratio typical of a private liberal arts institution, offering programs in nursing, education, business, and the sciences alongside equine studies",
+      "Located in Midway, a small town in the Bluegrass region between Lexington and Frankfort"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "186186": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish rabbinical institution focused on intensive Torah and Talmudic study for men preparing for rabbinic ordination and religious leadership.",
+    "distinctives": [
+      "A rabbinical college (yeshiva) offering religious/Talmudic study leading to rabbinic ordination and related religious-studies credentials rather than a conventional broad liberal arts curriculum",
+      "Very small enrollment, serving a narrow, specialized student population within the Orthodox Jewish community",
+      "Curriculum centers on Torah, Talmud, and Jewish law study rather than the general education distribution typical of most colleges",
+      "As with many small single-purpose religious institutions, applicants should independently verify current accreditation status, program length, and outcomes data directly with the school, since detailed public reporting on schools of this type and size is often limited"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215275": {
+    "profile_type": "researched",
+    "vibe": "A regional campus of the University of Pittsburgh set on a wooded suburban campus in Westmoreland County, offering a smaller-scale, more personal version of the Pitt experience close to Pittsburgh.",
+    "distinctives": [
+      "One of Pitt's four regional campuses (along with Bradford, Johnstown, and Titusville), located in Greensburg, Pennsylvania, about 35 miles southeast of Pittsburgh",
+      "Offers a range of bachelor's degrees along with some associate programs, with smaller class sizes than Pitt's Oswald Hall flagship in Pittsburgh",
+      "Students receive a Pitt degree and can access certain flagship-campus resources, with some programs allowing later transition to Pitt's main Pittsburgh campus",
+      "Primarily a residential/commuter campus drawing many students from western Pennsylvania"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "145619": {
+    "profile_type": "researched",
+    "vibe": "A Catholic Benedictine university outside Chicago known for a practical, career-oriented curriculum in business, health sciences, and STEM fields.",
+    "distinctives": [
+      "Located in Lisle, Illinois, a Chicago suburb, and rooted in the Catholic Benedictine tradition though open to students of all faiths",
+      "Notably strong in health sciences and business programs, including well-regarded public health and nutrition offerings",
+      "Operates additional locations/partnerships beyond the main Lisle campus (including a presence in Mesa, Arizona, in recent years), reflecting an emphasis on adult and online learners alongside traditional undergraduates",
+      "Like many private universities dependent on tuition revenue, Benedictine has navigated enrollment and financial pressures common to small and mid-sized private institutions in recent years, and prospective students should review current financial and accreditation standing directly with the school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214625": {
+    "profile_type": "researched",
+    "vibe": "A small Penn State commonwealth campus near Pittsburgh offering an affordable, close-knit start on a Penn State degree with the option to later move to a larger Penn State campus.",
+    "distinctives": [
+      "One of Penn State's commonwealth campuses, located in New Kensington, Pennsylvania, roughly 18 miles northeast of downtown Pittsburgh",
+      "Offers a limited set of bachelor's degrees on-site along with associate degrees and the first two years of many Penn State majors, with many students transitioning to University Park or another Penn State campus to complete their degree",
+      "Small campus size and student body relative to Penn State's main University Park campus, with smaller class sizes and closer faculty contact",
+      "Students earn a Penn State degree and diploma regardless of which campus they start or finish at, and tuition is generally lower than at University Park"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "141981": {
+    "profile_type": "researched",
+    "vibe": "A commuter-friendly public university on Oahu's leeward coast, built to serve working adults, transfer students, and local Hawaii residents who might not otherwise access a four-year degree close to home.",
+    "distinctives": [
+      "Part of the University of Hawaii System, located on a relatively new campus in Kapolei (opened 2012) on Oahu's leeward side",
+      "Historically an upper-division/transfer-focused institution, now offering a full range of bachelor's degrees alongside strong transfer pathways from UH community colleges",
+      "Small enrollment (a few thousand students) with a student body that closely reflects Hawaii's ethnic diversity, including large Native Hawaiian and Pacific Islander and Filipino populations",
+      "Notable niche programs include Sustainable Community Food Systems and Applied Business and Information Technology, reflecting a mission tied to serving the local Leeward/West Oahu community"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "140720": {
+    "profile_type": "researched",
+    "vibe": "A small, historically Black private college in Augusta, Georgia, with deep roots in the United Methodist and Christian Methodist Episcopal churches, but one that has been in serious and well-publicized financial and accreditation distress in recent years.",
+    "distinctives": [
+      "Founded in 1882 as one of the nation's historically Black colleges and universities (HBCUs), jointly affiliated with the United Methodist Church and the Christian Methodist Episcopal (CME) Church",
+      "A small liberal arts institution with a very small enrollment relative to most four-year colleges",
+      "Has faced well-documented financial difficulties and accreditation challenges with its regional accreditor (SACSCOC) in recent years, including periods of probation and loss of accreditation, which prospective students and families should research and verify directly with the school and accreditor before enrolling",
+      "Despite these challenges, it has a long history of educating first-generation and Black students in the Augusta area and has continued efforts to stabilize its finances and accreditation status"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214759": {
+    "profile_type": "researched",
+    "vibe": "A small Penn State Commonwealth Campus in southwestern Pennsylvania that offers an intimate, low-cost entry point into the Penn State system, with many students starting here before finishing their degree at University Park or another Penn State location.",
+    "distinctives": [
+      "One of Penn State's Commonwealth Campuses, located near Uniontown in Fayette County, Pennsylvania (also known as Penn State Fayette, The Eberly Campus)",
+      "Small campus size with much smaller enrollment than Penn State's main University Park campus, offering a more personal, small-classroom experience",
+      "Offers a mix of two-year associate degrees, select four-year bachelor's degrees, and pathways for students to transfer to complete a bachelor's degree at another Penn State campus",
+      "Students earn a Penn State degree and diploma regardless of which campus they attend, giving access to the broader Penn State alumni network and resources"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214698": {
+    "profile_type": "researched",
+    "vibe": "A small Penn State Commonwealth Campus in Beaver County, near Pittsburgh, offering a close-knit, commuter-friendly alternative to the large University Park campus while still granting a Penn State degree.",
+    "distinctives": [
+      "One of Penn State's Commonwealth Campuses, located in Monaca, Pennsylvania, in Beaver County northwest of Pittsburgh",
+      "Small campus with modest enrollment, offering smaller class sizes and more individualized attention than Penn State's flagship campus",
+      "Offers a selection of two-year and four-year degree programs, with many students transferring to University Park or another Penn State campus to complete specialized bachelor's degrees",
+      "Its proximity to Pittsburgh gives students access to a mid-size metro area for internships and jobs while attending a smaller, quieter campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153861": {
+    "profile_type": "researched",
+    "vibe": "A small, distinctive private university in Fairfield, Iowa, founded on the principles of Transcendental Meditation and 'consciousness-based education,' offering a very different academic and campus culture than most colleges.",
+    "distinctives": [
+      "Founded in 1971 by Maharishi Mahesh Yogi, the teacher who popularized Transcendental Meditation (TM) in the West, and headquartered in Fairfield, Iowa",
+      "Uses a distinctive block scheduling system in which students typically take one course at a time in focused several-week blocks, rather than a traditional multi-course semester",
+      "Daily group Transcendental Meditation practice is a core, expected part of student life and is integrated into the university's educational philosophy",
+      "Offers programs spanning fields like sustainable living, business, computer science, and media, and attracts a relatively small, self-selecting student body drawn to its alternative educational and contemplative approach"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
