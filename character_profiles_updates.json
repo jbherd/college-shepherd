@@ -18889,5 +18889,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "220701": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit campus in rural Pulaski, Tennessee that is still in transition - students get a lot of individual attention and a traditional small-college feel, but the school's identity is actively being rebuilt under the University of Tennessee System.",
+    "distinctives": [
+      "Formerly Martin Methodist College, a small private Methodist-affiliated liberal arts college; it was acquired by the University of Tennessee System and became a public institution (UT Southern) in 2021",
+      "Located in Pulaski, Tennessee, a small rural town, giving it a much smaller and more intimate campus feel than UT's flagship Knoxville campus",
+      "Offers a range of undergraduate liberal arts, business, education, and pre-professional programs alongside NAIA-level intercollegiate athletics",
+      "As one of the newest and smallest members of the UT System, it is still working to grow enrollment and build out its academic and facilities offerings compared to more established public universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "445692": {
+    "profile_type": "researched",
+    "vibe": "A small, highly specialized for-profit college in Salt Lake City built entirely around software development and computer science, with an intense, career-focused, project-driven culture rather than a traditional broad liberal arts experience.",
+    "distinctives": [
+      "Located in South Jordan/Salt Lake City, Utah, and focused almost exclusively on computer science and software development degrees",
+      "Runs on an accelerated, cohort-based model with a compressed calendar (historically built around a roughly three-year bachelor's track) emphasizing hands-on coding and team projects over general education breadth",
+      "A small, for-profit institution with enrollment in the low hundreds to low thousands, much smaller than a typical state university computer science department",
+      "Curriculum and career services are explicitly oriented toward placing graduates directly into software engineering and tech industry jobs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "441900": {
+    "profile_type": "researched",
+    "vibe": "A young, rapidly growing public university near Las Vegas that serves a largely first-generation, commuter, and working-adult student population, with an emphasis on accessibility and applied bachelor's degrees rather than a traditional residential college experience.",
+    "distinctives": [
+      "Located in Henderson, Nevada, part of the Las Vegas metro area, and one of the newer institutions in the Nevada System of Higher Education (originally founded in 2002 as Nevada State College, renamed Nevada State University)",
+      "Primarily a commuter, non-residential campus historically, serving a large share of first-generation and Pell-eligible students from the surrounding Las Vegas Valley",
+      "Offers a range of applied bachelor's degree programs, including nursing, education, and business, designed for career entry in the local workforce",
+      "Has smaller class sizes and a teaching-focused faculty model compared to the state's larger research universities (UNLV and UNR)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "165820": {
+    "profile_type": "researched",
+    "vibe": "A practical, affordable public university in north-central Massachusetts with a strong reputation in career-oriented fields like nursing, education, and industrial technology, drawing a largely regional, first-generation, and commuter-friendly student body.",
+    "distinctives": [
+      "Located in Fitchburg, Massachusetts, one of the Massachusetts state universities within the state's public higher education system",
+      "Known historically for strong programs in nursing, education, communications media, and industrial/manufacturing technology, reflecting the region's working-class and industrial roots",
+      "A mid-size public university offering both undergraduate and graduate programs, with a mix of residential and commuter students",
+      "Fields NCAA Division III athletics as part of the Massachusetts State Collegiate Athletic Conference (MASCAC)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199157": {
+    "profile_type": "researched",
+    "vibe": "A historically Black public university in Durham, North Carolina with deep roots in law, business, and the sciences, offering students a strong sense of community and legacy within the broader Research Triangle academic and career ecosystem.",
+    "distinctives": [
+      "A public HBCU founded in the early 1900s, making it one of the older historically Black institutions in the UNC System",
+      "Home to a well-regarded School of Law and notable programs in business, biology/biomedical sciences, and criminal justice",
+      "Located in Durham, North Carolina, giving students access to the Research Triangle's universities, hospitals, and tech/biotech employers",
+      "Competes in NCAA Division I athletics (MEAC conference) with a strong football and basketball tradition including the annual rivalry with NC A&T"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "130776": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public university in Danbury, Connecticut that draws a mostly local/regional, commuter-heavy crowd, with a well-regarded music program and a practical, career-focused feel rather than a big traditional campus-life atmosphere.",
+    "distinctives": [
+      "Public university in the Connecticut State Colleges and Universities (CSCU) system, located in Danbury, CT",
+      "Known for its Music program (including jazz studies) and performances at the on-campus Ives Concert Park, named for composer Charles Ives who was born in Danbury",
+      "Offers professional programs such as nursing, business, and justice/law administration alongside liberal arts",
+      "Competes in NCAA Division III athletics as the Colonials, in the Little East Conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "101879": {
+    "profile_type": "researched",
+    "vibe": "A public university in Florence, Alabama with strong school spirit, a close-knit small-town Southern feel, and a well-known athletics tradition, including the school's iconic live lion mascots.",
+    "distinctives": [
+      "The oldest state-supported university in Alabama, located in Florence in the Shoals region",
+      "Nickname is the Lions, and the university keeps live lions (currently Leo) in an on-campus habitat as a mascot tradition",
+      "Fields NCAA Division I athletics (having transitioned from a highly successful Division II program with multiple national football championships) and competes in the ASUN Conference",
+      "Offers a range of undergraduate and graduate programs through colleges including business, education, nursing, and arts and sciences"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "446640": {
+    "profile_type": "researched",
+    "vibe": "A small, nontraditional private university in downtown Harrisburg, Pennsylvania built specifically around STEM careers, with an accelerated, tech-industry-oriented culture rather than a typical residential-college social scene.",
+    "distinctives": [
+      "Private, nonprofit STEM-focused university founded in the early 2000s in Harrisburg, PA, housed in a high-rise campus building in the city's downtown",
+      "Curriculum emphasizes applied science, technology, engineering, and math fields such as computer science, biotechnology, and analytics, often with project-based and industry-linked coursework",
+      "Does not have traditional NCAA varsity athletics or a Greek system; it has instead built out competitive esports as a campus activity",
+      "Markets itself around keeping tuition costs down for students relative to typical private university pricing"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "189857": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox (Chabad-Lubavitz) yeshiva centered on intensive Talmudic and rabbinic study for young men, offering a religious training environment rather than a conventional college experience; public information about it is limited.",
+    "distinctives": [
+      "An Orthodox Jewish yeshiva affiliated with the Chabad-Lubavitz movement, associated with the Crown Heights, Brooklyn community",
+      "Curriculum centers on Torah, Talmud, and rabbinic studies rather than a standard liberal arts or professional degree program",
+      "Serves a small, specialized student population pursuing religious/rabbinical training, not a general undergraduate population",
+      "Public data (enrollment figures, program details, rankings) is limited or not widely published, so specifics beyond its religious mission should be treated with caution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "163851": {
+    "profile_type": "researched",
+    "vibe": "A well-regarded public university on Maryland's Eastern Shore with a strong reputation for value and student support, blending a traditional college-town campus feel with solid professional programs.",
+    "distinctives": [
+      "Public university located in Salisbury, Maryland, part of the University System of Maryland",
+      "Home to the Franklin P. Perdue School of Business, one of its most recognized programs, along with strong nursing and education offerings",
+      "Competes in NCAA Division III athletics as the Sea Gulls",
+      "Frequently cited among public regional universities in the Mid-Atlantic for offering good academic value relative to cost"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "454236": {
+    "profile_type": "researched",
+    "vibe": "A career-focused, nursing-centric campus for students who know they want to become a nurse and want a direct, structured path into the profession rather than a traditional four-year college experience.",
+    "distinctives": [
+      "Part of the Chamberlain University system (owned by Adtalem Global Education), a national network of nursing-focused campuses with a shared curriculum",
+      "Primary offering is the BSN (Bachelor of Science in Nursing), often paired with online coursework plus in-person clinical and lab components at the Ohio location",
+      "Smaller, commuter-oriented campus culture centered on nursing cohorts rather than a broad residential college experience",
+      "Students typically transfer in or enter with a career-change/adult-learner mindset; less emphasis on traditional undergrad extracurriculars/athletics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "445267": {
+    "profile_type": "researched",
+    "vibe": "Not a traditional residential campus but Central Methodist University's adult- and working-student-oriented division, built for people finishing a degree around a job or family rather than living in dorms and joining clubs.",
+    "distinctives": [
+      "The College of Graduate and Extended Studies (CGES) is CMU's adult-learner division, distinct from CMU's traditional residential campus in Fayette, Missouri",
+      "Offers degree-completion and graduate programs designed for working adults, historically through a mix of extended-campus sites and online coursework",
+      "CMU is a small, Methodist-affiliated university, so CGES programs carry that institution's values-based, liberal-arts-rooted identity even in a nontraditional format",
+      "Best fit for a student profile that is an adult learner or transfer student seeking flexibility, not a graduating high schooler wanting a typical on-campus freshman experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "183080": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university tucked in the White Mountains of New Hampshire, popular with students who want an outdoorsy, close-knit campus feel alongside solid career-prep programs.",
+    "distinctives": [
+      "Located in Plymouth, NH, close to the White Mountain National Forest, making outdoor recreation and adventure programs a natural strength",
+      "Part of the University System of New Hampshire (USNH), offering in-state affordability for NH residents and regional tuition breaks for New England students",
+      "Well known for its meteorology program, one of the more established undergraduate meteorology offerings in the Northeast",
+      "Uses an integrated, cluster-based general education curriculum designed to connect coursework across disciplines rather than isolated distribution requirements"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "165529": {
+    "profile_type": "researched",
+    "vibe": "A small private college outside Boston known for genuinely supporting students with learning differences while still offering a full liberal-arts-and-professional-programs college experience.",
+    "distinctives": [
+      "Located in Milton, Massachusetts, close enough to Boston for internships and city access while keeping a smaller, suburban campus feel",
+      "Home to the Program for Advancement of Learning (PAL), a long-running, nationally recognized support program for students with learning disabilities such as dyslexia and ADHD",
+      "Offers career-oriented majors including communication, criminal justice, business, and nursing alongside traditional liberal arts",
+      "NCAA Division III athletics with a range of varsity teams, reflecting a small-college culture where a large share of students participate in sports"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "240417": {
+    "profile_type": "researched",
+    "vibe": "A hands-on, career-focused public university where students spend as much time in labs, studios, and shops as in lecture halls, appealing to students who want applied, job-ready majors over a traditional liberal-arts path.",
+    "distinctives": [
+      "The only polytechnic designated university in the University of Wisconsin System, emphasizing applied learning, internships, and hands-on coursework across its programs",
+      "Located in Menomonie, Wisconsin, a small college town in the western part of the state",
+      "Strong offerings in fields like engineering technology, industrial design, applied science, hospitality/hotel-restaurant management, and technology education",
+      "Historically reports strong graduate employment/placement outcomes, consistent with its career-focused, polytechnic model"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "142328": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused public college in the Idaho panhandle river town of Lewiston, Lewis-Clark State draws students who want hands-on training and personal attention rather than a big-university experience.",
+    "distinctives": [
+      "Public four-year college in Lewiston, Idaho, part of the Idaho public higher education system",
+      "Known for strong career-technical and workforce programs alongside traditional bachelor's degrees, including nursing, education, criminal justice, and business",
+      "Small campus with low student-to-faculty ratio typical of Idaho's smallest public four-year institution",
+      "Warriors athletics compete in the NAIA, with the baseball program historically one of the most decorated in NAIA history"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "446385": {
+    "profile_type": "researched",
+    "vibe": "A niche, industry-connected music school in the Los Angeles area built for students who want to spend college immersed in performance, songwriting, and the professional music business rather than a broad liberal-arts curriculum.",
+    "distinctives": [
+      "Small private college focused entirely on contemporary music performance, production, songwriting, and the music business",
+      "Located in the Los Angeles/Pasadena area, giving students proximity to the recording and entertainment industry",
+      "Offers specialized tracks in instruments like guitar, bass, drums, and vocals alongside music production and business coursework",
+      "A much smaller and more specialized school than a traditional four-year college - students should independently verify current accreditation status and program offerings directly with the school before applying"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "232937": {
+    "profile_type": "researched",
+    "vibe": "A historically Black public university in Norfolk, Virginia, with a strong sense of community and school pride, offering students an affordable public option with deep HBCU tradition.",
+    "distinctives": [
+      "Public historically Black university (HBCU) located in Norfolk, Virginia",
+      "Notable programs include mass communications/journalism, cybersecurity, and nursing",
+      "Spartans compete in NCAA Division I athletics (MEAC), with a well-known marching band tradition",
+      "Offers a mix of undergraduate and graduate programs with a relatively affordable in-state public tuition"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139199": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Gainesville, Georgia, historically known as a women's college for traditional undergraduates, with a close-knit campus feel and a focus on health sciences and professional programs.",
+    "distinctives": [
+      "Private university in Gainesville, Georgia, with roots as a women's college - traditional undergraduate programs are historically women-only, while graduate and some evening/online programs are coed",
+      "Known for health science programs including nursing, occupational therapy, and physical therapy",
+      "Small campus size with an emphasis on personalized attention and small class sizes",
+      "Offers equestrian studies, a distinctive program tied to the school's long-standing riding tradition"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "176628": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic liberal arts university in Kansas City, Missouri, offering a personal, values-driven campus experience for students who want small classes and individual attention.",
+    "distinctives": [
+      "Private Catholic university in Kansas City, Missouri, founded by the Sisters of St. Joseph of Carondelet",
+      "Small enrollment with an emphasis on close faculty-student relationships and small class sizes",
+      "Notable programs include nursing, education, business, and art therapy/counseling",
+      "NAIA athletics (Eagles) provide a smaller-college sports experience within an urban setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "165024": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in southeastern Massachusetts with roots as a 19th-century teachers' college, Bridgewater State has a practical, career-focused feel and draws heavily from local and regional students looking for an affordable state-school experience.",
+    "distinctives": [
+      "Located in Bridgewater, Massachusetts, part of the Massachusetts state university system",
+      "Founded in 1840 as a normal school (teacher training institution), giving it a long history in education and childhood studies programs",
+      "Competes in NCAA Division III athletics as the Bears, in the Massachusetts State Collegiate Athletic Conference (MASCAC)",
+      "Offers a broad mix of undergraduate and graduate programs including business, criminal justice, nursing, and education alongside liberal arts majors"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "174075": {
+    "profile_type": "researched",
+    "vibe": "A small campus of the University of Minnesota system in the northwestern part of the state, Crookston has a rural, hands-on culture built around its agricultural and applied-science roots, appealing to students who want a small-school feel with a big-university name.",
+    "distinctives": [
+      "Part of the University of Minnesota system, located in Crookston in the Red River Valley of northwestern Minnesota",
+      "Historically strong in agriculture-related fields, including animal science and equine science, reflecting its origins as an agricultural school",
+      "One of the smaller University of Minnesota campuses, with a notably low student-to-faculty ratio compared to the flagship in Minneapolis",
+      "Athletics compete as the Golden Eagles in NCAA Division II, primarily in the Northern Sun Intercollegiate Conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "168430": {
+    "profile_type": "researched",
+    "vibe": "A public university in the city of Worcester, Massachusetts, Worcester State offers an urban-adjacent, affordable option with a strong regional draw for students pursuing nursing, business, education, and other career-oriented majors.",
+    "distinctives": [
+      "Located in Worcester, Massachusetts, part of the Massachusetts state university system",
+      "Also traces its history to a 19th-century normal school, with continued strength in teacher preparation and nursing programs",
+      "Competes in NCAA Division III as the Lancers, in the Massachusetts State Collegiate Athletic Conference (MASCAC)",
+      "Sits in Worcester, a mid-sized city home to multiple other colleges and universities, giving students access to a broader college-town environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219082": {
+    "profile_type": "researched",
+    "vibe": "A small public university in Madison, South Dakota that has built a distinctive identity around technology, computer science, and cyber security, making it a strong niche pick for students who know they want to work in tech fields.",
+    "distinctives": [
+      "Located in Madison, South Dakota, with a specialized focus on computer science, information systems, and cyber security/cyber operations programs",
+      "Recognized by the National Security Agency as a National Center of Academic Excellence in Cyber Defense Education",
+      "Relatively small enrollment, giving it a tight-knit, tech-focused campus culture compared to larger South Dakota public universities",
+      "Athletics compete as the Trojans in NCAA Division II, in the Northern Sun Intercollegiate Conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "200156": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Jamestown, North Dakota with roots in the Presbyterian tradition, Jamestown offers a close-knit, small-college environment where students can expect personal attention from faculty and a strong athletics culture relative to its size.",
+    "distinctives": [
+      "Located in Jamestown, North Dakota, and historically affiliated with the Presbyterian Church",
+      "A small private institution with a low student body count, emphasizing small class sizes and close faculty contact",
+      "Athletics teams are known as the Jimmies and compete in NCAA Division II",
+      "Offers a liberal-arts core alongside professional programs such as business, education, and nursing"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
