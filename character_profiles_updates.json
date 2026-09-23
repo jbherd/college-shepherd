@@ -26090,5 +26090,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "188304": {
+    "profile_type": "researched",
+    "vibe": "A small public university in rural southwestern New Mexico serving a largely first-generation, Hispanic and Native American student population, with a mission centered on regional access and affordability.",
+    "distinctives": [
+      "Public, open-access-oriented four-year university in Silver City, New Mexico, part of the state's public higher education system",
+      "Serves a predominantly Hispanic and Native American student body, many of them first-generation college students from rural southwestern New Mexico",
+      "Offers a range of bachelor's and some graduate/associate programs, including education, nursing, business, and criminal justice, with many students commuting or enrolling part-time",
+      "Relatively low cost of attendance and modest enrollment compared to New Mexico's flagship institutions (UNM, NMSU)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "189228": {
+    "profile_type": "researched",
+    "vibe": "A for-profit, career-focused college in New York City offering practical, job-oriented degree programs aimed at working adults and students seeking direct paths into business, healthcare, and criminal justice careers.",
+    "distinctives": [
+      "For-profit institution and one campus of the multi-location Berkeley College system (with sites across New York and New Jersey and online programs)",
+      "Curriculum emphasizes applied, career-training majors such as business administration, health services administration, criminal justice, and accounting rather than a traditional liberal arts model",
+      "Attracts a nontraditional student population, including working adults, transfer students, and career-changers, with flexible and accelerated scheduling common at for-profit career colleges",
+      "As with most for-profit career colleges, prospective students should carefully compare net cost and loan/debt outcomes against public alternatives before enrolling"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "189282": {
+    "profile_type": "researched",
+    "vibe": "A small, specialized nursing school in New York City affiliated with the Mount Sinai Health System, training students exclusively for careers as registered nurses within a major academic hospital network.",
+    "distinctives": [
+      "A single-purpose nursing institution (not a comprehensive college) affiliated with Mount Sinai's hospital system, focused on RN preparation such as diploma and/or associate-level nursing programs",
+      "Students gain clinical training directly within a major New York City hospital network, offering strong hands-on exposure to hospital-based nursing practice",
+      "Best suited for students with a clear, specific goal of becoming a registered nurse rather than those seeking a broad liberal arts or multi-major college experience",
+      "Small, tightly-focused enrollment typical of hospital-based nursing schools, distinct from university-based nursing degree programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "189413": {
+    "profile_type": "researched",
+    "vibe": "A small, mission-driven college in New York City founded to serve the Puerto Rican and broader Latino community, distinctive for its bilingual (Spanish/English) approach to higher education and its focus on access for underserved, often first-generation students.",
+    "distinctives": [
+      "Founded specifically to expand higher education access for Puerto Rican and Latino students in New York, with a bilingual education model that supports instruction and coursework in both Spanish and English",
+      "Small college with a strong community-oriented, student-support mission geared toward first-generation and nontraditional students",
+      "Offers programs across multiple New York City boroughs, reflecting its roots in community-based, accessible education rather than a single traditional residential campus",
+      "Distinctive among U.S. colleges for centering bilingual instruction and Latino cultural identity as core to its educational philosophy, rather than treating it as an add-on support service"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "189565": {
+    "profile_type": "researched",
+    "vibe": "A for-profit career college campus in Syracuse, New York, offering short-cycle diploma and associate/bachelor's programs geared toward quickly entering fields like business, healthcare, and IT.",
+    "distinctives": [
+      "For-profit institution and one campus of the multi-location Bryant & Stratton College system, which operates campuses across New York, Ohio, Wisconsin, and Virginia plus online options",
+      "Focuses on applied, career-oriented programs (e.g., business, medical/healthcare support, IT, criminal justice) rather than a traditional broad-based liberal arts curriculum",
+      "Designed for students seeking a faster, practically-oriented path into the workforce, including working adults and career-changers, often with flexible or accelerated scheduling",
+      "As a for-profit career college, prospective students should weigh net cost, program-specific outcomes, and loan/debt data carefully against comparable public community college or university options"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "192165": {
+    "profile_type": "researched",
+    "vibe": "An all-male Orthodox Jewish rabbinical seminary (yeshiva) in Brooklyn devoted to intensive Talmudic and rabbinic study, not a general-education college in the conventional sense.",
+    "distinctives": [
+      "Small, single-sex (male) Orthodox Jewish institution focused on Talmudic and rabbinic scholarship rather than a broad liberal-arts curriculum",
+      "Grants religious/rabbinical credentials tied to advanced Torah and Talmud study, in the yeshiva tradition",
+      "Located in Brooklyn, New York, serving the local Orthodox Jewish community",
+      "Very small enrollment typical of specialized rabbinical seminaries, with a curriculum centered on religious texts rather than conventional majors"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "195173": {
+    "profile_type": "researched",
+    "vibe": "A small private Catholic college in Brooklyn Heights with Franciscan roots, known historically for opening opportunity to first-generation and working-class New York City students through an affordable, career-oriented liberal-arts education.",
+    "distinctives": [
+      "Founded by the Franciscan Brothers in the early 20th century, originally serving commuter and first-generation college students in Brooklyn",
+      "Historically tuition-free or low-cost model for much of its history, aimed at expanding access for local students; now a tuition-charging private college",
+      "Offers undergraduate and some graduate programs, with traditional strengths in business, education, nursing/health sciences, and the liberal arts",
+      "Compact urban campus in Brooklyn Heights, New York City, drawing heavily from the NYC metro area and known for a diverse, commuter-friendly student body"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "195438": {
+    "profile_type": "researched",
+    "vibe": "An all-male Orthodox Jewish yeshiva and rabbinical college in Far Rockaway, Queens, dedicated to full-time Talmudic study and rabbinic training rather than a conventional undergraduate experience.",
+    "distinctives": [
+      "Single-sex (male) Orthodox Jewish rabbinical institution centered on Talmud and Jewish law study in the yeshiva tradition",
+      "Grants religious/rabbinic-oriented credentials rather than a standard array of academic majors",
+      "Located in Far Rockaway, New York, part of a Modern/Yeshivish Orthodox Jewish educational network",
+      "Very small, specialized enrollment typical of rabbinical seminaries, with an intensive, text-based daily study schedule"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196255": {
+    "profile_type": "researched",
+    "vibe": "A public graduate and professional health sciences university in Brooklyn, part of the SUNY system, centered on training physicians, nurses, and other health professionals rather than serving as a general undergraduate destination.",
+    "distinctives": [
+      "Part of the State University of New York (SUNY) system, focused almost entirely on graduate and professional health education, including a College of Medicine, College of Nursing, School of Health Professions, and School of Public Health",
+      "Operates a major academic medical center in Brooklyn, combining clinical care, biomedical research, and health professional training",
+      "Not a typical undergraduate liberal-arts campus \u2014 admission is largely limited to students who already hold or are completing prerequisite coursework for professional health degrees",
+      "Long-standing role as a key public source of physicians and health workers for underserved communities in central Brooklyn and New York City"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196264": {
+    "profile_type": "researched",
+    "vibe": "A SUNY institution built for flexible, individualized degree completion aimed at adult, working, and nontraditional learners, using mentor-guided independent study rather than a traditional residential campus experience.",
+    "distinctives": [
+      "Formerly known as SUNY Empire State College, part of the State University of New York system, specializing in personalized and often online or low-residency degree programs",
+      "Serves primarily adult, transfer, and nontraditional students, including many who bring prior college credit, military experience, or workplace learning toward their degree",
+      "Uses a distinctive mentor-based model where students design individualized study plans with faculty mentors rather than following a fixed cohort curriculum",
+      "Operates through a network of regional locations across New York State plus extensive online offerings, rather than a single traditional residential campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196307": {
+    "profile_type": "researched",
+    "vibe": "A public academic health center in downtown Syracuse that trains physicians, nurses, and other health professionals entirely at the graduate and professional level, with no undergraduate program.",
+    "distinctives": [
+      "Part of the State University of New York (SUNY) system, operating as SUNY's academic medical center in Syracuse",
+      "Offers only graduate/professional degrees through its Colleges of Medicine, Nursing, Health Professions, and Graduate Studies, plus a PhD/biomedical research program \u2014 there is no undergraduate admissions track",
+      "Operates a major teaching hospital and Level I trauma/burn center serving Central New York",
+      "Admission is highly selective and post-baccalaureate, drawing applicants who already hold a bachelor's degree pursuing MD, DNP, PA, PT, or other clinical/health-science credentials"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197601": {
+    "profile_type": "researched",
+    "vibe": "A small, insular Hasidic yeshiva in Brooklyn devoted entirely to full-time Talmudic and rabbinic study for men within the Karlin-Stolin Hasidic community, not a general higher-education institution.",
+    "distinctives": [
+      "An all-male Orthodox Jewish rabbinical seminary (yeshiva) affiliated with the Karlin-Stolin Hasidic movement",
+      "Curriculum is centered on Talmud, halacha (Jewish law), and rabbinic texts rather than a secular liberal-arts or professional curriculum",
+      "Very small enrollment, serving students preparing for religious scholarship, rabbinic ordination, or roles within the Hasidic community",
+      "Instruction is conducted largely in Yiddish and/or Hebrew, reflecting the insular, community-based nature of Hasidic yeshiva education"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197674": {
+    "profile_type": "researched",
+    "vibe": "A small, tight-knit Hasidic rabbinical college in Mount Kisco, New York, continuing the Nitra Hasidic tradition of intensive Talmudic study for men rather than functioning as a conventional college.",
+    "distinctives": [
+      "An all-male Orthodox Jewish yeshiva/rabbinical college tied to the Nitra Hasidic lineage, originally rooted in the pre-war Nitra yeshiva tradition from Slovakia",
+      "Focuses exclusively on Talmud, Jewish law, and rabbinic scholarship rather than secular academic subjects",
+      "Very small, community-oriented institution serving a specific Hasidic constituency in Westchester County",
+      "Graduates typically pursue rabbinic ordination, religious teaching, or communal religious leadership roles rather than secular careers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "198677": {
+    "profile_type": "researched",
+    "vibe": "A small Pentecostal Holiness Bible college in Dunn, North Carolina, offering Christian ministry-focused education to a small, faith-committed student body.",
+    "distinctives": [
+      "Affiliated with the International Pentecostal Holiness Church, with a curriculum centered on biblical studies, theology, and ministry preparation",
+      "Very small enrollment typical of denominational Bible colleges, with a close-knit, mission-oriented campus culture",
+      "Programs prepare students for pastoral ministry, missions, Christian education, and related church-vocation roles rather than broad secular career paths",
+      "Located in Dunn, a small town in eastern North Carolina, reflecting a modest, regional footprint rather than a national draw"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199883": {
+    "profile_type": "researched",
+    "vibe": "A small, hospital-affiliated nursing school in Durham, North Carolina, focused narrowly on training nurses rather than offering a broad college experience.",
+    "distinctives": [
+      "A specialized nursing-only institution, historically tied to Durham-area hospitals as a diploma/associate-level nursing training program",
+      "Curriculum centers on nursing education (classroom instruction paired with clinical hospital training) rather than general education or liberal-arts coursework",
+      "Very small, focused enrollment typical of hospital-based nursing schools rather than a comprehensive college",
+      "Graduates are prepared to sit for the NCLEX licensure exam and enter direct-care nursing roles, making this a workforce-training pipeline rather than a traditional four-year college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199971": {
+    "profile_type": "researched",
+    "vibe": "A very small Bible college in Winston-Salem, North Carolina, focused on ministry preparation within a conservative evangelical/Baptist tradition rather than a broad liberal-arts experience.",
+    "distinctives": [
+      "Small, denominationally-affiliated Bible college training students primarily for pastoral, ministry, and Christian-education vocations",
+      "Enrollment is very small compared to typical four-year colleges, with a tight-knit, faith-centered campus culture",
+      "Curriculum centers on biblical studies, theology, and ministry practice rather than a wide range of secular majors",
+      "Located in Winston-Forsyth County, North Carolina, serving a largely regional, church-connected student body"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "200226": {
+    "profile_type": "researched",
+    "vibe": "A small, friendly public university on the North Dakota prairie that emphasizes hands-on programs like teacher education, business, and agriculture, with a strong sense of community and accessible, personalized instruction.",
+    "distinctives": [
+      "Public four-year institution in Mayville, North Dakota, part of the North Dakota University System",
+      "Long-standing strength in teacher preparation/education programs alongside business and career-focused majors",
+      "Small campus with low student-to-faculty ratio and close faculty-student relationships typical of rural regional public universities",
+      "Offers a mix of on-campus and distance/online programs to serve place-bound and working students in the upper Midwest"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "200873": {
+    "profile_type": "researched",
+    "vibe": "A very small, conservative Wesleyan Methodist Bible college in Salem, Ohio, devoted almost entirely to training pastors, missionaries, and Christian workers within its holiness-movement tradition.",
+    "distinctives": [
+      "Tiny, single-purpose Bible college affiliated with the conservative Wesleyan Methodist (holiness) tradition",
+      "Curriculum is centered on biblical and ministerial training rather than a broad range of academic disciplines",
+      "Enrollment is extremely small, with a close, church-integrated community rather than a typical residential college atmosphere",
+      "Located in Salem, Ohio, and closely tied to its sponsoring denominational connection for students preparing for ministry vocations"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "201867": {
+    "profile_type": "researched",
+    "vibe": "A narrow, single-purpose professional training school in Cincinnati, Ohio, that exists to prepare students for licensure and careers in funeral service and mortuary science \u2014 not a general college in any traditional sense.",
+    "distinctives": [
+      "Specialized institution offering associate-level programs in mortuary science/funeral service education (embalming, restorative art, funeral directing, and related coursework)",
+      "Designed to meet state licensing/board requirements for funeral service professionals, with a curriculum built around that single career pathway",
+      "Very small, career-focused student body pursuing a specific vocational credential rather than a broad liberal-arts degree",
+      "Located in Cincinnati, Ohio, and serves primarily students planning careers as funeral directors, embalmers, or related death-care professionals"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "202806": {
+    "profile_type": "researched",
+    "vibe": "A private, nonprofit university in Columbus, Ohio built specifically around adult, working, and transfer students, prioritizing flexible scheduling and online/hybrid delivery over a traditional residential campus experience.",
+    "distinctives": [
+      "Explicitly designed for adult learners and working professionals, with evening, weekend, accelerated, and extensive online course formats",
+      "Strong transfer-friendly model that accepts substantial transfer credit and credit for prior learning/work experience",
+      "Business, healthcare, IT, and other career-oriented degree programs aimed at career advancement rather than a traditional 18-22 residential undergraduate experience",
+      "Little to no traditional campus-life focus (dorms, NCAA athletics, etc.) compared to conventional four-year universities, reflecting its nontraditional-student mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "204006": {
+    "profile_type": "researched",
+    "vibe": "A small, open-access regional campus of Miami University in Hamilton, Ohio, serving primarily local and commuter students with an affordable, supportive entry point into the Miami University system rather than the traditional residential experience of the Oxford flagship.",
+    "distinctives": [
+      "Regional branch campus of Miami University, distinct from and much smaller than the main Oxford, Ohio campus",
+      "Primarily a commuter, open-access campus offering associate degrees and the first two years of many bachelor's degree pathways",
+      "Students can transition to the Oxford campus or other Miami regional locations to complete four-year degrees",
+      "Serves Butler County and surrounding southwest Ohio communities with lower cost of attendance than the flagship"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "204015": {
+    "profile_type": "researched",
+    "vibe": "A small, open-access regional campus of Miami University in Middletown, Ohio, offering an affordable, community-oriented alternative to the Oxford flagship for local and nontraditional students.",
+    "distinctives": [
+      "Regional branch campus of Miami University, separate from and much smaller than the main Oxford, Ohio campus",
+      "Commuter-focused campus offering associate degrees and lower-division coursework toward Miami bachelor's degrees",
+      "Designed as an accessible, lower-cost entry point, often serving first-generation and place-bound students",
+      "Students typically transfer to Oxford or another Miami campus to complete a four-year degree"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "204671": {
+    "profile_type": "researched",
+    "vibe": "A small, open-access regional campus of Ohio State University in Lima, Ohio, built to bring affordable, close-to-home higher education to northwest Ohio rather than replicate the large research-university experience of the Columbus flagship.",
+    "distinctives": [
+      "Regional branch campus of The Ohio State University, distinct from and far smaller than the main Columbus campus",
+      "Open-access admissions with a strong commuter and nontraditional-student population",
+      "Offers associate degrees and the first two years of select bachelor's degree programs, with pathways to complete degrees at Columbus or other OSU campuses",
+      "Shares a campus in Lima with Rhodes State College, allowing some cross-enrollment opportunities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "204802": {
+    "profile_type": "researched",
+    "vibe": "A small, open-access regional campus of Ohio University in St. Clairsville, Ohio, serving the Ohio Valley/Appalachian region with an affordable, community-scale alternative to the Athens flagship.",
+    "distinctives": [
+      "Regional branch campus of Ohio University, separate from and much smaller than the main Athens campus",
+      "Serves eastern Ohio's Appalachian and Ohio Valley communities, with an emphasis on access for local and first-generation students",
+      "Offers associate degrees and lower-division coursework toward Ohio University bachelor's degrees, with transfer pathways to Athens",
+      "Low cost of attendance and small class sizes typical of Ohio University's regional higher education centers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "204848": {
+    "profile_type": "researched",
+    "vibe": "A small, open-access regional campus of Ohio University in Lancaster, Ohio, providing an affordable, community-oriented path into the Ohio University system for students in the Fairfield County area.",
+    "distinctives": [
+      "Regional branch campus of Ohio University, distinct from and much smaller than the main Athens campus",
+      "Open-access, commuter-oriented campus serving Lancaster and surrounding south-central Ohio communities",
+      "Offers associate degrees and the first two years of many bachelor's degree programs, with transfer pathways to Athens or other Ohio University campuses",
+      "Emphasizes affordability and accessibility for local, first-generation, and working adult students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
