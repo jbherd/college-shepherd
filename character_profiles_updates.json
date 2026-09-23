@@ -14889,5 +14889,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "100706": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public research university in Huntsville, Alabama, with a strong engineering, science, and computing identity shaped by its location next to Redstone Arsenal, NASA's Marshall Space Flight Center, and a dense cluster of aerospace and defense employers.",
+    "distinctives": [
+      "Located in Huntsville, AL, adjacent to Redstone Arsenal and NASA Marshall Space Flight Center, giving students unusually strong access to aerospace, defense, and tech internships and research partnerships",
+      "Known for engineering, computer science, and physics programs, and is classified as an R1/high-research-activity institution relative to its size",
+      "A public university within the University of Alabama System, distinct from the flagship campus in Tuscaloosa",
+      "Fall 2026 reporting indicated enrollment growth after several years of decline, reflecting renewed institutional momentum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178244": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-based private university in the St. Louis, Missouri area with Southern Baptist roots, serving a mix of traditional-age and adult/working students through flexible degree formats.",
+    "distinctives": [
+      "Located in St. Louis County, Missouri, and affiliated with the Missouri Baptist Convention, with a Christian mission woven into campus life and academics",
+      "Offers a range of undergraduate and graduate programs including business, education, and nursing, with options for both traditional and adult/accelerated learners",
+      "Reported a record freshman class for fall 2026, suggesting recent enrollment growth relative to prior years",
+      "Competes in NCAA Division II athletics as the Spartans"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "163912": {
+    "profile_type": "researched",
+    "vibe": "Maryland's designated public honors college, a small liberal arts institution on a scenic waterfront campus in historic St. Mary's City, offering a private-college-style experience at public-college pricing.",
+    "distinctives": [
+      "Officially designated 'The National Public Honors College' of Maryland, combining a small liberal-arts model with public-university tuition for in-state students",
+      "Located on the Chesapeake Bay/Potomac River in St. Mary's City, on the site of Maryland's original 17th-century colonial capital, with strong sailing/waterfront programs",
+      "Has faced enrollment and budget pressures over the past decade (documented in local and national press since the 2010s), leading to periodic cost-cutting and recruitment initiatives, though the college remains open and accredited",
+      "Emphasizes small class sizes, close faculty mentorship, and interdisciplinary study in a liberal arts curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "198303": {
+    "profile_type": "researched",
+    "vibe": "A small private university in rural northeastern North Carolina (Murfreesboro) with Baptist heritage, known for relatively open access admissions and a football-centered campus culture.",
+    "distinctives": [
+      "Located in Murfreesboro, NC, and historically affiliated with the Baptist State Convention of North Carolina",
+      "Generally has a more open/less selective admissions profile than many private four-year schools, serving students who may need additional academic support",
+      "Fields a well-known NCAA Division II football program that is a significant part of campus identity and enrollment draw",
+      "Accredited by SACSCOC, with no current loss of accreditation; as with many small tuition-dependent private colleges, prospective students should verify current enrollment and retention figures directly, since these can fluctuate year to year"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "221731": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Athens, Tennessee, with United Methodist roots, emphasizing a close-knit, career-oriented liberal arts education and a growing athletics program.",
+    "distinctives": [
+      "Located in Athens, TN, and historically affiliated with the United Methodist Church",
+      "Reported record or significantly increased enrollment in fall 2026 (local press cited a double-digit percentage year-over-year increase), suggesting recent growth momentum",
+      "Small campus with low student-to-faculty ratio typical of tuition-dependent private colleges, offering programs such as business, education, and nursing/health sciences",
+      "Competes in NCAA Division II/III-scale intercollegiate athletics as the Bulldogs, with athletics playing a notable role in recruitment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "172264": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Catholic university in Adrian, Michigan, known for personal attention and flexible adult/online programs \u2014 but important to know: Siena Heights announced in mid-2025 that it will permanently close at the end of the 2025-2026 academic year due to financial challenges.",
+    "distinctives": [
+      "IMPORTANT: Siena Heights University is closing permanently at the end of the 2025-2026 academic year and will not be accepting or enrolling new students beyond that point \u2014 this should be treated as a closed/unavailable option, not a viable college choice going forward",
+      "Founded in 1919 by the Adrian Dominican Sisters as a Catholic liberal arts college, later becoming a university in 1998",
+      "Historically offered 40+ programs with a 12:1 student-to-faculty ratio and satellite campuses across Michigan plus online options",
+      "Competed in NAIA athletics (Wolverine-Hoosier Athletic Conference) with 25 varsity sports"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "160904": {
+    "profile_type": "researched",
+    "vibe": "A historically Black, Catholic university in New Orleans that punches far above its weight in the health sciences \u2014 Xavier is nationally famous for sending more Black students into medical school and pharmacy careers than almost any other institution in the country.",
+    "distinctives": [
+      "Founded in 1925 by Saint Katharine Drexel and the Sisters of the Blessed Sacrament \u2014 the only historically Black and Catholic university in the United States",
+      "Nationally recognized leader in producing Black graduates who go on to medical school, and ranks #1 per capita among HBCUs in NIH research funding",
+      "Home to a well-regarded College of Pharmacy (PharmD program) alongside strong pre-med and biology tracks; roughly 3,100+ total students, with about 2,600 undergraduates",
+      "Consistently ranked among the top 3-5 HBCUs nationally by outlets like U.S. News and Niche"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "494542": {
+    "profile_type": "researched",
+    "vibe": "A very young, small, explicitly conservative Christian college in Boston built around a classical, Bible-centered curriculum and a work-study model \u2014 a niche fit for students seeking a tight-knit, faith-saturated community rather than a conventional college experience.",
+    "distinctives": [
+      "Founded in 2019 (one of the newest colleges in the country), affiliated with conservative Anabaptist/evangelical Christian values and headquartered in Boston, Massachusetts",
+      "Accredited by TRACS (Transnational Association of Christian Colleges and Schools), which is itself recognized by the U.S. Department of Education and CHEA \u2014 reaffirmed in October 2025 through 2035",
+      "Very small enrollment (well under a few hundred students) with a curriculum centered on biblical studies, classical liberal arts, and a required work-study component",
+      "As a young, small, mission-specific institution it has limited track record and outcomes data compared to established colleges \u2014 worth verifying current details directly with the school before applying"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "171881": {
+    "profile_type": "researched",
+    "vibe": "A tiny, Reformed (Calvinist) Christian college in Grand Rapids, Michigan, offering an intimate, faith-integrated education for students who want a strongly Reformed theological perspective woven into all their coursework.",
+    "distinctives": [
+      "Founded in 1939 as Reformed Bible Institute, renamed Kuyper College in 2006 after Dutch Reformed theologian Abraham Kuyper",
+      "Very small enrollment \u2014 roughly 100-150 students in recent years \u2014 with an 11:1 student-to-faculty ratio",
+      "Accredited by the Higher Learning Commission, with a social work program accredited by the Council on Social Work Education",
+      "Explicitly Reformed/Calvinist Protestant identity shapes the curriculum; best suited to students specifically seeking that theological tradition rather than a general Christian college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "229160": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized, Methodist-affiliated university in Fort Worth, Texas, with small classes, a strong table tennis tradition, and a growing, increasingly diverse student body that's seen record enrollment in recent years.",
+    "distinctives": [
+      "Founded in 1890 as Polytechnic College, historically affiliated with the United Methodist Church, located on a 75-acre campus in Fort Worth's Polytechnic Heights neighborhood",
+      "About 2,600-2,700 total students (roughly 2,000 undergraduate, 700 graduate), over 70% of classes have fewer than 20 students, and a 15:1 student-to-faculty ratio",
+      "Has reported record or near-record first-year class sizes and enrollment growth in recent admissions cycles (including into 2025-2026)",
+      "Nationally dominant in table tennis (65+ national titles since 2002) and competes in NAIA's Sooner Athletic Conference; offers programs in business, education, health professions (including nurse anesthesia), and arts & sciences"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "177117": {
+    "profile_type": "researched",
+    "vibe": "A small, tight-knit women's college in rural western Missouri, built around close faculty relationships, student-led governance, and a strong tradition of international travel and leadership development.",
+    "distinctives": [
+      "One of the few remaining women's colleges in the U.S., founded in 1884 and owned and supported by the P.E.O. Sisterhood, a national women's philanthropic organization, since 1927",
+      "Located in Nevada, Missouri, with a compact 66-acre campus and a very small student body (roughly 250-300 students, many international)",
+      "Became a four-year, baccalaureate-granting institution in 2011 after functioning as a two-year college for most of its history",
+      "Known for its Life Skills program, small class sizes, and a spring international travel course built into the curriculum; competes athletically in the NAIA"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178369": {
+    "profile_type": "researched",
+    "vibe": "A small private college in Marshall, Missouri, with a career-oriented, athletics-heavy campus culture and a recent stretch of growth after a period of enrollment strain.",
+    "distinctives": [
+      "Private, historically Presbyterian-affiliated four-year college in Marshall, Missouri, competing in NAIA athletics as part of the Heart of America Athletic Conference (HAAC)",
+      "Reported record enrollment growth in recent years (double-digit increases in new and total students), alongside investments in nursing, cybersecurity, and a new nursing/health sciences school",
+      "Offers a broad mix of career-focused bachelor's programs alongside a growing selection of graduate options, including a master's in education",
+      "A tuition-dependent institution that has worked to stabilize finances through enrollment growth and retention initiatives; prospective students should independently verify current accreditation and financial standing"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199032": {
+    "profile_type": "researched",
+    "vibe": "A small Christian liberal arts college in the North Carolina mountains near Asheville, with a faith-centered community, outdoor-oriented campus life, and personalized attention from faculty.",
+    "distinctives": [
+      "Located across two scenic campuses (Montreat and Black Mountain, NC) totaling about 132 acres in the Blue Ridge Mountains, historically related to the Presbyterian Church while welcoming students of all faiths",
+      "Small enrollment (under 1,000 students across traditional undergraduate and adult/graduate programs) with a 12:1 student-to-faculty ratio",
+      "Fields 14 NAIA varsity sports in the Appalachian Athletic Conference, including some less common offerings like competitive cheer and clay target shooting",
+      "Founded in 1916; offers undergraduate, adult-degree-completion, and graduate programs, with reported job/grad-school placement around 73% within six months of graduation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "177038": {
+    "profile_type": "researched",
+    "vibe": "A specialized health-sciences institution in Overland Park, Kansas, best known as a chiropractic school, with a small, career-focused, mostly graduate/professional student body.",
+    "distinctives": [
+      "Founded in 1922 as a chiropractic college; rebranded as Cleveland University-Kansas City in 2015 to reflect an expanded mission beyond chiropractic",
+      "Primarily known for its Doctor of Chiropractic program, accredited by the Council on Chiropractic Education, on a 34-acre campus in Overland Park, KS",
+      "Small overall enrollment (roughly 400-500 students), heavily weighted toward postgraduate/professional students rather than traditional undergraduates",
+      "Also offers associate, bachelor's, and master's degrees in health sciences fields, including radiologic technology and strength and conditioning"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "495031": {
+    "profile_type": "researched",
+    "vibe": "A very small, single-purpose Orthodox Jewish rabbinical seminary (yeshiva) in the New York City area, serving a narrow, religiously focused student population rather than a general college-going audience.",
+    "distinctives": [
+      "A private four-year institution in the Chestnut Ridge, NY area (greater NYC region) offering Talmudic and Rabbinical Studies as effectively its only field of study",
+      "Extremely small enrollment, on the order of a few dozen full-time students, consistent with its function as a specialized bais medrash (advanced Torah study hall) rather than a conventional liberal arts college",
+      "Not a fit for students seeking a traditional broad-based undergraduate experience, sports, dorm/campus life, or diverse majors; it serves a specific religious educational mission",
+      "Public data on this institution is limited given its small size and niche focus; details beyond basic facts (size, single major, general cost) should be verified directly with the school before relying on them"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169363": {
+    "profile_type": "researched",
+    "vibe": "A small Lutheran (LCMS) university near Ann Arbor that, as of 2026, is in the middle of a dramatic downsizing rather than offering the broad four-year college experience it once did \u2014 a serious yellow flag for any student considering it.",
+    "distinctives": [
+      "In 2024, Concordia University Ann Arbor's board (under parent Concordia University Wisconsin) determined the campus could not operate independently after running roughly a $9 million deficit, and announced it would cut down from 53 in-person programs to just 9 (mostly nursing/health-related) starting after the 2024-25 academic year.",
+      "Online offerings were similarly slashed from 60+ down to about 7, mostly in education; students in discontinued programs were directed to finish online or transfer to the Wisconsin campus, over 360 miles away.",
+      "The university is part of the national Concordia University System (LCMS Lutheran higher-ed network), and had actually grown enrollment about 11% between 2017-2022 before the restructuring \u2014 the cuts reflect governance/financial structure problems, not a collapse in student interest.",
+      "Prospective students should verify directly with the university which majors and residential life options are still actually offered in 2026, since the school's program lineup has shrunk dramatically and is still in transition."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "138293": {
+    "profile_type": "researched",
+    "vibe": "A very small private university in rural central Florida built around career-focused business degrees and NCAA athletics, drawing a notably international and first-generation student body.",
+    "distinctives": [
+      "Located in Babson Park, Florida (Polk County), Webber is one of the smallest four-year universities in the state, with total enrollment typically in the low hundreds.",
+      "Its academic identity centers on business \u2014 majors like sport business management, equine (horse) business management, and general business administration are among its signature programs.",
+      "Athletics are a major part of campus life: Webber competes in NCAA Division II as a member of the Sun Conference, fielding a wide range of varsity teams relative to its small size.",
+      "The university has historically drawn a large share of international and out-of-state students, giving it a more diverse, tight-knit campus community than its size would suggest."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "221892": {
+    "profile_type": "researched",
+    "vibe": "A Nashville-based Christian university affiliated with the Church of the Nazarene, best known for its nursing and health-sciences programs and for serving working adults alongside traditional undergrads.",
+    "distinctives": [
+      "Trevecca is affiliated with the Church of the Nazarene and integrates a faith-based mission across its academic and campus life programming, similar to other CCCU-style institutions.",
+      "Nursing is a flagship program area: the university offers a traditional BSN as well as accelerated nursing pathways (including routes to RN licensure, ASN, and BSN) designed for career-changers and working adults.",
+      "Beyond traditional undergraduates, Trevecca has a long-running adult and graduate education division serving nontraditional students with degree-completion and evening/online formats.",
+      "The campus sits in Nashville, Tennessee, giving students access to a major metro job market and healthcare industry that complements its nursing and professional programs."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "101435": {
+    "profile_type": "researched",
+    "vibe": "A small, traditional liberal arts college in Alabama's capital city with a strong athletics culture and a close-knit, values-oriented campus community.",
+    "distinctives": [
+      "Huntingdon College is affiliated with the United Methodist Church and emphasizes a classic liberal arts curriculum alongside pre-professional programs.",
+      "It is located in Montgomery, Alabama, giving students access to state government, legal, and business internships in the state capital.",
+      "The college competes in NCAA Division III athletics, and football and other varsity sports play a large role in campus culture and student recruitment given the school's small size.",
+      "As a small private college, Huntingdon operates with a modest total enrollment (typically well under 2,000 students), which supports small class sizes but also means a narrower range of majors than larger universities."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "191533": {
+    "profile_type": "researched",
+    "vibe": "A small private liberal arts college on a scenic hilltop campus overlooking Oneonta, NY, known for hands-on experiential learning but also \u2014 like many small tuition-dependent liberal arts colleges \u2014 one that has faced real financial pressure in recent years, worth diligence on before enrolling.",
+    "distinctives": [
+      "Hartwick emphasizes experiential and interdisciplinary learning, including a distinctive January Term (J-Term) that lets students take intensive off-campus or travel courses between fall and spring semesters.",
+      "Nursing is one of its notable programs, offered in both a traditional four-year and an accelerated three-year track.",
+      "Like many small, tuition-dependent private liberal arts colleges in the Northeast, Hartwick has faced enrollment and budget pressure over the past decade (including a credit-rating downgrade into speculative/junk territory in past years); families should check the college's current financial health and program stability directly before committing.",
+      "The campus sits in Oneonta, New York, in the rural Susquehanna Valley/Catskills region, offering a quiet, scenic residential college experience rather than an urban setting."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196185": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public liberal arts college in the rolling hills of upstate New York's Catskills region, SUNY Oneonta blends a traditional residential campus feel with solid value as part of the SUNY system.",
+    "distinctives": [
+      "Public university in the SUNY system located in Oneonta, NY, enrolling roughly 5,000-6,000 undergraduates",
+      "Known for strong programs in business, education, and the sciences, plus a well-regarded cooperative program with SUNY ESF for environmental science",
+      "Offers over 60 undergraduate majors and a notably affordable in-state tuition typical of SUNY comprehensive colleges",
+      "Historically recognized for teacher preparation, tracing back to its roots as a 19th-century normal school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "180595": {
+    "profile_type": "researched",
+    "vibe": "A small private college in Billings, Montana that mixes a close-knit liberal arts community with strong health-sciences and pre-professional programs, set against Big Sky backdrops.",
+    "distinctives": [
+      "Small private institution (roughly 900-1,000 students) in Billings, Montana, with historic ties to Presbyterian, Methodist, and Congregational churches",
+      "Known for competitive health-science programs, including a physician assistant studies graduate program and strong pre-med/nursing pipelines",
+      "Fields NAIA athletics (the Battlin' Bears) and emphasizes small class sizes with a low student-to-faculty ratio",
+      "One of the few private four-year colleges in Montana, drawing many students from the Mountain West region"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "421878": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused private college in Jersey City serving a largely working adult and immigrant population with hands-on training in healthcare and technical fields.",
+    "distinctives": [
+      "Small proprietary career college in Jersey City, NJ, focused on applied/vocational programs such as nursing (AAS), dental hygiene, and allied health fields",
+      "Accredited by the Middle States Commission on Higher Education, with accreditation reaffirmed as of 2024 and next full review scheduled for 2031-2032",
+      "As of early 2026, the Commission had requested supplemental documentation on the college's governance structure, and separately approved a substantive change allowing the college to pursue a Doctor of Dental Medicine (DMD) program pending outside regulatory approvals",
+      "Enrolls a small, non-traditional student body typical of career-training institutions rather than a residential campus population"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "133809": {
+    "profile_type": "researched",
+    "vibe": "A very small, conservative Christian liberal arts college near Tampa affiliated with the Churches of Christ, emphasizing Bible study alongside a traditional core curriculum in a tight-knit community.",
+    "distinctives": [
+      "Small private college in Temple Terrace, FL, with an enrollment in the low hundreds, affiliated with the (non-institutional) Churches of Christ",
+      "Requires Bible coursework as part of its core curriculum alongside standard liberal arts and pre-professional majors",
+      "Accredited by the Southern Association of Colleges and Schools Commission on Colleges (SACSCOC)",
+      "Known for a conservative, faith-centered campus culture with strict community standards distinct from many secular or mainline-religious colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "242653": {
+    "profile_type": "researched",
+    "vibe": "A large, Spanish-language-dominant private Hispanic-Serving Institution in San Juan, offering a wide range of professional and graduate programs to a predominantly Puerto Rican student body.",
+    "distinctives": [
+      "One of the largest campuses within the multi-campus Inter American University of Puerto Rico system, located in San Juan and instructing primarily in Spanish",
+      "Designated a Hispanic-Serving Institution, offering a broad mix of undergraduate and graduate programs including business, law-adjacent, health sciences, and education",
+      "Accredited by the Middle States Commission on Higher Education as part of the larger Inter American University system",
+      "Serves a predominantly local, commuter-based Puerto Rican student population rather than a national or international residential draw"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
