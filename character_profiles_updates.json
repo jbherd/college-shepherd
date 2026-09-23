@@ -16889,5 +16889,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "157386": {
+    "profile_type": "researched",
+    "vibe": "A close-knit public university tucked in the Appalachian foothills of eastern Kentucky, Morehead State blends small-town, everybody-knows-your-name warmth with a surprisingly high-tech specialty in space science.",
+    "distinctives": [
+      "Home to Kentucky's only undergraduate space science program, supported by the university's own Space Science Center and a 21-meter radio telescope/satellite ground station used for NASA-related research",
+      "Competes NCAA Division I as the Eagles, primarily in the Ohio Valley Conference",
+      "Located in the small town of Morehead, Kentucky, in the Appalachian foothills, giving it a rural, close-community campus feel",
+      "Offers strong programs in education, nursing, and agriculture alongside its STEM/space science niche, serving a largely regional Appalachian student population"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "179548": {
+    "profile_type": "researched",
+    "vibe": "One of the oldest women's colleges in the country, Stephens College in Columbia, Missouri pairs a small, tight-knit campus with nationally respected creative and hands-on programs, drawing students who want serious training in fashion, theatre, or horses without a huge-university feel.",
+    "distinctives": [
+      "Founded in 1833, making it one of the oldest colleges for women in the United States, though some graduate and adult-education programs are coeducational",
+      "Well known for its equestrian studies program, one of the most established and respected in American higher education, with its own riding facilities",
+      "Strong reputation in fashion design/marketing and in theatre, particularly costume design and design/technology",
+      "Small campus located in Columbia, Missouri, a college town that also hosts the much larger University of Missouri"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "132471": {
+    "profile_type": "researched",
+    "vibe": "A private Catholic university rooted in the Dominican tradition, Barry University in Miami Shores offers a diverse, health-sciences-heavy campus experience with easy access to the energy of greater Miami.",
+    "distinctives": [
+      "Founded by the Adrian Dominican Sisters and affiliated with the Catholic Church, though it enrolls students of many faiths",
+      "Located in Miami Shores, Florida, giving students access to the broader Miami metropolitan area",
+      "Known for health-sciences programs, including nursing, and hosts professional graduate programs such as a school of law and a school of podiatric medicine",
+      "Competes in NCAA Division II athletics as the Buccaneers, largely within the Sunshine State Conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "127185": {
+    "profile_type": "researched",
+    "vibe": "Set in the mountain town of Durango, Colorado, Fort Lewis College combines an outdoorsy, adventure-sports campus culture with a genuinely diverse student body, anchored by its historic commitment to Native American students.",
+    "distinctives": [
+      "Historically known for a tuition waiver for undergraduate students who are enrolled members of federally recognized Native American tribes, rooted in the land-grant history of the original Fort Lewis site, resulting in one of the highest Native American undergraduate enrollments of any non-tribal college in the country",
+      "Located in Durango, Colorado, giving students direct access to mountain recreation such as skiing, mountain biking, and hiking as part of campus culture",
+      "A public liberal arts college offering a broad range of undergraduate majors with a relatively small student-to-faculty ratio for a public institution",
+      "Competes NCAA Division II as the Skyhawks"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "451927": {
+    "profile_type": "researched",
+    "vibe": "A very small, conservative Christian college in Purcellville, Virginia with deep roots in the homeschool movement, Patrick Henry College punches well above its size in competitive debate and government-focused programs, and treats Washington, D.C. as an extension of its classroom.",
+    "distinctives": [
+      "Founded in 2000 with strong historical ties to the Christian homeschooling community and a classical, Bible-integrated liberal arts curriculum",
+      "Nationally competitive in collegiate debate and moot court, with the college's teams regularly performing among the top programs in the country",
+      "Its government/politics program leverages proximity to Washington, D.C., with many students completing congressional, executive-branch, or political internships during their time there",
+      "A very small student body compared to most four-year colleges, with a campus culture shaped by a conservative evangelical Christian worldview and an honor code governing student conduct"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "101480": {
+    "profile_type": "researched",
+    "vibe": "A spirited public university in the small college town of Jacksonville, Alabama, where campus life revolves around Gamecock athletics, a close-knit student community, and a down-to-earth Southern feel.",
+    "distinctives": [
+      "Public university located in Jacksonville, Alabama, part of the Alabama public university system",
+      "Athletic teams compete as the Jacksonville State Gamecocks in NCAA Division I, with football in Conference USA",
+      "Offers a broad range of undergraduate and graduate programs, including notable programs in nursing, business, and emergency management",
+      "Relatively affordable tuition compared to many regional peers, drawing a large share of in-state Alabama students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196158": {
+    "profile_type": "researched",
+    "vibe": "A small public liberal arts college on the shores of Lake Erie in western New York, historically known for a strong School of Music and a tight, community-oriented campus culture, though it has seen enrollment declines in recent years like many rural SUNY campuses.",
+    "distinctives": [
+      "Part of the State University of New York (SUNY) system, located in Fredonia, NY near Lake Erie",
+      "Home to a well-regarded School of Music with conservatory-style training within a liberal arts setting",
+      "Offers additional strengths in education, business, and the sciences alongside its music programs",
+      "A small residential campus that has faced enrollment pressure and budget challenges common to smaller upstate SUNY schools in recent years"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196200": {
+    "profile_type": "researched",
+    "vibe": "One of the oldest SUNY campuses, set in the North Country near the Adirondacks, Potsdam blends a strong music conservatory tradition with a small, close, small-town college experience, though it has also faced enrollment and budget pressures typical of rural SUNY campuses.",
+    "distinctives": [
+      "Founded in 1816, making it one of the oldest institutions in the SUNY system, located in Potsdam, NY",
+      "Home to the Crane School of Music, one of the oldest and most respected music schools in the country",
+      "Offers liberal arts, education, and pre-professional programs alongside its music conservatory",
+      "Small, rural campus in New York's North Country that has experienced declining enrollment and financial strain in recent years, common among smaller upstate SUNY institutions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "237136": {
+    "profile_type": "researched",
+    "vibe": "A very small, conservative Christian Bible college in rural West Virginia, geared toward students pursuing vocational ministry, missions, or Bible-centered education in a tight, faith-focused community.",
+    "distinctives": [
+      "A small, independent evangelical Bible college located in the Appalachian region of West Virginia",
+      "Curriculum centers on biblical studies, ministry training, and preparation for pastoral, missionary, or church-related vocations",
+      "Very small student body and campus compared to typical four-year colleges, with a strong emphasis on Christian community life",
+      "Students and families should independently verify current accreditation status and program offerings directly with the school, as detailed, up-to-date information on this institution is limited"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "464226": {
+    "profile_type": "researched",
+    "vibe": "A small satellite campus of Ottawa University, a Baptist-affiliated institution based in Kansas, offering a more intimate, career-focused college experience in the Phoenix-area suburb of Surprise, Arizona.",
+    "distinctives": [
+      "A branch campus of Ottawa University, whose main campus and historic roots are in Ottawa, Kansas",
+      "Located in Surprise, Arizona, part of the greater Phoenix metropolitan area",
+      "Tends to emphasize smaller class sizes and career-oriented undergraduate and adult/professional programs typical of Ottawa University's regional campuses",
+      "As with any branch campus, prospective students should verify current program availability, accreditation status, and enrollment directly with the university, since branch campus offerings can change"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "180832": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit health sciences college in Omaha, Nebraska, built almost entirely around training nurses and allied health professionals in a hands-on, clinically focused environment.",
+    "distinctives": [
+      "Located in Omaha, Nebraska, with historical roots in nursing education and long-standing ties to the local hospital/health system community",
+      "Very small enrollment focused almost exclusively on nursing and allied health programs (e.g., nursing, radiologic technology, health information management)",
+      "Distinct from Clarkson University in Potsdam, New York, despite the similar name - Clarkson College is a separate, much smaller institution",
+      "Offers a mix of undergraduate and graduate health science degrees geared toward direct clinical career preparation rather than a broad liberal arts curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139861": {
+    "profile_type": "researched",
+    "vibe": "Georgia's designated public liberal arts university, set on a picturesque historic campus in Milledgeville - Georgia's antebellum capital - offering a smaller, seminar-style public education with a strong sense of tradition and community.",
+    "distinctives": [
+      "Officially designated by the University System of Georgia as the state's public liberal arts university, with an emphasis on small classes and close faculty interaction",
+      "Located in Milledgeville, Georgia, the former state capital, with a campus featuring numerous historic antebellum buildings",
+      "Competes in NCAA Division II athletics as the Bobcats, part of the Peach Belt Conference",
+      "Offers a broad range of undergraduate liberal arts and pre-professional programs along with select graduate programs, including business and education"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "141237": {
+    "profile_type": "researched",
+    "vibe": "A small, conservative Christian university in the north Georgia mountains affiliated with the Southern Baptist Convention, where faith integration runs through campus life, coursework, and community expectations.",
+    "distinctives": [
+      "Located in Cleveland, Georgia, in the foothills of the Blue Ridge Mountains near Helen, GA",
+      "Affiliated with the Georgia Baptist Mission Board / Southern Baptist Convention, with mandatory chapel and a conservative Christian lifestyle covenant for students",
+      "Offers programs in Bible and ministry alongside more traditional liberal arts, business, education, and nursing degrees",
+      "Competes in NAIA athletics as the Bears and has seen substantial enrollment growth in recent years relative to its historical size as a junior college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199999": {
+    "profile_type": "researched",
+    "vibe": "A historically Black public university in Winston-Salem, North Carolina, known for a strong sense of community, tradition, and a practical focus on health sciences and career-ready degrees.",
+    "distinctives": [
+      "A historically Black college/university (HBCU) and a constituent institution of the University of North Carolina system",
+      "Located in Winston-Salem, North Carolina, with strong regional ties to the local health care and business community",
+      "Competes in NCAA Division II athletics as the Rams, historically a member of the CIAA (Central Intercollegiate Athletic Association)",
+      "Well regarded for its nursing and health sciences programs, along with business and education degrees"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "159717": {
+    "profile_type": "researched",
+    "vibe": "A public university in southwest Louisiana with a proud Cowboy athletic identity and strong regional roots, known for rebuilding resilience after severe hurricane damage in recent years.",
+    "distinctives": [
+      "Located in Lake Charles, Louisiana, part of the University of Louisiana System",
+      "Athletic teams are known as the Cowboys/Cowgirls, competing in NCAA Division I (Southland Conference)",
+      "Known for programs in engineering, agriculture, and mass communication, with a historically strong regional draw from southwest Louisiana and east Texas",
+      "The campus sustained major damage from Hurricane Laura in August 2020, and the university has undergone significant rebuilding and recovery efforts in the years since"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "241766": {
+    "profile_type": "researched",
+    "vibe": "A tiny, tight-knit conservatory in San Juan where students eat, sleep, and breathe music, immersed in Puerto Rico's rich classical and Latin musical traditions alongside a small cohort of serious performers.",
+    "distinctives": [
+      "A public, specialized conservatory (Conservatorio de Musica de Puerto Rico) dedicated entirely to music performance, composition, and music education degrees",
+      "Located in San Juan, Puerto Rico, instruction is bilingual (Spanish/English) and deeply tied to the island's classical and folk music heritage",
+      "Extremely small enrollment compared to typical colleges, giving students close mentorship from faculty performers",
+      "Offers bachelor's and graduate-level music degrees rather than a broad liberal arts curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228468": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Seventh-day Adventist community south of Fort Worth, where faith is woven into daily campus life and students get a personal, values-centered college experience.",
+    "distinctives": [
+      "Private university owned and operated by the Seventh-day Adventist Church, based in Keene, Texas (near Fort Worth)",
+      "Small enrollment with low student-to-faculty ratios and mandatory religious/chapel life woven into the student experience",
+      "Offers undergraduate programs across areas like nursing, business, education, religion, and the arts and sciences",
+      "Campus culture emphasizes Sabbath observance and Adventist community standards, distinct from a typical secular college environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "137032": {
+    "profile_type": "researched",
+    "vibe": "A Catholic Benedictine university near Tampa that blends a traditional residential campus with one of the largest adult, online, and military-focused degree operations in the country, drawing a mix of 18-year-old freshmen and working adults.",
+    "distinctives": [
+      "Private Catholic university founded by Benedictine monks, with its main residential campus in Saint Leo, Florida, north of Tampa",
+      "Known for a large online and continuing-education population and satellite/education centers, including strong outreach to military service members and veterans",
+      "Competes in NCAA Division II athletics as the Lions",
+      "Offers a broad range of undergraduate and graduate programs including business, criminal justice, education, and hospitality"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196246": {
+    "profile_type": "researched",
+    "vibe": "A public university on Lake Champlain in New York's North Country, known for a strong sense of outdoor and campus community, easy access to Montreal, and solid programs in business, education, and criminal justice.",
+    "distinctives": [
+      "Part of the State University of New York (SUNY) system, located in Plattsburgh, NY, near the Vermont border and about an hour from Montreal, Canada",
+      "Known for programs in business, education, criminal justice, and expeditionary/outdoor studies, along with a notable art museum and gallery on campus",
+      "Competes in NCAA Division III athletics, with ice hockey historically a point of campus pride",
+      "Long-standing ties and student exchange with Quebec given its proximity to the Canadian border"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218645": {
+    "profile_type": "researched",
+    "vibe": "A small public university in South Carolina's horse-country town of Aiken, offering a liberal-arts-style, personal campus experience within the larger University of South Carolina system.",
+    "distinctives": [
+      "A regional senior campus of the University of South Carolina system, located in Aiken, South Carolina",
+      "Offers undergraduate programs with notable strength in nursing and business alongside traditional liberal arts and sciences",
+      "Competes in NCAA Division II athletics as the Pacers",
+      "Smaller campus and class sizes than USC's flagship Columbia campus, appealing to students wanting a more intimate public-university setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161873": {
+    "profile_type": "researched",
+    "vibe": "A public, career-focused university in the heart of downtown Baltimore that mostly serves transfer students, working adults, and graduate students rather than incoming freshmen straight out of high school.",
+    "distinctives": [
+      "Part of the University System of Maryland, located in Baltimore's Mount Vernon/Midtown area",
+      "Structured primarily as an upper-division and graduate institution, admitting mostly juniors, seniors, and transfer students rather than first-year students",
+      "Home to the Merrick School of Business, the School of Law, and a well-regarded MFA in Creative Writing and Publishing Arts program",
+      "Urban, non-residential campus culture geared toward commuter and working students in Baltimore"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "155520": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-centered private university in suburban Kansas City where Christian identity, close-knit community, and NAIA athletics shape everyday campus life.",
+    "distinctives": [
+      "Private university affiliated with the Church of the Nazarene, located in Olathe, Kansas (Kansas City metro area)",
+      "Small student body with an emphasis on personal attention and integration of faith into academics",
+      "Competes in NAIA athletics as part of the Kansas Collegiate Athletic Conference (KCAC)",
+      "Notable programs in nursing, education, and business alongside its traditional liberal arts core"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "184773": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university on a scenic New Jersey campus with Mercy-tradition roots, popular with students who want a close community feel and, notably, a strong equestrian program.",
+    "distinctives": [
+      "Private Catholic university in Lakewood, New Jersey, founded in the tradition of the Sisters of Mercy and historically a women's college before going coed",
+      "Operates an on-campus equestrian center and fields competitive equestrian teams, a distinctive draw for horse-sport students",
+      "Competes in NCAA Division II as part of the Central Atlantic Collegiate Conference (CACC)",
+      "Compact, tree-lined campus with small class sizes typical of a teaching-focused liberal arts institution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "173328": {
+    "profile_type": "researched",
+    "vibe": "A private Lutheran university in St. Paul that blends a faith-based mission with practical, career-oriented programs and a lively NCAA Division II athletics culture.",
+    "distinctives": [
+      "Private university affiliated with the Lutheran Church-Missouri Synod (LCMS), part of the national Concordia University System, located in St. Paul, Minnesota",
+      "Competes in NCAA Division II as a member of the Northern Sun Intercollegiate Conference (NSIC), with a broad range of varsity sports",
+      "Strong enrollment in professional fields such as nursing, business, and education alongside its Lutheran liberal arts foundation",
+      "Urban Twin Cities location gives students access to internships and city life while keeping a smaller, mission-driven campus community"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "160630": {
+    "profile_type": "researched",
+    "vibe": "A public historically Black university (HBCU) in New Orleans that has rebuilt itself into a resilient, community-rooted commuter campus after being devastated by Hurricane Katrina.",
+    "distinctives": [
+      "Public HBCU that is part of the Southern University System, located in New Orleans, Louisiana",
+      "Campus was severely damaged by Hurricane Katrina in 2005 and has since been substantially rebuilt on a new site",
+      "Serves a large share of first-generation and local New Orleans-area students in a primarily commuter setting",
+      "Offers undergraduate and graduate programs with a mission emphasizing access and opportunity for underserved students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
