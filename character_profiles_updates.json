@@ -18489,5 +18489,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "486947": {
+    "profile_type": "researched",
+    "vibe": "Chamberlain University-Michigan is a career-focused nursing campus (part of the national Chamberlain University system, formerly Chamberlain College of Nursing) aimed at students who know they want to become nurses and want a structured, clinically-oriented path rather than a traditional broad liberal-arts college experience.",
+    "distinctives": [
+      "Part of the multi-campus Chamberlain University network, which specializes almost exclusively in nursing and health-science degrees (BSN, MSN, and related programs)",
+      "Operates as a for-profit institution owned by Adtalem Global Education",
+      "Curriculum is built around clinical rotations and hands-on nursing training rather than a broad general-education, residential-college experience",
+      "Small, commuter-oriented campus footprint compared to traditional 4-year universities; students should verify current accreditation status and program offerings directly with the school before applying"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "238193": {
+    "profile_type": "researched",
+    "vibe": "Alverno College is a small, historically women's Catholic (Franciscan) college in Milwaukee known nationally for its distinctive \"ability-based\" curriculum, where students build and document a defined set of core competencies alongside their major rather than being graded on traditional letter grades in every course.",
+    "distinctives": [
+      "Historically a women's college founded by the School Sisters of St. Francis, located in Milwaukee, Wisconsin",
+      "Nationally recognized for its ability-based, outcomes-focused curriculum and narrative assessment model developed over decades",
+      "Strong programs in education and nursing, with many students being first-generation and/or adult learners",
+      "Small, tight-knit campus community rather than a large research-university environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "203085": {
+    "profile_type": "researched",
+    "vibe": "Heidelberg University is a small, private liberal arts university in Tiffin, Ohio, offering a close-knit, personal-attention campus experience with a mix of liberal arts and professional/pre-professional programs, plus NCAA Division III athletics as a significant part of campus life.",
+    "distinctives": [
+      "Private university located in Tiffin, Ohio, with roots going back to the 19th century and historic ties to the German Reformed and United Church of Christ traditions",
+      "Small student body and small class sizes typical of a residential liberal arts college",
+      "Competes in NCAA Division III athletics, which plays a notable role in campus culture",
+      "Offers a range of undergraduate liberal arts majors alongside professional programs such as business and education"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "193016": {
+    "profile_type": "researched",
+    "vibe": "Mercy University (renamed from Mercy College around 2022) is a private, career-oriented university based in the New York City metro area (main campus in Dobbs Ferry, NY, with additional NYC-area locations), serving a diverse, often commuter and first-generation student population with practical, job-focused degree programs.",
+    "distinctives": [
+      "Renamed from Mercy College to Mercy University around 2022, reflecting an expanded institutional identity while keeping its New York metro-area campuses",
+      "Multiple campus locations in the New York City area, historically appealing to commuter and working students",
+      "Known for programs in nursing, education, business, and other career-focused fields",
+      "Serves a notably diverse student body, with many students being first-generation college students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "127741": {
+    "profile_type": "researched",
+    "vibe": "The University of Northern Colorado is a mid-sized public university in Greeley, Colorado, historically rooted in teacher preparation and known today for a broader mix of programs, offering students a public-university experience with a strong emphasis on education, health sciences, and the arts.",
+    "distinctives": [
+      "Public university located in Greeley, Colorado, originally founded as a teachers' college (Colorado State Normal School) and still strong in education and human sciences programs",
+      "Offers a range of undergraduate and graduate programs including notable programs in music, theatre, and audiology/speech-language sciences",
+      "Competes in NCAA Division I athletics (Big Sky Conference)",
+      "Mid-sized public university enrollment, larger and more comprehensive than the area's small private colleges, with a mix of residential and commuter students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "141644": {
+    "profile_type": "researched",
+    "vibe": "A small, highly international private university based in downtown Honolulu, HPU draws students who want a global, multicultural campus experience layered on top of island life, with easy access to both the city and the ocean.",
+    "distinctives": [
+      "Private, nonprofit university located in downtown Honolulu, Hawaii",
+      "Known for one of the most internationally diverse student bodies of any U.S. university, with students from dozens of countries",
+      "Strong programs in nursing, marine biology, business, and travel/tourism management, leveraging its Hawaii location",
+      "Primarily a commuter/urban campus model rather than a traditional sprawling quad, with athletics competing as the HPU Sharks"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "148654": {
+    "profile_type": "researched",
+    "vibe": "A midsize public university in Illinois's capital city, UIS is known for practical, career-connected learning and an unusually strong public affairs/political focus thanks to its location steps from the state capitol.",
+    "distinctives": [
+      "Public university and a campus of the University of Illinois System, located in Springfield, the Illinois state capital",
+      "Offers the Capital Scholars Honors Program, an interdisciplinary honors track for incoming first-year students",
+      "Strong public affairs, political science, and public administration programs, aided by proximity to state government and internship opportunities",
+      "Relatively small student body compared to the flagship Urbana-Champaign campus, with a mix of traditional and adult/returning students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139968": {
+    "profile_type": "researched",
+    "vibe": "A small, affordable public college in rural middle Georgia, Gordon State offers a close-knit, supportive environment well suited to students who want a low-cost, hands-on start to a four-year degree, often as a stepping stone to a larger university.",
+    "distinctives": [
+      "Public college in the University System of Georgia, located in Barnesville, Georgia",
+      "Offers a mix of associate and select bachelor's degrees, with nursing and health sciences among its notable programs",
+      "Small campus with modest enrollment, drawing largely from the surrounding middle Georgia region",
+      "Historically served as a transfer-friendly, lower-cost option for students planning to move on to larger USG institutions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "242644": {
+    "profile_type": "researched",
+    "vibe": "A small campus of the Inter American University of Puerto Rico system nestled in the central mountain town of Barranquitas, this school serves local Puerto Rican students with primarily Spanish-language instruction and a close community feel.",
+    "distinctives": [
+      "One of several regional campuses of the Inter American University of Puerto Rico system, located in Barranquitas in the island's central mountain region",
+      "Instruction is conducted primarily in Spanish, reflecting its role serving the local Puerto Rican community",
+      "Offers associate and bachelor's degree programs across a limited set of fields rather than a broad research-university catalog",
+      "Small, largely commuter student body drawn from the surrounding central Puerto Rico towns"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "123457": {
+    "profile_type": "researched",
+    "vibe": "Simpson University was a small, Christian liberal arts university in Redding, California, affiliated with the Christian and Missionary Alliance, built around a faith-integrated undergraduate experience -- but the school has faced serious financial and enrollment difficulties in recent years, and students and families should independently verify its current operating and accreditation status before applying.",
+    "distinctives": [
+      "Small private Christian university located in Redding, California, historically affiliated with the Christian and Missionary Alliance denomination",
+      "Offered a faith-based liberal arts curriculum alongside professional programs such as nursing, education, and business",
+      "Has reported significant financial strain and declining enrollment in recent years, raising questions about its long-term operating status",
+      "Prospective students should confirm current accreditation, enrollment, and operational status directly with the school or accreditor before relying on this profile"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "231712": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public university on the Virginia Peninsula with a picturesque, manicured campus and a strong emphasis on close-knit undergraduate teaching, leadership development, and the arts.",
+    "distinctives": [
+      "Public liberal arts and sciences university located in Newport News, Virginia",
+      "Competes in NCAA Division III athletics as the Captains",
+      "Home to the President's Leadership Program and a well-regarded honors program",
+      "Campus is known for its landscaped grounds and the Ferguson Center for the Arts, a major performing arts venue"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190646": {
+    "profile_type": "researched",
+    "vibe": "A public CUNY college in Crown Heights, Brooklyn, that serves a predominantly Black and Caribbean-American student population, many of them first-generation and working adults, with a mission centered on access and community uplift.",
+    "distinctives": [
+      "Part of the City University of New York (CUNY) system, located in Crown Heights, Brooklyn",
+      "Named for civil rights leader Medgar Evers and founded with a mission to serve the local Central Brooklyn community",
+      "Offers career-oriented programs including nursing, business, public administration, and education",
+      "Serves a largely commuter, non-traditional student body, including many transfer and adult learners"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178624": {
+    "profile_type": "researched",
+    "vibe": "A public university in rural northwest Missouri known for being an early adopter of universal student technology and for a spirited, tight-knit campus culture anchored by strong school pride and successful athletics.",
+    "distinctives": [
+      "Located in Maryville, Missouri, a small college town setting",
+      "One of the first universities in the country to provide all students with laptops as part of its long-running technology initiative",
+      "Competes in NCAA Division II as the Bearcats, with a football program that has won multiple national championships",
+      "Offers respected programs in agriculture, business, and education alongside a broader liberal arts curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214041": {
+    "profile_type": "researched",
+    "vibe": "A public university in Lancaster County, Pennsylvania, with a practical, career-focused culture built around teacher preparation and applied sciences, set in a quiet small-town/suburban environment.",
+    "distinctives": [
+      "Part of Pennsylvania's State System of Higher Education (PASSHE), located in the borough of Millersville near Lancaster",
+      "Long-standing reputation for teacher education and one of the few undergraduate meteorology programs in the country",
+      "Competes in NCAA Division II athletics as the Marauders",
+      "Offers a broad range of undergraduate and graduate programs with a relatively affordable, regional-access mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "451370": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish yeshiva offering intensive Talmudic and religious studies for young men; it operates outside the mainstream secular college landscape, and detailed public information about campus life is limited.",
+    "distinctives": [
+      "A yeshiva (Orthodox Jewish religious institution) rather than a traditional secular college, focused on Talmudic and rabbinic studies",
+      "Small, insular institution serving a specific religious community rather than the general public",
+      "Public data on enrollment, facilities, and outcomes is sparse compared to mainstream colleges, so students should verify specifics directly with the institution",
+      "Not a fit for students seeking a conventional secular undergraduate experience; best suited to those specifically seeking advanced yeshiva-style religious study"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "238980": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit private university in rural Wisconsin where students get a lot of individual attention from faculty, with a notably international, tight-knit residential community.",
+    "distinctives": [
+      "Private university located in Plymouth, Wisconsin, historically affiliated with the United Church of Christ",
+      "Very small student body, giving students close faculty contact and small class sizes",
+      "Competes in NCAA Division III athletics as the Muskies",
+      "Has drawn a notably international student population relative to its size, alongside traditional liberal arts and business programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218061": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in the South Carolina Pee Dee region offering an affordable, regional college experience with a solid nursing and health-sciences reputation and a growing engineering program.",
+    "distinctives": [
+      "Public university located in Florence, South Carolina",
+      "Known for its nursing program and health sciences offerings",
+      "Offers an ABET-accredited engineering program, less common among schools of its size",
+      "Competes in NCAA Division II athletics as the Patriots"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "482149": {
+    "profile_type": "researched",
+    "vibe": "Georgia's designated public health-sciences university, offering a distinctive mix of a traditional undergraduate liberal arts campus alongside the state's only public medical school, dental school, and major clinical training programs.",
+    "distinctives": [
+      "Public research university in Augusta, Georgia, formed in 2013 from the merger of Georgia Health Sciences University and Augusta State University",
+      "Home to the Medical College of Georgia, the state's oldest and largest medical school, plus dental, nursing, and allied health colleges",
+      "Offers strong pre-health and health sciences pathways for undergraduates alongside more traditional liberal arts and business majors",
+      "Competes in NCAA Division II athletics as the Jaguars"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "151333": {
+    "profile_type": "researched",
+    "vibe": "A regional Indiana University campus in Kokomo serving mostly local and commuter students, offering an affordable, flexible path to an IU degree close to home.",
+    "distinctives": [
+      "Regional campus of Indiana University located in Kokomo, Indiana, serving north-central Indiana",
+      "Primarily a commuter campus with a smaller residential population than IU's flagship Bloomington campus",
+      "Offers a range of associate's and bachelor's degrees along with some graduate programs, often at lower cost than the flagship",
+      "Serves many adult, transfer, and first-generation college students from the surrounding region"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216010": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in south-central Pennsylvania with a traditional college-town feel, known for solid business and education programs and an active Division II athletics scene.",
+    "distinctives": [
+      "Public university located in Shippensburg, Pennsylvania, part of Pennsylvania's State System of Higher Education (PASSHE)",
+      "Known for its John L. Grove College of Business and teacher education programs",
+      "Competes in NCAA Division II athletics as the Raiders",
+      "Offers a broad range of undergraduate and graduate programs at a relatively affordable public-university price point"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "240365": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university on the shores of Lake Winnebago with a down-to-earth, practical feel - strong for students who want solid career-focused programs (especially nursing, education, and business) without the intensity or price tag of a flagship.",
+    "distinctives": [
+      "Part of the University of Wisconsin System, located in Oshkosh, Wisconsin, on the western shore of Lake Winnebago",
+      "Well-regarded College of Nursing and College of Education and Human Services, both popular with regional students",
+      "NCAA Division III athletics; teams are the Titans, competing in the Wisconsin Intercollegiate Athletic Conference",
+      "Draws a largely in-state, commuter-friendly and transfer-friendly student population typical of regional UW campuses"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197142": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit private Catholic college in Buffalo with a hands-on, studio-and-clinic learning style - a good fit for students drawn to a specific creative or technical field who want small classes and personal attention rather than a big-campus experience.",
+    "distinctives": [
+      "Small private Catholic college in Buffalo, New York, founded by the Felician Sisters",
+      "Known for niche professional programs such as veterinary technology, interior design, and art/design fields alongside health-related majors",
+      "Very small enrollment relative to most four-year colleges, resulting in small class sizes and close faculty contact",
+      "Because it is a small, specialized institution, students should verify current program offerings and accreditation status directly with the college before applying, as details can change year to year"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "155812": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-rooted private university in a quiet Kansas river town, built around personal attention, service, and career-oriented majors like nursing and business - appealing to students who want a tight-knit community over a big-name campus.",
+    "distinctives": [
+      "Private Catholic university in Leavenworth, Kansas, founded by the Sisters of Charity of Leavenworth",
+      "Small overall enrollment with a low student-to-faculty ratio and an emphasis on individualized attention",
+      "Strong nursing, business, and education programs, along with adult-degree-completion and graduate offerings",
+      "NAIA athletics; teams compete as the Spires"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "436818": {
+    "profile_type": "researched",
+    "vibe": "A small, commuter-oriented regional campus of UConn in downtown Waterbury - a practical, lower-cost way to start a UConn degree close to home before many students transfer to the Storrs campus to finish out their major.",
+    "distinctives": [
+      "One of the University of Connecticut's regional campuses, located in Waterbury, Connecticut, serving primarily commuter students",
+      "Offers a limited set of majors and general-education coursework for the first two years, with many students transitioning to the Storrs (main) campus or another UConn campus to complete their degree",
+      "Smaller and less residential than UConn's main Storrs campus, with a more intimate, community-college-like classroom feel while still granting a UConn degree",
+      "Tuition and cost structure generally mirror UConn's regional-campus rates, which are typically lower than the Storrs campus for the first two years"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219833": {
+    "profile_type": "researched",
+    "vibe": "A small private Catholic (Lasallian) university in Memphis with a strong reputation for engineering and a tight campus community - a solid pick for STEM-minded students who want personal attention and a Division II athletics scene rather than a huge research-university environment.",
+    "distinctives": [
+      "Private Lasallian Catholic university located in Memphis, Tennessee",
+      "Well-known engineering programs (including mechanical, electrical, civil, and chemical engineering) alongside business and health-science majors",
+      "Small overall enrollment with small class sizes and close student-faculty interaction",
+      "NCAA Division II athletics; teams are the Buccaneers, competing in the Gulf South Conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
