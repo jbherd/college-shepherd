@@ -14089,5 +14089,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "178420": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public research university serving the St. Louis metro as a commuter and increasingly residential campus, UMSL offers an affordable, career-focused option with strong ties to the region's employers.",
+    "distinctives": [
+      "Part of the University of Missouri System, located in north St. Louis County with a mix of commuter and residential students",
+      "Houses Missouri's only public college of optometry and a well-regarded College of Nursing and College of Business Administration",
+      "Offers extensive evening, weekend, and online programs geared toward working adults and transfer students",
+      "Generally more affordable than its UM System peers, with strong regional employer partnerships (Boeing, healthcare systems, financial firms) in the St. Louis area"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217998": {
+    "profile_type": "researched",
+    "vibe": "A small, tightly-knit Christian liberal arts college in rural Due West, South Carolina, Erskine blends conservative Presbyterian (ARP) tradition with close faculty-student relationships, though the school has faced real financial and enrollment pressure in recent years.",
+    "distinctives": [
+      "Founded in 1839, affiliated with the Associate Reformed Presbyterian (ARP) Church, and located in the small town of Due West, SC",
+      "Very small campus (historically well under 1,000 undergraduates) with a strong emphasis on Christian liberal arts education and low student-faculty ratios",
+      "Has experienced notable financial strain in recent years, including reported litigation over loan repayment and budget pressures common to small denominational colleges nationally",
+      "Also houses Erskine Theological Seminary, though the seminary has moved toward greater independence from the undergraduate college in governance"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "106342": {
+    "profile_type": "researched",
+    "vibe": "A small, Scottish-heritage liberal arts college in Batesville, Arkansas, Lyon College pairs a traditional residential liberal-arts experience with an unusually ambitious push into professional graduate education.",
+    "distinctives": [
+      "Small residential liberal arts college (historically under 1,000 undergraduates) known for its Scottish heritage traditions, including a bagpipe band and Scottish Week festivities",
+      "Historically affiliated with the Presbyterian Church (U.S.A.), with a classic small-college campus in Batesville, Arkansas",
+      "Has been developing a new School of Veterinary Medicine at a separate location in Cabot, Arkansas, intended as Arkansas's first veterinary school, a major expansion beyond its traditional undergraduate mission",
+      "Offers merit-based full-tuition and near-full-tuition scholarship programs that are a significant part of its recruiting pitch to strong students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "440828": {
+    "profile_type": "researched",
+    "vibe": "A small but fast-growing branch campus of Oregon State University in Bend, Oregon, OSU-Cascades offers a public-university degree with an outdoor-recreation-oriented, mountain-town setting and a much more intimate scale than the main Corvallis campus.",
+    "distinctives": [
+      "A branch campus of Oregon State University located in Bend, Oregon, with degrees conferred by OSU and access to OSU's broader resources despite a small local student body",
+      "Has seen consistent enrollment growth in recent years, with record-size graduating classes reported as recently as 2026",
+      "Known for programs tied to the region's economy and outdoor lifestyle, including hospitality management, energy systems engineering, and tourism/outdoor product management",
+      "Small, newer campus (opened its current site in 2016) that emphasizes hands-on learning, close faculty access, and proximity to skiing, mountain biking, and other outdoor recreation in Central Oregon"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "157863": {
+    "profile_type": "researched",
+    "vibe": "A small United Methodist-affiliated university in Barbourville, Kentucky, Union Commonwealth University (formerly Union College) serves a largely rural southeastern Kentucky and Appalachian population, and has undergone a recent rebranding alongside the financial pressures common to small tuition-dependent institutions in the region.",
+    "distinctives": [
+      "Renamed from Union College to Union Commonwealth University around 2024, reflecting an expansion of its academic offerings and identity beyond a traditional small liberal arts college",
+      "Located in Barbourville, Kentucky, historically affiliated with the United Methodist Church, and serving a largely rural Appalachian student population",
+      "Like many small, tuition-dependent private colleges in the region, has faced enrollment and financial pressures in recent years; prospective students should independently verify its current accreditation and financial standing before enrolling",
+      "Offers a range of undergraduate and some graduate programs with a strong regional focus on serving first-generation and rural Kentucky students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "238078": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic (Franciscan-heritage) university in Wheeling, West Virginia, that emphasizes close faculty relationships, a health-sciences-heavy program mix, and NCAA Division II athletics in a tight-knit campus community.",
+    "distinctives": [
+      "Founded as Wheeling College in 1954 by Wheeling Jesuit priests; renamed Wheeling University in 2022 after ending its formal Jesuit affiliation and becoming sponsored by the Diocese of Wheeling-Charleston.",
+      "Known for strong pre-health and nursing/health-sciences programs, along with business, education, and criminal justice.",
+      "Competes in NCAA Division II as the Cardinals, mostly in the Mountain East Conference.",
+      "Very small student body (well under 2,000 total), giving it a low student-to-faculty ratio typical of small private colleges."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196103": {
+    "profile_type": "researched",
+    "vibe": "A highly specialized public college in Syracuse, New York, exclusively focused on environmental science, forestry, and sustainability, sharing resources and campus life with neighboring Syracuse University while granting its own degrees.",
+    "distinctives": [
+      "Part of the SUNY system but operates as a specialized, standalone institution devoted entirely to environmental and forestry sciences (no general liberal arts curriculum).",
+      "Offers distinctive programs such as environmental science, forest/natural resources management, landscape architecture, environmental engineering, and wildlife biology, many with strong field/lab components including the Adirondack Ecological Center.",
+      "Students can cross-register for courses and share dining, housing, and athletics with adjacent Syracuse University despite being a separate SUNY institution.",
+      "Consistently ranked among the top schools nationally for environmental science and forestry programs, with a research-focused mission and relatively small enrollment."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190761": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university in Rockland County, New York (just north of NYC), historically known as Dominican College of Blauvelt before rebranding as Dominican University New York, serving a largely commuter, career-focused student population.",
+    "distinctives": [
+      "Founded by the Dominican Sisters of Blauvelt in 1952; changed its name from Dominican College to Dominican University New York around 2022 after achieving university status.",
+      "Known for programs in nursing, occupational therapy, physician assistant studies, education, and business, with many students pursuing health-science and pre-professional tracks.",
+      "Small, tuition-dependent private institution with a student body historically in the range of roughly 1,500-2,000 students.",
+      "Located in Orangeburg, NY, within commuting distance of New York City, drawing many regional and commuter students."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "106713": {
+    "profile_type": "researched",
+    "vibe": "A very small, conservative evangelical Baptist college in Conway, Arkansas, emphasizing Christian faith integration, personal attention, and preparation for ministry and vocational careers alongside traditional liberal-arts majors.",
+    "distinctives": [
+      "Affiliated with the Missionary Baptist tradition (historically tied to the Baptist Missionary Association of Arkansas) and requires chapel/faith-formation participation as part of campus life.",
+      "Offers a mix of traditional undergraduate majors (business, education, ministry/biblical studies, criminal justice) alongside online and adult-degree completion programs.",
+      "Very small enrollment, typically in the range of a few hundred to around a thousand students, giving it a close-knit, high-touch campus culture.",
+      "As a small tuition-dependent institution, it is more regionally known than nationally prominent, and prospective students should verify current program offerings and accreditation status directly with the college."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "224545": {
+    "profile_type": "researched",
+    "vibe": "A growing public university in Texarkana, Texas, part of the Texas A&M University System, serving a largely regional, non-traditional, and first-generation student population with a strong focus on career-relevant degree completion.",
+    "distinctives": [
+      "Originally established as an upper-level institution serving transfer and junior/senior students before expanding to a full four-year university offering freshman admission.",
+      "Has reported multiple consecutive terms of record enrollment growth in recent years and has been actively expanding its degree offerings (including new majors added for Fall 2026) to meet regional workforce demand.",
+      "Serves a significant population of transfer, working-adult, and first-generation college students, reflecting its origins as a regional access-oriented campus.",
+      "Part of the Texas A&M University System, giving it access to system-wide resources while remaining a distinct, smaller regional campus compared to the flagship in College Station."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "176965": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in small-town Warrensburg, Missouri, with a practical, career-focused culture built around hands-on programs and a strong regional reputation in the Kansas City area.",
+    "distinctives": [
+      "Public university in Warrensburg, Missouri, part of the state's public higher education system, enrolling roughly 10,000-12,000 students",
+      "Known for career-oriented programs including aviation, criminal justice, and technology/applied sciences, alongside a traditional liberal arts core",
+      "Relatively affordable compared to many public flagships, with a regional draw primarily from Missouri and the broader Midwest",
+      "Offers a mix of undergraduate and graduate programs, with NCAA Division II athletics (Mules and Jennies) as part of campus life"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "114813": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-based Christian university in Fresno, California, rooted in the Mennonite Brethren tradition, offering a close-knit, values-driven undergraduate experience alongside adult and graduate programs.",
+    "distinctives": [
+      "Private, nonprofit Christian university affiliated with the Mennonite Brethren Church, founded in the mid-20th century in Fresno, California",
+      "Small undergraduate enrollment (traditionally in the low thousands) with a strong emphasis on personal attention and faith integration",
+      "Known for teacher education/credential programs and a range of adult-degree-completion and graduate offerings alongside its traditional college",
+      "Reported meaningful enrollment growth in recent admissions cycles, though it remains a small, tuition-dependent institution relative to large public universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190691": {
+    "profile_type": "researched",
+    "vibe": "A public, commuter-based senior college of the City University of New York in Jamaica, Queens, serving a highly diverse, often first-generation student population with a strong focus on health sciences and pre-professional programs.",
+    "distinctives": [
+      "One of the senior colleges of the CUNY system, located in Jamaica, Queens, New York, drawing heavily from New York City residents",
+      "Known for strong nursing, health sciences, and aviation-related programs, alongside business and liberal arts offerings",
+      "Serves a highly diverse student body reflective of Queens' demographics, with many students commuting rather than living on campus",
+      "Like most CUNY colleges, tuition is comparatively low for New York State residents, making it an accessible option within the CUNY network"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "138947": {
+    "profile_type": "researched",
+    "vibe": "A private HBCU in Atlanta's historic Atlanta University Center, known for a strong sense of community, cultural pride, and notable strength in business and mass media arts programs.",
+    "distinctives": [
+      "Private historically Black university formed in 1988 through the merger of Clark College and Atlanta University; part of the Atlanta University Center consortium alongside Morehouse and Spelman",
+      "Known for strong programs in business administration, mass media arts/communications, and the sciences",
+      "One of the larger HBCUs by enrollment, drawing students nationally and internationally, with a prominent legacy of Black excellence and alumni achievement",
+      "Like many private HBCUs, has navigated financial and enrollment pressures over the years, though it remains an established, accredited institution within the AUC"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "198507": {
+    "profile_type": "researched",
+    "vibe": "A small public HBCU in northeastern North Carolina, distinguished nationally for its aviation science program and a close, community-oriented campus culture.",
+    "distinctives": [
+      "Public historically Black university in Elizabeth City, North Carolina, part of the University of North Carolina system",
+      "Nationally recognized aviation science program, including flight education, with recent investment in a new flight training center reflecting continued growth in that area",
+      "Small enrollment (typically a few thousand students), offering a tight-knit campus community and relatively low cost of attendance",
+      "Also known for pharmaceutical science and other STEM-adjacent programs as part of its academic focus beyond aviation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "177986": {
+    "profile_type": "researched",
+    "vibe": "A small, highly specialized health sciences university near St. Louis built almost entirely around training chiropractors, with a tight-knit, clinically-focused campus culture rather than a traditional undergraduate social scene.",
+    "distinctives": [
+      "Located in Chesterfield, Missouri (St. Louis suburb); historically known as Logan College of Chiropractic before rebranding as Logan University to reflect broader health science offerings.",
+      "Primarily a graduate/professional institution centered on its Doctor of Chiropractic (D.C.) program, one of the oldest and largest chiropractic programs in the U.S., alongside smaller undergraduate and master's programs in health sciences, nutrition, and sports science.",
+      "Very small student body compared to typical four-year colleges; not a fit for students seeking a broad liberal-arts or large-campus experience.",
+      "Best suited to students with a clear, early interest in chiropractic or allied health careers rather than students still exploring general majors."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "443410": {
+    "profile_type": "researched",
+    "vibe": "A small, intensely technical institute near Seattle where nearly every student is there for one reason: to build video games, engines, and interactive software, giving it an unusually focused, industry-connected culture.",
+    "distinctives": [
+      "Located in Redmond, Washington, in the heart of the Seattle-area tech and gaming industry (near Nintendo of America, Valve, and major studios); founded in the late 1980s originally as a computer animation training center before pivoting to game development education.",
+      "Known for rigorous, math- and programming-heavy degree programs, most notably its BS in Computer Science in Real-Time Interactive Simulation (game programming), alongside degrees in game design, digital art/animation, and computer engineering.",
+      "Student projects and senior game demos are a hallmark of the program, and alumni have gone on to work at major game studios; the school is small and niche, not a general-purpose university.",
+      "Tuition is notably high relative to typical public universities, and the narrow focus means it's a strong fit only for students firmly committed to game development or interactive media careers."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "155973": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Christian liberal arts college on the Kansas plains with a Mennonite Brethren heritage, emphasizing faith-integrated education, personal attention, and a strong sense of community.",
+    "distinctives": [
+      "Located in Hillsboro, Kansas, a small rural town; affiliated with the Mennonite Brethren church and rooted in an Anabaptist Christian tradition emphasizing service and community.",
+      "Very small enrollment typical of rural private Christian colleges, with small class sizes and close student-faculty relationships as a core selling point.",
+      "Offers a range of liberal arts, business, education, and pre-professional programs alongside NAIA-level intercollegiate athletics (Bluejays) and a visible performing arts program.",
+      "Best suited to students seeking a small, values-based, faith-centered campus environment rather than a large or secular university experience."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "200253": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university serving northwestern North Dakota, offering an affordable, regionally-focused college experience with a mix of career-oriented and liberal arts programs in a small-city setting.",
+    "distinctives": [
+      "Located in Minot, North Dakota, serving as a regional public university for the state's northwest region; part of the North Dakota University System.",
+      "Offers a broad mix of undergraduate and graduate programs including business, education, nursing/health sciences, and aviation, along with NCAA Division II athletics.",
+      "Like many rural public regional universities, has faced enrollment and demographic pressures common to the upper Midwest in recent years, making it a relatively affordable but lower-selectivity option.",
+      "Best fit for students wanting an accessible, lower-cost public university experience with smaller class sizes than a large flagship school."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217873": {
+    "profile_type": "researched",
+    "vibe": "A historically Black university in Orangeburg, South Carolina, with a strong Methodist-affiliated liberal arts foundation and a growing reputation for STEM and nursing programs within the HBCU community.",
+    "distinctives": [
+      "Founded in 1869, Claflin University is South Carolina's oldest HBCU and is affiliated with the United Methodist Church; located in Orangeburg, South Carolina alongside South Carolina State University.",
+      "A member of the United Negro College Fund (UNCF) network, with recognized strength in STEM fields (supported by federal and private STEM initiatives) and nursing, including reporting as building out a notable nursing pipeline for the state.",
+      "Offers a traditional liberal arts undergraduate experience with a range of majors alongside NCAA Division II athletics (Panthers) in the CIAA conference.",
+      "Generally regarded as one of the stronger-performing private HBCUs in the Southeast in terms of student outcomes relative to peer institutions, though it remains a small college with a modest endowment compared to large national universities."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "144892": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in rural east-central Illinois with a traditional, close-knit campus feel, strong regional identity, and a focus on personal attention in the classroom rather than big-university anonymity.",
+    "distinctives": [
+      "Public university located in Charleston, Illinois, part of the Illinois public university system, offering bachelor's and master's degrees across dozens of majors",
+      "Enrollment has been relatively small (roughly 6,000-7,000 total students in recent years) after a long decline from a peak in the 1990s, though recent reporting notes modest enrollment growth in 2025-2026",
+      "Known for a relatively high acceptance rate and accessible admissions, with notable programs in education, business, and the sciences, plus NCAA Division I athletics (Ohio Valley Conference)",
+      "Offers small class sizes and low student-to-faculty ratio typical of regional public universities, appealing to students wanting a traditional four-year residential experience at an affordable in-state price"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "207306": {
+    "profile_type": "researched",
+    "vibe": "A small public university in rural northwest Oklahoma (Alva) serving a largely regional, working-class student population, with a practical, career-focused academic culture and strong local/community ties.",
+    "distinctives": [
+      "Public regional university headquartered in Alva, Oklahoma, with additional satellite/extension sites in Enid and Woodward, Oklahoma",
+      "Very small total enrollment (roughly 1,500-2,000 students), reflecting its role as a rural-serving access institution rather than a large research university",
+      "Offers career-oriented programs including nursing, education, business, and ranch/agricultural management, reflecting the surrounding agricultural region",
+      "High acceptance rate and modest tuition typical of regional Oklahoma public universities, positioning it as an affordable, low-barrier option for regional students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "221661": {
+    "profile_type": "researched",
+    "vibe": "A private Seventh-day Adventist Christian university in Collegedale, Tennessee (near Chattanooga), with a faith-centered residential campus culture, strong community emphasis, and a health/wellness-oriented identity consistent with Adventist values.",
+    "distinctives": [
+      "Private university affiliated with the Seventh-day Adventist Church, located in Collegedale, Tennessee, and accredited by SACSCOC (Southern Association of Colleges and Schools Commission on Colleges)",
+      "Enrollment of roughly 3,000-3,500 students, with a well-regarded School of Nursing and programs in health sciences, business, and education alongside religious studies",
+      "Campus culture reflects Adventist values, including a vegetarian-friendly dining emphasis, Sabbath (Saturday) observance affecting weekend campus life, and mandatory chapel/religious activities for students",
+      "Offers both undergraduate and graduate programs, with a mix of residential and distance/online offerings through its adult and graduate studies division"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "163532": {
+    "profile_type": "researched",
+    "vibe": "An Orthodox Jewish rabbinical college (yeshiva) in Baltimore, Maryland, entirely devoted to advanced Talmudic and rabbinic training for men within the Haredi/Orthodox tradition \u2014 a highly specialized religious institution rather than a conventional liberal-arts college.",
+    "distinctives": [
+      "A rabbinical college (yeshiva), formally known as Yeshivas Ner Yisroel, located in Baltimore, Maryland, that trains students for rabbinic ordination and advanced Talmudic scholarship",
+      "Accredited by the Association of Advanced Rabbinical and Talmudic Schools (AARTS) Accreditation Commission rather than a mainstream regional accreditor, reflecting its specialized religious mission",
+      "Serves a small, male-only Orthodox Jewish student population; this is not a coeducational or general-studies institution, so it will not fit students seeking a conventional college experience",
+      "Because it is a narrow, mission-specific institution serving a particular religious community, general comparative data (acceptance rates, majors, career outcomes) used for typical colleges does not meaningfully apply here"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "213598": {
+    "profile_type": "researched",
+    "vibe": "A historic HBCU in rural southeastern Pennsylvania (Lincoln University, PA) with deep legacy and civil-rights significance, offering a small, close-knit liberal arts community with strong ties to African American intellectual and cultural history.",
+    "distinctives": [
+      "One of the oldest historically Black colleges and universities (HBCUs) in the United States, founded in 1854, located in Lincoln University, Pennsylvania (Chester County)",
+      "Notable alumni include Langston Hughes and Thurgood Marshall, reflecting the school's historic role in African American higher education",
+      "Public institution within Pennsylvania's state system with relatively small enrollment (roughly 1,500-2,000 students), offering a range of liberal arts, business, and STEM undergraduate and graduate programs",
+      "Like many HBCUs and small regional publics, has faced enrollment and demographic-shift pressures in recent years, though it remains an accredited, operating institution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
