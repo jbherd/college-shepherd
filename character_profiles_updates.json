@@ -11225,5 +11225,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "168227": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused technology university on the Fenway in Boston where nearly every student is an engineer, architect, designer, or computer scientist building things with their hands as much as their heads.",
+    "distinctives": [
+      "Every undergraduate program includes a required cooperative education (co-op) component, giving students paid, full-time professional experience before graduation",
+      "Strong architecture, industrial design, and engineering programs housed in dedicated studio and lab spaces, with a campus centered on hands-on, project-based learning rather than large lecture courses",
+      "Located in Boston's Fenway cultural district, giving students easy access to the city's hospitals, tech firms, and design studios for co-ops and internships",
+      "Historically a commuter and male-dominated engineering/trade school that has transitioned into a residential, more gender-balanced STEM-focused institution over the past two decades"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "110592": {
+    "profile_type": "researched",
+    "vibe": "A large, diverse urban public university on the eastern edge of Los Angeles that serves primarily commuter, first-generation, and working students, and is widely recognized as an engine of upward economic mobility.",
+    "distinctives": [
+      "Consistently ranks among the top U.S. universities for social mobility and for propelling low-income students into the middle class, per CollegeNET and other mobility indexes",
+      "A federally designated Hispanic-Serving Institution and Asian American and Native American Pacific Islander-Serving Institution with a highly diverse student body",
+      "Notable alumni include several NASA astronauts and engineers, reflecting strong STEM and engineering programs alongside respected business and nursing tracks",
+      "Hilltop campus overlooking downtown LA with a largely commuter student population, many of whom work while attending school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "202134": {
+    "profile_type": "researched",
+    "vibe": "An urban public university in downtown Cleveland that leans heavily on its city-center location, offering practical, career-oriented programs to a largely commuter and non-traditional student population.",
+    "distinctives": [
+      "Downtown Cleveland location gives students direct access to internships and jobs with major employers like the Cleveland Clinic, Progressive, KeyCorp, and the city's legal and engineering firms",
+      "Nance College of Business and the Washkewicz College of Engineering are among the university's stronger, more career-aligned programs",
+      "Serves a large share of adult, transfer, and part-time students, reflecting its identity as an accessible urban commuter institution rather than a traditional residential campus",
+      "Fenn College of Engineering roots (Cleveland State absorbed the historic Fenn College) give it a long-standing cooperative-education tradition in engineering"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169910": {
+    "profile_type": "researched",
+    "vibe": "A career-oriented public university in rural Big Rapids, Michigan, known for blending hands-on technical and professional training with a full slate of bachelor's and graduate programs, including several health-focused ones unusual for a school its size.",
+    "distinctives": [
+      "Home to the Michigan College of Optometry, the only school of optometry in Michigan and one of relatively few in the U.S., producing doctors of optometry",
+      "Strong applied and technical programs including automotive/heavy equipment technology, construction management, welding engineering technology, and pharmacy, reflecting the university's trade-school-to-university heritage",
+      "Rural Big Rapids campus with a strong Division II athletics culture (Bulldogs), including a nationally competitive ice hockey program at the Division I level",
+      "Positions itself around workforce-ready, applied education with many programs built around licensure or direct industry placement rather than purely liberal-arts tracks"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "141486": {
+    "profile_type": "researched",
+    "vibe": "A small, private Catholic Marianist university in Honolulu offering an intimate, values-driven college experience with island access, known for its nursing and criminology/forensic sciences programs.",
+    "distinctives": [
+      "Marianist Catholic mission emphasizing community, service, and educating the whole person, with small class sizes and close faculty-student relationships",
+      "Well-regarded nursing program and a distinctive forensic sciences/criminology track that draws students interested in criminal justice and lab-based forensic work",
+      "Honolulu, Hawaii campus location offers a unique multicultural, Pacific Islander and Asian American student community and island lifestyle unavailable at mainland peer schools",
+      "Small overall enrollment (a few thousand students) creates a tight-knit, personalized undergraduate experience compared to larger public universities in the islands like University of Hawaii"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "117627": {
+    "profile_type": "researched",
+    "vibe": "A small Seventh-day Adventist university in Riverside, California, that blends a faith-centered residential community with a surprisingly international, diverse student body and a business/pre-health bent.",
+    "distinctives": [
+      "Seventh-day Adventist affiliation shapes campus life, with mandatory worship/religion coursework and a strong pre-health (nursing, biology) pipeline feeding Loma Linda University programs",
+      "Zapara School of Business is AACSB-accredited, a distinction relatively rare among schools this size",
+      "Highly international and ethnically diverse student population, with a large share of students from outside the U.S. and from Adventist communities worldwide",
+      "Small classes and a Southern California location near Los Angeles/Orange County give students internship and outdoor-recreation access uncommon at other small religious colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "174747": {
+    "profile_type": "researched",
+    "vibe": "An all-women Catholic Benedictine college in rural central Minnesota that operates in a close academic partnership with neighboring Saint John's University (a men's college), giving students a women's-college experience with coed classes and social life.",
+    "distinctives": [
+      "Coordinate college model with Saint John's University: separate single-sex campuses a few miles apart, shared classes, faculty, and many activities",
+      "Benedictine values emphasize community, hospitality, and service; the campus sits on a scenic lake and includes the historic Sacred Heart Chapel",
+      "Strong outcomes in pre-health, business, and education, with a notably high four-year graduation rate for a women's college",
+      "Study-abroad participation is unusually high, supported by CSB/SJU's long-running international education programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161457": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized Maine university on the Atlantic coast known nationally for marine science and a broad suite of health-professions programs, drawing outdoorsy, career-focused students.",
+    "distinctives": [
+      "Biddeford campus sits directly on the ocean, home to the Marine Science Center and hands-on tidal-pool/beach research used across marine biology and environmental science coursework",
+      "One of the largest colleges of osteopathic medicine in the U.S. (UNE COM) anchors a strong undergraduate-to-graduate pipeline in health sciences, including nursing, PT, OT, and pharmacy",
+      "Offers a distinctive Doctor of Podiatric Medicine program, one of few in the country",
+      "Portland campus adds an urban, arts-and-design-oriented satellite alongside the coastal Biddeford campus, giving students two very different settings"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216524": {
+    "profile_type": "researched",
+    "vibe": "A selective liberal arts college outside Philadelphia known for its distinctive interdisciplinary Common Intellectual Experience course and strong pre-med/pre-law outcomes in a tight-knit residential community.",
+    "distinctives": [
+      "Common Intellectual Experience (CIE) is a required first-year interdisciplinary humanities seminar that anchors the entire curriculum and is a signature feature nationally recognized for undergraduate teaching",
+      "Strong track record placing graduates into medical school and PhD programs relative to its size, with a well-established Health Professions Advising office",
+      "Collegeville, PA location gives easy access to Philadelphia (about 25 miles away) while keeping a small, walkable, largely residential campus",
+      "Division III athletics with high student-athlete participation rates, fostering a close campus community feel"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "175005": {
+    "profile_type": "researched",
+    "vibe": "A Catholic women's university in St. Paul, Minnesota, with deep roots in nursing and health sciences and a mission built around social justice and women's leadership.",
+    "distinctives": [
+      "Long-standing, highly regarded undergraduate and graduate nursing programs are the university's academic anchor and a top reason students enroll",
+      "Founded by the Sisters of St. Joseph of Carondelet, with a mission emphasizing social justice, service learning, and leadership development for women",
+      "Offers coed graduate and adult-learner programs alongside the traditional undergraduate College for Women, broadening the student population beyond a typical single-sex school",
+      "Urban Twin Cities location provides strong clinical placement and internship access for health-sciences and social-work students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169442": {
+    "profile_type": "researched",
+    "vibe": "A small, intensely studio-focused art and design school in Midtown Detroit where students work alongside the city's automotive and design industries rather than in an isolated campus bubble.",
+    "distinctives": [
+      "Its Transportation Design program is one of the most respected in the country and feeds directly into design studios at GM, Ford, and other automakers headquartered nearby",
+      "Located in Detroit's Midtown/Cultural Center district, steps from the Detroit Institute of Arts and College for Creative Studies' own Taubman and Kresge campuses",
+      "Small total enrollment (roughly 1,400 students) means tiny studio class sizes and heavy faculty access, typical of specialized art and design colleges",
+      "Offers BFA and MFA programs spanning illustration, animation, industrial design, and fine arts, with a curriculum built around portfolio-driven, hands-on studio work"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197045": {
+    "profile_type": "researched",
+    "vibe": "A small private university in central New York that has built a national reputation around cybersecurity and criminal justice, giving it an unusually career-focused, applied feel for a liberal-arts-sized school.",
+    "distinctives": [
+      "Nationally recognized cybersecurity program, designated a National Center of Academic Excellence in Cyber Defense Education by the NSA and DHS",
+      "Strong roots in criminal justice and economic crime/fraud investigation, fields the university has taught since the 1970s well before they became mainstream majors",
+      "Located in Utica, NY, a smaller Mohawk Valley city, giving it a quieter, close-knit residential campus feel compared to big-city competitors",
+      "Offers both online and on-campus degree formats in its signature cyber and criminal justice programs, drawing working adults alongside traditional undergrads"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "206084": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public research university in northwest Ohio with a big-school range of majors and Division I athletics, anchored by strong engineering, pharmacy, and health programs tied to its academic medical center.",
+    "distinctives": [
+      "Home to a large College of Pharmacy and Pharmaceutical Sciences and its own academic medical center (University of Toledo Medical Center), giving pre-health students clinical exposure most regional publics lack",
+      "Strong ties to the region's glass and materials industries (Toledo is the historic 'Glass City'), reflected in notable materials science and engineering research",
+      "NCAA Division I athletics in the Mid-American Conference, with football and basketball serving as a unifying campus tradition ('Rocket' spirit)",
+      "A comprehensive public university offering over 200 undergraduate programs, making it a practical option for students who want breadth and flexibility to switch majors"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "224554": {
+    "profile_type": "researched",
+    "vibe": "A public university in rural northeast Texas that recently rebranded from Texas A&M University-Commerce to East Texas A&M University, retaining its affordable, teacher-training and agriculture-rooted identity for first-generation and regional students.",
+    "distinctives": [
+      "Officially renamed East Texas A&M University in 2025 after decades as Texas A&M University-Commerce, part of the Texas A&M University System",
+      "Long history as a teacher-training institution (originally East Texas Normal College, founded 1889), and education remains one of its largest and most established programs",
+      "Located in the small town of Commerce, Texas, giving it a rural, tight-knit campus culture distinct from the state's large urban flagships",
+      "Known for relatively low cost and accessibility, drawing a significant share of first-generation and regional Texas students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190558": {
+    "profile_type": "researched",
+    "vibe": "A commuter-oriented CUNY senior college on Staten Island whose sprawling suburban-style campus and diverse, largely local student body stand apart from CUNY's more urban Manhattan and Brooklyn campuses.",
+    "distinctives": [
+      "One of CUNY's largest campuses by land area, with a suburban, green Willowbrook-area layout unlike most CUNY schools' dense city footprints",
+      "Designated a Hispanic-Serving Institution with a highly diverse student population reflective of Staten Island and the broader NYC area",
+      "Strong nursing and health sciences programs, along with growing nanotechnology and engineering science offerings tied to CUNY's broader STEM investments",
+      "Predominantly a commuter school with a large population of transfer and part-time students, offering CUNY's relatively low in-state tuition as a major draw"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "230728": {
+    "profile_type": "researched",
+    "vibe": "A land-grant research university in a mountain valley where outdoorsy students split time between labs and the Wasatch trails, with a strong agricultural and engineering heritage alongside a competitive Division I athletics scene.",
+    "distinctives": [
+      "Home to the Space Dynamics Laboratory, one of the largest university-based space research programs in the U.S., giving undergrads real satellite and aerospace project experience",
+      "Highly ranked online/distance education network (USU Eastern and regional campuses) serving nontraditional students across Utah",
+      "Strong programs in engineering, agriculture, and veterinary sciences (including a joint DVM program with Washington State)",
+      "Located in Logan at the base of the Bear River Mountains, giving easy access to skiing, hiking, and Aggie Ice Cream, USU's own creamery brand"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216807": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit liberal arts college in rural western Pennsylvania with Presbyterian roots, known for personal attention from faculty and a tight residential community.",
+    "distinctives": [
+      "Historically affiliated with the Presbyterian Church (USA) and rooted in liberal arts traditions dating to 1852",
+      "Small classes with a low student-to-faculty ratio enabling significant undergraduate research and mentorship opportunities",
+      "Titan athletics compete in NCAA Division III as part of the Presidents' Athletic Conference",
+      "Located in New Wilmington, PA, a small town setting roughly an hour from Pittsburgh, giving a quiet, campus-centered social scene"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "234030": {
+    "profile_type": "researched",
+    "vibe": "An urban public research university embedded in downtown Richmond, Virginia, with an edgy, arts-driven identity and a diverse, career-focused student body.",
+    "distinctives": [
+      "VCU School of the Arts is consistently ranked among the top public art and design schools in the country, especially for painting/printmaking and graphic design",
+      "Nationally recognized VCU Health academic medical center gives strong pipelines into nursing, health sciences, and pre-med research",
+      "One of the most ethnically diverse public research universities in the U.S., set in the heart of Richmond's arts and restaurant scene",
+      "Rams basketball's 2011 Final Four run put VCU on the national athletics map, and the program remains a strong mid-major in the Atlantic 10"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "110538": {
+    "profile_type": "researched",
+    "vibe": "A lively public university in a walkable Northern California college town, balancing a well-regarded business and sustainability-focused academic core with a famously spirited social scene.",
+    "distinctives": [
+      "Chico's College of Business holds AACSB accreditation and its concrete canoe and engineering programs draw regional recognition",
+      "Adjacent to Bidwell Park, one of the largest municipal parks in the U.S., shaping an outdoorsy, bike-friendly campus culture",
+      "Strong sustainability initiatives, including a campus farm and recognized programs in environmental studies and recreation/parks management",
+      "Historically known for a high-energy party reputation, the university has invested heavily in recent decades in safety programs and community partnerships to reshape that image"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "174817": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic (Lasallian) university on the Mississippi River bluffs in Winona, Minnesota, offering a faith-rooted, close-knit undergraduate experience alongside respected graduate programs in health and education fields.",
+    "distinctives": [
+      "Founded by the De La Salle Christian Brothers and grounded in Lasallian Catholic values emphasizing service and community",
+      "Scenic riverside/bluff campus in Winona gives students access to hiking and outdoor recreation along the Mississippi",
+      "Notable graduate offerings in counseling psychology, physician assistant studies, and business run through a separate Twin Cities/graduate division",
+      "NCAA Division III Cardinals athletics and a small undergraduate population support a tight-knit residential community"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "157085": {
+    "profile_type": "researched",
+    "vibe": "A massive flagship SEC school in Lexington where big-time basketball energy and a sprawling research university coexist with a surprisingly tight-knit Greek and honors culture.",
+    "distinctives": [
+      "Flagship R1 research university with major strengths in pharmacy, engineering, agriculture/equine science, and a nationally ranked academic healthcare complex (UK HealthCare)",
+      "Wildcats basketball and SEC athletics dominate campus social life and school spirit",
+      "Large public university (over 20,000 undergrads) with a relatively accessible admit rate, and a strong Lewis Honors College for students wanting a smaller-college feel within the flagship",
+      "Lexington location puts students in the heart of Kentucky bourbon and horse country, with strong regional employer ties for internships and co-ops"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "174899": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic Benedictine college on Lake Superior in Duluth known for a tight-knit, values-driven community and a strong pipeline into healthcare careers.",
+    "distinctives": [
+      "Founded by Benedictine sisters and still built around Benedictine values of community, hospitality, and service",
+      "Particularly strong health-sciences programs, including nursing, physical therapy, occupational therapy, and physician assistant studies, feeding regional healthcare employers",
+      "Small college with low student-faculty ratio and close faculty mentorship typical of a school with only a few thousand total students",
+      "Duluth location on Lake Superior offers hiking, skiing, and lake recreation alongside a quieter small-city college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "159656": {
+    "profile_type": "researched",
+    "vibe": "A small Jesuit university in the heart of New Orleans that blends rigorous liberal-arts and pre-professional education with a genuinely distinctive music-industry culture shaped by the city itself.",
+    "distinctives": [
+      "College of Music and Media houses a nationally recognized Music Industry Studies program, repeatedly named a top music business school by Billboard",
+      "Jesuit identity brings a strong emphasis on service learning, social justice, and small discussion-based classes",
+      "Uptown New Orleans campus sits across from Audubon Park and near Tulane, giving students access to the city's live-music, food, and festival culture as a living classroom",
+      "Respected pre-law and criminal justice/psychology programs, with strong law school placement rates for a school of its size"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "498562": {
+    "profile_type": "researched",
+    "vibe": "A newly consolidated Pennsylvania state university, formed from the 2022 merger of Bloomsburg, Lock Haven, and Mansfield, offering small-town, affordable public education across multiple rural Pennsylvania campuses.",
+    "distinctives": [
+      "Created in 2022 when Bloomsburg, Lock Haven, and Mansfield universities merged into a single accredited institution under Pennsylvania's PASSHE system integration effort",
+      "Retains distinct physical campuses (Bloomsburg, Lock Haven, Mansfield) while sharing one unified administration, faculty, and program catalog across locations",
+      "Known historically for strong teacher-education, nursing, and exercise science/athletic training programs inherited from its legacy institutions",
+      "Affordable public tuition and small class sizes typical of PASSHE schools, serving largely regional, first-generation, and rural Pennsylvania students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "213321": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic (Holy Cross) college in Wilkes-Barre known for close-knit classes and an outsized reputation in pre-health and physician assistant education relative to its size.",
+    "distinctives": [
+      "Physician Assistant Studies graduate program is one of the school's flagship strengths, with strong PANCE pass rates and a well-regarded five-year direct-entry PA track for undergrads",
+      "Holy Cross Catholic mission emphasizes personal attention, small classes, and a values-based liberal arts core",
+      "Located in Wilkes-Barre in Pennsylvania's Northeastern/Wyoming Valley region, offering a small-city setting with reasonable proximity to Scranton, Philadelphia, and NYC",
+      "Strong business and accounting programs alongside health sciences, with notable alumni success in regional finance and healthcare fields"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
