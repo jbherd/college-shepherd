@@ -17289,5 +17289,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "444413": {
+    "profile_type": "researched",
+    "vibe": "A very small, insular Orthodox Jewish yeshiva focused on intensive Talmudic and rabbinic studies for men, not a traditional campus college experience - this is a fit only for students already committed to a full-time yeshiva learning track.",
+    "distinctives": [
+      "An Orthodox Jewish rabbinical/yeshiva institution offering religious higher education rather than a conventional liberal-arts curriculum",
+      "Extremely small in scale, with public information about the school (enrollment, facilities, specific programs) very limited compared to mainstream colleges",
+      "Primarily serves students pursuing intensive Torah/Talmud study, often alongside or as preparation for rabbinic ordination",
+      "Not a fit for students seeking a conventional residential college experience, broad majors, or NCAA athletics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161554": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university serving Maine with a practical, affordable, career-focused vibe - popular with in-state students, commuters, and adult learners who want a flexible urban and suburban campus experience rather than a traditional residential college bubble.",
+    "distinctives": [
+      "Public university that is part of the University of Maine System, with campuses in Portland, Gorham, and a center in Lewiston-Auburn",
+      "Offers a range of undergraduate and graduate programs including nursing, business, education, engineering, and the arts",
+      "Portland campus places students close to Maine's largest city, giving easy access to internships, healthcare employers, and the arts/music scene",
+      "Serves a significant number of transfer students and non-traditional/adult learners alongside recent high school graduates"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218964": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Rock Hill, South Carolina with a close-knit, spirited campus culture - known for strong programs in visual arts, education, and business, plus a lively Division I athletics scene that gives the school a real hometown-team feel.",
+    "distinctives": [
+      "Public university located in Rock Hill, South Carolina, about 20 miles south of Charlotte, North Carolina",
+      "Recognized for its College of Visual and Performing Arts and strong teacher-education (education) programs",
+      "Athletics teams are the Eagles, competing in NCAA Division I, historically in the Big South Conference",
+      "Offers a range of undergraduate and graduate degrees with a relatively small, residential-feeling campus compared to the state's larger flagship universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "150066": {
+    "profile_type": "researched",
+    "vibe": "A small, private Christian university in Anderson, Indiana with a faith-centered, close community feel - a good fit for students who want a values-driven campus culture alongside solid pre-professional programs like nursing and business.",
+    "distinctives": [
+      "Private university affiliated with the Church of God (Anderson, Indiana), with a strong emphasis on faith integration across the curriculum",
+      "Located in Anderson, Indiana, a small city roughly 40 miles northeast of Indianapolis",
+      "Known for pre-professional programs including nursing, business, and education, alongside a School of Theology",
+      "Athletics teams are the Ravens, competing in NCAA Division III, giving a smaller-scale, student-participation-friendly sports culture rather than big-time college athletics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "166054": {
+    "profile_type": "researched",
+    "vibe": "A tiny, tight-knit Greek Orthodox institution in Brookline, Massachusetts combining a small liberal-arts college (Hellenic College) with a seminary (Holy Cross Greek Orthodox School of Theology) - the right fit almost exclusively for students pursuing Orthodox Christian ministry, theology, or Hellenic studies within a devout religious community.",
+    "distinctives": [
+      "Located on a shared campus in Brookline, Massachusetts, combining Hellenic College (undergraduate liberal arts) with Holy Cross Greek Orthodox School of Theology (graduate seminary)",
+      "Officially affiliated with the Greek Orthodox Archdiocese of America, and many students are preparing for the priesthood, church ministry, or Orthodox Christian education roles",
+      "Very small student body by design, offering close mentorship from faculty and clergy rather than a large-campus experience",
+      "Distinctive curriculum blending Hellenic/Byzantine studies, classics, theology, and Orthodox Christian liturgical training not found at most secular colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "462354": {
+    "profile_type": "researched",
+    "vibe": "A tiny, mission-driven Catholic university near San Diego built around filmmaking, media, and entrepreneurship, where students who want to make movies with a faith-integrated worldview get hands-on production experience in a very close-knit community.",
+    "distinctives": [
+      "Located in the San Diego, California area and explicitly Catholic in mission and curriculum",
+      "Known for its screenwriting, film/media production, and business/entrepreneurship programs rather than a broad liberal-arts catalog",
+      "Very small student body (in the low hundreds), giving an intimate, close-knit campus culture",
+      "A young institution (founded in the early 2000s) that positions itself as an alternative to large secular film schools for students seeking a faith-based environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "156365": {
+    "profile_type": "researched",
+    "vibe": "A Baptist-affiliated university in small-town central Kentucky with a strong sense of community and faith, popular for career-focused programs like nursing, social work, and ministry, and competitive NAIA athletics.",
+    "distinctives": [
+      "Located in Campbellsville, Kentucky, and historically affiliated with the Kentucky Baptist Convention",
+      "Competes in NAIA athletics (Mid-South Conference) with a wide range of varsity sports",
+      "Offers career-oriented programs including nursing, social work, education, and ministry/theology alongside a broad range of undergraduate and graduate degrees",
+      "Serves a mix of traditional residential undergraduates and adult/online learners, making total enrollment larger than the on-campus population alone"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "232681": {
+    "profile_type": "researched",
+    "vibe": "A small public liberal arts university in historic Fredericksburg, Virginia, offering a private-college feel at a public-school price, with small classes, an emphasis on writing and the humanities, and an easy train ride to Washington, D.C.",
+    "distinctives": [
+      "A public liberal arts and sciences university located in Fredericksburg, Virginia, roughly halfway between Washington, D.C. and Richmond",
+      "Originated as a historically women's college and has been coeducational for decades, now with a modest-sized undergraduate population and small class sizes",
+      "Competes in NCAA Division III athletics (Capital Athletic Conference) with a large number of varsity teams for a school its size",
+      "Known for strengths in English, historic preservation, and other liberal arts fields, plus a well-regarded honors program"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219347": {
+    "profile_type": "researched",
+    "vibe": "A small, intensely STEM-focused public university in the Black Hills of South Dakota where nearly everyone is studying engineering or a hard science, class sizes are tiny, and graduates tend to land strong-paying technical jobs.",
+    "distinctives": [
+      "Located in Rapid City, South Dakota, near the Black Hills, and dedicated almost entirely to engineering, science, and technology degrees",
+      "Small student body (in the low thousands) with a high student-to-faculty ratio favoring hands-on labs and research",
+      "Offers programs in mining engineering, geology, and materials science that are relatively rare nationally, reflecting the region's mining and geological heritage",
+      "Competes in NCAA Division II athletics as part of the Rocky Mountain Athletic Conference (RMAC)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "193052": {
+    "profile_type": "researched",
+    "vibe": "An Orthodox Jewish yeshiva (rabbinical seminary) in Brooklyn focused on intensive Torah and Talmudic study for young men, quite different from a typical college experience and not aimed at students seeking a conventional campus, major, or social scene.",
+    "distinctives": [
+      "An all-male Orthodox Jewish institution located in the Kensington/Borough Park area of Brooklyn, New York, centered on Torah and Talmud study",
+      "Functions primarily as a rabbinical seminary rather than a conventional liberal-arts college, so it will not fit students looking for a typical undergraduate experience with broad majors, coed campus life, or NCAA athletics",
+      "Publicly available information about the institution (enrollment figures, program details, outcomes data) is limited compared to mainstream colleges, since it primarily serves a specific religious community",
+      "Best suited to students specifically seeking advanced Orthodox Jewish religious education rather than a general-purpose bachelor's degree path"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "198613": {
+    "profile_type": "researched",
+    "vibe": "A small, socially conscious liberal arts college with deep Quaker roots, Guilford draws students who want tight-knit classes, a strong sense of community, and an unapologetic focus on social justice and civic engagement.",
+    "distinctives": [
+      "Founded in 1837 by Quakers in Greensboro, North Carolina, and one of the oldest coeducational, racially integrated colleges in the South",
+      "Traditional liberal arts curriculum with small class sizes and low student-to-faculty ratio",
+      "Strong institutional emphasis on Quaker values such as community, equality, and social justice, reflected in curriculum and campus culture",
+      "Like many small private liberal arts colleges, Guilford has faced enrollment declines and financial pressure in recent years, leading to budget and program cuts; prospective students should check the college's current financial stability and program offerings directly with the admissions office before applying"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "208725": {
+    "profile_type": "researched",
+    "vibe": "A very small Christian Bible college for students seeking a faith-centered education focused on ministry preparation within a close, church-connected community.",
+    "distinctives": [
+      "Located in Eugene, Oregon, and affiliated with the Foursquare Church denomination",
+      "Very small enrollment, typically well under a few hundred students, offering a highly personalized, close-knit campus experience",
+      "Curriculum centers on Bible, theology, and ministry/leadership preparation rather than a broad range of secular majors",
+      "Best suited to students who have a clear sense of calling toward pastoral, missionary, or church-related vocations rather than those seeking a traditional broad-based college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "489353": {
+    "profile_type": "researched",
+    "vibe": "A career-focused nursing and health sciences school for students who know they want to become nurses or healthcare professionals and want a structured, clinically oriented path rather than a traditional campus experience.",
+    "distinctives": [
+      "Part of the national Chamberlain University system (owned by Adtalem Global Education), with California campus locations offering nursing-focused programs",
+      "Primary focus is the Bachelor of Science in Nursing (BSN), including pathways for career-changers and RN-to-BSN completion, plus other health science programs",
+      "Blends in-person clinical/lab instruction with a substantial online coursework component, geared toward working adults and career-focused students",
+      "As a for-profit institution focused on healthcare careers, it differs significantly from a traditional residential college experience, and prospective students should compare cost, outcomes, and accreditation details carefully against other nursing program options"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "206048": {
+    "profile_type": "researched",
+    "vibe": "A private university best known for its criminal justice and business programs, offering a practical, career-oriented education with a small-town Ohio campus feel alongside a large adult/online student population.",
+    "distinctives": [
+      "Located in Tiffin, Ohio, a small private university with a long history dating back to the 1880s",
+      "Particularly well known for its criminal justice program, alongside business, and other professional/career-focused degrees",
+      "Competes in NCAA Division II athletics, giving traditional-age students a fuller campus and sports experience",
+      "Serves a mix of traditional undergraduates and a substantial population of adult and online learners, reflecting a broader career-completion mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199643": {
+    "profile_type": "researched",
+    "vibe": "A historic HBCU steeped in African American educational tradition, Shaw offers a small, faith-connected community for students seeking that legacy and close mentorship, though prospective students should verify the school's current accreditation and financial standing before enrolling.",
+    "distinctives": [
+      "Founded in 1865 in Raleigh, North Carolina, and widely recognized as the first historically Black college or university established in the South",
+      "Historically affiliated with the Baptist tradition, with a legacy of educating Black students and producing notable alumni and leaders",
+      "A small institution offering close-knit classes and strong campus community traditions rooted in its HBCU heritage",
+      "Shaw has experienced significant financial and enrollment challenges in recent years, including periods of accreditation scrutiny; applicants should independently confirm current accreditation status, program availability, and institutional stability directly with the university before applying"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199209": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit private university in Rocky Mount, North Carolina, where students get personal attention from faculty and coaches in a low-key, small-town setting.",
+    "distinctives": [
+      "Small private university with historic ties to the United Methodist Church, located in Rocky Mount, NC",
+      "Renamed from North Carolina Wesleyan College to North Carolina Wesleyan University in the early 2020s",
+      "Competes in NCAA Division III athletics as the Battling Bishops",
+      "Offers career-focused undergraduate programs such as business, criminal justice, and nursing alongside traditional liberal arts majors"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196194": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university on the shores of Lake Ontario that blends a classic lakeside campus feel with strong, career-oriented programs and a lively residential student life.",
+    "distinctives": [
+      "Public university in the SUNY system located in Oswego, NY, on the shore of Lake Ontario",
+      "Widely known for its broadcast meteorology and atmospheric science program, one of the more prominent undergraduate meteorology programs in the country",
+      "Also recognized for its business, education, and communication studies programs",
+      "Competes in NCAA Division III athletics as the Lakers, with a notably strong ice hockey tradition"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "151324": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Terre Haute, Indiana, with a down-to-earth, Midwestern campus community and a strong sense of school spirit around Sycamore athletics.",
+    "distinctives": [
+      "Public university located in Terre Haute, Indiana, part of the Indiana state university system",
+      "Competes in NCAA Division I athletics as the Sycamores, including in the Missouri Valley Conference",
+      "Well known as the alma mater of basketball legend Larry Bird, who led the men's basketball team to the 1979 NCAA championship game",
+      "Offers a notable aviation technology program along with strengths in nursing, business, and education"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153366": {
+    "profile_type": "researched",
+    "vibe": "A small, tight-knit private university in rural Lamoni, Iowa, where nearly everyone knows each other and community and faith-rooted values shape campus life.",
+    "distinctives": [
+      "Small private university in Lamoni, Iowa, historically affiliated with the Community of Christ church",
+      "Maintains an additional campus location in Independence, Missouri, historically focused on nursing and adult/graduate programs",
+      "Competes in NAIA athletics as the Yellowjackets",
+      "Offers a range of undergraduate programs including education, business, and nursing in a small-college, residential setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "183071": {
+    "profile_type": "researched",
+    "vibe": "A small, urban commuter campus of the University of New Hampshire system, geared toward students who want a flexible, career-focused college experience in New Hampshire's largest city.",
+    "distinctives": [
+      "A branch campus of the University of New Hampshire located in downtown Manchester, NH, distinct from the main Durham campus",
+      "Primarily serves a commuter student population with smaller class sizes than the flagship campus",
+      "Focuses on applied and career-oriented programs, including business, health sciences, and engineering technology, often designed for transfer and working students",
+      "Does not field the same NCAA Division I athletics programs as UNH's main Durham campus, reflecting its smaller, commuter-oriented scale"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214272": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Catholic Franciscan university outside Philadelphia where students get a lot of individual attention from faculty and a values-driven, service-oriented campus culture.",
+    "distinctives": [
+      "Private Franciscan Catholic university located in Aston, Pennsylvania, in the Philadelphia suburbs",
+      "Small student body with low student-to-faculty ratio, known especially for nursing, education, and criminal justice programs",
+      "Competes in NCAA Division III athletics as the Knights, part of the Atlantic East Conference",
+      "Franciscan mission emphasizes service learning and community engagement alongside academics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218229": {
+    "profile_type": "researched",
+    "vibe": "A small public university in rural upstate South Carolina that offers a personal, affordable college experience with a strong sense of school spirit around its Division II athletics.",
+    "distinctives": [
+      "Public university located in Greenwood, South Carolina, part of the state's public higher education system",
+      "Small enrollment with a traditional residential campus feel and relatively affordable in-state tuition",
+      "Known for business, education, and health-related programs",
+      "Competes in NCAA Division II as the Bearcats, part of the Peach Belt Conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196112": {
+    "profile_type": "researched",
+    "vibe": "A small, technically focused SUNY campus centered in Utica, New York, geared toward students who want hands-on STEM training in fields like engineering, computer science, and cybersecurity.",
+    "distinctives": [
+      "Public polytechnic institute within the SUNY system, with its main campus in Utica, New York, and a Rome, NY location",
+      "Focuses on applied and technical degree programs including computer science, cybersecurity, engineering technology, and health-related fields",
+      "Has a complicated recent history: it was folded into SUNY Albany's nanoscale college in 2014 and then re-established as an independent institution in 2020 after state economic-development contracting controversies (including the Fort Schuyler Management Corporation bid-rigging case) led to its separation from Albany",
+      "Small campus size means smaller class sizes and closer contact with faculty compared to larger SUNY research universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "243106": {
+    "profile_type": "researched",
+    "vibe": "A small, primarily commuter public campus in northwest Puerto Rico offering an affordable, Spanish-language college option close to home for local students.",
+    "distinctives": [
+      "One of the regional campuses of the University of Puerto Rico system, located in Aguadilla in the northwest part of the island",
+      "Offers a mix of associate and bachelor's degree programs, with emphasis on business, education, and natural sciences",
+      "Instruction is conducted primarily in Spanish, reflecting the island's public university system",
+      "Like much of Puerto Rico's public higher-education infrastructure, the campus and its students have had to contend with disruptions from hurricanes (including Maria and Fiona) and earthquakes in recent years, which is worth noting for students weighing continuity of on-campus services"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "168263": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public university in western Massachusetts with deep historical roots in teacher education and a practical, career-focused academic culture today.",
+    "distinctives": [
+      "Public university located in Westfield, Massachusetts, part of the Massachusetts state university system",
+      "Traces its origins to a normal school founded by education reformer Horace Mann in 1839, historically notable as one of the first public teacher-training institutions in the U.S. open regardless of race, sex, or economic status",
+      "Known today for programs in criminal justice, business, education, and health sciences alongside its teacher-preparation heritage",
+      "Competes in NCAA Division III athletics as the Owls, part of the Massachusetts State Collegiate Athletic Conference (MASCAC)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
