@@ -12889,5 +12889,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "483780": {
+    "profile_type": "researched",
+    "vibe": "A small, career-oriented private university in Vienna, Virginia that serves a largely international, graduate-focused student body pursuing business, IT, and engineering degrees.",
+    "distinctives": [
+      "Located in Vienna, Virginia, in the DC metro area, with easy access to the region's tech and government-contracting job market",
+      "Enrollment is heavily graduate and international, with strong representation from Asian students pursuing MBA, computer science, and engineering degrees",
+      "Offers an MBA with a project management concentration among its signature programs",
+      "Small campus and class sizes typical of a niche private institution rather than a traditional residential college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "446561": {
+    "profile_type": "researched",
+    "vibe": "A fast-growing Southern California career college focused almost entirely on nursing and allied health, prized by students who want a direct, efficient path into a healthcare job.",
+    "distinctives": [
+      "Multiple Southern California campuses (Irvine, San Diego, Orange County, and more) all centered on nursing and allied health programs",
+      "Offers LVN, BSN, and various allied health tracks (respiratory therapy, occupational therapy assistant, surgical technology, etc.)",
+      "Ranked by Niche as a top nursing college in California in recent years",
+      "Career-focused culture with accelerated timelines and strong clinical/hands-on training rather than a traditional liberal-arts campus experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "480781": {
+    "profile_type": "researched",
+    "vibe": "A small, private San Diego university built around flexible, career-focused business and IT degrees for working adults and international students rather than a traditional undergraduate campus experience.",
+    "distinctives": [
+      "Based in San Diego, California, with a compact campus and a business/IT-heavy program lineup",
+      "Serves a significant international and adult-learner population seeking practical, career-oriented degrees",
+      "Recently rebranded its programs around business and IT with an emphasis on applied and technology-forward coursework",
+      "WASC-accredited but far smaller and less residential/campus-life-oriented than most four-year universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "224244": {
+    "profile_type": "researched",
+    "vibe": "A tiny, close-knit Christian Bible college in the Dallas area where faith formation and ministry preparation are woven directly into academics and campus life.",
+    "distinctives": [
+      "Located in the Dallas, Texas area and affiliated with Christian Churches/Churches of Christ",
+      "Very small enrollment, giving students close relationships with faculty and a tight-knit campus community",
+      "Curriculum centers on Bible, ministry, and church-leadership preparation alongside a handful of other majors",
+      "Emphasizes practical ministry experience and spiritual formation as a core part of the student experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "174862": {
+    "profile_type": "researched",
+    "vibe": "A small, welcoming Christian liberal arts college in rural Minnesota affiliated with the Christian and Missionary Alliance, known for a strong sense of community and an emphasis on faith-integrated learning.",
+    "distinctives": [
+      "Located in St. Bonifacius, Minnesota, on a lakeside campus about 30 minutes from Minneapolis",
+      "Affiliated with the Christian and Missionary Alliance denomination, with ministry, missions, and Bible programs alongside standard liberal arts majors",
+      "Small student body fosters close faculty-student relationships and a tight campus community",
+      "Offers a range of undergraduate majors (business, education, psychology, ministry, etc.) plus graduate and seminary programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "487746": {
+    "profile_type": "researched",
+    "vibe": "A small, insular Haredi yeshiva in Spring Valley, NY, serving young men pursuing full-time Torah study rather than a conventional undergraduate experience.",
+    "distinctives": [
+      "Located in Spring Valley, New York, in the heart of a large Orthodox Jewish community in Rockland County",
+      "Focuses on advanced Talmudic and rabbinic studies for male students rather than a broad liberal-arts curriculum",
+      "Very small enrollment typical of single-purpose yeshivas, with limited publicly available data on outcomes or campus life",
+      "Best suited to students specifically seeking an intensive, religiously-focused course of study rather than a traditional college path"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "200484": {
+    "profile_type": "researched",
+    "vibe": "A close-knit Assemblies of God Bible college on the prairie of southeastern North Dakota, where students combine ministry training with a tight, faith-centered residential community.",
+    "distinctives": [
+      "Located in Ellendale, North Dakota, and affiliated with the Assemblies of God denomination",
+      "Offers both undergraduate Bible/ministry degrees and a graduate school (accredited by the Association of Theological Schools)",
+      "Small, tight-knit campus culture with a strong emphasis on chapel life, discipleship, and preparing students for pastoral, worship, or missions careers",
+      "Very small class sizes given a total enrollment typically in the low hundreds"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "449764": {
+    "profile_type": "researched",
+    "vibe": "A niche, industry-connected music college in downtown Memphis that trains students for careers as working musicians, engineers, and worship leaders inside a hands-on, gig-based curriculum.",
+    "distinctives": [
+      "Located in downtown Memphis, a city with deep musical heritage (blues, soul, rock 'n' roll) that students can draw on directly",
+      "Founded by musicians connected to the Christian music industry, with a curriculum blending performance, audio production, and music business training",
+      "Very small, specialized student body focused almost entirely on contemporary/commercial music rather than classical conservatory training",
+      "Emphasizes real-world experience such as live performance, songwriting, and studio work as part of coursework"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "223117": {
+    "profile_type": "researched",
+    "vibe": "A small, graduate-level Baptist seminary in East Texas dedicated to training pastors and missionaries within the Baptist Missionary Association tradition.",
+    "distinctives": [
+      "Located in Jacksonville, Texas, and affiliated with the Baptist Missionary Association of America",
+      "Primarily a graduate theological seminary offering degrees such as the Master of Divinity for ministry preparation, not a traditional undergraduate liberal-arts program",
+      "Very small enrollment typical of denominational seminaries, with a mission centered on pastoral and missionary training rather than broad career preparation",
+      "Long institutional history tied to the BMA denomination, tracing back to the mid-20th century founding of the association's educational efforts in Texas"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "475200": {
+    "profile_type": "researched",
+    "vibe": "Not a separate campus but Whitworth University's degree-completion track for working adults, letting older or transfer-heavy students finish a bachelor's degree through flexible, accelerated coursework tied to Whitworth's Presbyterian liberal-arts identity in Spokane.",
+    "distinctives": [
+      "Operates under Whitworth University in Spokane, Washington, a Presbyterian-affiliated liberal arts institution, but serves nontraditional/adult learners specifically",
+      "Designed for students who already have some college credit and want an accelerated path to a bachelor's degree, often through evening, weekend, or online formats",
+      "Whitworth has been actively restructuring and expanding these offerings to better serve working adults",
+      "Students benefit from Whitworth's broader institutional resources and accreditation while following a schedule built around jobs and family obligations rather than a traditional residential experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199184": {
+    "profile_type": "researched",
+    "vibe": "An intensely focused conservatory environment where teenagers and young adults train alongside professional-caliber faculty in drama, dance, music, filmmaking, and design/production \u2014 a public arts school with the rigor and culture of a specialized performing-arts institute.",
+    "distinctives": [
+      "Part of the University of North Carolina system but structured as a conservatory, with audition- or portfolio-based admission for each of its arts schools (Dance, Drama, Filmmaking, Design & Production, Music, Visual Arts)",
+      "Located in Winston-Salem, NC, and offers both high-school-level and college-level (BFA/MFA) training, so campus life mixes younger and older art students",
+      "Filmmaking program has a strong industry placement record and hands-on production focus with real equipment and crews",
+      "Notable alumni span film, TV, dance, and theater, reflecting the school's reputation as a pipeline into professional performing and media arts careers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "112084": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit evangelical Christian liberal arts college where faith integration runs through every class and campus culture centers on chapel, community, and personal mentorship.",
+    "distinctives": [
+      "Located in Santee, in the San Diego, CA metro area, giving students access to a major city while attending a small campus",
+      "Regionally accredited through WSCUC (WASC Senior College and University Commission)",
+      "Compact enrollment (well under 1,000 students) means small class sizes and close faculty-student relationships",
+      "Competes in NAIA athletics and requires students to affirm a statement of Christian faith/lifestyle covenant as part of campus community life"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "177083": {
+    "profile_type": "researched",
+    "vibe": "A tiny, all-male Catholic seminary college run by Benedictine monks on a rural Missouri abbey campus, built entirely around discernment and formation for the priesthood rather than a conventional college experience.",
+    "distinctives": [
+      "Operated by Conception Abbey, a Benedictine monastery in Conception, Missouri, and exclusively enrolls men studying for the Roman Catholic priesthood",
+      "Curriculum centers on philosophy and pre-theology as preparation for graduate seminary/theology study",
+      "Students (seminarians) live under a structured monastic-influenced daily schedule of prayer, study, and community life alongside the resident monks",
+      "Extremely small enrollment (typically well under 200 students), making it one of the smallest degree-granting institutions in the country"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199582": {
+    "profile_type": "researched",
+    "vibe": "A historically Black university in Raleigh, NC with over 150 years of legacy, currently in serious institutional crisis \u2014 it lost its regional accreditation in 2025 and filed for bankruptcy in 2026, and its future operating status is uncertain as of this writing.",
+    "distinctives": [
+      "Lost SACSCOC accreditation after a 2025 appeal failed, and as of 2026 has filed for bankruptcy while stating it intends to keep operating rather than close",
+      "Historic HBCU founded in 1867 in Raleigh, North Carolina, with a long legacy of educating Black students",
+      "Enrollment and financial stability have declined sharply amid the accreditation fight, raising real risk for students around degree recognition, financial aid eligibility, and program continuity",
+      "Prospective students and families should verify current accreditation and operational status directly with the university before enrolling, given the rapidly changing situation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "120768": {
+    "profile_type": "researched",
+    "vibe": "A small private college in Pasadena, CA built around education, child development, and human services, with a student body skewing toward adult, working, and returning learners rather than traditional 18-year-old freshmen.",
+    "distinctives": [
+      "Historically known for pioneering progressive early childhood education philosophy, with strong programs in child development, education, and marriage/family therapy",
+      "Serves a largely nontraditional, adult-learner population, with significant online and hybrid program offerings alongside its Pasadena campus",
+      "Offers an accredited online Bachelor of Social Work alongside its education and psychology-adjacent degrees",
+      "Small overall enrollment compared to traditional four-year colleges, with a career-focused, practitioner-oriented curriculum rather than a residential undergraduate experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "143978": {
+    "profile_type": "researched",
+    "vibe": "A career-focused graduate institution built around professional psychology and behavioral health, where students train in cohort-based, practice-heavy programs aimed squarely at licensure and clinical work.",
+    "distinctives": [
+      "Founded in 1979 as The Chicago School of Professional Psychology; now operates as The Chicago School with campuses in Chicago, Los Angeles, Washington D.C., and other cities plus online programs",
+      "Primarily a graduate school offering doctoral (PsyD) and master's programs in clinical psychology, school psychology, counseling, ABA, and organizational psychology",
+      "APA-accredited clinical PsyD program with an emphasis on applied training, practicum placements, and licensure preparation rather than traditional research-heavy academia",
+      "Nonprofit institution serving a largely working-adult and career-changer graduate student population, with flexible and hybrid/online formats"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "201061": {
+    "profile_type": "researched",
+    "vibe": "A tiny, tight-knit independent art college in the heart of downtown Cincinnati, where every student gets close mentorship from working artists in a studio-intensive BFA environment.",
+    "distinctives": [
+      "One of the oldest art schools in the country, founded in 1869, located in Cincinnati's Over-the-Rhine arts district",
+      "Very small enrollment (typically well under 300 students), giving an unusually low student-to-faculty ratio and highly individualized studio instruction",
+      "Offers BFA degrees in areas like painting, illustration, photography, sculpture, and design, with a curriculum built around a shared studio-and-critique culture",
+      "Member of the Association of Independent Colleges of Art and Design (AICAD), enabling cross-registration and exchange opportunities with peer art schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "132408": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Southern Baptist college in the Florida Panhandle where campus life centers on faith, ministry preparation, and a quiet small-town setting.",
+    "distinctives": [
+      "Located in Graceville, Florida, a small rural town in the Panhandle, and affiliated with the Southern Baptist tradition",
+      "Focuses heavily on ministry-oriented degrees: pastoral studies, missions, worship leadership, Christian counseling, and related programs alongside some general studies majors",
+      "Very small student body, fostering close relationships among students, faculty, and campus ministry leaders",
+      "Emphasizes practical ministry training alongside academics, with many graduates going on to serve in churches, missions, and faith-based nonprofit work"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "493594": {
+    "profile_type": "researched",
+    "vibe": "A very small Orthodox Jewish yeshiva serving a niche community of students pursuing intensive Torah and Talmudic study; public information about its programs and campus life is limited.",
+    "distinctives": [
+      "A small Orthodox Jewish rabbinical/yeshiva institution with a very limited student body",
+      "Curriculum centers on Torah, Talmud, and traditional Jewish religious studies rather than a conventional liberal-arts course catalog",
+      "Publicly available data on this school (enrollment details, outcomes, campus life) is sparse compared to larger, more mainstream colleges",
+      "Best suited to students specifically seeking an intensive, religiously focused yeshiva environment rather than a traditional college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "420325": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish rabbinical college in Monsey, New York, dedicated to advanced Talmudic study and rabbinic ordination within a close religious community; detailed public information is limited.",
+    "distinctives": [
+      "Located in Monsey, New York, a community with a significant concentration of Orthodox Jewish yeshivas and religious institutions",
+      "Focuses on rabbinical training and advanced Talmudic scholarship, with coursework centered on religious texts rather than a broad secular curriculum",
+      "Very small, specialized student population pursuing rabbinic ordination or advanced religious study",
+      "Limited publicly available data on outcomes and campus specifics, consistent with its small size and narrow religious mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "245777": {
+    "profile_type": "researched",
+    "vibe": "A tiny, intensely focused all-male Orthodox Jewish institution in Monsey, NY, where students immerse themselves full-time in advanced Talmudic and rabbinic study rather than a conventional undergraduate curriculum.",
+    "distinctives": [
+      "Operates as an advanced kolel/yeshiva (Rabbinical College of Yeshiva and Kolel Bais Medrash Elyon) focused on in-depth Talmudic scholarship rather than a liberal-arts core",
+      "Located in Monsey, New York, a major center of Orthodox Jewish community life in Rockland County",
+      "Extremely small enrollment, serving a narrow population of students pursuing rabbinic ordination and advanced religious scholarship",
+      "Essentially open admission within its community, reflecting its mission as a religious seminary rather than a selective academic institution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "417752": {
+    "profile_type": "researched",
+    "vibe": "A small Pentecostal Bible college in Joplin, Missouri, built around training students for ministry, worship leadership, and church-related vocations within a close-knit, faith-centered community.",
+    "distinctives": [
+      "Affiliated with the Pentecostal Church of God denomination and centers its curriculum on ministry, theology, and worship preparation",
+      "Located in Joplin, Missouri, alongside other evangelical higher-education institutions in the region",
+      "Very small student body with a campus culture built around daily chapel, discipleship, and hands-on ministry training",
+      "Primarily prepares graduates for pastoral, missionary, or church-staff roles rather than broad secular career paths"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "111966": {
+    "profile_type": "researched",
+    "vibe": "A mission-driven health sciences university in South Los Angeles dedicated to training doctors, nurses, and public health professionals to serve medically underserved communities, with a legacy rooted in the aftermath of the 1965 Watts uprising.",
+    "distinctives": [
+      "Founded in 1966 in response to health care gaps exposed by the Watts riots, with a lasting mission focused on urban and underserved health equity",
+      "Runs a joint MD program with UCLA (the UCLA/Drew Medical Education Program) that places students in community-based clinical training in South LA",
+      "Located in the Willowbrook/Watts area near Martin Luther King Jr. Community Hospital, giving students direct clinical exposure to underserved patient populations",
+      "Offers graduate and health professions programs (medicine, nursing, physician assistant studies, public health) rather than a broad traditional undergraduate liberal arts experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "147129": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused health sciences college in Peoria, Illinois, best known for its nursing programs and close ties to a major regional health system, drawing students who want a direct, clinically grounded path into healthcare work.",
+    "distinctives": [
+      "Historically affiliated with Methodist Medical Center of Illinois and now operates under the Carle Health system, tightly integrating academics with hospital-based clinical training",
+      "Concentrates on nursing and allied health degrees (including BSN and health sciences programs) rather than a broad liberal-arts catalog",
+      "Located in Peoria, Illinois, giving students hands-on clinical placements at nearby Carle Health hospitals and facilities",
+      "Small campus and class sizes typical of a specialized health-sciences college, with strong emphasis on licensure-focused outcomes like NCLEX pass rates"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "497462": {
+    "profile_type": "researched",
+    "vibe": "A small Christian university in Greenville, Texas, affiliated with the Redeemed Christian Church of God, combining ministry and theological training with a limited slate of academic programs for a close-knit, faith-based student body.",
+    "distinctives": [
+      "Affiliated with the Redeemed Christian Church of God (RCCG), a global Pentecostal denomination with Nigerian roots, reflecting a strong faith-based mission",
+      "Located in Greenville, Texas, a small city northeast of Dallas",
+      "Very small enrollment with a campus culture centered on Christian ministry preparation, worship, and discipleship",
+      "Offers a limited range of degree programs oriented toward ministry and general studies rather than a large multi-disciplinary catalog"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
