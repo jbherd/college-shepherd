@@ -20490,5 +20490,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "137962": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-based Christian college near Tampa that blends Bible-centered general education with career-focused majors like nursing and business for students who want their coursework grounded in an evangelical worldview.",
+    "distinctives": [
+      "Private, nondenominational Christian institution located in Trinity, Florida (Tampa Bay area), formerly known as Florida Bible College",
+      "Small enrollment, with a campus culture centered on chapel, Bible coursework, and personal faith formation alongside academic majors",
+      "Offers a mix of ministry/biblical studies degrees and more career-oriented programs such as nursing and business administration",
+      "Serves a largely commuter and regional student population rather than a large residential undergraduate base"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199111": {
+    "profile_type": "researched",
+    "vibe": "UNC Asheville is North Carolina's designated public liberal arts university, offering a small-college, seminar-style academic experience inside the UNC system, set in the mountain town of Asheville with a strong outdoorsy, arts-and-environment-minded student culture.",
+    "distinctives": [
+      "Public liberal arts institution and part of the University of North Carolina system, with a required interdisciplinary humanities sequence for all students",
+      "Small for a public university, generally a few thousand undergraduates, enabling small class sizes and close faculty contact",
+      "Located in Asheville, NC, a city known for arts, music, and outdoor recreation in the Blue Ridge Mountains, which shapes much of campus life",
+      "Known for strengths in environmental studies, atmospheric sciences, and undergraduate research opportunities; competes in NCAA Division I athletics (Big South Conference)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190752": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish rabbinical seminary (yeshiva) in Far Rockaway, New York, focused on intensive Torah and Talmudic study for men preparing for rabbinic ordination or religious scholarship, rather than a conventional liberal arts college experience.",
+    "distinctives": [
+      "A rabbinical seminary (yeshiva) serving the Orthodox Jewish community, with a curriculum centered on Talmudic and religious text study rather than a general liberal arts curriculum",
+      "Very small enrollment typical of single-purpose rabbinical schools, with an all-male student body pursuing religious ordination or advanced Torah study",
+      "Located in Far Rockaway, Queens, NY, a neighborhood with a significant Orthodox Jewish community and several affiliated yeshivas",
+      "Degree offerings and public data on outcomes are limited compared to mainstream colleges, reflecting its specialized religious mission and small institutional scale"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "459842": {
+    "profile_type": "researched",
+    "vibe": "Herzing University-Kenosha is a for-profit, career-training-oriented campus offering short, applied programs in fields like healthcare, business, and technology, designed for working adults and students seeking a faster path into a specific job rather than a traditional four-year college experience.",
+    "distinctives": [
+      "For-profit institution and part of the Herzing University system, which operates multiple campuses nationally alongside online programs",
+      "Curriculum emphasizes career-focused certificates, diplomas, and degrees in areas such as nursing, healthcare, business, and technology",
+      "Designed to serve working adults and career-changers, often with flexible or accelerated scheduling rather than a traditional residential campus model",
+      "As with many for-profit career colleges, prospective students should carefully review cost, loan debt levels, and graduate outcomes data, which can vary significantly from public and nonprofit institutions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "212115": {
+    "profile_type": "researched",
+    "vibe": "East Stroudsburg University is a mid-sized public university in Pennsylvania's Pocono Mountains, known for practical, career-ready degrees in health professions, education, and business, serving a largely regional student body within the state system.",
+    "distinctives": [
+      "Public university and member of Pennsylvania's State System of Higher Education (PASSHE)",
+      "Located in East Stroudsburg, PA, in the Pocono Mountains region, offering a relatively affordable, regionally-focused college experience",
+      "Notable programs in health sciences, exercise science, education, and business, with a tradition of preparing graduates for regional workforce needs including teaching and healthcare",
+      "Like many PASSHE schools, has experienced enrollment pressures and system-wide budget challenges in recent years common to regional public universities in the Northeast"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "159382": {
+    "profile_type": "researched",
+    "vibe": "A small, open-access public campus in central Louisiana that serves as an accessible, affordable entry point to higher education for the Alexandria region, with a strong commuter and first-generation student population.",
+    "distinctives": [
+      "Part of the LSU System, located in Alexandria, Louisiana, offering both associate degrees and a growing number of bachelor's degree programs",
+      "Open-admission policy, making it one of the more accessible four-year-affiliated institutions in the LSU System",
+      "Primarily a commuter campus with a small residential component, serving a large share of local and first-generation college students",
+      "Offers career-focused programs (nursing, business, criminal justice, general studies) alongside transfer pathways to four-year LSU campuses"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217013": {
+    "profile_type": "researched",
+    "vibe": "A small private liberal arts college in Chambersburg, Pennsylvania, historically a women's college that went fully coeducational in 2013, known for its hands-on Fulton Farm sustainable agriculture program and equine-related studies.",
+    "distinctives": [
+      "Founded as a women's college in 1869; transitioned to full coeducation in 2013 after years of financial and enrollment pressure",
+      "Small residential campus in the Cumberland Valley near Chambersburg, PA, with historically low total enrollment (typically well under 1,000 students)",
+      "Notable for its Fulton Center for Sustainable Living and Fulton Farm, and for equestrian and veterinary medical technology programs uncommon at small liberal arts colleges",
+      "Has experienced periods of significant financial strain and enrollment decline over the past two decades, common among small tuition-dependent private colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "182980": {
+    "profile_type": "researched",
+    "vibe": "A small private college in rural Henniker, New Hampshire, known for its creative writing program (including a well-regarded low-residency MFA) and a close-knit campus culture that draws a largely out-of-state student body.",
+    "distinctives": [
+      "Located in Henniker, New Hampshire, a small town setting with a residential campus community",
+      "Recognized particularly for its MFA in Creative Writing and undergraduate writing/humanities offerings",
+      "Draws a significant share of students from outside New Hampshire, including many first-generation and out-of-region students",
+      "Offers a range of professional and liberal arts majors (business, education, sport management, and the arts) alongside NCAA Division III athletics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196015": {
+    "profile_type": "researched",
+    "vibe": "A public, career-focused SUNY institution in Canton, New York, in the rural North Country region, emphasizing applied and technical education that leads directly into skilled professions.",
+    "distinctives": [
+      "Part of the State University of New York (SUNY) system, located in Canton, in New York's rural St. Lawrence County North Country region",
+      "Strong emphasis on applied, hands-on programs such as veterinary technology, criminal justice, engineering technology, nursing, and other career/technical fields",
+      "Offers a mix of associate and bachelor's degrees, with many programs designed for direct workforce entry",
+      "Relatively affordable in-state public tuition compared to private colleges in the region, with a largely regional student draw"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214634": {
+    "profile_type": "researched",
+    "vibe": "A small Penn State commonwealth campus in Sharon, Pennsylvania, offering an intimate, lower-cost starting point for Penn State students, many of whom complete their first years there before transferring to a larger Penn State campus.",
+    "distinctives": [
+      "One of Penn State's smaller Commonwealth Campuses, located in Sharon, Pennsylvania in the state's western region near the Ohio border",
+      "Primarily serves students beginning their Penn State education locally, with many transferring to University Park or another Penn State campus to complete bachelor's degrees not offered on-site",
+      "Offers a limited set of associate degrees and select baccalaureate programs directly, alongside general education coursework",
+      "Small campus size provides smaller class sizes and lower cost of attendance compared to Penn State's flagship University Park campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "176044": {
+    "profile_type": "researched",
+    "vibe": "A small, historically Black public university rooted in the Mississippi Delta, where tight-knit campus traditions and a strong sense of community define student life more than size or prestige.",
+    "distinctives": [
+      "Mississippi Valley State University is a public HBCU located in Itta Bena, Mississippi, in the rural Delta region, and is part of the Mississippi Institutions of Higher Learning system",
+      "The university is well known for its marching band and football program, and for producing notable NFL alumni including Jerry Rice",
+      "Like many small rural HBCUs, MVSU has faced ongoing enrollment declines and budget pressures in recent years, which prospective students should factor into their decision",
+      "The school offers a range of undergraduate programs with relatively small class sizes and a historically affordable tuition compared to many public universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "206507": {
+    "profile_type": "researched",
+    "vibe": "A small private college in rural southwest Ohio with Quaker roots, offering a close-knit, values-driven education with an emphasis on service and hands-on learning.",
+    "distinctives": [
+      "Wilmington College is a private, four-year liberal arts college located in Wilmington, Ohio, founded by and historically affiliated with the Religious Society of Friends (Quakers)",
+      "The college is known for its agriculture programs, including equestrian studies, and for its small class sizes typical of a residential liberal arts campus",
+      "Enrollment is modest, giving students close access to faculty, though the school's small size also means a narrower range of majors and extracurricular offerings than larger universities",
+      "Wilmington competes in NCAA Division III athletics and emphasizes a hands-on, career-oriented approach within a traditional liberal arts framework"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "171128": {
+    "profile_type": "researched",
+    "vibe": "A public research university in Michigan's remote Upper Peninsula known for rigorous engineering and applied science programs, snowy winters, and an outdoorsy, hands-on student culture.",
+    "distinctives": [
+      "Michigan Technological University is a public research university located in Houghton, Michigan, in the Upper Peninsula, known especially for its engineering, computer science, and applied science programs",
+      "The university has a strong emphasis on undergraduate research and co-op/internship experiences, and reports strong post-graduation employment outcomes for STEM graduates",
+      "Its remote, small-town location and heavy snowfall (often over 200 inches per winter) shape a distinctive campus culture centered on winter sports, including a popular winter carnival",
+      "Michigan Tech is a mid-sized institution by enrollment, smaller than most large state flagships, allowing closer student-faculty interaction within technical fields"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "496627": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused private university in the Sacramento, California area built specifically around health sciences, offering a direct path into pharmacy, medicine, and related professional fields.",
+    "distinctives": [
+      "California Northstate University is a private university based in the Sacramento/Elk Grove area of California, built primarily around its College of Pharmacy, College of Medicine, and other health-science programs",
+      "The university is relatively young and small compared to traditional universities, with a narrower academic focus concentrated on pre-health and professional health degrees rather than a broad liberal arts curriculum",
+      "Because of its health-sciences specialization, CNU is best suited to students with a clear interest in pharmacy, medicine, nursing, or related fields rather than students seeking a traditional broad-based undergraduate experience",
+      "As a newer private institution, it has a smaller alumni network and shorter track record than long-established universities, which prospective students should weigh when researching outcomes"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "160038": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in the historic town of Natchitoches, Louisiana, offering a friendly, mid-sized campus experience with respected programs in nursing, education, and the arts.",
+    "distinctives": [
+      "Northwestern State University of Louisiana is a public university located in Natchitoches, one of the oldest towns in the Louisiana Purchase territory, and is part of the University of Louisiana System",
+      "The university is known for its nursing and health sciences programs, its teacher education programs, and the Louisiana Scholars' College, an honors liberal arts program within the university",
+      "NSU also has a notable creative writing and fine arts tradition, including its long-running literary journal and theater programs",
+      "As a regional public university, it serves a largely in-state student population with a moderate enrollment size and relatively affordable tuition compared to national universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "237330": {
+    "profile_type": "researched",
+    "vibe": "A small public liberal arts college tucked into the Appalachian mountains of southern West Virginia, Concord offers a close-knit, low-cost campus experience for students who want personal attention over big-school anonymity.",
+    "distinctives": [
+      "Public four-year college located in Athens, West Virginia, part of the West Virginia public higher education system",
+      "Small student body with low student-to-faculty ratios and an emphasis on undergraduate teaching over research",
+      "Offers traditional liberal arts majors alongside professional programs such as education, business, criminal justice, and health sciences",
+      "Rural, residential campus setting that serves many first-generation and in-state Appalachian students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197151": {
+    "profile_type": "researched",
+    "vibe": "A private art and design college in the heart of Manhattan, SVA is built almost entirely around the creative and commercial arts, drawing students who want an industry-connected art education in New York City.",
+    "distinctives": [
+      "Private specialized college located in New York City, focused on visual, commercial, and fine arts education",
+      "Known for strong programs in illustration, animation, graphic design, photography, film, cartooning, and advertising",
+      "Faculty and visiting critics frequently drawn from New York's active design, publishing, and entertainment industries",
+      "Tuition is relatively high, consistent with private specialized art schools in a major urban market"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "154095": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Cedar Falls, Iowa with deep roots as a teacher-training institution, UNI blends a classic Midwestern campus feel with a long-standing reputation in education and the applied liberal arts.",
+    "distinctives": [
+      "Public university located in Cedar Falls, Iowa, historically founded as a state normal (teacher-training) school",
+      "Maintains a strong, well-regarded College of Education alongside business, arts and sciences, and humanities programs",
+      "Mid-sized enrollment with a largely residential, traditional-college-town campus setting",
+      "Primarily draws students from Iowa and the surrounding Midwest region"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "144351": {
+    "profile_type": "researched",
+    "vibe": "A small private Lutheran university in River Forest, Illinois (just outside Chicago), Concordia-Chicago has a long history in teacher education but has faced significant enrollment and financial pressures in recent years, common among small tuition-dependent religious colleges.",
+    "distinctives": [
+      "Private university affiliated with the Lutheran Church-Missouri Synod, part of the Concordia University System, located in River Forest, Illinois near Chicago",
+      "Historically strong in teacher education and other professional programs alongside a liberal arts core",
+      "Like many small private colleges nationally, has experienced declining enrollment and financial strain in recent years, and prospective students should verify current financial stability and accreditation status directly with the school",
+      "Small, residential campus with a religious institutional identity that shapes campus culture and some program offerings"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "459949": {
+    "profile_type": "researched",
+    "vibe": "A young, growing public university on the south side of San Antonio, Texas A&M-San Antonio was established to expand access to higher education for a largely Hispanic, often first-generation and commuter student population.",
+    "distinctives": [
+      "Public university and member of the Texas A&M University System, located in San Antonio, Texas; became an independent standalone university in the late 2000s after operating as a satellite campus",
+      "Designated a Hispanic-Serving Institution, reflecting the demographics of the South San Antonio community it primarily serves",
+      "Largely a commuter and working-student institution, with many students balancing jobs and family responsibilities alongside coursework",
+      "Offers a growing range of undergraduate and graduate programs, with particular strength in education, business, and applied fields aligned to regional workforce needs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "137272": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic seminary college in Miami where men discern and prepare for the priesthood within a structured spiritual, academic, and communal formation program.",
+    "distinctives": [
+      "Operates as the college seminary of the Archdiocese of Miami, serving men in the earliest stages of priestly formation and discernment",
+      "Very small, single-purpose institution with an all-male student body living in a residential seminary community",
+      "Curriculum combines philosophy and pre-theology coursework with spiritual direction, prayer life, and pastoral formation rather than a broad general-education menu",
+      "Not a typical open-enrollment college; admission is tied to sponsorship by a diocese or religious community and ongoing discernment of a vocation to priesthood"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "486284": {
+    "profile_type": "researched",
+    "vibe": "A small evangelical Christian university in Bloomington, Minnesota built around an unusual model that sends students into international field ministry as a core part of their degree.",
+    "distinctives": [
+      "Distinctive curriculum structure combines on-campus semesters with extended overseas field-based terms tied to missions and cross-cultural ministry work",
+      "Small, faith-centered student body and a mission-focused identity rooted in evangelical Christian theology",
+      "Offers a limited range of majors concentrated in ministry, missions, and related fields rather than a broad liberal-arts catalog",
+      "As a small, tuition-dependent private institution, prospective students should independently verify current accreditation status, enrollment size, and program costs before applying"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "148405": {
+    "profile_type": "researched",
+    "vibe": "A small private liberal arts university in Rockford, Illinois with a long history (formerly Rockford College) that emphasizes close faculty-student relationships and a traditional undergraduate experience.",
+    "distinctives": [
+      "Notable alumna Jane Addams, the Nobel Peace Prize-winning social reformer and co-founder of Hull House, attended the institution in its earlier history as Rockford Female Seminary/Rockford College",
+      "Small private nonprofit university offering undergraduate and some graduate programs across business, education, arts and sciences",
+      "Compact residential campus in Rockford, Illinois, a mid-sized Midwestern city, with a relatively small overall enrollment typical of small private colleges in the region",
+      "Like many small private colleges nationally, has faced enrollment and financial pressures in recent years, so prospective students should check current enrollment trends and financial stability"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219259": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in Aberdeen, South Dakota known for a strong business school and a solid teacher-education tradition, serving primarily in-state and regional students.",
+    "distinctives": [
+      "Public university within the South Dakota Board of Regents system, offering a range of undergraduate and select graduate programs",
+      "Business program is a recognized strength, historically associated with the university's naming as a center for business education in the state",
+      "Long-standing teacher education and education programs are a core part of the university's identity",
+      "Athletics compete as the Wolves; relatively affordable in-state public tuition compared to private alternatives in the region"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "240426": {
+    "profile_type": "researched",
+    "vibe": "A small public university on the shore of Lake Superior in Wisconsin, part of the University of Wisconsin System, known for outdoor and environmentally-oriented programs and a close-knit campus community.",
+    "distinctives": [
+      "Located in Superior, Wisconsin directly on Lake Superior, giving the campus strong ties to outdoor recreation, environmental studies, and water-related research",
+      "Part of the University of Wisconsin System, offering in-state and regional public tuition rates that are generally lower than private alternatives",
+      "Small campus size supports smaller class sizes and closer faculty-student interaction than larger UW System flagship campuses",
+      "Offers established programs in education, business, and environmental/outdoor-focused fields, reflecting its Lake Superior setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
