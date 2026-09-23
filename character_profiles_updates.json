@@ -23290,5 +23290,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "119775": {
+    "profile_type": "researched",
+    "vibe": "A small, private for-profit architecture and design school in downtown San Diego offering professional degrees for students set on careers as licensed architects and designers.",
+    "distinctives": [
+      "Located in downtown San Diego, California, with a studio-based, design-focused curriculum",
+      "Offers NAAB-accredited professional architecture degrees (including a Master of Architecture) along with programs in interior architecture and construction management",
+      "Very small institution, serving primarily upper-division and graduate students rather than a traditional four-year undergraduate population",
+      "Operates as a for-profit specialty institution, distinct from large public or nonprofit research universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "123280": {
+    "profile_type": "researched",
+    "vibe": "A very small evangelical Bible college and graduate school in Redding, California, focused narrowly on training students for pastoral ministry, missions, and biblical studies rather than offering a conventional liberal arts education.",
+    "distinctives": [
+      "Located in Redding, California, and affiliated with evangelical Christian theology and ministry training",
+      "Curriculum centers on Bible, theology, and ministry preparation rather than a broad range of academic majors",
+      "Extremely small enrollment, typical of a niche denominational Bible institute",
+      "Offers both undergraduate and graduate-level (seminary-style) programs aimed at future pastors, missionaries, and church workers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "127653": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Boulder, Colorado known for its Buddhist-inspired, contemplative approach to education, blending traditional liberal arts with mindfulness practice, the arts, and environmental studies.",
+    "distinctives": [
+      "Founded by Tibetan Buddhist teacher Ch\u00f6gyam Trungpa and rooted in contemplative, mindfulness-based education",
+      "Located in Boulder, Colorado, with programs spanning psychology, environmental studies, writing, and the arts",
+      "Home to the Jack Kerouac School of Disembodied Poetics, a notable creative writing program with Beat Generation ties",
+      "Small student body with a strong emphasis on interdisciplinary study, meditation practice, and social/environmental engagement"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "142957": {
+    "profile_type": "researched",
+    "vibe": "A small, specialized Muslim college in Chicago dedicated to Islamic studies, Arabic language, and training imams and chaplains, rather than a broad-based conventional college.",
+    "distinctives": [
+      "Located in Chicago, Illinois, and one of the few accredited Muslim institutions of higher education in the United States",
+      "Curriculum centers on Islamic studies, Arabic, and interfaith/chaplaincy training",
+      "Very small enrollment, serving a niche population pursuing religious scholarship or chaplaincy careers",
+      "Offers undergraduate and graduate programs with a specifically Islamic religious and cultural mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "149329": {
+    "profile_type": "researched",
+    "vibe": "A small, all-male Orthodox Jewish yeshiva and rabbinical school in Chicago dedicated to intensive Talmudic and rabbinic study, not a conventional co-educational college.",
+    "distinctives": [
+      "Located in Chicago, Illinois, serving an all-male student body pursuing Orthodox rabbinical and Talmudic training",
+      "Curriculum centers on Torah, Talmud, and Jewish law study rather than a secular liberal arts program",
+      "Very small, narrowly religious institution rather than a broad-based college",
+      "Part of the Telshe Yeshiva tradition, tracing its lineage to the historic Telshe Yeshiva in Lithuania"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "149514": {
+    "profile_type": "researched",
+    "vibe": "Trinity International University-Illinois is a small evangelical Christian university in Deerfield, Illinois, closely tied to the Evangelical Free Church of America, emphasizing biblical worldview alongside liberal arts and professional programs.",
+    "distinctives": [
+      "Private, nonprofit evangelical Christian university affiliated with the Evangelical Free Church of America",
+      "Located in Deerfield, Illinois, a suburb of Chicago",
+      "Offers undergraduate liberal arts and professional programs alongside graduate and seminary education (Trinity Evangelical Divinity School)",
+      "Small student body with low student-to-faculty ratio and a mission-centered, faith-integrated curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "155496": {
+    "profile_type": "researched",
+    "vibe": "Manhattan Christian College is a very small Bible college in Manhattan, Kansas, focused narrowly on ministry preparation and biblical studies for students pursuing church-related vocations.",
+    "distinctives": [
+      "Small, private Bible college affiliated with the Christian Church/Churches of Christ tradition",
+      "Located in Manhattan, Kansas, near Kansas State University",
+      "Curriculum centers on biblical studies, ministry training, and preparation for pastoral or missionary work rather than broad liberal arts or secular career fields",
+      "Very small enrollment typical of standalone Bible colleges, with a tightly focused degree offering"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "157030": {
+    "profile_type": "researched",
+    "vibe": "Kentucky Mountain Bible College is a very small evangelical Bible college in rural Kentucky, dedicated to training students for Christian ministry within a conservative, faith-centered environment.",
+    "distinctives": [
+      "Small, private evangelical Bible college located in rural southeastern Kentucky (Vancleve/Jackson area)",
+      "Degree programs concentrate on biblical studies, ministry, and Christian education rather than broad academic or vocational fields",
+      "Rooted in the holiness/evangelical tradition with a strong emphasis on spiritual formation and mission work",
+      "Very small enrollment and campus, typical of standalone denominational Bible colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "175616": {
+    "profile_type": "researched",
+    "vibe": "Delta State University is a public regional university in Cleveland, Mississippi, serving the Mississippi Delta region with a broad range of undergraduate and graduate programs and a strong sense of regional identity.",
+    "distinctives": [
+      "Public, four-year university located in Cleveland, Mississippi, part of the Mississippi Institutions of Higher Learning system",
+      "Offers a range of undergraduate and graduate degrees including notable programs in aviation, education, and business",
+      "Serves as a regional comprehensive university for the Mississippi Delta area",
+      "Fields NCAA Division II athletics and has a residential campus culture typical of a small public state university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178767": {
+    "profile_type": "researched",
+    "vibe": "Stevens-The Institute of Business & Arts is a very small, private career college in St. Louis focused on practical, career-oriented training in business, design, and related applied fields.",
+    "distinctives": [
+      "Small, private for-profit or career-focused institution based in St. Louis, Missouri",
+      "Emphasizes applied, career-oriented programs in areas such as business and design/arts rather than a broad liberal arts curriculum",
+      "Serves a niche student population seeking targeted vocational or professional credentials",
+      "Very small enrollment and campus footprint typical of standalone career colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "181738": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Seventh-day Adventist university in Lincoln, Nebraska, blending liberal arts education with a strong faith-based community life.",
+    "distinctives": [
+      "Formerly known as Union College, renamed Union Adventist University; affiliated with the Seventh-day Adventist Church",
+      "Small private institution with a low student-to-faculty ratio typical of Adventist colleges",
+      "Known for nursing and health science programs alongside traditional liberal arts majors",
+      "Campus culture centers on Adventist values, including Sabbath observance and chapel/worship life"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "192624": {
+    "profile_type": "researched",
+    "vibe": "A small, all-male Orthodox Jewish yeshiva and rabbinical college in Brooklyn, New York, focused exclusively on advanced Talmudic and rabbinic study rather than a conventional undergraduate experience.",
+    "distinctives": [
+      "Narrow religious institution training students for rabbinic ordination and Jewish scholarship, not a general-purpose college",
+      "All-male student body, consistent with traditional Orthodox yeshiva practice",
+      "Located in Brooklyn, NY, within a dense Orthodox Jewish community",
+      "Curriculum centers on Talmud, Jewish law (halacha), and rabbinic texts rather than a broad liberal arts curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196440": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish yeshiva in Rochester, New York, dedicated to intensive Talmudic study within a traditional religious framework rather than a conventional college path.",
+    "distinctives": [
+      "Narrow religious institution focused on yeshiva-style Torah and Talmud study, not a general liberal arts college",
+      "Small, insular student body serving the Orthodox Jewish community",
+      "Located in Rochester, NY, distinct from the city's larger mainstream colleges",
+      "Degree offerings, where present, are secondary to the institution's core religious training mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "209241": {
+    "profile_type": "researched",
+    "vibe": "A Roman Catholic seminary and Benedictine monastery in the hills of Mount Angel, Oregon, dedicated to forming men for the Catholic priesthood.",
+    "distinctives": [
+      "A Roman Catholic seminary, not a conventional college \u2014 its purpose is priestly formation for men discerning a vocation",
+      "Operated in connection with Mount Angel Abbey, a Benedictine monastic community",
+      "Offers theology and philosophy programs geared toward seminarians rather than a broad undergraduate curriculum",
+      "Rural, contemplative campus setting near Mount Angel, Oregon, emphasizing prayer, community, and academic formation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "216047": {
+    "profile_type": "researched",
+    "vibe": "A Roman Catholic seminary in the Overbrook section of Philadelphia dedicated to educating and forming men for ordination as priests in the Archdiocese of Philadelphia and beyond.",
+    "distinctives": [
+      "A Roman Catholic seminary, not a conventional college \u2014 its mission is priestly formation, not general undergraduate education",
+      "Operated by the Archdiocese of Philadelphia, historically one of the larger U.S. diocesan seminaries",
+      "Curriculum centers on theology, philosophy, and pastoral formation for seminarians",
+      "Located in the Overbrook neighborhood of Philadelphia, Pennsylvania"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "241191": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Seventh-day Adventist university in Puerto Rico's central mountains, blending faith-based formation with career-oriented degree programs for a largely Spanish-speaking student body.",
+    "distinctives": [
+      "Private, religiously affiliated (Seventh-day Adventist) four-year university located in Mayag\u00fcez/Barranquitas, Puerto Rico",
+      "Instruction is primarily in Spanish, serving a mostly local and regional student population",
+      "Offers undergraduate programs across fields such as business, education, nursing/health sciences, and theology/ministry",
+      "Small overall enrollment with a campus culture centered on Adventist religious life, chapel, and community values"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "241951": {
+    "profile_type": "researched",
+    "vibe": "A tiny, highly specialized public arts college in San Juan devoted entirely to training visual artists and designers, offering an intensive studio-based alternative to a traditional liberal arts degree.",
+    "distinctives": [
+      "Small public postsecondary institution in San Juan, Puerto Rico, focused exclusively on visual arts and design",
+      "Curriculum centers on studio disciplines such as fine arts, graphic design, and related applied arts fields",
+      "Instruction primarily in Spanish, serving a mostly local Puerto Rican student body",
+      "Narrow, specialized mission rather than a broad general-education college experience \u2014 best fit for students already committed to an arts/design career path"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "407610": {
+    "profile_type": "researched",
+    "vibe": "A very small, independent Bible college offering a faith-centered education focused on ministry and biblical studies rather than a broad academic curriculum.",
+    "distinctives": [
+      "Small private Bible college with a religious (Christian) mission centered on biblical and ministry training",
+      "Enrollment is very limited, with a tight-knit campus community",
+      "Degree programs are concentrated in biblical studies, theology, and ministry preparation rather than a wide range of majors",
+      "Best suited to students specifically seeking vocational ministry or religious-studies training rather than a general undergraduate experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "421708": {
+    "profile_type": "researched",
+    "vibe": "A career-focused private college built specifically to train nursing students, offering a fast, structured path into the nursing workforce rather than a traditional broad-based college experience.",
+    "distinctives": [
+      "Private, for-profit nursing-focused college with a campus in Tempe, Arizona, part of a multi-campus nursing education network",
+      "Curriculum is concentrated almost entirely on nursing degree programs (e.g., ADN/BSN pathways) rather than general liberal arts majors",
+      "Designed for students who already know they want a nursing career, with clinical training integrated into the coursework",
+      "Smaller, specialized institution compared to traditional state universities, with a practical, workforce-oriented mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "430670": {
+    "profile_type": "researched",
+    "vibe": "A small private medical school in Puerto Rico training physicians at the graduate level \u2014 not an option for high schoolers directly, but relevant as a long-term destination after completing undergraduate pre-med studies.",
+    "distinctives": [
+      "Private, specialized graduate/professional institution located in Caguas, Puerto Rico, granting the Doctor of Medicine (MD) degree",
+      "Admits students who already hold a bachelor's degree, following the standard US medical school model, not high school graduates",
+      "Instruction and clinical training serve Puerto Rico's healthcare needs, with many graduates practicing on the island or in mainland US healthcare systems",
+      "Small class sizes typical of a focused medical school rather than a large university, with curriculum centered entirely on medical education"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "449870": {
+    "profile_type": "researched",
+    "vibe": "A small university in Rosemead, California, founded by the Buddhist Hsi Lai Temple, blending Western liberal arts education with Buddhist studies and contemplative practice.",
+    "distinctives": [
+      "Founded in 1991 by Hsi Lai Temple, part of the Fo Guang Shan Buddhist order",
+      "Very small enrollment, typically only a few hundred students",
+      "Offers programs in areas such as business, psychology, English, and religious/Buddhist studies alongside standard liberal arts majors",
+      "Located in Rosemead, CA, in the San Gabriel Valley east of Los Angeles"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "455770": {
+    "profile_type": "researched",
+    "vibe": "A very small evangelical Christian liberal arts college in Pasadena, California, emphasizing a classical, great-books-style core curriculum grounded in Reformed theology.",
+    "distinctives": [
+      "Very small student body, generally under a few hundred students",
+      "Emphasizes a classical liberal arts core curriculum with significant study of primary texts",
+      "Rooted in evangelical/Reformed Protestant Christian tradition",
+      "Located in Pasadena, CA, near other Southern California religious and liberal arts institutions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "461847": {
+    "profile_type": "researched",
+    "vibe": "A very small, narrowly focused Orthodox Jewish yeshiva offering religious training in Talmudic and rabbinic studies rather than a conventional college experience.",
+    "distinctives": [
+      "Operates as a yeshiva providing intensive Torah and Talmud study within Orthodox Jewish tradition",
+      "Very small enrollment, serving a specialized religious student population",
+      "Curriculum is centered on religious texts and rabbinic scholarship rather than a broad general-education liberal arts program",
+      "Not a fit for students seeking a typical secular or broad-based undergraduate experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "466921": {
+    "profile_type": "researched",
+    "vibe": "A career-focused nursing and health-sciences campus that is part of the larger Chamberlain University system, designed for students pursuing direct paths into healthcare professions.",
+    "distinctives": [
+      "Part of Chamberlain University, a multi-campus nursing and health sciences institution operating under Adtalem Global Education",
+      "Focuses primarily on nursing (BSN and related) and other health-science degree programs",
+      "Structured around career-oriented, practical training with clinical components typical of nursing education",
+      "One of several Chamberlain campuses nationwide, with this location situated in Missouri"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "475608": {
+    "profile_type": "researched",
+    "vibe": "A small, conservative Southern Baptist Bible college in Dallas, Texas, centered on biblical studies and preparing students for ministry and Christian vocational work.",
+    "distinctives": [
+      "Small enrollment focused on biblical and theological education",
+      "Affiliated with conservative Southern Baptist tradition and doctrine",
+      "Offers programs geared toward pastoral ministry, biblical studies, and related Christian vocational fields",
+      "Located in Dallas, TX, with historical ties to a prominent local Baptist church"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
