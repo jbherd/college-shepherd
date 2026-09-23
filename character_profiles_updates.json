@@ -14489,5 +14489,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "207722": {
+    "profile_type": "researched",
+    "vibe": "A tiny, tight-knit public liberal arts college on the Oklahoma plains, where students get an interdisciplinary, seminar-style education at a fraction of typical university cost.",
+    "distinctives": [
+      "Located in Chickasha, Oklahoma, USAO is the only public college in Oklahoma dedicated strictly to a liberal arts curriculum",
+      "Very small institution with well under 1,000 students, giving it a low student-to-faculty ratio and close faculty contact",
+      "A member of the Council of Public Liberal Arts Colleges (COPLAC), a national consortium of public liberal arts institutions",
+      "Moderately selective with an acceptance rate near 49%, but retention and graduation rates are modest (roughly two-thirds retention, under half graduating in four years), reflecting the challenges typical of small regional publics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139719": {
+    "profile_type": "researched",
+    "vibe": "A historic HBCU and land-grant university in rural middle Georgia, known for its strength in agriculture and STEM and its sprawling, unusually large campus.",
+    "distinctives": [
+      "A public, historically Black, land-grant university founded in 1939 through the consolidation of two earlier Black institutions dating to the 1890s-1900s",
+      "Holds Georgia's official land-grant designation for its historically Black institution, confirmed by the state legislature in 1949, with a nationally ranked College of Agriculture",
+      "Campus spans about 1,365 acres, making it the largest public university campus in Georgia by land area",
+      "Competes in NCAA Division II athletics through the Southern Intercollegiate Athletic Conference (SIAC), and offers a notable dual-degree Cooperative Developmental Energy Program with partners like Georgia Tech"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "241225": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university in Bayam\u00f3n, Puerto Rico, serving a mostly local, Spanish-speaking student body, and currently in the midst of a significant institutional affiliation that will reshape its identity.",
+    "distinctives": [
+      "Founded in 1961 by the Dominican Order as a Catholic institution (originally Universidad Cat\u00f3lica de Bayam\u00f3n), it became independent as Universidad Central de Bayam\u00f3n in 1970",
+      "Small enrollment of roughly 2,000-2,100 students, serving primarily students from the Bayam\u00f3n/San Juan metro area of Puerto Rico",
+      "Accredited by the Middle States Commission on Higher Education (MSCHE) as well as Puerto Rico's Council on Higher Education",
+      "Important status change: in 2025 the university entered a formal affiliation/merger process with the Pontifical Catholic University of Puerto Rico, meaning its independent identity and structure are actively transitioning \u2014 prospective students should confirm its current name and enrollment status before applying"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "141185": {
+    "profile_type": "researched",
+    "vibe": "A close-knit evangelical Christian college set beside a 186-foot waterfall in the north Georgia mountains, where Bible and theology coursework and spiritual formation are woven into every major.",
+    "distinctives": [
+      "Important status change: the school officially renamed itself from Toccoa Falls College to the University of Toccoa Falls in 2025, so current materials may use either name",
+      "Affiliated with the Christian and Missionary Alliance (C&MA) denomination; all faculty sign a statement of faith, and the school is often marketed as \"the Christian College of Georgia\"",
+      "Nearly every major requires around 30 hours of Bible and Theology coursework regardless of a student's primary field of study",
+      "Students must complete supervised service/outreach hours (mission work, volunteering, campus ministry) as a graduation requirement, alongside a robust menu of weekly spiritual formation activities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "377546": {
+    "profile_type": "researched",
+    "vibe": "A very small, specialized private art college for students who want an intensive, hands-on BFA-style studio education rather than a traditional broad university experience.",
+    "distinctives": [
+      "A small private, for-profit art and design college, originally founded in Poulsbo, Washington in 1982, that later relocated (via Suquamish) to Tacoma, Washington",
+      "Focuses narrowly on visual arts and design training, offering a Bachelor of Fine Arts-level program rather than a broad liberal arts curriculum",
+      "Accredited by the Accrediting Commission of Career Schools and Colleges (ACCSC) rather than a regional academic accreditor, which is typical for small specialized art/career colleges",
+      "Extremely small annual enrollment (historically well under 125 students), so class sizes, program breadth, and campus life are very limited compared to most colleges \u2014 prospective students should independently verify its current accreditation and enrollment status directly with the school before applying, given how little independent data is available"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "181330": {
+    "profile_type": "researched",
+    "vibe": "A small Lutheran-affiliated university in Fremont, Nebraska, that leans heavily into a broad, competitive NAIA athletics program alongside career-focused majors like nursing, education, and business.",
+    "distinctives": [
+      "Located on a 33-acre campus in Fremont, Nebraska; affiliated with the Evangelical Lutheran Church in America, with roots dating to 1883 (as Luther Academy) and its current name adopted in 2010",
+      "Enrollment is roughly 1,700-2,000 students, having rebuilt from a low point around 2009 through aggressive athletic and program expansion",
+      "Fields an unusually large athletics program for its size, NAIA Division with 25+ varsity sports (Warriors), which is a major draw and recruiting tool",
+      "Offers 30+ bachelor's degree fields and a handful of master's programs (including an MBA), with nursing and education historically among its stronger placement outcomes"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "206835": {
+    "profile_type": "researched",
+    "vibe": "A small, explicitly evangelical Christian university in Bartlesville, Oklahoma, that emphasizes a faith-integrated curriculum and a tight-knit residential community over size or name recognition.",
+    "distinctives": [
+      "Located in Bartlesville, Oklahoma; affiliated with The Wesleyan Church, with institutional roots tracing to 1905 and its current name adopted in 2001",
+      "Small enrollment, roughly 900 students total (undergraduate and graduate combined) in recent years, making it one of the smaller regional Christian universities in Oklahoma",
+      "Accredited by the Higher Learning Commission, with program-specific accreditation in fields like nursing, education, and business; notably withdrew from the Council for Christian Colleges and Universities in 2015 over disagreements about member-school policy on same-sex relationships",
+      "Athletics (the Eagles) compete in NAIA, Kansas Collegiate Athletic Conference, across roughly 19 varsity sports, unusually broad for its enrollment size"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "186371": {
+    "profile_type": "researched",
+    "vibe": "An urban public research campus in Camden, New Jersey, that offers big-university resources (law school, nursing, business) at a strong value, drawing a regional, often commuter-heavy student body.",
+    "distinctives": [
+      "One of three regional campuses of Rutgers, The State University of New Jersey, located in Camden directly across the Delaware River from Philadelphia",
+      "Houses four schools: Arts and Sciences, Business, Nursing, and Rutgers Law School (Camden), giving undergraduates access to professional and graduate pipelines uncommon at similarly sized campuses",
+      "Frequently marketed as one of the most affordable four-year public options in New Jersey with strong return on investment, and reports that roughly 90%+ of graduates are employed or in graduate school within six months of graduation",
+      "Emphasizes experiential and community-engaged learning, leveraging Camden's urban setting for internships, clinical placements (law and nursing), and community partnerships"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196167": {
+    "profile_type": "researched",
+    "vibe": "A highly regarded public liberal arts honors college in a small upstate New York village, known for strong academics, high graduation rates, and a close-knit residential campus culture at a fraction of private-college cost.",
+    "distinctives": [
+      "Designated a public liberal arts honors college within the SUNY system, located in the village of Geneseo, NY, with a total enrollment around 4,000 students (overwhelmingly undergraduate)",
+      "Notably selective for a SUNY school, with roughly a 54% admit rate but a much lower yield, and admitted students averaging around a 93% high school GPA",
+      "Strong outcomes: about a 72% six-year graduation rate and 86% first-to-second-year retention rate, both well above typical public-college benchmarks",
+      "Residential and athletically active campus, with about 59% of undergrads living on campus and 20+ NCAA Division III intercollegiate teams plus active study-abroad participation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218441": {
+    "profile_type": "researched",
+    "vibe": "A growing, explicitly Christ-centered university in the foothills of South Carolina (Tigerville, near Greenville) that combines NCAA Division II athletics with a faith-driven mission to prepare graduates for church and community leadership.",
+    "distinctives": [
+      "Located in Tigerville, South Carolina (Greenville area); mission is explicitly Christian, describing itself as preparing graduates to serve as 'transformational leaders for church and society'",
+      "Enrollment has been on a growth trajectory, with total enrollment (including graduate and online) exceeding 2,200 students in recent years and roughly 1,600-1,700 traditional undergraduates, about 72% of whom live on campus",
+      "Competes in NCAA Division II athletics (the Trailblazers) with around 20 varsity teams, a notable step up in athletic classification for a school of its size",
+      "Draws a largely regional student body, with roughly three-quarters of students from South Carolina; top majors include management, health science, sports management, and Christian studies, reflecting its dual emphasis on career preparation and faith formation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "231095": {
+    "profile_type": "researched",
+    "vibe": "A tiny, tight-knit Presbyterian-affiliated college on the Kansas plains that leans hard into hands-on, career-focused majors like agriculture, equine studies, and outdoor education, with a close-knit, everybody-knows-everybody campus culture.",
+    "distinctives": [
+      "Small private college in Sterling, Kansas, historically affiliated with the Presbyterian Church (USA)",
+      "Known for applied/experiential programs such as agriculture, equestrian studies, and outdoor/adventure education alongside more traditional liberal arts majors",
+      "Competes in NAIA athletics as the Sterling Warriors",
+      "Very small student body (well under 1,000 students), giving it small class sizes and a rural, close community feel rather than a large-campus experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "147244": {
+    "profile_type": "researched",
+    "vibe": "A midsize private university in Decatur, Illinois, best known for its distinctive \"Performance Learning\" model that pushes every student toward real-world, hands-on projects, and for punching above its weight in musical theatre and the performing arts.",
+    "distinctives": [
+      "Private university in Decatur, Illinois, with roots as a Presbyterian-founded institution (now nonsectarian)",
+      "Widely recognized for its Performance Learning curriculum, requiring experiential/applied projects across majors, not just performing arts",
+      "Its School of Theatre and Dance/musical theatre program has a strong national reputation relative to the university's overall size",
+      "Enrollment is in the low thousands, making it a small-to-midsize university with a residential, tight campus community"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "151388": {
+    "profile_type": "researched",
+    "vibe": "A regional, largely commuter campus of Indiana University in Richmond, Indiana, serving a mostly local, often working-adult population with career-oriented degrees rather than a traditional dorm-and-quad college experience.",
+    "distinctives": [
+      "One of Indiana University's regional campuses, located in Richmond, Indiana, near the Ohio border",
+      "Primarily a commuter/nontraditional-student campus, with a significant share of part-time and adult learners compared to IU's flagship Bloomington campus",
+      "Offers associate's and bachelor's degrees with strong emphasis on business, nursing/health sciences, and education aimed at regional workforce needs",
+      "Much smaller and lower-cost than IU Bloomington, functioning as an accessible, affordable option for students in eastern Indiana/western Ohio"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "201371": {
+    "profile_type": "researched",
+    "vibe": "A small, Mennonite-founded liberal arts university in rural northwest Ohio that emphasizes community, service, and peace/justice values alongside a traditional undergraduate residential experience.",
+    "distinctives": [
+      "Private liberal arts university in Bluffton, Ohio, founded by and historically affiliated with the Mennonite Church",
+      "Small residential campus with a strong emphasis on community service, social justice, and peace studies woven into its identity",
+      "Offers a broad range of undergraduate majors plus some graduate programs (e.g., education, business) typical of a small comprehensive university",
+      "Very small overall enrollment (under 1,000 students), giving it small classes and close faculty-student relationships"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218742": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in Spartanburg, South Carolina and a campus of the University of South Carolina system, offering a bigger, more traditional college experience than the smaller private schools nearby, with Division I athletics in the Big South Conference.",
+    "distinctives": [
+      "Public four-year university in Spartanburg, South Carolina, part of the University of South Carolina system (distinct from the Columbia flagship)",
+      "Competes in NCAA Division I athletics as the USC Upstate Spartans, a member of the Big South Conference",
+      "Enrollment is in the mid-thousands, notably larger than the other small private colleges in this comparison set, giving it more program breadth and a more traditional campus/residential life scene",
+      "Offers a range of undergraduate and some graduate programs with a regional focus on serving the Upstate South Carolina area"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219949": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit private university in Lebanon, Tennessee, just east of Nashville, with a traditional campus feel and a strong athletics culture.",
+    "distinctives": [
+      "Founded in 1842, historically affiliated with the Cumberland Presbyterian Church, located in Lebanon, TN, about 30 miles from Nashville",
+      "Competes in NAIA athletics (Bison), with especially well-known baseball and softball programs that have produced professional and Olympic-level athletes",
+      "Offers a mix of liberal arts undergraduate programs alongside professional programs in business, nursing, and a School of Law",
+      "Small student body (roughly a few thousand across undergraduate and graduate programs), giving it a low student-to-faculty ratio typical of small private universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "180878": {
+    "profile_type": "researched",
+    "vibe": "A small, mission-focused health sciences college in Lincoln, Nebraska, tightly integrated with the Bryan Health hospital system, best suited to students who already know they want a clinical health career.",
+    "distinctives": [
+      "Located in Lincoln, NE, and closely affiliated with Bryan Health, giving students direct clinical training access to a major regional hospital system",
+      "Primarily known for its Bachelor of Science in Nursing (BSN) program, with additional offerings in areas like medical laboratory science, radiography, and a Master of Science in Nursing (MSN)",
+      "Very small, specialized enrollment (well under 1,000 students) compared to a typical four-year university, since programs are concentrated in health professions rather than a broad liberal arts curriculum",
+      "Functions more like a professional/vocational health sciences college than a traditional residential university, with limited campus life outside clinical coursework"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "225548": {
+    "profile_type": "researched",
+    "vibe": "A small Baptist liberal arts university in Brownwood, Texas, with a close community feel, strong Christian identity, and an emphasis on ministry and education preparation.",
+    "distinctives": [
+      "Founded in 1889 and located in Brownwood, TX; affiliated with the Baptist General Convention of Texas, with Christian faith integrated into campus life and curriculum",
+      "Competes in NCAA Division III athletics (Yellow Jackets) as part of a small-college athletics environment",
+      "Known for programs in Christian ministry, education, and business, alongside a core liberal arts curriculum, serving a small student body typical of small Texas Baptist colleges",
+      "Emphasizes a close-knit, personal campus culture with small class sizes rather than a large research-university environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169327": {
+    "profile_type": "researched",
+    "vibe": "A very small, business-focused private university near Ann Arbor/Howell, Michigan, geared toward practical, career-oriented business education rather than a broad traditional college experience.",
+    "distinctives": [
+      "Located in Howell/Ypsilanti area, Michigan, with a curriculum concentrated almost entirely on business, entrepreneurship, and management degrees rather than a broad liberal arts offering",
+      "One of the smaller private universities in Michigan by enrollment, appealing to students seeking a compact, business-career-focused environment",
+      "Competes in NAIA athletics, reflecting its small-college scale",
+      "Accredited institution offering undergraduate and graduate (MBA-level) business programs, positioned as a practical alternative to larger state business schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "198899": {
+    "profile_type": "researched",
+    "vibe": "A small liberal arts university nestled in the Blue Ridge Mountains near Asheville, North Carolina, known for its scenic setting and outdoor-recreation-friendly, close community culture.",
+    "distinctives": [
+      "Located in the town of Mars Hill, NC, about 20 miles north of Asheville, in the Blue Ridge Mountains, with historic Baptist roots dating to the 1850s",
+      "Competes in NCAA Division II athletics (Lions) within the South Atlantic Conference",
+      "Known for programs connected to its mountain setting, including outdoor recreation/adventure-based offerings, alongside a broader liberal arts curriculum and programs in education and business",
+      "Small residential campus community typical of Appalachian small colleges, with an emphasis on close student-faculty relationships"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218539": {
+    "profile_type": "researched",
+    "vibe": "A small, tight-knit Presbyterian-affiliated liberal arts college in a rural South Carolina town, where personal attention from faculty and a strong sense of community define the student experience.",
+    "distinctives": [
+      "Private, four-year institution in Clinton, SC, affiliated with the Presbyterian Church (USA), with roughly 850 undergraduates and about 1,100 students total including graduate programs",
+      "Very small classes with an 11-to-1 student-to-faculty ratio and an acceptance rate around 68%, making it accessible but not open-admission",
+      "Offers ROTC, teacher certification, and study abroad alongside a traditional liberal arts curriculum; accredited by SACSCOC",
+      "NCAA Division II athletics as the Blue Hose, competing in the Big South Conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "490513": {
+    "profile_type": "researched",
+    "vibe": "A tiny, single-purpose Orthodox Jewish rabbinical seminary (yeshiva) serving a small community of male students pursuing intensive Talmudic study, not a conventional college experience.",
+    "distinctives": [
+      "A private religious institution based in Lakewood, New Jersey, offering essentially one program of study: Talmudic and Rabbinical Studies",
+      "Extremely small enrollment, on the order of a few dozen full-time students, typical of independent yeshivas that report to federal data systems",
+      "Curriculum centers on religious texts rather than a standard general-education or liberal arts course of study, and is not a fit for students seeking a secular degree",
+      "As with many small single-purpose religious institutions, prospective students should independently verify current accreditation status and degree recognition directly with the school before enrolling, since such details can change and are not consistently documented in public sources"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139311": {
+    "profile_type": "researched",
+    "vibe": "A diverse, career-focused public university just south of Atlanta that serves a largely commuter, first-generation student population with strong professional programs in business, health, and education.",
+    "distinctives": [
+      "Public university in Morrow, Georgia (Atlanta metro area), part of the University System of Georgia, enrolling roughly 6,400 students (about 5,700 undergraduate and 640 graduate)",
+      "Highly diverse student body, with over 80% identifying as racial or ethnic minorities, predominantly African American",
+      "AACSB-accredited College of Business (placing it among a small percentage of business schools worldwide with this accreditation) and a specialized-accredited Clinical/Counseling Psychology master's program",
+      "NCAA Division II athletics (the Lakers) in the Peach Belt Conference; the women's basketball team won the NCAA Division II national championship in 2011"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "118693": {
+    "profile_type": "researched",
+    "vibe": "A very small, business-focused private college in the heart of Silicon Valley, known for its entrepreneurial bent, small class sizes, and a student-athlete culture recently transitioning into NCAA Division II.",
+    "distinctives": [
+      "Private college in Atherton, California, with about 825 undergraduates, emphasizing business education through its School of Business Administration alongside psychology and other majors",
+      "Also offers graduate programs in Information Systems, Financial Technology, and Sport and Performance Psychology",
+      "Moved its athletics (the Oaks) from the NAIA to NCAA Division II starting in the 2024-25 academic year, competing mainly in the PacWest conference, and is adding women's flag football for 2026-27",
+      "High cost of attendance relative to size, with published 2026-27 tuition around $58,000 and total cost of attendance approaching $87,000-$92,000 depending on housing, though the college reports that nearly all students receive some financial aid"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "190576": {
+    "profile_type": "researched",
+    "vibe": "An elite, research-intensive graduate-only institution in Midtown Manhattan that serves as the doctorate-granting hub of the CUNY system, drawing faculty from across the city's public colleges to train PhD students.",
+    "distinctives": [
+      "Graduate-only public research university located at 365 Fifth Avenue in Manhattan, serving as the principal doctorate-granting body of the City University of New York (CUNY) system",
+      "Holds Carnegie R1 classification for very high research activity, with roughly 32 doctoral programs and 18 master's programs enrolling around 3,000-3,100 students, most pursuing doctorates",
+      "Operates on a consortium model, drawing roughly 1,700 affiliated faculty from CUNY's senior colleges in addition to about 130 core faculty",
+      "Not an undergraduate institution -- applicants and families researching it for a bachelor's degree should look instead at CUNY's individual senior colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
