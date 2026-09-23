@@ -20090,5 +20090,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "213349": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in rural Berks County, Pennsylvania, known for its strength in art and design alongside solid education and business programs, offering a traditional small-town campus experience.",
+    "distinctives": [
+      "Part of Pennsylvania's PASSHE (State System of Higher Education) public university system, which has faced system-wide enrollment declines and financial pressure over the past decade",
+      "Home to one of the larger and more respected art and design programs among Pennsylvania's state universities, including graphic design, illustration, and art education",
+      "Located in the small borough of Kutztown, PA, giving it a rural, close-knit campus feel rather than an urban setting",
+      "Offers a range of teacher education and business programs alongside its arts focus, with relatively affordable in-state tuition typical of PASSHE schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "235097": {
+    "profile_type": "researched",
+    "vibe": "A public regional university near Spokane, Washington, serving a largely first-generation and working-class student body with career-oriented programs in health sciences, education, and social work.",
+    "distinctives": [
+      "Located in Cheney, WA, a small town roughly 20 minutes from Spokane, giving students access to a larger metro area while maintaining a compact home campus",
+      "Known for professional programs including dental hygiene, social work, and education, along with a notable Africana Education program",
+      "Like many regional public universities, has experienced enrollment declines and budget constraints in recent years, prompting program and staffing reviews",
+      "Serves a significant population of first-generation and Pell-eligible students, with a mission emphasizing access and affordability"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "212133": {
+    "profile_type": "researched",
+    "vibe": "A private Christian university outside Philadelphia rooted in an evangelical, service-oriented mission, blending traditional undergraduate liberal arts education with well-regarded programs in social work and adult/online degree completion.",
+    "distinctives": [
+      "A private university affiliated with the American Baptist Churches USA, integrating Christian faith commitments into its academic and campus culture",
+      "Located in St. Davids, PA, a suburb on Philadelphia's Main Line, giving students proximity to a major city while keeping a small residential campus",
+      "Recognized particularly for its social work program and its focus on urban and international economic development, reflecting a mission-driven emphasis on service",
+      "Operates significant adult-learner and online degree-completion programs in addition to its traditional undergraduate college, broadening its enrollment beyond typical 18-22 year old students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "213020": {
+    "profile_type": "researched",
+    "vibe": "A public university in western Pennsylvania historically known for one of the region's largest criminology programs, now navigating a sharp, well-documented decline in enrollment that has reshaped campus life and academic offerings.",
+    "distinctives": [
+      "Part of Pennsylvania's PASSHE public university system, located in the town of Indiana, PA",
+      "Has experienced a substantial, publicly documented enrollment decline over the past decade (from roughly 14,000 students a decade ago to a considerably smaller student body today), leading to budget cuts, program consolidations, and faculty layoffs",
+      "Known historically for a large and respected criminology program, along with education, nursing, and business offerings",
+      "Offers relatively affordable in-state public tuition, though the university's financial and enrollment challenges are worth factoring into any decision"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "159966": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in the heart of Louisiana's Cajun bayou country, offering a close-knit campus experience with distinctive programs shaped by its Gulf Coast location.",
+    "distinctives": [
+      "Located in Thibodaux, Louisiana, part of the University of Louisiana System, with a small-town, regional-serving identity",
+      "Known for its culinary arts program and marine/coastal-related science offerings that draw on its proximity to the Gulf of Mexico and Louisiana's wetlands",
+      "Offers solid nursing and allied health programs that serve the surrounding Bayou Region community",
+      "A relatively small institution with modest tuition, drawing heavily from in-state and regional Louisiana students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "164614": {
+    "profile_type": "researched",
+    "vibe": "A very small, conservative evangelical Bible college in Boston that trains students for pastoral ministry, missions, and church-related vocations within a close-knit, faith-centered community.",
+    "distinctives": [
+      "Small, single-purpose Christian college (enrollment typically well under 200 students) focused on biblical studies, pastoral ministry, and related ministry/education programs",
+      "Affiliated with independent Baptist churches; academics are built around a conservative evangelical theological framework rather than a broad liberal-arts curriculum",
+      "Accredited through the Association for Biblical Higher Education (ABHE) rather than a mainstream regional accreditor used by most secular colleges, which is typical for Bible colleges but worth noting for transfer planning",
+      "Very small campus and student body mean limited program breadth, limited extracurricular variety, and a strongly tight-knit, mission-driven community feel compared to a typical four-year college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "454245": {
+    "profile_type": "researched",
+    "vibe": "A career-focused, for-profit nursing and health-sciences campus in Arizona, part of the national Chamberlain University system, built for students aiming directly at a nursing license and healthcare career.",
+    "distinctives": [
+      "Part of Chamberlain University, a for-profit institution owned by Adtalem Global Education, with a curriculum concentrated almost entirely on nursing (BSN) and other health-professions degrees rather than a broad general-education catalog",
+      "Campus-based nursing instruction is typically paired with online coursework, reflecting Chamberlain's hybrid delivery model used across its national network of campuses",
+      "As a for-profit health-sciences institution, cost per credit and total program cost tend to run higher than comparable public nursing programs, which prospective students should weigh against financial aid and expected licensure outcomes",
+      "Outcomes such as NCLEX pass rates and job placement are program-specific and can vary by campus and cohort, so students should verify current licensure exam results directly rather than assume system-wide averages apply"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "457129": {
+    "profile_type": "researched",
+    "vibe": "A Florida campus of the Chamberlain University nursing system, offering a focused, career-track path into nursing and allied health fields for students who want a direct route to licensure.",
+    "distinctives": [
+      "Part of Chamberlain University, a for-profit institution owned by Adtalem Global Education, with programs concentrated on nursing (BSN) and related health-science degrees rather than a broad liberal-arts catalog",
+      "Instruction blends in-person clinical/nursing coursework with online components, consistent with Chamberlain's hybrid model across its multi-state campus network",
+      "As a for-profit nursing school, tuition tends to be higher than comparable public nursing programs in Florida, so students should compare total cost and financial aid packages carefully",
+      "Licensure exam pass rates and completion outcomes are campus- and cohort-specific; prospective students should look up current, campus-level NCLEX pass rate data rather than assume it matches other Chamberlain locations"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228705": {
+    "profile_type": "researched",
+    "vibe": "A public university in South Texas with deep regional roots, known for solid engineering and agriculture programs and a strong identity as a Hispanic-Serving Institution within the Texas A&M System.",
+    "distinctives": [
+      "A public member of the Texas A&M University System located in Kingsville, Texas, with a history dating back to its founding as Texas College of Arts and Industries before joining the A&M System in the 1990s",
+      "Federally designated Hispanic-Serving Institution with a student body that is majority Hispanic/Latino, reflecting its South Texas location and mission",
+      "Known particularly for its engineering programs (housed in its dedicated engineering college) as well as agriculture, natural resources, and criminal justice, alongside a broader range of undergraduate and graduate offerings",
+      "Mid-sized public university (enrollment in the several-thousand range) offering a residential campus experience with NCAA Division II athletics, at a public in-state tuition level well below private alternatives"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "460349": {
+    "profile_type": "researched",
+    "vibe": "The fully online division of Johnson & Wales University, best known for culinary arts and hospitality, offering flexible degree-completion and career-focused programs for adult, transfer, and working students.",
+    "distinctives": [
+      "Online arm of Johnson & Wales University, a private nonprofit university historically known for culinary arts and hospitality management, though the online catalog leans toward business, hospitality, criminal justice, and other career-oriented degrees rather than hands-on culinary training",
+      "Designed primarily for working adults, transfer students, and degree-completion learners rather than traditional first-time freshmen coming straight from high school",
+      "Fully online delivery means no residential campus experience, clubs, or in-person student life typical of JWU's physical campuses (Providence, Charlotte, Denver)",
+      "As with many online completion programs, outcomes such as graduation rates and post-graduation earnings can differ meaningfully from JWU's traditional in-person campuses, so students should look at the online program's own outcome data rather than assume parity with the flagship campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "180416": {
+    "profile_type": "researched",
+    "vibe": "A small public technological university in Butte, Montana, built around mining, engineering, and applied science, where hands-on labs and a tight-knit campus culture stand in for the size of a big research university.",
+    "distinctives": [
+      "Part of the Montana University System, located in Butte, Montana, a historic mining town",
+      "Strong roots in mining engineering, geological engineering, and other applied/technical sciences, reflecting the school's origins as a school of mines",
+      "Small student body with low student-to-faculty ratios typical of specialized technical institutions",
+      "Offers a mix of bachelor's, master's, and some doctoral programs concentrated in engineering, health, business, and technical fields rather than a broad liberal arts catalog"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "156745": {
+    "profile_type": "researched",
+    "vibe": "A small private liberal arts college in Georgetown, Kentucky, with historic Baptist roots, offering a close-knit residential experience centered on undergraduate teaching.",
+    "distinctives": [
+      "Private liberal arts college founded with Baptist affiliation, located in Georgetown, Kentucky, a small town near Lexington",
+      "Small overall enrollment with an emphasis on small class sizes and personal attention from faculty",
+      "Traditional liberal arts curriculum alongside pre-professional programs such as education and business",
+      "NAIA athletics program (Georgetown Tigers) is a notable part of campus life given the school's small size"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199962": {
+    "profile_type": "researched",
+    "vibe": "A private university in Wingate, North Carolina, historically affiliated with the Baptist tradition, known for growing beyond its liberal arts origins into a notable pharmacy program.",
+    "distinctives": [
+      "Private university located in the small town of Wingate, North Carolina, with historic ties to the North Carolina Baptist Convention",
+      "Home to a Doctor of Pharmacy (PharmD) program, which is one of the university's more distinctive graduate offerings",
+      "Offers a range of undergraduate liberal arts and professional programs alongside select graduate and doctoral degrees",
+      "Relatively small residential campus with NCAA Division II athletics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "479956": {
+    "profile_type": "researched",
+    "vibe": "The fully online arm of Penn State, delivering the same accredited Penn State degree programs to a nontraditional, largely working-adult student population with no physical campus of its own.",
+    "distinctives": [
+      "Penn State World Campus is the online campus of Pennsylvania State University, part of the larger Penn State system, offering fully online degree and certificate programs",
+      "Serves a predominantly older, working-adult, and part-time student population compared to Penn State's traditional residential campuses",
+      "Degrees carry the Penn State name and accreditation, spanning business, IT, engineering, education, criminal justice, and many other fields",
+      "No traditional residential campus experience, athletics, or on-site student life since all instruction is delivered online"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "224004": {
+    "profile_type": "researched",
+    "vibe": "A small private Lutheran-affiliated university in Austin, Texas, blending a Christian liberal arts foundation with professional and health-related programs in a growing city.",
+    "distinctives": [
+      "Private university affiliated with the Lutheran Church-Missouri Synod, located in Austin, Texas, and part of the Concordia University System",
+      "Offers undergraduate and graduate programs spanning liberal arts, business, education, and health-related fields",
+      "Relatively small enrollment with a Christian mission integrated into campus life and coursework",
+      "As with a number of small private religious institutions, prospective students should independently verify current enrollment trends, financial stability, and program accreditation status before applying, since smaller private colleges nationally have faced financial and enrollment pressures in recent years"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "475732": {
+    "profile_type": "researched",
+    "vibe": "A career-focused nursing school within the for-profit Chamberlain University system, built for students who know they want a nursing degree and want a direct, structured path to licensure.",
+    "distinctives": [
+      "Part of Chamberlain University, a for-profit nursing-focused institution owned by Adtalem Global Education, with this campus located in the Atlanta, Georgia area",
+      "Curriculum centers on nursing (BSN and RN-to-BSN pathways), with clinical placements arranged through partner healthcare facilities rather than a traditional broad liberal-arts offering",
+      "Draws many working adults, career-changers, and transfer/RN students rather than a typical 18-year-old freshman cohort, with significant online and hybrid coursework",
+      "As with many for-profit nursing schools, prospective students should independently verify current NCLEX pass rates, tuition costs, and accreditation status before enrolling, since these can shift year to year"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "130493": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in New Haven, Connecticut, offering an affordable, broad-based education with particular strength in teacher preparation and health-related fields.",
+    "distinctives": [
+      "Public regional comprehensive university and a member of the Connecticut State Colleges and Universities (CSCU) system",
+      "Located in New Haven, CT, giving students access to a mid-sized city and proximity to Yale University without New Haven's private-school price tag",
+      "Historically strong in education, nursing, social work, and other health and human-services programs, alongside standard liberal arts and business offerings",
+      "Enrolls a largely in-state, commuter-influenced student body, with undergraduate enrollment in the low thousands and a mix of residential and commuter students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "100830": {
+    "profile_type": "researched",
+    "vibe": "A public university in Alabama's capital city that operates independently from the flagship Auburn campus, offering a smaller, more accessible option with a strong regional and public-service focus.",
+    "distinctives": [
+      "Located in Montgomery, Alabama, and administratively distinct from Auburn University's main Auburn, AL campus, though part of the same university system",
+      "Serves a substantial share of commuter, adult, and military-connected students given its proximity to Maxwell Air Force Base",
+      "Offers undergraduate and graduate programs concentrated in business, education, nursing, and liberal arts, with a smaller overall footprint than the flagship campus",
+      "Generally more affordable and less selective in admissions than Auburn's main campus, making it an accessible option for students focused on the Montgomery region"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "187648": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in rural eastern New Mexico that serves as an accessible, affordable option for students from the surrounding plains region and beyond.",
+    "distinctives": [
+      "Main campus located in Portales, New Mexico, a small rural town, giving it a quiet, close-knit campus feel compared to urban universities",
+      "Public institution with relatively low tuition and an open or minimally selective admissions profile, drawing many first-generation and regional students",
+      "Offers a range of undergraduate programs along with some graduate degrees, and has historically had notable programs in education, business, and aviation-related fields",
+      "Also operates branch community-college campuses (in Roswell and Ruidoso) under the same university system, distinct from this main Portales campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "135364": {
+    "profile_type": "researched",
+    "vibe": "A small, private evangelical Christian college and seminary near Atlanta, built specifically to train students for pastoral ministry, biblical studies, and church leadership.",
+    "distinctives": [
+      "Small, private, faith-based institution located in the Atlanta, Georgia metro area, with roots as a seminary that later added undergraduate programs",
+      "Curriculum is heavily concentrated in biblical studies, theology, ministry leadership, and related fields rather than a broad general-education catalog",
+      "Delivers much of its coursework online or in flexible formats aimed at working adults and those already involved in church or ministry work, alongside a smaller in-person cohort",
+      "Very small total enrollment compared to typical four-year universities, so students should expect a narrow program catalog and a tightly focused, mission-driven community rather than a comprehensive university experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "384421": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish yeshiva and rabbinical school serving a tightly knit religious community with an education centered on Torah and Talmudic study.",
+    "distinctives": [
+      "An Orthodox Jewish institution combining religious (Judaic studies/rabbinical training) education with limited general studies offerings",
+      "Very small enrollment, typical of yeshiva-style institutions that serve a specific religious community rather than the general public",
+      "Primary focus is religious formation and rabbinical preparation rather than a broad liberal arts or professional curriculum",
+      "Best suited to students specifically seeking an Orthodox Jewish religious education rather than a conventional college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "231581": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit liberal arts college in the Shenandoah Valley of Virginia with historic ties to the Church of the Brethren, known for a personal, community-oriented campus culture.",
+    "distinctives": [
+      "Private liberal arts college located in Bridgewater, Virginia, historically affiliated with the Church of the Brethren",
+      "Small student body with low student-to-faculty ratio, emphasizing close faculty-student interaction",
+      "Offers a range of undergraduate majors across the liberal arts and pre-professional fields, including education and health sciences",
+      "NCAA Division III athletics with a strong tradition of student participation in sports"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "245953": {
+    "profile_type": "researched",
+    "vibe": "A small, evangelical Christian university in Oklahoma City serving a largely working and nontraditional student population with a faith-integrated curriculum.",
+    "distinctives": [
+      "Private Christian university located in Oklahoma City, Oklahoma, with roots in the Assemblies of God tradition",
+      "Offers undergraduate and graduate programs with an emphasis on integrating Christian faith with academic study",
+      "Serves a significant number of adult, transfer, and online students alongside traditional undergraduates",
+      "Smaller institution with a modest full-time faculty and student body compared to large public universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "240480": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in central Wisconsin known for its strong natural resources and environmental science programs, set in a college town with an outdoorsy, nature-focused culture.",
+    "distinctives": [
+      "Part of the University of Wisconsin System, located in Stevens Point, Wisconsin",
+      "Nationally recognized programs in natural resources, wildlife ecology, and paper science/chemical engineering",
+      "Public four-year university with a broad range of undergraduate liberal arts, business, and professional programs",
+      "Has faced enrollment declines and budget pressures in recent years common to many regional public universities in the Midwest, leading to some program restructuring"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217420": {
+    "profile_type": "researched",
+    "vibe": "An urban public college in Providence, Rhode Island, historically focused on teacher preparation and serving as an accessible option for the state's residents, including many first-generation and nontraditional students.",
+    "distinctives": [
+      "Public college located in Providence, Rhode Island, part of the state's public higher education system",
+      "Historic roots as a teacher training institution, still maintaining strong education and nursing programs",
+      "Serves a large proportion of commuter, first-generation, and nontraditional students from the local region",
+      "Offers a broad range of undergraduate liberal arts and professional programs at a relatively affordable public in-state tuition rate"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
