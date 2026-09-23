@@ -10425,5 +10425,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "215114": {
+    "profile_type": "researched",
+    "vibe": "A small, tight-knit evangelical Christian university where faith is woven into every major, drawing students who want a Bible-centered college experience alongside a professional degree.",
+    "distinctives": [
+      "Small enrollment (under 1,000 undergraduates), giving very small class sizes and close faculty contact",
+      "Requires all students to complete Bible/theology coursework regardless of major, reflecting its roots as a Bible college",
+      "Offers professional programs (education, nursing, business, counseling) alongside biblical studies and ministry degrees",
+      "Located in Langhorne, PA (Bucks County), within easy reach of Philadelphia; highly accessible admissions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "100663": {
+    "profile_type": "researched",
+    "vibe": "A large urban public research university anchored by a major academic medical center, appealing to students drawn to health sciences, biomedical research, and a diverse city campus.",
+    "distinctives": [
+      "Home to one of the nation's largest academic medical centers (UAB Medicine/UAB Hospital), giving undergrads strong pre-health, nursing, and biomedical engineering pathways",
+      "Major NIH-funded research institution, consistently ranked among top public universities for research funding",
+      "Moderately accessible admissions for a research-intensive public university",
+      "NCAA Division I athletics (Conference USA), with a notably diverse student body typical of an urban campus in downtown Birmingham"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "209551": {
+    "profile_type": "researched",
+    "vibe": "A big Pacific Northwest public flagship in Eugene with an outdoorsy, spirited campus culture, strong Duck athletics pride, and standout programs in journalism, business, and environmental studies.",
+    "distinctives": [
+      "School of Journalism and Communication and the Lundquist College of Business are widely regarded as flagship strengths, alongside architecture and environmental science programs",
+      "Deep ties to Nike co-founder Phil Knight, whose donations have funded major athletic and academic facilities",
+      "Fairly accessible admissions for a flagship public university",
+      "Strong Division I athletics culture (Oregon Ducks) and a campus culture that blends outdoor recreation with college-town energy in Eugene"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217235": {
+    "profile_type": "researched",
+    "vibe": "A career-focused university built around hands-on, industry-aligned training, best known nationally for one of the country's largest and most established culinary arts programs.",
+    "distinctives": [
+      "Founded as a business school and now renowned for its College of Culinary Arts, one of the largest and most established culinary education programs in the US",
+      "Strong hospitality, food service management, and business programs that emphasize experiential learning, industry internships, and co-ops",
+      "Highly accessible admissions, reflecting its career-college/practical-education model rather than selective liberal-arts admissions",
+      "Providence, RI campus places students in a compact New England college city with easy access to the broader food and hospitality industry"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "109785": {
+    "profile_type": "researched",
+    "vibe": "A private evangelical Christian university near Los Angeles that blends faith integration into academics with strong professional programs and a lively NCAA Division II athletics culture.",
+    "distinctives": [
+      "Rooted in the evangelical Wesleyan/Holiness tradition, with mandatory chapel and faith-integrated curriculum across majors",
+      "Strong nursing and health sciences programs, along with business and education, are among its most popular and respected offerings",
+      "Located in Azusa, CA, roughly 25 miles northeast of downtown Los Angeles, giving students proximity to the LA metro area",
+      "Fairly accessible admissions; competes in NCAA Division II athletics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "173920": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public university in a classic Midwestern college town, where Mankato's population skews young and student life is anchored by strong athletics, Greek life, and career-focused programs rather than elite selectivity.",
+    "distinctives": [
+      "Largest university in the Minnesota State system, enrolling roughly 13,000-15,000 students across 130+ undergraduate and 80+ graduate/doctoral programs",
+      "Home to Minnesota's only accredited collegiate aviation program, with industry partnerships including Delta Air Lines and Sun Country Airlines",
+      "Relatively open-access admissions, making it a strong option for solid-but-not-top students",
+      "Long-running LGBT Center recognized as one of the oldest campus resource centers of its kind in the country"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "199148": {
+    "profile_type": "researched",
+    "vibe": "A highly diverse, welcoming mid-size public university in the Piedmont Triad, known for supportive faculty and career-oriented programs, with a walkable campus and a broad, high-access admissions policy.",
+    "distinctives": [
+      "High acceptance rate (roughly 85-90%), making it accessible to a wide range of applicants while still offering 150+ academic programs",
+      "Consistently ranks among the most ethnically and socioeconomically diverse public universities in North Carolina",
+      "Distinctive niche majors beyond the standard mix, including animation, fashion and textile design, interior architecture, and sign language interpreting",
+      "Nursing is one of its largest and most respected programs, alongside a well-established School of Education"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "126818": {
+    "profile_type": "researched",
+    "vibe": "A large land-grant research university at the base of the Rocky Mountains in Fort Collins, blending strong STEM and agricultural science with an outdoorsy, athletics-and-recreation-driven campus culture.",
+    "distinctives": [
+      "Veterinary medicine program is nationally elite (consistently ranked among the top 2-3 in the country), anchored by the James L. Voss Veterinary Teaching Hospital",
+      "Strong atmospheric science program tied to the Cooperative Institute for Research in the Atmosphere",
+      "Founded in 1870 as Colorado Agricultural College; agriculture, natural resources, and environmental science remain core strengths",
+      "Large, active campus life with 450+ student organizations, prominent Greek life, and heavy intramural sports participation about an hour north of Denver"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "224147": {
+    "profile_type": "researched",
+    "vibe": "A relatively small, close-knit public university built on an island campus in Corpus Christi, Texas, offering a relaxed, coastal atmosphere paired with hands-on marine and coastal science research.",
+    "distinctives": [
+      "Distinctive waterfront island campus on Corpus Christi Bay, with direct access to Gulf Coast beaches and marine environments",
+      "Strong hands-on marine biology and coastal/environmental science programs leveraging its unique location",
+      "High acceptance rate and relatively small undergraduate enrollment, enabling smaller class sizes",
+      "Part of the Texas A&M University System, with nursing, business, and psychology among its largest degree programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153603": {
+    "profile_type": "researched",
+    "vibe": "A large, spirited land-grant research university in Ames, Iowa, renowned for engineering, agriculture, and veterinary medicine, with a strong sense of tradition around Cyclone athletics and a sprawling, park-like central campus.",
+    "distinctives": [
+      "Largest university in Iowa by total enrollment (roughly 30,000+ students), founded in 1858 as the state's land-grant institution",
+      "Home to the first state veterinary college in the United States (established 1879), still a nationally recognized veterinary medicine program",
+      "College of Engineering and College of Agriculture and Life Sciences are flagship strengths, with deep ties to agribusiness and applied research",
+      "Iconic 1,800+ acre central campus featuring a large central lawn, over 900 student organizations, and a strong Big 12 athletics culture"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "191676": {
+    "profile_type": "researched",
+    "vibe": "A small, tight-knit Wesleyan Christian liberal arts college tucked into rural western New York, where an outdoorsy, close-community feel pairs with serious academics and mandatory chapel life.",
+    "distinctives": [
+      "Private Christian liberal arts university affiliated with the Wesleyan Church, enrolling roughly 1,000 students total",
+      "Offers 46 undergraduate majors and 6 graduate degrees, including distinctive programs in Music Industry, Sports Management, and Data Science",
+      "Sits on a 1,300-acre rural campus in Allegany County, about 65 miles southeast of Buffalo, and hosts one of the largest solar arrays in New York State",
+      "NCAA Division III athletics (Highlanders) competing in the Empire 8 Conference; offers a First Year Honors Program"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215770": {
+    "profile_type": "researched",
+    "vibe": "A Jesuit Catholic university in Philadelphia with a strong professional/pre-career focus (business, health sciences, education), known for close faculty relationships and an unusually deep commitment to community-engaged learning.",
+    "distinctives": [
+      "Founded in 1851 by the Society of Jesus; Jesuit Catholic identity shapes its mission and curriculum",
+      "Organized into five colleges/schools including the Haub School of Business, School of Health Professions, and School of Nursing and Allied Health, with 260+ academic programs",
+      "Recognized among the top 2.5% of U.S. institutions nationally for community engagement, with a service-learning emphasis",
+      "10:1 undergraduate student-to-faculty ratio, over 170 student clubs, and a student body drawing from 64 countries and 41 U.S. states"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "224226": {
+    "profile_type": "researched",
+    "vibe": "A Baptist-affiliated university in the Dallas metro area with broad access (high admit rate, many online options) and a career-oriented program mix, appealing to students who want a Christian environment without an ultra-selective bar to clear.",
+    "distinctives": [
+      "Not highly selective: reported acceptance rate near 89%, making it accessible to a wide range of applicants",
+      "Mid-sized institution of roughly 4,100 total students",
+      "Offers 167 academic programs from certificate through doctoral level, including 45 fully online programs and strong Health Professions offerings",
+      "Baptist-affiliated with active Army and Air Force ROTC programs and a teacher-certification pathway; located in the Dallas\u2013Fort Worth metro area"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "193353": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic college on a scenic Hudson River campus in Newburgh, NY, known for practical, career-focused programs \u2014 especially nursing \u2014 and a strong sense of community for both residential and commuter students.",
+    "distinctives": [
+      "Catholic institution founded in 1959 by the Dominican Sisters, enrolling about 2,250 total students with a 12:1 student-faculty ratio",
+      "Organized into three schools: Arts, Sciences, and Education; Business; and Nursing, with well-regarded four-year and two-year nursing tracks",
+      "Sits on a 70-acre suburban campus overlooking the Hudson River, roughly halfway between New York City and Albany",
+      "NCAA Division III athletics with 21 varsity teams, plus active student government and intramural programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "151801": {
+    "profile_type": "researched",
+    "vibe": "A large evangelical Christian university in Marion, Indiana, combining a traditional residential campus with an extensive national adult/online education network, and a campus culture built around faith, chapel, and competitive NAIA athletics.",
+    "distinctives": [
+      "Affiliated with the Wesleyan Church; private evangelical Christian university with a total enrollment near 15,000 (about 2,100 traditional residential undergraduates plus online/adult learners)",
+      "Offers 87 undergraduate majors and 57 graduate degrees including 9 doctoral programs, plus Wesley Seminary for theological degrees",
+      "Mandatory chapel services three days a week reflect its faith-centered campus culture",
+      "Competitive NAIA athletics program with 23 varsity sports in the Crossroads League"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "188030": {
+    "profile_type": "researched",
+    "vibe": "A public land-grant university in the high desert of Las Cruces, NM, with a big-tent, accessible admissions culture and a strong identity tied to agriculture, space, and military research in the surrounding Southwest.",
+    "distinctives": [
+      "Land-grant research university and a federally designated Hispanic-Serving Institution, with a diverse student body reflecting its southern New Mexico location",
+      "Broadly accessible admissions compared to selective flagships, making it a realistic option for a wide range of academic profiles",
+      "Notable strengths in agriculture, engineering, and aerospace/physical sciences, aided by proximity to White Sands Missile Range and Spaceport America",
+      "NCAA Division I athletics (Aggies) competing in Conference USA, with a close-knit campus culture in Las Cruces"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "238032": {
+    "profile_type": "researched",
+    "vibe": "A large public flagship in Morgantown, WV, known for spirited game-day culture, a broad academic offering, and a relatively open-admission profile that makes it a solid safety/match option for many applicants.",
+    "distinctives": [
+      "Flagship research university with R1 (very high research activity) Carnegie classification, offering a wide range of undergraduate and graduate programs",
+      "High acceptance rate relative to most flagships, reflecting a broadly accessible admissions policy",
+      "Competes in the Big 12 Conference; football and Mountaineer game-day traditions are central to campus culture",
+      "Established programs in engineering, forensic and investigative science, journalism, and health sciences"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "185572": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized private university on the Jersey Shore near Long Branch, NJ, blending a suburban/coastal campus feel with a business- and communication-heavy academic profile and Division I athletics.",
+    "distinctives": [
+      "Private university located in West Long Branch, NJ, close to the Jersey Shore beaches, giving it a distinct coastal-suburban setting",
+      "Relatively accessible admissions, appealing to students seeking a smaller private-school experience without extreme selectivity",
+      "Strong undergraduate programs in business, communication, nursing, and education",
+      "NCAA Division I athletics in the Coastal Athletic Association (CAA), with a tight-knit residential campus community"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "483018": {
+    "profile_type": "researched",
+    "vibe": "A tiny, mission-driven liberal arts college in Yellow Springs, OH, built around a mandatory work-based co-op program, self-directed and narrative-evaluation-based learning, and a long tradition of progressive social activism.",
+    "distinctives": [
+      "Very small enrollment (typically well under 200 students), giving an intensely close, self-directed academic community",
+      "Required cooperative education (co-op) program sends students into paid, real-world work experiences across the country as a core graduation requirement",
+      "Long history of progressive and social-justice-oriented education; alumni include civil rights figure Coretta Scott King",
+      "Independent liberal arts college (re-founded in 2011 after a closure) distinct from the separate Antioch University system, located in the small village of Yellow Springs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "209825": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized Catholic university on a scenic bluff above the Willamette River in Portland, OR, combining a values-driven Holy Cross mission with strong professional programs, especially nursing.",
+    "distinctives": [
+      "Private Catholic university sponsored by the Congregation of Holy Cross (the same order behind Notre Dame), with a mission-driven campus culture",
+      "Highly regarded Shiley School of Nursing and Human Physiology programs, alongside solid engineering and business offerings",
+      "Moderately selective admissions relative to many small privates, with a scenic campus set on a bluff overlooking the Willamette River in Portland",
+      "NCAA Division I athletics in the West Coast Conference, with a small-college, residential-community feel despite being in a major city"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "198464": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Greenville, North Carolina, with a spirited Pirate identity, strong school pride, and a reputation as a welcoming, less-selective option with real academic depth in health sciences.",
+    "distinctives": [
+      "Part of the University of North Carolina System; acceptance rate is broadly accessible (roughly 85-90% of applicants admitted)",
+      "Home to the Brody School of Medicine and a well-regarded College of Nursing, giving ECU a strong health-sciences and rural medicine focus",
+      "Known for its College of Business and hospitality/culinary-adjacent programs, plus a large, active Division I athletics culture (Pirates)",
+      "Located in eastern North Carolina, drawing many in-state students and offering a lower cost of attendance relative to flagship UNC schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228459": {
+    "profile_type": "researched",
+    "vibe": "A large, energetic public university in San Marcos, Texas, set on the Blanco/San Marcos river with a lively college-town feel and strong Hispanic-Serving Institution community, drawing heavily from the Austin-San Antonio corridor.",
+    "distinctives": [
+      "One of the largest public universities in Texas, enrolling roughly 38,000+ students, with a relatively accessible acceptance rate historically in the 70-80% range",
+      "Designated a Hispanic-Serving Institution with a diverse, largely Texas-resident student body",
+      "Strong programs in the McCoy College of Business, mass communication/electronic media, and criminal justice; also known for forensic anthropology research",
+      "Located between Austin and San Antonio on the San Marcos River, giving it an outdoorsy, river-town campus culture alongside Division I athletics (Bobcats)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "152600": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Lutheran-heritage university in Valparaiso, Indiana, blending strong engineering and pre-professional programs with a faith-centered, service-oriented community life.",
+    "distinctives": [
+      "Small enrollment (roughly 2,400 students total) on a 350-acre suburban Indiana campus, with a relatively high acceptance rate (around 89% in recent cycles)",
+      "Independent Lutheran institution with close ties to Lutheran church bodies; the Chapel of the Resurrection is a campus landmark",
+      "College of Engineering is nationally ranked among non-doctoral institutions; also offers a well-known honors program, Christ College",
+      "Strong study-abroad culture (over a third of undergrads participate) and a heavy community-service ethic; competes as the Beacons in NCAA Division I"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228529": {
+    "profile_type": "researched",
+    "vibe": "A growing public university in Stephenville, Texas (with expanding Fort Worth-area presence), part of the Texas A&M System, with a rural/agricultural heritage alongside newer research and health programs.",
+    "distinctives": [
+      "A founding member of the Texas A&M University System, holding an R2 'high research activity' Carnegie Classification, with doctoral programs since 2003",
+      "Enrolls roughly 14,000 students across Stephenville and its expanding Fort Worth-area campuses; offers 85 undergraduate and 38 master's degrees across eight colleges",
+      "Distinctive programs include equine-assisted therapy (TREAT) and applied environmental/water-quality research, reflecting its agricultural and rural-Texas roots",
+      "Reestablished Texan Corps of Cadets offers military leadership development; competes NCAA Division I in the Western Athletic Conference (Texans)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "209612": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Forest Grove, Oregon (near Portland), distinguished by its health-professions graduate schools, especially optometry, layered onto a liberal-arts undergraduate base.",
+    "distinctives": [
+      "Home to Oregon's only school of optometry, plus strong programs in physical therapy, audiology, and dental hygiene",
+      "Enrolls just over 3,400 students total across its Forest Grove (main) and Hillsboro, Oregon campuses, about 23 miles west of Portland",
+      "Offers a 'Guaranteed Grad School Admission' pathway letting strong undergraduates lock in future optometry-school admission as early as junior year",
+      "Its low-residency MFA in Writing has been ranked among the top such programs nationally by Poets & Writers; competes in NCAA Division III as the Boxers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
