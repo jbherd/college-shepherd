@@ -27690,5 +27690,405 @@
       "applied via scheduled batch on 2026-09-23"
     ],
     "last_updated": "2026-09-23"
+  },
+  "416801": {
+    "profile_type": "researched",
+    "vibe": "Not a college in the traditional sense at all \u2014 MD Anderson is one of the world's leading cancer treatment and research centers, offering only graduate and professional-level education (PhD, clinical training, allied health programs) for those already pursuing careers in oncology and biomedical science.",
+    "distinctives": [
+      "Part of the University of Texas System, based in the Texas Medical Center in Houston, and consistently ranked among the top cancer hospitals in the United States",
+      "Offers no undergraduate degrees; its educational arm (UTHealth Houston Graduate School partnership and MD Anderson's own programs) serves PhD students, postdoctoral fellows, and allied health trainees in oncology-related fields",
+      "A major hub for cancer research funding (including NCI Comprehensive Cancer Center designation) and clinical trials, drawing scientists and clinicians from around the world",
+      "Best understood as a graduate/professional research and treatment institution, not a destination for prospective undergraduates or a typical four-year college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "418126": {
+    "profile_type": "researched",
+    "vibe": "A small, narrowly focused career college on Long Island that trains students specifically for hands-on careers in massage therapy, acupuncture, and Oriental (East Asian) medicine \u2014 not a general-purpose four-year college.",
+    "distinctives": [
+      "Located in Syosset, New York, and licensed to prepare students for licensure exams in massage therapy and acupuncture/Oriental medicine",
+      "Offers certificate, associate, and master's-level programs concentrated entirely in complementary and alternative health fields rather than a broad liberal arts curriculum",
+      "Very small enrollment typical of single-purpose vocational/health-sciences institutions, with programs built around clinical/hands-on training hours required for state licensure",
+      "Best suited to students who have already decided on a specific career path in bodywork or acupuncture, not students seeking a traditional undergraduate experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "428259": {
+    "profile_type": "researched",
+    "vibe": "A satellite campus of Ottawa University built specifically for adult and working students in the Milwaukee area, offering accelerated, career-oriented degree completion rather than a traditional residential undergraduate experience.",
+    "distinctives": [
+      "One of several regional branch campuses of Ottawa University (main campus in Ottawa, Kansas), a private university historically affiliated with the American Baptist Churches USA",
+      "Designed around adult-learner scheduling \u2014 evening, weekend, and accelerated-format courses aimed at working professionals and transfer/degree-completion students",
+      "Does not offer the traditional residential-campus, first-year-student experience associated with the flagship Ottawa, Kansas campus; no dorms or a conventional freshman class",
+      "Programs typically emphasize business, healthcare administration, and other applied/professional fields suited to adults balancing work and family with coursework"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "430184": {
+    "profile_type": "researched",
+    "vibe": "A for-profit university built around flexible, career-focused degree programs for working adults, blending online coursework with a network of physical campus locations rather than a traditional residential college experience.",
+    "distinctives": [
+      "Part of Strayer University's national for-profit system, with this Maryland-based operation serving as one of its regional campus locations alongside its dominant online program offerings",
+      "Curriculum concentrated in business, accounting, IT, and other career-oriented degree programs designed for adult learners balancing work, family, and school",
+      "Students are typically older and part-time compared to traditional four-year colleges, with flexible scheduling (evenings, weekends, online) as a core selling point",
+      "As a for-profit institution, prospective students should weigh cost, loan/debt outcomes, and completion rates carefully alongside program offerings, as is generally advised for for-profit career colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "433420": {
+    "profile_type": "researched",
+    "vibe": "A small, specialized aviation university in Bakersfield, California, built almost entirely around training students to become professional pilots and aviation-industry professionals rather than offering a broad academic curriculum.",
+    "distinctives": [
+      "Focused primarily on flight training and aviation-related degrees, such as professional flight/pilot training programs, aviation management, and related technical fields",
+      "Based in Bakersfield, California, taking advantage of favorable flying weather and airport/airspace access for flight instruction hours required for FAA certifications",
+      "Small, career-specific institution rather than a comprehensive university; students typically enroll with a clear goal of becoming a commercial or professional pilot or entering the aviation industry",
+      "Program cost is often higher than average due to flight-hour training expenses, and prospective students should weigh this alongside aviation-industry hiring outlook, as with other single-purpose flight schools"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "434937": {
+    "profile_type": "researched",
+    "vibe": "An all-male Orthodox Jewish yeshiva in Silver Spring, Maryland, devoted to full-time Talmudic and rabbinical study rather than a conventional undergraduate liberal arts experience.",
+    "distinctives": [
+      "Functions as a yeshiva gedola/rabbinical college offering intensive Talmud and Jewish law study alongside limited secular coursework",
+      "Enrolls only male students, consistent with Orthodox yeshiva practice",
+      "Small, single-purpose institution serving a specific Orthodox Jewish community rather than the general public",
+      "Located in Silver Spring, Maryland, a hub for Orthodox Jewish religious education in the DC metro area"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "435000": {
+    "profile_type": "researched",
+    "vibe": "The graduate and professional health sciences campus of LSU in Shreveport, training physicians, nurses, and allied health professionals rather than enrolling undergraduates.",
+    "distinctives": [
+      "Graduate/professional-only academic health center, not an undergraduate destination \u2014 no bachelor's degree admissions",
+      "Home to LSU's School of Medicine in Shreveport along with nursing, allied health, and graduate biomedical science programs",
+      "Operates in close partnership with the region's hospital system to provide clinical training",
+      "Part of the LSU System, distinct from the main LSU Baton Rouge undergraduate campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "436429": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused trade school in Los Angeles that trains students for hands-on roles in filmmaking, audio production, and the entertainment industry rather than offering a broad academic curriculum.",
+    "distinctives": [
+      "Narrowly focused specialized institution centered on film, recording arts, and entertainment business programs",
+      "Emphasizes hands-on, industry-oriented training over traditional general education, aimed at quick entry into production jobs",
+      "Located in Los Angeles to leverage proximity to the film and entertainment industry for internships and networking",
+      "Offers certificate and short-cycle career-training credentials rather than a typical four-year liberal arts degree path"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "436614": {
+    "profile_type": "researched",
+    "vibe": "A small Baptist Bible college and seminary in Chandler, Arizona, preparing students for pastoral ministry, missions, and church leadership within a conservative Baptist framework.",
+    "distinctives": [
+      "Small religious institution with a curriculum centered on Bible, theology, and ministry preparation rather than a secular general-education core",
+      "Trains students for pastoral, missionary, and church-leadership vocations, often alongside seminary-level coursework",
+      "Affiliated with the Baptist tradition, reflecting a specific denominational identity and statement of faith",
+      "Modest enrollment typical of denominational Bible colleges, with a close-knit, mission-driven campus community"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "437097": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Arlington, Virginia, built around working adults and professionals seeking flexible, largely online degree completion rather than a traditional residential college experience.",
+    "distinctives": [
+      "Distinctive adult-learner focus, serving working professionals pursuing degree completion, career advancement, or graduate credentials",
+      "Instruction delivered largely online or in flexible formats designed to accommodate students balancing jobs and family",
+      "Small institution without the traditional residential campus life, student clubs, or athletics of a typical undergraduate college",
+      "Based in Arlington, Virginia, in the Washington, DC metro area, with programs geared toward business, management, and technology fields"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "438586": {
+    "profile_type": "researched",
+    "vibe": "A for-profit, career-oriented university serving working adults and online learners, part of the American InterContinental University system (owned by Perdoceo Education Corporation) rather than a traditional campus-based college.",
+    "distinctives": [
+      "For-profit institution primarily serving adult, working, and online students rather than traditional 18-22 year old residential undergraduates",
+      "Offers career-focused associate, bachelor's, and master's programs in fields like business, criminal justice, health administration, and information technology",
+      "Located in Atlanta, Georgia, with most instruction delivered online or in flexible/accelerated formats",
+      "Part of a larger for-profit university system (Perdoceo Education Corporation) alongside Colorado Technical University; has faced scrutiny common to for-profit institutions around outcomes and cost relative to traditional colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "439446": {
+    "profile_type": "researched",
+    "vibe": "A very small, specialized graduate school in Fort Lauderdale, Florida, devoted almost entirely to training practitioners of acupuncture and Oriental/East Asian medicine \u2014 not a general-purpose college.",
+    "distinctives": [
+      "Narrow institutional focus: trains students for licensure and careers in acupuncture and Oriental/Chinese medicine, not a broad liberal arts or general degree provider",
+      "Predominantly graduate/professional-level programs (e.g., master's and doctoral degrees in acupuncture and Oriental medicine) rather than a traditional undergraduate population",
+      "Very small enrollment typical of single-discipline health/wellness professional schools",
+      "Located in Fort Lauderdale, Florida, serving students pursuing careers as licensed acupuncturists or complementary/alternative medicine practitioners"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "440794": {
+    "profile_type": "researched",
+    "vibe": "A small, Christian Bible college in Newark, New Jersey, with roots tracing back to Shelton College and later Somerset Christian College, serving a small, faith-committed student body pursuing ministry, education, and Christian-integrated degrees.",
+    "distinctives": [
+      "Small evangelical Christian institution with a historical lineage through Shelton College and Somerset Christian College before becoming Pillar College",
+      "Offers a limited range of undergraduate and some graduate programs, often emphasizing biblical studies, ministry, counseling, and education with a faith-based integration",
+      "Small campus and enrollment typical of denominational Bible colleges, located in Newark, New Jersey, with a historically urban and diverse student population",
+      "Institutional identity centers on Christian faith formation alongside academic coursework, distinguishing it from secular liberal arts colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "440916": {
+    "profile_type": "researched",
+    "vibe": "A graduate-only, historically Black law school in Baton Rouge, Louisiana, part of the Southern University System \u2014 not a destination for undergraduates, but a significant producer of Black attorneys in the South.",
+    "distinctives": [
+      "Graduate/professional institution offering only the Juris Doctor (J.D.) degree; has no undergraduate programs, so it is not a general college choice for high schoolers",
+      "Historically Black college/university (HBCU) law school, one of a small number of HBCU law schools in the United States, with a long track record of graduating Black attorneys",
+      "Part of the Southern University System, based in Baton Rouge, Louisiana, and closely tied to that system's mission of access and opportunity",
+      "Relevant to students planning far ahead toward a legal career (post-undergraduate), rather than to current high school college selection"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "442569": {
+    "profile_type": "researched",
+    "vibe": "A fully online institution focused on adult learners, formerly known as Grantham University and now operating as University of Arkansas Grantham within the University of Arkansas System \u2014 built for working adults balancing school with jobs and family rather than traditional campus-based 18-year-old freshmen.",
+    "distinctives": [
+      "Fully online, no traditional residential campus experience; all coursework delivered remotely, designed around flexibility for working adults",
+      "Formerly Grantham University, acquired by and now operating within the University of Arkansas System, gaining nonprofit public-system affiliation while retaining its distance-education, career-oriented model",
+      "Offers associate, bachelor's, and master's degrees concentrated in career-relevant fields such as business, IT, healthcare management, and engineering technology",
+      "Serves primarily adult, military-connected, and working-professional students rather than recent high school graduates seeking a traditional four-year college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "442639": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused private university serving a largely international and adult-learner population in the DC suburbs, built around practical business and IT credentials rather than a traditional undergraduate residential experience.",
+    "distinctives": [
+      "Located in Vienna/Falls Church, Virginia, in the Washington DC metro area, and has historically drawn a significant share of international students on F-1 visas",
+      "Focuses on business administration, information technology, and related professional degree programs at the associate through master's level",
+      "Structured for working adults and career-changers, with year-round enrollment terms and smaller, non-residential campus facilities rather than a traditional campus quad or dorms",
+      "Part of a small multi-campus private university system rather than a large single-campus institution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "443049": {
+    "profile_type": "researched",
+    "vibe": "A very small, evangelical Christian graduate school in Tacoma, Washington, training students for pastoral ministry, missions, and Christian counseling rather than offering a broad liberal-arts undergraduate experience.",
+    "distinctives": [
+      "Primarily a graduate-level institution, with degree programs centered on theology, ministry, and Christian/pastoral counseling",
+      "Explicitly evangelical Christian in mission and curriculum, with coursework integrating biblical studies into counseling and ministry training",
+      "Very small enrollment, typical of a niche seminary-style institution rather than a comprehensive university",
+      "Located in Tacoma, Washington, and oriented toward preparing graduates for church, missions, and faith-based counseling careers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "443331": {
+    "profile_type": "researched",
+    "vibe": "A for-profit health sciences university whose Texas campus is built almost entirely around training students for nursing and allied-health careers, with an applied, clinical-training orientation rather than a broad-based liberal arts program.",
+    "distinctives": [
+      "Part of the West Coast University for-profit system, which specializes in nursing and health sciences education across multiple U.S. campuses",
+      "Curriculum is concentrated in nursing (BSN/pre-licensure and related pathways) and other allied health fields, with significant clinical/lab components",
+      "Designed for career-entry and career-change students seeking licensure-track healthcare credentials rather than a traditional four-year college experience",
+      "Operates as a single campus within a larger corporate-owned university network rather than an independent nonprofit institution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "443340": {
+    "profile_type": "researched",
+    "vibe": "A small Christian liberal arts college in Franklin, Tennessee, offering an intimate, faith-integrated undergraduate experience for students seeking a close-knit religious campus community rather than a large university setting.",
+    "distinctives": [
+      "Very small enrollment consistent with a boutique Christian liberal arts college rather than a large university",
+      "Explicitly faith-based mission with coursework and campus life integrating Christian worldview across the curriculum",
+      "Located in Franklin, Tennessee, a suburb of Nashville, offering proximity to a mid-size metro area despite the college's small scale",
+      "Emphasizes close student-faculty relationships and a traditional liberal arts core typical of small Christian colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "443562": {
+    "profile_type": "researched",
+    "vibe": "A small for-profit career college in San Juan, Puerto Rico, offering short, job-focused credentials primarily in Spanish to local students seeking direct entry into the workforce.",
+    "distinctives": [
+      "Part of the Dewey University system, a Puerto Rico-based for-profit institution with multiple campuses across the island",
+      "Instruction is conducted primarily in Spanish, serving the local Puerto Rican community rather than a national or international student base",
+      "Offers career-oriented certificate and associate-level programs in fields such as business, healthcare support, and technical trades, emphasizing quick workforce entry",
+      "Non-residential, commuter-style campus model typical of small for-profit career colleges rather than a traditional four-year college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "443766": {
+    "profile_type": "researched",
+    "vibe": "A for-profit, career-focused university serving working adults in Tennessee, offering flexible online and hybrid programs designed around busy schedules rather than a traditional campus experience.",
+    "distinctives": [
+      "Part of the national Strayer University system, a for-profit institution primarily serving working adults and non-traditional students",
+      "Coursework is delivered mostly online, supplemented by local campus locations for in-person classes and support services",
+      "Focuses on business, IT, accounting, and other career-oriented degree programs rather than a broad liberal arts curriculum",
+      "Designed for flexibility, with accelerated terms and evening/weekend options aimed at students balancing work and family"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "443784": {
+    "profile_type": "researched",
+    "vibe": "A for-profit, career-focused university serving working adults in Pennsylvania, offering flexible online and hybrid programs designed around busy schedules rather than a traditional campus experience.",
+    "distinctives": [
+      "Part of the national Strayer University system, a for-profit institution primarily serving working adults and non-traditional students",
+      "Coursework is delivered mostly online, supplemented by local campus locations for in-person classes and support services",
+      "Focuses on business, IT, accounting, and other career-oriented degree programs rather than a broad liberal arts curriculum",
+      "Designed for flexibility, with accelerated terms and evening/weekend options aimed at students balancing work and family"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "444088": {
+    "profile_type": "researched",
+    "vibe": "A small, for-profit career college in Albuquerque focused on training students for specific occupations, especially in healthcare and allied health fields, rather than offering a broad academic experience.",
+    "distinctives": [
+      "A small, for-profit career college with a narrow set of vocationally focused programs, commonly including fields like medical assisting, dental assisting, and other allied health careers",
+      "Emphasizes short, program-specific certificates and associate-level credentials aimed at quick entry into the workforce",
+      "Operates as part of a small multi-campus career college network rather than as a large research or liberal arts institution",
+      "Best suited to students seeking hands-on, job-training-oriented education rather than a traditional four-year college path"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "444130": {
+    "profile_type": "researched",
+    "vibe": "A fully online, for-profit university based in San Diego that specializes in graduate and doctoral education, distinguished by a one-to-one faculty mentoring model rather than cohort-based classes.",
+    "distinctives": [
+      "Delivers all programs entirely online, with no traditional residential campus experience for students",
+      "Notably graduate-heavy, offering a wide range of master's and doctoral programs across fields like business, education, psychology, and health sciences",
+      "Known for its distinctive one-to-one mentoring approach, pairing each student with an individual faculty mentor rather than using large lecture-based classes",
+      "Designed for working professionals seeking advanced degrees with flexible, self-paced or asynchronous coursework"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "444398": {
+    "profile_type": "researched",
+    "vibe": "A small Hispanic Baptist Bible college in San Antonio dedicated to training ministers and lay leaders to serve Hispanic churches and communities, with a mission rooted in faith formation rather than broad secular academics.",
+    "distinctives": [
+      "A small, religiously affiliated institution historically connected to Hispanic Baptist churches, focused on preparing students for pastoral and ministry leadership",
+      "Offers a Bible-college style curriculum centered on theology, biblical studies, and ministry preparation, often alongside bilingual (English/Spanish) instruction",
+      "Serves a small, close-knit student body, reflecting its identity as a mission-driven institution rather than a large comprehensive university",
+      "Rooted in a historic mission to train Hispanic Baptist ministers and community leaders across Texas and the broader Southwest"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
   }
 }
