@@ -22890,5 +22890,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "174020": {
+    "profile_type": "researched",
+    "vibe": "A public urban commuter university in St. Paul built for working adults and career-changers, offering flexible scheduling and a practical, credit-friendly path to a degree.",
+    "distinctives": [
+      "Part of the Minnesota State system, located in downtown St. Paul, Minnesota",
+      "Historically serves nontraditional, adult, and transfer students, with generous credit-for-prior-learning policies",
+      "Primarily a commuter campus with no traditional residential dorm life or big-time athletics culture",
+      "Offers a range of bachelor's and graduate programs geared toward working professionals, including business, IT, and health-related fields"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228501": {
+    "profile_type": "researched",
+    "vibe": "A small public university in far West Texas known for its rugged, remote setting and strong rodeo and agriculture traditions.",
+    "distinctives": [
+      "Located in Alpine, Texas, in the Big Bend region, one of the more remote college settings in the US",
+      "Part of the Texas State University System, with a legacy focus on ranching, animal science, and range/wildlife management",
+      "Fields a well-known intercollegiate rodeo program alongside other NCAA Division III/conference athletics",
+      "Small enrollment with a low student-to-faculty ratio typical of rural public universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219471": {
+    "profile_type": "researched",
+    "vibe": "The state's flagship-style public research university in Vermillion, offering a traditional college-town experience with a broad range of undergraduate and professional programs.",
+    "distinctives": [
+      "Located in Vermillion, South Dakota, and home to the state's only law school and only accredited medical school program (with clinical training sites statewide)",
+      "Offers Division I athletics as a member of the Summit League",
+      "Provides a wide mix of liberal arts, business, fine arts, and professional/pre-health programs",
+      "Public research university with a residential campus and traditional student life for a state of its size"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "156541": {
+    "profile_type": "researched",
+    "vibe": "A private Christian university in rural Kentucky that blends faith-centered campus life with a large online and adult-education program.",
+    "distinctives": [
+      "Located in Williamsburg, Kentucky, affiliated with Baptist tradition and emphasizing a Christian worldview across its programs",
+      "Offers a substantial online degree portfolio alongside its traditional residential campus, drawing many adult and distance learners",
+      "Competes in NAIA athletics with a range of men's and women's sports",
+      "Offers undergraduate, graduate, and doctoral programs, including business and education tracks popular with working students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "243665": {
+    "profile_type": "researched",
+    "vibe": "A small public institution serving the U.S. Virgin Islands, offering an intimate, community-rooted college experience across its Caribbean island campuses.",
+    "distinctives": [
+      "Operates campuses on St. Thomas and St. Croix, the only historically Black college or university located outside the mainland US and Puerto Rico",
+      "Small enrollment with close student-faculty relationships typical of a small public island institution",
+      "Offers a range of undergraduate programs along with some graduate offerings, with strong ties to the local Virgin Islands community and economy",
+      "Competes athletically and provides marine/Caribbean-focused academic opportunities tied to its island location"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "200572": {
+    "profile_type": "researched",
+    "vibe": "A small public university on the North Dakota prairie known for pioneering one-to-one student laptop technology and a strong tradition of preparing teachers.",
+    "distinctives": [
+      "Public university in Valley City, North Dakota, part of the North Dakota University System",
+      "One of the first universities in the country to provide a laptop computer to every student, a program it has run for decades",
+      "Historically strong education/teacher-preparation program, reflecting its roots as a normal school",
+      "Small, rural campus setting with a low student-to-faculty ratio typical of North Dakota's regional public universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153375": {
+    "profile_type": "researched",
+    "vibe": "A Lutheran-affiliated private university in Des Moines that blends a liberal arts core with career-focused programs like nursing and physician assistant studies.",
+    "distinctives": [
+      "Private university in Des Moines, Iowa, affiliated with the Evangelical Lutheran Church in America (ELCA)",
+      "Offers a mix of traditional liberal arts majors alongside professional programs such as nursing, physical therapy, and physician assistant studies",
+      "Competes in NAIA athletics as the Vikings",
+      "Small to mid-sized enrollment with an urban Des Moines campus location"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "177144": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit liberal arts college on the Mississippi River in rural Missouri, affiliated with the Christian Church (Disciples of Christ) and known for a tight-knit residential community.",
+    "distinctives": [
+      "Private liberal arts college in Canton, Missouri, historically affiliated with the Christian Church (Disciples of Christ)",
+      "Very small undergraduate enrollment with a highly residential, close-knit campus culture",
+      "Offers a range of undergraduate majors including business, education, and the sciences typical of small liberal arts colleges",
+      "Competes in NAIA athletics as the Wildcats"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139366": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Columbus, Georgia, with a distinctive riverfront downtown campus and a notable music conservatory.",
+    "distinctives": [
+      "Public university in Columbus, Georgia, part of the University System of Georgia",
+      "Home to the Schwob School of Music, a well-regarded conservatory-style music program within a public university",
+      "Operates a riverfront downtown campus (RiverPark Campus) in addition to its main campus",
+      "Offers a broad range of undergraduate and graduate programs including business, education, nursing, and the arts"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "170000": {
+    "profile_type": "researched",
+    "vibe": "A small evangelical Christian university in Michigan focused on ministry preparation and faith-integrated undergraduate education.",
+    "distinctives": [
+      "Small private Christian university located in Wyoming, Michigan (Grand Rapids area)",
+      "Rooted in an evangelical tradition with historical ties to the Grace Gospel Fellowship, emphasizing biblical and ministry training alongside other undergraduate majors",
+      "Very small enrollment with a strong emphasis on integrating faith into academic study",
+      "Offers both undergraduate and graduate/seminary-level programs for students pursuing ministry vocations"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "243586": {
+    "profile_type": "researched",
+    "vibe": "A Catholic university campus in Mayag\u00fcez on Puerto Rico's west coast, part of the multi-campus Pontifical Catholic University of Puerto Rico system, serving local students who want a faith-based education close to home.",
+    "distinctives": [
+      "A regional campus of the Pontifical Catholic University of Puerto Rico (PCUPR), a Catholic institution headquartered in Ponce with several satellite campuses across the island",
+      "Instruction is conducted primarily in Spanish, serving Puerto Rico's local student population",
+      "Offers undergraduate and some graduate programs with a Catholic mission and values-centered curriculum",
+      "Located in Mayag\u00fcez, a city on Puerto Rico's western coast known for its university town character"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "220604": {
+    "profile_type": "researched",
+    "vibe": "A small, historically Black college in Memphis, Tennessee, rooted in a mission of uplift and community service, offering a tight-knit liberal arts environment in an urban setting.",
+    "distinctives": [
+      "A historically Black college (HBCU) located in South Memphis, Tennessee",
+      "Formed in 1968 through the merger of LeMoyne College and Owen College, both founded to educate formerly enslaved people and their descendants",
+      "Small student body with an emphasis on personal attention and community engagement",
+      "Offers primarily undergraduate liberal arts and career-oriented degree programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215053": {
+    "profile_type": "researched",
+    "vibe": "A small, specialized art and design college in Lancaster, Pennsylvania, for students who know they want to pursue a focused, studio-intensive creative education rather than a broad liberal arts path.",
+    "distinctives": [
+      "A small private college focused exclusively on visual art and design disciplines",
+      "Located in downtown Lancaster, Pennsylvania, with a compact, studio-based campus",
+      "Offers BFA-level programs in fields such as illustration, graphic design, photography, and fine arts",
+      "Small class sizes and a hands-on, portfolio-driven curriculum typical of specialized art colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "157757": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic university in Louisville, Kentucky, known for its strong health sciences and helping-professions programs, rooted in a mission of service founded by the Sisters of Charity of Nazareth.",
+    "distinctives": [
+      "A private Catholic university founded by the Sisters of Charity of Nazareth, located in Louisville, Kentucky",
+      "Known particularly for programs in nursing, occupational therapy, social work, and other health and human services fields",
+      "Small overall enrollment with a mix of undergraduate and graduate/professional programs",
+      "Urban campus setting in Louisville with a service-oriented, mission-driven institutional identity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "131876": {
+    "profile_type": "researched",
+    "vibe": "A Catholic university in Washington, DC, historically a women's college, that has evolved into a coeducational institution serving a diverse, largely first-generation student population in the nation's capital.",
+    "distinctives": [
+      "Originally founded as Trinity College, a Catholic women's college, by the Sisters of Notre Dame de Namur in Washington, DC",
+      "Located near Catholic University of America in Northeast DC, giving students access to internships and opportunities in the capital",
+      "Historically served (and continues to emphasize) educating women and underserved students, including many first-generation and adult learners",
+      "Now operates as Trinity Washington University with undergraduate and graduate programs, including some coeducational offerings"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217776": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-based liberal arts university in the South Carolina foothills that blends a close-knit Christian community with career-focused undergraduate and adult-degree programs.",
+    "distinctives": [
+      "Private university affiliated with The Wesleyan Church, located in Central, South Carolina",
+      "Small student body with low student-to-faculty ratio typical of a residential Christian liberal arts college",
+      "Offers a mix of traditional undergraduate programs and adult/online degree-completion tracks",
+      "Athletics compete in the NAIA as the Southern Wesleyan Warriors"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "164447": {
+    "profile_type": "researched",
+    "vibe": "A small, career-oriented private university in Springfield, Massachusetts, known for serving a diverse, often first-generation student population with hands-on programs in health, business, and criminal justice.",
+    "distinctives": [
+      "Private, nonprofit university located in Springfield, Massachusetts",
+      "Small enrollment with a strong focus on career-preparation majors such as nursing, criminal justice, and business",
+      "Serves a notably diverse and access-oriented student body relative to many New England private colleges",
+      "Athletics compete in NCAA Division II as the Yellow Jackets"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "207263": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in Tahlequah, Oklahoma, rooted in the history of the Cherokee Nation and serving a broad mix of students, including one of the highest proportions of Native American students of any US university.",
+    "distinctives": [
+      "Public university headquartered in Tahlequah, Oklahoma, with additional campuses in Broken Arrow and Muskogee",
+      "Traces its origins to the Cherokee Female Seminary, founded in the 1850s, giving it deep ties to the Cherokee Nation",
+      "Enrolls a large proportion of Native American students relative to most US institutions",
+      "Offers a broad range of undergraduate and graduate programs typical of a regional state university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "482158": {
+    "profile_type": "researched",
+    "vibe": "A public, multi-campus university based in Macon, Georgia, built for career-focused and transfer students, with a distinctive regional strength in aviation.",
+    "distinctives": [
+      "Public university within the University System of Georgia, headquartered in Macon with several additional Georgia campuses",
+      "Offers a mix of associate and bachelor's degrees, serving many transfer and working students",
+      "Known for its aviation programs, including flight training, in partnership with regional aviation industry",
+      "Relatively young institution, formed in 2013 through a merger of Macon State College and Middle Georgia College"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "128391": {
+    "profile_type": "researched",
+    "vibe": "A small public university in the Rocky Mountains of Gunnison, Colorado, built around outdoor recreation and mountain-based academic programs in a remote, high-altitude setting.",
+    "distinctives": [
+      "Public university located in Gunnison, Colorado, at high elevation in the Rocky Mountains",
+      "Small student body drawn to its rural mountain-town setting and outdoor lifestyle",
+      "Notable for programs tied to outdoor recreation, environmental studies, and business built around the mountain-resort industry",
+      "Formerly known as Western State Colorado University before rebranding"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153977": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-rooted health sciences college in Des Moines, Iowa, built around training nurses and allied health professionals in a tight-knit, clinically focused environment.",
+    "distinctives": [
+      "Private, nonprofit college historically affiliated with Mercy Medical Center in Des Moines, Iowa, with a mission centered on healthcare education",
+      "Very small enrollment, concentrated almost entirely on nursing and allied health degree programs (e.g., nursing, radiologic technology, health sciences)",
+      "Offers career-focused associate's and bachelor's degrees with strong emphasis on clinical training and hands-on patient-care experience",
+      "Serves a largely local/regional student population in the Des Moines metro area rather than drawing a national applicant pool"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "220516": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Bristol, Tennessee with Presbyterian roots, offering a traditional liberal arts core alongside respected professional programs like nursing.",
+    "distinctives": [
+      "Private university historically affiliated with the Presbyterian Church (USA), located in Bristol, Tennessee near the Virginia border",
+      "Offers a range of undergraduate liberal arts majors plus graduate and professional programs, with nursing being a notably strong and well-regarded program",
+      "Relatively small student body with a residential campus feel and NAIA-level athletics",
+      "Blends a Christian-affiliated mission and values-based campus culture with career-oriented degree offerings"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "180692": {
+    "profile_type": "researched",
+    "vibe": "A small public university in rural Dillon, Montana known for its distinctive 'one class at a time' block-scheduling model and strong outdoor/ranching culture.",
+    "distinctives": [
+      "Public university in Dillon, Montana, part of the Montana University System, set in a small rural town in the state's southwest region",
+      "Nationally known for its 'Experience One' academic model, in which students take one course at a time in focused blocks rather than a traditional multi-class semester",
+      "Small enrollment with programs oriented toward education, natural resource/outdoor recreation fields, and equine/ranching-related studies, reflecting its rural Montana setting",
+      "Competes in NAIA athletics and has a well-known intercollegiate rodeo program"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161341": {
+    "profile_type": "researched",
+    "vibe": "A small public university in far northern Maine's Aroostook County, offering an intimate, community-oriented campus experience in a remote, rural setting.",
+    "distinctives": [
+      "Public university and member of the University of Maine System, located in Presque Isle in Aroostook County, one of the most rural and northernmost parts of Maine",
+      "Small enrollment with a low student-to-faculty ratio, emphasizing close, personalized instruction",
+      "Offers a mix of career-oriented and liberal arts programs, including areas like education, athletic training, and environmental/agricultural-adjacent fields suited to its rural northern Maine location",
+      "Serves as an accessible, affordable regional option for students from Aroostook County and northern Maine communities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "113582": {
+    "profile_type": "researched",
+    "vibe": "A very small, specialized private college in San Diego devoted almost entirely to interior design education, aimed at students who already know they want a hands-on, industry-focused design career.",
+    "distinctives": [
+      "Small private, specialized institution in San Diego, California focused primarily on interior design as its core academic offering",
+      "Offers degree programs (including a bachelor's in interior design) built around a studio-based, portfolio-driven curriculum rather than a broad liberal arts model",
+      "Very small overall enrollment compared to typical four-year colleges, reflecting its niche, career-training mission",
+      "Positions itself as a career-preparation pathway into the interior design and design industry rather than a traditional comprehensive university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
