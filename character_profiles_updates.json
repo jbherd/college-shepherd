@@ -146,10 +146,10 @@
   "107558": {
     "confidence": "researched",
     "distinctives": [
-      "Founded in 1834 as Cane Hill School; renamed Cane Hill College (1858), Arkansas Cumberland College (1891), College of the Ozarks (1920), and finally University of the Ozarks in 1987 (not to be confused with College of the Ozarks in Missouri).",
+      "Founded in 1834 as Cane Hill School; renamed Cane Hill College (1858), Arkansas Cumberland College (1891), College of the Ozarks (1921), and finally University of the Ozarks in 1987 (not to be confused with College of the Ozarks in Missouri).",
       "Was the first institution in Arkansas to admit women (1875), the first predominantly white Arkansas university to integrate (1957), and graduated its first African-American student in 1959.",
       "Home to the Jones Learning Center, cited as the first program in the country specifically designed to support college students with learning disabilities.",
-      "Received a $39.5 million donation from the Walton Family Charitable Support Foundation in 1998."
+      "Received a roughly $39.5 million donation from the Walton Family Charitable Support Foundation in the late 1990s."
     ],
     "last_updated": "2026-09-22",
     "profile_type": "researched",
@@ -157,7 +157,7 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "vibe": "A small private liberal arts university in Clarksville, AR, founded in 1834 as Cane Hill School by the Cumberland Presbyterian Church, making it the oldest institution of higher education in Arkansas."
+    "vibe": "A small private liberal arts university in Clarksville, AR, founded in 1834 as Cane Hill School by the Cumberland Presbyterian Church, among the oldest institutions of higher education in Arkansas."
   },
   "110422": {
     "confidence": "researched",
@@ -4402,7 +4402,7 @@
     "distinctives": [
       "Founded in 1903 by Oscar Werwath, credited as the first person to build an American educational institution around an applications-oriented engineering curriculum.",
       "Sits on a compact 22-acre urban campus in the East Town neighborhood of downtown Milwaukee, WI, built largely of the city's signature cream-colored 'Cream City' brick.",
-      "Operates on a four-quarter, ten-week academic calendar rather than the standard semester system, and offers 10 of its 16 undergraduate majors in engineering fields, plus programs like cardiovascular perfusion.",
+      "Operates on a four-quarter, ten-week academic calendar rather than the standard semester system; 10 of its 16 undergraduate majors are in engineering fields, and it also offers a graduate program in cardiovascular perfusion.",
       "Home to the Grohmann Museum, which houses 'Man at Work,' the Eckhart G. Grohmann Collection of art depicting the history of human labor -- an unusual cultural landmark for a technical university."
     ],
     "last_updated": "2026-09-22",
@@ -8406,7 +8406,7 @@
     "vibe": "A mid-sized public university perched on Chattanooga's Lookout Mountain foothills, blending a metro-college feel with strong engineering and health programs.",
     "distinctives": [
       "Traces its roots to Chattanooga University, founded in 1886, and became part of the University of Tennessee system in 1969 as UT Chattanooga.",
-      "The Mocs mascot and nickname reference Moccasin Bend, the horseshoe bend of the Tennessee River that wraps around the city.",
+      "The Mocs mascot and nickname come from the school's old \"Moccasins\" nickname (not, as sometimes assumed, a direct reference to Moccasin Bend, the horseshoe bend of the Tennessee River near the city).",
       "Home to the SimCenter, a graduate program in computational engineering that has produced modeling and simulation research used by NASA and the Department of Defense.",
       "Its campus sits at the base of Lookout Mountain in downtown Chattanooga, giving students direct access to the city's outdoor recreation scene, including rock climbing and whitewater on the Tennessee River."
     ],
@@ -8839,7 +8839,7 @@
     "distinctives": [
       "Founded in 1916 as Eau Claire State Normal School to train teachers, becoming Wisconsin State College-Eau Claire in 1951 and joining the University of Wisconsin System with its current name in 1971.",
       "Runs one of the largest student-faculty collaborative undergraduate research programs in the country, hosting an annual Celebration of Excellence in Research and Creative Activity (CERCA) symposium each spring.",
-      "Its campus straddles the Chippewa River, with the Priory (a former Benedictine monastery) serving as a distinctive upper-campus residential and event building acquired by the university in the 1990s.",
+      "Its campus straddles the Chippewa River, with the Priory (a former Benedictine monastery, St. Bede Monastery) serving as a distinctive upper-campus residential and event building the university acquired in 2011.",
       "Students and athletic teams are known as the Blugolds, a nickname and blue-and-gold branding dating back to the school's normal-school era."
     ],
     "confidence": "researched",
@@ -10022,8 +10022,8 @@
     "vibe": "Hawaii's public flagship research university in Honolulu, combining a large, ethnically diverse student body with globally recognized strength in ocean, earth, and space sciences tied to the islands' unique geography.",
     "distinctives": [
       "R1 research university with nationally and internationally ranked programs in oceanography, marine biology, atmospheric sciences, and astronomy (affiliated with the Mauna Kea observatories)",
-      "Moderately accessible flagship admissions (acceptance rate commonly reported in the low-to-mid 70% range in recent cycles) relative to many mainland public flagships",
-      "One of the most ethnically diverse major universities in the country, with a student body that is majority Asian American and Native Hawaiian/Pacific Islander",
+      "Broadly accessible flagship admissions, with an acceptance rate commonly reported in the high-80% range in recent cycles -- notably more open than many mainland public flagships",
+      "One of the most ethnically diverse major universities in the country; Asian American and Native Hawaiian/Pacific Islander students together make up roughly a third of undergraduates, alongside significant white and multiracial populations, with no single group forming a majority",
       "NCAA Division I athletics (the Rainbow Warriors/Rainbow Wahine) and strong programs in tropical agriculture, Hawaiian/Pacific studies, and Asian studies"
     ],
     "confidence": "researched",
@@ -15640,7 +15640,7 @@
       "Main campus in Macomb, Illinois, with a satellite location in the Quad Cities; part of the Illinois public university system",
       "Has experienced sustained enrollment declines in recent years, a trend the university attributes partly to demographic shifts and international recruitment challenges while pointing to improved retention as a bright spot",
       "Offers a wide range of programs including agriculture, business, engineering technology, and education, with relatively affordable in-state tuition typical of Illinois public universities",
-      "Competes in NCAA Division I (Ohio Valley Conference / Summit League for some sports) as the Leathernecks"
+      "Competes in NCAA Division I as the Leathernecks, in the Ohio Valley Conference (moved there from the Summit League in 2023)"
     ],
     "confidence": "researched",
     "sources": [
@@ -16890,10 +16890,10 @@
   },
   "198808": {
     "profile_type": "researched",
-    "vibe": "A small mountain-town college in the North Carolina High Country where outdoorsy, nature-minded students study wildlife biology, equestrian sciences, and environmental science against a backdrop of the Blue Ridge Mountains.",
+    "vibe": "A small mountain-town college in the North Carolina High Country where outdoorsy, nature-minded students study wildlife biology and environmental science against a backdrop of the Blue Ridge Mountains, with a fast-growing varsity equestrian program.",
     "distinctives": [
       "Located in Banner Elk, North Carolina, in the Blue Ridge Mountains near ski resorts (e.g., Sugar Mountain, Beech Mountain) and Grandfather Mountain",
-      "Known for strong equestrian studies and wildlife biology / natural resource management programs that take advantage of the surrounding mountain environment",
+      "Known for strong wildlife biology / natural resource management programs that take advantage of the surrounding mountain environment, plus a newly launched varsity equestrian team (first competitive season 2024-25)",
       "Small private liberal arts college with a residential, close-knit campus feel",
       "Competes in NCAA Division II athletics as the Lees-McRae Bobcats"
     ],
@@ -18276,7 +18276,7 @@
     "vibe": "A hands-on SUNY campus in rural upstate New York where students learn by doing - working farms, animal barns, greenhouses, and teaching kitchens are as central to daily life as classrooms, drawing students who want practical, career-focused training in agriculture and applied fields.",
     "distinctives": [
       "Part of the State University of New York (SUNY) system, located in the small town of Cobleskill in Schoharie County, NY",
-      "Known for hands-on programs in agriculture, animal science, veterinary technology, culinary arts, and natural resources, many built around a working campus farm",
+      "Known for hands-on programs in agriculture, animal science, equine studies, culinary arts, and natural resources, many built around a working campus farm",
       "Offers both two-year associate degrees and a growing set of four-year bachelor's programs, making it a technical/applied-degree option within the SUNY network",
       "Small, rural residential campus culture centered on agricultural and applied-science coursework rather than a large research-university environment"
     ],
@@ -20610,12 +20610,12 @@
   },
   "459842": {
     "profile_type": "researched",
-    "vibe": "Herzing University-Kenosha is a for-profit, career-training-oriented campus offering short, applied programs in fields like healthcare, business, and technology, designed for working adults and students seeking a faster path into a specific job rather than a traditional four-year college experience.",
+    "vibe": "A career-training-oriented campus of the Herzing University system in Kenosha, offering applied programs in healthcare, business, and technology for working adults and career-changers seeking a faster path into a specific job rather than a traditional four-year college experience.",
     "distinctives": [
-      "For-profit institution and part of the Herzing University system, which operates multiple campuses nationally alongside online programs",
+      "Part of the Herzing University system, headquartered in Milwaukee, WI, which converted from for-profit to nonprofit status in 2015 and operates multiple campuses nationally alongside online programs",
       "Curriculum emphasizes career-focused certificates, diplomas, and degrees in areas such as nursing, healthcare, business, and technology",
       "Designed to serve working adults and career-changers, often with flexible or accelerated scheduling rather than a traditional residential campus model",
-      "As with many for-profit career colleges, prospective students should carefully review cost, loan debt levels, and graduate outcomes data, which can vary significantly from public and nonprofit institutions"
+      "As with many career colleges, prospective students should review program-specific outcomes and cost data, though Herzing's nonprofit status since 2015 sets it apart from most other career-college chains, which remain for-profit"
     ],
     "confidence": "researched",
     "sources": [
@@ -21186,12 +21186,12 @@
   },
   "140340": {
     "profile_type": "researched",
-    "vibe": "A career-focused, for-profit campus of the Herzing University system in Atlanta, geared toward working adults and career-changers pursuing practical credentials in fields like healthcare, business, and technology.",
+    "vibe": "A career-training-oriented campus of the Herzing University system in Atlanta, offering applied programs in healthcare, business, and technology for working adults and career-changers seeking a faster path into a specific job rather than a traditional four-year college experience.",
     "distinctives": [
-      "A campus location of Herzing University, a for-profit institution with career-focused programs in fields such as healthcare, business, technology, and public safety",
-      "Designed primarily for working adults and nontraditional students, with flexible scheduling and career-oriented certificate and degree programs rather than a traditional residential campus experience",
-      "As with many for-profit career colleges, prospective students should carefully research program-specific accreditation, licensure outcomes, cost, and loan repayment/default data before enrolling",
-      "Not a fit for students seeking a traditional four-year liberal arts or large-campus residential college experience"
+      "Part of the Herzing University system, headquartered in Milwaukee, WI, which converted from for-profit to nonprofit status in 2015 and operates multiple campuses nationally alongside online programs",
+      "Curriculum emphasizes career-focused certificates, diplomas, and degrees in areas such as nursing, healthcare, business, and technology",
+      "Designed to serve working adults and career-changers, often with flexible or accelerated scheduling rather than a traditional residential campus model",
+      "As with many career colleges, prospective students should review program-specific outcomes and cost data, though Herzing's nonprofit status since 2015 sets it apart from most other career-college chains, which remain for-profit"
     ],
     "confidence": "researched",
     "sources": [
@@ -21202,12 +21202,12 @@
   },
   "174154": {
     "profile_type": "researched",
-    "vibe": "A career-focused for-profit university campus in Minneapolis geared toward working adults and career-changers seeking fast, applied credentials in healthcare, IT, business, and public safety fields.",
+    "vibe": "A career-training-oriented campus of the Herzing University system in Minneapolis, offering applied programs in healthcare, business, and technology for working adults and career-changers seeking a faster path into a specific job rather than a traditional four-year college experience.",
     "distinctives": [
-      "Part of the Herzing University system, a private for-profit institution headquartered in Milwaukee, Wisconsin, with campuses in multiple states plus online programs",
-      "Curriculum emphasizes applied, career-oriented training (e.g., nursing, medical assisting, healthcare administration, IT, business) rather than a traditional residential liberal-arts experience",
-      "Serves a nontraditional student population, including many working adults and transfer students, with flexible scheduling and short program formats",
-      "As with many for-profit career colleges, prospective students should independently verify current accreditation status, program-specific outcomes, and cost/debt data before enrolling"
+      "Part of the Herzing University system, headquartered in Milwaukee, WI, which converted from for-profit to nonprofit status in 2015 and operates multiple campuses nationally alongside online programs",
+      "Curriculum emphasizes career-focused certificates, diplomas, and degrees in areas such as nursing, healthcare, business, and technology",
+      "Designed to serve working adults and career-changers, often with flexible or accelerated scheduling rather than a traditional residential campus model",
+      "As with many career colleges, prospective students should review program-specific outcomes and cost data, though Herzing's nonprofit status since 2015 sets it apart from most other career-college chains, which remain for-profit"
     ],
     "confidence": "researched",
     "sources": [
@@ -23382,7 +23382,15 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "distressed",
+    "status_detail": "Owned by Ambow NSAD, Inc. (part of for-profit Ambow Education, which acquired it from Laureate Education in 2020); recent reporting (2023-2025) flags serious financial and ownership turmoil, with its future in question. Not confirmed closed, but a real risk factor for prospective students.",
+    "status_sources": [
+      "Higher Education Inquirer",
+      "Times of San Diego"
+    ],
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23"
   },
   "123280": {
     "profile_type": "researched",
@@ -29778,12 +29786,12 @@
   },
   "501521": {
     "profile_type": "researched",
-    "vibe": "A for-profit, career-focused campus offering applied programs in business, healthcare, technology, and public safety, aimed at working adults and career-changers.",
+    "vibe": "A career-training-oriented campus of the Herzing University system in Clarksville, offering applied programs in healthcare, business, and technology for working adults and career-changers seeking a faster path into a specific job rather than a traditional four-year college experience.",
     "distinctives": [
-      "Part of the Herzing University system, a for-profit chain with campuses across multiple states plus online offerings",
-      "Programs emphasize applied, career-oriented training in fields like business, healthcare, IT, and public safety/criminal justice rather than traditional liberal arts",
-      "As a for-profit institution, prospective students should closely review cost, debt-to-earnings outcomes, and programmatic accreditation via College Scorecard",
-      "Designed for practical, workforce-ready credentialing rather than a traditional 4-year residential college experience"
+      "Part of the Herzing University system, headquartered in Milwaukee, WI, which converted from for-profit to nonprofit status in 2015 and operates multiple campuses nationally alongside online programs",
+      "Curriculum emphasizes career-focused certificates, diplomas, and degrees in areas such as nursing, healthcare, business, and technology",
+      "Designed to serve working adults and career-changers, often with flexible or accelerated scheduling rather than a traditional residential campus model",
+      "As with many career colleges, prospective students should review program-specific outcomes and cost data, though Herzing's nonprofit status since 2015 sets it apart from most other career-college chains, which remain for-profit"
     ],
     "confidence": "researched",
     "sources": [
