@@ -12825,5 +12825,69 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "433387": {
+    "profile_type": "researched",
+    "vibe": "A fully online, nonprofit university built for working adults, where students advance by proving mastery of material rather than logging classroom hours, and can finish faster (or slower) than a traditional semester schedule allows.",
+    "distinctives": [
+      "Pioneered the competency-based education model at scale: students demonstrate mastery through assessments rather than accumulating credit hours, and can move as quickly as they can prove proficiency",
+      "Fully online with no residential campus; based in Salt Lake City, Utah, and founded in 1997 by a bipartisan group of U.S. governors",
+      "Concentrates on career-aligned degrees in IT, business, K-12 teacher education, and nursing/health professions, each with a dedicated 'college' and industry-informed curriculum",
+      "Open-enrollment admissions (no selective admit rate) with flat-rate tuition per six-month term, making it popular with working adults and military-affiliated students seeking flexible, lower-cost degree completion"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "446604": {
+    "profile_type": "researched",
+    "vibe": "A small, community-rooted yeshiva serving the Hasidic community of Kiryas Joel, New York, focused on intensive Talmudic and rabbinical study rather than a conventional college experience.",
+    "distinctives": [
+      "Located in Kiryas Joel, a Satmar Hasidic village in Orange County, New York, and serves that religious community",
+      "Curriculum centers on Talmudic and religious (Torah) scholarship in the yeshiva tradition rather than a secular liberal-arts or professional program",
+      "Very small, single-purpose institution; detailed public data on enrollment, outcomes, and campus life is limited outside religious-community records",
+      "Best understood as a rabbinical/religious training institution for young men rather than a general-purpose degree-granting college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "476717": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish institution devoted to advanced Talmudic and rabbinical study, serving a specific religious community rather than operating as a conventional liberal-arts or career-focused college.",
+    "distinctives": [
+      "Functions as a Talmudic seminary (yeshiva) rather than a traditional degree-granting liberal-arts college, with a curriculum built around Torah and Talmud study",
+      "Very small enrollment and narrow institutional focus; little public information exists beyond basic accreditation and registration records",
+      "Serves students pursuing religious/rabbinical training within the Orthodox Jewish tradition rather than a general undergraduate population",
+      "Best characterized honestly and generally as a small institution focused on rabbinical/Talmudic studies serving its community, given the limited public detail available"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "488846": {
+    "profile_type": "researched",
+    "vibe": "A tuition-free, fully online nonprofit university built explicitly to widen access to higher education for students worldwide, including refugees and those in countries with limited local options.",
+    "distinctives": [
+      "Founded in 2009 by educational entrepreneur Shai Reshef as a nonprofit, tuition-free online university; students pay only modest one-time application and per-course assessment fees",
+      "Accredited (DEAC) and offers associate, bachelor's, and master's degrees in fields like business administration, computer science, health science, and education",
+      "Draws a highly international student body, with notable enrollment of refugees and students from underserved regions who lack access to traditional higher ed",
+      "Has partnered with organizations such as the UNHCR, HP, and various universities/foundations to provide scholarships and expand access for low-income and displaced students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
