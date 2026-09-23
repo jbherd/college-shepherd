@@ -1676,7 +1676,15 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-19"
     ],
-    "vibe": "A small Catholic liberal arts college in Paxton, MA, founded in 1946 by the Sisters of Saint Anne, known for one of the largest fire science programs in the Northeast -- and, after 80 years, notable now as a cautionary case: the college closed for good in 2026 amid financial collapse."
+    "vibe": "A small Catholic liberal arts college in Paxton, MA, founded in 1946 by the Sisters of Saint Anne, known for one of the largest fire science programs in the Northeast -- and, after 80 years, notable now as a cautionary case: the college closed for good in 2026 amid financial collapse.",
+    "institution_status": "closed",
+    "status_detail": "Closed permanently in 2026 after filing for Chapter 11 bankruptcy, citing falling enrollment.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "Inside Higher Ed",
+      "Worcester Business Journal"
+    ]
   },
   "164739": {
     "confidence": "researched",
@@ -2390,7 +2398,14 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-19"
     ],
-    "vibe": "A small private health-sciences college in Albany, NY, founded in 1881 as the nation's 14th pharmacy program and now training pharmacists and other health professionals, with a planned merger into Russell Sage College targeted for fall 2027."
+    "vibe": "A small private health-sciences college in Albany, NY, founded in 1881 as the nation's 14th pharmacy program and now training pharmacists and other health professionals, with a planned merger into Russell Sage College targeted for fall 2027.",
+    "institution_status": "merging",
+    "status_detail": "NY Board of Regents approved merger into Russell Sage College on May 20, 2026; target completion fall 2027 pending final U.S. Dept. of Education approval.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "WAMC"
+    ]
   },
   "189088": {
     "confidence": "researched",
@@ -6568,7 +6583,15 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "closing",
+    "status_detail": "Announced April 14, 2026 that it will permanently close after the fall 2026 semester, following a shortfall in a $55M turnaround fundraising push. Not accepting new students.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "GBH",
+      "Higher Ed Dive"
+    ]
   },
   "200217": {
     "profile_type": "researched",
@@ -13112,7 +13135,16 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "distressed",
+    "status_detail": "Filed Chapter 11 bankruptcy April 2026 after losing SACSCOC accreditation in 2025; states it will not close, but fall 2026 classes were reportedly disrupted. High risk -- verify current status directly before applying.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "Inside Higher Ed",
+      "WRAL",
+      "HBCU Buzz"
+    ]
   },
   "120768": {
     "profile_type": "researched",
@@ -13880,7 +13912,15 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "closed",
+    "status_detail": "Closed permanently in August 2026 after its summer semester ended, following a June 2026 'show-cause' accreditation order.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "Inside Higher Ed",
+      "CBS Philadelphia"
+    ]
   },
   "484473": {
     "profile_type": "researched",
@@ -14984,7 +15024,15 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "closing",
+    "status_detail": "Announced June 30, 2025 that it will close at the conclusion of the 2025-2026 academic year. Not accepting new students.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "Siena Heights University official announcement",
+      "CBS Detroit"
+    ]
   },
   "160904": {
     "profile_type": "researched",
@@ -15144,7 +15192,14 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "distressed",
+    "status_detail": "Board determined in 2024 it could not operate independently; drastically cut programs (from 53 on-campus/60+ online to 9 on-campus/7 online, concentrated in medical/education fields) effective June 2025. Still enrolling in surviving programs.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "Higher Ed Dive"
+    ]
   },
   "138293": {
     "profile_type": "researched",
@@ -16760,7 +16815,14 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "distressed",
+    "status_detail": "Enrollment down over 40% since a 2012 peak (now under 600 students), but recently released from the U.S. Dept. of Education's heightened cash monitoring -- a positive sign. Still fragile; Middle States requires added financial documentation.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "Adirondack Explorer"
+    ]
   },
   "203544": {
     "profile_type": "researched",
@@ -17880,7 +17942,14 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "merging",
+    "status_detail": "Merging into Northeastern University; agreement since May 2024, NY State and accreditor approval complete, final federal financial-aid approval targeted for summer 2026. Will be renamed 'Northeastern -- New York City.' Not a closure -- a going-concern merger.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "Boston Globe"
+    ]
   },
   "218733": {
     "profile_type": "researched",
@@ -21529,7 +21598,15 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-22"
     ],
-    "last_updated": "2026-09-22"
+    "last_updated": "2026-09-22",
+    "institution_status": "distressed",
+    "status_detail": "Still accredited and operating (Chicago/Tampa campuses), but flagged on 2025 'colleges in trouble' watchlists for financial strain; undergoing HLC mid-cycle review in 2026.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "Higher Education Inquirer",
+      "HLC accreditation status"
+    ]
   },
   "157377": {
     "profile_type": "researched",
@@ -26857,7 +26934,15 @@
       "Claude's own knowledge, cross-checked against College Scorecard hard data",
       "applied via scheduled batch on 2026-09-23"
     ],
-    "last_updated": "2026-09-23"
+    "last_updated": "2026-09-23",
+    "institution_status": "closed",
+    "status_detail": "Physical Rapid City campus closed in March 2019 when NAU shut most of its ~24 physical locations and moved fully online. This scorecard entry represents the closed physical campus.",
+    "status_verified_date": "2026-09-23",
+    "status_next_check": "2027-03-23",
+    "status_sources": [
+      "KOTA TV",
+      "Wikipedia"
+    ]
   },
   "219505": {
     "profile_type": "researched",
