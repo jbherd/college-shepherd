@@ -22090,5 +22090,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "140988": {
+    "profile_type": "researched",
+    "vibe": "Shorter University is a small, private Christian liberal arts university in Rome, Georgia, affiliated with the Baptist tradition, emphasizing faith-integrated education alongside career-focused majors.",
+    "distinctives": [
+      "Small private institution located in Rome, Georgia, with historical Baptist denominational ties",
+      "Offers a mix of liberal arts, professional, and pre-professional undergraduate programs alongside graduate offerings",
+      "Competes in NAIA athletics, which plays a notable role in campus culture given its modest enrollment",
+      "Emphasizes a faith-based campus environment, including chapel and Christian worldview integration in coursework"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "154493": {
+    "profile_type": "researched",
+    "vibe": "Upper Iowa University, based in Fayette, Iowa, is a private nonprofit institution best known for its extensive network of off-campus and online programs serving adult and nontraditional students well beyond its small residential campus.",
+    "distinctives": [
+      "Main residential campus is in the small town of Fayette, Iowa, but the university operates numerous satellite centers and online programs nationally and internationally",
+      "Historically serves a significant population of working adult and nontraditional students through flexible/accelerated degree formats",
+      "Offers undergraduate and graduate programs with a practical, career-oriented curriculum focus",
+      "Fields NCAA Division II athletics on its Fayette campus, which anchors traditional student life there"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217688": {
+    "profile_type": "researched",
+    "vibe": "Charleston Southern University is a private Christian university in North Charleston, South Carolina, affiliated with the Baptist tradition, blending liberal arts and professional programs with an emphasis on faith and service.",
+    "distinctives": [
+      "Located in North Charleston, South Carolina, near the Charleston metro area, with historic ties to the South Carolina Baptist Convention",
+      "Offers a range of undergraduate and graduate programs, including business, education, nursing, and criminal justice",
+      "Competes in NCAA Division I athletics (Big South Conference), notable for a university of its size",
+      "Campus culture centers on Christian faith integration, including required chapel or spiritual life programming for undergraduates"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214786": {
+    "profile_type": "researched",
+    "vibe": "Penn State Greater Allegheny is a small commuter branch campus of Pennsylvania State University located in McKeesport, near Pittsburgh, offering the first two years of many Penn State degrees plus a handful of bachelor's programs locally.",
+    "distinctives": [
+      "One of Penn State's smaller Commonwealth Campuses, located in McKeesport, Pennsylvania, in the greater Pittsburgh area",
+      "Primarily serves local and commuter students, with many starting coursework there before transitioning to University Park or another Penn State campus to finish a degree (the '2+2' pathway)",
+      "Offers a limited number of complete bachelor's degrees on-site in addition to associate-to-bachelor's pathways",
+      "Much smaller in enrollment and campus scale than Penn State's main University Park campus, with a more intimate, community-college-like feel"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214810": {
+    "profile_type": "researched",
+    "vibe": "Penn State Schuylkill is a small commuter branch campus of Pennsylvania State University in Schuylkill Haven, in eastern Pennsylvania, offering early coursework toward Penn State degrees along with a small set of local bachelor's programs.",
+    "distinctives": [
+      "One of Penn State's smaller Commonwealth Campuses, located in Schuylkill Haven, Pennsylvania",
+      "Like other Commonwealth Campuses, many students begin their studies there and later transfer to University Park or another campus to complete their degree (the '2+2' model)",
+      "Offers a limited selection of complete bachelor's degree programs on-site",
+      "Smaller enrollment and more localized, commuter-oriented student population compared to Penn State's main University Park campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161226": {
+    "profile_type": "researched",
+    "vibe": "A small public liberal arts college in rural western Maine, known for personal attention, tight-knit community, and strong teacher-prep and creative writing programs.",
+    "distinctives": [
+      "Designated Maine's public liberal arts college, with a small student body (well under 2,000) and low student-faculty ratio",
+      "Located in the small town of Farmington, Maine, offering a rural, close-knit campus environment",
+      "Historically strong in elementary education, early childhood education, and creative writing programs",
+      "Part of the University of Maine System; has faced enrollment declines and budget pressures common to small rural public colleges in the Northeast"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214801": {
+    "profile_type": "researched",
+    "vibe": "A commuter-oriented branch campus of Penn State located just outside Philadelphia, offering the first two years of many Penn State degree paths in a suburban, diverse, metro-area setting before students transition to University Park or another campus.",
+    "distinctives": [
+      "One of Penn State's Commonwealth Campuses, located in Abington, Pennsylvania, in the Philadelphia suburbs",
+      "Offers a handful of complete bachelor's degrees on-site plus 2+2 pathways into University Park and other Penn State campuses",
+      "Smaller, more affordable, and more commuter-focused than Penn State's main University Park campus",
+      "Draws heavily from the greater Philadelphia region, contributing to a racially and economically diverse student body relative to many Penn State campuses"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "237792": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public liberal arts university in the scenic Eastern Panhandle of West Virginia, popular with students from the DC/Baltimore metro area for its affordable tuition, small classes, and historic small-town campus.",
+    "distinctives": [
+      "Public liberal arts institution located in Shepherdstown, West Virginia, one of the state's oldest towns",
+      "Modest enrollment (roughly a few thousand undergraduates), with small class sizes and a residential feel",
+      "Notable programs include nursing, environmental/sustainability studies, and education",
+      "Within commuting distance of the Washington, D.C. and Baltimore metro areas, drawing a significant share of out-of-state students from Maryland and Virginia"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214591": {
+    "profile_type": "researched",
+    "vibe": "A larger Penn State Commonwealth Campus on the shore of Lake Erie, distinctive for offering more complete four-year degree programs on-site (including engineering) than most branch campuses, with a more residential feel than typical commuter branches.",
+    "distinctives": [
+      "Located in Erie, Pennsylvania, on a campus along Lake Erie known as Behrend College",
+      "One of the larger Penn State Commonwealth Campuses, offering a substantial number of full bachelor's degrees on-site rather than just start-here pathways",
+      "Known for engineering, plastics/polymer engineering technology, and business programs, plus NCAA Division III athletics (the Lions)",
+      "Has more on-campus housing and a more traditional residential-campus feel than many other Penn State branch campuses"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "240727": {
+    "profile_type": "researched",
+    "vibe": "The flagship public research university of Wyoming, serving as the state's only four-year public university, with a strong land-grant identity, relatively low cost for residents, and programs shaped by the surrounding Rocky Mountain and energy-industry setting.",
+    "distinctives": [
+      "Located in Laramie, Wyoming, and serves as Wyoming's sole public four-year university and land-grant institution",
+      "Offers a full range of undergraduate and graduate programs, including notable strengths in engineering, energy/natural resources, agriculture, and geology",
+      "Historically low in-state tuition, funded in part by state mineral/energy revenues, making it an affordable option for Wyoming residents",
+      "Mid-sized enrollment with a residential campus culture and NCAA Division I athletics (the Cowboys/Cowgirls) as a source of campus identity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "229063": {
+    "profile_type": "researched",
+    "vibe": "A large public historically Black university in Houston, Texas Southern is known for producing Black professionals in law, pharmacy, and business, with a campus culture rooted in access and advocacy.",
+    "distinctives": [
+      "Home to the Thurgood Marshall School of Law and a well-regarded College of Pharmacy and Health Sciences",
+      "One of the largest HBCUs in the country by enrollment, located in Houston's Third Ward",
+      "Has faced periods of financial and governance scrutiny over the years, including state fiscal oversight in the mid-2010s",
+      "Offers a broad range of undergraduate and graduate programs, with strengths in business, public affairs, and health-related fields"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214643": {
+    "profile_type": "researched",
+    "vibe": "Penn State Wilkes-Barre is a small Commonwealth Campus of Penn State in Lehman, Pennsylvania, offering an intimate, lower-cost entry point into the Penn State system for students from the Wilkes-Barre/Scranton region.",
+    "distinctives": [
+      "One of Penn State's smaller Commonwealth Campuses, with a compact residential and commuter student body",
+      "Offers associate degrees and select bachelor's degree programs, with many students transitioning to a larger Penn State campus (e.g., University Park) to finish a four-year degree via the '2+2' pathway",
+      "Located in a rural/suburban setting in Luzerne County, PA, near the city of Wilkes-Barre",
+      "Smaller class sizes and closer faculty contact than Penn State's flagship campus, while still carrying the Penn State degree and brand"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178341": {
+    "profile_type": "researched",
+    "vibe": "Missouri Southern State University is a mid-sized public university in Joplin, Missouri, notable for an unusually large and diverse international student population relative to its size, alongside a regional-access mission for southwest Missouri.",
+    "distinctives": [
+      "Located in Joplin, Missouri, serving primarily as a regional public university for the surrounding area",
+      "Has long maintained a distinctive international education emphasis, drawing students from dozens of countries",
+      "Offers a range of bachelor's degree programs with strengths in business, education, and health sciences, alongside some graduate offerings",
+      "Relatively affordable tuition and an open/moderately selective admissions profile typical of regional state universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214740": {
+    "profile_type": "researched",
+    "vibe": "Penn State DuBois is a small Commonwealth Campus in rural north-central Pennsylvania, giving local students a low-cost, close-knit way into the Penn State system.",
+    "distinctives": [
+      "A small branch campus of Penn State located in DuBois, PA, serving a largely rural region of the state",
+      "Primarily offers associate degrees and a limited set of bachelor's programs, with many students transferring to a larger Penn State campus to complete their degree",
+      "Small enrollment and small class sizes compared to Penn State's main University Park campus",
+      "Provides the Penn State name and academic resources at a significantly lower cost and more local setting than the flagship campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "148487": {
+    "profile_type": "researched",
+    "vibe": "Roosevelt University is a private, mission-driven university in downtown Chicago, founded in 1945 with an explicit commitment to social justice and access, and known for its historic Auditorium Building campus and strong performing arts programs.",
+    "distinctives": [
+      "Founded in 1945 with a founding mission emphasizing racial and religious inclusion and access to higher education, named for Franklin and Eleanor Roosevelt",
+      "Main campus is housed in the landmark Auditorium Building in downtown Chicago's Loop, alongside a suburban campus in Schaumburg, Illinois",
+      "Home to the Chicago College of Performing Arts, known for music, theatre, and dance programs",
+      "A mid-sized private university offering undergraduate and graduate programs across business, education, arts and sciences, and performing arts"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "238324": {
+    "profile_type": "researched",
+    "vibe": "A small, private, Catholic-affiliated health sciences college in Green Bay, Wisconsin, focused almost entirely on training nurses and allied health professionals for careers in the region's hospitals and clinics.",
+    "distinctives": [
+      "Private, not-for-profit institution historically affiliated with the Sisters of St. Francis and sponsored by Bellin Health hospital system",
+      "Very small enrollment, concentrated almost entirely in nursing and allied health degree programs (BSN, and graduate nursing/health science degrees)",
+      "Located in Green Bay, Wisconsin, with strong clinical ties to Bellin Health facilities for hands-on training",
+      "Career-focused, practical curriculum aimed at direct entry into nursing and healthcare professions rather than a broad liberal-arts experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "237215": {
+    "profile_type": "researched",
+    "vibe": "A public historically Black university in Bluefield, West Virginia, that has evolved from a teachers' college into a broader regional institution now offering bachelor's and some graduate-level programs, including nursing and applied technical fields.",
+    "distinctives": [
+      "Public university located in Bluefield, West Virginia, and one of West Virginia's historically Black colleges and universities (HBCUs)",
+      "Renamed from Bluefield State College to Bluefield State University in recent years as part of a broader institutional expansion",
+      "Offers a mix of liberal arts, education, business, and technical/applied programs, including nursing",
+      "Small, regional institution that primarily serves in-state and nearby Appalachian students, with a commuter-heavy student population"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "237932": {
+    "profile_type": "researched",
+    "vibe": "A small public university in the West Virginia panhandle offering a traditional residential college experience with a range of undergraduate and select graduate programs, including a well-regarded pharmacy school.",
+    "distinctives": [
+      "Public university located in West Liberty, West Virginia, near Wheeling, with a traditional small-town campus setting",
+      "Offers a broad range of undergraduate liberal arts and professional programs plus a School of Pharmacy (PharmD)",
+      "Relatively small enrollment with a residential, close-knit campus culture and NCAA Division II athletics",
+      "Draws students primarily from West Virginia, Ohio, and Pennsylvania given its tri-state border location"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214670": {
+    "profile_type": "researched",
+    "vibe": "A small commuter branch campus of Penn State located in Center Valley, Pennsylvania, serving Lehigh Valley-area students with a mix of associate and bachelor's programs, many designed for transfer into Penn State's larger campuses or completion locally.",
+    "distinctives": [
+      "One of Penn State's Commonwealth Campuses, located in Center Valley, Pennsylvania, in the Lehigh Valley region",
+      "Primarily a commuter campus offering the first two years of many Penn State bachelor's degrees plus select local bachelor's completion and associate degree programs",
+      "Small enrollment compared to Penn State's University Park flagship, with students often transferring to other Penn State campuses to finish their degree",
+      "Provides access to Penn State's academic resources, faculty, and degree pathways at a smaller, more local, lower-cost campus setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "409698": {
+    "profile_type": "researched",
+    "vibe": "A public four-year university on California's Monterey Bay coast, built on a former U.S. Army base, known for its emphasis on hands-on, community-engaged learning and a diverse, largely first-generation student body.",
+    "distinctives": [
+      "Public university in the California State University (CSU) system, located in Seaside, California, on the site of the former Fort Ord Army base",
+      "Founded in the 1990s, making it one of the newer CSU campuses, with a mission emphasizing multicultural and interdisciplinary learning",
+      "Serves a diverse student population with a high proportion of first-generation and Hispanic-serving-institution (HSI) designated students",
+      "Offers programs with regional strengths tied to its Central Coast location, including marine/environmental science, business, and liberal studies/teacher preparation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214829": {
+    "profile_type": "researched",
+    "vibe": "A commuter-friendly branch campus of Penn State in south-central Pennsylvania, offering a smaller, close-knit alternative to the main University Park campus while still granting Penn State degrees.",
+    "distinctives": [
+      "One of Penn State's Commonwealth Campuses, located in York, Pennsylvania",
+      "Offers a mix of two-year and select four-year bachelor's degree programs, with many students transitioning to University Park or another Penn State campus to finish certain majors",
+      "Small enrollment (roughly a few thousand students) compared to the main campus, with smaller class sizes",
+      "Primarily serves local and commuter students from the York/south-central PA region"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "187745": {
+    "profile_type": "researched",
+    "vibe": "A federally chartered tribal college in Santa Fe, New Mexico, dedicated entirely to contemporary Native American and Alaska Native arts, offering a unique and highly specialized path for students committed to indigenous arts practice.",
+    "distinctives": [
+      "Known as the Institute of American Indian Arts (IAIA), a tribal college chartered by the U.S. Congress and located in Santa Fe, New Mexico",
+      "Focuses exclusively on Native American and Alaska Native arts, including studio art, creative writing, museum studies, and indigenous liberal studies",
+      "Very small student body, drawing Native students from tribes across the U.S. and Canada",
+      "Offers a distinctive museum (the Museum of Contemporary Native Arts) connected to the institution, and is not a general-purpose college \u2014 it suits students specifically pursuing arts and indigenous studies"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "145372": {
+    "profile_type": "researched",
+    "vibe": "A small, Christian liberal arts university affiliated with the Free Methodist Church in rural Illinois, emphasizing faith-integrated education and a close campus community.",
+    "distinctives": [
+      "Private university affiliated with the Free Methodist Church, located in Greenville, Illinois",
+      "Small enrollment with a residential, close-knit campus community and low student-to-faculty ratio typical of small liberal arts colleges",
+      "Offers a range of undergraduate majors alongside required chapel/faith formation components, reflecting its evangelical Christian mission",
+      "Competes in intercollegiate athletics (NAIA), which plays a significant role in campus life given the school's size"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "100724": {
+    "profile_type": "researched",
+    "vibe": "A public historically Black university (HBCU) in Montgomery, Alabama, with deep roots in African American education dating to the Reconstruction era, offering a strong sense of tradition, community, and access-oriented higher education.",
+    "distinctives": [
+      "One of the nation's oldest HBCUs, tracing its founding to 1867, located in Montgomery, Alabama",
+      "Public university offering a broad range of undergraduate and graduate programs, including nursing, education, and business",
+      "Sizeable student body predominantly composed of Black/African American students, with a strong campus culture around Greek life, band, and athletics (NCAA Division I, SWAC conference)",
+      "Has experienced periods of financial and enrollment challenges common to many public regional HBCUs, alongside ongoing state and federal investment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214713": {
+    "profile_type": "researched",
+    "vibe": "A midsize Commonwealth Campus of Penn State located in Middletown, Pennsylvania near the state capital, offering a broader range of bachelor's and graduate programs than most branch campuses, including some upper-division and professional offerings.",
+    "distinctives": [
+      "A Penn State Commonwealth Campus located in Middletown, Pennsylvania, near Harrisburg, the state capital",
+      "Offers a wider array of full four-year bachelor's degrees than many other branch campuses, plus select graduate and professional programs",
+      "Moderate-sized campus with both resident and commuter students, distinct from the University Park flagship experience",
+      "Benefits from proximity to Harrisburg for internships and career opportunities in government, business, and public policy fields"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
