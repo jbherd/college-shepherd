@@ -24090,5 +24090,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "497480": {
+    "profile_type": "researched",
+    "vibe": "A nonprofit, low-cost apprenticeship-based university built to help working adults\u2014especially school paraprofessionals\u2014earn a bachelor's degree and become certified teachers without quitting their jobs.",
+    "distinctives": [
+      "Structured around a 'higher apprenticeship' model combining paid on-the-job work with online coursework rather than a traditional campus experience",
+      "Best known for its teacher-residency pathway that helps paraprofessionals and instructional aides earn bachelor's degrees and teaching certification",
+      "Designed to be low-cost/affordable relative to typical four-year private universities, targeting working adults rather than traditional 18-year-old freshmen",
+      "Primarily online/distributed delivery rather than a single residential campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "498049": {
+    "profile_type": "researched",
+    "vibe": "A small private career college campus in the Southfield, Michigan area focused entirely on training students for nursing careers through a fast, structured, NCLEX-oriented curriculum.",
+    "distinctives": [
+      "Part of the Arizona College of Nursing system, a multi-campus private for-profit institution focused exclusively on nursing education",
+      "Curriculum is nursing-only (e.g., practical/vocational and BSN-track programs) rather than a broad liberal-arts offering",
+      "Emphasizes NCLEX licensure exam preparation and clinical/hands-on training as a core part of the program design",
+      "Small, career-college scale campus rather than a large traditional university setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "498447": {
+    "profile_type": "researched",
+    "vibe": "A small private career college campus near Falls Church, Virginia, offering a focused, accelerated nursing curriculum for students aiming to become licensed nurses.",
+    "distinctives": [
+      "Part of the Arizona College of Nursing system, a multi-campus private for-profit institution focused exclusively on nursing education",
+      "Curriculum is nursing-only, built around practical and hands-on clinical preparation rather than a broad range of majors",
+      "Program design centers on preparing graduates for the NCLEX licensure exam",
+      "Small, career-college scale campus in the Washington, D.C. metro area rather than a large traditional university setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "498456": {
+    "profile_type": "researched",
+    "vibe": "A small private career college campus in Ontario, California, dedicated to preparing students for nursing careers through a compact, clinically focused curriculum.",
+    "distinctives": [
+      "Part of the Arizona College of Nursing system, a multi-campus private for-profit institution focused exclusively on nursing education",
+      "Curriculum is nursing-only, with an emphasis on hands-on clinical training rather than general education breadth",
+      "Program design centers on preparing graduates for the NCLEX licensure exam",
+      "Small, career-college scale campus in the Inland Empire region of Southern California rather than a large traditional university setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "499370": {
+    "profile_type": "researched",
+    "vibe": "A small private career college campus in Sarasota, Florida, offering a focused nursing curriculum designed to move students efficiently toward licensure.",
+    "distinctives": [
+      "Part of the Arizona College of Nursing system, a multi-campus private for-profit institution focused exclusively on nursing education",
+      "Curriculum is nursing-only, built around clinical rotations and hands-on skills training rather than a broad range of majors",
+      "Program design centers on preparing graduates for the NCLEX licensure exam",
+      "Small, career-college scale campus on Florida's Gulf Coast rather than a large traditional university setting"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "499389": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused nursing campus in the Denver-Aurora area built for students who already know they want an RN license and prefer a compressed, practical program over a traditional four-year college experience.",
+    "distinctives": [
+      "Part of the multi-campus, for-profit Arizona College of Nursing system, which offers a single-purpose nursing curriculum (BSN track) rather than broad general-education majors",
+      "Curriculum is structured around NCLEX-RN exam preparation and clinical/skills-lab training rather than a traditional liberal-arts campus experience",
+      "Small campus enrollment compared to public universities, with cohort-based, accelerated scheduling common among career colleges in this chain",
+      "Located in the Aurora, Colorado area, giving students access to Denver-metro hospital systems for clinical placements"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "499398": {
+    "profile_type": "researched",
+    "vibe": "A small, single-purpose nursing campus in Cincinnati designed for students who want a direct, no-frills path into RN practice rather than a broad-based college experience.",
+    "distinctives": [
+      "One of several Ohio-area campuses in the Arizona College of Nursing for-profit system, offering only a nursing (BSN) curriculum",
+      "Program design centers on NCLEX-RN exam readiness and hands-on clinical/skills-lab work",
+      "Small, cohort-style enrollment typical of career-focused nursing colleges rather than a large traditional university",
+      "Situated in the Cincinnati, Ohio metro area, giving access to regional hospital systems for clinical rotations"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "499404": {
+    "profile_type": "researched",
+    "vibe": "A small, career-oriented nursing campus in Cleveland that trades a traditional multi-major college atmosphere for a tight, exam-focused path to becoming an RN.",
+    "distinctives": [
+      "Part of the for-profit, multi-state Arizona College of Nursing chain, offering exclusively nursing (BSN) coursework rather than general majors",
+      "Coursework and clinical training are built around NCLEX-RN preparation and skills-lab practice",
+      "Small campus enrollment relative to public four-year universities, consistent with career-college models",
+      "Located in the Cleveland, Ohio area, providing access to local hospital systems for clinical placements"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "500290": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused nursing campus serving the Chesapeake/Hampton Roads area of Virginia, aimed at students seeking a fast, structured route to RN licensure.",
+    "distinctives": [
+      "Part of the Arizona College of Nursing for-profit system, with a curriculum limited to nursing (BSN) rather than a general college catalog",
+      "Emphasizes NCLEX-RN exam preparation alongside clinical and skills-lab instruction",
+      "Small, cohort-based campus enrollment typical of single-program career colleges",
+      "Located in the Chesapeake, Virginia/Hampton Roads region, offering proximity to area hospital systems for clinical rotations"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "500306": {
+    "profile_type": "researched",
+    "vibe": "A small nursing-only campus in Hartford built for students who want a focused, career-fast track into RN practice rather than a broad, multi-year college experience.",
+    "distinctives": [
+      "One of several campuses in the multi-state, for-profit Arizona College of Nursing system, offering solely a nursing (BSN) program of study",
+      "Program structure emphasizes NCLEX-RN exam preparation and hands-on clinical/skills-lab components",
+      "Small, cohort-driven enrollment consistent with the career-college model rather than a large traditional university",
+      "Located in the Hartford, Connecticut area, providing access to regional hospital systems for clinical placements"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "500333": {
+    "profile_type": "researched",
+    "vibe": "A small, career-focused nursing campus in the St. Louis area, part of a for-profit chain built specifically to funnel students into nursing licensure quickly.",
+    "distinctives": [
+      "Part of the Arizona College of Nursing system, a multi-campus private for-profit institution focused almost exclusively on nursing education",
+      "Offers practical/vocational and associate or bachelor's-level nursing programs designed to prepare students for the NCLEX licensure exam",
+      "Small, career-college format with a narrow program catalog rather than a traditional broad liberal arts curriculum",
+      "Campus located in the greater St. Louis, Missouri area, serving students pursuing a direct path into nursing careers"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "500342": {
+    "profile_type": "researched",
+    "vibe": "A small, career-oriented private college offering focused workforce and credentialing programs rather than a traditional four-year campus experience.",
+    "distinctives": [
+      "Small private career college with a narrow, program-specific curriculum rather than broad liberal arts offerings",
+      "Geared toward working adults and career-changers seeking a direct, efficient path to a credential or licensure",
+      "Limited on-campus amenities and student life compared to traditional universities, typical of career-college models",
+      "Best fit for students who already know their target career path and want a shorter, applied course of study"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "100690": {
+    "profile_type": "researched",
+    "vibe": "A small private Christian university in Montgomery, Alabama, built around distance and online education with deep roots in the Churches of Christ tradition.",
+    "distinctives": [
+      "Affiliated with the Churches of Christ and rooted in biblical/ministry education, though it also offers business, counseling, and human services degrees",
+      "Known primarily for flexible online and distance-learning degree programs aimed at working adults",
+      "Small enrollment with a strong emphasis on Christian values integrated across coursework",
+      "Offers programs from the undergraduate through graduate and doctoral level, including degrees in ministry and marriage and family therapy"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "100812": {
+    "profile_type": "researched",
+    "vibe": "A public Alabama university built specifically for transfer students, offering only junior/senior-level coursework to those who've already completed their first two years elsewhere.",
+    "distinctives": [
+      "Upper-division-only public university that admits students with junior standing, typically after completing an associate degree at a community college",
+      "Located in Athens, Alabama, and part of the University of Alabama System",
+      "Offers a range of bachelor's completion degrees plus some graduate/master's programs, often with flexible and online formats geared toward working adults",
+      "Serves a nontraditional student population heavily focused on degree completion rather than a first-time freshman experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "101116": {
+    "profile_type": "researched",
+    "vibe": "A private for-profit campus in the South University system, offering career-oriented associate through doctoral programs in fields like health sciences and business.",
+    "distinctives": [
+      "Campus of South University, a multi-state private for-profit university system focused on career-oriented degree programs",
+      "Located in Montgomery, Alabama, offering programs in areas such as nursing, health sciences, business, and legal studies",
+      "Smaller, career-college-style campus with programs designed around workforce entry rather than a traditional broad liberal arts model",
+      "Offers a range of credential levels from associate degrees up through graduate and professional programs depending on the field"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "101675": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit historically Black college outside Birmingham where faith, community, and first-generation student support are central to campus life.",
+    "distinctives": [
+      "Historically Black college (HBCU) located in Fairfield, Alabama, part of the Birmingham metro area",
+      "Affiliated with the Christian Methodist Episcopal (CME) Church",
+      "Small, primarily undergraduate liberal arts institution with a business program that holds notable accreditation",
+      "Member of the Southern Intercollegiate Athletic Conference (SIAC), NCAA Division II"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "102058": {
+    "profile_type": "researched",
+    "vibe": "One of the oldest historically Black institutions in Alabama, a very small Baptist-affiliated school that has weathered serious financial and accreditation struggles while continuing to serve a small, dedicated student body.",
+    "distinctives": [
+      "Historically Black private university in Selma, Alabama, founded in the late 19th century with Baptist roots",
+      "One of the smallest degree-granting institutions in the country by enrollment",
+      "Has faced significant financial difficulties and periods of lost or contested accreditation over the years, which prospective students should research carefully and verify current status directly with the school",
+      "Offers a limited range of undergraduate programs compared to larger four-year institutions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "102553": {
+    "profile_type": "researched",
+    "vibe": "An urban public university serving Alaska's largest city, offering a broad mix of career-focused and academic programs to a diverse, often nontraditional student population.",
+    "distinctives": [
+      "Public university in Anchorage, Alaska, and the largest campus by enrollment in the University of Alaska system",
+      "Offers a wide range of undergraduate and some graduate programs, including strong career and technical/health sciences offerings",
+      "Serves many working, part-time, and nontraditional students alongside traditional-age undergraduates",
+      "Part of the University of Alaska system, distinct from the flagship research-focused UAF campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "102580": {
+    "profile_type": "researched",
+    "vibe": "A very small Christian Bible college in Alaska focused on ministry training and higher education access for Alaska Native students, offering an intimate, faith-centered environment far from a traditional large-campus experience.",
+    "distinctives": [
+      "Very small private Christian college in Alaska (historically known as Alaska Bible College, now operating as Alaska Christian College) with a mission centered on serving Alaska Native students",
+      "Emphasizes Bible/ministry education alongside general studies and life-skills support",
+      "Enrollment is extremely small compared to typical four-year colleges",
+      "Prospective students should verify current accreditation, program offerings, and name/status directly with the school, as small Bible colleges can see frequent institutional changes"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "102614": {
+    "profile_type": "researched",
+    "vibe": "The flagship research university of the University of Alaska system, known for strong programs in arctic and environmental sciences and a campus culture shaped by the state's remote, rugged geography.",
+    "distinctives": [
+      "Public flagship and primary research campus of the University of Alaska system, located in Fairbanks",
+      "Recognized for research strengths in areas like arctic science, geophysics, natural resources, and engineering, given its subarctic location",
+      "Offers a broad range of undergraduate and graduate degrees, including doctoral programs, unlike most other Alaska system campuses",
+      "Smaller and more remote than many U.S. flagship universities, with a campus culture shaped by Alaska's climate and geography"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "106263": {
+    "profile_type": "researched",
+    "vibe": "Arkansas's only academic health sciences center, training the state's future doctors, nurses, pharmacists, and other health professionals rather than serving as a traditional undergraduate campus.",
+    "distinctives": [
+      "Located in Little Rock, Arkansas, and operates as the state's only comprehensive academic medical center",
+      "Offers graduate and professional degrees across colleges of Medicine, Nursing, Pharmacy, Public Health, and Health Professions, not a general undergraduate liberal arts program",
+      "Includes a major teaching hospital and research enterprise tied directly to clinical training",
+      "Admission is competitive and program-specific, typically requiring prior undergraduate coursework or a bachelor's degree"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "106306": {
+    "profile_type": "researched",
+    "vibe": "A small, historically Black private college in Little Rock rooted in the Baptist tradition, serving a close-knit student body while working through real institutional challenges.",
+    "distinctives": [
+      "Located in Little Rock, Arkansas, and affiliated with the Baptist church tradition",
+      "One of the historically Black colleges and universities (HBCUs) in Arkansas",
+      "A very small institution with a low overall enrollment compared to most four-year colleges",
+      "Has faced notable financial and accreditation challenges in recent years, which prospective students should research directly with the school before applying"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "106810": {
+    "profile_type": "researched",
+    "vibe": "A very small, private Christian junior college in rural Paragould, Arkansas, offering a close, faith-centered environment mainly for students starting out on a two-year track.",
+    "distinctives": [
+      "Located in Paragould, Arkansas, a small town in the northeastern part of the state",
+      "Operates primarily as a small, junior/community-college-style institution with a Christian, Bible-affiliated mission",
+      "Enrollment is very small, offering a highly personal, tight-knit campus experience",
+      "Best suited for students seeking an affordable, faith-based start before transferring to a four-year school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "107071": {
+    "profile_type": "researched",
+    "vibe": "A public university in Arkadelphia, Arkansas that has been working to rebuild after serious financial distress, including a 2021 financial exigency declaration and significant budget and program cuts.",
+    "distinctives": [
+      "Located in Arkadelphia, Arkansas, a small college town also home to Ouachita Baptist University across the street",
+      "A public regional university that declared financial exigency in 2021, leading to major budget reductions and the elimination of some academic programs and positions",
+      "Historically known for teacher education and a range of undergraduate liberal arts and professional programs",
+      "Prospective students should check current program offerings and the university's financial recovery status directly, since these have changed significantly in recent years"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "107600": {
+    "profile_type": "researched",
+    "vibe": "A small, historically Black private university in Little Rock affiliated with the United Methodist Church, emphasizing social justice, leadership, and a supportive community for its students.",
+    "distinctives": [
+      "Located in Little Rock, Arkansas, and affiliated with the United Methodist Church",
+      "One of Arkansas's historically Black colleges and universities (HBCUs)",
+      "A small institution with a low overall enrollment, offering a close student-to-faculty environment",
+      "Emphasizes a liberal arts foundation along with a mission centered on social justice and civic engagement"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
