@@ -12025,5 +12025,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "219709": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized Christian university in the heart of Nashville that punches way above its weight in music, entertainment, and business, blending a close-knit, faith-influenced community with direct access to the city's live-music and industry scene.",
+    "distinctives": [
+      "Home to the Mike Curb College of Entertainment & Music Business, one of the most established music business programs in the country, with alumni working throughout the Nashville recording, publishing, and touring industry",
+      "Located about two miles from downtown Nashville and Music Row, giving students internship and networking access to labels, studios, and live venues unmatched by most campuses",
+      "Selective-moderate admissions with a strong emphasis on audition- and portfolio-based programs (music, musical theatre, songwriting) alongside standard academic majors",
+      "Rooted in a Christian (originally Church of Christ-affiliated) heritage that still shapes campus culture, though the university now describes itself as interdenominational and welcomes students of many faiths"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "151786": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic (Franciscan-sponsored) university in Indianapolis that has grown rapidly around its osteopathic medical school, giving pre-health students unusually direct exposure to a working med-school pipeline on a compact, community-feeling campus.",
+    "distinctives": [
+      "Home to the Marian University College of Osteopathic Medicine (MU-COM), founded in 2013, which gives undergraduates pipeline and shadowing opportunities not typical at small liberal arts colleges",
+      "Strong nursing, biology, and pre-health programs feed directly into the university's own medical and health professions tracks",
+      "Franciscan Catholic values emphasize service and community; the campus includes the Michael A. Evans Center for Health Sciences and a notable equestrian program tied to its Indianapolis-area facilities",
+      "Small classes and a teaching-focused faculty culture typical of NAIA-level Division institutions, with a strong sense of personal attention rather than large lecture-hall anonymity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "447689": {
+    "profile_type": "researched",
+    "vibe": "A young, open-access public college near Atlanta built explicitly around first-generation and working student success, with a commuter-heavy, highly diverse campus and none of the Greek-life or traditional-college trappings.",
+    "distinctives": [
+      "Founded in 2005 as Georgia's newest public university, designed from the ground up to serve first-generation, transfer, and nontraditional students in the fast-growing Gwinnett County suburbs of Atlanta",
+      "One of the most ethnically diverse public college campuses in the country, with no majority racial group among its student body",
+      "Deliberately has no fraternities or sororities and no football team, keeping the culture centered on academics, applied majors (nursing, IT, business, criminal justice), and a largely commuter student population",
+      "Open-access admissions policy (no application essay or strict GPA cutoff historically) has made it a key access point to a four-year degree for students who might not otherwise attend a traditional university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "102368": {
+    "profile_type": "researched",
+    "vibe": "A public university anchored in small-town Troy, Alabama, that has built a national footprint through one of the country's largest online and military-serving degree operations, giving it a split identity between a traditional Southern campus and a huge distributed adult-learner population.",
+    "distinctives": [
+      "Operates one of the largest online degree programs among public universities, plus a network of Alabama campuses (Troy, Montgomery, Dothan, Phenix City) and international sites, historically serving large numbers of active-duty military and veteran students",
+      "Longstanding ties to the U.S. military, including degree completion programs on and near military bases and a strong ROTC tradition, reflecting its role as one of the top producers of military-connected graduates nationally",
+      "Traditional main campus in Troy retains classic Southern collegiate culture \u2014 Division I athletics (Sun Belt Conference), Greek life, and a residential undergraduate population distinct from its online cohort",
+      "Journalism and communication programs (including the Hall School of Journalism & Communication) are among the university's stronger academic reputations"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "229179": {
+    "profile_type": "researched",
+    "vibe": "A public university in Denton, Texas, with deep historical roots as one of the largest historically women-centered universities in the country, now coeducational but still known for its strengths in nursing and health sciences and a majority-female student culture.",
+    "distinctives": [
+      "Founded in 1901 as a college for women and still known as one of the largest state-supported institutions historically focused on women's education in the U.S.",
+      "Strong reputation in nursing, health sciences, and occupational/physical therapy, with a College of Health Sciences and nursing programs across multiple Texas campuses (Denton, Dallas, Houston)",
+      "Maintains additional campuses in the Dallas and Houston medical/health science centers, letting students pursue clinical training in major metro healthcare hubs beyond the main Denton campus",
+      "Campus culture remains predominantly female even after fully opening admission to men, giving it a distinct social atmosphere compared to most public universities of similar size"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "182281": {
+    "profile_type": "researched",
+    "vibe": "A large, energetic public university in the heart of the Las Vegas Strip's shadow, UNLV blends a commuter-heavy, career-focused student body with a growing research and hospitality-industry identity.",
+    "distinctives": [
+      "Home to the William F. Harrah College of Hospitality, one of the most respected hospitality management programs in the country, with direct pipelines into Strip resorts, casinos, and convention operations",
+      "Classified as an R1 'very high research activity' institution, with strengths in engineering, public health, and integrated health sciences",
+      "Highly diverse student body with no majority racial/ethnic group, reflecting the makeup of the Las Vegas metro area",
+      "Division I athletics (Mountain West) with a passionate fan base for UNLV basketball and football, plus a new on-campus Allegiant Stadium-adjacent football stadium"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "122597": {
+    "profile_type": "researched",
+    "vibe": "An urban, socially progressive CSU campus in San Francisco known for its strong ethnic studies legacy, creative and social-justice-oriented student culture, and access-oriented mission serving a diverse, often first-generation student population.",
+    "distinctives": [
+      "Birthplace of the first College of Ethnic Studies in the US, established after the 1968 student strikes, still a nationally recognized program",
+      "Strong programs in creative writing, cinema, journalism, and design, with alumni connections throughout the Bay Area media and tech scenes",
+      "Serves a large population of transfer students from California community colleges and a majority-minority, high first-generation student body",
+      "Located in the Lake Merced neighborhood of San Francisco with easy access to the city's arts, tech, and activism scenes via Muni and BART"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "207324": {
+    "profile_type": "researched",
+    "vibe": "A small, tight-knit Christian university affiliated with the Churches of Christ, where academics are integrated with faith, chapel attendance, and a close residential community atmosphere in suburban Oklahoma City.",
+    "distinctives": [
+      "Requires chapel attendance and integrates Christian faith formation across the curriculum, with a residential campus culture built around small classes and close faculty mentoring",
+      "Strong engineering, nursing, and business programs relative to its size, along with a well-regarded computer science program",
+      "NAIA Division athletics with a strong intramural and Greek-like social club system (rather than traditional fraternities/sororities) central to campus social life",
+      "Located in Edmond, a suburb of Oklahoma City, giving students access to a mid-size metro area while keeping a small-town, conservative campus feel"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "176017": {
+    "profile_type": "researched",
+    "vibe": "A flagship Southern public university in Oxford, Mississippi, known for its strong sense of school spirit and Southern tradition (The Grove tailgating), alongside respected pharmacy, business, and journalism programs.",
+    "distinctives": [
+      "Home to one of the nation's top schools of pharmacy, plus a nationally ranked accountancy program in the Patterson School of Accountancy",
+      "The Sally McDonnell Barksdale Honors College offers a rigorous, small-cohort honors experience within a larger university",
+      "Famous for 'The Grove,' a 10-acre tailgating tradition regarded as one of the best in college football, central to campus social culture",
+      "Meek School of Journalism and New Media has strong ties to Mississippi and Southern media industries, and the town of Oxford has a notable literary heritage tied to William Faulkner"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "213367": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic Lasallian university in Philadelphia emphasizing personal attention, practical career preparation, and service to others, with a close-knit campus in a residential city neighborhood.",
+    "distinctives": [
+      "Rooted in the Lasallian Catholic tradition emphasizing teaching, community, and service to the poor and underserved",
+      "Notable nursing, business, and criminal justice programs with strong regional employer connections in the Philadelphia area",
+      "Small class sizes and low student-to-faculty ratio supporting a personalized, mentorship-driven academic experience",
+      "Located in the Logan/East Germantown area of Philadelphia, giving students direct access to the city's internship, healthcare, and financial-sector job markets"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161253": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public flagship in rural Orono, Maine, with a strong outdoorsy, tight-knit New England feel and deep ties to the state's forestry, marine, and engineering industries.",
+    "distinctives": [
+      "Home to the Advanced Structures and Composites Center, a leader in offshore wind and 3D-printed bio-based materials research",
+      "Strong marine sciences, forestry, and engineering programs tied to Maine's natural resource economy",
+      "NCAA Division I hockey (Black Bears) is a major campus draw with a passionate fan base",
+      "Land, sea, and space grant institution with active Cooperative Extension programs across the state"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "166452": {
+    "profile_type": "researched",
+    "vibe": "A small, mission-driven Cambridge institution best known for teacher education and the arts, drawing students who want a socially conscious, practice-oriented learning environment near Harvard Square.",
+    "distinctives": [
+      "Historic strength in early childhood and special education, with graduates widely placed in Massachusetts schools",
+      "Notable expressive therapies and art therapy graduate programs, among the oldest and most established in the country",
+      "Small class sizes and a progressive, education-focused campus culture in the heart of Cambridge",
+      "Merged administratively with Lesley University College of Art and Design (formerly Art Institute of Boston), adding a studio arts dimension"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215442": {
+    "profile_type": "researched",
+    "vibe": "A performing-arts-heavy university in downtown Pittsburgh with a professional, conservatory-style training model for dance, theatre, and journalism students who want real-world experience alongside their degree.",
+    "distinctives": [
+      "Conservatory of Performing Arts is nationally recognized for musical theatre, dance, and acting training with rigorous audition-based admission",
+      "Urban campus located directly in Pittsburgh's Cultural District, giving students access to professional theaters and venues",
+      "Strong journalism and mass communication program with hands-on newsroom and broadcast experience",
+      "Small, career-focused university culture emphasizing internships and industry connections over traditional big-campus life"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "191621": {
+    "profile_type": "researched",
+    "vibe": "A very small, career-focused Catholic college near Buffalo that serves as an accessible, supportive option for students who want hands-on, applied learning in criminal justice and related fields.",
+    "distinctives": [
+      "Criminal justice and forensic science are flagship programs, drawing students interested in law enforcement and legal careers",
+      "Very small campus community (well under 2,000 students) with close faculty-student relationships",
+      "Located in Hamburg, NY, a suburb of Buffalo, giving easy access to a mid-size metro area",
+      "Emphasizes experiential, career-oriented curriculum with an open-access admissions profile relative to larger regional colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "126580": {
+    "profile_type": "researched",
+    "vibe": "A growing public university set against the Rocky Mountains, benefiting from Colorado Springs' status as a hub for aerospace, defense, and cybersecurity, with a practical, career-oriented student body.",
+    "distinctives": [
+      "Strong cybersecurity program bolstered by proximity to military installations (Air Force Academy, Space Command, NORAD/Peterson SFB)",
+      "College of Engineering and Applied Science has close ties to the region's aerospace and defense industry employers",
+      "Campus sits at the base of the Rockies with direct access to hiking and outdoor recreation as part of student life",
+      "Part of the University of Colorado system, offering strong nursing and business programs alongside a growing research profile"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "110574": {
+    "profile_type": "researched",
+    "vibe": "A diverse, career-focused commuter campus in the Oakland Hills with sweeping Bay Area views, drawing a large share of first-generation and transfer students who balance work and school.",
+    "distinctives": [
+      "Consistently ranked among the most ethnically diverse universities in the U.S. West region, with no single racial/ethnic group forming a majority",
+      "Strong nursing, business (AACSB-accredited), and criminal justice programs feeding directly into the East Bay/Oakland job market",
+      "Hilltop campus in Hayward offers panoramic views of San Francisco Bay, but requires a shuttle or drive between the upper and lower campus areas",
+      "High transfer-student population, with well-established articulation agreements with Bay Area community colleges like Chabot and Ohlone"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "149231": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university near St. Louis with a strong regional identity, known for hands-on programs in engineering, nursing, and the arts, plus a Division I athletics scene.",
+    "distinctives": [
+      "Home to a well-regarded School of Engineering and a nationally recognized dental medicine program (SIUE School of Dental Medicine)",
+      "Edwardsville campus sits on 2,660 wooded acres about 20 minutes from downtown St. Louis, giving students big-city access with a quieter suburban feel",
+      "Competes in NCAA Division I athletics (Ohio Valley Conference) with a popular men's and women's basketball following",
+      "Strong nursing and pharmacy programs with clinical placements throughout the St. Louis metro healthcare system"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228149": {
+    "profile_type": "researched",
+    "vibe": "A small, Catholic (Marianist) university in San Antonio with tight-knit residential community feel, known for its law school and pre-law undergraduate pipeline as well as strong Hispanic-serving representation.",
+    "distinctives": [
+      "Home to the oldest law school in Texas, giving undergraduates unusually strong pre-law advising and mock trial opportunities",
+      "Designated a Hispanic-Serving Institution (HSI) with a student body that is majority Hispanic/Latino, reflecting San Antonio's demographics",
+      "Marianist Catholic identity emphasizes community service, with strong campus ministry and service-learning requirements",
+      "Compact, residential campus on San Antonio's west side, a short drive from downtown and the River Walk"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "169479": {
+    "profile_type": "researched",
+    "vibe": "A career-focused private university spread across multiple Michigan campuses, built around working adults and traditional students alike pursuing business, health, technology, and applied programs.",
+    "distinctives": [
+      "Operates numerous locations across Michigan (Grand Rapids main campus plus Warren, Lansing, Midland, and others), designed for regional accessibility",
+      "Strong emphasis on applied/professional programs like nursing, business, information technology, and esports management",
+      "One of few universities with a varsity esports program and dedicated esports arena, reflecting its career-technology focus",
+      "Flexible scheduling (online, evening, accelerated formats) caters heavily to working adults and transfer students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "181020": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit liberal arts university on the Nebraska plains where students get personal attention from faculty and a strong sense of tradition tied to its rural, small-town setting.",
+    "distinctives": [
+      "Located in Crete, Nebraska, a small town about 30 minutes from Lincoln, offering a quiet, low-cost-of-living college experience",
+      "Very low student-to-faculty ratio typical of small liberal arts colleges, enabling close mentorship, especially in pre-professional tracks like pre-law and pre-med",
+      "Notable for strong programs in actuarial science and business alongside traditional liberal arts offerings",
+      "NAIA athletics with a strong sense of school spirit and tradition, including a well-known homecoming and founders' history dating to 1872"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "154712": {
+    "profile_type": "researched",
+    "vibe": "A small Catholic Benedictine liberal arts college on a bluff above the Missouri River, known for a tight-knit, faith-centered community and unusually high student engagement with campus religious life.",
+    "distinctives": [
+      "Run by Benedictine monks and sisters; Catholic identity is central, with daily Mass, adoration chapels in dorms, and consistent ranking among the top Catholic colleges by the Newman Guide",
+      "Strong engineering, nursing, and business programs alongside a required core liberal arts curriculum grounded in Great Books and theology",
+      "Competes in NAIA athletics (Heart of America Athletic Conference) with a notably high percentage of students participating in intramurals and campus ministry activities",
+      "Small-town Atchison, Kansas setting (about an hour from Kansas City) gives it a quiet, close-knit residential feel distinct from its Catholic-college peers in bigger cities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "110495": {
+    "profile_type": "researched",
+    "vibe": "A modest-sized California State University campus serving the agricultural Central Valley, with a strong first-generation and Hispanic-serving student body and a practical, career-oriented feel.",
+    "distinctives": [
+      "Designated a Hispanic-Serving Institution (HSI), with a large share of first-generation college students drawn mainly from the Central Valley region",
+      "Strong nursing and other health-sciences programs, plus a well-regarded Honors Program that offers smaller seminar-style classes",
+      "Located in Turlock, in the heart of California's agricultural Central Valley, giving it close ties to regional agribusiness, education, and healthcare employers",
+      "One of the more affordable CSU campuses with a smaller, close-knit undergraduate population compared to larger CSU and UC campuses"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "219356": {
+    "profile_type": "researched",
+    "vibe": "South Dakota's largest university and land-grant flagship, with a big-campus, spirited Jackrabbits sports culture layered onto strong agriculture, pharmacy, and engineering programs.",
+    "distinctives": [
+      "Land-grant institution with nationally respected programs in pharmacy, agriculture/animal science, engineering, and nursing, drawing students from across the Upper Midwest",
+      "Jackrabbits compete in NCAA Division I (Summit League/Missouri Valley Football Conference), and football/wrestling draw strong local and regional followings",
+      "Home to active agricultural experiment stations and strong undergraduate research opportunities tied to South Dakota's farming and ranching economy",
+      "Located in Brookings, a classic small college town, giving it a lower cost of living and close campus community feel relative to its size as the state's largest university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "127565": {
+    "profile_type": "researched",
+    "vibe": "An urban, commuter-oriented public university in downtown Denver that serves a large population of transfer, working, and nontraditional students on a shared campus with two other institutions.",
+    "distinctives": [
+      "Shares the Auraria Campus with the Community College of Denver and University of Colorado Denver, making transfer pathways especially smooth",
+      "Known for practical, career-focused programs such as aviation/aerospace science, hospitality, criminal justice, and cybersecurity, often with direct industry partnerships",
+      "Serves a nontraditional student body with an older average age, many part-time and working students, and no campus housing focus (primarily a commuter school)",
+      "Historically one of the more affordable four-year public options in Colorado, with guaranteed tuition rates and strong support services for first-generation students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "207582": {
+    "profile_type": "researched",
+    "vibe": "A charismatic evangelical Christian university in Tulsa built around a distinctive 'whole person' philosophy of mind, body, and spirit, with a futuristic campus and a nationally recognized men's basketball program.",
+    "distinctives": [
+      "Founded by televangelist Oral Roberts, the university requires fitness/wellness coursework and mandatory chapel attendance as part of its 'whole person' education model",
+      "Known for a striking modernist campus featuring the Prayer Tower and golden-hued Christ the Healer statue, making it visually distinctive among evangelical colleges",
+      "Men's basketball gained national attention with a Sweet 16 NCAA Tournament run in 2021, fueling strong campus spirit around Golden Eagles athletics",
+      "Strong nursing and business programs paired with a required statement of faith and lifestyle covenant reflecting its charismatic Christian identity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
