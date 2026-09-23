@@ -19289,5 +19289,406 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "436827": {
+    "profile_type": "researched",
+    "vibe": "A small, waterfront branch campus of UConn on Long Island Sound, known for its marine sciences focus and close-knit, commuter-friendly community feel.",
+    "distinctives": [
+      "Regional campus of the University of Connecticut located in Groton, CT, right on the Avery Point peninsula with direct water access",
+      "Known for marine science and maritime studies programs, leveraging its coastal location and proximity to UConn's Marine Sciences department and nearby oceanographic institutions",
+      "Small student body compared to UConn's main Storrs campus, offering smaller classes and a more intimate academic environment while students still earn a UConn degree",
+      "Many students begin here and later transfer to the Storrs campus to complete bachelor's degrees in majors not offered at Avery Point"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "221768": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in rural northwest Tennessee that serves as a regional hub, offering a traditional college-town experience with strong ties to local agriculture and community.",
+    "distinctives": [
+      "Part of the University of Tennessee System, located in Martin, TN, a small town setting in the state's rural northwest corner",
+      "Offers a broad range of undergraduate and graduate programs, with recognized strength in agriculture and agribusiness given the surrounding farming region",
+      "Fields NCAA Division I athletics (Ohio Valley Conference), giving it a fuller college-sports culture than many regional schools its size",
+      "Functions as a primarily residential campus that draws many students from West Tennessee and the surrounding tri-state area"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228042": {
+    "profile_type": "researched",
+    "vibe": "A small private liberal arts university in the Texas Hill Country known for tight-knit classes, a strong sense of community, and personalized faculty attention.",
+    "distinctives": [
+      "Small private university located in Kerrville, Texas, in the Texas Hill Country, historically affiliated with the Presbyterian Church",
+      "Very low student-to-faculty ratio typical of small liberal arts institutions, emphasizing close mentoring relationships between students and professors",
+      "Offers a range of undergraduate liberal arts and pre-professional programs along with NCAA Division III athletics",
+      "Attracts a largely Texas-based student population seeking a small-campus alternative to the state's large public universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "132602": {
+    "profile_type": "researched",
+    "vibe": "A historic private HBCU in Daytona Beach, Florida, founded by educator Mary McLeod Bethune, with a proud legacy of educating Black students, but one that has faced serious and well-documented financial and accreditation challenges in recent years.",
+    "distinctives": [
+      "Founded in 1904 by Mary McLeod Bethune as a school for Black students; a historically Black university (HBCU) with deep historical and civil-rights significance",
+      "Small private institution in Daytona Beach, Florida, offering undergraduate and some graduate programs",
+      "Has experienced significant, publicly reported financial difficulties in recent years, including budget shortfalls and declining enrollment, which prospective students should research carefully",
+      "Has been placed on probation or warning status by its regional accreditor (SACSCOC) at points in recent years due to financial and compliance concerns; accreditation status should be independently verified before enrolling",
+      "Fields NCAA Division I athletics (as an FCS football program) and has a strong band and campus culture tradition typical of many HBCUs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "463056": {
+    "profile_type": "researched",
+    "vibe": "A compact, urban UConn commuter campus in downtown Hartford, offering city-based access to internships and professional opportunities in Connecticut's capital.",
+    "distinctives": [
+      "Regional campus of the University of Connecticut located in downtown Hartford, in a relatively new building (opened 2017) designed to integrate the campus with the city",
+      "Primarily serves commuter and transfer students, with limited or no traditional on-campus housing compared to the Storrs main campus",
+      "Proximity to Hartford's insurance, finance, and business sectors offers students access to internships and professional networking in the city",
+      "Students typically take lower-division coursework here before transferring to UConn's Storrs campus or another regional campus to complete their degree in majors not fully offered in Hartford"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "140696": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit liberal arts college on a wooded campus in the Brookhaven area of Atlanta, blending a traditional core-curriculum education with easy access to a major city.",
+    "distinctives": [
+      "Private liberal arts university founded in 1835, historically affiliated with the Presbyterian Church",
+      "Requires a distinctive Core Curriculum in the Western and non-Western intellectual traditions for all undergraduates",
+      "Small student body (roughly a thousand to low thousands of undergraduates), enabling small class sizes and close faculty contact",
+      "NCAA Division III athletics with the unusual 'Stormy Petrels' mascot, and a campus located inside the city of Atlanta"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "215266": {
+    "profile_type": "researched",
+    "vibe": "A small, rural regional campus of the University of Pittsburgh in north-central Pennsylvania, offering an intimate, low-cost path to a Pitt degree away from the flagship's urban setting.",
+    "distinctives": [
+      "One of the University of Pittsburgh's regional campuses, located in Bradford, PA near the New York border, distinct from the Oakland (Pittsburgh) main campus",
+      "Small, rural setting with much smaller enrollment and class sizes than Pitt's flagship campus",
+      "Offers a more limited set of bachelor's degree programs than the main campus, with some emphasis on business, health sciences, and liberal arts fields",
+      "Like many regional/branch campuses nationally, has faced enrollment pressure in recent years as students increasingly choose flagship campuses or online options"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "240277": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university on the shores of Lake Michigan's Green Bay, known for an interdisciplinary, environmentally-minded academic tradition and a competitive Division I athletics program.",
+    "distinctives": [
+      "Public university founded in the late 1960s with a historic emphasis on interdisciplinary, 'problem-focused' study of the environment and human ecology",
+      "Offers strong programs in environmental science, ecology, and public and environmental affairs alongside conventional business, education, and nursing degrees",
+      "NCAA Division I member of the Horizon League, with the Phoenix men's and women's basketball programs historically the university's highest-profile athletics",
+      "Campus sits directly on the Bay of Green Bay, giving it unusual access to freshwater ecosystems for field-based science coursework"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "210146": {
+    "profile_type": "researched",
+    "vibe": "A public university in Ashland, Oregon, set beside the Siskiyou Mountains and the acclaimed Oregon Shakespeare Festival, that has been navigating serious financial and enrollment challenges in recent years.",
+    "distinctives": [
+      "Public university located in Ashland, Oregon, adjacent to the nationally known Oregon Shakespeare Festival, supporting notable theatre and arts offerings",
+      "Relatively small enrollment for a public university, with a liberal-arts-oriented general education approach alongside professional programs",
+      "The university has publicly acknowledged significant budget shortfalls and enrollment declines in recent years, leading to program cuts, layoffs, and a formal financial exigency/recovery process around 2023-2024 that prospective students should factor into their decision",
+      "Outdoor recreation access (hiking, skiing, rafting) in southern Oregon is a notable draw for the student experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "153278": {
+    "profile_type": "researched",
+    "vibe": "A small private university in Dubuque, Iowa with roots in a 19th-century Presbyterian seminary, now offering a mix of career-focused undergraduate programs, including a notably strong aviation program.",
+    "distinctives": [
+      "Private university in Dubuque, Iowa, founded in the 1850s and historically tied to the University of Dubuque Theological Seminary, which still operates as part of the institution",
+      "Known for a well-regarded aviation program with flight training, alongside programs in business, education, nursing/health sciences, and theology",
+      "Small undergraduate enrollment with a residential, close-knit campus culture typical of small private Midwestern colleges",
+      "Offers NCAA Division III athletics and has worked to diversify and grow enrollment through targeted professional program growth in recent years"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "234155": {
+    "profile_type": "researched",
+    "vibe": "A historically Black land-grant university in Petersburg, Virginia, with a close-knit campus community and a strong sense of HBCU tradition and pride.",
+    "distinctives": [
+      "One of Virginia's two historically Black land-grant institutions, founded in 1882",
+      "Located in Petersburg, Virginia, a short drive from Richmond",
+      "Offers undergraduate and graduate programs with notable strength in agriculture, engineering technology, and business",
+      "Competes in NCAA Division II athletics in the CIAA conference"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "174233": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public research university on the shore of Lake Superior, known for outdoor recreation, a close campus community, and strong regional identity in northern Minnesota.",
+    "distinctives": [
+      "Part of the University of Minnesota system, located in Duluth on the shore of Lake Superior",
+      "Known for programs in medicine (through UMD's medical school pathway), pre-health fields, environmental science, and outdoor/natural resources studies",
+      "NCAA Division I hockey program with a passionate local following, alongside Division II athletics in most other sports",
+      "Cold-weather, scenic campus that draws students interested in outdoor recreation and environmental studies"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "485999": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish rabbinical institution (yeshiva) focused on intensive Torah and Talmudic study, serving a specific religious community rather than operating as a broad general-education college.",
+    "distinctives": [
+      "A rabbinical/yeshiva institution offering religious higher education centered on Talmudic and Torah study for Orthodox Jewish men",
+      "Small, specialized enrollment focused on a specific religious community rather than the general public",
+      "Not a traditional broad-curriculum liberal arts or research university; program offerings are narrowly focused on religious studies and rabbinic training",
+      "Best suited to students specifically seeking an Orthodox Jewish religious education pathway rather than students seeking a conventional college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "186876": {
+    "profile_type": "researched",
+    "vibe": "A public university in southern New Jersey known for its distinctive modern architecture, proximity to the Jersey Shore, and a broad range of undergraduate and graduate programs.",
+    "distinctives": [
+      "Located in Galloway Township, New Jersey, near Atlantic City and the Jersey Shore",
+      "Public university offering a wide range of undergraduate majors plus graduate and professional programs, including a School of Health Sciences",
+      "Campus known for its striking modern architecture, including geodesic dome buildings and a large adjoining lake and nature preserve",
+      "Competes in NCAA Division III athletics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "175430": {
+    "profile_type": "researched",
+    "vibe": "A small, Christian (Baptist-affiliated) university in rural Mississippi offering a faith-centered undergraduate experience with a tight-knit, close community feel.",
+    "distinctives": [
+      "Small private university located in Blue Mountain, Mississippi, historically affiliated with the Southern Baptist tradition (formerly known as Blue Mountain College)",
+      "Emphasizes a Christian liberal arts education combined with career-oriented majors and a faith-integrated campus culture",
+      "Small student body and rural setting mean limited program breadth compared to larger universities; students should verify current program and accreditation details directly with the school",
+      "Competes in NAIA athletics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "232089": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit private college in rural southwest Virginia with historic Methodist roots, known for a hands-on, supportive environment geared toward first-generation and rural students.",
+    "distinctives": [
+      "Private, four-year college located in Ferrum, Virginia, in the Blue Ridge foothills of Franklin County",
+      "Historically affiliated with the United Methodist Church",
+      "Small enrollment with a low student-to-faculty ratio and a strong emphasis on personal attention",
+      "Notable programs in agriculture, environmental science, and equestrian studies, reflecting its rural setting; also home to the Blue Ridge Institute and Museum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "228325": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-based institution in Indianapolis focused on ministry and Christian leadership training, formerly known as Indiana Bible College.",
+    "distinctives": [
+      "Private, religiously affiliated (Pentecostal/Christian ministry tradition) institution based in Indianapolis, Indiana",
+      "Rebranded from Indiana Bible College to Nelson University in recent years",
+      "Very small enrollment with a curriculum centered on biblical studies, theology, and ministry preparation",
+      "Offers a narrower range of majors than a typical comprehensive university, reflecting its Bible-college origins"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "162584": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in the Appalachian mountains of western Maryland, offering affordable, comprehensive undergraduate programs in a small-town college-town setting.",
+    "distinctives": [
+      "Public university located in Frostburg, Maryland, and a member of the University System of Maryland",
+      "Offers a broad range of undergraduate and select graduate programs, with recognized strengths in education, business, and outdoor/adventure-related programs given its mountain setting",
+      "Serves a large share of Maryland in-state students at a lower cost than the state's flagship campuses",
+      "Rural, small-city location in the Appalachian region, distinct from Maryland's more urban/suburban public campuses"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "491613": {
+    "profile_type": "researched",
+    "vibe": "A very small Orthodox Jewish rabbinical school (yeshiva gedolah) providing intensive Talmudic and religious studies for men pursuing advanced Torah scholarship, rather than a conventional liberal-arts college experience.",
+    "distinctives": [
+      "A rabbinical/religious institution rather than a traditional secular college, focused on advanced Talmudic and Torah study within the Orthodox Jewish tradition",
+      "Very small, specialized student body, typically serving a narrow, highly specific population pursuing religious ordination or advanced Jewish scholarship",
+      "Curriculum and daily structure differ substantially from mainstream higher education, centering on religious text study rather than a broad general-education or major system",
+      "Limited publicly available data on this institution; prospective students should verify current accreditation status, cost, and outcomes directly with the school rather than relying on general college-comparison metrics"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "240462": {
+    "profile_type": "researched",
+    "vibe": "A public university in southwestern Wisconsin branded as \"Wisconsin's Polytechnic,\" known for strong engineering, applied science, and hands-on technical programs in a small-town campus setting.",
+    "distinctives": [
+      "Public university located in Platteville, Wisconsin, part of the University of Wisconsin System",
+      "Widely recognized for engineering programs (including one of the larger undergraduate engineering populations among Wisconsin public schools) and strong industry job-placement outcomes",
+      "Emphasizes applied, career-focused education across polytechnic fields such as engineering, agriculture, and business alongside traditional liberal arts offerings",
+      "Small-town Midwest setting with a residential campus culture, drawing many students from Wisconsin, Illinois, and the broader Midwest"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "155681": {
+    "profile_type": "researched",
+    "vibe": "A public, career-focused university in Pittsburg, Kansas, known as the state's polytechnic-flavored regional university and a Division II football powerhouse with a proud small-town, blue-collar work ethic.",
+    "distinctives": [
+      "Part of the Kansas Board of Regents system, located in the small city of Pittsburg in southeast Kansas",
+      "Nationally distinctive for its plastics engineering technology and other applied engineering technology programs, tracing back to the school's polytechnic roots",
+      "NCAA Division II athletics with a storied football program (multiple national championship appearances/titles), a major point of campus and community identity",
+      "Mid-size enrollment (roughly in the 6,000-7,000 student range) with a mix of undergraduate and graduate programs in business, education, technology, and the arts"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "144281": {
+    "profile_type": "researched",
+    "vibe": "A private arts and media college in downtown Chicago's South Loop, built around hands-on training in film, photography, music, journalism, and design, but one that has faced real financial strain and enrollment decline in recent years.",
+    "distinctives": [
+      "Located in Chicago's South Loop, giving students direct access to the city's arts, media, and entertainment industries as an extended campus",
+      "Historically strong, well-known programs in film/cinema, photography, audio arts, journalism, creative writing, and arts management",
+      "Enrollment has dropped substantially from its peak (once well over 10,000 students), and the college has gone through budget cuts, layoffs, and program consolidation in the early-to-mid 2020s amid broader financial pressure",
+      "Primarily an undergraduate, arts-and-media-focused institution rather than a comprehensive research university, with a strong emphasis on portfolio-based, practice-oriented learning"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "149639": {
+    "profile_type": "researched",
+    "vibe": "A tiny, highly specialized private college in Chicago devoted almost entirely to training music educators, making it one of the few standalone music-education-focused institutions in the country.",
+    "distinctives": [
+      "Very small enrollment, typically only in the low hundreds of students, making it one of the smallest degree-granting colleges in the country",
+      "Specializes narrowly in music education, preparing students to become K-12 music teachers, alongside some performance and music business coursework",
+      "Located in Chicago, giving students access to the city's professional music and education scenes despite the school's small size",
+      "Because of its size and single-focus mission, it offers a very limited range of majors compared to a typical college, and prospective students should expect a niche rather than broad liberal-arts experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "106704": {
+    "profile_type": "researched",
+    "vibe": "A mid-size public university in Conway, Arkansas, known for solid nursing, business, and education programs and Division I athletics, though it went through a well-publicized financial and governance crisis in the late 2010s.",
+    "distinctives": [
+      "Public university located in Conway, Arkansas, with total enrollment typically in the 10,000-11,000 range, making it one of the state's larger regional universities",
+      "Strong, well-regarded programs in nursing and health sciences, business, and teacher education",
+      "NCAA Division I athletics, competing in the ASUN Conference",
+      "In 2018 the university faced a significant financial scandal involving improper 'forgivable loans' and misused funds tied to athletics facility financing, which triggered a state legislative audit, leadership changes, and increased financial oversight; this is worth noting factually for families weighing institutional stability"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "181215": {
+    "profile_type": "researched",
+    "vibe": "A friendly, mid-size public university in Kearney, Nebraska, part of the University of Nebraska system, known for teacher education, affordability, and a close-knit campus culture in a small college town.",
+    "distinctives": [
+      "One of four campuses in the University of Nebraska system, located in Kearney, a small city in central Nebraska",
+      "Long-standing strength in teacher education and preparation programs, alongside solid business, health sciences, and communication offerings",
+      "Mid-size enrollment (roughly 5,000-7,000 students), giving it a smaller, more personal feel than the system's flagship Lincoln campus",
+      "NCAA Division II athletics, competing in the Mid-America Intercollegiate Athletics Association (MIAA)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
