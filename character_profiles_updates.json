@@ -24890,5 +24890,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "133465": {
+    "profile_type": "researched",
+    "vibe": "A career-focused, for-profit campus in West Palm Beach offering hands-on training in healthcare and business fields, geared toward working adults and students who want a direct path into a specific job.",
+    "distinctives": [
+      "Part of the South University system, a private for-profit institution with campuses across the Southeast and online programs",
+      "Focuses on career-oriented associate, bachelor's, and master's degrees, with strengths in nursing and health sciences",
+      "Small campus enrollment compared to traditional universities, with many students attending part-time or as working adults",
+      "Offers flexible scheduling and some online coursework alongside in-person classes"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "133872": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-based health sciences university in Orlando where nursing and allied health students train alongside a major hospital system, blending clinical rigor with a Seventh-day Adventist mission.",
+    "distinctives": [
+      "Affiliated with AdventHealth (formerly Florida Hospital), giving students access to clinical training sites within a large hospital network",
+      "Concentrates almost entirely on nursing and allied health programs, including radiologic sciences, health sciences, and physician assistant studies",
+      "Rooted in Seventh-day Adventist values, with an emphasis on whole-person care and service",
+      "Small, tight-knit student body focused primarily on healthcare career preparation rather than a broad liberal arts curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "134237": {
+    "profile_type": "researched",
+    "vibe": "A private, for-profit university in Winter Park built specifically for students chasing careers in film, games, music, and entertainment technology, with an industry-facing, project-heavy approach to learning.",
+    "distinctives": [
+      "Known for degree programs in game design, film, recording arts, and entertainment business, taught in industry-style studio facilities",
+      "Uses an accelerated, year-round schedule that lets many students finish bachelor's degrees faster than at traditional four-year schools",
+      "Emphasizes hands-on production work and portfolio-building over a traditional liberal arts general education core",
+      "As a for-profit institution, tuition and outcomes (including debt levels) are important factors for prospective students to research carefully"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "134510": {
+    "profile_type": "researched",
+    "vibe": "A very small Bible college in Hobe Sound rooted in the conservative holiness tradition, training students almost exclusively for ministry, missions, and Christian education within a specific religious community.",
+    "distinctives": [
+      "Extremely small enrollment, typically only a few hundred students or fewer, with a tight residential campus community",
+      "Curriculum centers on Bible, theology, and ministry preparation rather than a broad range of secular academic majors",
+      "Affiliated with the conservative holiness Wesleyan-Arminian tradition and maintains strict conduct and lifestyle standards for students",
+      "Best fit for students seeking vocational ministry training within a specific conservative religious framework, not a general liberal arts or career-focused education"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "136455": {
+    "profile_type": "researched",
+    "vibe": "A large, independent Baptist Christian college in Pensacola known for a traditional, conservative curriculum paired with strict conduct codes governing student life, dress, and behavior.",
+    "distinctives": [
+      "One of the larger independent fundamentalist Baptist colleges in the country, offering a broader range of majors than most Bible colleges, including education, business, and the arts",
+      "Not regionally accredited (it holds accreditation through TRACS, a national faith-based accreditor), which can affect transferability of credits and eligibility for some programs",
+      "Maintains a strict code of conduct covering dress, dating, media, and daily campus life, reflecting its conservative Christian mission",
+      "Operates its own textbook publishing arm (A Beka Book/Abeka) widely used in Christian homeschooling and private school curricula"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "137777": {
+    "profile_type": "researched",
+    "vibe": "A tiny, all-male Orthodox Jewish yeshiva in Miami Beach focused on Talmudic and rabbinic studies rather than a conventional liberal arts or career-prep curriculum.",
+    "distinctives": [
+      "Single-sex (male) religious institution serving a very small, highly specific student population",
+      "Curriculum centers on Talmudic and Torah scholarship within an Orthodox Jewish framework, not a broad general-education program",
+      "Located in Miami Beach, Florida",
+      "Not a fit for students seeking a typical residential college experience, varied majors, athletics, or a secular/coed environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "138716": {
+    "profile_type": "researched",
+    "vibe": "A public historically Black university in southwest Georgia with a strong sense of community and legacy, serving predominantly Black students from the region and beyond.",
+    "distinctives": [
+      "Historically Black University (HBCU) located in Albany, Georgia",
+      "Part of the University System of Georgia, offering a range of bachelor's and some graduate degree programs",
+      "Known programs include nursing, education, business, and criminal justice",
+      "Competes in NCAA Division II athletics and has a notable marching band tradition common to many HBCUs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139153": {
+    "profile_type": "researched",
+    "vibe": "A small, urban Pentecostal Christian university in Atlanta focused on ministry and Christian leadership training, serving a diverse, largely working-adult student body.",
+    "distinctives": [
+      "Small private university with a Pentecostal/Christian ministry-focused mission",
+      "Located in Atlanta, Georgia, drawing a largely urban, racially diverse student population",
+      "Serves many nontraditional and working-adult students alongside traditional-age undergraduates",
+      "Academic programs emphasize theology, ministry, and related fields more than a broad liberal-arts catalog"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139463": {
+    "profile_type": "researched",
+    "vibe": "A public commuter college in northwest Georgia that primarily serves local, often first-generation students pursuing associate degrees and a growing set of bachelor's programs.",
+    "distinctives": [
+      "Public state college in Dalton, Georgia, part of the University System of Georgia",
+      "Offers mostly two-year associate degrees along with a smaller selection of four-year bachelor's programs",
+      "Largely a commuter campus serving students from the surrounding Dalton/Whitfield County region",
+      "Serves a substantial first-generation and working-student population, with relatively affordable tuition"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "139579": {
+    "profile_type": "researched",
+    "vibe": "A private for-profit college campus in Savannah offering career-focused degree programs, part of the multi-campus South University system.",
+    "distinctives": [
+      "Campus of South University, a private for-profit institution with multiple locations across the U.S.",
+      "Located in Savannah, Georgia",
+      "Programs tend to be career/professional-focused, such as health sciences, business, and legal studies, rather than a traditional liberal-arts model",
+      "As with many for-profit colleges, prospective students should carefully compare cost, outcomes, and accreditation against public and nonprofit alternatives"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "140571": {
+    "profile_type": "researched",
+    "vibe": "A historic HBCU in Atlanta with a remarkable comeback story, rebuilding after two decades without accreditation to reclaim its place in the Atlanta University Center.",
+    "distinctives": [
+      "Founded in 1881, Morris Brown is a historically Black college located in Atlanta, Georgia, part of the Atlanta University Center Consortium alongside Spelman, Morehouse, and Clark Atlanta.",
+      "The college lost regional accreditation in 2003 following a financial aid mismanagement scandal and operated unaccredited for nearly two decades, during which enrollment shrank drastically.",
+      "Morris Brown regained accreditation in 2022 through the Transnational Association of Christian Colleges and Schools (TRACS), marking a significant step in its rebuilding effort.",
+      "Prospective students should understand this unusual trajectory: the school is in an active rebuilding phase with a much smaller footprint and enrollment than its historical peak, so students should verify current accreditation status, financial aid eligibility, and program offerings directly with the college."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "140960": {
+    "profile_type": "researched",
+    "vibe": "A close-knit public HBCU on the Georgia coast, offering an affordable four-year education with strong community ties in historic Savannah.",
+    "distinctives": [
+      "Savannah State University, founded in 1890, is the oldest public historically Black university in Georgia.",
+      "It is part of the University System of Georgia and offers a range of undergraduate and graduate programs, with notable strength in marine sciences given its coastal location.",
+      "The campus sits near the Savannah River outside downtown Savannah, giving students access to a historic Southern coastal city.",
+      "As a public university, in-state tuition is relatively affordable compared to private HBCUs, and the school emphasizes a supportive, tight-knit campus community."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "142276": {
+    "profile_type": "researched",
+    "vibe": "A public research university in southeastern Idaho best known for producing health care professionals, with a practical, career-focused culture.",
+    "distinctives": [
+      "Idaho State University is a public research university located in Pocatello, Idaho, with additional campuses and centers around the state including Meridian and Idaho Falls.",
+      "ISU is particularly well known for its health sciences programs, including one of the region's few pharmacy schools, along with programs in nursing, physical therapy, and other allied health fields.",
+      "The university offers a mix of undergraduate, graduate, and professional/doctoral programs, and serves as a major health workforce pipeline for Idaho and the surrounding region.",
+      "Pocatello is a small city in a mountainous, high-desert setting, giving students access to outdoor recreation (hiking, skiing) alongside campus life."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "142832": {
+    "profile_type": "researched",
+    "vibe": "A small, mission-driven graduate institution centered on psychology and social justice, training practitioners to work directly with underserved communities.",
+    "distinctives": [
+      "Adler University is a private, nonprofit institution focused primarily on graduate-level education in psychology, counseling, and related helping professions.",
+      "It is named after Alfred Adler, the psychologist who founded Individual Psychology, and the school explicitly emphasizes social justice and community engagement in its curriculum and clinical training.",
+      "Adler operates campuses in Chicago, Illinois and Vancouver, British Columbia, giving it a somewhat unusual binational structure for a U.S.-chartered institution.",
+      "Programs commonly include clinical psychology (PsyD), counseling, art therapy, and related applied mental health fields, oriented toward students planning careers as practitioners rather than academic researchers."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "143297": {
+    "profile_type": "researched",
+    "vibe": "A small, focused nursing and health sciences college in Quincy, Illinois, built around close clinical ties to its affiliated hospital.",
+    "distinctives": [
+      "Blessing Rieman College of Nursing and Health Sciences is a small private college located in Quincy, Illinois, affiliated with Blessing Hospital.",
+      "The college concentrates on nursing and allied health science programs, giving students close access to clinical training through its hospital affiliation.",
+      "Its small size means a tight-knit student community and a curriculum narrowly focused on preparing students for health care careers rather than a broad liberal arts offering.",
+      "Prospective students should confirm current program offerings, degree levels (associate, bachelor's, or beyond), and clinical placement details directly with the college, as specific program details can change year to year."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "144883": {
+    "profile_type": "researched",
+    "vibe": "A small, urban private university in Chicago's Loop built around career-focused programs, with an unusually diverse, tight-knit community of international and first-generation students.",
+    "distinctives": [
+      "Located in downtown Chicago, offering easy access to internships and jobs in a major business hub",
+      "Focuses on career-oriented majors such as business administration, information technology, and health sciences",
+      "Very small enrollment with a student body drawn heavily from international students and first-generation college-goers",
+      "Emphasizes practical, applied coursework designed to prepare students directly for the workforce"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "146533": {
+    "profile_type": "researched",
+    "vibe": "A small, single-purpose private college in Danville, Illinois dedicated entirely to training nurses, offering a close-knit, clinically focused education.",
+    "distinctives": [
+      "Located in Danville, a small city in east-central Illinois",
+      "Exclusively focused on nursing education, offering BSN and related nursing degrees",
+      "Very small student body allows for close faculty-student relationships and hands-on clinical training",
+      "Graduates are prepared to sit for the NCLEX licensure exam to become registered nurses"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "146755": {
+    "profile_type": "researched",
+    "vibe": "A small private nursing and health sciences college in the Quad Cities, tightly affiliated with a hospital system, giving students hands-on clinical exposure from early in their studies.",
+    "distinctives": [
+      "Located in Rock Island/Moline, Illinois, in the Quad Cities region along the Mississippi River",
+      "Affiliated with UnityPoint Health-Trinity hospital, providing direct clinical training partnerships",
+      "Offers nursing and allied health science programs at a small, focused institution",
+      "Small class sizes and hospital-based learning environment aimed at preparing working nurses and health professionals"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "147590": {
+    "profile_type": "researched",
+    "vibe": "A small graduate-level institution in the Chicago suburbs specializing in chiropractic and integrative health professions, drawing students focused specifically on alternative and complementary medicine careers.",
+    "distinctives": [
+      "Located in Lombard, Illinois, a suburb of Chicago",
+      "Primarily a graduate institution offering doctoral and professional programs in chiropractic medicine",
+      "Also offers programs in naturopathic medicine and other integrative/complementary health fields",
+      "Serves a specialized student population pursuing licensure in alternative and integrative health professions rather than traditional undergraduate study"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "148016": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit liberal arts college on a scenic bluff along the Mississippi River in Elsah, Illinois, serving exclusively students who are Christian Scientists in a faith-integrated residential community.",
+    "distinctives": [
+      "Located on a picturesque campus in Elsah, Illinois, overlooking the Mississippi River",
+      "Affiliated with the Christian Science church and admits only students who are Christian Scientists",
+      "Small liberal arts college offering a broad range of undergraduate majors alongside strong study-abroad programs",
+      "Residential, tight-knit community life shaped by shared religious commitment and small class sizes"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "148511": {
+    "profile_type": "researched",
+    "vibe": "A prestigious private academic health sciences university in the heart of Chicago's Illinois Medical District, Rush trains graduate and professional students in medicine, nursing, and health sciences within a major academic medical center.",
+    "distinctives": [
+      "Graduate/professional institution only \u2014 does not admit undergraduate first-year students, so it is not an option for a student applying as an entering freshman",
+      "Affiliated with Rush University Medical Center, one of Chicago's leading academic hospitals, giving students extensive clinical training opportunities",
+      "Offers degrees through its College of Medicine, College of Nursing, and College of Health Sciences, with strong reputations in nursing and health professions",
+      "Located in Chicago's Illinois Medical District on the Near West Side, embedded in a major urban healthcare hub"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "148575": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-affiliated nursing college in Peoria, Illinois, built around close ties to its partner hospital and a tight-knit, career-focused student experience.",
+    "distinctives": [
+      "Small, private, single-purpose nursing college affiliated with OSF Saint Francis Medical Center in Peoria, Illinois",
+      "Focuses almost exclusively on nursing education, primarily the BSN degree, rather than a broad liberal arts curriculum",
+      "Small class sizes and hands-on clinical training embedded within a major regional hospital system",
+      "Best suited to students who already know they want to pursue nursing rather than explore a range of majors"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "149028": {
+    "profile_type": "researched",
+    "vibe": "A small private nursing college in Rockford, Illinois, offering a focused, hospital-connected path into the nursing profession for a small student body.",
+    "distinctives": [
+      "Small, private, single-purpose nursing college located in Rockford, Illinois",
+      "Historically affiliated with a regional hospital system, emphasizing clinical training alongside classroom coursework",
+      "Primarily offers nursing degree programs (such as BSN) rather than a broad range of majors",
+      "A niche fit for students committed to nursing who want a small, specialized program rather than a large traditional campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "150172": {
+    "profile_type": "researched",
+    "vibe": "A small, mission-driven Catholic college in Whiting, Indiana, serving a largely commuter and working-class student population from the Chicago-Northwest Indiana area, with a strong emphasis on accessibility and career preparation.",
+    "distinctives": [
+      "Small private Catholic institution located in Whiting, Indiana, near the Chicago metropolitan area",
+      "Serves a largely commuter, working, and first-generation student population, with programs designed to accommodate working adults",
+      "Offers a relatively small set of career-oriented majors such as business, criminal justice, education, and social work alongside liberal arts coursework",
+      "Known for diversity of its student body and a mission focused on serving underserved and nontraditional students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "152798": {
+    "profile_type": "researched",
+    "vibe": "A small private health sciences college in Waterloo, Iowa, affiliated with UnityPoint Health, offering focused training pathways into nursing and allied health careers.",
+    "distinctives": [
+      "Small, private, health-sciences-focused college located in Waterloo, Iowa, affiliated with UnityPoint Health",
+      "Offers programs concentrated in nursing and allied health fields such as radiography and health sciences, rather than a broad general curriculum",
+      "Clinical training benefits from its hospital-system affiliation, giving students direct exposure to a regional healthcare provider",
+      "Best suited to students with a clear interest in a health sciences career who want a small, focused program environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
