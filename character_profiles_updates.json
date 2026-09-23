@@ -22490,5 +22490,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "170967": {
+    "profile_type": "researched",
+    "vibe": "A small private Christian university in Rochester Hills, Michigan, rooted in Church of Christ tradition, offering a close-knit campus experience with a faith-integrated approach to career-oriented degree programs.",
+    "distinctives": [
+      "Private, nonprofit university affiliated with the Churches of Christ, located in Rochester Hills, Michigan",
+      "Small enrollment with low student-to-faculty ratios typical of a teaching-focused liberal arts institution",
+      "Offers undergraduate and some graduate programs spanning business, health sciences, education, and ministry",
+      "Historically known as Michigan Christian College/Rochester College before rebranding as a university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "150145": {
+    "profile_type": "researched",
+    "vibe": "A small, private Christian liberal arts university in Mishawaka, Indiana, affiliated with the Missionary Church, emphasizing personal attention and faith-based undergraduate education.",
+    "distinctives": [
+      "Private university affiliated with the Missionary Church denomination, located in Mishawaka, Indiana",
+      "Small residential campus with a liberal arts core alongside professional programs like nursing, business, and education",
+      "Requires or strongly encourages participation in chapel and integrates Christian faith across the curriculum",
+      "Offers NAIA-level intercollegiate athletics as part of campus life"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "155025": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Emporia, Kansas, historically rooted in teacher education and still known regionally for its strong School of Library and Information Management and education programs.",
+    "distinctives": [
+      "Public university in Emporia, Kansas, originally founded as a normal school (teacher training institution)",
+      "Offers a well-regarded graduate School of Library and Information Management (SLIM) with a nationally recognized online MLS program",
+      "Serves primarily as a regional comprehensive university with undergraduate and graduate programs across education, business, arts and sciences",
+      "Competes in NCAA Division II athletics as the Hornets"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "451404": {
+    "profile_type": "researched",
+    "vibe": "A small, all-male Hasidic Orthodox Jewish rabbinical seminary (yeshiva) in Brooklyn, New York, affiliated with the Bobov Hasidic community, focused narrowly on training students for religious and rabbinic roles rather than offering a conventional college experience.",
+    "distinctives": [
+      "An Orthodox Jewish yeshiva/rabbinical seminary, not a conventional liberal arts or comprehensive college",
+      "Single-sex institution enrolling only male students, training them in Talmudic and rabbinic studies",
+      "Very small enrollment, serving a specific Hasidic community (Bobov) in Brooklyn, New York",
+      "Curriculum is narrowly religious rather than offering broad secular majors, extracurriculars, or a typical residential campus life"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "137476": {
+    "profile_type": "researched",
+    "vibe": "A small private Catholic university in Miami Gardens, Florida, offering a diverse, career-focused student body a blend of liberal arts and professional programs alongside NCAA Division II athletics.",
+    "distinctives": [
+      "Private Catholic university located in Miami Gardens, Florida, founded by the Archdiocese of Miami",
+      "Offers undergraduate and graduate programs with notable strength in business, sports administration, and criminal justice",
+      "Serves a diverse, often first-generation and international student population",
+      "Competes in NCAA Division II athletics as the Bobcats"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "161235": {
+    "profile_type": "researched",
+    "vibe": "A small public university in the far north of Maine, near the Canadian border, serving as an accessible regional option with a strong online and rural-outreach mission.",
+    "distinctives": [
+      "Part of the University of Maine System, located in Fort Kent in Aroostook County, one of the most remote and rural settings of any US public university",
+      "Very small enrollment, typically only a few hundred students, with small class sizes",
+      "Historically known for nursing and education programs, and for serving rural/northern Maine and Acadian-heritage communities",
+      "Offers a mix of on-campus and online/distance programs given its remote location"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "491631": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish women's seminary and college in Rockland County, New York, combining intensive Torah study with college-level coursework rather than a conventional campus liberal-arts experience.",
+    "distinctives": [
+      "A specialized religious institution serving Orthodox Jewish women, integrating Judaic/Torah studies with secular academic coursework",
+      "Very small, single-sex enrollment, distinct from a traditional residential liberal arts college",
+      "Located in Rockland County, NY, an area with a substantial Orthodox Jewish community",
+      "Best suited to students specifically seeking a seminary-style, faith-centered educational environment rather than a general college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "234164": {
+    "profile_type": "researched",
+    "vibe": "A historically Black university in Richmond, Virginia, with deep roots in African American higher education and a legacy tied to civil rights and community leadership.",
+    "distinctives": [
+      "One of the nation's Historically Black Colleges and Universities (HBCUs), founded in the 19th century and affiliated historically with Baptist church traditions",
+      "Located in Richmond, Virginia, an urban setting with strong ties to the local Black community and civil rights history",
+      "Offers a range of undergraduate liberal arts and professional programs, including business and education",
+      "Small to mid-sized private institution known for fostering close-knit community and student support"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214689": {
+    "profile_type": "researched",
+    "vibe": "A Penn State branch campus in Altoona, Pennsylvania, offering a smaller, more personal alternative to the main University Park campus while retaining Penn State's academic resources and degree pathways.",
+    "distinctives": [
+      "A commonwealth campus of Pennsylvania State University, located in Altoona, PA, in the central Appalachian region of the state",
+      "Offers a number of bachelor's degrees on-site plus 2+2 pathways where students can start at Altoona and finish at University Park or another Penn State campus",
+      "Smaller and more residential-community feel than the flagship, with lower average class sizes",
+      "Students share access to Penn State's broader academic reputation, alumni network, and resources"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "241410": {
+    "profile_type": "researched",
+    "vibe": "A Catholic university in Ponce, Puerto Rico, serving primarily Spanish-speaking students with a mission rooted in Catholic values and professional/undergraduate education for the island's southern region.",
+    "distinctives": [
+      "A private Catholic institution located in Ponce, on the southern coast of Puerto Rico, operating under the auspices of the Catholic Church",
+      "Instruction is conducted primarily in Spanish, serving the local Puerto Rican community",
+      "Offers a range of undergraduate and graduate/professional programs, including law, and has multiple regional campuses across Puerto Rico",
+      "Mission emphasizes Catholic identity and values alongside academic and professional preparation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "210429": {
+    "profile_type": "researched",
+    "vibe": "A small public liberal arts university in Monmouth, Oregon, known for a close-knit campus feel and strong support for first-generation college students.",
+    "distinctives": [
+      "Part of the Oregon public university system, located in Monmouth, a small town in the Willamette Valley near Salem",
+      "Relatively small enrollment (a few thousand undergraduates), emphasizing small class sizes and accessible faculty",
+      "Historically serves a significant proportion of first-generation and Pell-eligible students",
+      "Offers undergraduate and graduate programs with traditional liberal arts roots, including education, business, and the sciences"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214731": {
+    "profile_type": "researched",
+    "vibe": "A commuter-friendly Penn State branch campus in suburban Philadelphia, offering the first two years of many Penn State degrees plus a handful of bachelor's programs, with the option to transition to University Park or another Penn State campus.",
+    "distinctives": [
+      "Located in Media, Pennsylvania (Delaware County), part of the Penn State Commonwealth Campus system",
+      "Small campus size relative to Penn State's flagship, with many students starting there before transferring to complete a bachelor's degree elsewhere in the Penn State system",
+      "Offers a limited set of bachelor's degrees on-site along with general education and pre-major coursework",
+      "Students share the Penn State brand, degree, and academic resources network with the University Park flagship"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "225627": {
+    "profile_type": "researched",
+    "vibe": "A private Catholic university in San Antonio, Texas, sponsored by the Sisters of Charity of the Incarnate Word, offering a broad mix of undergraduate, graduate, and professional programs including health sciences.",
+    "distinctives": [
+      "Private, Catholic (Sisters of Charity of the Incarnate Word) institution located in San Antonio, Texas",
+      "Offers a wide range of programs including nursing, health professions, business, and education, alongside traditional liberal arts",
+      "Serves a diverse student body, with a substantial Hispanic-serving enrollment reflecting its South Texas location",
+      "Includes graduate and professional degree offerings (such as doctoral-level health science programs) in addition to undergraduate education"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "115755": {
+    "profile_type": "researched",
+    "vibe": "A public university in Arcata, California, set amid redwood forests near the North Coast, known for its emphasis on environmental science, natural resources, and outdoor-oriented programs.",
+    "distinctives": [
+      "Part of the California State University system, recently renamed from Humboldt State University to California State Polytechnic University-Humboldt, reflecting a shift toward polytechnic (applied science and technology) programming",
+      "Located in Arcata, California, in a remote, forested setting near the Pacific coast in Humboldt County",
+      "Long-standing strength in environmental science, forestry, wildlife, marine biology, and natural resource management programs",
+      "Relatively small enrollment with a residential, nature-immersed campus culture"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214795": {
+    "profile_type": "researched",
+    "vibe": "A small, rural Penn State branch campus in south-central Pennsylvania offering associate and select bachelor's degrees, along with a pathway into the broader Penn State system.",
+    "distinctives": [
+      "Located in Mont Alto, Pennsylvania, in Franklin County near the Maryland border, part of the Penn State Commonwealth Campus system",
+      "One of the smaller Penn State campuses by enrollment, with a rural setting distinct from the University Park flagship",
+      "Offers associate degrees and a limited number of bachelor's degrees on-site, with many students transferring to complete four-year degrees at another Penn State location",
+      "Provides access to Penn State's academic resources, degree programs, and alumni network despite its small campus size"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "208646": {
+    "profile_type": "researched",
+    "vibe": "A small public liberal arts and regional comprehensive university in rural northeastern Oregon, known for its close-knit campus and outdoor-adjacent lifestyle in the Blue Mountains.",
+    "distinctives": [
+      "Located in La Grande, Oregon, a small town in the state's rural northeast, far from any major metro area",
+      "Small public university with a comparatively low student-to-faculty ratio and small class sizes",
+      "Offers a range of undergraduate liberal arts and professional programs, plus online degree options for adult and distance learners",
+      "Part of the Oregon public university system, serving many first-generation and regional students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "185129": {
+    "profile_type": "researched",
+    "vibe": "An urban public university in Jersey City serving a diverse, largely commuter and first-generation student body from the greater New York metro area.",
+    "distinctives": [
+      "Located in Jersey City, New Jersey, within easy reach of Manhattan and the broader NYC metro area",
+      "Public comprehensive university offering a range of undergraduate and graduate degrees",
+      "Serves a highly diverse student population, with many students being first-generation college attendees and commuters",
+      "Historically rooted as a teachers' college, with continuing strength in education and professional programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "476975": {
+    "profile_type": "researched",
+    "vibe": "A fully online public university built specifically for working adults, offering flexible, career-focused degree completion rather than a traditional campus experience.",
+    "distinctives": [
+      "Entirely online institution with no physical campus for students, distinct from Colorado State University's main Fort Collins campus",
+      "Designed for working adults and transfer students seeking flexible, self-paced or accelerated degree completion",
+      "Focuses on career-oriented undergraduate and graduate programs such as business, IT, and healthcare management",
+      "Part of the Colorado State University System but operates as a separate, independently accredited institution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "194763": {
+    "profile_type": "researched",
+    "vibe": "A very small Orthodox Jewish rabbinical seminary (yeshiva) in Queens, New York, training men exclusively for religious and rabbinic roles rather than offering a conventional college experience.",
+    "distinctives": [
+      "A single-sex, Orthodox Jewish rabbinical seminary (yeshiva), not a conventional liberal arts or comprehensive college",
+      "Very small enrollment, with a curriculum centered on Talmudic and religious studies rather than a broad general education program",
+      "Located in Queens, New York; prepares students specifically for religious leadership and rabbinic ordination",
+      "Lacks the general campus life, athletics, and broad extracurricular offerings typical of conventional four-year colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214652": {
+    "profile_type": "researched",
+    "vibe": "A small commonwealth campus of Penn State in the Scranton area, offering the first two years of many Penn State majors plus a few complete bachelor's degrees in a smaller, more intimate setting.",
+    "distinctives": [
+      "One of Penn State's smaller commonwealth (branch) campuses, located in Dunmore, near Scranton, Pennsylvania",
+      "Allows students to start a Penn State degree locally, with many students later transitioning to University Park or another Penn State campus to finish their major",
+      "Offers a limited number of complete bachelor's degree programs on-site alongside 2+2 pathway options",
+      "Smaller class sizes and closer faculty contact than Penn State's main University Park campus, while still carrying the Penn State name and degree"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "201690": {
+    "profile_type": "researched",
+    "vibe": "A historically Black public university in rural southwest Ohio with land-grant roots, offering a close-knit campus community focused on access and opportunity.",
+    "distinctives": [
+      "One of only two public HBCUs outside the South, located in Wilberforce, Ohio",
+      "Has land-grant university status, with programs in agriculture, food, and environmental sciences",
+      "Small campus with a low student-to-faculty ratio typical of smaller HBCUs",
+      "Offers undergraduate and some graduate programs, with a mission emphasizing access for first-generation and underserved students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "237367": {
+    "profile_type": "researched",
+    "vibe": "A public regional university in north-central West Virginia that serves as an accessible, career-oriented option for in-state and regional students.",
+    "distinctives": [
+      "Located in Fairmont, West Virginia, part of the West Virginia public higher education system",
+      "Offers a mix of two-year and four-year degree programs, including nursing, education, and technical/applied fields",
+      "Historically known for strong ties to regional workforce needs in aviation, technology, and health sciences",
+      "Relatively small, affordable public institution with a largely regional student base"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "214704": {
+    "profile_type": "researched",
+    "vibe": "A small Penn State commonwealth campus in Reading, Pennsylvania, offering the Penn State name and some shared resources in a more intimate, local setting than the flagship University Park campus.",
+    "distinctives": [
+      "One of Penn State's Commonwealth Campuses, located in Reading, Pennsylvania (Berks County)",
+      "Offers a range of bachelor's degrees directly and serves as an entry point for students who may later move to University Park for some majors",
+      "Much smaller enrollment and more personal class sizes than Penn State's main campus",
+      "Students share the Penn State brand, alumni network, and degree, distinguishing it from a fully independent regional college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "229814": {
+    "profile_type": "researched",
+    "vibe": "A public university in the Texas Panhandle known for its agricultural roots, affordable in-state tuition, and role as a regional hub for the Amarillo/Canyon area.",
+    "distinctives": [
+      "Located in Canyon, Texas, near Amarillo, and part of the Texas A&M University System",
+      "Strong programs in agriculture, agribusiness, and related sciences reflecting its Panhandle setting",
+      "Offers a range of undergraduate and graduate programs including business, education, and nursing",
+      "Serves largely as a regional draw for students from the Texas Panhandle and surrounding states, with relatively affordable cost"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "160074": {
+    "profile_type": "researched",
+    "vibe": "A Catholic university in Baton Rouge, Louisiana, rooted in a health-sciences mission and sponsored by a religious congregation focused on healthcare and service.",
+    "distinctives": [
+      "Located in Baton Rouge, Louisiana, and affiliated with the Catholic Franciscan Missionaries of Our Lady religious congregation",
+      "Strong historical focus on nursing and allied health professions, reflecting its origins tied to a hospital-based health system",
+      "Smaller private university offering a mix of undergraduate and graduate programs beyond just health fields",
+      "Faith-based mission emphasizing service, compassion, and preparation for healthcare and helping professions"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
