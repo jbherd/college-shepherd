@@ -29290,5 +29290,421 @@
       "applied via scheduled batch on 2026-09-23"
     ],
     "last_updated": "2026-09-23"
+  },
+  "492069": {
+    "profile_type": "researched",
+    "vibe": "A very small, faith-centered Christian college emphasizing biblical training alongside general studies in a close-knit community setting.",
+    "distinctives": [
+      "Small, independent Christian institution with a religious mission integrated into its academic programs",
+      "Enrolls a very small student body, typical of small denominational Bible/Christian colleges",
+      "Focuses on ministry preparation and Christian worldview alongside select liberal arts or professional offerings",
+      "Limited program breadth compared to larger institutions, reflecting its small scale and specific mission"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "492689": {
+    "profile_type": "researched",
+    "vibe": "A graduate and professional health sciences campus in El Paso, training future physicians, nurses, and other health professionals rather than serving traditional undergraduates.",
+    "distinctives": [
+      "Part of the Texas Tech University System, focused specifically on health sciences education in El Paso",
+      "Offers graduate and professional degrees (medicine, nursing, and other health professions) with essentially no traditional undergraduate population",
+      "Serves the El Paso/West Texas border region, with an emphasis on training providers for underserved communities",
+      "Not a fit for a typical high-school-to-college search since it is a post-baccalaureate professional/academic health center"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "492801": {
+    "profile_type": "researched",
+    "vibe": "The adult-learner and continuing-education division of Drury University, designed for working adults pursuing degree completion rather than traditional first-time freshmen.",
+    "distinctives": [
+      "A continuing/professional studies division of Drury University (Springfield, Missouri), separate from Drury's traditional residential undergraduate campus",
+      "Geared toward working adults and non-traditional students seeking flexible or accelerated degree-completion programs",
+      "Coursework often delivered in evening, online, or hybrid formats to accommodate students balancing work and family",
+      "Not the right fit for a traditional college-bound high school student searching for a residential undergraduate experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "492962": {
+    "profile_type": "researched",
+    "vibe": "The adult and professional studies arm of Indiana Institute of Technology, built for working adult learners rather than traditional 18-year-old freshmen.",
+    "distinctives": [
+      "A continuing/professional-studies division of Indiana Institute of Technology (Fort Wayne, Indiana), distinct from Indiana Tech's traditional undergraduate campus",
+      "Targets adult and non-traditional students, often with flexible scheduling, accelerated terms, and online or hybrid delivery",
+      "Emphasizes career-relevant degree completion for students who are already working or returning to school",
+      "Not a typical match for a traditional high-school-to-college search focused on a residential campus experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "493600": {
+    "profile_type": "researched",
+    "vibe": "A small all-male Orthodox Jewish yeshiva/rabbinical seminary within the Aleksander Hasidic tradition, dedicated to intensive Talmudic and religious study rather than a general liberal-arts curriculum.",
+    "distinctives": [
+      "An Orthodox Jewish yeshiva/rabbinical seminary (Talmudic academy) affiliated with the Aleksander Hasidic community",
+      "All-male student body focused on religious study, Torah and Talmud, not a conventional undergraduate degree program",
+      "Very small enrollment, typical of independent yeshiva institutions serving a specific religious community",
+      "Not comparable to a mainstream college search option; it serves students pursuing religious/rabbinical training rather than a general academic degree"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "493673": {
+    "profile_type": "researched",
+    "vibe": "A Puerto Rico-based institution offering career-oriented professional programs, likely conducted primarily in Spanish, serving local students seeking vocational and technical credentials.",
+    "distinctives": [
+      "Located in Puerto Rico and named for its founder, Dr. Carlos J. Borrero Rios, with instruction likely conducted primarily in Spanish",
+      "Offers career-focused and professional/technical programs rather than a broad traditional liberal-arts curriculum",
+      "Serves a local/regional Puerto Rican student population, typical of smaller career-training institutions on the island",
+      "Specific program offerings and accreditation details are not well-documented in general knowledge, so this profile is intentionally general"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "493822": {
+    "profile_type": "researched",
+    "vibe": "A small, unconventional Rhode Island institution built for working adults, replacing lectures and majors with self-directed, competency-based learning drawn from students' own lives and jobs.",
+    "distinctives": [
+      "Nontraditional, nonprofit college based in Providence/Pawtucket, Rhode Island, serving adult learners rather than traditional-age undergraduates",
+      "Uses a competency-based, experiential model in which students design individualized learning plans instead of following a fixed major/course catalog",
+      "Founded to serve first-generation, low-income, and working adult students who need flexible, credit-for-experience pathways to a degree",
+      "Very small enrollment (a few hundred students) with a strong focus on cohort-based, project-driven learning rather than a residential campus experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "494737": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish yeshiva devoted to full-time Talmudic and rabbinic study for men, not a general-education college.",
+    "distinctives": [
+      "All-male institution focused on intensive Torah and Talmud study within the Orthodox Jewish yeshiva tradition",
+      "Very small, close-knit enrollment typical of independent yeshivas rather than a broad liberal-arts student body",
+      "Curriculum centers on religious/rabbinic scholarship rather than the general academic majors found at most Scorecard-listed colleges",
+      "Best understood as a religious educational institution; publicly available data on programs, outcomes, and accreditation specifics is limited"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "495059": {
+    "profile_type": "researched",
+    "vibe": "A small, little-known college with limited public information available; details here are general rather than school-specific.",
+    "distinctives": [
+      "Small institution with limited independent verification of specific programs, rankings, or notable features",
+      "Appears in federal College Scorecard data but does not have a widely documented public profile",
+      "Prospective students should verify current accreditation, program offerings, and outcomes directly with the school before relying on secondhand descriptions",
+      "Treat any specific claims about size, cost, or majors as unconfirmed absent a direct source"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "495439": {
+    "profile_type": "researched",
+    "vibe": "A for-profit nursing school in the Arizona College of Nursing network's Fort Lauderdale, Florida campus, offering focused, career-oriented nursing credentials.",
+    "distinctives": [
+      "Part of the for-profit Arizona College of Nursing system, which operates multiple campuses nationally under a shared brand focused specifically on nursing education",
+      "Programs center on practical/vocational and associate- or bachelor's-level nursing tracks (e.g., ADN/BSN pathways) rather than a broad liberal-arts curriculum",
+      "As a for-profit institution, tuition, debt outcomes, and program cost structures should be compared carefully against public and nonprofit nursing programs",
+      "Fort Lauderdale, Florida campus serves students seeking a direct, career-focused route into nursing licensure rather than a traditional multi-year college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "495916": {
+    "profile_type": "researched",
+    "vibe": "A small, little-known college with limited public information available; details here are general rather than school-specific.",
+    "distinctives": [
+      "Small institution with limited independent verification of specific programs, rankings, or notable features",
+      "Appears in federal College Scorecard data but does not have a widely documented public profile",
+      "Prospective students should verify current accreditation, program offerings, and outcomes directly with the school before relying on secondhand descriptions",
+      "Treat any specific claims about size, cost, or majors as unconfirmed absent a direct source"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "496283": {
+    "profile_type": "researched",
+    "vibe": "A small, job-focused career college in Idaho Falls preparing students for direct entry into fields like healthcare, business, and trades.",
+    "distinctives": [
+      "Small career/vocational college with a branch campus model (part of the Provo College system)",
+      "Focuses on short-term certificate and associate-level programs rather than a traditional four-year liberal arts curriculum",
+      "Primarily commuter/non-residential campus serving local and regional students in Idaho Falls",
+      "Programs typically emphasize hands-on, career-training fields such as healthcare support, business, and technical trades"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "496326": {
+    "profile_type": "researched",
+    "vibe": "A small, career-training branch campus in Boise geared toward students seeking quick entry into vocational and allied-health fields.",
+    "distinctives": [
+      "Small career/vocational college operating as a branch campus (part of the Eagle Gate College system)",
+      "Offers certificate and associate-level programs aimed at fast entry into the workforce",
+      "Non-residential, commuter-oriented campus serving the Boise, Idaho area",
+      "Typical program focus areas include healthcare support and business/technical career training"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "496803": {
+    "profile_type": "researched",
+    "vibe": "A small, little-known institution with limited publicly available detail on its academic identity or campus culture.",
+    "distinctives": [
+      "Small, lesser-known institution with limited independently verifiable information",
+      "Specific program offerings, enrollment size, and campus setting are not well documented in general knowledge",
+      "Students and families should verify current accreditation status, program offerings, and outcomes directly with the school",
+      "Not enough confirmed detail to characterize distinctive academic strengths or notable programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "497408": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-based institution whose name suggests a Christian mission, with limited publicly documented detail on its academic programs.",
+    "distinctives": [
+      "Small institution that appears, based on its name, to be faith-based/Christian in mission and identity",
+      "Limited independently verifiable information on enrollment size, campus setting, or specific program offerings",
+      "Students and families should confirm current accreditation status and program details directly with the school",
+      "Not enough confirmed detail to characterize distinctive academic strengths or notable programs beyond its likely faith-based orientation"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "498623": {
+    "profile_type": "researched",
+    "vibe": "A small, little-known institution with limited publicly available detail on its academic identity or campus culture.",
+    "distinctives": [
+      "Small, lesser-known institution with limited independently verifiable information",
+      "Specific program offerings, enrollment size, and campus setting are not well documented in general knowledge",
+      "Students and families should verify current accreditation status, program offerings, and outcomes directly with the school",
+      "Not enough confirmed detail to characterize distinctive academic strengths or notable programs"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "498809": {
+    "profile_type": "researched",
+    "vibe": "A small, insular Hasidic yeshiva serving the Kashau (Kasho) Hasidic community, focused entirely on Talmudic and rabbinic study rather than a conventional liberal-arts curriculum.",
+    "distinctives": [
+      "All-male Orthodox Jewish institution dedicated to Talmudic and rabbinical study within the Kashau Hasidic tradition",
+      "Very small enrollment, serving a specific Hasidic community rather than the general public",
+      "Curriculum centers on religious texts (Talmud, halacha) rather than conventional secular majors",
+      "Not a typical residential liberal-arts college; functions more as a religious seminary/yeshiva"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "498906": {
+    "profile_type": "researched",
+    "vibe": "A small all-male yeshiva affiliated with the Sanz-Klausenburg Hasidic dynasty, dedicated to intensive Talmudic study within a tightly-knit religious community.",
+    "distinctives": [
+      "All-male Orthodox Jewish yeshiva tied to the Sanz-Klausenburg Hasidic movement",
+      "Focus is exclusively on Talmudic and rabbinic scholarship, not secular academic degrees in the conventional sense",
+      "Very small, community-based enrollment rather than open general admissions",
+      "Operates as a religious seminary rather than a traditional college campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "498924": {
+    "profile_type": "researched",
+    "vibe": "A small, little-known institution with limited public information available; likely serves a niche or regional student population, and prospective students should verify accreditation and program details directly with the school.",
+    "distinctives": [
+      "Small institution with limited independent documentation of programs, size, or notable outcomes",
+      "Appears to serve a specific regional or Hispanic-serving student population, though details are not well-verified",
+      "Not a widely recognized national university; caution recommended in relying on general reputation",
+      "Prospective applicants should confirm current accreditation status and program offerings directly with the institution"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "499422": {
+    "profile_type": "researched",
+    "vibe": "A branch campus of Denver College of Nursing located in Houston, offering a narrowly focused nursing education rather than a broad undergraduate experience.",
+    "distinctives": [
+      "This is a branch/satellite campus of Denver College of Nursing, a specialty nursing-focused institution, not an independent standalone college",
+      "Curriculum is narrowly focused on nursing degree programs (e.g., BSN-track coursework) rather than general liberal arts",
+      "Small, career-focused enrollment typical of single-purpose nursing schools",
+      "Best suited to students who have already decided on nursing as a career path, not undecided general applicants"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "500713": {
+    "profile_type": "researched",
+    "vibe": "A small Christian institution in Virginia emphasizing faith-based education, ministry preparation, and a close-knit campus community, though detailed program specifics are limited.",
+    "distinctives": [
+      "Small Christian college with a religious mission integrated into campus life and coursework",
+      "Likely offers ministry, biblical studies, and related programs alongside general undergraduate degrees, though exact program lineup is not well-verified",
+      "Small enrollment consistent with a tight-knit, values-based campus community",
+      "Prospective students should confirm current accreditation and specific majors directly with the college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "500740": {
+    "profile_type": "researched",
+    "vibe": "A small Orthodox Jewish institution devoted to full-time Talmudic and rabbinic study rather than a conventional undergraduate experience.",
+    "distinctives": [
+      "Operates as a yeshiva/rabbinical seminary (Congregation/Mesivta-style institution), not a general liberal-arts college",
+      "Enrollment is all-male, serving students pursuing intensive Torah and Talmud study",
+      "Curriculum centers on religious and rabbinic studies rather than a broad general-education or major system typical of secular colleges",
+      "Best suited to students specifically seeking an Orthodox yeshiva education, not a fit for students wanting a traditional campus/college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "500829": {
+    "profile_type": "researched",
+    "vibe": "A small, little-known college with limited public information available; details on its programs and campus character are not well documented.",
+    "distinctives": [
+      "A small institution with limited name recognition outside its immediate region",
+      "Specific program strengths, notable majors, or rankings are not confidently known and should be verified directly with the school",
+      "Prospective students should confirm accreditation, program offerings, and outcomes data directly via the school's official site or College Scorecard",
+      "Best evaluated using hard data (cost, size, outcomes) rather than reputation, given scarce independent reporting on this school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "501451": {
+    "profile_type": "researched",
+    "vibe": "A small, little-known university with limited public information available; details on its programs and campus character are not well documented.",
+    "distinctives": [
+      "A small institution with limited name recognition outside its immediate region",
+      "Specific program strengths, notable majors, or rankings are not confidently known and should be verified directly with the school",
+      "Prospective students should confirm accreditation, program offerings, and outcomes data directly via the school's official site or College Scorecard",
+      "Best evaluated using hard data (cost, size, outcomes) rather than reputation, given scarce independent reporting on this school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "501488": {
+    "profile_type": "researched",
+    "vibe": "A for-profit health-sciences institution focused on preparing students for nursing and allied-health careers through career-oriented programs.",
+    "distinctives": [
+      "Part of the West Coast University system, a for-profit chain concentrated on nursing and health-sciences education",
+      "Programs are oriented toward specific healthcare careers (e.g., nursing) rather than a broad liberal-arts curriculum",
+      "As a for-profit institution, cost, debt outcomes, and program-specific accreditation are especially important to check via College Scorecard before enrolling",
+      "Campus experience is typically career-training focused rather than a traditional residential college environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "501521": {
+    "profile_type": "researched",
+    "vibe": "A for-profit, career-focused campus offering applied programs in business, healthcare, technology, and public safety, aimed at working adults and career-changers.",
+    "distinctives": [
+      "Part of the Herzing University system, a for-profit chain with campuses across multiple states plus online offerings",
+      "Programs emphasize applied, career-oriented training in fields like business, healthcare, IT, and public safety/criminal justice rather than traditional liberal arts",
+      "As a for-profit institution, prospective students should closely review cost, debt-to-earnings outcomes, and programmatic accreditation via College Scorecard",
+      "Designed for practical, workforce-ready credentialing rather than a traditional 4-year residential college experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
   }
 }
