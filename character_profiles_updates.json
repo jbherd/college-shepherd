@@ -27290,5 +27290,405 @@
       "applied via scheduled batch on 2026-09-23"
     ],
     "last_updated": "2026-09-23"
+  },
+  "241216": {
+    "profile_type": "researched",
+    "vibe": "A tiny graduate-only institution in Virginia Beach dedicated to transpersonal studies, offering master's-level programs that blend psychology, spirituality, and holistic health, historically affiliated with the Association for Research and Enlightenment (the Edgar Cayce organization).",
+    "distinctives": [
+      "Graduate-only institution \u2014 offers no undergraduate degrees, so it is not a destination for traditional college-bound high schoolers",
+      "Specializes in transpersonal studies, transformative leadership, and integrative health, reflecting its historical ties to the Edgar Cayce/A.R.E. legacy",
+      "Very small enrollment, serving a niche student population interested in holistic and spiritual approaches to psychology and wellness",
+      "Offers significant distance-learning and low-residency program formats rather than a traditional residential campus experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "241386": {
+    "profile_type": "researched",
+    "vibe": "A small satellite campus of the Caribbean University system in Carolina, Puerto Rico, offering career-oriented undergraduate and graduate programs primarily in Spanish to local students.",
+    "distinctives": [
+      "One of several branch campuses of Caribbean University (Universidad del Caribe), a private Puerto Rico-based institution, not a standalone or independently accredited college",
+      "Instruction is conducted primarily in Spanish, serving students from the surrounding Carolina/San Juan metro area",
+      "Focuses on practical, career-oriented degree programs (business, education, health-related, and technical fields) rather than a broad liberal-arts curriculum",
+      "Small campus size typical of branch locations, with limited residential life or national draw compared to mainland US universities"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "241614": {
+    "profile_type": "researched",
+    "vibe": "A small Protestant theological seminary in Puerto Rico that trains students for ministry and religious leadership at the graduate level, not a general-purpose college.",
+    "distinctives": [
+      "Graduate-level seminary \u2014 its core offerings are theology, ministry, and pastoral-training degrees rather than a broad undergraduate curriculum",
+      "Rooted in Protestant/evangelical Christian tradition, preparing students for pastoral, missionary, and church-leadership roles",
+      "Instruction is conducted primarily in Spanish, serving the Puerto Rican and broader Caribbean Hispanic religious community",
+      "Very small, mission-focused institution with an enrollment and campus scale far smaller than typical four-year colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "241739": {
+    "profile_type": "researched",
+    "vibe": "The Cupey campus in San Juan is a flagship-scale branch of the large Ana G. M\u00e9ndez University system, delivering primarily Spanish-language undergraduate and graduate programs to students across the San Juan metro area.",
+    "distinctives": [
+      "Part of the Ana G. M\u00e9ndez University system (Universidad Ana G. M\u00e9ndez, formerly Sistema Universitario Ana G. M\u00e9ndez), one of Puerto Rico's largest private higher-education networks, alongside other campuses such as Gurabo and Carolina",
+      "Instruction is conducted primarily in Spanish, serving local and regional students rather than a national or international applicant pool",
+      "Offers a broad range of programs including business, education, health sciences, and engineering, reflecting the system's comprehensive, career-oriented mission",
+      "As a branch campus, it operates under the system's shared accreditation and administration rather than as an independently chartered university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "243203": {
+    "profile_type": "researched",
+    "vibe": "The Medical Sciences Campus of the University of Puerto Rico is a graduate and professional health-sciences center in San Juan, training physicians, dentists, nurses, pharmacists, and other health professionals \u2014 not an undergraduate liberal-arts destination.",
+    "distinctives": [
+      "Graduate/professional-only campus of the University of Puerto Rico system, home to the School of Medicine, School of Dentistry, School of Pharmacy, School of Nursing, and other health-science schools",
+      "Serves as Puerto Rico's principal public academic health center, playing a major role in training the island's physicians and health professionals",
+      "Admits students who already hold a bachelor's degree or equivalent, so it is not applicable for high schoolers seeking an undergraduate program",
+      "Instruction and clinical training are conducted primarily in Spanish, integrated with affiliated teaching hospitals in the San Juan area"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "243346": {
+    "profile_type": "researched",
+    "vibe": "A branch campus of the Ana G. M\u00e9ndez University system in Carolina, Puerto Rico, offering career-oriented undergraduate and graduate programs primarily in Spanish to a largely local, working commuter population.",
+    "distinctives": [
+      "One of several branch campuses of Ana G. M\u00e9ndez University (formerly Sistema Universitario Ana G. M\u00e9ndez), a large private, nonprofit, Hispanic-serving institution based in Puerto Rico",
+      "Instruction is conducted primarily in Spanish, serving students overwhelmingly from Puerto Rico",
+      "Offers career-focused associate, bachelor's, and some graduate programs in fields like business, health sciences, and education, with flexible/commuter-friendly scheduling",
+      "Smaller and more limited in scope than the system's flagship Gurabo campus, functioning as a regional access point rather than a traditional residential college"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "243577": {
+    "profile_type": "researched",
+    "vibe": "A private polytechnic university in San Juan, Puerto Rico, dedicated almost entirely to engineering, architecture, and technology education for a Spanish-speaking, career-focused student body.",
+    "distinctives": [
+      "Private, nonprofit polytechnic institution focused specifically on engineering, architecture, construction management, and computer/IT fields rather than a broad liberal-arts curriculum",
+      "Instruction is conducted primarily in Spanish, with a student body drawn mainly from Puerto Rico",
+      "Offers bachelor's and graduate degrees (including a doctoral program in engineering) with a strong emphasis on applied, hands-on technical training",
+      "Operates additional satellite/extension sites elsewhere in Puerto Rico in addition to its main San Juan campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "243601": {
+    "profile_type": "researched",
+    "vibe": "The largest and main campus of the Ana G. M\u00e9ndez University system, located in Gurabo, Puerto Rico, offering a broad range of career-oriented programs primarily in Spanish to a mostly local student population.",
+    "distinctives": [
+      "Flagship/main campus of Ana G. M\u00e9ndez University, a large private, nonprofit, Hispanic-serving university system headquartered in Puerto Rico",
+      "Instruction is conducted primarily in Spanish, with students drawn overwhelmingly from Puerto Rico",
+      "Offers a wide array of associate, bachelor's, master's, and doctoral programs across business, health sciences, education, and engineering-related fields",
+      "Larger in enrollment and program breadth than the system's other Puerto Rico branch campuses (e.g., Carolina)"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "245838": {
+    "profile_type": "researched",
+    "vibe": "A small, progressive graduate-focused campus of Antioch University in Los Angeles, oriented around social justice, psychology, and education programs for adult and career-changing students rather than a traditional undergraduate experience.",
+    "distinctives": [
+      "One of several regional campuses of Antioch University, a private nonprofit system with roots in progressive education; the LA campus is overwhelmingly graduate-level, not a residential undergraduate college",
+      "Known for programs in clinical psychology, counseling, education, and creative writing (including an MFA), with a strong social-justice and community-engagement orientation",
+      "Serves primarily working adults and career-changers through small cohort-based classes and evening/weekend formats rather than a traditional campus lifestyle",
+      "Located in Los Angeles, California, without dormitories or a conventional undergraduate residential campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "245847": {
+    "profile_type": "researched",
+    "vibe": "A small, progressive graduate-focused campus of Antioch University in Santa Barbara, emphasizing psychology, counseling, and education programs for working adults within a social-justice-minded mission rather than a traditional undergraduate college.",
+    "distinctives": [
+      "One of several regional campuses of Antioch University, a private nonprofit system historically tied to progressive and experiential education; the Santa Barbara campus is predominantly graduate-level",
+      "Focuses on programs such as clinical psychology, counseling, and education, often delivered through cohort-based, part-time, or low-residency formats suited to working professionals",
+      "Carries a strong emphasis on social justice, community engagement, and applied practice rather than a research-university or classic liberal-arts model",
+      "Located in Santa Barbara, California, with no traditional undergraduate residential campus or dormitories"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "245883": {
+    "profile_type": "researched",
+    "vibe": "A small, progressive graduate-focused campus in Seattle built for working adults pursuing careers in psychology, counseling, education, and social justice-oriented fields.",
+    "distinctives": [
+      "Part of the multi-campus Antioch University system; overwhelmingly graduate-level, with only a small undergraduate completion program for adult learners",
+      "Known for programs in clinical psychology, counseling, applied psychology, education, and environmental/urban sustainability",
+      "Mission emphasizes social justice, equity, and community engagement, reflecting Antioch's historic progressive educational philosophy",
+      "Small, non-residential campus serving primarily working adults and career-changers in the Pacific Northwest rather than traditional-age undergraduates"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "245892": {
+    "profile_type": "researched",
+    "vibe": "The central administrative and accreditation entity for the distributed, multi-campus Antioch University system, whose graduate programs emphasize social justice, sustainability, and adult/professional education across several U.S. cities.",
+    "distinctives": [
+      "This entity is the umbrella university encompassing Antioch's multiple campuses (including Seattle, New England, Santa Barbara, Los Angeles, and Midwest sites); it is distinct from Antioch College, the separate undergraduate liberal arts institution in Yellow Springs, Ohio",
+      "Programs are heavily graduate and professional in nature \u2014 clinical psychology, counseling, education, environmental studies, and social work \u2014 with limited traditional undergraduate offerings",
+      "Institutional identity is rooted in Antioch's historic progressive, experiential-education tradition, now expressed through a low-residency, adult-learner-centered, and social-justice-driven mission",
+      "Structured as a distributed, non-residential network rather than a single physical campus, serving working professionals nationwide"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "251312": {
+    "profile_type": "researched",
+    "vibe": "A for-profit, career-focused campus in Columbia, South Carolina, offering hands-on degree and certificate programs aimed at getting working adults into specific fields quickly.",
+    "distinctives": [
+      "Part of the multi-campus South University for-profit system, with a career-training mission centered on fields like nursing, healthcare, business, and legal studies",
+      "Programs are typically shorter and more vocationally focused than those at traditional four-year colleges, often including flexible or accelerated scheduling for working adults",
+      "As a for-profit institution, admissions tend to be less selective and tuition/outcomes should be evaluated carefully against public alternatives in the region",
+      "Serves primarily non-traditional, career-changing, and adult students rather than a residential traditional-age undergraduate population"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "262086": {
+    "profile_type": "researched",
+    "vibe": "A largely online, adult-learner-focused university (formerly Brandman University) now operating within the University of Massachusetts system, built around flexibility for working students rather than a traditional residential campus experience.",
+    "distinctives": [
+      "Formerly Brandman University (an offshoot of Chapman University's system), rebranded as University of Massachusetts Global after joining the UMass system",
+      "Primarily serves adult, working, and military-affiliated students through online and hybrid degree completion and graduate programs rather than a traditional first-time freshman experience",
+      "Emphasizes flexible scheduling, competency-based and accelerated pathways, and support for transfer and returning students",
+      "Not a traditional residential campus setting; identity centers on accessibility and workforce-aligned degree completion for non-traditional learners"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "262165": {
+    "profile_type": "researched",
+    "vibe": "A small, independent Bible college in Bozeman, Montana, offering a Christ-centered education focused on biblical studies and ministry preparation within a close-knit evangelical community.",
+    "distinctives": [
+      "Small, independent, non-denominational or evangelical Christian institution with an explicitly faith-based mission centered on biblical training and ministry preparation",
+      "Very small enrollment typical of specialized Bible colleges, with a tight-knit residential community emphasizing spiritual formation alongside academics",
+      "Curriculum centers on biblical studies, theology, and ministry-related programs rather than a broad liberal arts or pre-professional catalog",
+      "Located in Bozeman, Montana, offering students a small-town, faith-community setting near the Rocky Mountains rather than a large university environment"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "363712": {
+    "profile_type": "researched",
+    "vibe": "An all-male Orthodox Jewish yeshiva gedolah in Miami Beach devoted to intensive Talmudic and rabbinic study, not a general-education college in the conventional sense.",
+    "distinctives": [
+      "Enrolls only male students pursuing full-time Torah and Talmud study, typically in a beis medrash (study hall) format rather than a conventional lecture-based curriculum",
+      "Very small enrollment, likely well under a few hundred students, consistent with other independent yeshiva gedolah institutions",
+      "Located in Miami Beach, Florida, serving the local Orthodox Jewish community and students drawn from broader Orthodox networks",
+      "Awards religious/rabbinic credentials rather than standard bachelor's degrees in the way a traditional liberal arts college would"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "363907": {
+    "profile_type": "researched",
+    "vibe": "A satellite campus of the Caribbean University system in Ponce, Puerto Rico, offering Spanish-language, career-oriented degree programs to local students rather than functioning as an independent flagship institution.",
+    "distinctives": [
+      "Branch campus of Caribbean University, a private, nonprofit, Spanish-language institution headquartered in Bayam\u00f3n, Puerto Rico",
+      "Instruction is conducted primarily in Spanish, serving the local Ponce-area community",
+      "Focuses on career-oriented associate and bachelor's degree programs in fields such as business, education, and health-related disciplines",
+      "Small commuter campus rather than a residential, standalone university with its own distinct identity separate from the Caribbean University system"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "363916": {
+    "profile_type": "researched",
+    "vibe": "A satellite campus of the Caribbean University system in Vega Baja, Puerto Rico, providing Spanish-language, career-focused higher education to residents of the island's northern coast.",
+    "distinctives": [
+      "Branch campus of Caribbean University, a private, nonprofit, Spanish-language institution headquartered in Bayam\u00f3n, Puerto Rico",
+      "Instruction is conducted primarily in Spanish, serving students in and around Vega Baja",
+      "Offers career-oriented associate and bachelor's degree programs, likely in business, education, and allied health fields, mirroring the system's other campuses",
+      "Small, commuter-oriented satellite location rather than a self-contained university with its own separate accreditation or identity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "375230": {
+    "profile_type": "researched",
+    "vibe": "A small, all-male Orthodox Jewish yeshiva gedolah in Brooklyn affiliated with the Spinka Hasidic community, dedicated to full-time Talmudic and rabbinic study rather than general higher education.",
+    "distinctives": [
+      "Serves only male students engaged in intensive, full-time Torah and Talmud study within the Spinka Hasidic tradition",
+      "Very small enrollment typical of independent Hasidic yeshivas gedolahs, likely well under a few hundred students",
+      "Located in Brooklyn, New York, within the borough's dense network of Hasidic and Orthodox Jewish educational institutions",
+      "Curriculum centers on religious texts and rabbinic ordination pathways rather than a secular liberal arts or professional degree curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "380438": {
+    "profile_type": "researched",
+    "vibe": "A small for-profit career college in Provo, Utah, focused on short, vocational training programs; prospective students should independently verify current operating and accreditation status before applying.",
+    "distinctives": [
+      "For-profit career-training institution historically offering certificate and associate-level programs in fields such as healthcare, business, and information technology",
+      "Located in Provo, Utah, serving primarily local and regional students seeking workforce-focused credentials rather than a traditional four-year degree path",
+      "Small institution with a narrower program catalog than a comprehensive university, emphasizing shorter time-to-completion career tracks",
+      "For-profit career colleges in this sector have faced periodic closures, ownership changes, and accreditation shifts nationally, so current operating status should be confirmed directly with the school or accreditor rather than assumed"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "388520": {
+    "profile_type": "researched",
+    "vibe": "A small, interdenominational Bible college in Houston training students for ministry, counseling, and Christian leadership, with a mission historically rooted in serving urban and ethnically diverse students.",
+    "distinctives": [
+      "Small, private, nonprofit Bible college offering degrees grounded in biblical studies alongside applied fields like counseling and ministry leadership",
+      "Interdenominational Christian institution rather than affiliated with a single denomination",
+      "Located in Houston, Texas, historically serving a diverse urban student population including many first-generation and working adult students",
+      "Offers associate, bachelor's, and some graduate-level programs centered on biblical/theological education rather than a broad liberal-arts curriculum"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "401223": {
+    "profile_type": "researched",
+    "vibe": "A small Korean-American Christian university in Los Angeles focused squarely on training students for pastoral ministry, missions, and Christian leadership within a Korean-immigrant church context.",
+    "distinctives": [
+      "Small private Christian institution with instruction offered in both Korean and English to serve a predominantly Korean-American student body",
+      "Core mission centers on preparing students for ministry, missionary work, and church leadership rather than a general undergraduate curriculum",
+      "Offers undergraduate and graduate (seminary-level) theological programs; not a comprehensive or secular university",
+      "Located in Los Angeles, drawing heavily on the region's large Korean-American church community for students and support"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "404338": {
+    "profile_type": "researched",
+    "vibe": "A small private international university built around a study-abroad model, historically operating linked campuses in the US and Europe so students can move between locations while pursuing degrees in business, international relations, and related fields.",
+    "distinctives": [
+      "Distinctive multi-campus, multi-country model, historically with US locations plus campuses in Europe (e.g., Germany, France/Spain over its history), letting students study in more than one country",
+      "Strong historical focus on international business, international relations, and hospitality/tourism management",
+      "Small, private institution with a deliberately international, multicultural student body rather than a large research-university profile",
+      "Curriculum and structure emphasize global/cross-cultural exposure over a traditional single-campus liberal arts experience"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "405854": {
+    "profile_type": "researched",
+    "vibe": "A small, all-male Orthodox Jewish yeshiva/rabbinical college in Brooklyn dedicated to intensive Talmudic and rabbinical study rather than a general undergraduate education.",
+    "distinctives": [
+      "All-male Orthodox Jewish institution focused on Talmudic scholarship, halacha (Jewish law), and rabbinical training",
+      "Not a general-education college \u2014 curriculum centers on traditional yeshiva-style religious study rather than a broad liberal arts or professional program mix",
+      "Located in Brooklyn, New York, within a dense Orthodox/Hasidic community that it primarily serves",
+      "Small, highly specialized enrollment typical of a rabbinical seminary rather than a conventional degree-granting university"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
+  },
+  "413413": {
+    "profile_type": "researched",
+    "vibe": "A large, fully online for-profit university headquartered in Minneapolis built specifically for working adult learners, with a heavy emphasis on graduate and doctoral degrees and competency-based, flexible-pace programs.",
+    "distinctives": [
+      "Fully online, for-profit institution serving primarily working adult and career-changing students rather than traditional-age residential undergraduates",
+      "Notably graduate-heavy program mix, with a large portfolio of master's and doctoral degrees (including well-known doctoral programs in fields like business, psychology, education, and health administration)",
+      "Offers competency-based/flexible-pace learning options (FlexPath) allowing students to progress based on demonstrated mastery rather than fixed semester timelines",
+      "Part of a larger for-profit higher-education holding company, with a business model built around scalable online delivery to a national adult-learner population"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-23"
+    ],
+    "last_updated": "2026-09-23"
   }
 }
