@@ -15689,5 +15689,405 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22"
+  },
+  "181127": {
+    "profile_type": "researched",
+    "vibe": "A small, tight-knit liberal arts college on the Nebraska plains where nearly every class has fewer than 20 students and professors know students by name, paired with a surprisingly serious arts scene and a big NAIA athletics program for its size.",
+    "distinctives": [
+      "About 1,000 students with a 13:1 student-faculty ratio and average class size of 13; nearly 90% of faculty hold doctorates or terminal degrees",
+      "Runs on a block academic calendar (two semesters split into 8-week blocks), letting students focus on fewer courses at a time",
+      "Home to the Jackson Dinsdale Art Center, which houses one of the nation's premier collegiate glassblowing studios",
+      "Fields 27 varsity teams (NAIA, Great Plains Athletic Conference) on a 120-acre campus in Hastings, Nebraska, founded in 1882"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "147013": {
+    "profile_type": "researched",
+    "vibe": "A historic Illinois university (the state's oldest institution of higher education) that has grown steadily in recent years, blending small-college class sizes with a genuinely broad program list and a large NCAA athletics offering.",
+    "distinctives": [
+      "Founded in 1828 as Illinois' first institution of higher education, located in Lebanon, Illinois; has posted multiple consecutive years of enrollment growth through the mid-2020s",
+      "Enrolls roughly 2,400 students (about 1,800 undergraduate, 650 graduate) with an average class size around 15 and roughly 83 full-time faculty",
+      "Offers around 55 undergraduate majors plus 11 graduate programs and 2 doctoral programs",
+      "Competes as the Bearcats with one of the larger athletics rosters in the region \u2014 around 37 intercollegiate teams"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "176789": {
+    "profile_type": "researched",
+    "vibe": "A small, Bible-centered Christian university in Kansas City training students for ministry, counseling, and Christian education, currently navigating a real accreditation warning that prospective students should weigh carefully.",
+    "distinctives": [
+      "IMPORTANT: As of June 2026, Calvary University's regional accreditor, the Higher Learning Commission (HLC), placed the school on 'Accreditation on Probation' status over concerns including financial sustainability and staffing adequacy \u2014 the school remains accredited but is under active review",
+      "Also accredited by the Association for Biblical Higher Education (ABHE), which covers its certificate through doctoral-level programs",
+      "Small, faith-based institution in Kansas City, Missouri, focused on programs like Bible & Theology, Biblical Counseling, Education, and Ministry Studies",
+      "Prospective students should confirm current accreditation status directly with the school before enrolling, given the active probation review"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "155414": {
+    "profile_type": "researched",
+    "vibe": "A small United Methodist-affiliated university in Salina, Kansas with a strong NAIA athletic culture and unusually small classes, where hands-on programs like nursing and business sit alongside a nationally competitive DECA team.",
+    "distinctives": [
+      "Founded in 1886, affiliated with the United Methodist Church, enrolling roughly 950 students on a 28-acre campus in Salina, Kansas",
+      "Offers about 27 majors granting BA, BS, BSN, and MBA degrees, with an average class size around 13",
+      "Competes as the Coyotes in the NAIA/Kansas Collegiate Athletic Conference with 24 varsity sports and multiple recent KCAC Commissioner's Cup wins",
+      "Its DECA (business/marketing) team has racked up numerous world championship honors in recent years"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "172051": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Michigan's Great Lakes Bay region offering a large, practical program catalog \u2014 nursing, business, engineering \u2014 on a spacious wooded campus, with a solid NCAA Division II athletics program.",
+    "distinctives": [
+      "Public university founded in 1963 in University Center, Michigan (near Saginaw), enrolling about 6,400 students (roughly 5,600 undergraduate, 560 graduate) on a 748-acre campus",
+      "Offers over 100 academic programs across five colleges, including an AACSB-accredited business college (Scott L. Carmona College of Business)",
+      "Competes in NCAA Division II (GLIAC) with 18 varsity teams; the men's ice hockey program won back-to-back national championships in 2009 and 2010",
+      "Home to the Marshall M. Fredericks Sculpture Museum and known for a large-scale aqua-thermal heating/cooling system on campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "221953": {
+    "profile_type": "researched",
+    "vibe": "A small, historic private university in the Appalachian foothills of East Tennessee, built around a hands-on 'Civic Arts' curriculum and a close-knit, small-town campus feel.",
+    "distinctives": [
+      "Located in Greeneville, Tennessee, and traces its roots to the late 1700s, making it one of the oldest institutions of higher learning in the state, with historical Presbyterian ties",
+      "Emphasizes a distinctive general-education model built around civic engagement, leadership, and career-focused learning rather than a traditional liberal-arts distribution",
+      "Competes in NCAA Division II athletics as the Pioneers, fielding a range of men's and women's teams",
+      "A small institution serving a modest undergraduate population, drawing many students from the surrounding Appalachian region alongside a national and international student mix"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178402": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public research university in the heart of Kansas City, known for feeding directly into professional fields through distinctive accelerated and conservatory-style programs.",
+    "distinctives": [
+      "Part of the University of Missouri System, situated on an urban campus in Kansas City, Missouri",
+      "Home to a well-regarded Conservatory of Music and Dance and a combined six-year BA/MD medical program that lets students enter medical school directly from high school",
+      "Also houses professional schools of Law, Pharmacy, Dentistry, and Nursing/Health Studies, giving it a strong health-sciences and professional-degree footprint for a school its size",
+      "Competes in NCAA Division I athletics (the Kangaroos/'Roos') as a member of the Summit League"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "197692": {
+    "profile_type": "researched",
+    "vibe": "A very small, specialized Orthodox Jewish yeshiva in Queens, New York, oriented almost entirely around intensive Talmudic and rabbinic study rather than a conventional undergraduate liberal-arts experience.",
+    "distinctives": [
+      "Located in the Kew Gardens neighborhood of Queens, New York City, and serves the Haredi/Orthodox Jewish community",
+      "Functions as a rabbinical seminary (yeshiva) whose curriculum centers on Torah and Talmud study, distinct from the general-education model of most conventional colleges",
+      "Enrolls a very small, largely male student body; outcome and cost data should be read with caution given the school's narrow religious-education mission and small sample size",
+      "This is a niche, mission-specific institution rather than a broad-access or research university, and prospective students should verify current details (accreditation, program structure, tuition) directly with the school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "141264": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in south Georgia with a strong regional identity, a broad range of undergraduate and graduate programs, and a football program that punches well above its weight.",
+    "distinctives": [
+      "A member of the University System of Georgia, located in Valdosta, Georgia, serving primarily students from South Georgia, North Florida, and the surrounding region",
+      "Its football program has been a perennial NCAA Division II power, with multiple national championships and deep playoff runs over the decades, giving the school an outsized athletic profile for its size",
+      "Offers a comprehensive mix of undergraduate, graduate, and professional programs across business, education, health sciences, and the arts and sciences",
+      "Functions largely as a regional access institution, drawing a substantial share of in-state, first-generation, and commuter students"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "206525": {
+    "profile_type": "researched",
+    "vibe": "A traditional small private liberal-arts college in Springfield, Ohio with Lutheran roots and a close, residential campus culture, though like many small liberal-arts colleges it has faced real financial pressure in recent years.",
+    "distinctives": [
+      "A private, historically Lutheran-affiliated (ELCA) liberal-arts college founded in the 19th century, located in Springfield, Ohio",
+      "Competes in NCAA Division III athletics (the Tigers) as a member of the North Coast Athletic Conference, with a strong emphasis on the traditional residential small-college experience",
+      "Known for pre-professional strength in areas such as education, business, and the sciences alongside a core liberal-arts curriculum",
+      "Along with many peer small private liberal-arts colleges nationally, Wittenberg has faced enrollment and budget pressures in recent years that led to cost-cutting measures; prospective students should confirm the university's current financial and program stability directly with the school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "490805": {
+    "profile_type": "researched",
+    "vibe": "A commuter-focused regional public university serving Northwest Indiana's working and often first-generation students, with a practical, career-oriented feel across its two campuses.",
+    "distinctives": [
+      "Formed in 2016 through the merger of Purdue Calumet and Purdue North Central, with campuses in Hammond and Westville, Indiana.",
+      "Part of the Purdue University system, offering the Purdue brand and some shared resources at a more regional, accessible scale.",
+      "Serves a largely commuter and non-traditional student population, with many students working while enrolled and strong transfer pathways.",
+      "Competes in NCAA Division II athletics as the Pride, in the Great Lakes Intercollegiate Athletic Conference (GLIAC)."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "152381": {
+    "profile_type": "researched",
+    "vibe": "A small, close-knit Catholic women's college near Terre Haute, Indiana, with a strong sense of tradition and a campus community where students and faculty know each other by name.",
+    "distinctives": [
+      "Founded in 1840 by the Sisters of Providence and historically affiliated with the Catholic Church; remains a women's college for its residential undergraduate program.",
+      "Very small enrollment by design, offering an intimate, close-knit campus community rather than a large-university experience.",
+      "Long known for its equestrian program and rural, scenic campus setting west of Terre Haute.",
+      "Offers 'Woods Online' distance-education degree programs alongside its traditional residential offerings, broadening access beyond the physical campus."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "162007": {
+    "profile_type": "researched",
+    "vibe": "A historically Black public university in Bowie, Maryland, with a proud legacy dating to 1865 and a growing emphasis on STEM, nursing, and business alongside strong campus tradition.",
+    "distinctives": [
+      "One of the oldest historically Black colleges and universities (HBCUs) in the country, founded in 1865, and a member of the University System of Maryland.",
+      "Known for programs in nursing, business, computer science, and cybersecurity, with growing investment in STEM facilities.",
+      "Competes in NCAA Division II athletics as the Bulldogs, in the Central Intercollegiate Athletic Association (CIAA).",
+      "Located roughly midway between Washington, D.C., and Annapolis, giving students access to internships and opportunities in both metro areas."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196291": {
+    "profile_type": "researched",
+    "vibe": "A highly specialized public maritime academy on a waterfront campus at Fort Schuyler in the Bronx, built around a disciplined Regiment of Cadets and a direct pipeline into maritime, engineering, and logistics careers.",
+    "distinctives": [
+      "Part of the SUNY system and one of only a handful of maritime academies in the U.S., training students for careers as merchant marine officers, engineers, and in maritime industries.",
+      "Many students participate in the Regiment of Cadets, a structured, uniformed leadership and training program, alongside academic coursework.",
+      "Students in the licensed deck/engineering programs can graduate with a U.S. Coast Guard license, a distinctive credential not offered at typical four-year colleges.",
+      "Known for strong post-graduation outcomes and starting salaries in maritime, engineering, and transportation fields, reflecting high industry demand for licensed graduates."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "218654": {
+    "profile_type": "researched",
+    "vibe": "A smaller, growing public university on South Carolina's Lowcountry coast, offering a relaxed, beach-adjacent college experience within the larger University of South Carolina system.",
+    "distinctives": [
+      "A regional campus of the University of South Carolina system, located in the Beaufort/Bluffton area near Hilton Head Island.",
+      "Smaller enrollment than USC's Columbia flagship, offering smaller class sizes and a more intimate coastal setting.",
+      "Notable for its golf program and coastal/environmental studies opportunities tied to its Lowcountry location.",
+      "Competes in NCAA Division II athletics as the Sand Sharks, in the Peach Belt Conference."
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "168528": {
+    "profile_type": "researched",
+    "vibe": "A small United Methodist-affiliated liberal arts college in Adrian, Michigan, known for an unusually large number of varsity and club sports teams that draw a big share of the student body into athletics.",
+    "distinctives": [
+      "Private liberal arts college founded in 1859, affiliated with the United Methodist Church, located in Adrian, Michigan",
+      "Offers one of the largest NCAA Division III athletic programs in the country by number of sponsored sports, which shapes campus culture heavily around athletics and club sports",
+      "Small residential campus with a total enrollment typically in the 1,500-2,000 student range",
+      "Offers traditional liberal arts majors alongside newer professional programs (e.g., business, health sciences) aimed at boosting enrollment and career outcomes"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "217624": {
+    "profile_type": "researched",
+    "vibe": "A small, historically Black college in Columbia, South Carolina affiliated with the African Methodist Episcopal Church, serving a predominantly local, first-generation student population, but one that has faced serious institutional and accreditation instability in recent years.",
+    "distinctives": [
+      "Founded in 1870 as one of South Carolina's oldest HBCUs, affiliated with the African Methodist Episcopal (AME) Church",
+      "Lost its regional accreditation from SACSCOC around 2019-2020 amid financial and compliance issues, and subsequently pursued accreditation through TRACS (Transnational Association of Christian Colleges and Schools) instead; prospective students should verify current accreditation status directly with the school before enrolling, since accreditation affects financial aid eligibility and credit transferability",
+      "Very small enrollment (historically only a few hundred students), with significant financial pressure reported in past years",
+      "Students and families considering Allen should independently confirm current accreditation status, financial aid eligibility, and graduation outcomes given the school's documented history of instability"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "178411": {
+    "profile_type": "researched",
+    "vibe": "A public STEM powerhouse in Rolla, Missouri, popular with students who want an intensely engineering- and science-focused education, strong industry recruiting, and a smaller, more technical alternative to the flagship Mizzou campus.",
+    "distinctives": [
+      "Public university within the University of Missouri System, located in Rolla, Missouri, with a near-total focus on engineering, computer science, and applied sciences",
+      "Consistently ranked among the top public universities for engineering value and graduate starting salaries, with strong outcomes in fields like mechanical, electrical, civil, and petroleum engineering",
+      "Smaller and more male-skewed student body than typical public universities, with a historically strong Greek life and a distinctive campus culture (e.g., the annual St. Pat's celebration tied to its mining/engineering heritage)",
+      "Known by its earlier name, University of Missouri-Rolla (UMR), before rebranding to Missouri S&T in 2008; the mining engineering and metallurgy roots remain part of its identity"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "177542": {
+    "profile_type": "researched",
+    "vibe": "A small, conservative Christian university in Hannibal, Missouri (Mark Twain's hometown) affiliated with the Missouri Baptist Convention, oriented toward students seeking a faith-centered, tight-knit college experience.",
+    "distinctives": [
+      "Private Christian liberal arts university affiliated with the Missouri Baptist Convention, located in Hannibal, Missouri",
+      "Very small institution, with total enrollment typically in the range of a few hundred to around a thousand students, offering a close-knit campus community",
+      "Requires or strongly emphasizes a Christian statement of faith and integrates Bible/theology coursework into general education for most students",
+      "Offers career-oriented undergraduate programs (education, business, nursing/health sciences) alongside traditional ministry and biblical studies degrees"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "234173": {
+    "profile_type": "researched",
+    "vibe": "A small private liberal arts university near the Virginia Beach oceanfront, offering a traditional residential college experience with historic ties to the United Methodist Church and a recent rebrand from 'college' to 'university' status.",
+    "distinctives": [
+      "Private liberal arts institution located in Virginia Beach, Virginia, with roots in the United Methodist tradition",
+      "Changed its name from Virginia Wesleyan College to Virginia Wesleyan University in 2021 as it added graduate and professional programs alongside its undergraduate core",
+      "Small residential campus (historically roughly 1,300-1,800 students) that competes in NCAA Division III athletics as the Marlins",
+      "Like many small private liberal arts institutions nationally, has faced enrollment and budget pressures in recent years; prospective students should confirm current financial health and program offerings directly with the school"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "196130": {
+    "profile_type": "researched",
+    "vibe": "A mid-sized public university in Buffalo, New York, within the SUNY system, with a practical, career-oriented culture and a strong regional draw for first-generation and working-class students from Western New York.",
+    "distinctives": [
+      "Part of the State University of New York (SUNY) system; formally renamed from Buffalo State College to SUNY Buffalo State University in 2023",
+      "Long-standing strength in teacher education, art/design, and applied professional programs, reflecting its roots as a normal school",
+      "Located in Buffalo's Elmwood Village area, giving students access to a walkable urban neighborhood and the city's museums and cultural institutions",
+      "Offers NCAA Division III athletics as the Bengals, with a comprehensive range of undergraduate and graduate programs typical of a comprehensive SUNY campus"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "101189": {
+    "profile_type": "researched",
+    "vibe": "A small, faith-centered private university in Montgomery, Alabama, affiliated with the Churches of Christ, blending conservative Christian values with professional programs including law and health sciences.",
+    "distinctives": [
+      "Affiliated with the Churches of Christ, with mandatory chapel and an explicitly Christian mission woven into campus life",
+      "Home to the Thomas Goode Jones School of Law, one of the few law schools attached to a small Christian university in the South",
+      "Offers nursing, pharmacy-adjacent health sciences, and business programs alongside traditional liberal arts",
+      "Competes in NAIA athletics; a relatively small, tight-knit campus community centered in Alabama's capital city"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "226383": {
+    "profile_type": "researched",
+    "vibe": "A small private Christian university in Lubbock, Texas, affiliated with the Churches of Christ, with a close community feel and a strong athletics culture at the NCAA Division II level.",
+    "distinctives": [
+      "Affiliated with the Churches of Christ, with a stated mission integrating Christian faith and academics, including chapel and Bible coursework expectations",
+      "Competes in NCAA Division II as the Chaparrals/Lady Chaps in the Lone Star Conference",
+      "Small campus scale typical of West Texas Christian colleges, drawing heavily from Texas and the broader Southwest",
+      "Offers a range of undergraduate professional programs (business, education, nursing, ministry) alongside a general liberal arts core"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "119173": {
+    "profile_type": "researched",
+    "vibe": "A small private Catholic university in Los Angeles with a distinctive women-centered undergraduate mission, historically rooted in the Sisters of St. Joseph of Carondelet and known for producing health-science and nursing professionals.",
+    "distinctives": [
+      "Undergraduate programs are offered specifically for women, while graduate programs are coeducational, making it one of the few remaining women's colleges in California",
+      "Historically operated two Los Angeles campuses (Chalon and Doheny), giving it a distinctive dual-campus structure",
+      "Strong reputation in nursing, public health, and other health-science fields, along with a mission emphasizing social justice and service",
+      "Small, values-driven Catholic institution with a diverse, often first-generation student body typical of urban LA-area colleges"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "490133": {
+    "profile_type": "researched",
+    "vibe": "A small, business-focused private university in Irvine, California, that has grown rapidly by serving a large international student population, particularly in business, hospitality, and education graduate programs.",
+    "distinctives": [
+      "Concentrates heavily on business administration, management, and hospitality degrees at both undergraduate and graduate levels",
+      "Draws a notably large proportion of international students, especially from Asia, as part of its enrollment model",
+      "A newer, smaller institution compared to traditional universities, with growth driven substantially by graduate and professional programs rather than a large residential undergraduate tradition",
+      "As a smaller, less internationally established institution, prospective students should independently verify current accreditation status, program-specific outcomes, and licensure/employer recognition before enrolling"
+    ],
+    "confidence": "researched",
+    "sources": [
+      "Claude's own knowledge, cross-checked against College Scorecard hard data",
+      "applied via scheduled batch on 2026-09-22"
+    ],
+    "last_updated": "2026-09-22"
   }
 }
