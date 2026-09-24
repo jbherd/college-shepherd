@@ -1050,6 +1050,11 @@ const STRIPE = {
   monthly: ''  // alias
 };
 
+// Must match MAX_GENERATIONS in lib/purchaseAuth.js (1 initial list + up to
+// 7 regenerations). Only used for display copy here — the real cap is
+// enforced server-side, this just keeps the UI's wording in sync with it.
+const MAX_GENERATIONS_DISPLAY = 8;
+
 function startApp(plan) {
   // Check age verification checkbox
   const ageCheck = document.getElementById('ageCheck');
@@ -2452,7 +2457,7 @@ function init() {
     removeTyping();
     addBubble(`👋 <strong>Welcome to <strong style="color:inherit">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em></strong>!<br><br>
 I'll ask you <strong>50+ specialized questions</strong> about your academics, interests, goals, and budget — then build a personalized top-10 college list just for you.<br><br>
-You can <strong>tap ✏️ on any answer</strong> to edit it at any time, or click <strong>Edit My Answers</strong> above to review everything. You get <strong>7 regenerations today</strong> — so answer honestly and adjust freely.`);
+You can <strong>tap ✏️ on any answer</strong> to edit it at any time, or click <strong>Edit My Answers</strong> above to review everything. Your purchase includes your first list plus up to <strong>7 regenerations</strong> — so answer honestly and adjust freely.`);
     setTimeout(() => askQuestion(0), 400);
   }, 600);
 }
@@ -2468,7 +2473,7 @@ function askQuestion(idx) {
     showTyping();
     setTimeout(() => {
       removeTyping();
-      addBubble(`🎯 <strong>You're halfway there!</strong> Reminder — tap ✏️ on any bubble to edit an answer, or click <strong>Edit My Answers</strong> above. You can regenerate up to 7 times today.`);
+      addBubble(`🎯 <strong>You're halfway there!</strong> Reminder — tap ✏️ on any bubble to edit an answer, or click <strong>Edit My Answers</strong> above. You can regenerate up to 7 times.`);
       setTimeout(() => askQuestion(idx), 500);
     }, 600);
     return;
@@ -2741,7 +2746,66 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
-  // Return from Stripe payment — unlock app
+  // ── Return from Stripe payment (verified) — ?session_id=xxx ──────────
+  // This is the real fix for the paywall: Stripe's session_id is looked up
+  // server-side (api/verify-payment.js checks it against the actual Stripe
+  // API) before we ever unlock anything, and a signed purchase token comes
+  // back that api/generate.js uses to enforce the regeneration cap. This
+  // only fires once the Stripe Payment Link's after-payment redirect is
+  // configured to include {CHECKOUT_SESSION_ID} — until then Stripe keeps
+  // sending the old ?paid=true, which the block below still handles so
+  // existing purchases don't break.
+  const stripeSessionId = urlParams.get('session_id');
+  if (stripeSessionId) {
+    const pw = document.getElementById('paywall');
+    const bb = document.getElementById('beforebegin');
+    const app = document.getElementById('app');
+    try {
+      const vr = await fetch('/api/verify-payment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ session_id: stripeSessionId }),
+      });
+      const vd = await vr.json();
+      if (vr.ok && vd.purchaseToken) {
+        try {
+          localStorage.setItem('cs_purchase_token', vd.purchaseToken);
+          localStorage.setItem('cs_paid', Date.now()); // keep legacy flag in sync too
+        } catch (e) {}
+        if (pw) pw.style.display = 'none';
+        if (app) app.style.display = 'block';
+        if (bb) {
+          bb.style.display = 'flex';
+          window.scrollTo({top:0,behavior:'smooth'});
+          return;
+        }
+        setTimeout(() => { init(); window.scrollTo({top:0,behavior:'smooth'}); }, 100);
+        return;
+      } else {
+        // Verification failed (bad/expired session, or not paid) — fall
+        // through to the paywall rather than unlocking on nothing.
+        if (pw) {
+          const msg = document.createElement('div');
+          msg.style.cssText = 'background:rgba(255,80,80,.1);border:1px solid rgba(255,80,80,.2);border-radius:10px;padding:12px 16px;margin-bottom:1rem;font-size:.86rem;color:#ff9999;text-align:center';
+          msg.innerHTML = '⚠ We couldn\'t verify that payment. If you were just charged, contact <a href="mailto:hello@collegeshepherd.com" style="color:#e8c96a">hello@collegeshepherd.com</a> and we\'ll sort it out.';
+          pw.insertBefore(msg, pw.firstChild);
+        }
+      }
+    } catch (e) {
+      console.error('Payment verification request failed:', e);
+      // Network hiccup — don't lock out a real paying customer over it;
+      // fall through to the legacy paid=true / cs_paid checks below in
+      // case Stripe also set those, otherwise they land on the paywall
+      // with a clear path to contact support rather than a silent fail.
+    }
+  }
+
+  // ── Legacy unlock — ?paid=true (no server-side verification) ─────────
+  // Kept only for continuity until every Stripe Payment Link's redirect is
+  // updated to send session_id instead (see block above). This does NOT
+  // confirm a real payment happened — anyone who knows this URL parameter
+  // gets in. Remove this block once all three Payment Links (single,
+  // annual, family) have been switched over and verified working.
   if (urlParams.get('paid') === 'true') {
     try { localStorage.setItem('cs_paid', Date.now()); } catch(e) {}
     const pw = document.getElementById('paywall');
@@ -3097,7 +3161,21 @@ async function doGenerate(retryCount) {
   S.matchShortlistByName = {};
   matchShortlist.forEach(s => { S.matchShortlistByName[s.name] = s; });
 
+  // Cap researched text per school before it goes into the prompt. Every
+  // school in the shortlist now has full researched vibe + up to 4
+  // distinctives, and at ~45 schools per generation that text alone was the
+  // majority of the ~13K input tokens per call. Claude only needs enough
+  // flavor to write one "why" sentence, highlights, and fun facts per
+  // school -- not the full research writeup -- so this trims it to the
+  // single-sentence vibe plus the 2 most load-bearing distinctive facts,
+  // each capped in length. Cuts prompt size meaningfully with no loss to
+  // the final output quality (the full text still lives in the data files
+  // for anything that needs it later).
+  const truncate = (str, max) => (str && str.length > max) ? str.slice(0, max - 1).trim() + '…' : str;
+
   const shortlistText = matchShortlist.map(s => {
+    const trimmedVibe = truncate(s.vibe, 220);
+    const trimmedDistinctives = (s.distinctives || []).slice(0, 2).map(d => truncate(d, 160));
     const parts = [
       s.name + ' (' + s.city + ', ' + s.state + ')',
       'tier-for-student:' + s.tierForStudent,
@@ -3110,8 +3188,8 @@ async function doGenerate(retryCount) {
       '4yr-completion:' + (s.completionRate4yr != null ? Math.round(s.completionRate4yr * 100) + '%' : 'N/A'),
       'median-earnings-10yr:' + (s.medianEarnings10yr != null ? '$' + s.medianEarnings10yr.toLocaleString() : 'N/A'),
       (s.dominantPrograms && s.dominantPrograms.length) ? 'strong-programs:' + s.dominantPrograms.join('/') : '',
-      s.vibe ? 'CHARACTER:' + s.vibe : '',
-      (s.distinctives && s.distinctives.length) ? 'DISTINCTIVE-FACTS:' + s.distinctives.join(' | ') : '',
+      trimmedVibe ? 'CHARACTER:' + trimmedVibe : '',
+      trimmedDistinctives.length ? 'DISTINCTIVE-FACTS:' + trimmedDistinctives.join(' | ') : '',
     ].filter(Boolean);
     return '- ' + parts.join(' | ');
   }).join('\n');
@@ -3934,10 +4012,12 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
     }
 
     // ── PRODUCTION: call our Vercel proxy ───────────────
+    let _purchaseToken = null;
+    try { _purchaseToken = localStorage.getItem('cs_purchase_token'); } catch(e) {}
     res = await fetch('/api/generate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt, max_tokens: 16000 })
+      body: JSON.stringify({ prompt, max_tokens: 16000, purchaseToken: _purchaseToken })
     });
 
     // Handle SSE streaming response
@@ -3956,9 +4036,17 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
     clearInterval(iv);
     ls.classList.remove('show');
 
-    // Handle rate limit (429)
+    // A fresh purchase token comes back with every successful generation
+    // (the count only ever moves forward server-side) — keep it in sync
+    // whether this call succeeded, hit the cap, or errored, since the
+    // server may still have returned an updated token before failing.
+    if (data.purchaseToken) {
+      try { localStorage.setItem('cs_purchase_token', data.purchaseToken); } catch(e) {}
+    }
+
+    // Handle rate limit / cap reached (429)
     if (res.status === 429 || data.rateLimited) {
-      showRateLimit(data.error || `You've used all ${data.limit || 7} generations for today.`, data.resetAt);
+      showRateLimit(data.error || `You've used all ${data.limit || MAX_GENERATIONS_DISPLAY} generations included with your purchase.`, data.resetAt, !data.capReached);
       return;
     }
 
@@ -3980,7 +4068,7 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
 
     // Show remaining generations counter
     if (typeof data.remaining === 'number') {
-      updateGenCounter(data.remaining);
+      updateGenCounter(data.remaining, data.limit || MAX_GENERATIONS_DISPLAY);
     }
 
     let raw = data.text.trim();
@@ -4059,25 +4147,31 @@ function showWaiting(attempt) {
   if (ls) ls.appendChild(waitDiv);
 }
 
-function updateGenCounter(remaining) {
+function updateGenCounter(remaining, max) {
   const el = document.getElementById('gencounter');
   if (!el) return;
+  max = max || MAX_GENERATIONS_DISPLAY;
   if (remaining <= 2) {
     el.style.color = '#c0392b';
-    el.innerHTML = `⚠ <strong>${remaining} generation${remaining !== 1 ? 's' : ''}</strong> remaining today`;
+    el.innerHTML = `⚠ <strong>${remaining} generation${remaining !== 1 ? 's' : ''}</strong> remaining`;
   } else {
     el.style.color = 'var(--tmu)';
-    el.innerHTML = `${remaining} of 7 generations remaining today`;
+    el.innerHTML = `${remaining} of ${max} generations remaining`;
   }
   el.style.display = 'block';
 }
 
-function showRateLimit(msg, resetAt) {
+// isDailyReset: true for the anonymous/legacy per-IP-per-day limit (shows a
+// "resets in N hours" message, since that cap really does refill); false
+// for a purchase's total-generations cap being reached (no refill — the
+// student used everything their $29 included, so we point them to support
+// instead of a countdown that would never actually happen).
+function showRateLimit(msg, resetAt, isDailyReset) {
   document.getElementById('loadscr').classList.remove('show');
   document.getElementById('chatbox').style.display = 'flex';
 
   let resetMsg = '';
-  if (resetAt) {
+  if (isDailyReset && resetAt) {
     const hoursLeft = Math.ceil((resetAt - Date.now()) / 3600000);
     const minsLeft  = Math.ceil((resetAt - Date.now()) / 60000);
     resetMsg = hoursLeft > 1
@@ -4085,19 +4179,24 @@ function showRateLimit(msg, resetAt) {
       : `Your limit resets in <strong>${minsLeft} minutes</strong>.`;
   }
 
+  const footer = isDailyReset
+    ? `<div style="background:var(--goldwash);border-radius:8px;padding:10px 13px;margin-top:8px;font-size:.95rem;line-height:1.6;border-left:3px solid var(--gold)">
+        💡 <strong>Your answers and list are saved.</strong> Come back and click "Try again" — you won't lose any progress.
+      </div>`
+    : `<div style="background:var(--goldwash);border-radius:8px;padding:10px 13px;margin-top:8px;font-size:.95rem;line-height:1.6;border-left:3px solid var(--gold)">
+        💡 <strong>Your answers and list are saved.</strong> Need another generation beyond what your purchase included? Email <a href="mailto:hello@collegeshepherd.com" style="color:var(--gold);font-weight:600">hello@collegeshepherd.com</a>.
+      </div>`;
+
   addBubble(`
-    <strong>Daily limit reached.</strong><br><br>
+    <strong>${isDailyReset ? 'Daily limit reached.' : "You've used everything your purchase included."}</strong><br><br>
     ${msg}<br><br>
-    ${resetMsg}<br><br>
-    <div style="background:var(--goldwash);border-radius:8px;padding:10px 13px;margin-top:8px;font-size:.95rem;line-height:1.6;border-left:3px solid var(--gold)">
-      💡 <strong>Your answers and list are saved.</strong> Come back tomorrow and click "Try again" — you won't lose any progress.<br><br>
-      Want unlimited access? <a href="#" onclick="document.getElementById('app').style.display='none';document.getElementById('paywall').style.display='flex';window.scrollTo({top:0,behavior:'smooth'})" style="color:var(--gold);font-weight:600">Upgrade your plan →</a>
-    </div>
+    ${resetMsg}${resetMsg ? '<br><br>' : ''}
+    ${footer}
   `);
   document.getElementById('chatfeed').scrollTop = 99999;
 
   // Update counter to show 0
-  updateGenCounter(0);
+  updateGenCounter(0, MAX_GENERATIONS_DISPLAY);
 }
 
 function showError(msg) {
