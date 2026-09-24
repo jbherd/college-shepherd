@@ -13,6 +13,7 @@
 
 const { buildShortlist } = require('../lib/matchEngine.js');
 const { checkLimit } = require('../lib/rateLimit');
+const { logTrends } = require('../lib/trends');
 
 // Generous -- this is a cheap, local computation, not an LLM call. Uses the
 // same shared KV-backed limiter as generate.js so this cap is a real,
@@ -40,6 +41,16 @@ module.exports = async function handler(req, res) {
   try {
     const perTier = Math.max(5, Math.min(20, Number(req.body.perTier) || 15));
     const shortlist = buildShortlist(answers, { perTier });
+
+    // Anonymous, aggregate-only trend counters (see lib/trends.js) -- only
+    // on the first match call for a given questionnaire session, flagged
+    // by the client via logTrend:true, so regenerations of the same
+    // student's list don't get double/triple-counted. Fire-and-forget:
+    // never awaited, never allowed to affect this response.
+    if (req.body.logTrend) {
+      logTrends(answers).catch(() => {});
+    }
+
     return res.status(200).json({ shortlist, count: shortlist.length });
   } catch (err) {
     console.error('match.js error:', err.message, err.stack);
