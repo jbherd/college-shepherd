@@ -3141,10 +3141,23 @@ async function doGenerate(retryCount) {
   let matchShortlist = [];
   let usedRealShortlist = false;
   try {
+    // Anonymous aggregate trend logging (see lib/trends.js) — only flagged
+    // on the first completed questionnaire per browser, so regenerating
+    // the same list doesn't get counted multiple times. No name, email, or
+    // free-text answers are ever included — just fixed multiple-choice
+    // answers, counted in aggregate.
+    let logTrend = false;
+    try {
+      if (!localStorage.getItem('cs_trend_logged')) {
+        logTrend = true;
+        localStorage.setItem('cs_trend_logged', '1');
+      }
+    } catch (e) {}
+
     const matchRes = await fetch('/api/match', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ answers: S.answers, perTier: 15 })
+      body: JSON.stringify({ answers: S.answers, perTier: 15, logTrend })
     });
     if (matchRes.ok) {
       const matchData = await matchRes.json();
