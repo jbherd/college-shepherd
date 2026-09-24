@@ -12,19 +12,14 @@
 // invents which schools exist or what their stats are.
 
 const { buildShortlist } = require('../lib/matchEngine.js');
+const { checkLimit } = require('../lib/rateLimit');
 
-const RATE_LIMIT = 40; // generous -- this is a cheap, local computation, not an LLM call
-const WINDOW_MS = 864e5;
-const hits = new Map();
-
-function checkRL(ip) {
-  const now = Date.now();
-  const e = hits.get(ip) || { c: 0, r: now + WINDOW_MS };
-  if (now > e.r) { e.c = 0; e.r = now + WINDOW_MS; }
-  e.c++;
-  hits.set(ip, e);
-  return { ok: e.c <= RATE_LIMIT };
-}
+// Generous -- this is a cheap, local computation, not an LLM call. Uses the
+// same shared KV-backed limiter as generate.js so this cap is a real,
+// cross-instance one on Vercel too, instead of the old per-instance Map
+// (see lib/rateLimit.js for why that never actually capped anything).
+const RATE_LIMIT = 40;
+const WINDOW_SECONDS = 86400; // 24h
 
 module.exports = async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -33,7 +28,8 @@ module.exports = async function handler(req, res) {
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'POST') return res.status(405).json({ error: 'bad method' });
 
-  const limit = checkRL((req.headers['x-forwarded-for'] || 'x').split(',')[0]);
+  const ip = (req.headers['x-forwarded-for'] || 'x').split(',')[0];
+  const limit = await checkLimit(`match:${ip}`, { max: RATE_LIMIT, windowSeconds: WINDOW_SECONDS });
   if (!limit.ok) return res.status(429).json({ error: 'Rate limit exceeded.' });
 
   const { answers } = req.body || {};
