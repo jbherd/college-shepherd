@@ -45,10 +45,19 @@ module.exports = async function handler(req, res) {
     // Anonymous, aggregate-only trend counters (see lib/trends.js) -- only
     // on the first match call for a given questionnaire session, flagged
     // by the client via logTrend:true, so regenerations of the same
-    // student's list don't get double/triple-counted. Fire-and-forget:
-    // never awaited, never allowed to affect this response.
+    // student's list don't get double/triple-counted.
+    //
+    // This is deliberately awaited, not fire-and-forget: Vercel's Node
+    // serverless runtime can freeze/terminate the function the instant the
+    // response is sent, killing any still-pending network call that wasn't
+    // awaited first. A real test confirmed this -- a fire-and-forget call
+    // here returned 200 to the client but never actually wrote to KV.
+    // logTrends() never throws (it catches its own errors internally), so
+    // awaiting it can't turn a trend-logging hiccup into a failed match
+    // response -- it only adds one fast KV round-trip (~tens of ms) before
+    // replying.
     if (req.body.logTrend) {
-      logTrends(answers).catch(() => {});
+      await logTrends(answers);
     }
 
     return res.status(200).json({ shortlist, count: shortlist.length });
