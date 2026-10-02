@@ -91,51 +91,28 @@ function buildParentEmail() {
   return 'mailto:?subject=' + subject + '&body=' + body;
 }
 
-window.addEventListener('DOMContentLoaded', () => {
-  const params = new URLSearchParams(window.location.search);
-  const id = params.get('id');
-  const content = document.getElementById('content');
-
-  let data = null;
-  // Try compact encoded format (?d=) first - works cross-device
-  const encodedData = params.get('d') || params.get('data');
-  if (encodedData) {
-    try {
-      const raw = JSON.parse(decodeURIComponent(encodedData));
-      // Handle both compact (n/c) and full (name/colleges) formats
-      if (raw.n) {
-        data = {
-          name: raw.n,
-          created: raw.cr || null,
-          colleges: (raw.c||[]).map(x=>({rank:x.r,name:x.n,location:x.l,tier:x.t,acceptanceRate:x.a,netPrice:{estimated:x.p}}))
-        };
-      } else {
-        data = raw;
-      }
-    } catch(e) { console.log('decode error:', e); }
+function mapCompact(raw) {
+  // Handle both compact (n/c) and full (name/colleges) formats
+  if (raw.n) {
+    return {
+      name: raw.n,
+      created: raw.cr || null,
+      colleges: (raw.c||[]).map(x=>({rank:x.r,name:x.n,location:x.l,tier:x.t,acceptanceRate:x.a,netPrice:{estimated:x.p}}))
+    };
   }
-  // Fallback to localStorage (same device)
-  if (!data) {
-    try {
-      const stored = localStorage.getItem('cs_share_' + id);
-      if (stored) data = JSON.parse(atob(stored));
-    } catch(e) {}
-    try {
-      const stored = localStorage.getItem('cs_share_' + id);
-      if (stored) data = JSON.parse(stored);
-    } catch(e) {}
-  }
+  return raw;
+}
 
-  if (!data) {
-    content.innerHTML = `
-      <div class="not-found">
-        <h2>This list was shared from another device</h2>
-        <p>College lists are stored privately on the student's device. To see your own personalized list, get started below.</p>
-        <a href="/app.html" class="cta-btn" style="display:inline-block;margin-top:1rem">Get My College List →</a>
-      </div>`;
-    return;
-  }
+function renderNotFound(content) {
+  content.innerHTML = `
+    <div class="not-found">
+      <h2>This list was shared from another device</h2>
+      <p>College lists are stored privately on the student's device. To see your own personalized list, get started below.</p>
+      <a href="/app.html" class="cta-btn" style="display:inline-block;margin-top:1rem">Get My College List →</a>
+    </div>`;
+}
 
+function renderList(content, data) {
   const schools = data.colleges || [];
   const schoolsHTML = schools.map(s => `
     <div class="school-row">
@@ -161,6 +138,50 @@ window.addEventListener('DOMContentLoaded', () => {
       <a href="${buildParentEmail()}" class="cta-btn-parent">💌 Ask My Parents</a>
     </div>
     <div class="footer">College Shepherd · Find Where You Belong · collegeshepherd.com</div>`;
+}
+
+window.addEventListener('DOMContentLoaded', async () => {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const content = document.getElementById('content');
+
+  let data = null;
+
+  // Compact encoded format (?d=) — all the data is in the URL itself, no
+  // lookup needed. Still supported for any link shared before short links
+  // existed, and as the automatic fallback getBestShareUrl() uses if the
+  // short-link service is ever unavailable.
+  const encodedData = params.get('d') || params.get('data');
+  if (encodedData) {
+    try { data = mapCompact(JSON.parse(decodeURIComponent(encodedData))); }
+    catch(e) { console.log('decode error:', e); }
+  }
+
+  // Short link (?id=) — look it up server-side first.
+  if (!data && id) {
+    try {
+      const res = await fetch('/api/share?id=' + encodeURIComponent(id));
+      if (res.ok) data = mapCompact(await res.json());
+    } catch(e) { console.log('share lookup error:', e); }
+  }
+
+  // Same-device fallback (covers the old localStorage-only share ids from
+  // before the server-side store existed).
+  if (!data && id) {
+    try {
+      const stored = localStorage.getItem('cs_share_' + id);
+      if (stored) data = JSON.parse(atob(stored));
+    } catch(e) {}
+    if (!data) {
+      try {
+        const stored = localStorage.getItem('cs_share_' + id);
+        if (stored) data = JSON.parse(stored);
+      } catch(e) {}
+    }
+  }
+
+  if (!data) { renderNotFound(content); return; }
+  renderList(content, data);
 });
 </script>
 </body>
