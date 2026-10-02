@@ -71,9 +71,6 @@ Return ONLY valid JSON (no markdown, no backticks) in this exact format:
       "rankings": {"usNews": "#XX National Universities (required)", "forbes": "#XX Forbes Top Colleges (always include)", "wsj": "#XX Wall Street Journal (include if known)", "programRank": "#X for major if notable (required)", "princetonReview": "Best Value or other superlative (required)", "moneyMag": "#XX Money Magazine Best Colleges (always include)", "payScale": "~$XX,XXX median early career (required)"}
     }
   ],
-  "essayAngles": [
-    {"title": "Essay title", "hook": "Opening hook sentence", "why": "Why this works for this student"}
-  ],
   "nextSteps": ["step 1", "step 2", "step 3"]
 }`;
 
