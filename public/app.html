@@ -548,9 +548,6 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
   .nsfooter{flex-wrap:wrap;gap:6px}
   .btngh{font-size:.95rem;padding:7px 11px}
 
-  /* Essay section */
-  .essay-card{padding:1rem 1.1rem}
-  .essay-topic{padding:.85rem 1rem}
 }
 
 @media(max-width:600px){.pw-cards{grid-template-columns:1fr}}
@@ -573,23 +570,6 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
 .fit-bar-wrap{height:5px;background:#e0e0e0;border-radius:3px;overflow:hidden;margin-bottom:3px}
 .fit-bar-fill{height:100%;border-radius:3px;transition:width .6s ease}
 .fit-score-num{font-size:.92rem;font-weight:700;color:var(--navy)}
-
-/* ── ESSAY SECTION ───────────────────────────────────────── */
-.essay-section{margin-top:1.75rem}
-.essay-hdr{text-align:center;padding:1.25rem 1rem .9rem}
-.essay-ey{font-size:.95rem;color:var(--gold);letter-spacing:.15em;text-transform:uppercase;margin-bottom:6px}
-.essay-hdr h2{font-family:'Playfair Display',serif;font-size:clamp(1.4rem,3vw,1.9rem);color:var(--navy);margin-bottom:6px}
-.essay-hdr p{font-size:.83rem;color:var(--tmu);max-width:500px;margin:0 auto;line-height:1.65}
-.essay-card{background:var(--white);border-radius:var(--r3);border:1px solid rgba(0,0,0,.12);border-top:3px solid var(--gold);padding:1.5rem 1.75rem;margin-bottom:1rem;box-shadow:var(--sh1)}
-.essay-loading{text-align:center;padding:2rem;color:var(--tmu);font-size:.92rem}
-.essay-topic{background:var(--goldwash);border-radius:var(--r2);border:1px solid rgba(0,0,0,.12);border-left:4px solid var(--gold);padding:1rem 1.25rem;margin-bottom:.75rem;cursor:pointer;transition:all .2s}
-.essay-topic:hover{background:var(--goldpale);transform:translateX(3px)}
-.essay-topic-num{font-size:.95rem;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
-.essay-topic-title{font-size:.95rem;font-weight:600;color:var(--navy);margin-bottom:4px}
-.essay-topic-why{font-size:.92rem;color:var(--tm);line-height:1.55}
-.essay-regen{background:transparent;border:1.5px solid var(--bdr);color:var(--tmu);font-family:inherit;font-size:.92rem;padding:6px 14px;border-radius:20px;cursor:pointer;transition:all .2s;margin-top:.5rem}
-.essay-regen:hover{border-color:var(--gold);color:var(--navy)}
-
 
 /* ── NET PRICE ESTIMATOR ─────────────────────────────────── */
 .netprice-wrap{margin:.8rem 0 1rem;background:var(--goldwash);border-radius:var(--r2);border:1px solid rgba(0,0,0,.12);padding:.85rem 1rem}
@@ -829,7 +809,7 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
       <div class="pw-eyebrow">AI-Powered College Guidance</div>
       <h1>Find Where<br>You <em>Belong</em></h1>
       <p style="font-family:'Playfair Display',serif;font-size:1.3rem;color:rgba(90,181,245,.75);font-style:italic;margin-bottom:1.75rem;letter-spacing:.04em;font-weight:400">Your personal guide to the right college</p>
-      <p>Answer 15 minutes of smart questions and receive a personalized top-10 college list — with real rankings, estimated net costs, fit scores, and essay ideas. Every student deserves a great guide.</p>
+      <p>Answer 15 minutes of smart questions and receive a personalized top-10 college list — with real rankings, estimated net costs, and fit scores. Every student deserves a great guide.</p>
     </div>
     </div>
 
@@ -844,7 +824,6 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
           <li>Personalized top-10 college list</li>
           <li>Net cost estimates after financial aid</li>
           <li>Fit scores across 5 dimensions</li>
-          <li>5 personalized essay angle ideas</li>
           <li>Regret Risk Score per school</li>
           <li>Student Archetype Profile</li>
           <li>Up to 7 regenerations</li>
@@ -957,7 +936,6 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
     <!-- Results injected here -->
     <div id="results"></div>
     <div id="nextsteps"></div>
-    <div id="essaysection"></div>
 
   </div>
 </div>
@@ -2804,7 +2782,6 @@ document.addEventListener('DOMContentLoaded', async () => {
           '📊 Analyzing thousands of college data points...',
           '💰 Calculating real costs after financial aid...',
           '🏛 Finding schools where you will truly belong...',
-          '📝 Crafting personalized essay angles...',
           '🎯 Scoring fit across 5 dimensions...',
           '🎉 Nearly there — this list was made just for you...',
         ];
@@ -4138,7 +4115,7 @@ ${referenceSection}
 STUDENT: ${profile}
 
 Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). Label tier as reach, match, or safety:
-{"studentName":"first name","personalSummary":"2 sentences","colleges":[{"rank":1,"name":"University Name","location":"City ST","tier":"reach","why":"one sentence","acceptanceRate":"X%","size":"Large","fitScores":{"academic":8,"campusVibe":7,"costFit":7,"location":8,"socialLife":7},"netPrice":{"estimated":"$25,000/yr","sticker":"$55,000/yr","savings":"$30,000/yr","basis":"income bracket","tuition":"$45,000","housing":"$12,000","meals":"$5,000","totalCOA":"$62,000"},"highlights":["fact1","fact2"],"funFacts":[{"emoji":"🏆","fact":"notable fact"},{"emoji":"💼","fact":"career fact"}],"rankings":{"usNews":"#50","forbes":"#60","princetonReview":"Best Value","moneyMag":"#55","wsj":"#45","studentFaculty":"15:1"},"regretScore":{"score":2,"label":"Low Risk","reason":"good fit"},"tagCategory":"Liberal Arts"}],"nextSteps":["step1","step2"],"topPick":{"school":"University Name","reason":"best fit","tradeoff":"one tradeoff"},"top3":["School1","School2","School3"],"studentArchetype":"Driven Scholar","essayAngles":[{"title":"title","hook":"hook","why":"why"}]}`;
+{"studentName":"first name","personalSummary":"2 sentences","colleges":[{"rank":1,"name":"University Name","location":"City ST","tier":"reach","why":"one sentence","acceptanceRate":"X%","size":"Large","fitScores":{"academic":8,"campusVibe":7,"costFit":7,"location":8,"socialLife":7},"netPrice":{"estimated":"$25,000/yr","sticker":"$55,000/yr","savings":"$30,000/yr","basis":"income bracket","tuition":"$45,000","housing":"$12,000","meals":"$5,000","totalCOA":"$62,000"},"highlights":["fact1","fact2"],"funFacts":[{"emoji":"🏆","fact":"notable fact"},{"emoji":"💼","fact":"career fact"}],"rankings":{"usNews":"#50","forbes":"#60","princetonReview":"Best Value","moneyMag":"#55","wsj":"#45","studentFaculty":"15:1"},"regretScore":{"score":2,"label":"Low Risk","reason":"good fit"},"tagCategory":"Liberal Arts"}],"nextSteps":["step1","step2"],"topPick":{"school":"University Name","reason":"best fit","tradeoff":"one tradeoff"},"top3":["School1","School2","School3"],"studentArchetype":"Driven Scholar"}`;
 
   try {
     let res, data;
@@ -4579,7 +4556,6 @@ function renderResults(data) {
   }
 
   renderNextSteps(data);
-  renderEssaySection(data);
   // Show share section
   setTimeout(() => {
     const ss = document.getElementById('shareSection');
@@ -4672,34 +4648,6 @@ function applyRealData(scorecardResults, colleges) {
     }
     return enriched;
   });
-}
-
-function renderEssaySection(data) {
-  const el = document.getElementById('essaysection');
-  if (!el) return;
-  const angles = data.essayAngles || [];
-  if (!angles.length) return;
-
-  el.innerHTML = `
-    <div class="essay-section">
-      <div class="essay-hdr">
-        <div class="essay-ey">College Shepherd ✦ Essay Guide</div>
-        <h2>What Should You Write About?</h2>
-        <p style="font-size:.78rem;color:rgba(255,255,255,.4);font-style:italic;margin-bottom:.5rem">These are AI-generated starting points. Personalize each with your own story and voice.</p>
-        <p>Based on everything you told us, here are ${angles.length} essay angles that could work for you — each tied to something real from your life.</p>
-      </div>
-      <div class="essay-card">
-        ${angles.map((a,i) => `
-          <div class="essay-topic">
-            <div class="essay-topic-num">Angle ${i+1}</div>
-            <div class="essay-topic-title">${a.title}</div>
-            <div class="essay-topic-why">${a.hook} <em style="color:var(--tmu)">${a.why}</em></div>
-          </div>`).join('')}
-        <p style="font-size:.95rem;color:var(--tmu);margin-top:1rem;line-height:1.6">
-          💡 These are starting points — the best essays go deeper than the topic. Pick the one that makes you feel something and start writing freely. You can always change direction.
-        </p>
-      </div>
-    </div>`;
 }
 
 function renderNextSteps(data) {
@@ -4928,7 +4876,7 @@ function askParentToPay() {
   const subject = encodeURIComponent('Can you get me CollegeShepherd? 🎓');
   const body = encodeURIComponent(
     'Hey! I found an AI college counseling tool called CollegeShepherd and I really want to use it to build my college list.\n\n' +
-    'It asks 50+ questions about my academics, interests, budget and goals, then gives me a personalized top-10 college list with real costs after financial aid, fit scores, and even essay ideas.\n\n' +
+    'It asks 50+ questions about my academics, interests, budget and goals, then gives me a personalized top-10 college list with real costs after financial aid and fit scores.\n\n' +
     'It\'s only $29 — way cheaper than a private college counselor!\n\n' +
     'Here\'s the link: https://collegeshepherd.com\n\n' +
     'Can you get it for me? It would really help with my college search.\n\n' +
