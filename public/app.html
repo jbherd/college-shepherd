@@ -830,6 +830,9 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
           <li>Priority support</li>
         </ul>
         <button class="pbtn pbtn-p">Get My College List →</button>
+        <div style="text-align:center;margin-top:.85rem">
+          <a href="#" onclick="event.stopPropagation();askParentToPay();return false" style="font-size:.86rem;color:rgba(232,201,106,.85);text-decoration:none;font-weight:600">💌 Can't pay yourself? Ask your parents →</a>
+        </div>
       </div>
     </div>
     <div class="pw-trust"><p>🔒 <strong>Secure payment via Stripe.</strong> No subscription. No auto-renewals.<br>By purchasing you agree to our <a href="/terms.html" style="color:rgba(255,255,255,.4);text-decoration:none">Terms of Service</a> and <a href="/privacy.html" style="color:rgba(255,255,255,.4);text-decoration:none">Privacy Policy</a>.<br>Questions? <a href="mailto:hello@collegeshepherd.com" style="color:rgba(255,255,255,.4);text-decoration:none;transition:color .2s" onmouseover="this.style.color='rgba(255,255,255,.7)'" onmouseout="this.style.color='rgba(255,255,255,.4)'">hello@collegeshepherd.com</a></p></div>
@@ -4698,7 +4701,6 @@ function renderNextSteps(data) {
           <button class="share-btn share-btn-primary" onclick="shareToSocial()">🔗 Share My Top 10</button>
           <button class="share-btn share-btn-ghost" onclick="copyShareLink()">📋 Copy Link</button>
           <button class="share-btn share-btn-ghost" onclick="shareToInstagram()">📸 Instagram Story</button>
-          <button class="share-btn share-btn-parent" onclick="askParentToPay()">💌 Send to My Parents</button>
         </div>
         <div class="share-link-wrap" id="shareLinkWrap" style="display:none">
           <span class="share-link-url" id="shareLinkUrl"></span>
@@ -4870,9 +4872,6 @@ async function shareToInstagram() {
 }
 
 function askParentToPay() {
-  const d = S.lastResult;
-  const top3 = (d.colleges || []).slice(0, 3).map(c => c.name).join(', ');
-  const studentName = d.studentName || 'I';
   const subject = encodeURIComponent('Can you get me CollegeShepherd? 🎓');
   const body = encodeURIComponent(
     'Hey! I found an AI college counseling tool called CollegeShepherd and I really want to use it to build my college list.\n\n' +
