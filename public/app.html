@@ -3293,6 +3293,7 @@ async function doGenerate(retryCount) {
     const parts = [
       s.name + ' (' + s.city + ', ' + s.state + ')',
       'tier-for-student:' + s.tierForStudent,
+      s.isHiddenGem ? 'VERIFIED-HIDDEN-GEM:true' : '',
       'admit:' + (s.admitRatePct != null ? s.admitRatePct + '%' : 'N/A'),
       'size:' + (s.size || 'N/A') + (s.sizeCategory ? ' (' + s.sizeCategory + ')' : ''),
       'ownership:' + (s.ownership || '?'),
@@ -4097,9 +4098,9 @@ ${shortlistText}
 STRICT RULES:
 - Choose your 10 schools ONLY from the list above, using the exact name given. Never invent, substitute, or add a school that is not in this list.
 - Use the exact admit rate, net price, tuition, completion rate, and earnings figures given above for each school — do not estimate or invent your own numbers.
-- The "tier-for-student" value given is a mechanical estimate based on admit rate vs. this student's academic profile — use it as your primary guide for the reach/match/safety label, but you may adjust individual schools with good judgment if the CHARACTER/DISTINCTIVE-FACTS suggest otherwise. Still aim for roughly 3-4 reach, 4-5 match, 2-3 safety overall.
+- The "tier-for-student" value given is a mechanical estimate based on admit rate vs. this student's academic profile — use it as your primary guide for the reach/match/safety label, but you may adjust individual schools with good judgment if the CHARACTER/DISTINCTIVE-FACTS suggest otherwise. Your 10 picks must be exactly 2 reach, 4 match, and 3 safety (9 schools), PLUS exactly 1 additional pick — for 10 total — that is flagged "VERIFIED-HIDDEN-GEM:true" above; that 10th pick still needs its own real reach/match/safety tier label like every other school, it's simply required to also be one of the flagged ones.
 - Schools with a CHARACTER line and DISTINCTIVE-FACTS have real, researched detail — draw directly on it for "why", highlights, and fun facts. Schools WITHOUT those fields have only verified hard data (cost, size, admissions, programs) and no researched color yet — for those, keep "why"/highlights/funFacts grounded in the real facts given (location, size, program strength, cost, outcomes) rather than inventing campus-culture claims you have no data for. It's fine for a data-only school's highlights to be more factual/less colorful than a researched one's — don't compensate by making things up.
-- HIDDEN GEMS: the list above already reflects this student's hidden_gem preference in which schools were surfaced — pick across the range you're given rather than defaulting only to the most recognizable names, unless the student's profile says otherwise.`
+- HIDDEN GEMS: "VERIFIED-HIDDEN-GEM:true" marks schools that are genuinely under-the-radar AND have strong real outcomes (not just small or obscure) — every tier above has at least a few of these to choose from. Pick one you can honestly sell as a great, lesser-known find for this specific student; set "isHiddenGem":true on that one college in your JSON output and false on the other 9.`
     : `REFERENCE DATA (static fallback — the live college search was temporarily unavailable for this request, so ground your picks in this list; it is not exhaustive and may be less current):
 ${RANKINGS_REF}`;
 
@@ -4117,8 +4118,8 @@ ${referenceSection}
 
 STUDENT: ${profile}
 
-Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match, 2-3 safety). Label tier as reach, match, or safety:
-{"studentName":"first name","personalSummary":"2 sentences","colleges":[{"rank":1,"name":"University Name","location":"City ST","tier":"reach","why":"one sentence","acceptanceRate":"X%","size":"Large","fitScores":{"academic":8,"campusVibe":7,"costFit":7,"location":8,"socialLife":7},"netPrice":{"estimated":"$25,000/yr","sticker":"$55,000/yr","savings":"$30,000/yr","basis":"income bracket","tuition":"$45,000","housing":"$12,000","meals":"$5,000","totalCOA":"$62,000"},"highlights":["fact1","fact2"],"funFacts":[{"emoji":"🏆","fact":"notable fact"},{"emoji":"💼","fact":"career fact"}],"rankings":{"usNews":"#50","forbes":"#60","princetonReview":"Best Value","moneyMag":"#55","wsj":"#45","studentFaculty":"15:1"},"regretScore":{"score":2,"label":"Low Risk","reason":"good fit"},"tagCategory":"Liberal Arts"}],"nextSteps":["step1","step2"],"topPick":{"school":"University Name","reason":"best fit","tradeoff":"one tradeoff"},"top3":["School1","School2","School3"],"studentArchetype":"Driven Scholar"}`;
+Return this exact JSON structure with exactly 10 colleges: 2 reach, 4 match, 3 safety, plus 1 of the 10 must be a verified hidden gem (set "isHiddenGem":true on that one college only, false on the rest). Label tier as reach, match, or safety:
+{"studentName":"first name","personalSummary":"2 sentences","colleges":[{"rank":1,"name":"University Name","location":"City ST","tier":"reach","isHiddenGem":false,"why":"one sentence","acceptanceRate":"X%","size":"Large","fitScores":{"academic":8,"campusVibe":7,"costFit":7,"location":8,"socialLife":7},"netPrice":{"estimated":"$25,000/yr","sticker":"$55,000/yr","savings":"$30,000/yr","basis":"income bracket","tuition":"$45,000","housing":"$12,000","meals":"$5,000","totalCOA":"$62,000"},"highlights":["fact1","fact2"],"funFacts":[{"emoji":"🏆","fact":"notable fact"},{"emoji":"💼","fact":"career fact"}],"rankings":{"usNews":"#50","forbes":"#60","princetonReview":"Best Value","moneyMag":"#55","wsj":"#45","studentFaculty":"15:1"},"regretScore":{"score":2,"label":"Low Risk","reason":"good fit"},"tagCategory":"Liberal Arts"}],"nextSteps":["step1","step2"],"topPick":{"school":"University Name","reason":"best fit","tradeoff":"one tradeoff"},"top3":["School1","School2","School3"],"studentArchetype":"Driven Scholar"}`;
 
   try {
     let res, data;
@@ -4447,7 +4448,10 @@ function renderResults(data) {
                 <div class="ccloc">🏛 ${c.location} &nbsp;·&nbsp; ${c.size} &nbsp;·&nbsp; ~${c.acceptanceRate}</div>
               </div>
             </div>
-            <span class="tierbadge ${t.tb}">${t.label}</span>
+            <span style="display:flex;align-items:center;gap:6px;flex-shrink:0">
+              ${c.isHiddenGem ? '<span class="tierbadge" style="background:#5b3a8e;color:#fff" title="A genuinely strong school most families have never heard of">💎 Hidden Gem</span>' : ''}
+              <span class="tierbadge ${t.tb}">${t.label}</span>
+            </span>
           </div>
           <div class="ccwhy">${c.why}</div>
 
