@@ -4729,7 +4729,7 @@ function renderNextSteps(data) {
 
       <div class="nsfooter">
         <button class="btngh" onclick="restartApp()">↩ Retake Assessment</button>
-        <button class="btngh" onclick="startBrandNew()" style="border-color:rgba(255,100,100,.4);color:#ff9999">🗑 Start Brand New</button>
+        <button class="btngh" onclick="switchUser()" style="border-color:rgba(45,143,224,.4);color:#7fc1f0">🔄 Not you? Switch User</button>
         <button class="btngh" onclick="savePDF()">💾 Save as PDF</button>
         <button class="btngh" onclick="printList()">🖨 Print</button>
         <button class="btngh" onclick="openEmailModal()">✉ Email My List</button>
@@ -5029,16 +5029,10 @@ function copyListText() {
 }
 
 // ─────────────────────────────────────────────
-// RESTART
+// RESTART / SWITCH USER
 // ─────────────────────────────────────────────
 
-// Retake — keeps API key in memory, clears answers and starts questionnaire over
-function restartApp() {
-  // Reset state
-  clearSession();
-  Object.assign(S, {qi:0, answers:{}, skipped:[], visible:[], multi:[], listGenerated:false, lastResult:null, awaitingGeneration:false});
-
-  // Reset UI
+function resetQuestionnaireUI() {
   document.getElementById('chatfeed').innerHTML = '';
   document.getElementById('qrzone').innerHTML = '';
   document.getElementById('chinput').value = '';
@@ -5056,48 +5050,30 @@ function restartApp() {
   document.getElementById('btnReview').style.display = 'none';
   document.getElementById('btnSkipped').style.display = 'none';
   updateSkipUI();
-
-  window.scrollTo({top:0, behavior:'smooth'});
-  setTimeout(init, 280);
 }
 
-// Start Brand New — clears everything including saved session, API key, and goes back to paywall
-function startBrandNew() {
-  const confirmed = confirm('This will clear all your answers, your college list, and your saved session.\n\nAre you sure you want to start completely from scratch?');
-  if (!confirmed) return;
-
-  // Clear session storage
-  clearSession();
-
-  // Clear API key so it prompts again
-  _devKey = '';
-
-  // Reset all state
-  Object.assign(S, {qi:0, answers:{}, skipped:[], visible:[], multi:[], listGenerated:false, lastResult:null, awaitingGeneration:false});
-
-  // Reset all UI
-  document.getElementById('chatfeed').innerHTML = '';
-  document.getElementById('qrzone').innerHTML = '';
-  document.getElementById('chinput').value = '';
-  document.getElementById('results').innerHTML = '';
-  document.getElementById('results').style.display = 'none';
-  document.getElementById('scorecard').innerHTML = '';
-  document.getElementById('scorecard').style.display = 'none';
-  document.getElementById('nextsteps').innerHTML = '';
-  document.getElementById('regenbanner').classList.remove('show');
-  document.getElementById('skipdrawer').style.display = 'none';
-  document.getElementById('reviewdrawer').style.display = 'none';
-  document.getElementById('chatbox').style.display = 'flex';
-  document.getElementById('progcard').style.display = 'block';
-  document.getElementById('reviewBtnProg').style.display = 'none';
-  document.getElementById('btnReview').style.display = 'none';
-  document.getElementById('btnSkipped').style.display = 'none';
-  updateSkipUI();
-
-  // Go back to paywall
-  document.getElementById('app').style.display = 'none';
-  document.getElementById('paywall').style.display = 'flex';
+// Retake — same person, wipes THEIR OWN saved answers/result and jumps
+// straight back to Q1. Goes directly to startWelcomeFlow() (not init()) so
+// that on a shared device with other saved profiles, retaking your own quiz
+// never shows you someone else's "welcome back" banner by mistake.
+function restartApp() {
+  clearSession();     // delete this profile's saved data
+  startNewProfile();  // blank the live session
+  resetQuestionnaireUI();
   window.scrollTo({top:0, behavior:'smooth'});
+  setTimeout(startWelcomeFlow, 280);
+}
+
+// Switch User — hands the device to someone else on the same purchase
+// (e.g. a sibling) without re-paying and without touching your own saved
+// list, which stays exactly as you left it. Replaces the old "Start Brand
+// New," which sent even an already-paid customer back to the Stripe
+// paywall -- confusing and functionally broken for a real purchaser.
+function switchUser() {
+  startNewProfile();  // detach from this profile -- its data is untouched in storage
+  resetQuestionnaireUI();
+  window.scrollTo({top:0, behavior:'smooth'});
+  setTimeout(init, 280); // re-run the profile dispatcher: picks up everyone saved so far
 }
 </script>
 </body>
