@@ -3068,6 +3068,33 @@ async function doGenerate(retryCount) {
     profileLines.push(`TUITION PROGRAM — DC TAG ELIGIBLE: DC residents get up to $10,000/yr grant to attend any US public university at in-state rates. Extremely valuable — should be flagged on every public school recommendation.`);
   }
 
+  // State-level merit/need-based financial-aid & scholarship programs
+  // (distinct from the regional tuition-exchange programs above — these are
+  // a student's HOME-state programs for IN-state colleges, not multi-state
+  // reciprocity deals). Only states with well-documented, currently-active,
+  // officially-verifiable programs are included. Eligibility/amounts can
+  // change by legislature year to year, so always tell the family to verify
+  // at the official site before counting on it.
+  const stateMeritAid = {
+    'Tennessee': `STATE SCHOLARSHIP — TENNESSEE HOPE SCHOLARSHIP & TENNESSEE PROMISE: HOPE Scholarship pays up to $2,250/semester (freshman/sophomore) or $2,850/semester (junior/senior) at TN public and many private colleges for residents with a 21+ ACT/1060+ SAT or 3.0+ GPA — awarded automatically via the FAFSA. Tennessee Promise separately covers remaining tuition/fees (last-dollar) at any TN community or technical college for recent TN high school grads, regardless of GPA. Verify at tn.gov/collegepays and tnpromise.gov`,
+    'Georgia': `STATE SCHOLARSHIP — GEORGIA HOPE & ZELL MILLER SCHOLARSHIPS: HOPE pays a set per-credit-hour tuition amount at Georgia public colleges (USG/TCSG) for GA residents with a 3.0+ HOPE GPA. Zell Miller (higher bar — roughly 3.7+ HOPE GPA plus a strong SAT/ACT) covers full standard tuition at Georgia public colleges, or a set dollar amount (~$3,000/semester) at eligible GA private colleges. Verify at gafutures.org`,
+    'Florida': `STATE SCHOLARSHIP — FLORIDA BRIGHT FUTURES: Florida Academic Scholars (FAS) covers 100% of tuition & fees at FL public colleges for residents with roughly a 3.5 weighted GPA, qualifying SAT/ACT, and 100 service hours. Florida Medallion Scholars (FMS) covers 75% for a lower bar (roughly 3.0 GPA, lower test score, 75 service hours). Exact test-score cutoffs shift yearly — verify at floridastudentfinancialaidsg.org`,
+    'California': `STATE SCHOLARSHIP — CALIFORNIA CAL GRANT: Need-based (not merit-only) grant for CA residents attending a CA college. Cal Grant A pays tuition/fees at a UC (~$13,752/yr) or CSU (~$5,742/yr) for qualifying GPA plus financial need. Cal Grant B adds a living-expense award (~$1,648/yr first year, more after) aimed at lower-income students, including at community colleges. Awarded via the FAFSA/CA Dream Act app — no separate application. Verify current award amounts at csac.ca.gov`,
+    'New York': `STATE SCHOLARSHIP — NY TUITION ASSISTANCE PROGRAM (TAP) & EXCELSIOR SCHOLARSHIP: TAP pays roughly $1,000–$5,665/yr toward tuition at approved NY colleges based on family income (dependent students up to ~$125,000 net taxable income). Excelsior Scholarship can cover remaining SUNY/CUNY tuition (on top of TAP) for NY residents under the income cap who attend full-time and commit to staying in NY after graduating. Verify at hesc.ny.gov`,
+    'Louisiana': `STATE SCHOLARSHIP — LOUISIANA TOPS (Taylor Opportunity Program for Students): Four award tiers based on GPA + ACT (Opportunity: 2.5 GPA/20 ACT, up to Excellence: 3.5 GPA/31 ACT), paying roughly $7,400–$12,000/yr toward tuition at Louisiana colleges for LA residents who complete the required TOPS core curriculum. Verify at mylosfa.la.gov`,
+    'South Carolina': `STATE SCHOLARSHIP — SC PALMETTO FELLOWS / LIFE / HOPE SCHOLARSHIPS: Palmetto Fellows (top tier — strong GPA plus SAT 1200+/ACT 25+ or higher) pays up to roughly $7,500/yr at SC colleges. LIFE and HOPE scholarships are lower-tier alternatives for SC residents with somewhat lower GPA/test thresholds (a student qualifies for only one of the three). Verify current tiers and amounts at che.sc.gov`,
+    'West Virginia': `STATE SCHOLARSHIP — WV PROMISE SCHOLARSHIP: Pays up to $5,500/yr (tuition and mandatory fees, whichever is less) at WV public or participating independent colleges for residents with a 3.0+ GPA and qualifying coursework/test scores. Funding depends on annual legislative appropriation — confirm current-year funding status. Verify at cfwv.com`,
+    'Kentucky': `STATE SCHOLARSHIP — KENTUCKY KEES: Students earn $125–$500 per year of high school based on their annual GPA (9th–12th grade), plus up to $500/yr more for ACT/SAT score — a maximum of roughly $1,000/yr, paid out over four years of college at any eligible KY postsecondary school. Unlike most state scholarships this accrues year-by-year starting freshman year of high school, so it's worth flagging early for younger students too. Verify at kheaa.com`,
+    'Washington': `STATE SCHOLARSHIP — WASHINGTON COLLEGE GRANT: Need-based, income-tiered grant for WA residents — full award for a family of 4 at or below roughly $83,500 income, with partial awards on a sliding scale up to roughly $139,500. Covers a large share of tuition at WA public colleges (amount varies by school type, e.g. $12,700+/yr at research universities, ~$5,095/yr at community/technical colleges) and some private nonprofit schools. No separate application — awarded via the FAFSA/WASFA. Verify at wsac.wa.gov`,
+    'New Mexico': `STATE SCHOLARSHIP — NEW MEXICO OPPORTUNITY SCHOLARSHIP: Covers up to 100% of tuition and required fees at any of NM's roughly 29 public two- and four-year colleges for NM residents enrolled at least half-time (6+ credit hours) in a certificate, associate, or bachelor's program, with a 2.5 GPA to maintain it. Verify at hed.nm.gov`,
+    'Oklahoma': `STATE SCHOLARSHIP — OKLAHOMA'S PROMISE (OHLAP): Covers tuition at Oklahoma public colleges for OK residents who enroll in the program in 8th–10th grade, complete a required core curriculum, and maintain a 2.5 GPA — family income must be at or below roughly $60,000–$80,000 (varies by family size) at enrollment, and parental AGI can't exceed $100,000 when the benefit is actually used in college. Verify exact coverage and current income limits at okpromise.org`,
+    'Texas': `STATE SCHOLARSHIP — TEXAS (TEXAS Grant): Need-based grant for TX residents with significant financial need enrolled at least three-quarter time; guarantees at minimum an amount equal to tuition and required fees at Texas public colleges. Awarded automatically through the FAFSA/TASFA — no separate application. Verify at highered.texas.gov`,
+    'Indiana': `STATE SCHOLARSHIP — INDIANA 21ST CENTURY SCHOLARS: Covers full (100%) tuition for four years at any participating Indiana public college or university — but students must have enrolled in the program as income-eligible 7th or 8th graders, long before applying to college. Only relevant if an IN-based student already enrolled years ago — worth asking directly. Verify at scholars.in.gov`,
+  };
+  if (homeState && stateMeritAid[homeState]) {
+    profileLines.push(stateMeritAid[homeState]);
+  }
+
   const profile = profileLines.join('\n');
   const skippedKeys = S.skipped.map(id => { const q=QS.find(x=>x.id===id); return q?q.key:''; }).filter(Boolean);
 
@@ -3855,6 +3882,41 @@ Montana-North Dakota: Reciprocal agreement
 Maine-New Hampshire: Some reciprocal agreements
 DC students: DC Tuition Assistance Grant (DCTAG) — DC residents can attend any US public university at in-state rates up to $10,000/yr grant
 Puerto Rico/territories: Check WICHE and SREB programs for territory eligibility
+
+=== STATE-LEVEL MERIT & NEED-BASED SCHOLARSHIP PROGRAMS ===
+These are a student's HOME-state programs for IN-state colleges (not the regional
+exchange programs above, which cover attending a DIFFERENT state's schools).
+Only well-documented, officially-verifiable programs are listed. Amounts and
+eligibility shift by legislature most years — always tell the family to verify
+at the official site rather than treating these figures as locked in.
+
+Tennessee — HOPE Scholarship & Tennessee Promise: HOPE pays $2,250–$2,850/semester at TN colleges (21+ ACT/1060+ SAT or 3.0 GPA, via FAFSA). Tennessee Promise separately covers remaining tuition at any TN community/technical college, regardless of GPA. Verify at tn.gov/collegepays, tnpromise.gov
+
+Georgia — HOPE & Zell Miller Scholarships: HOPE pays set per-credit tuition at GA public colleges (3.0+ HOPE GPA). Zell Miller (3.7+ GPA plus strong test score) covers full tuition at GA public colleges or ~$3,000/semester at eligible private colleges. Verify at gafutures.org
+
+Florida — Bright Futures: Florida Academic Scholars covers 100% of tuition/fees (~3.5 GPA, qualifying test score, 100 service hours); Florida Medallion Scholars covers 75% (~3.0 GPA, lower test score, 75 service hours). Verify at floridastudentfinancialaidsg.org
+
+California — Cal Grant: Need-based. Cal Grant A pays UC (~$13,752/yr) or CSU (~$5,742/yr) tuition for qualifying GPA + need. Cal Grant B adds a living-expense award for lower-income students, including at community colleges. No separate application — FAFSA/CA Dream Act app. Verify at csac.ca.gov
+
+New York — TAP & Excelsior Scholarship: TAP pays ~$1,000–$5,665/yr based on income (dependent students up to ~$125,000). Excelsior can cover remaining SUNY/CUNY tuition for residents under the income cap who stay in NY after graduating. Verify at hesc.ny.gov
+
+Louisiana — TOPS: Four tiers by GPA+ACT (Opportunity 2.5/20 up to Excellence 3.5/31), paying ~$7,400–$12,000/yr at Louisiana colleges; requires the TOPS core curriculum. Verify at mylosfa.la.gov
+
+South Carolina — Palmetto Fellows / LIFE / HOPE: Palmetto Fellows (top tier, strong GPA + SAT 1200+/ACT 25+) pays up to ~$7,500/yr; LIFE and HOPE are lower-tier alternatives; a student qualifies for only one. Verify at che.sc.gov
+
+West Virginia — PROMISE Scholarship: Up to $5,500/yr (tuition/fees, whichever is less) for a 3.0+ GPA plus qualifying coursework/scores; subject to annual legislative funding. Verify at cfwv.com
+
+Kentucky — KEES: Accrues $125–$500 per year of high school based on annual GPA (9th–12th), plus up to $500/yr for ACT/SAT — paid out over four college years at any eligible KY school. Starts accruing freshman year of high school. Verify at kheaa.com
+
+Washington — Washington College Grant: Need-based, income-tiered; full award for a family of 4 at or below ~$83,500, partial up to ~$139,500. Covers a large share of tuition (varies by school type). No separate application — FAFSA/WASFA. Verify at wsac.wa.gov
+
+New Mexico — Opportunity Scholarship: Covers up to 100% of tuition/fees at any of NM's ~29 public colleges for residents enrolled at least half-time, 2.5 GPA to maintain. Verify at hed.nm.gov
+
+Oklahoma — Oklahoma's Promise (OHLAP): Covers tuition at OK public colleges; must enroll 8th–10th grade, complete core curriculum, 2.5 GPA; family income ~$60,000–$80,000 at enrollment (varies by family size), parental AGI capped at $100,000 when used. Verify at okpromise.org
+
+Texas — TEXAS Grant: Need-based; guarantees at minimum tuition + required fees at Texas public colleges for residents with significant financial need. Automatic via FAFSA/TASFA. Verify at highered.texas.gov
+
+Indiana — 21st Century Scholars: Covers full (100%) tuition for four years at participating Indiana public colleges — but students must have enrolled as income-eligible 7th/8th graders, well before applying to college. Verify at scholars.in.gov
 
 === CANADIAN SCHOOLS (popular with US students) ===
 McGill University Montreal QC | U of Toronto ON | U of British Columbia BC
