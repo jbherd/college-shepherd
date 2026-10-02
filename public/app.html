@@ -1050,6 +1050,16 @@ const STRIPE = {
   monthly: ''  // alias
 };
 
+// Signed purchase token from /api/verify-payment — proves a real Stripe
+// payment and tracks the generation count server-side. Kept separate from
+// the legacy cs_paid flag so the two unlock paths can't clobber each other.
+function getPurchaseToken() {
+  try { return localStorage.getItem('cs_purchase_token') || ''; } catch(e) { return ''; }
+}
+function setPurchaseToken(token) {
+  try { if (token) localStorage.setItem('cs_purchase_token', token); } catch(e) {}
+}
+
 function startApp(plan) {
   // Check age verification checkbox
   const ageCheck = document.getElementById('ageCheck');
@@ -1157,11 +1167,8 @@ function launchApp() {
   setTimeout(init, delay);
 }
 
-// Check Stripe success redirect (?session_id=...)
-(function(){
-  const p = new URLSearchParams(window.location.search);
-  // Phase 2: if (p.get('session_id')) verify then launchApp()
-})();
+// Stripe success redirect (?session_id=...) is verified server-side inside
+// the DOMContentLoaded listener below, alongside the legacy ?paid=true path.
 
 // ─────────────────────────────────────────────
 // API calls go through /api/generate when deployed on Vercel
@@ -2746,6 +2753,55 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
+  // Return from Stripe payment (verified flow) — ?session_id=...
+  const stripeSessionId = urlParams.get('session_id');
+  if (stripeSessionId) {
+    const pw = document.getElementById('paywall');
+    const bb = document.getElementById('beforebegin');
+    const app = document.getElementById('app');
+    let verified = false;
+    if (pw) {
+      const vmsg = document.createElement('div');
+      vmsg.id = 'cs-verifying-msg';
+      vmsg.style.cssText = 'background:rgba(255,255,255,.06);border-radius:10px;padding:12px 16px;margin-bottom:1rem;font-size:.86rem;text-align:center;color:rgba(255,255,255,.7)';
+      vmsg.textContent = 'Confirming your payment...';
+      pw.insertBefore(vmsg, pw.firstChild);
+    }
+    try {
+      const resp = await fetch('/api/verify-payment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ session_id: stripeSessionId })
+      });
+      const data = await resp.json();
+      if (resp.ok && data.purchaseToken) {
+        setPurchaseToken(data.purchaseToken);
+        try { localStorage.setItem('cs_paid', Date.now()); } catch(e) {} // keep legacy flag in sync as a fallback
+        verified = true;
+      } else {
+        console.log('verify-payment rejected:', data && data.error);
+      }
+    } catch(e) {
+      console.log('verify-payment error:', e.message);
+    }
+    const vmsg2 = document.getElementById('cs-verifying-msg');
+    if (vmsg2) vmsg2.remove();
+    if (verified) {
+      if (pw) pw.style.display = 'none';
+      if (app) app.style.display = 'block';
+      if (bb) {
+        bb.style.display = 'flex';
+        window.scrollTo({top:0,behavior:'smooth'});
+        return;
+      }
+      setTimeout(() => { init(); window.scrollTo({top:0,behavior:'smooth'}); }, 100);
+      return;
+    }
+    // Verification failed (Stripe redirect not fully configured yet, or a
+    // stale/replayed session_id) -- fall through to the legacy ?paid=true /
+    // cs_paid checks below instead of leaving a real purchaser stuck.
+  }
+
   // Return from Stripe payment — unlock app
   if (urlParams.get('paid') === 'true') {
     try { localStorage.setItem('cs_paid', Date.now()); } catch(e) {}
@@ -4001,9 +4057,12 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
     }
 
     // ── PRODUCTION: call our Vercel proxy ───────────────
+    const genHeaders = { 'Content-Type': 'application/json' };
+    const genToken = getPurchaseToken();
+    if (genToken) genHeaders['X-Purchase-Token'] = genToken;
     res = await fetch('/api/generate', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: genHeaders,
       body: JSON.stringify({ prompt, max_tokens: 16000 })
     });
 
@@ -4049,6 +4108,9 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
     if (typeof data.remaining === 'number') {
       updateGenCounter(data.remaining);
     }
+    // Server bumps the generation count and returns a fresh signed token --
+    // store it so the next request reports the right count/cap.
+    if (data.purchaseToken) setPurchaseToken(data.purchaseToken);
 
     let raw = data.text.trim();
     raw = raw.replace(/^```json\s*/i,'').replace(/^```\s*/i,'').replace(/\s*```$/i,'').trim();
