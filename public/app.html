@@ -2149,46 +2149,110 @@ const QS = [
 ];
 
 // ─────────────────────────────────────────────
-// STATE + SESSION PERSISTENCE
-// Saves answers to localStorage so refreshing or
-// coming back after a failed API call doesn't lose progress
+// STATE + PER-PROFILE SESSION PERSISTENCE
+// Saves answers (and, once generated, the result) to localStorage so
+// refreshing or coming back after a failed API call doesn't lose progress.
+//
+// Stored per NAMED PROFILE, not in one shared slot -- a parent and two kids
+// on the same computer each get their own answers and their own finished
+// list, keyed off the name typed as the very first answer (QS id 0). Without
+// this, the second person to use the browser would silently overwrite (or
+// just resume into) the first person's in-progress answers -- see the Oct
+// 2026 "it said welcome back Bella" report.
 // ─────────────────────────────────────────────
-const SAVE_KEY = 'cc_session_v4';
+const PROFILES_KEY = 'cs_profiles_v1';
+let activeProfileId = null; // which saved slot the live session currently writes to -- null until a name is known
 
 const S = {
   qi:0, answers:{}, skipped:[], visible:[], multi:[],
   listGenerated:false, lastResult:null, awaitingGeneration:false
 };
 
+function slugifyName(name) {
+  const s = (name || '').toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  return s.substring(0, 24) || 'student';
+}
+
+function getProfiles() {
+  try { return JSON.parse(localStorage.getItem(PROFILES_KEY) || '[]'); } catch(e) { return []; }
+}
+function setProfiles(list) {
+  try { localStorage.setItem(PROFILES_KEY, JSON.stringify(list)); } catch(e) {}
+}
+function profileDataKey(id) { return 'cs_profile_' + id; }
+function getProfileData(id) {
+  try { return JSON.parse(localStorage.getItem(profileDataKey(id)) || 'null'); } catch(e) { return null; }
+}
+
+// Loads a saved profile's answers/progress/result into the live session and
+// makes it the slot future saves write to.
+function switchToProfile(id) {
+  const data = getProfileData(id);
+  if (!data) return false;
+  activeProfileId = id;
+  S.answers = data.answers || {};
+  S.skipped = data.skipped || [];
+  S.qi = data.qi || 0;
+  S.lastResult = data.lastResult || null;
+  S.listGenerated = !!data.listGenerated;
+  buildVisible();
+  const visibleIds = new Set(S.visible.map(q => q.id));
+  S.skipped = S.skipped.filter(sid => visibleIds.has(sid));
+  return true;
+}
+
+// Detaches the live session from any saved profile -- the next time the name
+// question is answered, saveSession() gives it a fresh slot of its own.
+function startNewProfile() {
+  activeProfileId = null;
+  Object.assign(S, {qi:0, answers:{}, skipped:[], visible:[], multi:[], listGenerated:false, lastResult:null, awaitingGeneration:false});
+  buildVisible();
+}
+
 function saveSession() {
   try {
-    localStorage.setItem(SAVE_KEY, JSON.stringify({
+    // First time we know this person's name, give them their own slot
+    // instead of writing into whatever was last active on this browser.
+    if (!activeProfileId && S.answers.name) {
+      const list = getProfiles();
+      const base = slugifyName(S.answers.name);
+      let id = base, n = 2;
+      while (list.some(p => p.id === id)) { id = base + '-' + n; n++; }
+      activeProfileId = id;
+      list.push({ id, name: S.answers.name, updatedAt: Date.now(), listGenerated: false });
+      setProfiles(list);
+    }
+    if (!activeProfileId) return; // no name yet -- nothing to key the save on
+    localStorage.setItem(profileDataKey(activeProfileId), JSON.stringify({
       qi: S.qi,
       answers: S.answers,
-      skipped: S.skipped
+      skipped: S.skipped,
+      lastResult: S.lastResult,
+      listGenerated: S.listGenerated
     }));
+    // Keep the profile's index entry (name/timestamp/status) current
+    const list = getProfiles();
+    const entry = list.find(p => p.id === activeProfileId);
+    if (entry) {
+      entry.name = S.answers.name || entry.name;
+      entry.updatedAt = Date.now();
+      entry.listGenerated = S.listGenerated;
+      setProfiles(list);
+    }
   } catch(e) { /* localStorage unavailable — no-op */ }
 }
 
-function loadSession() {
-  try {
-    const raw = localStorage.getItem(SAVE_KEY);
-    if (!raw) return false;
-    const saved = JSON.parse(raw);
-    if (!saved.answers || Object.keys(saved.answers).length === 0) return false;
-    S.answers = saved.answers;
-    S.skipped = saved.skipped || [];
-    S.qi = saved.qi || 0;
-    // Clean stale skipped IDs — rebuild visible first then filter
-    buildVisible();
-    const visibleIds = new Set(S.visible.map(q => q.id));
-    S.skipped = S.skipped.filter(id => visibleIds.has(id));
-    return true;
-  } catch(e) { return false; }
-}
-
+// Deletes the ACTIVE profile's saved data. Only ever called from an explicit
+// user action (Retake / Start Brand New) -- never automatically -- so it can
+// never wipe a sibling's saved answers or list.
 function clearSession() {
-  try { localStorage.removeItem(SAVE_KEY); } catch(e) {}
+  try {
+    if (activeProfileId) {
+      localStorage.removeItem(profileDataKey(activeProfileId));
+      setProfiles(getProfiles().filter(p => p.id !== activeProfileId));
+    }
+  } catch(e) {}
+  activeProfileId = null;
 }
 
 function buildVisible() {
@@ -2414,48 +2478,102 @@ function clearInput() {
 function init() {
   buildVisible();
 
-  // Check for a saved session
-  if (loadSession()) {
-    buildVisible();
-    const answered = Object.keys(S.answers).length;
-    const name = S.answers.name ? `, ${S.answers.name}` : '';
+  const profiles = getProfiles();
 
-    // Show resume banner instead of starting from scratch
-    addBubble(`Welcome back${name}! 👋 Looks like you were in the middle of your assessment — you'd answered <strong>${answered} question${answered>1?'s':''}</strong> so far.`);
+  if (profiles.length === 0) {
+    startWelcomeFlow();
+    return;
+  }
 
-    const qrz = document.getElementById('qrzone');
-    qrz.innerHTML = '';
+  if (profiles.length === 1) {
+    showProfileBanner(profiles[0]);
+    return;
+  }
 
-    const resume = document.createElement('button');
-    resume.className = 'qr';
-    resume.textContent = '▶ Resume where I left off';
-    resume.addEventListener('click', () => {
-      clearInput();
-      // Show review button since we have answers
-      document.getElementById('reviewBtnProg').style.display = 'block';
-      document.getElementById('btnReview').style.display = 'block';
-      updateSkipUI();
-      // Jump to current question index
-      const idx = Math.min(S.qi, S.visible.length - 1);
-      askQuestion(idx);
-    });
+  showProfileChooser(profiles);
+}
 
+// Resumes or replays an existing profile's saved progress/result into view.
+function enterProfile(id) {
+  switchToProfile(id);
+  if (S.listGenerated && S.lastResult) {
+    renderResults(S.lastResult);
+    return;
+  }
+  clearInput();
+  document.getElementById('reviewBtnProg').style.display = 'block';
+  document.getElementById('btnReview').style.display = 'block';
+  updateSkipUI();
+  const idx = Math.min(S.qi, S.visible.length - 1);
+  askQuestion(idx);
+}
+
+// Exactly one saved profile on this device — same single "welcome back"
+// banner as before, but now branches to "view your list" when that profile
+// already has a finished result, and "start fresh" always opens a NEW
+// profile slot instead of overwriting this one.
+function showProfileBanner(profile) {
+  const qrz = document.getElementById('qrzone');
+  qrz.innerHTML = '';
+  const data = getProfileData(profile.id);
+
+  if (data && data.listGenerated && data.lastResult) {
+    addBubble(`Welcome back, ${profile.name}! 👋 Your college list is ready.`);
+    const view = document.createElement('button');
+    view.className = 'qr';
+    view.textContent = `📋 View ${profile.name}'s list`;
+    view.addEventListener('click', () => enterProfile(profile.id));
     const fresh = document.createElement('button');
     fresh.className = 'qr skip-btn';
-    fresh.textContent = 'Start fresh instead';
-    fresh.addEventListener('click', () => {
-      clearInput();
-      clearSession();
-      Object.assign(S, {qi:0, answers:{}, skipped:[], visible:[], multi:[], listGenerated:false, lastResult:null, awaitingGeneration:false});
-      buildVisible();
-      askQuestion(0);
-    });
-
-    qrz.appendChild(resume);
+    fresh.textContent = "That's not me — start fresh";
+    fresh.addEventListener('click', () => { startNewProfile(); startWelcomeFlow(); });
+    qrz.appendChild(view);
     qrz.appendChild(fresh);
     return;
   }
 
+  const answered = data ? Object.keys(data.answers || {}).length : 0;
+  addBubble(`Welcome back, ${profile.name}! 👋 Looks like you were in the middle of your assessment — you'd answered <strong>${answered} question${answered>1?'s':''}</strong> so far.`);
+
+  const resume = document.createElement('button');
+  resume.className = 'qr';
+  resume.textContent = '▶ Resume where I left off';
+  resume.addEventListener('click', () => enterProfile(profile.id));
+
+  const fresh = document.createElement('button');
+  fresh.className = 'qr skip-btn';
+  fresh.textContent = "That's not me — start fresh";
+  fresh.addEventListener('click', () => { startNewProfile(); startWelcomeFlow(); });
+
+  qrz.appendChild(resume);
+  qrz.appendChild(fresh);
+}
+
+// Two or more saved profiles on this device (e.g. siblings sharing a
+// computer) — ask who's using it before touching anyone's answers.
+function showProfileChooser(profiles) {
+  const qrz = document.getElementById('qrzone');
+  qrz.innerHTML = '';
+  addBubble(`👋 Welcome back! <strong>Who's using College Shepherd today?</strong>`);
+
+  profiles.slice().sort((a, b) => b.updatedAt - a.updatedAt).forEach(p => {
+    const btn = document.createElement('button');
+    btn.className = 'qr';
+    btn.textContent = p.listGenerated ? `📋 ${p.name} — list ready` : `▶ ${p.name} — in progress`;
+    btn.addEventListener('click', () => enterProfile(p.id));
+    qrz.appendChild(btn);
+  });
+
+  const fresh = document.createElement('button');
+  fresh.className = 'qr skip-btn';
+  fresh.textContent = '+ Someone new';
+  fresh.addEventListener('click', () => { startNewProfile(); startWelcomeFlow(); });
+  qrz.appendChild(fresh);
+}
+
+// Blank-slate intro + Q1 — used for a brand new device and for "start fresh" /
+// "+ someone new" from the banner/chooser above.
+function startWelcomeFlow() {
   S.qi = 0;
 
   // Welcome message before Q1
@@ -4053,7 +4171,7 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
       let result;
       try { result = JSON.parse(raw); }
       catch(pe) { showError(`Parse error: ${pe.message}`); return; }
-      S.listGenerated = true; S.lastResult = result; clearSession(); renderResults(result); return;
+      S.listGenerated = true; S.lastResult = result; saveSession(); renderResults(result); return;
     }
 
     // ── PRODUCTION: call our Vercel proxy ───────────────
@@ -4153,7 +4271,7 @@ Return this exact JSON structure with exactly 10 colleges (3-4 reach, 4-5 match,
 
     S.listGenerated = true;
     S.lastResult = result;
-    clearSession(); // List generated — no need to keep session data
+    saveSession(); // Persist the finished list to this profile's slot so it survives a refresh
     renderResults(result);
 
   } catch(err) {
