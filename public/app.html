@@ -4792,6 +4792,9 @@ function buildShareData() {
   return shareId;
 }
 
+// Full self-contained link — all the data lives in the URL itself, so it
+// works cross-device with no server round trip. This is the long, ugly-
+// looking ?d=... link; kept as the guaranteed-to-work fallback.
 function getShareUrl() {
   const base = window.location.origin + window.location.pathname.replace('app.html', '');
   const d = S.lastResult;
@@ -4813,8 +4816,49 @@ function getShareUrl() {
   }
 }
 
-function shareToSocial() {
-  const url = getShareUrl();
+// Short, server-backed link — posts the same compact summary to /api/share,
+// which stores it in KV (if connected) under a short id. Returns null on any
+// failure (no KV connected, network error, timeout) so the caller can fall
+// back to getShareUrl() instead of ever blocking sharing on this working.
+async function getShortShareUrl() {
+  const d = S.lastResult;
+  if (!d) return null;
+  const miniData = {
+    n: d.studentName || 'A Student',
+    c: (d.colleges||[]).slice(0,10).map(x=>({r:x.rank,n:x.name,l:x.location,t:x.tier,a:x.acceptanceRate,p:x.netPrice&&x.netPrice.estimated})),
+    cr: new Date().toISOString()
+  };
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 3000); // never let a slow/broken endpoint stall sharing
+  try {
+    const res = await fetch('/api/share', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(miniData),
+      signal: controller.signal
+    });
+    clearTimeout(timeout);
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data.id) return null;
+    const base = window.location.origin + window.location.pathname.replace('app.html', '');
+    return base + 'share.html?id=' + data.id;
+  } catch(e) {
+    clearTimeout(timeout);
+    return null; // KV not configured, offline, timed out, etc. -- fall back silently
+  }
+}
+
+// Preferred entry point for every "share" action — short link when possible,
+// the original long self-contained link otherwise. Always resolves to SOME
+// usable URL (or null if there's genuinely no result yet to share).
+async function getBestShareUrl() {
+  const short = await getShortShareUrl();
+  return short || getShareUrl();
+}
+
+async function shareToSocial() {
+  const url = await getBestShareUrl();
   if (!url) return;
   const d = S.lastResult;
   const top3 = (d.colleges || []).slice(0, 3).map(c => c.name).join(', ');
@@ -4837,9 +4881,9 @@ function shareToSocial() {
   }
 }
 
-function copyShareLink() {
+async function copyShareLink() {
   gtag('event', 'share', { event_category: 'engagement', method: 'copy_link' });
-  const url = getShareUrl();
+  const url = await getBestShareUrl();
   if (!url) return;
   const wrap = document.getElementById('shareLinkWrap');
   const urlEl = document.getElementById('shareLinkUrl');
@@ -4858,8 +4902,8 @@ function copyShareLinkDirect() {
   });
 }
 
-function shareToInstagram() {
-  const url = getShareUrl();
+async function shareToInstagram() {
+  const url = await getBestShareUrl();
   if (!url) return;
   const d = S.lastResult;
   const top3 = (d.colleges || []).slice(0, 3).map(c => c.name).join('\n');
