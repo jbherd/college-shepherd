@@ -1022,7 +1022,7 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
     <div style="font-weight:600;color:#e8c96a">🔑 Save your way back in</div>
     <button onclick="dismissAccessLinkBanner()" aria-label="Dismiss" style="background:none;border:none;color:rgba(255,255,255,.5);font-size:1.1rem;line-height:1;cursor:pointer;padding:0">×</button>
   </div>
-  <div style="margin:6px 0 10px;color:rgba(255,255,255,.75);line-height:1.4">Your purchase is good for a full year on any device. Email yourself a personal link now so you never lose access.</div>
+  <div style="margin:6px 0 10px;color:rgba(255,255,255,.75);line-height:1.4">Your purchase is good for a full year on any device. We just tried to open your email app with this link already written -- hit Send there to keep a copy. Didn't see it pop up? Use the buttons below instead.</div>
   <div style="display:flex;gap:8px;flex-wrap:wrap">
     <button onclick="emailMyAccessLink()" style="flex:1;min-width:140px;padding:8px 10px;background:#e8c96a;color:#0b1929;border:none;border-radius:8px;font-family:inherit;font-size:.86rem;font-weight:600;cursor:pointer">Email Me This Link</button>
     <button onclick="copyAccessLink()" style="padding:8px 10px;background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.2);border-radius:8px;font-family:inherit;font-size:.86rem;font-weight:600;cursor:pointer">Copy Link</button>
@@ -1101,9 +1101,13 @@ function dismissAccessLinkBanner() {
   if (banner) banner.style.display = 'none';
 }
 
-function emailMyAccessLink() {
+// Builds the mailto: href for the "email me my access link" message, shared
+// by the manual button (emailMyAccessLink) and the automatic post-purchase
+// trigger (autoOfferAccessLink). Returns null when there's no real purchase
+// token yet (link isn't available).
+function buildAccessLinkMailtoHref() {
   const link = getResumeLink();
-  if (!link) { showToast('Your access link is only available after a verified purchase.'); return; }
+  if (!link) return null;
   let to = '';
   try { to = localStorage.getItem('cs_email') || ''; } catch(e) {}
   const subject = encodeURIComponent('Your CollegeShepherd access link');
@@ -1113,8 +1117,27 @@ function emailMyAccessLink() {
     "\n\nThis link is good for a full year from your purchase, and it's just for you -- anyone who has it can see and regenerate your list, so please don't share it or post it anywhere public. " +
     "If you want to share your actual college list with someone, use the \"Share Your List\" button inside the app instead -- that one makes a safe, public summary link.\n\n-- CollegeShepherd"
   );
+  return `mailto:${to}?subject=${subject}&body=${body}`;
+}
+
+function emailMyAccessLink() {
+  const href = buildAccessLinkMailtoHref();
+  if (!href) { showToast('Your access link is only available after a verified purchase.'); return; }
   dismissAccessLinkBanner();
-  window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+  window.location.href = href;
+}
+
+// Called automatically right after a verified purchase -- tries to open the
+// student's mail app with the access-link email already drafted, so most
+// people never have to click anything to get it. This can silently do
+// nothing if the device has no default mail client configured, which is why
+// the banner stays open (see showAccessLinkBanner) as a visible fallback with
+// its own Email/Copy buttons -- we can't detect whether the mail app actually
+// opened, only that we asked it to.
+function autoOfferAccessLink() {
+  const href = buildAccessLinkMailtoHref();
+  if (!href) return;
+  try { window.location.href = href; } catch(e) {}
 }
 
 function copyAccessLink() {
@@ -1867,11 +1890,6 @@ const QS = [
    type:'quick',
    opts:['Yes — both parents went to college','Yes — one parent went to college','No — I\'d be the first in my family','Not sure / it\'s complicated']},
 
-  {id:3,ph:0,key:'athlete',
-   text:`<strong>Are you an athlete thinking about playing a sport in college?</strong>`,
-   type:'quick',
-   opts:['Yes — I\'m being recruited or plan to walk on','Maybe — I\'d love to play but not sure','I just want club or intramural sports','No — done competing after high school']},
-
   {id:4,ph:0,key:'learning_diff',
    text:`<strong>Do you have any learning differences or need academic support services?</strong><br><span class="note">ADHD, dyslexia, anxiety support, etc. Some schools specialize in this — knowing helps me find the right fit.</span>`,
    type:'quick',
@@ -2010,7 +2028,7 @@ const QS = [
    condition:a=>a.sports_fan&&!['Not a factor at all','Not really my thing'].includes(a.sports_fan),
    text:`<strong>What sport are you most excited to root for?</strong>`,
    type:'quick',
-   opts:['College football — nothing beats Saturday game day','College basketball — March Madness, packed arenas','Both football and basketball','Baseball or softball','Soccer','Hockey','I\'ll root for whatever my school is great at']},
+   opts:['College football — nothing beats Saturday game day','College basketball — March Madness, packed arenas','Baseball or softball','Soccer','Hockey','I\'ll root for whatever my school is great at']},
 
   {id:26,ph:3,key:'sports_importance',
    condition:a=>a.sports_fan&&!['Not a factor at all','Not really my thing'].includes(a.sports_fan),
@@ -2019,9 +2037,9 @@ const QS = [
    opts:['Critical — I want national championships and ESPN coverage','Important — I want to be proud of my teams','Somewhat — enjoyable but won\'t drive my decision','Not a factor in my choice']},
 
   {id:27,ph:3,key:'play_sports',
-   text:`<strong>Do you want to actually play a sport in college?</strong>`,
+   text:`<strong>Are you planning on playing a varsity sport for your college?</strong>`,
    type:'quick',
-   opts:['Yes — I\'m being recruited or plan to walk on','Yes — club or intramural level is perfect','Maybe — I\'d love to stay active and compete','No — done competing after high school']},
+   opts:['Yes — I\'m being recruited or plan to walk on','Maybe — I\'d love to play but not sure','No — done competing after high school']},
 
   {id:271,ph:3,key:'conference_pref',
    condition:a=>a.sports_fan&&!['Not a factor at all','Not really my thing'].includes(a.sports_fan),
@@ -2040,16 +2058,21 @@ const QS = [
    ]},
 
   {id:28,ph:3,key:'sport_name',branch:'🏅 Athlete Branch',
-   condition:a=>a.play_sports&&(a.play_sports.startsWith('Yes — I\'m being recruited')||a.play_sports.startsWith('Yes — club')),
-   text:`<strong>What sport do you play?</strong>`,
+   condition:a=>a.play_sports&&a.play_sports.startsWith('Yes'),
+   text:`<strong>What sport will you play in college?</strong>`,
    type:'quick',
    opts:['Football','Basketball','Baseball / Softball','Soccer','Swimming / Diving','Track & Field / Cross Country','Tennis','Volleyball','Lacrosse','Hockey','Golf','Wrestling / Gymnastics / Other']},
 
   {id:29,ph:3,key:'athlete_level',
-   condition:a=>a.play_sports&&a.play_sports.startsWith('Yes — I\'m being recruited'),
+   condition:a=>a.play_sports&&a.play_sports.startsWith('Yes'),
    text:`<strong>What level are you realistically targeting?</strong>`,
    type:'quick',
-   opts:['D1 — highest level, full athletic programs','D2 — competitive but more balanced with academics','D3 — I love the sport, academics come first','NAIA — smaller school athletics','Club sports — serious but not varsity','Not sure what\'s realistic for me']},
+   opts:['D1 — highest level, full athletic programs','D2 — competitive but more balanced with academics','D3 — I love the sport, academics come first','NAIA — smaller school athletics','Not sure what\'s realistic for me']},
+
+  {id:275,ph:3,key:'intramural_interest',
+   text:`<strong>Are you interested in club or intramural sports, even if not varsity?</strong>`,
+   type:'quick',
+   opts:['Yes — I definitely want club or intramural sports','Maybe — I\'d check it out','Not really my thing','No preference']},
 
   {id:30,ph:3,key:'grind_balance',
    text:`<strong>What kind of academic culture do you want?</strong>`,
@@ -2104,7 +2127,7 @@ const QS = [
    type:'quick',
    opts:['Close — within 1–2 hours of home','Same region — within half a day\'s drive','Anywhere in the country — I\'m open','I\'d prefer to go far from home','Commute distance — saving money']},
 
-  {id:39,ph:6,key:'home_state',
+  {id:276,ph:6,key:'home_state',
    text:`<strong>What state do you live in?</strong><br><span class="note">Helps us flag in-state tuition savings and schools close to home.</span>`,
    type:'quick',
    opts:['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut',
@@ -2138,7 +2161,7 @@ const QS = [
    opts:['Very important — I\'ll be flying home several times a year','Somewhat — 2–3 flights a year, prefer convenience','Not a big deal — I\'ll figure out transportation','Not relevant — driving or staying close to home']},
 
   // PHASE 7 — COST & AID
-  {id:43,ph:7,key:'family_income',
+  {id:277,ph:7,key:'family_income',
    text:`<strong>What is your approximate household income?</strong><br><span class="note">This helps us estimate your real out-of-pocket cost at each school after financial aid. We never store or share this.</span>`,
    type:'quick',
    opts:[
@@ -2191,18 +2214,6 @@ const QS = [
   {id:51,ph:9,key:'schools_i_like',
    text:`<strong>Is there any college you\'ve already heard of that you kind of like?</strong><br><span class="note">This gives me a benchmark for your taste. Fine to say "none yet."</span>`,
    type:'text',placeholder:'e.g. "I like the idea of UNC" or "none yet" or "something like Williams"...'},
-
-  {id:52,ph:9,key:'hidden_gem',
-   text:`One of the things that makes <strong>College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em> unique is our ability to surface <strong>hidden gem colleges</strong> — schools you've probably never heard of that could be a perfect fit for you.<br><br>How open are you to discovering a hidden gem?`,
-   opts:['Yes — show me at least one hidden gem I have never heard of',
-         'Absolutely — show me more hidden gems than well-known schools',
-         'A mix of well-known and hidden gems is fine',
-         'Stick mostly to schools I already know about']},
-
-  {id:52,ph:9,key:'reach_mindset',
-   text:`<strong>How do you feel about applying to a "reach" school — where your stats are below average but you love it?</strong>`,
-   type:'quick',
-   opts:['Absolutely — I\'ll apply to dream schools and see what happens','I want 1–2 reaches but mainly realistic options','I\'d rather stick with schools I\'m likely to get into','Not sure what my realistic options are yet']},
 
   {id:274,ph:9,key:'success_vision',
    text:`<strong>What does success in college look like for you?</strong><br><span class="note">Not what others expect — what genuinely matters to you.</span>`,
@@ -3025,6 +3036,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (pw) pw.style.display = 'none';
       if (app) app.style.display = 'block';
       showAccessLinkBanner();
+      autoOfferAccessLink();
       if (bb && !hasSavedProfile()) {
         bb.style.display = 'flex';
         window.scrollTo({top:0,behavior:'smooth'});
@@ -4244,8 +4256,7 @@ ${RANKINGS_REF}`;
 
 CRITICAL INSTRUCTIONS:
 - Each school must be genuinely matched to THIS student's specific profile — not generic recommendations.
-- HIDDEN GEMS: Based on the student's hidden_gem preference in their profile, include the appropriate number of lesser-known schools (smaller colleges, regional universities, liberal arts colleges, honors programs, schools strong in their specific area but not nationally famous).
-- If student wants hidden gems, surface schools they have almost certainly never heard of that are outstanding fits.
+- HIDDEN GEMS: exactly 1 of the 10 colleges you return must be a genuine hidden gem — a lesser-known school (smaller college, regional university, liberal arts college, honors program, or a school strong in the student's specific area but not nationally famous) that is an outstanding fit for THIS student. Set "isHiddenGem":true on that one college only, false on the other 9.
 - If student mentioned specific schools they like, also consider similar but less obvious alternatives.
 - Consider: specialized programs, unique campus cultures, strong alumni networks in specific fields, exceptional value, distinctive locations.
 - ANTI-REPETITION: Do not default to the same handful of well-known "safe value" flagship publics (e.g. Indiana, Ohio State, Purdue, Penn State) just because they're commonly recommended in general — only include one of those if it is a genuinely standout match for THIS profile. Actively vary your picks across different student profiles; treat it as a failure mode if two students with meaningfully different majors, regions, budgets, or campus preferences end up with substantially overlapping lists.
