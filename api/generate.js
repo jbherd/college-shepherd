@@ -1,5 +1,13 @@
 const { checkLimit } = require('../lib/rateLimit');
 const { verifyPurchaseToken, bumpGenerationCount, tokenFromRequest, MAX_GENERATIONS } = require('../lib/purchaseAuth');
+// A valid personal dev-access token (the same one that already unlocks the
+// paywall via ?token=xxx and gates /api/demo and /api/trends) now also lets
+// its holder skip the purchase/anonymous generation cap entirely here. This
+// exists so testing the real questionnaire -> real Claude call flow doesn't
+// burn down a purchase token's 8-generation allowance or trip the shared
+// anonymous per-IP limit -- previously there was no way to QA this endpoint
+// repeatedly without eating into the same cap a paying customer gets.
+const { verifyToken: verifyDevToken, tokenFromRequest: devTokenFromRequest } = require('../lib/devAuth');
 
 // Anonymous/legacy fallback cap -- used only when the request carries no
 // purchase token (i.e. the old `?paid=true` unlock, or verify-payment isn't
@@ -40,7 +48,7 @@ async function persistUsedCount(kv, sessionId, used) {
 module.exports = async function handler(req, res) {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
-    res.setHeader("Access-Control-Allow-Headers", "Content-Type, X-Purchase-Token");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type, X-Purchase-Token, X-Dev-Token");
     if (req.method === "OPTIONS") return res.status(200).end();
     if (req.method !== "POST") return res.status(405).json({ error: "bad method" });
 
@@ -51,11 +59,17 @@ module.exports = async function handler(req, res) {
     if (!prompt) return res.status(400).json({ error: "Missing prompt" });
 
     // ── Access + quota check ────────────────────────────────────────────
+    // A valid dev token bypasses everything below -- no purchase/anonymous
+    // cap applies at all for this request.
+    const isDev = verifyDevToken(devTokenFromRequest(req)).valid;
+
     const rawToken = tokenFromRequest(req);
     let purchase = null;
     let anonRemaining = null; // set only on the no-token path, for the counter UI
 
-    if (rawToken) {
+    if (isDev) {
+        // Skip quota checks entirely.
+    } else if (rawToken) {
         const verified = verifyPurchaseToken(rawToken);
         if (!verified.valid) {
             return res.status(401).json({ error: 'Invalid or expired purchase token (' + verified.reason + ')' });
@@ -110,7 +124,9 @@ module.exports = async function handler(req, res) {
 
         const responseBody = { text, limit: MAX_GENERATIONS };
 
-        if (purchase) {
+        if (isDev) {
+            responseBody.remaining = 'unlimited';
+        } else if (purchase) {
             const newToken = bumpGenerationCount(purchase);
             const newUsed = purchase.generationsUsed + 1;
             await persistUsedCount(kvConfig(), purchase.sessionId, newUsed);
