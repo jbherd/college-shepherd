@@ -1073,6 +1073,14 @@ function setPurchaseToken(token) {
   try { if (token) localStorage.setItem('cs_purchase_token', token); } catch(e) {}
 }
 
+// Personal dev-access token (see the ?token=xxx handler below) -- when
+// present, /api/generate skips the purchase/anonymous generation cap
+// entirely for this browser. Never set for a real customer; only ever
+// stored after a valid ?token= link has been used once.
+function getDevToken() {
+  try { return localStorage.getItem('cs_dev_token') || ''; } catch(e) { return ''; }
+}
+
 // ─────────────────────────────────────────────
 // Personal access link -- a ?rt=<purchase token> URL a customer can save
 // (email it to themselves, bookmark it, text it to a parent's phone) to get
@@ -1334,7 +1342,7 @@ const DEV_PROFILES = {
     distance: 'Within a few hours of home',
     weather: 'Four seasons — I love fall football weather',
     sports_fan: 'Big-time — I want D1 football and basketball',
-    conference_pref: 'Big Ten — Michigan, Ohio State, Penn State, Wisconsin, Michigan State',
+    conference_pref: 'Big Ten — Michigan, Ohio State, Penn State, USC, Oregon, Wisconsin',
     play_sports: 'No — done competing after high school',
     greek_life: 'Yes — definitely want to be involved',
     study_abroad: 'Yes — would love a semester abroad',
@@ -2046,12 +2054,12 @@ const QS = [
    text:`<strong>Is there a particular athletic conference you\'d love your school to be part of?</strong><br><span class="note">This shapes your entire game-day culture, rivalries, and the schools you\'ll be cheering against for 4 years.</span>`,
    type:'quick',
    opts:[
-     'SEC — Alabama, Georgia, LSU, Tennessee, Florida (football & basketball royalty)',
-     'Big Ten — Michigan, Ohio State, Penn State, Wisconsin, Michigan State',
+     'SEC — Alabama, Georgia, Texas, Oklahoma, LSU, Tennessee (football & basketball royalty)',
+     'Big Ten — Michigan, Ohio State, Penn State, USC, Oregon, Wisconsin',
      'ACC — Duke, UNC, Clemson, Notre Dame, Virginia, Florida State',
-     'Big 12 — Texas, Kansas, Baylor, TCU, Iowa State, Oklahoma State',
+     'Big 12 — BYU, Kansas, Baylor, TCU, Iowa State, Oklahoma State',
      'Big East — Georgetown, Villanova, Marquette, UConn (basketball-focused)',
-     'Pac-12 / West Coast — UCLA, USC, Oregon, Washington, Stanford, Cal',
+     'Pac-12 — Boise State, Fresno State, San Diego State, Colorado State, Oregon State, Washington State (rebuilt for 2026)',
      'Ivy League — Harvard, Yale, Princeton, Cornell, Dartmouth, Penn',
      'Sun Belt or Mountain West — fun atmosphere, rising programs',
      'No preference — conference doesn\'t matter to me'
@@ -2420,7 +2428,7 @@ function renderReviewDrawer() {
     const ans = (S.answers[q.key] || '').substring(0, 42) + ((S.answers[q.key]||'').length > 42 ? '...' : '');
     return `<div class="drawer-item">
       <div class="di-left"><div class="di-q">${qlabel}</div><div class="di-a">${ans}</div></div>
-      <button class="di-btn" onclick="openEdit(${q.id});toggleDrawer('reviewdrawer')">Edit</button>
+      <button class="di-btn" onclick="openEdit(${q.id})">Edit</button>
     </div>`;
   }).join('');
 }
@@ -2860,6 +2868,15 @@ document.addEventListener('DOMContentLoaded', async () => {
       const pw = document.getElementById('paywall');
       const bb = document.getElementById('beforebegin');
       const app = document.getElementById('app');
+
+      // Remember this dev token so every /api/generate call this browser
+      // makes from now on (not just this page load) can skip the purchase/
+      // anonymous generation cap entirely -- see getDevToken() and its use
+      // in generate(). Lets whoever holds a personal dev-access link test
+      // the real questionnaire/generate flow as many times as needed
+      // without burning down a purchase token's 8-generation allowance or
+      // tripping the shared anonymous per-IP limit.
+      try { localStorage.setItem('cs_dev_token', devToken); } catch(e) {}
 
       // &generate=true — mint a fresh token from this valid one
       if (urlParams.get('generate') === 'true') {
@@ -3636,26 +3653,25 @@ San Jose State CA | Cal Poly Pomona CA | U Houston TX | Texas A&M Corpus Christi
 Mercy College NY | St.Peter's U NJ | Hostos Community College NY | Barry U FL
 Miami Dade College FL | East Los Angeles College CA | National U CA
 
-=== ATHLETICS — D1 CONFERENCES ===
+=== ATHLETICS — D1 CONFERENCES (current as of the 2026 realignment) ===
 SEC: Alabama | Georgia | LSU | Tennessee | Florida | Auburn | Ole Miss | Mississippi State
 Kentucky | South Carolina | Texas A&M | Missouri | Vanderbilt | Arkansas | Texas | Oklahoma
 Big Ten: Michigan | Ohio State | Penn State | Wisconsin | Michigan State | Minnesota | Iowa
-Indiana | Illinois | Purdue | Nebraska | Maryland | Rutgers | Northwestern | UCLA | USC
-Oregon | Washington | USC | UCLA | Maryland | UCLA | USC | Washington
+Indiana | Illinois | Purdue | Nebraska | Maryland | Rutgers | Northwestern | UCLA | USC | Oregon | Washington
 ACC: Duke | UNC | Clemson | Notre Dame | Virginia | Virginia Tech | Florida State | NC State
-Wake Forest | Georgia Tech | Pittsburgh | Syracuse | Boston College | Louisville | Miami | Cal | Stanford
-Big 12: Texas | Kansas | Baylor | TCU | Iowa State | Oklahoma State | Kansas State | Texas Tech
+Wake Forest | Georgia Tech | Pittsburgh | Syracuse | Boston College | Louisville | Miami | Cal | Stanford | SMU
+Big 12: Kansas | Baylor | TCU | Iowa State | Oklahoma State | Kansas State | Texas Tech
 West Virginia | Cincinnati | Houston | UCF | BYU | Arizona | Arizona State | Colorado | Utah
 Big East (basketball): Georgetown | Villanova | Marquette | UConn | St.John's | Seton Hall
 Providence | Xavier | Butler | DePaul | Creighton
-Mountain West: Boise State | San Diego State | Nevada | UNLV | Fresno State | Air Force
-Colorado State | Wyoming | Utah State | New Mexico | Hawaii
+Mountain West: Air Force | Hawaii | Nevada | New Mexico | Northern Illinois | San Jose State | UNLV | UTEP | Wyoming
 Sun Belt: Appalachian State | Coastal Carolina | Georgia State | Louisiana | South Alabama
 Troy | Arkansas State | Georgia Southern | Old Dominion | Marshall | Southern Miss
 American Athletic: Memphis | Tulane | South Florida | East Carolina | Navy | Tulsa
 Missouri Valley: Illinois State | Northern Iowa | Indiana State | Valparaiso | Drake | Evansville
-Pac-12 / West Coast: Traditional Stanford | Cal | Oregon | Washington | USC | UCLA | Arizona
-WCC: Gonzaga | BYU | Saint Mary's | Pepperdine | Santa Clara | San Francisco | Portland | Loyola Marymount
+Pac-12 (rebuilt for 2026-27): Oregon State | Washington State | Boise State | Fresno State
+San Diego State | Colorado State | Utah State | Texas State | Gonzaga (basketball)
+WCC: Saint Mary's | Pepperdine | Santa Clara | San Francisco | Portland | Loyola Marymount
 Patriot League: Army | Navy | Bucknell | Colgate | Holy Cross | Lehigh | Lafayette | American
 Ivy League: Harvard | Yale | Princeton | Cornell | Dartmouth | Penn | Columbia | Brown
 
@@ -4312,6 +4328,8 @@ Return this exact JSON structure with exactly 10 colleges: 2 reach, 4 match, 3 s
     const genHeaders = { 'Content-Type': 'application/json' };
     const genToken = getPurchaseToken();
     if (genToken) genHeaders['X-Purchase-Token'] = genToken;
+    const genDevToken = getDevToken();
+    if (genDevToken) genHeaders['X-Dev-Token'] = genDevToken;
     res = await fetch('/api/generate', {
       method: 'POST',
       headers: genHeaders,
