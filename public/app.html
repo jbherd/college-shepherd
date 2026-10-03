@@ -1142,7 +1142,7 @@ function launchApp() {
   }
   paywall.style.display = 'none';
   const bbScreen = document.getElementById('beforebegin');
-  if (bbScreen) {
+  if (bbScreen && !hasSavedProfile()) {
     bbScreen.style.display = 'flex';
     window.scrollTo({top:0,behavior:'smooth'});
     return;
@@ -2163,6 +2163,16 @@ function slugifyName(name) {
 function getProfiles() {
   try { return JSON.parse(localStorage.getItem(PROFILES_KEY) || '[]'); } catch(e) { return []; }
 }
+
+// Returning users who already have at least one saved profile on this
+// device skip the generic "before we begin" marketing screen and go
+// straight into the app, where init() shows the real "Welcome back"
+// message / resume options. First-time users (no saved profile yet) still
+// see the intro screen as before -- this never touches that first-run flow.
+function hasSavedProfile() {
+  return getProfiles().length > 0;
+}
+
 function setProfiles(list) {
   try { localStorage.setItem(PROFILES_KEY, JSON.stringify(list)); } catch(e) {}
 }
@@ -2893,7 +2903,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (verified) {
       if (pw) pw.style.display = 'none';
       if (app) app.style.display = 'block';
-      if (bb) {
+      if (bb && !hasSavedProfile()) {
         bb.style.display = 'flex';
         window.scrollTo({top:0,behavior:'smooth'});
         return;
@@ -2914,7 +2924,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const app = document.getElementById('app');
     if (pw) pw.style.display = 'none';
     if (app) app.style.display = 'block';
-    if (bb) {
+    if (bb && !hasSavedProfile()) {
       bb.style.display = 'flex';
       window.scrollTo({top:0,behavior:'smooth'});
       return;
@@ -2923,10 +2933,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  // Check if already paid this session
+  // Check if already paid. The durable cs_purchase_token (set once at
+  // verified purchase, no expiry) takes priority -- any returning customer
+  // with a valid token always skips the paywall, no matter how long ago
+  // they paid. cs_paid is kept only as a short-lived (24h) fallback for
+  // paths that never set a token (dev bypass button, beta codes). Before
+  // this fix, ONLY the 24-hour cs_paid check ran here, so a real paying
+  // customer returning a day+ later -- or anyone who unlocked via a path
+  // that doesn't set cs_paid -- hit the paywall again with no way back in,
+  // and never reached init()/the "Welcome back" flow at all.
   try {
     const paid = localStorage.getItem('cs_paid');
-    if (paid && (Date.now() - parseInt(paid)) < 86400000) {
+    const within24h = paid && (Date.now() - parseInt(paid)) < 86400000;
+    if (getPurchaseToken() || within24h) {
       const pw = document.getElementById('paywall');
       if (pw) pw.style.display = 'none';
       launchApp();
