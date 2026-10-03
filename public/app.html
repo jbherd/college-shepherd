@@ -1006,7 +1006,7 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
 </div>
 
 <!-- Edit modal -->
-<div class="em-overlay" id="emOverlay" onclick="if(event.target===this)closeEditModal()">
+<div class="em-overlay" id="emOverlay" onclick="if(event.target===this)closeEdit()">
   <div class="em-box" id="emBox"></div>
 </div>
 
@@ -3244,23 +3244,16 @@ async function generateList() {
   await doGenerate();
 }
 
+function goToQuestion(idx) {
+  S.skipped = S.skipped.filter(id => id !== (S.visible[idx] && S.visible[idx].id));
+  S.qi = idx;
+  clearInput();
+  askQuestion(idx);
+}
+
 // Renders the pre-generation action buttons into qrzone.
 // Called on first arrival AND after closing the skip drawer
 // so buttons are always restored when the drawer is dismissed.
-function goToQuestion(idx) {
-  S.skipped = S.skipped.filter(id => id !== (S.visible[idx] && S.visible[idx].id));
-  S.qi = idx;
-  clearInput();
-  askQuestion(idx);
-}
-
-function goToQuestion(idx) {
-  S.skipped = S.skipped.filter(id => id !== (S.visible[idx] && S.visible[idx].id));
-  S.qi = idx;
-  clearInput();
-  askQuestion(idx);
-}
-
 function showPreGenButtons() {
   const qrz = document.getElementById('qrzone');
   qrz.innerHTML = '';
@@ -4719,6 +4712,19 @@ function toggleRanks(btn) {
   btn.dataset.open = String(!open);
   btn.classList.toggle('open', !open);
 }
+
+// Expands/collapses a school card's "Fun Facts" section -- was referenced
+// by the onclick on that section's header but never actually defined
+// anywhere, so clicking it did nothing (silent console error). Body starts
+// rendered with the "show" class already on it (see where '#'+id is built),
+// so the first click here collapses it, matching the down-arrow icon.
+function toggleFF(id) {
+  const body = document.getElementById(id);
+  const arrow = document.getElementById('arr_' + id);
+  if (!body) return;
+  body.classList.toggle('show');
+  if (arrow) arrow.classList.toggle('open');
+}
 // ─────────────────────────────────────────────
 // NEXT STEPS + EXPORT
 // ─────────────────────────────────────────────
@@ -5185,8 +5191,6 @@ function resetQuestionnaireUI() {
   document.getElementById('chinput').value = '';
   document.getElementById('results').innerHTML = '';
   document.getElementById('results').style.display = 'none';
-  document.getElementById('scorecard').innerHTML = '';
-  document.getElementById('scorecard').style.display = 'none';
   document.getElementById('nextsteps').innerHTML = '';
   document.getElementById('regenbanner').classList.remove('show');
   document.getElementById('skipdrawer').style.display = 'none';
