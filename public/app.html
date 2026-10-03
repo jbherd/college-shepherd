@@ -267,10 +267,6 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
 .rs-src{font-size:.95rem;color:var(--tmu);text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px}
 .rs-desc{font-size:.73rem;color:var(--tm);line-height:1.4}
 
-/* TIER LEGEND */
-.tierleg{display:flex;gap:16px;justify-content:center;margin-bottom:1.1rem;flex-wrap:wrap}
-.tli{display:flex;align-items:center;gap:6px;font-size:.95rem;color:var(--tm)}
-.tldot{width:9px;height:9px;border-radius:50%}
 
 /* COLLEGE CARDS */
 .cgrid{display:flex;flex-direction:column;gap:11px}
@@ -4538,11 +4534,6 @@ function renderResults(data) {
   }
 
   html += `
-    <div class="tierleg">
-      <div class="tli"><div class="tldot" style="background:var(--gold)"></div>Reach</div>
-      <div class="tli"><div class="tldot" style="background:var(--navy)"></div>Match</div>
-      <div class="tli"><div class="tldot" style="background:#2d5a8e"></div>Safety</div>
-    </div>
     <div class="cgrid">`;
 
   // Sort: match first, then reach, then safety
