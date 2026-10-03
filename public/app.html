@@ -1854,7 +1854,7 @@ const PHASES = ['About You','Academics','Goals','Campus Life','Identity','Enviro
 const QS = [
   // PHASE 0 — ABOUT YOU
   {id:0,ph:0,key:'name',
-   text:`Hi there! 👋 I'm your CollegeShepherd counselor.<br><br>I'll ask you 50+ specialized questions about your grades, interests, dream campus, location, and what matters most to you. At the end I'll build a <strong>personalized top-10 college list</strong> with reach schools, match schools, and safety schools.<br><br>You can <strong>skip any question</strong> you're not ready for and come back to it anytime. There are no wrong answers.<br><br>Let's start easy — <strong>what's your first name?</strong>`,
+   text:`Let's start easy — <strong>what's your first name?</strong>`,
    type:'text',placeholder:"My name is..."},
 
   {id:1,ph:0,key:'grade',
@@ -2664,7 +2664,7 @@ function startWelcomeFlow() {
   setTimeout(() => {
     removeTyping();
     addBubble(`👋 <strong>Welcome to <strong style="color:inherit">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em></strong>!<br><br>
-I'll ask you <strong>50+ specialized questions</strong> about your academics, interests, goals, and budget — then build a personalized top-10 college list just for you.<br><br>
+I'll ask you <strong>50+ specialized questions</strong> about your academics, interests, goals, and budget — then build a personalized top-10 college list just for you. You can <strong>skip any question</strong> you're not ready for and come back to it anytime — there are no wrong answers.<br><br>
 You can <strong>tap ✏️ on any answer</strong> to edit it at any time, or click <strong>Edit My Answers</strong> above to review everything. You get <strong>7 regenerations today</strong> — so answer honestly and adjust freely.`);
     setTimeout(() => askQuestion(0), 400);
   }, 600);
