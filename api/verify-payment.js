@@ -75,9 +75,18 @@ module.exports = async function handler(req, res) {
         const kv = kvConfig();
         const alreadyUsed = await getAlreadyUsed(kv, session_id);
         const purchaseToken = issuePurchaseToken(session_id, alreadyUsed);
+        // Stripe's own record of the buyer's checkout email -- handed back
+        // so the client can prefill the "email me my access link" button
+        // without asking the student to retype an address they already gave
+        // Stripe. Never required; the client falls back to a blank "To:"
+        // field if this is missing.
+        const email = (session.customer_details && session.customer_details.email)
+            || session.customer_email
+            || null;
 
         return res.status(200).json({
             purchaseToken,
+            email,
             generationsUsed: alreadyUsed,
             generationsRemaining: Math.max(0, MAX_GENERATIONS - alreadyUsed),
             maxGenerations: MAX_GENERATIONS,
