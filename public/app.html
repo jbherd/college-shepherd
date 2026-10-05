@@ -787,7 +787,7 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
 
     <div class="bb-honest">
       <strong>Answer as truthfully as you can.</strong> There are no right or wrong answers here — the goal is self-understanding, not self-judgment. The more honest you are, the better your list will be.<br><br>
-      You can <strong>change any answer</strong> at any point during the assessment, and you can <strong>retake it up to 7 times today</strong> with different answers to explore different lists.
+      You can <strong>change any answer</strong> at any point during the assessment, and you can <strong>regenerate your list up to 9 times</strong> any time during your full year of access, with different answers to explore different lists.
     </div>
 
     <button class="bb-btn" onclick="startQuestionnaire()">I'm ready — let's begin →</button>
@@ -822,7 +822,7 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
           <li>Fit scores across 5 dimensions</li>
           <li>Regret Risk Score per school</li>
           <li>Student Archetype Profile</li>
-          <li>Up to 7 regenerations</li>
+          <li>Up to 9 regenerations — use anytime over your year of access</li>
           <li>Full access for a year — come back anytime</li>
           <li>Priority support</li>
         </ul>
@@ -1049,6 +1049,15 @@ const STRIPE = {
   family:  'https://buy.stripe.com/fZu6oGeJYgiBaQOdhHgYU05', // $49 Family Pack
   monthly: ''  // alias
 };
+
+// Must match MAX_GENERATIONS in lib/purchaseAuth.js -- the real, server-
+// enforced lifetime cap per purchase (1 initial list + this many minus 1
+// regenerations), usable any time across the full year of access. NOT a
+// daily allowance -- every "X today"/"daily limit" bit of UI copy that used
+// to exist here was simply wrong (see the 2026-10-05 doc entry) and has
+// been rewritten to reference this constant instead of a hardcoded number,
+// so the two can never drift apart again like they just did.
+const CLIENT_MAX_GENERATIONS = 10;
 
 // How long the legacy, unverified cs_paid flag alone (no purchase token)
 // is allowed to bypass the paywall -- this matters only for paths that
@@ -2684,7 +2693,7 @@ function startWelcomeFlow() {
     removeTyping();
     addBubble(`👋 <strong>Welcome to <strong style="color:inherit">College</strong><em style="color:#1a7fd4;font-style:normal">Shepherd</em></strong>!<br><br>
 I'll ask you <strong>50+ specialized questions</strong> about your academics, interests, goals, and budget — then build a personalized top-10 college list just for you. You can <strong>skip any question</strong> you're not ready for and come back to it anytime — there are no wrong answers.<br><br>
-You can <strong>tap ✏️ on any answer</strong> to edit it at any time, or click <strong>Edit My Answers</strong> above to review everything. You get <strong>7 regenerations today</strong> — so answer honestly and adjust freely.`);
+You can <strong>tap ✏️ on any answer</strong> to edit it at any time, or click <strong>Edit My Answers</strong> above to review everything. You get <strong>${CLIENT_MAX_GENERATIONS - 1} regenerations to use anytime over your full year of access</strong> — so answer honestly and adjust freely.`);
     setTimeout(() => askQuestion(0), 400);
   }, 600);
 }
@@ -2700,7 +2709,7 @@ function askQuestion(idx) {
     showTyping();
     setTimeout(() => {
       removeTyping();
-      addBubble(`🎯 <strong>You're halfway there!</strong> Reminder — tap ✏️ on any bubble to edit an answer, or click <strong>Edit My Answers</strong> above. You can regenerate up to 7 times today.`);
+      addBubble(`🎯 <strong>You're halfway there!</strong> Reminder — tap ✏️ on any bubble to edit an answer, or click <strong>Edit My Answers</strong> above. You can regenerate your list up to ${CLIENT_MAX_GENERATIONS - 1} times, anytime over your full year of access.`);
       setTimeout(() => askQuestion(idx), 500);
     }, 600);
     return;
@@ -4352,9 +4361,17 @@ Return this exact JSON structure with exactly 10 colleges: 2 reach, 4 match, 3 s
     clearInterval(iv);
     ls.classList.remove('show');
 
-    // Handle rate limit (429)
+    // Handle rate limit (429) -- two genuinely different cases the server
+    // tells apart via data.capReached:
+    //  - capReached: a real purchase hit its lifetime generation cap. This
+    //    never resets -- there's no "come back tomorrow" here.
+    //  - rateLimited without capReached: the anonymous/no-token visitor
+    //    limit, which really is a rolling 24h window and does reset.
     if (res.status === 429 || data.rateLimited) {
-      showRateLimit(data.error || `You've used all ${data.limit || 7} generations for today.`, data.resetAt);
+      showRateLimit(
+        data.error || `You've used all ${data.limit || CLIENT_MAX_GENERATIONS} generations included with your purchase.`,
+        !!data.capReached
+      );
       return;
     }
 
@@ -4463,36 +4480,40 @@ function updateGenCounter(remaining) {
   if (!el) return;
   if (remaining <= 2) {
     el.style.color = '#c0392b';
-    el.innerHTML = `⚠ <strong>${remaining} generation${remaining !== 1 ? 's' : ''}</strong> remaining today`;
+    el.innerHTML = `⚠ <strong>${remaining} regeneration${remaining !== 1 ? 's' : ''}</strong> remaining`;
   } else {
     el.style.color = 'var(--tmu)';
-    el.innerHTML = `${remaining} of 7 generations remaining today`;
+    el.innerHTML = `${remaining} of ${CLIENT_MAX_GENERATIONS - 1} regenerations remaining`;
   }
   el.style.display = 'block';
 }
 
-function showRateLimit(msg, resetAt) {
+// capReached: true for a real purchase that hit its lifetime generation cap
+// (never resets -- see MAX_GENERATIONS in lib/purchaseAuth.js); false/
+// undefined for the anonymous/no-token visitor limit, which really is a
+// rolling 24h window and does reset. These get genuinely different copy --
+// conflating them (as this used to) is exactly what caused the "I thought
+// this was 7 a day" confusion on 2026-10-05.
+function showRateLimit(msg, capReached) {
   document.getElementById('loadscr').classList.remove('show');
   document.getElementById('chatbox').style.display = 'flex';
 
-  let resetMsg = '';
-  if (resetAt) {
-    const hoursLeft = Math.ceil((resetAt - Date.now()) / 3600000);
-    const minsLeft  = Math.ceil((resetAt - Date.now()) / 60000);
-    resetMsg = hoursLeft > 1
-      ? `Your limit resets in <strong>${hoursLeft} hours</strong>.`
-      : `Your limit resets in <strong>${minsLeft} minutes</strong>.`;
-  }
-
-  addBubble(`
+  const body = capReached ? `
+    <strong>You've used all your generations.</strong><br><br>
+    ${msg}<br><br>
+    <div style="background:var(--goldwash);border-radius:8px;padding:10px 13px;margin-top:8px;font-size:.95rem;line-height:1.6;border-left:3px solid var(--gold)">
+      💡 <strong>Your answers and list are saved</strong> — they're not going anywhere. This is a one-time total included with your purchase, not a daily limit, so it won't refresh on its own.<br><br>
+      Need another generation? <a href="mailto:hello@collegeshepherd.com" style="color:var(--gold);font-weight:600">Email hello@collegeshepherd.com →</a>
+    </div>` : `
     <strong>Daily limit reached.</strong><br><br>
     ${msg}<br><br>
-    ${resetMsg}<br><br>
     <div style="background:var(--goldwash);border-radius:8px;padding:10px 13px;margin-top:8px;font-size:.95rem;line-height:1.6;border-left:3px solid var(--gold)">
       💡 <strong>Your answers and list are saved.</strong> Come back tomorrow and click "Try again" — you won't lose any progress.<br><br>
-      Want unlimited access? <a href="#" onclick="document.getElementById('app').style.display='none';document.getElementById('paywall').style.display='flex';window.scrollTo({top:0,behavior:'smooth'})" style="color:var(--gold);font-weight:600">Upgrade your plan →</a>
+      Want to skip the wait? <a href="#" onclick="document.getElementById('app').style.display='none';document.getElementById('paywall').style.display='flex';window.scrollTo({top:0,behavior:'smooth'})" style="color:var(--gold);font-weight:600">Get full access →</a>
     </div>
-  `);
+  `;
+
+  addBubble(body);
   document.getElementById('chatfeed').scrollTop = 99999;
 
   // Update counter to show 0
