@@ -1972,6 +1972,11 @@ const QS = [
      'Depends on the subject'
    ]},
 
+  {id:278,ph:1,key:'class_style',
+   text:`<strong>Do you prefer big lecture classes or small discussion-based seminars?</strong><br><span class="note">This matters as much as overall school size — some large universities still run small honors seminars, and some small colleges lean heavily on big intro lectures.</span>`,
+   type:'quick',
+   opts:['Big lectures are fine — I like energy and some anonymity','I want mostly small, discussion-based classes','A mix of both is ideal','No strong preference']},
+
   // PHASE 2 — GOALS & MAJOR
   {id:10,ph:2,key:'major',
    text:`<strong>Do you have any idea what you might want to study?</strong><br><span class="note">Over 50% of students change their major — it's fine to say "no idea."</span>`,
@@ -2028,6 +2033,11 @@ const QS = [
    text:`<strong>Are you thinking about graduate school after your 4-year degree?</strong>`,
    type:'quick',
    opts:['Definitely — planning on grad / professional school','Probably — likely but not certain','Maybe — depends on my career path','Probably not — want to go straight to work','No / not sure']},
+
+  {id:279,ph:2,key:'research_importance',
+   text:`<strong>How important is it to do real undergraduate research — in a lab, with faculty, or independently?</strong><br><span class="note">Big research universities often offer more of this than small teaching-focused colleges — though some small colleges punch above their weight here too.</span>`,
+   type:'quick',
+   opts:['Very important — I want to do real research as an undergrad','Somewhat — I\'d like the option if it comes up','Not really — more interested in the classroom experience','Not sure what this means yet']},
 
   // PHASE 3 — CAMPUS LIFE
   {id:20,ph:3,key:'campus_size',
@@ -2124,6 +2134,11 @@ const QS = [
    text:`<strong>What do you want to do on a typical weekend at college?</strong>`,
    type:'quick',
    opts:['Go out — parties, social scene, nightlife','Cheer at games and campus events','Explore the city — restaurants, concerts, culture','Outdoor stuff — hiking, skiing, nature','Low-key — movies, friends, campus hangouts','A mix of all of the above']},
+
+  {id:280,ph:3,key:'extracurricular_interest',
+   text:`<strong>Outside of sports and Greek life, what kind of extracurricular involvement excites you?</strong><br><span class="note">Select everything that sounds like you.</span>`,
+   type:'multi',
+   opts:['Student government or leadership','Performing arts (theater, dance, a cappella)','Student journalism, publications, or media','Volunteering and community service','Cultural or affinity student organizations','Entrepreneurship clubs or startup incubators','Outdoor/recreation clubs (hiking, climbing, skiing)','Debate, Model UN, or academic competition teams','Religious or faith-based student groups','Honestly not sure yet / open to anything']},
 
   // PHASE 4 — IDENTITY & BELONGING
   {id:32,ph:4,key:'diversity',
@@ -2240,6 +2255,11 @@ const QS = [
    text:`<strong>How important are internship opportunities and job placement stats?</strong>`,
    type:'quick',
    opts:['Extremely — I want to graduate with a job lined up','Very important — strong career services matters a lot','Somewhat — a factor but not the primary one','Not a major concern — I\'ll figure out the career side']},
+
+  {id:281,ph:8,key:'coop_importance',
+   text:`<strong>How important is a formal co-op program — paid, semester-long work experience built right into your degree?</strong><br><span class="note">Schools like Northeastern, Drexel, and Cincinnati are well-known for this; most colleges don\'t offer it at all.</span>`,
+   type:'quick',
+   opts:['Very important — I specifically want a co-op program','Interested if a strong option is available','Not a priority — I\'ll find internships on my own','Not sure what this means yet']},
 
   // PHASE 9 — FINAL
   {id:49,ph:9,key:'biggest_fear',
