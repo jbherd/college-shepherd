@@ -188,31 +188,101 @@ module.exports = async function handler(req, res) {
 
     console.log("START - prompt chars:", prompt.length, "max_tokens:", max_tokens, "authed:", !!purchase);
 
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 170000);
+    // Does `raw` parse as the college-list JSON app.html expects, once the
+    // same cleanup app.html's own client-side repair applies (strip markdown
+    // fences, drop trailing commas, drop stray apostrophes inside strings)?
+    // Mirrors the client's repair steps in app.html's doGenerate() so
+    // "this needed repair-step N to parse" isn't flagged as a server-side
+    // failure when the client would have fixed it too; this only catches
+    // output the client could NOT have recovered from.
+    function looksLikeUsableCollegeJSON(raw) {
+        if (!raw) return false;
+        try {
+            let fixed = raw.trim()
+                .replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/i, '').trim()
+                .replace(/,\s*([}\]])/g, '$1')
+                .replace(/"([^"\\\n]*)'([^"\\\n]*)"/g, '"$1$2"');
+            const parsed = JSON.parse(fixed);
+            return !!(parsed && Array.isArray(parsed.colleges) && parsed.colleges.length > 0);
+        } catch (e) {
+            return false;
+        }
+    }
+
+    // One call to the Anthropic API, bounded by its own timeout. Returns
+    // either { ok:true, text } or { ok:false, status, error }.
+    async function callAnthropicOnce(timeoutMs) {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), timeoutMs);
+        try {
+            const r = await fetch("https://api.anthropic.com/v1/messages", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "x-api-key": apiKey,
+                    "anthropic-version": "2023-06-01"
+                },
+                body: JSON.stringify({
+                    model: "claude-haiku-4-5-20251001",
+                    max_tokens,
+                    messages: [{ role: "user", content: prompt }]
+                }),
+                signal: controller.signal
+            });
+            clearTimeout(timeout);
+            const d = await r.json();
+            if (!r.ok) return { ok: false, status: r.status, error: d.error?.message || "Anthropic error" };
+            return { ok: true, text: d.content?.[0]?.text || "" };
+        } catch (err) {
+            clearTimeout(timeout);
+            return { ok: false, status: 500, error: err.message === "This operation was aborted" ? "Generation timed out. Please try again." : err.message };
+        }
+    }
 
     try {
-        console.log("Calling Anthropic...");
-        const r = await fetch("https://api.anthropic.com/v1/messages", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "x-api-key": apiKey,
-                "anthropic-version": "2023-06-01"
-            },
-            body: JSON.stringify({
-                model: "claude-haiku-4-5-20251001",
-                max_tokens,
-                messages: [{ role: "user", content: prompt }]
-            }),
-            signal: controller.signal
-        });
-        clearTimeout(timeout);
-        console.log("Anthropic responded, status:", r.status);
-        const d = await r.json();
-        if (!r.ok) return res.status(r.status).json({ error: d.error?.message || "Anthropic error" });
-        const text = d.content?.[0]?.text || "";
-        console.log("Response text length:", text.length);
+        // Claude occasionally returns text that isn't valid (or repairable)
+        // JSON -- stray commentary, a truncated object, a smart quote where
+        // a straight one belongs -- and until now that went straight back
+        // to the browser as an opaque "Generation failed" error, costing
+        // the user one of their paid generations for a response nobody
+        // could read. Since this is non-deterministic model output, a
+        // second attempt is very likely to come back clean, so retry once
+        // in-process (still counted as ONE generation against the user's
+        // cap, since the cap was already checked/consumed above) before
+        // giving up and surfacing an error. Two attempts at 85s each keeps
+        // the worst case under vercel.json's 180s maxDuration for api/*.js.
+        const MAX_ATTEMPTS = 2;
+        const PER_ATTEMPT_TIMEOUT_MS = 85000;
+        let text = "";
+        let lastError = null;
+        let lastStatus = 500;
+        let usable = false;
+
+        for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+            console.log(`Calling Anthropic (attempt ${attempt}/${MAX_ATTEMPTS})...`);
+            const result = await callAnthropicOnce(PER_ATTEMPT_TIMEOUT_MS);
+            if (!result.ok) {
+                lastError = result.error;
+                lastStatus = result.status;
+                console.error(`generate.js: attempt ${attempt} failed:`, result.error);
+                continue;
+            }
+            text = result.text;
+            console.log("Response text length:", text.length);
+            usable = looksLikeUsableCollegeJSON(text);
+            if (usable) break;
+            lastError = "The model's response could not be read as a valid list.";
+            console.error(
+                `generate.js: attempt ${attempt} returned unparseable JSON (length ${text.length}). First 300 chars:`,
+                text.slice(0, 300)
+            );
+        }
+
+        if (!usable) {
+            return res.status(lastStatus >= 400 && lastStatus < 600 ? lastStatus : 502).json({
+                error: lastError || "Generation failed - please try again.",
+            });
+        }
 
         const responseBody = { text, limit: MAX_GENERATIONS };
 
@@ -238,7 +308,6 @@ module.exports = async function handler(req, res) {
 
         return res.status(200).json(responseBody);
     } catch (err) {
-        clearTimeout(timeout);
         console.error("Error:", err.message);
         return res.status(500).json({ error: err.message === "This operation was aborted" ? "Generation timed out. Please try again." : err.message });
     }
