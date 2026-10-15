@@ -1051,12 +1051,19 @@ const STRIPE = {
 };
 
 // Must match MAX_GENERATIONS in lib/purchaseAuth.js -- the real, server-
-// enforced lifetime cap per purchase (1 initial list + this many minus 1
-// regenerations), usable any time across the full year of access. NOT a
-// daily allowance -- every "X today"/"daily limit" bit of UI copy that used
-// to exist here was simply wrong (see the 2026-10-05 doc entry) and has
-// been rewritten to reference this constant instead of a hardcoded number,
-// so the two can never drift apart again like they just did.
+// enforced lifetime cap (1 initial list + this many minus 1 regenerations),
+// usable any time across the full year of access. NOT a daily allowance --
+// every "X today"/"daily limit" bit of UI copy that used to exist here was
+// simply wrong (see the 2026-10-05 doc entry) and has been rewritten to
+// reference this constant instead of a hardcoded number, so the two can
+// never drift apart again like they just did.
+//
+// As of 2026-10-15 this is PER NAMED PROFILE, not per purchase -- a parent
+// and kids sharing one purchase (or one person testing under more than one
+// name) each get their own full allowance instead of draining one shared
+// pool of 10 between everyone on the device (see api/generate.js). Up to
+// MAX_PROFILES_PER_PURCHASE (lib/purchaseAuth.js) profiles can do this on
+// one purchase.
 const CLIENT_MAX_GENERATIONS = 10;
 
 // How long the legacy, unverified cs_paid flag alone (no purchase token)
@@ -1090,31 +1097,21 @@ function getDevToken() {
   try { return localStorage.getItem('cs_dev_token') || ''; } catch(e) { return ''; }
 }
 
-// Decodes the generationsUsed count embedded in the current purchase
-// token, purely for display. This never checks the signature -- real
-// enforcement is server-side in api/generate.js and can't be spoofed from
-// here -- it just reads the plain-text count the server already put in
-// the token, so a "where do I stand" counter can show up anywhere in the
-// UI (the profile picker, a "welcome back" banner, a cached results view),
-// not only right after a live generate() response, which was the only
-// place it showed before. Returns null if there's no purchase token, or
-// it's unreadable (dev-token access, anonymous/legacy path, or a
-// malformed token) -- callers should hide the counter in that case.
-function base64urlDecode(str) {
-  str = str.replace(/-/g, '+').replace(/_/g, '/');
-  while (str.length % 4) str += '=';
-  return atob(str);
-}
-function getGenerationsRemaining() {
-  const token = getPurchaseToken();
-  if (!token) return null;
-  try {
-    const parts = base64urlDecode(token).split('.');
-    if (parts.length !== 4) return null;
-    const used = parseInt(parts[2], 10);
-    if (Number.isNaN(used)) return null;
-    return Math.max(0, CLIENT_MAX_GENERATIONS - used);
-  } catch(e) { return null; }
+// As of 2026-10-15, generations are capped PER NAMED PROFILE, not shared
+// across every profile on one purchase (see MAX_GENERATIONS in
+// lib/purchaseAuth.js and the per-profile cap in api/generate.js) -- a
+// real customer's family all sharing one pool of 10 total was exhausting
+// it after only a couple of real uses. So "how many are left" can no
+// longer be decoded from the one global purchase token; it's stored per
+// profile instead (see profileDataKey() below) and set from the server's
+// authoritative `remaining` after each /api/generate call. Returns null
+// (hide the counter) if this profile has never successfully generated
+// yet on this device, so there's nothing real to show.
+function getProfileGenerationsRemaining(profileId) {
+  if (!profileId) return null;
+  const data = getProfileData(profileId);
+  if (!data || typeof data.genRemaining !== 'number') return null;
+  return data.genRemaining;
 }
 
 // ─────────────────────────────────────────────
@@ -2293,7 +2290,8 @@ let activeProfileId = null; // which saved slot the live session currently write
 
 const S = {
   qi:0, answers:{}, skipped:[], visible:[], multi:[],
-  listGenerated:false, lastResult:null, awaitingGeneration:false
+  listGenerated:false, lastResult:null, awaitingGeneration:false,
+  genRemaining:null // this profile's own "regenerations left" -- per-profile now, not shared (see getProfileGenerationsRemaining())
 };
 
 function slugifyName(name) {
@@ -2333,6 +2331,7 @@ function switchToProfile(id) {
   S.qi = data.qi || 0;
   S.lastResult = data.lastResult || null;
   S.listGenerated = !!data.listGenerated;
+  S.genRemaining = (typeof data.genRemaining === 'number') ? data.genRemaining : null;
   buildVisible();
   const visibleIds = new Set(S.visible.map(q => q.id));
   S.skipped = S.skipped.filter(sid => visibleIds.has(sid));
@@ -2343,7 +2342,7 @@ function switchToProfile(id) {
 // question is answered, saveSession() gives it a fresh slot of its own.
 function startNewProfile() {
   activeProfileId = null;
-  Object.assign(S, {qi:0, answers:{}, skipped:[], visible:[], multi:[], listGenerated:false, lastResult:null, awaitingGeneration:false});
+  Object.assign(S, {qi:0, answers:{}, skipped:[], visible:[], multi:[], listGenerated:false, lastResult:null, awaitingGeneration:false, genRemaining:null});
   buildVisible();
 }
 
@@ -2366,7 +2365,8 @@ function saveSession() {
       answers: S.answers,
       skipped: S.skipped,
       lastResult: S.lastResult,
-      listGenerated: S.listGenerated
+      listGenerated: S.listGenerated,
+      genRemaining: S.genRemaining
     }));
     // Keep the profile's index entry (name/timestamp/status) current
     const list = getProfiles();
@@ -2636,8 +2636,9 @@ function enterProfile(id) {
   switchToProfile(id);
   // Show "where am I" the moment this profile's screen appears, not only
   // after a live generate() call -- fixes the counter going blank/stale
-  // when just viewing a previously-generated list from cache.
-  updateGenCounter(getGenerationsRemaining());
+  // when just viewing a previously-generated list from cache. Per-profile
+  // now, not shared -- see getProfileGenerationsRemaining().
+  updateGenCounter(getProfileGenerationsRemaining(id));
   if (S.listGenerated && S.lastResult) {
     renderResults(S.lastResult);
     return;
@@ -2657,10 +2658,9 @@ function enterProfile(id) {
 function showProfileBanner(profile) {
   const qrz = document.getElementById('qrzone');
   qrz.innerHTML = '';
-  // The generation cap is shared across every profile on one purchase (see
-  // getGenerationsRemaining()), so show it right on the welcome-back screen
-  // -- before picking a name -- not only after generating.
-  updateGenCounter(getGenerationsRemaining());
+  // This profile's own generation count (see getProfileGenerationsRemaining())
+  // -- show it right on the welcome-back screen, not only after generating.
+  updateGenCounter(getProfileGenerationsRemaining(profile.id));
   const data = getProfileData(profile.id);
 
   if (data && data.listGenerated && data.lastResult) {
@@ -2700,16 +2700,19 @@ function showProfileBanner(profile) {
 function showProfileChooser(profiles) {
   const qrz = document.getElementById('qrzone');
   qrz.innerHTML = '';
-  // One purchase, one shared pool of regenerations across everyone on this
-  // device (see getGenerationsRemaining()) -- show it once, up front, so
-  // nobody picks a name without knowing how much is left for the family.
-  updateGenCounter(getGenerationsRemaining());
-  addBubble(`👋 Welcome back! <strong>Who's using CollegeShepherd today?</strong> <span style="opacity:.7;font-size:.85em">(Everyone shares the same pool of regenerations below.)</span>`);
+  // No single profile is "active" yet on this screen, so there's no one
+  // counter to show up front -- each person now has their OWN generation
+  // pool (see getProfileGenerationsRemaining()), not a shared one, so each
+  // button below shows that person's own remaining count instead.
+  updateGenCounter(null);
+  addBubble(`👋 Welcome back! <strong>Who's using CollegeShepherd today?</strong>`);
 
   profiles.slice().sort((a, b) => b.updatedAt - a.updatedAt).forEach(p => {
     const btn = document.createElement('button');
     btn.className = 'qr';
-    btn.textContent = p.listGenerated ? `📋 ${p.name} — list ready` : `▶ ${p.name} — in progress`;
+    const remaining = getProfileGenerationsRemaining(p.id);
+    const remainingLabel = (typeof remaining === 'number') ? ` (${remaining} of ${CLIENT_MAX_GENERATIONS - 1} regens left)` : '';
+    btn.textContent = (p.listGenerated ? `📋 ${p.name} — list ready` : `▶ ${p.name} — in progress`) + remainingLabel;
     btn.addEventListener('click', () => enterProfile(p.id));
     qrz.appendChild(btn);
   });
@@ -4378,6 +4381,11 @@ Return this exact JSON structure with exactly 10 colleges: 2 reach, 4 match, 3 s
     if (genToken) genHeaders['X-Purchase-Token'] = genToken;
     const genDevToken = getDevToken();
     if (genDevToken) genHeaders['X-Dev-Token'] = genDevToken;
+    // Tells the server WHICH named profile on this purchase is generating,
+    // so each person gets their own cap instead of sharing one pool (see
+    // the per-profile cap in api/generate.js and MAX_GENERATIONS in
+    // lib/purchaseAuth.js).
+    if (activeProfileId) genHeaders['X-Profile-Id'] = activeProfileId;
     res = await fetch('/api/generate', {
       method: 'POST',
       headers: genHeaders,
@@ -4430,9 +4438,13 @@ Return this exact JSON structure with exactly 10 colleges: 2 reach, 4 match, 3 s
       return;
     }
 
-    // Show remaining generations counter
+    // Show remaining generations counter. This is now THIS PROFILE's own
+    // count (see the per-profile cap in api/generate.js), so stash it into
+    // S too -- saveSession() below persists it to this profile's slot so
+    // it's still shown correctly on a later visit without another call.
     if (typeof data.remaining === 'number') {
       updateGenCounter(data.remaining);
+      S.genRemaining = data.remaining;
     }
     // Server bumps the generation count and returns a fresh signed token --
     // store it so the next request reports the right count/cap.
