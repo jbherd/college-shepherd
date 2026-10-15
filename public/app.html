@@ -1090,6 +1090,33 @@ function getDevToken() {
   try { return localStorage.getItem('cs_dev_token') || ''; } catch(e) { return ''; }
 }
 
+// Decodes the generationsUsed count embedded in the current purchase
+// token, purely for display. This never checks the signature -- real
+// enforcement is server-side in api/generate.js and can't be spoofed from
+// here -- it just reads the plain-text count the server already put in
+// the token, so a "where do I stand" counter can show up anywhere in the
+// UI (the profile picker, a "welcome back" banner, a cached results view),
+// not only right after a live generate() response, which was the only
+// place it showed before. Returns null if there's no purchase token, or
+// it's unreadable (dev-token access, anonymous/legacy path, or a
+// malformed token) -- callers should hide the counter in that case.
+function base64urlDecode(str) {
+  str = str.replace(/-/g, '+').replace(/_/g, '/');
+  while (str.length % 4) str += '=';
+  return atob(str);
+}
+function getGenerationsRemaining() {
+  const token = getPurchaseToken();
+  if (!token) return null;
+  try {
+    const parts = base64urlDecode(token).split('.');
+    if (parts.length !== 4) return null;
+    const used = parseInt(parts[2], 10);
+    if (Number.isNaN(used)) return null;
+    return Math.max(0, CLIENT_MAX_GENERATIONS - used);
+  } catch(e) { return null; }
+}
+
 // ─────────────────────────────────────────────
 // Personal access link -- a ?rt=<purchase token> URL a customer can save
 // (email it to themselves, bookmark it, text it to a parent's phone) to get
@@ -2607,6 +2634,10 @@ function init() {
 // Resumes or replays an existing profile's saved progress/result into view.
 function enterProfile(id) {
   switchToProfile(id);
+  // Show "where am I" the moment this profile's screen appears, not only
+  // after a live generate() call -- fixes the counter going blank/stale
+  // when just viewing a previously-generated list from cache.
+  updateGenCounter(getGenerationsRemaining());
   if (S.listGenerated && S.lastResult) {
     renderResults(S.lastResult);
     return;
@@ -2626,6 +2657,10 @@ function enterProfile(id) {
 function showProfileBanner(profile) {
   const qrz = document.getElementById('qrzone');
   qrz.innerHTML = '';
+  // The generation cap is shared across every profile on one purchase (see
+  // getGenerationsRemaining()), so show it right on the welcome-back screen
+  // -- before picking a name -- not only after generating.
+  updateGenCounter(getGenerationsRemaining());
   const data = getProfileData(profile.id);
 
   if (data && data.listGenerated && data.lastResult) {
@@ -2665,7 +2700,11 @@ function showProfileBanner(profile) {
 function showProfileChooser(profiles) {
   const qrz = document.getElementById('qrzone');
   qrz.innerHTML = '';
-  addBubble(`👋 Welcome back! <strong>Who's using CollegeShepherd today?</strong>`);
+  // One purchase, one shared pool of regenerations across everyone on this
+  // device (see getGenerationsRemaining()) -- show it once, up front, so
+  // nobody picks a name without knowing how much is left for the family.
+  updateGenCounter(getGenerationsRemaining());
+  addBubble(`👋 Welcome back! <strong>Who's using CollegeShepherd today?</strong> <span style="opacity:.7;font-size:.85em">(Everyone shares the same pool of regenerations below.)</span>`);
 
   profiles.slice().sort((a, b) => b.updatedAt - a.updatedAt).forEach(p => {
     const btn = document.createElement('button');
@@ -4478,6 +4517,10 @@ function showWaiting(attempt) {
 function updateGenCounter(remaining) {
   const el = document.getElementById('gencounter');
   if (!el) return;
+  if (remaining === null || typeof remaining !== 'number' || Number.isNaN(remaining)) {
+    el.style.display = 'none';
+    return;
+  }
   if (remaining <= 2) {
     el.style.color = '#c0392b';
     el.innerHTML = `⚠ <strong>${remaining} regeneration${remaining !== 1 ? 's' : ''}</strong> remaining`;
