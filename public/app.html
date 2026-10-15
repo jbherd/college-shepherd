@@ -2895,6 +2895,39 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
+  // ── ONE-TIME DEV TOKEN BOOTSTRAP — ?mint=<DEV_ACCESS_SECRET> ─────
+  // Solves the chicken-and-egg problem of getting a FIRST dev-access token
+  // onto a device that doesn't have one yet (after that, the existing
+  // &generate=true flow below lets a still-valid token refresh itself
+  // forever, with no secret needed). Visiting this URL once -- pasting the
+  // real DEV_ACCESS_SECRET value from the Vercel env var dashboard --
+  // mints a token via the existing POST /api/token "okBySecret" path and
+  // immediately redirects to the normal ?token=xxx handler below, which
+  // stores it in this browser's localStorage. The secret itself never
+  // touches any server code of ours beyond the existing /api/token
+  // endpoint that was already built to accept it this same way; it's
+  // never logged or stored here, only forwarded once in the POST body.
+  const mintSecret = urlParams.get('mint');
+  if (mintSecret) {
+    document.body.innerHTML = '<div style="min-height:100vh;background:#060d1a;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif"><div style="color:rgba(255,255,255,.4);font-size:.9rem">Setting up permanent access on this device...</div></div>';
+    try {
+      const resp = await fetch('/api/token', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ secret: mintSecret })
+      });
+      const data = await resp.json();
+      if (resp.ok && data.token) {
+        window.location.replace('/app.html?token=' + encodeURIComponent(data.token));
+        return;
+      }
+      document.body.innerHTML = '<div style="min-height:100vh;background:#060d1a;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;text-align:center;padding:2rem"><div style="color:#ff9999">That secret was rejected (' + (data.error || 'unknown error') + '). Double-check the DEV_ACCESS_SECRET value in Vercel and try again.</div></div>';
+    } catch(e) {
+      document.body.innerHTML = '<div style="min-height:100vh;background:#060d1a;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;text-align:center;padding:2rem"><div style="color:#ff9999">Could not reach the server. Try again in a moment.</div></div>';
+    }
+    return;
+  }
+
   // ── DEV ACCESS TOKEN — ?token=xxx ─────────────────────────
   // Replaces the old hardcoded '?access=shepherd2026' bypass, which was a
   // plaintext word shipped in this file — anyone who viewed page source got
@@ -2963,7 +2996,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </button>
               </div>
               <div style="font-size:.78rem;color:rgba(255,255,255,.25);line-height:1.6">
-                This link is good for 90 days.<br>
+                This link is good for 2 years, and refreshes itself automatically every time you use it.<br>
                 Add <strong style="color:rgba(255,255,255,.5)">&amp;demo=true</strong> for an instant sample result, or <strong style="color:rgba(255,255,255,.5)">&amp;fill=bella</strong> to pre-fill a sample student.
               </div>
             </div>
