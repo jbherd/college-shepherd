@@ -876,7 +876,7 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
     <div class="progcard" id="progcard">
       <div class="progtop">
         <span class="progsec" id="progsec">Getting Started</span>
-        <span class="progct" id="progct">1 of ~46</span>
+        <span class="progct" id="progct">1 of ~50</span>
       </div>
       <div class="progbar"><div class="progfill" id="progfill" style="width:2%"></div></div>
       <div class="prog-bottom">
@@ -2421,7 +2421,7 @@ function buildVisible() {
 // PROGRESS
 // ─────────────────────────────────────────────
 function updateProgress(idx) {
-  const total = S.visible.length || 46;
+  const total = S.visible.length || 50;
   const pct = Math.min(Math.round((idx / total) * 100), 98);
   document.getElementById('progfill').style.width = pct + '%';
   document.getElementById('progct').textContent = (idx + 1) + ' of ~' + total;
@@ -2878,12 +2878,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const bb = document.getElementById('beforebegin');
     const app = document.getElementById('app');
     if (pw) pw.style.display = 'none';
-    if (app) app.style.display = 'block';
     if (bb && !hasSavedProfile()) {
       bb.style.display = 'flex';
       window.scrollTo({top:0,behavior:'smooth'});
       return;
     }
+    if (app) app.style.display = 'block'; // only once init() will run -- otherwise an empty question box shows
     setTimeout(() => { init(); window.scrollTo({top:0,behavior:'smooth'}); }, 100);
     return;
   }
@@ -3093,12 +3093,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       // Plain ?token=xxx — real full questionnaire, paywall skipped
       if (pw) pw.style.display = 'none';
-      if (app) app.style.display = 'block';
       if (bb) {
         bb.style.display = 'flex';
         window.scrollTo({top:0,behavior:'smooth'});
         return;
       }
+      if (app) app.style.display = 'block'; // only once init() will run -- otherwise an empty question box shows
       setTimeout(() => { init(); window.scrollTo({top:0,behavior:'smooth'}); }, 100);
       return;
     } else {
@@ -3155,7 +3155,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (vmsg2) vmsg2.remove();
     if (verified) {
       if (pw) pw.style.display = 'none';
-      if (app) app.style.display = 'block';
       showAccessLinkBanner();
       autoOfferAccessLink();
       if (bb && !hasSavedProfile()) {
@@ -3163,6 +3162,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         window.scrollTo({top:0,behavior:'smooth'});
         return;
       }
+      if (app) app.style.display = 'block'; // only once init() will run -- otherwise an empty question box shows
       setTimeout(() => { init(); window.scrollTo({top:0,behavior:'smooth'}); }, 100);
       return;
     }
@@ -3178,12 +3178,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const bb = document.getElementById('beforebegin');
     const app = document.getElementById('app');
     if (pw) pw.style.display = 'none';
-    if (app) app.style.display = 'block';
     if (bb && !hasSavedProfile()) {
       bb.style.display = 'flex';
       window.scrollTo({top:0,behavior:'smooth'});
       return;
     }
+    if (app) app.style.display = 'block'; // only once init() will run -- otherwise an empty question box shows
     setTimeout(() => { init(); window.scrollTo({top:0,behavior:'smooth'}); }, 100);
     return;
   }
