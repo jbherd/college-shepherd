@@ -582,6 +582,7 @@ header{background:var(--navy);height:66px;display:flex;align-items:center;justif
 .np-item strong{color:var(--navy)}
 .np-total{background:rgba(26,127,212,.08);color:var(--navy);font-weight:600}
 .netprice-disclaimer{font-size:.95rem;color:var(--tmu);margin-top:6px;font-style:italic}
+.netprice-mythbuster{font-size:.92rem;color:#1a5c2a;background:#eafbee;border:1px solid #bfe6c8;border-radius:7px;padding:.5rem .7rem;margin-top:.5rem;line-height:1.4}
 
 
 /* ── WUE BADGE ───────────────────────────────────────────── */
@@ -4749,6 +4750,19 @@ function renderResults(data) {
                 if (!np || !np.estimated) return '';
                 const sav = np.savings ? '<span class="netprice-savings">Save '+np.savings+'</span>' : '';
                 const ins = np.inStateSavings ? ' <span style="font-size:.95rem;color:#1a5c2a;font-weight:600">(in-state rate)</span>' : '';
+                // "Affordability myth-buster": elite private colleges with generous
+                // need-based aid can end up cheaper than public in-state options for
+                // many families -- the exact phenomenon covered in the WSJ's Nov 2026
+                // piece on Williams/Swarthmore/Grinnell (see college-knowledge-base-plan.md,
+                // "Affordability myth-buster" section, 2026-11-07). Detected generically
+                // from the real numbers already shown here, not tied to specific school names.
+                const parseMoney = (s) => { const m = /([\d,]+)/.exec(s||''); return m ? parseInt(m[1].replace(/,/g,''),10) : null; };
+                const stickerNum = parseMoney(np.sticker);
+                const estimatedNum = parseMoney(np.estimated);
+                const isAidBargain = stickerNum != null && estimatedNum != null && stickerNum >= 45000 && estimatedNum <= stickerNum * 0.5;
+                const bargainNote = isAidBargain
+                  ? '<div class="netprice-mythbuster">💡 <strong>Don\'t rule this one out on sticker price.</strong> Schools with strong need-based aid can end up cheaper than public in-state options once your real financial-aid package is factored in — this is one of those cases.</div>'
+                  : '';
                 return '<div class="netprice-wrap">'
                   +'<div class="netprice-label">Estimated Cost After Aid <span style="font-size:.65rem;font-weight:400;color:rgba(255,255,255,.35)">— verify with college Net Price Calculator</span></div>'
                   +'<div class="netprice-amount">'+np.estimated+ins+'</div>'
@@ -4760,6 +4774,7 @@ function renderResults(data) {
   +(np.totalCOA ? '<span class="np-item np-total">Total COA: <strong>'+np.totalCOA+'</strong></span>' : '')
   +'</div>' : '')
 +('<div class="netprice-disclaimer">Based on '+(np.basis||'your income bracket'))+((np.basis&&np.basis.toLowerCase().includes('wue'))?'<span class="wue-badge">WUE Rate</span>':'')+'. Estimates vary — file FAFSA for official figures.</div>'
+                  +bargainNote
                   +'</div>';
               })()}
 
@@ -4927,6 +4942,15 @@ function applyMatchData(matchByName, colleges) {
     }
     if (real.tuitionOutOfState != null) enriched.netPrice.sticker = '$' + real.tuitionOutOfState.toLocaleString() + '/yr';
     enriched.netPrice.basis = 'College Scorecard (federal data) · income-bracket estimate';
+    // Recompute savings from these verified numbers rather than leaving the
+    // AI's original (pre-enrichment) guess in place -- otherwise the "Save $X"
+    // badge could disagree with the real sticker/estimated figures shown right
+    // next to it. Found 2026-11-07 while adding the affordability myth-buster
+    // note above; see college-knowledge-base-plan.md for detail.
+    if (real.estimatedNetPrice != null && real.tuitionOutOfState != null) {
+      const diff = real.tuitionOutOfState - real.estimatedNetPrice;
+      enriched.netPrice.savings = diff > 0 ? ('$' + Math.round(diff).toLocaleString() + '/yr') : null;
+    }
     if (real.medianEarnings10yr != null) {
       enriched.rankings = enriched.rankings || {};
       enriched.rankings.payScale = '$' + real.medianEarnings10yr.toLocaleString() + ' median (10yr)';
