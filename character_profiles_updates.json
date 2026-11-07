@@ -10133,7 +10133,16 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22",
-    "institution_type": "traditional"
+    "institution_type": "traditional",
+    "institution_status": "closed",
+    "status_detail": "Announced Nov 4, 2025 that it will permanently close after the 2025-2026 academic year, citing financial distress; held its final commencement May 8, 2026. Not accepting new students.",
+    "status_verified_date": "2026-11-02",
+    "status_next_check": "2027-05-02",
+    "status_sources": [
+      "CBS News Chicago",
+      "WGN-TV",
+      "The College Investor (2026 closures tracker)"
+    ]
   },
   "204857": {
     "profile_type": "researched",
@@ -15624,7 +15633,15 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22",
-    "institution_type": "traditional"
+    "institution_type": "traditional",
+    "institution_status": "closed",
+    "status_detail": "Announced Nov 13, 2025 that it will permanently close; held its final commencement May 16, 2026. Distinct from the unaffiliated Sterling College in Sterling, KS (Scorecard id 155937), which is unaffected and remains open.",
+    "status_verified_date": "2026-11-02",
+    "status_next_check": "2027-05-02",
+    "status_sources": [
+      "The College Investor (2026 closures tracker)",
+      "VTDigger"
+    ]
   },
   "147244": {
     "profile_type": "researched",
@@ -15964,13 +15981,14 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22",
-    "institution_status": "closing",
-    "status_detail": "Announced June 30, 2025 that it will close at the conclusion of the 2025-2026 academic year. Not accepting new students.",
-    "status_verified_date": "2026-09-23",
-    "status_next_check": "2027-03-23",
+    "institution_status": "closed",
+    "status_detail": "Closed permanently at the conclusion of the 2025-2026 academic year as announced June 30, 2025; held its final commencement (441 graduates) in 2026.",
+    "status_verified_date": "2026-11-02",
+    "status_next_check": "2027-05-02",
     "status_sources": [
       "Siena Heights University official announcement",
-      "CBS Detroit"
+      "CBS Detroit",
+      "The College Investor (2026 closures tracker)"
     ],
     "institution_type": "traditional"
   },
@@ -17390,7 +17408,15 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22",
-    "institution_type": "traditional"
+    "institution_type": "traditional",
+    "institution_status": "closed",
+    "status_detail": "Announced Feb 11, 2026 that it will close at the conclusion of the spring 2026 semester, citing declining enrollment and financial strain.",
+    "status_verified_date": "2026-11-02",
+    "status_next_check": "2027-05-02",
+    "status_sources": [
+      "The College Investor (2026 closures tracker)",
+      "Toledo Blade"
+    ]
   },
   "159939": {
     "profile_type": "researched",
@@ -19063,12 +19089,13 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22",
-    "institution_status": "merging",
-    "status_detail": "Merging into Northeastern University; agreement since May 2024, NY State and accreditor approval complete, final federal financial-aid approval targeted for summer 2026. Will be renamed 'Northeastern -- New York City.' Not a closure -- a going-concern merger.",
-    "status_verified_date": "2026-09-23",
-    "status_next_check": "2027-03-23",
+    "institution_status": "closed",
+    "status_detail": "Merger into Northeastern University finalized as of July 2026; the college now operates as 'Northeastern University -- New York City' rather than independently admitting students as Marymount Manhattan College. Flagged here as effectively closed for matching purposes even though this was a going-concern merger, not a financial failure -- a student who wants this campus should be matched to Northeastern University's own Scorecard entry going forward.",
+    "status_verified_date": "2026-11-02",
+    "status_next_check": "2027-05-02",
     "status_sources": [
-      "Boston Globe"
+      "Boston Globe",
+      "University Business"
     ],
     "institution_type": "traditional"
   },
@@ -25207,7 +25234,15 @@
       "applied via scheduled batch on 2026-09-22"
     ],
     "last_updated": "2026-09-22",
-    "institution_type": "traditional"
+    "institution_type": "traditional",
+    "institution_status": "closed",
+    "status_detail": "Announced Feb 7, 2026 that it will close at the conclusion of the 2025-2026 academic year, citing financial sustainability. Not accepting new students.",
+    "status_verified_date": "2026-11-02",
+    "status_next_check": "2027-05-02",
+    "status_sources": [
+      "The College Investor (2026 closures tracker)",
+      "Pasadena Star-News"
+    ]
   },
   "461847": {
     "profile_type": "researched",
